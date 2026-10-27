@@ -3,7 +3,7 @@ module.exports = {
   name: 'Königskerze', botanisch: 'Verbascum densiflorum',
   familie: 'Braunwurzgewächse (Scrophulariaceae)', artikel: 'in der Königskerze',
   volksnamen: 'Großblütige Königskerze, Wollblume, Himmelbrand, Wetterkerze, Kerzenkraut, Fackelkraut',
-  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gekerbt', blattlaenge: 200, blattbreite: 60, bluete: 'aehre', farbe: '#f3d01d', bluetengroesse: 220, einzelbluete: 'fuenf', wurzel: 'pfahl', frucht: 'kapsel', hoehe: 700, knoten: 5,
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gekerbt', blattlaenge: 170, blattbreite: 54, bluete: 'aehre', farbe: '#f3d01d', bluetengroesse: 200, einzelbluete: 'fuenf', wurzel: 'pfahl', frucht: 'kapsel', hoehe: 540, knoten: 5,
     detailbluete: 'fuenf', labels: { bluete: 'dichte Ähre aus gelben Blüten', blatt: 'Blatt: groß, dicht weißfilzig', stengel: 'Stängel: filzig, bis 2 m hoch', wurzel: 'Pfahlwurzel' } },
   intro: [
     'Die Königskerze ist die stattlichste Pflanze in diesem Buch: Im zweiten Jahr schiebt sie einen bis zu zwei Meter hohen Blütenstand empor, der von unten nach oben über Wochen mit leuchtend gelben Blüten besetzt ist – wie eine brennende Kerze.',

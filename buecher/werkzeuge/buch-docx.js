@@ -137,7 +137,7 @@ function chapter(pf) {
   if (pf.erkennen) {
     out.push(h2('Erkennen'));
     if (pf.erkennenText) out.push(p(pf.erkennenText));
-    for (const [t, x] of pf.erkennen) { out.push(h3(t)); (Array.isArray(x) ? x : [x]).forEach((s) => out.push(p(s))); }
+    for (const [t, x] of pf.erkennen) { out.push(h3(t)); out.push(...renderBlocks(Array.isArray(x) ? x : [x])); }
     if (pf.vergleich) { out.push(box(pf.vergleich.titel, [pf.vergleich.text])); out.push(gap()); out.push(table(pf.vergleich.kopf, pf.vergleich.zeilen, pf.vergleich.breiten || [2300, 3385, 3385])); out.push(gap()); }
   }
 
@@ -147,7 +147,7 @@ function chapter(pf) {
     (Array.isArray(v.text) ? v.text : [v.text]).forEach((t) => out.push(p(t)));
     if (v.tabelle) { out.push(table(['Pflanze', 'Ähnlichkeit', 'So unterscheidest du sie'], v.tabelle, [2700, 2700, 3670])); out.push(gap()); }
     if (v.warnung) { out.push(warnbox(v.warnung.titel, v.warnung.zeilen)); out.push(gap()); }
-    if (v.tipp) { out.push(box(v.tipp.titel, v.tipp.zeilen)); out.push(gap()); }
+    if (v.tipp) { out.push(typeof v.tipp === 'string' ? box('Tipp', [v.tipp]) : box(v.tipp.titel, v.tipp.zeilen)); out.push(gap()); }
   }
 
   if (pf.standort) { out.push(h2('Standort und Lebensraum')); pf.standort.forEach((t) => out.push(p(t))); }
@@ -156,7 +156,7 @@ function chapter(pf) {
   if (pf.sammeln) {
     const s = pf.sammeln;
     out.push(h2('Sammeln und Ernten'));
-    if (s.text) out.push(p(s.text));
+    if (s.text) (Array.isArray(s.text) ? s.text : [s.text]).forEach((t) => out.push(p(t)));
     if (s.tabelle) { out.push(table(['Pflanzenteil', 'Erntezeit', 'Worauf du achtest'], s.tabelle, [2300, 2600, 4170])); out.push(gap()); }
     if (s.kalender) {
       out.push(h3('Sammelkalender'));
