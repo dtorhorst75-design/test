@@ -8,12 +8,15 @@ const path = require('path');
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, ImageRun, Table, TableRow, TableCell,
   WidthType, ShadingType, BorderStyle, LevelFormat, PageBreak, Header, Footer, PageNumber, TableOfContents,
+  Bookmark, PageReference,
 } = require('docx');
 
 const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
 const GREEN = '3E5A2A', INK = '3B2F22', PALE = 'EEF3E4', WARN = 'FBEDE7', WARN_LINE = 'B5482F', SAND = 'F6EFDD';
 const FONT = 'Georgia';
 const CONTENT_W = 9070;
+const WICKEL = require(path.join(BAND, 'inhalt', 'wickel.js'));
+const THEMEN = require(path.join(BAND, 'inhalt', 'rezeptthemen.js'));
 const MONATE = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
 // ---------- Bausteine ----------
@@ -36,6 +39,20 @@ const pl = (text, run) => p(text, { align: AlignmentType.LEFT, run });
 const h1 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun(text)] });
 const h2 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(text)] });
 const h3 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun(text)] });
+// Rezepte und Anleitungen in Pflanzenkapiteln bekommen ein Lesezeichen und landen im Themenregister.
+let currentPf = null;
+const rezeptListe = [];
+const fehlendeThemen = [];
+function rh3(text) {
+  if (!currentPf) return h3(text);
+  const thema = THEMEN.themen[text];
+  if (thema === undefined) fehlendeThemen.push(`${currentPf.id}: ${text}`);
+  if (!thema) return h3(text);
+  const id = `r${rezeptListe.length + 1}`;
+  rezeptListe.push({ titel: text, pflanze: currentPf.name, id, themen: Array.isArray(thema) ? thema : [thema] });
+  return new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new Bookmark({ id, children: [new TextRun(text)] })] });
+}
+const seite = (id) => ({ seite: id });
 const bullet = (text) => new Paragraph({ numbering: { reference: 'punkte', level: 0 }, children: runs(text), spacing: { after: 80, line: 290 } });
 let listCounter = 0;
 const numberedRefs = [];
@@ -59,7 +76,7 @@ function table(header, rows, widths, { size, center } = {}) {
       borders,
       shading: isHead ? { type: ShadingType.CLEAR, fill: GREEN, color: 'auto' } : undefined,
       margins: size ? { top: 40, bottom: 40, left: 40, right: 40 } : { top: 70, bottom: 70, left: 110, right: 110 },
-      children: [new Paragraph({ alignment: center && i > 0 ? AlignmentType.CENTER : AlignmentType.LEFT, children: runs(String(c), { ...(isHead ? { bold: true, color: 'FFFFFF' } : {}), ...(size ? { size } : {}) }), spacing: { after: 0, line: 260 } })],
+      children: [new Paragraph({ alignment: center && i > 0 ? AlignmentType.CENTER : AlignmentType.LEFT, children: c && c.seite ? [new TextRun({ text: 'S. ', size }), new PageReference(c.seite)] : runs(String(c), { ...(isHead ? { bold: true, color: 'FFFFFF' } : {}), ...(size ? { size } : {}) }), spacing: { after: 0, line: 260 } })],
     })),
   });
   return new Table({ width: { size: total, type: WidthType.DXA }, columnWidths: widths, rows: [mk(header, true), ...rows.map((r) => mk(r, false))] });
@@ -92,7 +109,7 @@ function renderBlocks(blocks) {
   for (const b of blocks) {
     if (typeof b === 'string') out.push(p(b));
     else if (b.h2) out.push(h2(b.h2));
-    else if (b.h3) out.push(h3(b.h3));
+    else if (b.h3) out.push(rh3(b.h3));
     else if (b.punkte) b.punkte.forEach((t) => out.push(bullet(t)));
     else if (b.schritte) out.push(...steps(b.schritte));
     else if (b.tabelle) { out.push(table(b.tabelle[0], b.tabelle.slice(1), b.breiten)); out.push(gap()); }
@@ -105,11 +122,11 @@ function renderBlocks(blocks) {
 
 // ---------- Pflanzenkapitel ----------
 function recipe(r) {
-  const out = [h3(r.titel)];
+  const out = [rh3(r.titel)];
   if (r.info) out.push(pl(`*${r.info}*`));
-  out.push(new Paragraph({ children: [new TextRun({ text: 'Zutaten', bold: true })], spacing: { after: 60 } }));
+  out.push(new Paragraph({ children: [new TextRun({ text: r.zutatenTitel || 'Zutaten', bold: true })], spacing: { after: 60 } }));
   r.zutaten.forEach((i) => out.push(bullet(i)));
-  out.push(new Paragraph({ children: [new TextRun({ text: 'Zubereitung', bold: true })], spacing: { before: 120, after: 60 } }));
+  out.push(new Paragraph({ children: [new TextRun({ text: r.schritteTitel || 'Zubereitung', bold: true })], spacing: { before: 120, after: 60 } }));
   out.push(...steps(r.schritte));
   if (r.tipp) out.push(p(`*Tipp: ${r.tipp}*`));
   return out;
@@ -117,7 +134,8 @@ function recipe(r) {
 
 function chapter(pf) {
   const out = [];
-  out.push(h1(pf.name));
+  currentPf = pf;
+  out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new Bookmark({ id: `p_${pf.id.replace(/-/g, '_')}`, children: [new TextRun(pf.name)] })] }));
   out.push(new Paragraph({ children: [new TextRun({ text: pf.botanisch, italics: true }), ...(pf.botanisch2 ? [new TextRun(' · '), ...runs(pf.botanisch2)] : [])], spacing: { after: 60 } }));
   out.push(pl(`Familie: ${pf.familie}`));
   if (pf.volksnamen) out.push(pl(`**Volksnamen:** ${pf.volksnamen}`));
@@ -197,11 +215,18 @@ function chapter(pf) {
     if (a.hinweise) { out.push(warnbox(a.hinweiseTitel || 'Wichtig bei der Anwendung', a.hinweise.map((t) => `- ${t}`))); out.push(gap()); }
   }
 
+  const wickel = WICKEL.proPflanze[pf.id];
+  if (wickel) {
+    out.push(h2('Wickel, Auflagen und Bäder'));
+    out.push(p(`*Wie man einen Wickel anlegt, steht ausführlich im Kapitel „${WICKEL.kapitel.titel}“ vorne im Buch. Dort findest du auch, wann du besser keinen Wickel machst.*`));
+    wickel.forEach((r) => out.push(...recipe({ zutatenTitel: 'Du brauchst', schritteTitel: 'So geht es', ...r })));
+  }
+
   if (pf.haushalt) {
     out.push(h2(pf.haushaltTitel || 'In Haushalt, Garten und Pflege'));
     for (const item of pf.haushalt) {
       if (item.rezept) out.push(...recipe(item.rezept));
-      else { out.push(h3(item[0])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
+      else { out.push(rh3(item[0])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
     }
   }
 
@@ -212,6 +237,7 @@ function chapter(pf) {
   if (pf.vorsicht) { out.push(warnbox('Vorsicht auf einen Blick', pf.vorsicht.map((t) => `- ${t}`))); out.push(gap()); }
 
   if (pf.quellen) { out.push(h3('Quellen zum Gegenprüfen')); pf.quellen.forEach((t) => out.push(bullet(t))); }
+  currentPf = null;
   return out;
 }
 
@@ -237,7 +263,9 @@ function build(outFile) {
   body.push(new TableOfContents('Inhalt', { hyperlink: true, headingStyleRange: '1-1' }));
   body.push(pl('*Das Inhaltsverzeichnis füllt Word beim Öffnen aus (Frage „Felder aktualisieren?“ mit Ja beantworten). Falls es leer bleibt: Rechtsklick darauf → „Felder aktualisieren“ → „Gesamtes Verzeichnis aktualisieren“.*', { size: 18 }));
 
-  for (const kap of rahmen.vorne) { body.push(h1(kap.titel)); body.push(...renderBlocks(kap.bloecke)); }
+  const vorne = [...rahmen.vorne];
+  vorne.splice(vorne.findIndex((k) => k.titel === WICKEL.nachKapitel) + 1, 0, WICKEL.kapitel);
+  for (const kap of vorne) { body.push(h1(kap.titel)); body.push(...renderBlocks(kap.bloecke)); }
 
   const saisons = [
     ['fruehling', 'Frühling', 'März bis Mai: junge Blätter, erste Blüten, Wurzeln vor dem Austrieb'],
@@ -266,16 +294,27 @@ function build(outFile) {
     return kalenderZeile(pf.name, [...haupt], [...neben].filter((m) => !haupt.has(m)));
   });
   body.push(table(['Pflanze', ...MONATE], rows, KAL_W, { size: 16, center: true }));
+  body.push(h1('Rezepte und Anwendungen nach Themen'));
+  body.push(p('Hier findest du alle Rezepte, Tees, Wickel und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
+  for (const thema of THEMEN.REIHENFOLGE) {
+    const liste = rezeptListe.filter((r) => r.themen.includes(thema)).sort((a, b) => a.titel.localeCompare(b.titel, 'de'));
+    if (!liste.length) continue;
+    body.push(h2(thema));
+    body.push(table(['Rezept oder Anwendung', 'Pflanze', 'Seite'], liste.map((r) => [r.titel, r.pflanze, seite(r.id)]), [5000, 2670, 1400], { size: 18 }));
+  }
+  if (fehlendeThemen.length) console.warn('Ohne Thema im Register:\n  ' + fehlendeThemen.join('\n  '));
+
   body.push(h1('Register'));
   body.push(p('Alle Pflanzen dieses Bandes alphabetisch, mit botanischem Namen und Volksnamen.'));
   const reg = [];
   pflanzen.forEach((pf) => {
-    reg.push([pf.name, `*${pf.botanisch}*`, `Kapitel ${pf.nr}`]);
-    reg.push([pf.botanisch.replace(/\s*\(.*$/, ''), pf.name, `Kapitel ${pf.nr}`]);
-    (pf.volksnamen || '').split(',').map((s) => s.trim()).filter(Boolean).forEach((v) => reg.push([v, pf.name, `Kapitel ${pf.nr}`]));
+    const s = seite(`p_${pf.id.replace(/-/g, '_')}`);
+    reg.push([pf.name, `*${pf.botanisch}*`, s]);
+    reg.push([pf.botanisch.replace(/\s*\(.*$/, ''), pf.name, s]);
+    (pf.volksnamen || '').split(',').map((v) => v.trim()).filter(Boolean).forEach((v) => reg.push([v, pf.name, s]));
   });
   reg.sort((a, b) => a[0].localeCompare(b[0], 'de'));
-  body.push(table(['Name', 'siehe', 'Kapitel'], reg.map(([a, b, c]) => [a.includes(' ') && /^[A-Z][a-z]+ [a-z]/.test(a) && !a.includes('*') ? `*${a}*` : a, b, c]), [3600, 3870, 1600], { size: 18 }));
+  body.push(table(['Name', 'siehe', 'Seite'], reg.map(([a, b, c]) => [a.includes(' ') && /^[A-Z][a-z]+ [a-z]/.test(a) && !a.includes('*') ? `*${a}*` : a, b, c]), [3600, 3870, 1600], { size: 18 }));
 
   const doc = new Document({
     features: { updateFields: true },
