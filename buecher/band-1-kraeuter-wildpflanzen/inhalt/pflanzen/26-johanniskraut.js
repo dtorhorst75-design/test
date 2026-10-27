@@ -1,0 +1,52 @@
+module.exports = {
+  nr: 26, id: 'johanniskraut', saison: 'sommer',
+  name: 'Johanniskraut', botanisch: 'Hypericum perforatum',
+  familie: 'Johanniskrautgewächse (Hypericaceae)', artikel: 'im Johanniskraut',
+  volksnamen: 'Echtes Johanniskraut, Tüpfel-Johanniskraut, Herrgottsblut, Hexenkraut, Jageteufel, Sonnwendkraut',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'gegenstaendig', blatt: 'elliptisch', rand: 'glatt', blattlaenge: 60, blattbreite: 18, bluete: 'fuenf', farbe: '#f5c518', mitte: '#e2a40f', bluetengroesse: 34, seitenblueten: true, wurzel: 'pfahl', frucht: 'kapsel', hoehe: 620, knoten: 8,
+    labels: { bluete: 'gelbe Blüte, schwarz punktiert', blatt: 'Blatt: durchscheinend getüpfelt', stengel: 'Stängel mit zwei Längsleisten', wurzel: 'verzweigte Pfahlwurzel' } },
+  intro: [
+    'Um den Johannistag am 24. Juni, wenn die Tage am längsten sind, blüht das Johanniskraut in leuchtendem Gelb. Seine Blüten scheinen das Sonnenlicht einzufangen – und tatsächlich ergeben sie, in Öl gelegt, ein tiefrotes Öl, das „Rotöl“.',
+    'Johanniskraut ist eine wirksame Heilpflanze und gerade deshalb mit Vorsicht zu genießen: Es macht die Haut lichtempfindlich und schwächt die Wirkung vieler Medikamente ab, darunter die Antibabypille. Dieses Kapitel zeigt, wie du es sicher erkennst und das Rotöl selbst herstellst.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Staude'],
+    ['Höhe', '30 bis 80 cm'],
+    ['Blätter', 'gegenständig, sitzend, länglich-elliptisch, ganzrandig, **gegen das Licht durchscheinend punktiert**'],
+    ['Stängel', 'aufrecht, oben verzweigt, rund mit **zwei Längsleisten**, innen markig'],
+    ['Blütezeit', 'Juni bis August'],
+    ['Blüten', 'goldgelb, fünf Blütenblätter mit schwarzen Punkten am Rand, viele Staubblätter'],
+    ['Besonderheit', 'zerriebene Blüten färben die Finger rot'],
+    ['Standort', 'sonnige Wegränder, Böschungen, Waldlichtungen, Magerwiesen'],
+    ['Genutzte Teile', 'blühende Triebspitzen, Blüten'],
+  ],
+  erkennen: [
+    ['Der Durchlicht-Test', 'Halte ein Blatt gegen das Licht: Es ist mit vielen kleinen, hellen, **durchscheinenden Punkten** übersät, als wäre es mit einer Nadel durchstochen. Das sind Öldrüsen; daher der Name *perforatum*.'],
+    ['Stängel', 'Der Stängel ist rund und trägt **zwei gegenüberliegende Längsleisten**. Andere Johanniskraut-Arten haben vierkantige oder ganz runde Stängel.'],
+    ['Der Rot-Test', 'Zerreibt man eine Blüte oder Knospe zwischen den Fingern, färben sich diese **rot-violett**. Verantwortlich ist der Farbstoff Hypericin aus den schwarzen Drüsenpunkten.'],
+  ],
+  verwechslung: {
+    text: 'Giftige Doppelgänger gibt es nicht, aber mehrere andere Johanniskraut-Arten, die kaum Wirkstoffe enthalten. Für Tee und Öl nur das Echte Johanniskraut verwenden.',
+    tabelle: [['Geflecktes Johanniskraut (*H. maculatum*)', 'gelbe Blüten', 'Stängel vierkantig, Blätter kaum durchscheinend punktiert'], ['Behaartes Johanniskraut (*H. hirsutum*)', 'gelbe Blüten', 'Stängel und Blätter behaart, blassere Blüten'], ['Jakobs-Greiskraut (*Jacobaea vulgaris*) – **giftig**', 'gelbe Blüten zur selben Zeit', 'Korbblütler mit fiederteiligen Blättern und vielen kleinen „Margeriten“-Blüten; keine durchscheinenden Punkte']],
+  },
+  standort: ['Johanniskraut wächst an sonnigen, eher trockenen Stellen: Wegränder, Böschungen, Bahndämme, Waldlichtungen, Magerwiesen.'],
+  sammeln: {
+    tabelle: [['Blühende Triebspitzen', 'Ende Juni bis August', 'obere 20 cm zur Hauptblüte schneiden, wenn viele Knospen und offene Blüten da sind'], ['Blüten und Knospen (für Rotöl)', 'Ende Juni bis Juli', 'an sonnigen Tagen um die Mittagszeit']],
+    kalender: [['Kraut, Blüten', [6, 7], [8]]],
+  },
+  inhaltsstoffe: { punkte: ['**Hypericin** und Pseudohypericin (rote Farbstoffe)', '**Hyperforin**', '**Flavonoide**', '**Gerbstoffe**', '**ätherisches Öl**'], nach: 'Hyperforin und Hypericin gelten als wichtigste Wirkstoffe. Hypericin macht die Haut lichtempfindlich, Hyperforin beschleunigt den Abbau vieler Arzneimittel in der Leber.' },
+  kueche: { text: ['Johanniskraut ist kein Küchenkraut. Einzelne Blüten können Salate dekorieren – mehr nicht.'] },
+  rezepte: [{ titel: 'Johanniskrautöl (Rotöl)', info: 'Für 1 Glas · 4 bis 6 Wochen Ziehzeit', zutaten: ['frische Blüten und Knospen des Echten Johanniskrauts', 'gutes Olivenöl'], schritte: ['Blüten und Knospen einige Stunden auf einem Tuch antrocknen lassen.', 'Locker in ein sauberes Glas füllen und leicht zerdrücken.', 'Mit Olivenöl übergießen, bis alles gut bedeckt ist.', 'Glas mit einem Tuch abdecken (nicht fest verschließen) und **an einen sonnigen Platz** stellen. Täglich schwenken; Kondenswasser am Deckel abwischen.', 'Nach 4 bis 6 Wochen ist das Öl tiefrot. Durch ein Tuch abseihen und in dunkle Flaschen füllen.'], tipp: 'Rotöl ist kühl und dunkel etwa ein Jahr haltbar.' }],
+  anwendung: {
+    bloecke: [
+      '**Äußerlich:** Johanniskrautöl ist vom Ausschuss für pflanzliche Arzneimittel der EMA als traditionelles Arzneimittel bei **leichten Hautentzündungen** (z. B. Sonnenbrand nach der Akutphase) und zur Unterstützung der Heilung **kleiner Wunden** eingestuft. In der Volksheilkunde wird es auch zum Einreiben bei Muskelverspannungen genutzt.',
+      '**Innerlich:** Standardisierte Johanniskraut-Extrakte aus der Apotheke sind bei **leichten bis mittelschweren depressiven Episoden** wissenschaftlich gut belegt. Eine Depression gehört aber in ärztliche Behandlung – selbst gesammelter Tee hat einen unbekannten Wirkstoffgehalt und ist keine Therapie.',
+    ],
+    hinweiseTitel: 'Sehr wichtig: Wechselwirkungen und Lichtempfindlichkeit',
+    hinweise: ['Johanniskraut **schwächt die Wirkung vieler Medikamente ab**: u. a. **Antibabypille** (ungewollte Schwangerschaft möglich), Blutverdünner, Herzmedikamente (Digoxin), Immunsuppressiva, HIV-Medikamente, manche Krebsmedikamente und Antidepressiva. Vor jeder innerlichen Anwendung in der Apotheke oder Arztpraxis nachfragen.', 'Macht die Haut **lichtempfindlich**: nach innerlicher Einnahme und nach dem Einreiben mit Rotöl starke Sonne und Solarium meiden.', 'Nicht in Schwangerschaft und Stillzeit, nicht bei Kindern.', 'Bei Depressionen, Suizidgedanken oder anhaltender Niedergeschlagenheit sofort ärztliche Hilfe suchen.'],
+  },
+  geschichte: ['Johanniskraut war seit der Antike eine wichtige Heilpflanze. Im Volksglauben galt es als „Jageteufel“, der böse Geister vertreibt; um den Johannistag wurde es über Türen gehängt. Der rote Farbstoff wurde als Blut Johannes des Täufers gedeutet.'],
+  haltbar: [['Trocknen', 'Triebspitzen gebündelt im Schatten trocknen.', 'ca. 1 Jahr'], ['Rotöl', 'Siehe Rezept.', 'ca. 1 Jahr']],
+  vorsicht: ['Starke **Wechselwirkungen** mit Medikamenten, auch mit der Antibabypille.', '**Lichtempfindlichkeit** der Haut.', 'Nicht in Schwangerschaft, Stillzeit und bei Kindern innerlich anwenden.', 'Depressionen ärztlich behandeln lassen.'],
+  quellen: ['EMA/HMPC: Monographie *Hyperici herba*', 'Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM): Wechselwirkungen von Johanniskraut', 'BfN FloraWeb: *Hypericum perforatum*'],
+};

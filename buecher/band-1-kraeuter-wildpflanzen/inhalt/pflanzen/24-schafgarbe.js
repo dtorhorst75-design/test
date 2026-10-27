@@ -1,0 +1,53 @@
+module.exports = {
+  nr: 24, id: 'schafgarbe', saison: 'sommer',
+  name: 'Schafgarbe', botanisch: 'Achillea millefolium',
+  familie: 'Korbblütler (Asteraceae)', artikel: 'in der Schafgarbe',
+  volksnamen: 'Gemeine Schafgarbe, Tausendblatt, Achilleskraut, Bauchwehkraut, Grillenkraut, Gachelkraut',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'fein', blattlaenge: 110, bluete: 'rispe', farbe: '#fbf8f0', bluetengroesse: 110, wurzel: 'rhizom', frucht: 'nuesschen', hoehe: 600, knoten: 6,
+    detailbluete: 'korb', labels: { bluete: 'flache Schirmrispe aus kleinen Körbchen', blatt: 'Blatt: fein fiederteilig', stengel: 'Stängel: zäh, behaart', wurzel: 'kriechender Wurzelstock' }, detail1: 'Einzelnes Körbchen' },
+  intro: [
+    'Die Schafgarbe ist eine der bekanntesten Heilpflanzen Europas. Ihr botanischer Name erinnert an den griechischen Helden Achilles, der der Sage nach mit ihr die Wunden seiner Krieger versorgte. *Millefolium* bedeutet „tausend Blätter“ – nach den fein zerteilten, federartigen Blättern.',
+    'Schafgarbe wächst an jedem Wegrand und blüht den ganzen Sommer. Junge Blätter sind ein würziges, leicht bitteres Wildkraut, die Blüten ein klassischer Tee bei Bauchweh und Menstruationsbeschwerden.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Staude mit Ausläufern'],
+    ['Höhe', '20 bis 80 cm'],
+    ['Blätter', 'im Umriss lanzettlich, zwei- bis dreifach fein fiederteilig, aromatisch'],
+    ['Stängel', 'aufrecht, zäh, oft wollig behaart'],
+    ['Blütezeit', 'Juni bis Oktober'],
+    ['Blüten', 'viele kleine Körbchen (je 5 weiße bis rosa Zungenblüten, gelbliche Mitte) in flachen Schirmrispen'],
+    ['Duft', 'würzig-aromatisch, leicht kampferartig'],
+    ['Standort', 'Wiesen, Wegränder, Böschungen, Rasen'],
+    ['Genutzte Teile', 'junge Blätter, blühendes Kraut, Blüten'],
+  ],
+  erkennen: [
+    ['Blätter', 'Die Blätter sind schmal-lanzettlich im Umriss, aber so fein zerteilt, dass sie wie kleine grüne Federn oder Farnwedel aussehen. Zerrieben duften sie würzig.'],
+    ['Blüten', 'Was wie eine einzelne weiße Blüte aussieht, ist ein Körbchen aus meist fünf Zungenblüten und einigen Röhrenblüten. Viele dieser Körbchen bilden zusammen eine flache, schirmartige Rispe – auf den ersten Blick ähnlich einer Dolde.'],
+    ['Stängel', 'Der Stängel ist zäh und lässt sich kaum abreißen – Schere mitnehmen.'],
+  ],
+  verwechslung: {
+    text: 'Die flachen weißen Blütenstände ähneln auf den ersten Blick den Dolden giftiger Doldenblütler. Schau deshalb immer auf Blätter und Einzelblüten.',
+    tabelle: [
+      ['Gefleckter Schierling, Hundspetersilie – **giftig**', 'weiße, flache Blütenstände', 'echte Dolden mit strahlenförmigen Stielen und fünfzähligen Einzelblüten; Blätter breiter gefiedert, petersilienartig; Schierling mit rot gefleckten, kahlen Stängeln und Mäusegeruch'],
+      ['Sumpf-Schafgarbe (*Achillea ptarmica*)', 'weiße Körbchen', 'Blätter ungeteilt, schmal, gesägt; größere Körbchen'],
+    ],
+    tipp: { titel: 'Sicher erkennen', zeilen: ['Federartig fein zerteilte Blätter + würziger Duft + winzige Körbchen mit fünf Zungenblüten = Schafgarbe.'] },
+  },
+  standort: ['Schafgarbe wächst auf Wiesen, Weiden, an Wegrändern und Böschungen und in Rasenflächen. Sie verträgt Trockenheit gut.'],
+  sammeln: {
+    tabelle: [['Junge Blätter', 'April bis Juni', 'zarte Blättchen aus der Rosette'], ['Blühendes Kraut', 'Juni bis September', 'obere 10 bis 20 cm zu Beginn der Blüte abschneiden'], ['Blüten', 'Juni bis September', 'nur die Blütenstände']],
+    kalender: [['Blätter', [4, 5, 6], [3, 7, 8, 9]], ['Kraut, Blüten', [6, 7, 8], [9, 10]]],
+  },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** (u. a. mit Chamazulen, bei manchen Herkünften)', '**Bitterstoffe** (Sesquiterpenlactone)', '**Flavonoide**', '**Gerbstoffe**'] },
+  kueche: { text: ['Junge Blätter schmecken würzig, leicht bitter und erinnern an eine Mischung aus Petersilie und Kamille. In kleinen Mengen ist Schafgarbe ein feines Würzkraut.'], ideen: ['**Salat:** einige fein gehackte junge Blätter.', '**Kräuterquark und Kräuterbutter.**', '**Suppen:** zum Schluss etwas fein geschnittenes Kraut.', '**Blüten:** als Deko oder in Kräutersalz.', '**Bier und Likör:** früher auch zum Würzen verwendet.'] },
+  rezepte: [{ titel: 'Schafgarben-Kräuterbutter', info: 'Für 125 g', zutaten: ['125 g weiche Butter', '1 EL fein gehackte junge Schafgarbenblätter', '1 EL Petersilie', '½ Knoblauchzehe, Salz'], schritte: ['Alles verrühren und kühl stellen.'] }, { titel: 'Schafgarbentee', info: 'Für 1 Tasse', zutaten: ['1 bis 2 TL getrocknetes Schafgarbenkraut', '250 ml Wasser'], schritte: ['Mit kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, abseihen.'], tipp: 'Bei Bauchweh gut mit Kamille oder Pfefferminze kombinierbar.' }],
+  anwendung: {
+    bloecke: ['Schafgarbenkraut ist vom Ausschuss für pflanzliche Arzneimittel der EMA als traditionelles pflanzliches Arzneimittel eingestuft: bei **vorübergehender Appetitlosigkeit**, bei **leichten krampfartigen Magen-Darm-Beschwerden** einschließlich Blähungen, bei **leichten Krämpfen während der Monatsblutung** und äußerlich bei **kleinen, oberflächlichen Wunden**.', 'Für einen Tee 1 bis 2 TL getrocknetes Kraut pro Tasse, 3- bis 4-mal täglich zwischen den Mahlzeiten.'],
+    hinweise: ['Nicht bei Allergie gegen Korbblütler.', 'Nicht in Schwangerschaft und Stillzeit.', 'Bei länger anhaltenden Beschwerden ärztlich abklären lassen.'],
+  },
+  haushalt: [['Im Garten', 'Schafgarbe ist eine wertvolle Insektenpflanze und in Blumenwiesen ein dankbarer Dauerblüher. Ein Absud aus Schafgarbe gilt im biologischen Gärtnern als stärkendes Pflanzenpflegemittel.']],
+  geschichte: ['Schafgarbe wurde in einem Grab aus der Altsteinzeit (Shanidar-Höhle, Irak) gefunden – möglicherweise eine der ältesten Belege für die Nutzung von Heilpflanzen. Der Name „Schafgarbe“ bedeutet „Heilkraut der Schafe“, die die Pflanze gern fressen.'],
+  haltbar: [['Trocknen', 'blühendes Kraut gebündelt im Schatten trocknen.', 'ca. 1 Jahr'], ['Kräutersalz', 'Siehe Grundrezept 7.', 'über 1 Jahr']],
+  vorsicht: ['Korbblütler-Allergie beachten; Kontaktallergie möglich.', 'Nicht in Schwangerschaft und Stillzeit.', 'Nicht mit giftigen Doldenblütlern verwechseln.'],
+  quellen: ['EMA/HMPC: Monographie *Millefolii herba*', 'BfN FloraWeb: *Achillea millefolium*'],
+};
