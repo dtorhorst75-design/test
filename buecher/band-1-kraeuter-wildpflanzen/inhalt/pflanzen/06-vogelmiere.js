@@ -1,0 +1,62 @@
+module.exports = {
+  nr: 6, id: 'vogelmiere', saison: 'fruehling',
+  name: 'Vogelmiere', botanisch: 'Stellaria media',
+  familie: 'Nelkengewächse (Caryophyllaceae)', artikel: 'in der Vogelmiere',
+  volksnamen: 'Hühnerdarm, Mäusedarm, Sternmiere, Hühnerbiss, Miere',
+  zeichnung: { wuchs: 'kriechend', blatt: 'eifoermig', rand: 'glatt', blattlaenge: 42, blattbreite: 22, bluete: 'stern', farbe: '#ffffff', mitte: '#e8e0b0', bluetengroesse: 24, wurzel: 'faser', frucht: 'kapsel', hoehe: 170,
+    labels: { bluete: 'Blüte: 5 tief gespaltene weiße Blütenblätter', blatt: 'Blätter gegenständig, ganzrandig', stengel: 'Stängel mit einer Haarleiste', wurzel: 'feine Faserwurzeln' } },
+  intro: [
+    'Die Vogelmiere ist das bescheidenste Wildgemüse in diesem Buch – und eines der wertvollsten. Sie wächst in jedem Gemüsebeet, auf jedem Acker und in jeder Gartenecke, und sie ist fast das ganze Jahr über zu ernten, sogar unter dem Schnee.',
+    'Ihr Geschmack ist so mild, dass sie auch Menschen schmeckt, die Wildkräutern sonst skeptisch gegenüberstehen: frisch, saftig, ein wenig nach jungem Mais oder Erbsen. Ihren Namen hat sie, weil Vögel und Hühner sie besonders gern fressen.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'einjährig bis überwinternd, kann mehrere Generationen im Jahr bilden'],
+    ['Höhe', '5 bis 40 cm, niederliegend bis aufsteigend'],
+    ['Blätter', 'gegenständig, eiförmig, zugespitzt, ganzrandig; untere gestielt, obere sitzend'],
+    ['Stängel', 'rund, verzweigt, mit **einer** Haarleiste, die an jedem Knoten die Seite wechselt'],
+    ['Blütezeit', 'fast ganzjährig'],
+    ['Blüten', 'klein, weiß, 5 tief gespaltene Blütenblätter (wirken wie 10)'],
+    ['Früchte', 'kleine, hängende Kapseln'],
+    ['Standort', 'Gärten, Äcker, Beete, Wegränder – nährstoffreiche, lockere Böden'],
+    ['Genutzte Teile', 'ganzes Kraut (Triebspitzen mit Blättern und Blüten)'],
+  ],
+  erkennen: [
+    ['Stängel und Haarleiste', 'Das wichtigste Merkmal ist eine **einzelne Reihe feiner Haare**, die am runden Stängel entlang läuft und an jedem Blattpaar auf die andere Seite wechselt. Mit einer Lupe oder gegen das Licht ist sie gut zu sehen.'],
+    ['Der Gummiband-Test', 'Zieht man einen Stängel vorsichtig auseinander, reißt die äußere Hülle, während der innere Leitstrang sich wie ein dünnes Gummiband dehnt. Dieses Merkmal hat sonst kaum eine ähnliche Pflanze.'],
+    ['Blätter', 'Die Blätter sind klein (bis 2 cm), hellgrün, eiförmig zugespitzt und ganzrandig. Sie stehen paarweise gegenüber; die unteren haben einen kurzen Stiel, die oberen sitzen direkt am Stängel.'],
+    ['Blüten', 'Die winzigen weißen Sternblüten haben fünf Blütenblätter, die so tief eingeschnitten sind, dass man zehn zu sehen meint. Die grünen Kelchblätter sind etwa so lang wie die Blütenblätter.'],
+  ],
+  verwechslung: {
+    text: 'Die wichtigste Verwechslung ist der giftige **Acker-Gauchheil**, der an denselben Stellen wächst.',
+    tabelle: [
+      ['Acker-Gauchheil (*Anagallis arvensis*) – **giftig**', 'kriechend, gegenständige, eiförmige Blätter', 'Stängel **vierkantig**, ohne Haarleiste; Blattunterseite mit **schwarzen Punkten**; Blüten orangerot oder blau; kein Gummiband-Effekt'],
+      ['Große Sternmiere (*Stellaria holostea*)', 'weiße, gespaltene Blüten', 'Blätter lang und schmal (lanzettlich); Stängel vierkantig; wächst in Wäldern; nicht zum Essen'],
+      ['Hornkraut-Arten (*Cerastium*)', 'ähnliche weiße Blüten', 'ganze Pflanze dicht behaart, nicht nur eine Haarleiste; ungiftig'],
+    ],
+    warnung: { titel: 'Sicher bestimmen', zeilen: ['Vogelmiere hat einen **runden** Stängel mit **einer Haarleiste** und einen dehnbaren Innenstrang. Fehlt eines dieser Merkmale, nicht sammeln.'] },
+  },
+  standort: ['Vogelmiere ist ein typischer Begleiter des Menschen: Sie wächst in Gemüsebeeten, auf Äckern, in Gärtnereien, an Wegrändern und auf Komposthaufen. Sie liebt lockere, feuchte, stickstoffreiche Böden und keimt fast zu jeder Jahreszeit.'],
+  sammeln: {
+    tabelle: [['Triebspitzen mit Blättern und Blüten', 'ganzjährig, am besten Frühjahr und Herbst', 'die oberen 5 bis 10 cm abschneiden; im Hochsommer werden die Pflanzen schneller zäh']],
+    kalender: [['Kraut', [3, 4, 5, 9, 10, 11], [1, 2, 6, 7, 8, 12]]],
+    tipps: ['Mit der Schere büschelweise abschneiden, Wurzeln und Erde nicht mitnehmen.', 'Vogelmiere welkt schnell – frisch verwenden.'],
+  },
+  inhaltsstoffe: { punkte: ['**Vitamin C** und Provitamin A', '**Mineralstoffe:** Kalium, Magnesium, Calcium, Eisen', '**Saponine** in geringen Mengen', '**Flavonoide**'], nach: 'Vogelmiere enthält mehr Vitamin C und Mineralstoffe als die meisten Kultursalate.' },
+  kueche: {
+    text: ['Vogelmiere wird vor allem roh gegessen. Sie ist zart, saftig und mild und passt überall dorthin, wo man Kresse oder Sprossen verwenden würde.'],
+    ideen: ['**Salat:** pur mit einem leichten Zitronendressing oder unter Blattsalat.', '**Brot:** auf Butterbrot, Frischkäse oder Ei.', '**Smoothie:** mit Apfel, Gurke und Zitrone.', '**Pesto:** besonders mild, gut für Kinder.', '**Suppe:** zum Schluss in Gemüsesuppen geben.', '**Sandwich und Wrap:** statt Salatblättern.'],
+  },
+  rezepte: [
+    { titel: 'Vogelmiere-Salat mit Apfel und Walnüssen', info: 'Für 2 Personen · ca. 10 Minuten', zutaten: ['2 große Handvoll Vogelmiere', '1 säuerlicher Apfel', '30 g Walnüsse', '2 EL Rapsöl, 1 EL Apfelessig', '1 TL Honig, Salz, Pfeffer'], schritte: ['Vogelmiere waschen und grob zerzupfen.', 'Apfel in dünne Spalten schneiden, Walnüsse grob hacken und kurz rösten.', 'Dressing anrühren und alles kurz vor dem Servieren mischen.'] },
+    { titel: 'Grüner Vogelmiere-Smoothie', info: 'Für 2 Gläser · ca. 5 Minuten', zutaten: ['1 Handvoll Vogelmiere', '1 Apfel', '1 Banane', '½ Gurke', 'Saft einer halben Zitrone', '200 ml Wasser'], schritte: ['Alle Zutaten grob zerkleinern.', 'Im Mixer fein pürieren und sofort trinken.'] },
+    { titel: 'Vogelmiere-Kräuterbutter', info: 'Für 125 g', zutaten: ['125 g weiche Butter', '1 Handvoll Vogelmiere', '½ Knoblauchzehe', 'Salz'], schritte: ['Vogelmiere sehr fein hacken.', 'Mit Butter, gepresstem Knoblauch und Salz verrühren.', 'Kühl stellen.'] },
+  ],
+  anwendung: {
+    bloecke: ['In der Volksheilkunde wurde Vogelmiere vor allem **äußerlich** verwendet: frisch zerquetscht oder als Salbe bei **juckender, gereizter Haut**, kleinen Wunden und Insektenstichen. Innerlich galt sie als Frühjahrskraut. Studien und offizielle Monographien gibt es dazu nicht.'],
+  },
+  haushalt: [['Für Hühner und Vögel', 'Hühner, Wellensittiche und Kanarienvögel fressen Vogelmiere mit Begeisterung. Sie ist ein gutes Frischfutter, auch im Winter.'], ['Bodenzeiger und Gründecke', 'Wo Vogelmiere üppig wächst, ist der Boden locker und nährstoffreich. Im Gemüsegarten schützt eine lockere Vogelmieren-Decke den Boden vor Austrocknung – vor der Samenreife abschneiden und als Mulch liegen lassen.']],
+  geschichte: ['Der Name *Stellaria* kommt von „stella“, dem Stern – nach den sternförmigen Blüten. Früher war Vogelmiere als „Hühnerdarm“ ein selbstverständliches Hühnerfutter und Notgemüse.'],
+  haltbar: [['Frisch', 'am besten sofort verwenden; im feuchten Tuch im Kühlschrank 1 bis 2 Tage.', '1 bis 2 Tage'], ['Einfrieren', 'als Pesto oder püriert in Eiswürfelformen.', 'bis 6 Monate'], ['Trocknen', 'für Tee möglich, das Aroma ist aber gering.', 'ca. 6 Monate']],
+  vorsicht: ['Nicht mit dem giftigen Acker-Gauchheil verwechseln (vierkantiger Stängel, schwarze Punkte unter den Blättern, rote oder blaue Blüten).', 'Wegen der Saponine nicht in sehr großen Mengen essen.'],
+  quellen: ['BfN FloraWeb: *Stellaria media*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

@@ -1,0 +1,42 @@
+module.exports = {
+  nr: 21, id: 'huflattich', saison: 'fruehling',
+  name: 'Huflattich', botanisch: 'Tussilago farfara',
+  familie: 'Korbblütler (Asteraceae)', artikel: 'im Huflattich',
+  volksnamen: 'Brandlattich, Eselslattich, Hustenlattich, Ackerlattich, Sohn-vor-dem-Vater',
+  zeichnung: { wuchs: 'rosette', blatt: 'herz', rand: 'gesaegt', blattlaenge: 150, blattbreite: 80, blaetter: 5, bluete: 'korb', farbe: '#f3c51b', mitte: '#e8a915', bluetengroesse: 42, wurzel: 'rhizom', frucht: 'schirmchen', hoehe: 260, stiele: 3, stengelblaetter: true,
+    labels: { bluete: 'gelber Blütenkorb, vor den Blättern', blatt: 'Blatt: hufförmig, unterseits weißfilzig', stengel: 'Blütenstiel: schuppig beblättert', wurzel: 'kriechender Wurzelstock' }, detail3: 'Früchte mit Haarschirm' },
+  intro: [
+    'Der Huflattich ist einer der ersten Frühblüher: Schon im Februar und März leuchten seine gelben Blüten an Böschungen und Wegrändern – noch bevor sich ein einziges Blatt zeigt. Erst nach der Blüte erscheinen die großen, hufförmigen Blätter. Deshalb heißt er im Volksmund „Sohn vor dem Vater“.',
+    'Jahrhundertelang war der Huflattich eines der wichtigsten Hustenkräuter. Heute weiß man, dass er **Pyrrolizidinalkaloide** enthält, die die Leber schädigen und Krebs auslösen können. Wir stellen ihn deshalb vor allem als Wissenspflanze und wichtige Frühlingsblume für Insekten vor – **zum Essen und für Tee raten wir von wild gesammeltem Huflattich ab.**',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Staude mit kriechendem Wurzelstock'],
+    ['Höhe', '10 bis 30 cm'],
+    ['Blätter', 'erscheinen nach der Blüte; rundlich-herzförmig („hufförmig“), eckig gezähnt, bis 20 cm breit, unterseits weißfilzig'],
+    ['Stängel', 'Blütenstiele mit rötlichen Schuppenblättern, blattlos'],
+    ['Blütezeit', 'Februar bis April'],
+    ['Blüten', 'gelbe Körbchen, einzeln auf dem Stiel, abends und bei Regen geschlossen'],
+    ['Früchte', 'mit Haarschirm, ähnlich der Pusteblume'],
+    ['Standort', 'Böschungen, Wegränder, Lehmgruben, Bahndämme, Äcker'],
+    ['Inhaltsstoffe', 'enthält **leberschädigende Pyrrolizidinalkaloide**'],
+  ],
+  erkennen: [
+    ['Blüten', 'Die gelben Blütenkörbe stehen einzeln auf schuppig beblätterten, rötlich überlaufenen Stielen – ohne grüne Laubblätter. Nach der Blüte neigen sich die Köpfe und richten sich zur Fruchtreife wieder auf.'],
+    ['Blätter', 'Die Blätter sind groß, rundlich-herzförmig und am Rand eckig gezähnt – sie erinnern an einen Pferdehuf. Die Unterseite ist mit dichtem, weißem Filz bedeckt, den man abreiben kann.'],
+  ],
+  verwechslung: {
+    text: 'Huflattich wird im Frühjahr gelegentlich mit dem Löwenzahn verwechselt; die Blätter ähneln denen der Pestwurz.',
+    tabelle: [['Löwenzahn', 'gelbe Blüten zur selben Zeit', 'Löwenzahn hat gleichzeitig Blätter, einen hohlen Stiel mit Milchsaft und keine Schuppen'], ['Pestwurz (*Petasites*)', 'große, rundliche Blätter', 'Blätter viel größer, bis 60 cm; ebenfalls **pyrrolizidinhaltig**']],
+  },
+  standort: ['Huflattich ist eine Pionierpflanze auf offenen, lehmigen, oft feuchten Böden: Böschungen, Baustellen, Kiesgruben, Bahndämme, Wegränder und Äcker. Er zeigt verdichteten, lehmigen Untergrund an.'],
+  oekologie: { titel: 'Bedeutung für Insekten', bloecke: ['Als einer der allerersten Frühblüher liefert Huflattich im Februar und März Pollen und Nektar für Honigbienen, Wildbienen und Schwebfliegen, die an warmen Tagen schon unterwegs sind.'] },
+  sammeln: {
+    tabelle: [['Blüten und Blätter', '–', '**wir raten von der Ernte zum Verzehr und für Tee ab**']],
+    warnung: { titel: 'Pyrrolizidinalkaloide', zeilen: ['Huflattich enthält Pyrrolizidinalkaloide (u. a. Senkirkin, Senecionin). Diese Stoffe können die Leber schädigen und gelten als krebserregend und erbgutverändernd. Das Bundesinstitut für Risikobewertung rät, die Aufnahme so gering wie möglich zu halten.', '- In Apotheken gab es Huflattichblätter nur aus speziell gezüchteten, alkaloidarmen Sorten.', '- Wild gesammelter Huflattich kann hohe Gehalte haben – nicht als Tee, Salat oder Gemüse verwenden.', '- Besonders gefährdet sind Kinder, Schwangere und Stillende sowie Menschen mit Lebererkrankungen.'] },
+  },
+  anwendung: { bloecke: ['Huflattich war über Jahrhunderte das klassische Hustenmittel: Sein botanischer Name *Tussilago* bedeutet „Husten-Vertreiber“. Die Blätter wurden als Tee getrunken und sogar als „Brust-Tabak“ geraucht. Wegen der Pyrrolizidinalkaloide spielt er heute keine Rolle mehr. Gute Alternativen für Hustentees sind **Spitzwegerich**, **Thymian**, **Eibisch** und **Malve** – sie werden in diesem Buch ausführlich vorgestellt.'] },
+  haushalt: [['Für Insekten stehen lassen', 'Wer im Garten Huflattich entdeckt, lässt ihn für die Bienen blühen und entfernt ihn danach, falls er sich zu stark ausbreitet.'], ['Zeigerpflanze', 'Huflattich zeigt verdichteten, lehmigen, oft wechselfeuchten Boden an. Lockern und Gründüngung verbessern solche Flächen.']],
+  geschichte: ['Huflattich wurde bereits von den antiken Ärzten Dioskurides und Plinius als Hustenmittel beschrieben. Im 19. und frühen 20. Jahrhundert war Huflattichtabak in Notzeiten verbreitet. In Frankreich zeigten Apotheken früher eine Huflattichblüte auf ihrem Schild.'],
+  vorsicht: ['Enthält leberschädigende Pyrrolizidinalkaloide – nicht essen, nicht als Tee trinken.', 'Besonders gefährlich für Kinder, Schwangere, Stillende und Menschen mit Lebererkrankungen.'],
+  quellen: ['BfR: Fragen und Antworten zu Pyrrolizidinalkaloiden in Lebensmitteln', 'EMA/HMPC: Public statement on the use of herbal medicinal products containing toxic, unsaturated pyrrolizidine alkaloids', 'BfN FloraWeb: *Tussilago farfara*'],
+};

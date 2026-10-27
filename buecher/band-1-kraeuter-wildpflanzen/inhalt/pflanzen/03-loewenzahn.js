@@ -1,0 +1,90 @@
+module.exports = {
+  nr: 3, id: 'loewenzahn', saison: 'fruehling',
+  name: 'Löwenzahn', botanisch: 'Taraxacum officinale',
+  familie: 'Korbblütler (Asteraceae)', artikel: 'im Löwenzahn',
+  volksnamen: 'Pusteblume, Kuhblume, Butterblume, Milchstock, Bettseicher, Ringelblume (regional)',
+  zeichnung: { wuchs: 'rosette', blatt: 'schrotsaege', blattlaenge: 230, blattbreite: 52, bluete: 'zungen', farbe: '#f2c418', wurzel: 'pfahl', frucht: 'schirmchen', hoehe: 420, stiele: 2,
+    labels: { bluete: 'Blütenkorb aus Zungenblüten', blatt: 'Blatt: schrotsägeförmig', stengel: 'Stiel: hohl, mit Milchsaft', wurzel: 'Pfahlwurzel' }, detail3: 'Früchte mit Schirmchen' },
+  intro: [
+    'Jedes Kind kennt die Pusteblume, und fast jeder Rasenbesitzer kennt den Ärger über die gelben Tupfen im Grün. Dabei ist der Löwenzahn eine der vielseitigsten Wildpflanzen überhaupt: Von der Wurzel bis zur Blüte ist alles essbar, und jedes Teil schmeckt anders.',
+    'Die jungen Blätter bringen im Frühling eine angenehme Bitterkeit in den Salat, die Blüten ergeben einen goldenen Sirup, die Knospen lassen sich wie Kapern einlegen, und aus der gerösteten Wurzel wurde in Notzeiten Kaffee-Ersatz gebrüht. Für Bienen und Hummeln ist der Löwenzahn im Frühling eine der wichtigsten Nahrungsquellen.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Rosettenpflanze'],
+    ['Höhe', '10 bis 40 cm (Blütenstiel)'],
+    ['Blätter', 'grundständige Rosette; länglich, tief eingeschnitten mit rückwärts gerichteten Zähnen („schrotsägeförmig“), kahl'],
+    ['Stiel', 'blattlos, hohl, unverzweigt, mit weißem Milchsaft'],
+    ['Blütezeit', 'Hauptblüte April bis Mai, vereinzelt bis in den Herbst'],
+    ['Blüten', 'leuchtend gelbe Körbe nur aus Zungenblüten, einzeln auf dem Stiel'],
+    ['Früchte', 'Achänen mit Haarschirm (Pappus), zusammen die „Pusteblume“'],
+    ['Wurzel', 'kräftige, bis über 1 m tiefe Pfahlwurzel mit Milchsaft'],
+    ['Standort', 'Wiesen, Weiden, Rasen, Wegränder, Gärten – fast überall'],
+    ['Genutzte Teile', 'Blätter, Blüten, Knospen, Wurzel'],
+  ],
+  erkennen: [
+    ['Blätter', 'Alle Blätter wachsen in einer flachen bis aufrechten Rosette direkt aus dem Boden. Sie sind kahl, länglich und meist tief eingeschnitten, wobei die Zipfel nach hinten zur Blattbasis zeigen – wie die Zähne einer Säge, deren Name „schrotsägeförmig“ daher kommt. Die Form ist sehr wandelbar: An schattigen Plätzen sind die Blätter oft nur leicht gezähnt. Die Mittelrippe ist hell und oft rötlich überlaufen.'],
+    ['Stiel und Milchsaft', 'Jeder Blütenkorb sitzt einzeln auf einem blattlosen, **hohlen** Stiel. Bricht man Stiel, Blatt oder Wurzel ab, tritt ein weißer, klebriger **Milchsaft** aus, der an der Luft braun wird und Flecken auf Kleidung und Haut hinterlässt.'],
+    ['Blüten', 'Der gelbe Blütenkorb besteht nur aus Zungenblüten – es gibt keine Röhrenblüten in der Mitte wie bei Gänseblümchen oder Kamille. Unter dem Korb sitzen grüne Hüllblätter, die äußeren davon sind nach unten zurückgeschlagen. Abends und bei Regen schließen sich die Blüten.'],
+    ['Früchte', 'Nach der Blüte schließt sich der Korb und öffnet sich wenige Tage später als kugelige Pusteblume: Jede Frucht trägt einen kleinen Fallschirm aus feinen Haaren, mit dem der Wind sie kilometerweit tragen kann.'],
+    ['Wurzel', 'Die fleischige, außen braune, innen weiße Pfahlwurzel reicht tief in den Boden. Schon kleine Reste treiben wieder aus – deshalb ist Löwenzahn im Rasen so hartnäckig.'],
+  ],
+  verwechslung: {
+    text: 'Löwenzahn hat **keine giftigen Doppelgänger**. Es gibt aber einige gelb blühende Korbblütler mit ähnlichen Blättern. Sie sind alle ungiftig, schmecken aber teils anders.',
+    tabelle: [
+      ['Gewöhnliches Ferkelkraut (*Hypochaeris radicata*)', 'gelbe Blütenkörbe, Rosette', 'Blätter rau behaart; Stiel verzweigt, nicht hohl, mit kleinen Schuppen; essbar'],
+      ['Herbst-Löwenzahn (*Scorzoneroides autumnalis*)', 'ähnliche Blätter und Blüten', 'Stiel verzweigt, nicht hohl; blüht vor allem im Spätsommer'],
+      ['Wiesen-Pippau (*Crepis biennis*)', 'gelbe Körbe, eingeschnittene Blätter', 'hoher, beblätterter, verzweigter Stängel mit vielen Blüten'],
+    ],
+    tipp: { titel: 'So erkennst du echten Löwenzahn', zeilen: ['Ein einzelner Blütenkorb auf einem hohlen, unverzweigten, blattlosen Stiel mit Milchsaft – das ist Löwenzahn.'] },
+  },
+  standort: ['Löwenzahn wächst fast überall: in Wiesen und Weiden, im Rasen, an Wegrändern, in Pflasterritzen und auf Brachflächen. Er bevorzugt nährstoffreiche, eher feuchte Böden und gilt als Zeiger für stickstoffreiche, oft überdüngte Wiesen.'],
+  oekologie: { titel: 'Bedeutung für Insekten', bloecke: ['Im April und Mai ist der Löwenzahn eine der wichtigsten Pollen- und Nektarquellen für Wild- und Honigbienen. Über 90 Insektenarten besuchen seine Blüten. Lass im Garten einige Löwenzahnpflanzen blühen – und mähe den Rasen im Frühling seltener.'] },
+  sammeln: {
+    tabelle: [
+      ['Junge Blätter', 'März bis April, vor der Blüte', 'Blätter aus der Rosettenmitte sind am zartesten und am wenigsten bitter'],
+      ['Blütenknospen', 'April', 'noch geschlossene Knospen aus der Rosettenmitte'],
+      ['Blüten', 'April bis Mai', 'vollständig geöffnete Blüten an sonnigen Vormittagen; nur die gelben Blütenblätter verwenden'],
+      ['Wurzel', 'Herbst (September bis November) oder zeitiges Frühjahr', 'im Herbst sind die Wurzeln reicher an Inulin und milder'],
+    ],
+    kalender: [['Blätter', [3, 4], [5, 9, 10]], ['Knospen', [4]], ['Blüten', [4, 5], [6, 9]], ['Wurzel', [3, 9, 10, 11]]],
+    tipps: ['Für milde Blätter: einen Topf oder Eimer über eine Rosette stülpen. Nach einer Woche sind die Blätter gebleicht, zart und kaum noch bitter – so wurde früher „Bleichsalat“ gewonnen.', 'Blüten nach dem Pflücken auf einem Tuch ausbreiten, damit kleine Insekten herauskrabbeln können.', 'Wurzeln mit einem langen Unkrautstecher ausgraben.'],
+  },
+  inhaltsstoffe: {
+    punkte: ['**Bitterstoffe** (Sesquiterpenlactone, u. a. Taraxacin) – vor allem in Blättern und Wurzel', '**Inulin** in der Wurzel, besonders im Herbst', '**Mineralstoffe**, vor allem Kalium', '**Vitamine:** Provitamin A, Vitamin C', '**Flavonoide** und Carotinoide (Blüten)'],
+    nach: 'Die Bitterstoffe sind es, die den Löwenzahn traditionell zur Unterstützung der Verdauung beliebt gemacht haben.',
+  },
+  kueche: {
+    text: ['Junge Löwenzahnblätter schmecken angenehm herb-bitter, ähnlich wie Rucola oder Chicorée. Wer die Bitterkeit mildern möchte, legt die Blätter 30 Minuten in lauwarmes Wasser oder kombiniert sie mit süßen Zutaten wie Apfel, Orange oder Honig im Dressing.'],
+    ideen: ['**Salat:** junge Blätter mit Kartoffeln, Speck oder gerösteten Nüssen, dazu ein Senf-Honig-Dressing.', '**Gemüse:** ältere Blätter kurz blanchieren und wie Mangold mit Knoblauch dünsten.', '**Blüten:** in Pfannkuchenteig ausbacken oder als essbare Deko.', '**Knospen:** in Butter gebraten oder als „Löwenzahnkapern“ eingelegt.', '**Wurzel:** jung in Scheiben wie Schwarzwurzeln garen oder geröstet als Kaffee-Ersatz.'],
+  },
+  rezepte: [
+    { titel: 'Löwenzahnsirup („Löwenzahnhonig“)', info: 'Für etwa 3 Gläser · 30 Minuten plus Ziehzeit über Nacht', zutaten: ['3 bis 4 Handvoll Löwenzahnblüten (ca. 200 Blüten)', '1 Liter Wasser', '1 Bio-Zitrone in Scheiben', '1 kg Zucker'], schritte: ['Von den Blüten die grünen Hüllblätter möglichst entfernen – sie machen den Sirup bitter.', 'Blüten und Zitrone mit dem Wasser aufkochen, 10 Minuten köcheln lassen und über Nacht ziehen lassen.', 'Durch ein Tuch abseihen und gut auspressen.', 'Mit dem Zucker unter Rühren offen 1 bis 2 Stunden leise einkochen, bis der Sirup honigartig vom Löffel läuft.', 'Kochend heiß in saubere Gläser füllen und verschließen.'], tipp: 'Der Sirup wird beim Abkühlen dicker. Er schmeckt auf Brot, im Joghurt oder im Tee.' },
+    { titel: 'Löwenzahnsalat mit Kartoffeln', info: 'Für 4 Personen · ca. 30 Minuten', zutaten: ['2 Handvoll junge Löwenzahnblätter', '500 g festkochende Kartoffeln', '1 rote Zwiebel', '3 EL Rapsöl, 2 EL Apfelessig', '1 TL Senf, 1 TL Honig', 'Salz, Pfeffer', 'nach Wunsch 80 g Speckwürfel oder geröstete Sonnenblumenkerne'], schritte: ['Kartoffeln kochen, pellen und noch warm in Scheiben schneiden.', 'Zwiebel fein würfeln; aus Öl, Essig, Senf, Honig, Salz und Pfeffer ein Dressing rühren und über die warmen Kartoffeln geben.', 'Löwenzahn waschen, in Streifen schneiden und unterheben.', 'Mit gebratenem Speck oder gerösteten Kernen bestreuen.'] },
+    { titel: 'Löwenzahnkapern', info: 'Für 1 kleines Glas · ca. 15 Minuten plus 2 Wochen Ziehzeit', zutaten: ['1 Tasse fest geschlossene Löwenzahnknospen', '1 TL Salz', '150 ml Weißweinessig', '1 TL Zucker, einige Pfefferkörner'], schritte: ['Knospen waschen, mit dem Salz mischen und über Nacht stehen lassen.', 'Abspülen, trocken tupfen und in ein sauberes Glas füllen.', 'Essig mit Zucker und Pfeffer aufkochen und heiß über die Knospen gießen.', 'Verschließen und mindestens 2 Wochen ziehen lassen. Im Kühlschrank aufbewahren.'] },
+    { titel: 'Löwenzahn-Wurzelkaffee', info: 'Für etwa 1 Glas Pulver', zutaten: ['10 bis 15 kräftige Löwenzahnwurzeln (Herbst)'], schritte: ['Wurzeln gründlich bürsten und in kleine Stücke schneiden.', 'Auf einem Blech bei 50 °C trocknen.', 'Dann bei 150 bis 180 °C 20 bis 30 Minuten rösten, bis sie dunkelbraun sind und nach Kaffee duften.', 'Abkühlen lassen und in der Kaffeemühle mahlen.', 'Pro Tasse 1 bis 2 TL Pulver aufbrühen oder kurz aufkochen und 5 Minuten ziehen lassen.'], tipp: 'Schmeckt herb-malzig, koffeinfrei und lässt sich gut mit geröstetem Getreidekaffee mischen.' },
+  ],
+  anwendung: {
+    bloecke: [
+      'Löwenzahn wird traditionell bei **leichten Verdauungsbeschwerden** wie Völlegefühl und Blähungen sowie bei vorübergehender **Appetitlosigkeit** verwendet. Die Bitterstoffe regen die Verdauungssäfte an. Außerdem wird Löwenzahn traditionell zur **Durchspülung der Harnwege** genutzt. Der Ausschuss für pflanzliche Arzneimittel der EMA hat Löwenzahnwurzel mit Kraut für diese Anwendungen als traditionelles pflanzliches Arzneimittel eingestuft.',
+      'Für einen Tee 1 bis 2 TL getrocknete Wurzel mit Kraut mit kaltem Wasser ansetzen, aufkochen und 10 Minuten ziehen lassen. Üblich sind 2 bis 3 Tassen täglich, jeweils vor den Mahlzeiten.',
+    ],
+    hinweise: ['Nicht anwenden bei Verschluss der Gallenwege, Gallenblasenentzündung, Lebererkrankungen und Darmverschluss.', 'Bei Gallensteinen nur nach ärztlicher Rücksprache.', 'Nicht bei Wassereinlagerungen durch Herz- oder Nierenschwäche.', 'Bei Allergie gegen Korbblütler meiden.', 'Der Milchsaft kann bei empfindlicher Haut Reizungen auslösen.'],
+  },
+  haushalt: [
+    ['Futter für Tiere', 'Kaninchen, Meerschweinchen, Schildkröten und Hühner lieben Löwenzahn. Wegen des Kaliums und der harntreibenden Wirkung in Maßen füttern.'],
+    ['Löwenzahn im Rasen', 'Wer Löwenzahn im Rasen reduzieren möchte, sticht die Pflanzen mit der ganzen Wurzel aus und düngt weniger – denn Löwenzahn liebt Stickstoff. Wer ihn duldet, schenkt den Insekten im Frühling ein Buffet.'],
+    ['Färben', 'Die Blüten ergeben auf mit Alaun gebeizter Wolle zarte Gelbtöne.'],
+  ],
+  geschichte: [
+    'Der Name Löwenzahn bezieht sich auf die gezähnten Blätter, die an ein Löwengebiss erinnern sollen. Das französische „pissenlit“ und das deutsche „Bettseicher“ spielen auf die harntreibende Wirkung an.',
+    'In Notzeiten wurde die geröstete Wurzel als Kaffee-Ersatz verwendet. Eine Verwandte, der Russische Löwenzahn (*Taraxacum kok-saghyz*), wurde im 20. Jahrhundert wegen seines kautschukhaltigen Milchsafts angebaut; heute wird er erneut als Rohstoff für Naturkautschuk erforscht.',
+  ],
+  haltbar: [
+    ['Trocknen (Blätter)', 'Blätter für Tee im Schatten trocknen.', 'ca. 1 Jahr'],
+    ['Trocknen (Wurzel)', 'Wurzeln längs halbieren, in Stücke schneiden, bei max. 50 °C trocknen.', '1 bis 2 Jahre'],
+    ['Sirup', 'Siehe Rezept.', 'ca. 1 Jahr, geöffnet im Kühlschrank'],
+    ['Kapern', 'Siehe Rezept.', 'mehrere Monate im Kühlschrank'],
+  ],
+  vorsicht: ['Nicht bei Gallenwegsverschluss, Lebererkrankungen oder Darmverschluss anwenden.', 'Korbblütler-Allergie beachten.', 'Milchsaft kann die Haut reizen und hinterlässt Flecken.', 'Nicht von gedüngten oder gespritzten Wiesen sammeln.'],
+  quellen: ['EMA/HMPC: Monographie *Taraxaci radix cum herba*', 'BfN FloraWeb: *Taraxacum* sect. *Ruderalia*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

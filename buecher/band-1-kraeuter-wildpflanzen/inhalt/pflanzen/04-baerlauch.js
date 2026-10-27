@@ -1,0 +1,91 @@
+module.exports = {
+  nr: 4, id: 'baerlauch', saison: 'fruehling',
+  name: 'Bärlauch', botanisch: 'Allium ursinum',
+  familie: 'Amaryllisgewächse (Amaryllidaceae), Unterfamilie Lauchgewächse', artikel: 'im Bärlauch',
+  volksnamen: 'Wilder Knoblauch, Waldknoblauch, Ramsen, Rämsel, Hexenzwiebel, Zigeunerlauch',
+  zeichnung: { wuchs: 'rosette', blatt: 'elliptisch', rand: 'glatt', blattlaenge: 240, blattbreite: 48, blaetter: 5, bluete: 'kugel', farbe: '#ffffff', bluetengroesse: 70, wurzel: 'zwiebel', frucht: 'kapsel', hoehe: 360, stiele: 1,
+    detailbluete: 'stern', labels: { bluete: 'Scheindolde aus weißen Sternblüten', blatt: 'Blatt: einzeln gestielt, unterseits matt', stengel: 'Blütenstiel: dreikantig', wurzel: 'schmale Zwiebel' }, detail2: 'Blatt mit eigenem Stiel', detail3: 'Fruchtkapsel' },
+  intro: [
+    'Wenn im März und April die Laubwälder nach Knoblauch duften, ist Bärlauchzeit. Dann bedecken die frischgrünen Blätter an vielen Stellen den Waldboden wie ein Teppich, und Sammlerinnen und Sammler ziehen mit Körben los. Bärlauch ist das wohl bekannteste Wildgemüse des Frühlings – und zugleich das mit den gefährlichsten Doppelgängern.',
+    'Jedes Jahr kommt es in Deutschland zu schweren, manchmal tödlichen Vergiftungen, weil Maiglöckchen oder Herbstzeitlose mit Bärlauch verwechselt werden. Lies deshalb den Abschnitt zur Verwechslungsgefahr besonders aufmerksam – dann steht dem Genuss nichts im Weg.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Zwiebelpflanze; Blätter nur im Frühjahr, danach zieht sie ein'],
+    ['Höhe', '20 bis 50 cm'],
+    ['Blätter', 'meist 2 (selten 1 oder 3) je Pflanze; elliptisch-lanzettlich, 10 bis 25 cm lang, weich, **jedes Blatt mit eigenem Stiel**; Unterseite matt'],
+    ['Stängel', 'blattloser, dreikantiger Blütenschaft'],
+    ['Blütezeit', 'April bis Mai'],
+    ['Blüten', 'weiße, sternförmige Einzelblüten in einer halbkugeligen Scheindolde'],
+    ['Früchte', 'dreifächrige Kapseln mit schwarzen Samen'],
+    ['Wurzel', 'schmale, längliche Zwiebel, von weißen Häuten umgeben'],
+    ['Geruch', 'beim Zerreiben deutlich nach Knoblauch'],
+    ['Standort', 'feuchte, nährstoffreiche Laub- und Auwälder, schattige Bachufer, Parks'],
+    ['Genutzte Teile', 'Blätter, Knospen, Blüten, grüne Samen'],
+  ],
+  erkennen: [
+    ['Blätter', 'Bärlauchblätter sind weich, dünn und hellgrün bis sattgrün. Sie sind elliptisch bis lanzettlich, ganzrandig und laufen spitz zu. **Jedes Blatt wächst einzeln mit einem eigenen, dünnen Stiel aus dem Boden** – auch wenn mehrere Blätter dicht beieinander stehen. Die Blattunterseite ist matt, die Oberseite leicht glänzend. Die Blätter sind sehr zart und reißen leicht.'],
+    ['Geruch', 'Zerreibt man ein Blatt, riecht es sofort intensiv nach Knoblauch. Dieser Test ist wichtig, aber nicht allein ausreichend – siehe Verwechslungsgefahr.'],
+    ['Blüten', 'Ab Ende April erscheinen auf einem dreikantigen, blattlosen Schaft die Blüten: Eine papierartige Hülle öffnet sich und gibt eine lockere, halbkugelige Scheindolde aus 5 bis 25 weißen, sternförmigen Blüten mit sechs Blütenblättern frei.'],
+    ['Zwiebel', 'Im Boden steckt eine schmale, längliche Zwiebel. Ausgraben ist nicht nötig und schadet dem Bestand – die Blätter liefern den Geschmack.'],
+  ],
+  verwechslung: {
+    text: [
+      'Bärlauch wächst zur selben Zeit und oft am selben Ort wie drei **stark giftige** Pflanzen. Vergiftungen mit Herbstzeitlose können tödlich enden, auch Maiglöckchen sind gefährlich. Deshalb gilt: **Jedes einzelne Blatt prüfen.**',
+    ],
+    tabelle: [
+      ['Maiglöckchen (*Convallaria majalis*) – **giftig**', 'ähnliche Blätter, gleicher Standort', 'meist zwei Blätter, die mit ihren Stielen **ineinander stecken** (umfassen sich); Blätter fester, unterseits glänzend; **kein Knoblauchgeruch**; weiße Glöckchenblüten ab Mai'],
+      ['Herbstzeitlose (*Colchicum autumnale*) – **tödlich giftig**', 'lanzettliche Blätter im Frühling', 'Blätter **ohne Stiel**, wachsen in einem Büschel direkt aus dem Boden, dick, fleischig, glänzend; später mit einer Fruchtkapsel in der Mitte; **kein Knoblauchgeruch**; wächst eher auf feuchten Wiesen'],
+      ['Gefleckter Aronstab (*Arum maculatum*) – **giftig**', 'gleicher Standort, junge Blätter ähnlich', 'Blätter **pfeil- bis spießförmig** mit netzartiger Aderung (Bärlauch: parallele Längsnerven), oft dunkel gefleckt; kein Knoblauchgeruch'],
+      ['Weiße Germer, Vielblütige Weißwurz – **giftig**', 'breite Blätter im Frühjahr', 'Blätter sitzen an einem Stängel, nicht einzeln aus dem Boden; kein Knoblauchgeruch'],
+    ],
+    warnung: { titel: 'Die Knoblauch-Falle', zeilen: [
+      'Der Geruchstest ist nur zuverlässig, wenn deine Finger nicht schon nach Knoblauch riechen. Nach ein paar gesammelten Blättern riechen die Hände – dann scheint auch ein Maiglöckchenblatt nach Knoblauch zu duften.',
+      '- **Jedes Blatt einzeln** pflücken und prüfen: eigener Stiel, weich, Knoblauchgeruch.',
+      '- **Nie büschelweise** mit dem Messer abschneiden – so geraten leicht fremde Blätter in den Korb.',
+      '- Zwischendurch die Hände waschen oder den Geruchstest mit einem frisch abgerissenen Blattstück an einer sauberen Stelle machen.',
+      '- Im Zweifel: **nicht essen.**',
+    ] },
+  },
+  standort: [
+    'Bärlauch wächst in feuchten, humus- und nährstoffreichen Laubwäldern, vor allem in Buchen- und Auwäldern, an schattigen Bachufern und in Parks. Wo er sich wohlfühlt, bildet er riesige, dichte Teppiche. Im Juni zieht er sich wieder in die Zwiebel zurück; danach ist an der Stelle oft nichts mehr von ihm zu sehen.',
+    'Bärlauch lässt sich auch im Garten ansiedeln: an einem schattigen, feuchten Platz unter Sträuchern, gesät im Herbst (Kaltkeimer) oder als Topfpflanze aus der Gärtnerei. Es dauert einige Jahre, bis sich ein Bestand bildet.',
+  ],
+  sammeln: {
+    tabelle: [
+      ['Blätter', 'März bis April, vor der Blüte', 'junge Blätter einzeln pflücken; je Pflanze nur ein Blatt nehmen'],
+      ['Knospen', 'Ende April', 'noch geschlossene Blütenstände'],
+      ['Blüten', 'Ende April bis Mai', 'als würzige Deko; Blätter werden ab der Blüte faseriger und schärfer'],
+      ['Grüne Samen', 'Mai bis Juni', 'noch grüne, weiche Samenkapseln'],
+    ],
+    kalender: [['Blätter', [3, 4], [5]], ['Knospen, Blüten', [4, 5]], ['Grüne Samen', [5, 6]]],
+    tipps: ['In Naturschutzgebieten ist das Sammeln verboten. Anderswo gilt die Handstraußregel: nur für den eigenen Bedarf.', 'Die Zwiebeln nicht ausgraben – das schädigt den Bestand.', 'In Fuchsbandwurm-Gebieten die Blätter gründlich waschen. Wer ganz sicher gehen will, verwendet Bärlauch erhitzt (über 60 °C).', 'Bärlauch welkt schnell: in ein feuchtes Tuch wickeln und im Kühlschrank höchstens zwei bis drei Tage lagern.'],
+  },
+  inhaltsstoffe: {
+    punkte: ['**Schwefelverbindungen** (Alliin, das beim Zerkleinern zu Allicin umgewandelt wird) – sie sorgen für den Knoblauchgeschmack', '**Vitamin C**', '**Mineralstoffe**, u. a. Eisen, Mangan, Magnesium'],
+    nach: 'Die Schwefelverbindungen sind hitzeempfindlich. Wer das volle Aroma möchte, gibt Bärlauch erst am Ende zum Gericht oder verwendet ihn roh.',
+  },
+  kueche: {
+    text: ['Bärlauch schmeckt wie milder Knoblauch mit grüner, frischer Note – ohne den typischen Knoblauchatem am nächsten Tag. Er wird vor allem roh oder nur kurz erwärmt verwendet. Getrocknet verliert er fast sein ganzes Aroma; zum Haltbarmachen eignen sich Einfrieren, Pesto, Salz oder Butter.'],
+    ideen: ['**Brot:** Bärlauchbutter, Bärlauchquark, Bärlauch-Frischkäse.', '**Pasta und Risotto:** fein geschnittene Blätter erst kurz vor dem Servieren unterheben.', '**Suppe:** Bärlauch-Kartoffel-Suppe, zuletzt kurz aufpürieren.', '**Rührei und Omelett.**', '**Spätzle und Knödel:** Bärlauch im Teig färbt sie grün.', '**Knospen:** kurz in Butter braten oder wie Kapern einlegen.', '**Blüten:** über Salate und Suppen streuen.'],
+  },
+  rezepte: [
+    { titel: 'Bärlauch-Pesto', info: 'Für 2 Gläser · ca. 15 Minuten', zutaten: ['100 g Bärlauch', '50 g Pinienkerne oder Sonnenblumenkerne', '50 g Parmesan oder Bergkäse', '150 ml Olivenöl', '1 TL Salz', 'etwas Zitronensaft'], schritte: ['Kerne in einer trockenen Pfanne goldbraun rösten und abkühlen lassen.', 'Bärlauch waschen und sehr gut trocken schleudern – Wasser verkürzt die Haltbarkeit.', 'Bärlauch grob schneiden und mit Kernen, Käse, Salz und der Hälfte des Öls pürieren.', 'Restliches Öl unterrühren, mit Zitrone abschmecken.', 'In saubere Gläser füllen, glatt streichen und mit Öl bedecken.'], tipp: 'Im Kühlschrank etwa 2 bis 3 Wochen haltbar, wenn nach jeder Entnahme wieder Öl darübergegossen wird. Ohne Käse zubereitet lässt es sich gut einfrieren.' },
+    { titel: 'Bärlauchbutter', info: 'Für 250 g · ca. 10 Minuten', zutaten: ['250 g weiche Butter', '1 Handvoll Bärlauch', '1 TL Zitronensaft', '½ TL Salz'], schritte: ['Bärlauch waschen, gut trocknen und sehr fein hacken.', 'Mit Butter, Zitronensaft und Salz verrühren.', 'Auf Frischhaltefolie zu einer Rolle formen und kühlen.'], tipp: 'In Scheiben geschnitten einfrieren – so hast du das ganze Jahr Bärlauchbutter für Brot, Grillgemüse oder Steak.' },
+    { titel: 'Bärlauchsalz', info: 'Für 1 Glas · ca. 15 Minuten plus Trockenzeit', zutaten: ['50 g Bärlauch', '200 g grobes Meersalz'], schritte: ['Bärlauch waschen und gut trocknen.', 'Mit dem Salz im Mixer zu einer grünen Paste zerkleinern.', 'Dünn auf ein Backblech mit Backpapier streichen und bei 40 °C im Ofen mit leicht geöffneter Tür trocknen (mehrere Stunden), zwischendurch zerbröseln.', 'Trockenes Salz in ein Glas füllen.'] },
+    { titel: 'Bärlauch-Kartoffel-Suppe', info: 'Für 4 Personen · ca. 30 Minuten', zutaten: ['500 g mehligkochende Kartoffeln', '1 Zwiebel', '2 EL Butter', '1 Liter Gemüsebrühe', '100 ml Sahne', '1 große Handvoll Bärlauch', 'Salz, Pfeffer, Muskat'], schritte: ['Zwiebel in Butter andünsten, gewürfelte Kartoffeln zugeben.', 'Mit Brühe aufgießen und 15 Minuten weich kochen.', 'Sahne zugeben, Topf vom Herd nehmen.', 'Bärlauch grob schneiden, zugeben und sofort fein pürieren.', 'Abschmecken und gleich servieren.'] },
+  ],
+  anwendung: {
+    bloecke: ['Bärlauch wurde traditionell als **Frühjahrskur** gegessen und galt als verdauungsfördernd und „blutreinigend“. Ähnlich wie Knoblauch enthält er Schwefelverbindungen, die in der Volksheilkunde für Magen, Darm und Kreislauf geschätzt wurden. Für Bärlauch selbst gibt es dazu kaum Studien; er ist vor allem ein köstliches, gesundes Wildgemüse.'],
+  },
+  haushalt: [['Bärlauch im Garten', 'Ein schattiger, feuchter Platz unter Laubgehölzen ist ideal. Samen im Herbst aussäen oder Jungpflanzen setzen. Bärlauch verbreitet sich selbst, wenn man einige Blütenstände stehen lässt. Achtung: Pflanze ihn nicht in die Nähe von Maiglöckchen – sonst wird die Ernte im eigenen Garten zur Verwechslungsfalle.']],
+  geschichte: ['Der Name Bärlauch soll daher stammen, dass Bären die Pflanze nach dem Winterschlaf fressen. Belegt ist das nicht, aber die Vorstellung, dass Bärlauch Bärenkräfte verleiht, hat sich in vielen Volksnamen erhalten. Bereits in jungsteinzeitlichen Siedlungen wurden Bärlauchreste gefunden – er gehört zu den ältesten genutzten Wildgemüsen Europas.'],
+  haltbar: [
+    ['Einfrieren', 'Blätter waschen, trocknen, fein hacken und in Eiswürfelformen mit etwas Öl oder Wasser einfrieren.', '6 bis 12 Monate'],
+    ['Pesto', 'Siehe Rezept.', '2 bis 3 Wochen (Kühlschrank)'],
+    ['Bärlauchsalz', 'Siehe Rezept.', 'über 1 Jahr'],
+    ['Bärlauchbutter', 'Siehe Rezept, eingefroren.', 'bis 6 Monate'],
+    ['Trocknen', 'nicht empfohlen – das Aroma geht fast vollständig verloren.', '–'],
+  ],
+  vorsicht: ['Lebensgefährliche Verwechslung mit Herbstzeitlose und Maiglöckchen: jedes Blatt einzeln prüfen.', 'Geruchstest nur mit sauberen Fingern.', 'In Naturschutzgebieten nicht sammeln; Zwiebeln nicht ausgraben.', 'Bei Fuchsbandwurm-Risiko gründlich waschen oder erhitzen.', 'Frischen Bärlauch in Öl nur kurz und gekühlt aufbewahren.'],
+  quellen: ['BfR: Verwechslungsgefahr Bärlauch – Maiglöckchen – Herbstzeitlose', 'BfN FloraWeb: *Allium ursinum*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

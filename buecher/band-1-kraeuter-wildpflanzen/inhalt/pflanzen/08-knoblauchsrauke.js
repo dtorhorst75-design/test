@@ -1,0 +1,55 @@
+module.exports = {
+  nr: 8, id: 'knoblauchsrauke', saison: 'fruehling',
+  name: 'Knoblauchsrauke', botanisch: 'Alliaria petiolata',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'in der Knoblauchsrauke',
+  volksnamen: 'Knoblauchhederich, Lauchkraut, Ramschel, Saukraut',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'herz', rand: 'gesaegt', blattlaenge: 130, blattbreite: 62, bluete: 'traube', farbe: '#ffffff', mitte: '#e8e2a0', bluetengroesse: 70, wurzel: 'pfahl', frucht: 'schote', hoehe: 640, knoten: 6,
+    detailbluete: 'kreuz', labels: { bluete: 'weiße Kreuzblüten in Trauben', blatt: 'Blatt: herzförmig, grob gezähnt', stengel: 'Stängel: aufrecht, kaum verzweigt', wurzel: 'Pfahlwurzel' }, detail3: 'Schote' },
+  intro: [
+    'Wer im April durch einen lichten Wald oder an einer Hecke entlang geht, entdeckt oft hüfthohe Pflanzen mit herzförmigen Blättern und kleinen weißen Blütentrauben. Zerreibt man ein Blatt, duftet es überraschend nach Knoblauch – daher der Name.',
+    'Die Knoblauchsrauke ist eine milde Alternative zum Bärlauch und hat einen großen Vorteil: Sie hat keine giftigen Doppelgänger, mit denen man sie gefährlich verwechseln könnte. Blätter, Blüten, Samen und sogar die Wurzel lassen sich verwenden.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'zweijährig: im ersten Jahr eine Blattrosette, im zweiten Jahr der Blütenstängel'],
+    ['Höhe', '20 bis 100 cm'],
+    ['Blätter', 'Rosettenblätter nierenförmig; Stängelblätter wechselständig, herzförmig bis dreieckig, grob gezähnt'],
+    ['Blütezeit', 'April bis Juni'],
+    ['Blüten', 'klein, weiß, vier Blütenblätter in Kreuzform, in Trauben'],
+    ['Früchte', 'lange, schmale, aufrechte Schoten mit schwarzen Samen'],
+    ['Geruch', 'beim Zerreiben knoblauchartig'],
+    ['Standort', 'Waldränder, Hecken, Gebüsche, Parks, Gärten – halbschattig und nährstoffreich'],
+    ['Genutzte Teile', 'Blätter, Blüten, Samen, Wurzel'],
+  ],
+  erkennen: [
+    ['Erstes Jahr', 'Im ersten Jahr bildet die Knoblauchsrauke nur eine Rosette aus rundlich-nierenförmigen, langgestielten, gekerbten Blättern. Diese überwintern und sind im zeitigen Frühjahr eine der ersten grünen Erntemöglichkeiten.'],
+    ['Zweites Jahr', 'Im zweiten Frühjahr schiebt sich ein aufrechter, kaum verzweigter Stängel nach oben. Die Stängelblätter sind herzförmig bis dreieckig, grob gezähnt und werden nach oben kleiner.'],
+    ['Blüten und Früchte', 'An der Spitze sitzen Trauben aus kleinen weißen Blüten mit vier Blütenblättern im Kreuz – typisch für die Kreuzblütler. Daraus entstehen 3 bis 7 cm lange, schmale Schoten mit dunklen Samen.'],
+  ],
+  verwechslung: {
+    text: 'Gefährliche Doppelgänger gibt es nicht. Ähnliche Rosetten bilden einige ungiftige Pflanzen; der Knoblauchgeruch macht die Bestimmung eindeutig.',
+    tabelle: [
+      ['Gundermann', 'rundliche, gekerbte Blätter', 'kriechend, gegenständig, riecht minzig-würzig, nicht nach Knoblauch'],
+      ['Veilchen-Arten', 'herzförmige Blätter', 'kein Knoblauchgeruch; violette Blüten'],
+      ['Scharbockskraut (*Ficaria verna*) – **giftig ab der Blüte**', 'rundliche, herzförmige Blätter im Frühjahr', 'Blätter glänzend, fleischig, ungezähnt bis schwach gekerbt; gelbe Sternblüten; kein Knoblauchgeruch'],
+    ],
+  },
+  standort: ['Knoblauchsrauke wächst an halbschattigen, nährstoffreichen Standorten: an Waldrändern und Hecken, unter Gebüschen, in Parks und verwilderten Gärten. In Nordamerika, wohin sie eingeschleppt wurde, gilt sie als problematische invasive Art.'],
+  sammeln: {
+    tabelle: [['Rosettenblätter', 'Februar bis April', 'zarte Blätter der überwinterten Rosetten'], ['Stängelblätter und Triebspitzen', 'April bis Mai', 'junge Blätter vor der Blüte sind am mildesten'], ['Blüten', 'April bis Juni', 'mit Knospen ernten'], ['Samen', 'Juli bis August', 'reife, trockene Schoten abstreifen'], ['Wurzel', 'Herbst bis Frühjahr (erstes Jahr)', 'schmeckt meerrettichartig scharf']],
+    kalender: [['Blätter', [3, 4, 5], [2]], ['Blüten', [4, 5], [6]], ['Samen', [7, 8]], ['Wurzel', [10, 11, 3]]],
+  },
+  inhaltsstoffe: { punkte: ['**Senfölglykoside** (u. a. Sinigrin) – sie sorgen für die Schärfe', '**Schwefelverbindungen** für den Knoblauchduft', '**Vitamin C** und Provitamin A'], nach: 'Wie bei vielen Kreuzblütlern sind die Senföle in normalen Küchenmengen unbedenklich.' },
+  kueche: {
+    text: ['Die Knoblauchsrauke schmeckt mild nach Knoblauch mit einer leicht senfartigen Schärfe. Beim Erhitzen verliert sie viel Aroma – sie ist ein Kraut für die kalte Küche oder zum Schluss.'],
+    ideen: ['**Salat:** junge Blätter fein geschnitten.', '**Brotaufstrich:** in Quark, Frischkäse oder Butter.', '**Pesto:** mildes „Wald-Pesto“.', '**Kräuterdip:** mit Joghurt, Salz und Zitrone.', '**Samen:** gemahlen wie Senfkörner zum Würzen oder für selbst gemachten Senf.', '**Wurzel:** gerieben wie Meerrettich.'],
+  },
+  rezepte: [
+    { titel: 'Knoblauchsrauken-Pesto', info: 'Für 1 Glas', zutaten: ['80 g junge Knoblauchsraukenblätter', '40 g Mandeln oder Sonnenblumenkerne', '30 g Parmesan, nach Wunsch', '100 ml Rapsöl', 'Salz, Zitronensaft'], schritte: ['Kerne rösten.', 'Blätter waschen und trocknen.', 'Alles pürieren und abschmecken; in ein Glas füllen und mit Öl bedecken.'] },
+    { titel: 'Wilder Senf', info: 'Für 1 kleines Glas', zutaten: ['3 EL Knoblauchsraukensamen', '1 EL gelbe Senfsaat (optional)', '4 EL Apfelessig', '2 EL Wasser', '1 TL Honig, ½ TL Salz'], schritte: ['Samen in einer Kaffeemühle grob mahlen.', 'Mit Essig, Wasser, Honig und Salz verrühren.', 'In ein Glas füllen und 2 bis 3 Tage im Kühlschrank ziehen lassen – die Schärfe mildert sich dabei.'] },
+  ],
+  anwendung: { bloecke: ['In der Volksheilkunde wurde die Knoblauchsrauke ähnlich wie Knoblauch als **Frühjahrskraut** und äußerlich bei kleinen Wunden genutzt. Heute wird sie vor allem als Würzkraut geschätzt.'] },
+  geschichte: ['Samen der Knoblauchsrauke wurden in Topfscherben aus der Jungsteinzeit in Dänemark und Norddeutschland gefunden – sie gehört zu den ältesten nachgewiesenen Gewürzen Europas.'],
+  haltbar: [['Einfrieren', 'als Pesto oder gehackt in Eiswürfelformen.', 'bis 6 Monate'], ['Samen trocknen', 'Schoten in einer Papiertüte nachreifen lassen, Samen ausklopfen.', '1 bis 2 Jahre']],
+  vorsicht: ['Nicht mit Scharbockskraut verwechseln.', 'In großen Mengen können die Senföle Magen und Darm reizen.'],
+  quellen: ['BfN FloraWeb: *Alliaria petiolata*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

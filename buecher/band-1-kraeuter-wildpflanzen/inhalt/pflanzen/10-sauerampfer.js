@@ -1,0 +1,55 @@
+module.exports = {
+  nr: 10, id: 'sauerampfer', saison: 'fruehling',
+  name: 'Wiesen-Sauerampfer', botanisch: 'Rumex acetosa',
+  familie: 'Knöterichgewächse (Polygonaceae)', artikel: 'im Sauerampfer',
+  volksnamen: 'Sauerampfer, Sauerlump, Suurkrut, Sauerblatt, Ampfer',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'lanzett', rand: 'glatt', blattlaenge: 170, blattbreite: 40, bluete: 'rispe', farbe: '#b0573f', bluetengroesse: 120, wurzel: 'pfahl', frucht: 'nuesschen', hoehe: 650, knoten: 5,
+    einzelbluete: 'punkt', labels: { bluete: 'rötliche Blütenrispe', blatt: 'Blatt: pfeilförmig, Zipfel nach unten', stengel: 'Stängel: gerillt, oft rötlich', wurzel: 'Pfahlwurzel' } },
+  intro: [
+    'Wer als Kind an Wiesenrändern Sauerampferblätter gekaut hat, erinnert sich an den frischen, zitronigen Geschmack. Der Wiesen-Sauerampfer ist eines der ältesten Gemüse- und Würzkräuter Europas und wurde früher auch in Gärten angebaut.',
+    'Seine säuerliche Frische passt wunderbar zu Fisch, Eiern, Kartoffeln und Frühlingssuppen. Wegen seines Gehalts an Oxalsäure ist er allerdings ein Kraut für maßvollen Genuss.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Staude, zweihäusig'],
+    ['Höhe', '30 bis 100 cm (blühend)'],
+    ['Blätter', 'länglich-pfeilförmig, am Grund mit zwei nach unten zeigenden Zipfeln; untere langgestielt, obere stängelumfassend'],
+    ['Stängel', 'aufrecht, gerillt, oft rötlich'],
+    ['Blütezeit', 'Mai bis Juli'],
+    ['Blüten', 'unscheinbar, rötlich-grün, in lockeren Rispen'],
+    ['Geschmack', 'säuerlich-frisch, zitronig'],
+    ['Standort', 'Wiesen, Weiden, Wegränder'],
+    ['Genutzte Teile', 'junge Blätter'],
+  ],
+  erkennen: [
+    ['Blätter', 'Die Blätter sind länglich, glatt und etwas fleischig. Am Grund laufen sie in **zwei spitze, nach unten gerichtete Zipfel** aus – sie haben eine Pfeilform. Die oberen Stängelblätter umfassen den Stängel mit einer häutigen, gefransten Tüte (Ochrea), typisch für Knöterichgewächse.'],
+    ['Geschmack', 'Ein Blatt zu kauen ist der sicherste Test: Sauerampfer schmeckt deutlich sauer und zitronig.'],
+    ['Blüten', 'Ab Mai erscheinen rispenartige Blütenstände mit vielen kleinen, rötlichen bis grünen Blüten. Zur Fruchtzeit färbt sich die ganze Rispe rotbraun und gibt Wiesen im Juni ihren rötlichen Schimmer.'],
+  ],
+  verwechslung: {
+    text: 'Gefährliche Verwechslungen sind selten. Ähnlich sind andere Ampfer-Arten, die weniger gut schmecken, und – bei jungen Rosetten – der giftige Aronstab.',
+    tabelle: [
+      ['Gefleckter Aronstab (*Arum maculatum*) – **giftig**', 'pfeilförmige Blätter im Frühjahr', 'Blätter mit netzartiger Aderung, glänzend, oft dunkel gefleckt; Zipfel nach außen gespreizt; **schmeckt brennend scharf**, nicht sauer – sofort ausspucken'],
+      ['Kleiner Sauerampfer (*Rumex acetosella*)', 'ähnlicher Geschmack', 'kleiner, Blattzipfel spießförmig waagrecht abstehend; ebenfalls essbar'],
+      ['Stumpfblättriger Ampfer (*Rumex obtusifolius*)', 'Ampferblätter', 'viel größere, breite Blätter mit herzförmigem Grund, nicht sauer'],
+    ],
+  },
+  standort: ['Wiesen-Sauerampfer wächst auf Wiesen und Weiden, an Wegrändern und Böschungen, bevorzugt auf nährstoffreichen, eher feuchten Böden.'],
+  sammeln: {
+    tabelle: [['Junge Blätter', 'März bis Mai; nach dem Mähen erneut', 'vor der Blüte; ältere Blätter werden zäh und sehr sauer']],
+    kalender: [['Blätter', [3, 4, 5], [6, 9, 10]]],
+  },
+  inhaltsstoffe: { punkte: ['**Oxalsäure** und ihre Salze – sie sorgen für den sauren Geschmack', '**Vitamin C**', '**Gerbstoffe**', '**Eisen** und andere Mineralstoffe'], nach: 'Oxalsäure kann in größeren Mengen die Aufnahme von Calcium hemmen und die Bildung von Nierensteinen fördern. In üblichen Küchenmengen ist Sauerampfer unbedenklich.' },
+  kueche: {
+    text: ['Sauerampfer bringt Säure ins Essen wie Zitrone. Roh schmeckt er am frischesten; beim Erhitzen färbt er sich olivgrün und zerfällt zu einer Art Püree – genau das macht ihn für Saucen und Suppen ideal. Milchprodukte wie Sahne, Joghurt oder Crème fraîche mildern die Säure und binden einen Teil der Oxalsäure.'],
+    ideen: ['**Sauerampfersuppe:** klassisch mit Kartoffeln und Sahne.', '**Sauce zu Fisch:** in Butter zerfallen lassen, mit Sahne binden.', '**Rührei und Omelett.**', '**Salat:** junge Blätter in Streifen, sparsam.', '**Grüne Sauce:** einer der Bestandteile der Frankfurter Grünen Soße.', '**Kräuterquark.**'],
+  },
+  rezepte: [
+    { titel: 'Sauerampfersuppe', info: 'Für 4 Personen · ca. 30 Minuten', zutaten: ['2 Handvoll junge Sauerampferblätter', '1 Zwiebel', '3 Kartoffeln', '2 EL Butter', '1 Liter Gemüsebrühe', '150 ml Sahne', 'Salz, Pfeffer', 'nach Wunsch 2 hart gekochte Eier'], schritte: ['Zwiebel und gewürfelte Kartoffeln in Butter andünsten, mit Brühe aufgießen und weich kochen.', 'Sauerampfer in Streifen schneiden, zugeben und 2 Minuten mitkochen.', 'Pürieren, Sahne einrühren und abschmecken.', 'Mit gehackten Eiern servieren.'] },
+    { titel: 'Sauerampfer-Sahnesauce zu Fisch', info: 'Für 4 Personen · 15 Minuten', zutaten: ['1 Handvoll Sauerampfer', '1 Schalotte', '1 EL Butter', '200 ml Sahne', 'Salz, Pfeffer'], schritte: ['Schalotte in Butter glasig dünsten.', 'Sauerampfer in Streifen zugeben und zerfallen lassen.', 'Sahne angießen, kurz einkochen und abschmecken.'] },
+  ],
+  anwendung: { bloecke: ['In der Volksheilkunde wurde Sauerampfer als vitaminreiches **Frühjahrskraut** gegessen, früher auch gegen Skorbut auf Schiffen. Medizinische Anwendungen spielen heute keine Rolle.'], hinweise: ['Bei Nierensteinen (Calciumoxalat), Gicht und Nierenerkrankungen meiden.', 'Kinder sollten nur kleine Mengen essen.', 'Nicht in Aluminium- oder Eisentöpfen kochen – Säure löst Metall und verändert Farbe und Geschmack.'] },
+  geschichte: ['Sauerampfer wurde im Mittelalter in Gärten angebaut und war in Frankreich als „oseille“ ein geschätztes Gemüse. In der Frankfurter Grünen Soße gehört er bis heute zu den sieben klassischen Kräutern.'],
+  haltbar: [['Einfrieren', 'in Butter zerfallen lassen und portionsweise einfrieren.', 'bis 6 Monate'], ['Frisch', 'im feuchten Tuch im Kühlschrank.', '2 bis 3 Tage']],
+  vorsicht: ['Oxalsäure: nicht in großen Mengen; Vorsicht bei Nierensteinen, Gicht und Nierenerkrankungen.', 'Nicht mit dem Aronstab verwechseln – der schmeckt brennend scharf, nicht sauer.'],
+  quellen: ['BfN FloraWeb: *Rumex acetosa*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

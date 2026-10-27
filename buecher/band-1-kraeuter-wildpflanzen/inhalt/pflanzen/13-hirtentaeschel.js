@@ -1,0 +1,43 @@
+module.exports = {
+  nr: 13, id: 'hirtentaeschel', saison: 'fruehling',
+  name: 'Hirtentäschel', botanisch: 'Capsella bursa-pastoris',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'im Hirtentäschel',
+  volksnamen: 'Täschelkraut, Herzelkraut, Blutkraut, Bauernsenf, Löffeldieb',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'schrotsaege', blattlaenge: 110, blattbreite: 28, bluete: 'traube', farbe: '#ffffff', bluetengroesse: 55, wurzel: 'pfahl', frucht: 'herzschote', hoehe: 520, knoten: 3, seitenblueten: true,
+    detailbluete: 'kreuz', labels: { bluete: 'kleine weiße Kreuzblüten', blatt: 'Grundblätter: fiederspaltig', stengel: 'Stängel mit herzförmigen Schötchen', wurzel: 'dünne Pfahlwurzel' }, detail3: 'herzförmiges Schötchen' },
+  intro: [
+    'Das Hirtentäschel ist eine der häufigsten Pflanzen der Welt und doch kaum jemandem bekannt. Dabei verrät es sich sofort an seinen Früchten: kleinen, flachen, herz- bis dreieckförmigen Schötchen, die an die Umhängetaschen von Hirten erinnern.',
+    'Junge Blätter schmecken mild kohlartig und leicht pfeffrig, die Samen lassen sich wie Pfeffer verwenden. In der Volksheilkunde war das Hirtentäschel als „Blutkraut“ bekannt.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'einjährig bis überwinternd'],
+    ['Höhe', '5 bis 40 cm'],
+    ['Blätter', 'grundständige Rosette, länglich, fiederspaltig bis ungeteilt; Stängelblätter klein, pfeilförmig, stängelumfassend'],
+    ['Blütezeit', 'fast ganzjährig, Hauptblüte März bis Oktober'],
+    ['Blüten', 'sehr klein, weiß, vier Blütenblätter'],
+    ['Früchte', 'flache, dreieckig-herzförmige Schötchen an abstehenden Stielen'],
+    ['Standort', 'Äcker, Gärten, Wegränder, Brachen'],
+    ['Genutzte Teile', 'junge Blätter, Kraut, Samen'],
+  ],
+  erkennen: [
+    ['Rosette', 'Die grundständigen Blätter ähneln denen des Löwenzahns: länglich und unregelmäßig eingeschnitten. Sie sind aber kleiner, leicht behaart und haben keinen Milchsaft.'],
+    ['Früchte', 'Das sichere Erkennungsmerkmal sind die Schötchen: flach, dreieckig mit herzförmig eingebuchteter Oberkante, an waagrecht abstehenden Stielen entlang des Stängels. Unten am Stängel sind sie schon reif, während oben noch Blüten sitzen.'],
+  ],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Mit den herzförmigen Schötchen ist das Hirtentäschel unverwechselbar. Junge Rosetten können anderen Kreuzblütlern ähneln, die ebenfalls essbar sind.' },
+  standort: ['Hirtentäschel wächst auf Äckern, in Gemüsegärten, an Wegrändern, auf Schuttplätzen und in Pflasterfugen – fast überall, wo der Boden offen ist.'],
+  sammeln: {
+    tabelle: [['Junge Blätter (Rosette)', 'Februar bis Mai, Herbst', 'vor der Blüte'], ['Blühendes Kraut', 'April bis September', 'für Tee: ganze Pflanze ohne Wurzel'], ['Samen', 'Juni bis Oktober', 'reife Schötchen abstreifen']],
+    kalender: [['Blätter', [3, 4, 5], [2, 9, 10]], ['Kraut', [5, 6, 7], [4, 8, 9]], ['Samen', [7, 8, 9], [6, 10]]],
+  },
+  inhaltsstoffe: { punkte: ['**Senfölglykoside** (mild)', '**Flavonoide**', '**biogene Amine** (z. B. Cholin, Tyramin)', '**Kalium**, Vitamin C'] },
+  kueche: { text: ['Junge Hirtentäschel-Blätter schmecken mild, leicht kohl- und kresseartig. Die Samen sind pfeffrig-scharf.'], ideen: ['**Salat:** junge Rosettenblätter.', '**Gemüse:** gedünstet wie Spinat – in China ist Hirtentäschel ein traditionelles Gemüse für Teigtaschen.', '**Füllungen:** für Maultaschen, Ravioli und Dumplings.', '**„Wiesenpfeffer“:** Samen gemörsert als Gewürz.'] },
+  rezepte: [{ titel: 'Hirtentäschel-Teigtaschen', info: 'Für 4 Personen · ca. 45 Minuten', zutaten: ['200 g junge Hirtentäschel-Blätter', '250 g Hackfleisch oder Tofu, zerbröselt', '1 Stück Ingwer (2 cm), 2 Frühlingszwiebeln', '2 EL Sojasauce, 1 TL Sesamöl', '1 Packung Teigblätter für Dumplings (ca. 30 Stück)'], schritte: ['Hirtentäschel blanchieren, ausdrücken, fein hacken.', 'Mit Hack oder Tofu, geriebenem Ingwer, Frühlingszwiebeln, Sojasauce und Sesamöl mischen.', 'Je 1 TL Füllung auf ein Teigblatt geben, Rand befeuchten und zusammendrücken.', 'In kochendem Wasser 5 bis 6 Minuten garen oder in der Pfanne anbraten und mit etwas Wasser zugedeckt dämpfen.'] }],
+  anwendung: {
+    bloecke: ['Hirtentäschelkraut wird traditionell zur **Linderung starker Monatsblutungen** bei regelmäßigem Zyklus verwendet – nachdem eine ernsthafte Ursache ärztlich ausgeschlossen wurde – sowie äußerlich bei **leichtem Nasenbluten**. Für einen Tee 1 bis 2 TL getrocknetes Kraut mit einer Tasse kochendem Wasser übergießen und 10 Minuten ziehen lassen.'],
+    hinweise: ['**Nicht in der Schwangerschaft** anwenden.', 'Starke oder unregelmäßige Blutungen immer ärztlich abklären lassen.', 'Wer gerinnungshemmende Medikamente einnimmt, fragt vorher ärztlich nach.'],
+  },
+  geschichte: ['Der botanische Name *bursa-pastoris* bedeutet wörtlich „Hirtentasche“. Der Name „Löffeldieb“ beschreibt die Schötchen als kleine Löffel. Im Ersten Weltkrieg wurde Hirtentäschel in Deutschland wegen Mangels an Arzneimitteln gesammelt.'],
+  haltbar: [['Trocknen', 'blühendes Kraut gebündelt im Schatten trocknen.', 'ca. 1 Jahr'], ['Samen', 'trocken in Gläsern lagern.', '1 bis 2 Jahre']],
+  vorsicht: ['Nicht in der Schwangerschaft verwenden.', 'Blutungen ärztlich abklären lassen.'],
+  quellen: ['EMA/HMPC: Monographie *Bursae pastoris herba*', 'BfN FloraWeb: *Capsella bursa-pastoris*'],
+};

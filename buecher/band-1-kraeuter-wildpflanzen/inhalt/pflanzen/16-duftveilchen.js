@@ -1,0 +1,46 @@
+module.exports = {
+  nr: 16, id: 'duftveilchen', saison: 'fruehling',
+  name: 'Duftveilchen', botanisch: 'Viola odorata',
+  familie: 'Veilchengewächse (Violaceae)', artikel: 'im Duftveilchen',
+  volksnamen: 'März-Veilchen, Wohlriechendes Veilchen, Veiel, Veigerl',
+  zeichnung: { wuchs: 'rosette', blatt: 'herz', rand: 'gekerbt', blattlaenge: 100, blattbreite: 46, blaetter: 9, bluete: 'fuenf', farbe: '#6b3fa0', mitte: '#f3e9b0', bluetengroesse: 34, wurzel: 'rhizom', frucht: 'kapsel', hoehe: 170, stiele: 3,
+    labels: { bluete: 'violette, duftende Blüte', blatt: 'Blatt: herzförmig, gekerbt', stengel: 'Blütenstiel mit Vorblättchen', wurzel: 'Wurzelstock mit Ausläufern' } },
+  intro: [
+    'Im März, wenn die ersten warmen Sonnenstrahlen kommen, verrät sich das Duftveilchen oft zuerst durch seinen Geruch: ein süßer, pudriger Duft, der über Gartenränder und Hecken zieht. Seine kleinen dunkelvioletten Blüten gehören zu den ersten Frühlingsblumen.',
+    'Veilchenblüten sind essbar und machen Süßspeisen, Sirup und Salate zu etwas Besonderem. Kandierte Veilchen waren früher eine feine Konditorei-Dekoration.',
+  ],
+  steckbrief: [
+    ['Lebensform', 'ausdauernde Staude mit oberirdischen Ausläufern'],
+    ['Höhe', '5 bis 15 cm'],
+    ['Blätter', 'grundständig, rundlich-herzförmig, gekerbt, langgestielt'],
+    ['Blütezeit', 'März bis April, manchmal im Herbst ein zweites Mal'],
+    ['Blüten', 'dunkelviolett (selten weiß), fünf Blütenblätter mit Sporn, stark duftend'],
+    ['Früchte', 'kugelige, behaarte Kapseln'],
+    ['Standort', 'Gärten, Hecken, Waldränder, Parks'],
+    ['Genutzte Teile', 'Blüten, junge Blätter'],
+  ],
+  erkennen: [
+    ['Blätter', 'Die Blätter sind rundlich-herzförmig, am Rand gekerbt und stehen an langen Stielen in einer Rosette. Aus der Rosette wachsen oberirdische Ausläufer, an denen sich neue Pflanzen bilden.'],
+    ['Blüten', 'Jede Blüte sitzt einzeln an einem Stiel, der etwa in der Mitte zwei kleine Vorblättchen trägt. Die Blüte hat fünf Blütenblätter; das untere trägt einen kurzen Sporn. Das wichtigste Merkmal ist der **Duft** – andere Veilchenarten duften kaum.'],
+  ],
+  verwechslung: {
+    text: 'Gefährlich ist allenfalls eine Verwechslung der Blätter mit dem Scharbockskraut, das zur gleichen Zeit an ähnlichen Orten wächst.',
+    tabelle: [['Scharbockskraut (*Ficaria verna*) – **ab der Blüte giftig**', 'rundlich-herzförmige Blätter im Frühjahr', 'Blätter glänzend und fleischig, kaum gekerbt; gelbe Sternblüten'], ['Hunds-Veilchen, Wald-Veilchen', 'ähnliche Blüten', 'blüten hellviolett, **duften nicht**; Blätter länger; Blüten an beblätterten Stängeln'], ['Gundermann', 'rundliche, gekerbte Blätter', 'kriechend, gegenständig, Lippenblüten, würziger Duft']],
+  },
+  standort: ['Das Duftveilchen wächst an Gartenrändern, unter Hecken und Gebüsch, an Waldrändern und in Parks, oft als Gartenflüchtling. Es mag halbschattige, nährstoffreiche, eher kalkhaltige Böden.'],
+  sammeln: {
+    tabelle: [['Blüten', 'März bis April', 'voll geöffnete Blüten an sonnigen Vormittagen'], ['Junge Blätter', 'März bis Mai', 'zarte Blätter für Salate']],
+    kalender: [['Blüten', [3, 4], [10]], ['Blätter', [3, 4, 5]]],
+  },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** mit Ionon (Veilchenduft)', '**Saponine**, vor allem in der Wurzel', '**Schleimstoffe**', '**Flavonoide**', '**Salicylsäure-Verbindungen**'] },
+  kueche: { text: ['Veilchenblüten schmecken süßlich-blumig, die Blätter mild. Die Blüten sind vor allem eine Augenweide und ein Duft-Erlebnis.'], ideen: ['**Kandierte Veilchen** als Kuchendeko.', '**Veilchensirup** für Limonade, Sekt und Desserts.', '**Salat:** Blüten und junge Blätter.', '**Veilchenzucker:** Blüten mit Zucker mörsern.', '**Veilchenbutter:** auf Brot oder Scones.'] },
+  rezepte: [
+    { titel: 'Kandierte Veilchen', info: 'Für etwa 50 Blüten · 30 Minuten plus Trockenzeit', zutaten: ['50 Veilchenblüten', '1 Eiweiß', 'feiner Zucker'], schritte: ['Eiweiß leicht schaumig schlagen.', 'Blüten mit einem feinen Pinsel rundum hauchdünn mit Eiweiß bestreichen.', 'Mit feinem Zucker bestreuen.', 'Auf Backpapier mindestens 24 Stunden trocknen lassen.'], tipp: 'In einer Dose zwischen Backpapier halten sie mehrere Wochen.' },
+    { titel: 'Veilchensirup', info: 'Für ca. 300 ml', zutaten: ['2 Handvoll Veilchenblüten', '200 ml Wasser', '250 g Zucker', 'einige Tropfen Zitronensaft'], schritte: ['Blüten mit dem heißen (nicht mehr kochenden) Wasser übergießen und über Nacht ziehen lassen.', 'Abseihen, mit Zucker sanft erwärmen, bis er sich gelöst hat – nicht kochen, sonst verliert sich der Duft.', 'Zitronensaft zugeben (die Farbe wechselt von blau nach violett-rosa) und abfüllen.'] },
+  ],
+  anwendung: { bloecke: ['In der Volksheilkunde wurden Blüten und Blätter bei **Husten** und **Heiserkeit** als Tee oder Sirup verwendet. Die Wurzel enthält Saponine und wirkt in größeren Mengen brechreizend.', '**Übrigens:** Die „Veilchenwurzel“, auf der Babys früher beim Zahnen kauten, stammt nicht vom Veilchen, sondern von der Schwertlilie (*Iris*) – sie riecht nur nach Veilchen.'], hinweise: ['Wurzeln und Samen nicht essen – sie können Übelkeit und Erbrechen auslösen.'] },
+  geschichte: ['Das Veilchen war in der Antike der Göttin Aphrodite geweiht und galt im Mittelalter als Symbol der Bescheidenheit. Kaiserin Joséphine und Napoleon liebten Veilchen; seine Anhänger nannten ihn „Caporal Violette“.'],
+  haltbar: [['Kandieren', 'Siehe Rezept.', 'mehrere Wochen'], ['Sirup', 'Siehe Rezept.', 'mehrere Monate im Kühlschrank'], ['Trocknen', 'Blüten auf Papier trocknen.', 'ca. 6 Monate']],
+  vorsicht: ['Nur Blüten und junge Blätter verwenden; Wurzel und Samen nicht essen.', 'Nicht mit Scharbockskraut verwechseln.'],
+  quellen: ['BfN FloraWeb: *Viola odorata*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};
