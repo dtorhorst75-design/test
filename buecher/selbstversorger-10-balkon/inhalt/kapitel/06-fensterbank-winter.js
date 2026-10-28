@@ -1,0 +1,17 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 6, id: 'fensterbank-winter', teil: 'fenster', titel: 'Sprossen, Microgreens und Kräuter auf der Fensterbank', kurz: 'Fensterbank',
+  bloecke: [
+    'Im Winter ruht der Balkon – die Fensterbank nicht. Mit Sprossen und Microgreens erntest du das ganze Jahr frisches Grün, in wenigen Tagen und auf kleinstem Raum.',
+    { tabelle: [['', 'Keimsprossen', 'Microgreens'],
+      ['Was', 'gekeimte Samen, die du samt Wurzel isst', 'junge Pflänzchen mit den ersten Blättchen, über der Erde geschnitten'],
+      ['Wie', 'im Glas, nur mit Wasser', 'auf Erde oder einem Stück Stoff, mit Licht'],
+      ['Dauer', '2 bis 5 Tage', '7 bis 14 Tage'],
+      ['Gut geeignet', 'Mungbohnen, Linsen, Kichererbsen, Alfalfa, Brokkoli, Radieschen', 'Kresse, Senf, Rucola, Radieschen, Sonnenblumen, Erbsen, Brokkoli'],
+    ], breiten: [1700, 3700, 3670] },
+    { warnung: 'Hygiene bei Sprossen', zeilen: ['Die feuchte Wärme beim Keimen mögen auch Bakterien. Verwende **Saatgut speziell für Sprossen** (nicht gebeiztes Gartensaatgut), arbeite sauber, spüle mindestens zweimal täglich und iss Sprossen bald. **Schwangere, Kleinkinder, ältere und abwehrgeschwächte Menschen** sollten Sprossen vor dem Essen erhitzen (kurz in der Pfanne oder in kochendes Wasser). **Bohnen-, Kichererbsen- und Sojasprossen** immer gegart essen.'] },
+    R({ titel: 'Sprossen im Glas', info: 'Für ein Glas à 750 ml', thema: T.FENSTER, zutaten: ['2 EL Sprossensaatgut (z. B. Linsen, Mungbohnen, Radieschen, Brokkoli)', 'ein großes Schraubglas', 'ein Stück Gaze oder ein Sieb-Deckel, ein Gummiband'], schritte: ['Glas heiß ausspülen. Samen hineingeben und mit der doppelten Menge Wasser bedecken.', 'Über Nacht (8 bis 12 Stunden) einweichen lassen.', 'Gaze mit dem Gummiband über die Öffnung spannen, das Wasser abgießen, mit frischem Wasser spülen und wieder abgießen.', 'Das Glas schräg kopfüber in eine Schale stellen, damit das Wasser abläuft. Nicht in die pralle Sonne.', '**Morgens und abends spülen.**', 'Nach 2 bis 5 Tagen, wenn die Keime 1 bis 3 cm lang sind, ein letztes Mal spülen, abtropfen lassen und im Kühlschrank aufbewahren. Innerhalb von 2 bis 3 Tagen essen.'], tipp: 'Riechen die Sprossen muffig oder werden sie schleimig: wegwerfen. Die feinen weißen Härchen an den Wurzeln sind dagegen normal.' }),
+    R({ titel: 'Microgreens auf der Fensterbank', info: 'Ganzjährig', thema: T.FENSTER, zutaten: ['eine flache Schale oder Kiste (3 bis 5 cm tief)', 'Anzuchterde oder gesiebter Kompost', 'Saatgut: Kresse, Senf, Rucola, Radieschen, Erbsen', 'eine Sprühflasche, eine Schere'], schritte: ['Die Schale mit 2 bis 3 cm Erde füllen und glatt drücken.', 'Die Samen **dicht an dicht** ausstreuen (Erbsen vorher über Nacht einweichen).', 'Leicht andrücken, mit der Sprühflasche gut anfeuchten, die ersten zwei Tage abdecken.', 'Dann ans helle Fenster stellen und täglich besprühen.', 'Nach 7 bis 14 Tagen, wenn die ersten Blättchen entfaltet sind, mit der Schere knapp über der Erde abschneiden.'], tipp: 'Kresse braucht nicht einmal Erde – ein feuchtes Küchentuch auf einem Teller genügt. Die abgeerntete Erde kommt auf den Kompost oder in die Wurmkiste.' }),
+    { punkte: ['**Schnittlauch** aus dem Garten treiben (Heft 8).', '**Petersilie** im Topf hält auf der kühlen Fensterbank bis zum Frühjahr.', '**Frühlingszwiebeln:** die Wurzelenden von gekauften Frühlingszwiebeln in ein Glas Wasser stellen – sie treiben neues Grün.'] },
+  ],
+};

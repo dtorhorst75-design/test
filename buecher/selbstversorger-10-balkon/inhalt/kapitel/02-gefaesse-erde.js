@@ -1,0 +1,25 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 2, id: 'gefaesse-erde', teil: 'planen', titel: 'Töpfe, Kästen, Säcke und Erde', kurz: 'Gefäße und Erde',
+  bloecke: [
+    'Im Topf hat eine Pflanze nur so viel Erde, Wasser und Nahrung, wie du ihr gibst. Die wichtigste Regel deshalb: **so groß wie möglich.** Kleine Töpfe trocknen im Sommer mehrmals am Tag aus.',
+    { tabelle: [['Pflanze', 'Mindestgröße', 'Gut zu wissen'],
+      ['Tomate', '20 bis 30 Liter pro Pflanze', 'Buschtomaten und Cocktailtomaten sind ideal'],
+      ['Zucchini', '40 bis 60 Liter', 'eine kompakte Sorte, eine Pflanze genügt'],
+      ['Paprika, Chili', '10 bis 15 Liter', 'warmer Platz an der Hauswand'],
+      ['Kartoffeln', '40 bis 60 Liter (Pflanzsack)', 'Frühkartoffeln, 3 bis 4 Knollen'],
+      ['Buschbohnen', 'Kasten, 20 cm tief', '4 bis 6 Pflanzen pro Meter'],
+      ['Stangenbohnen, Erbsen', 'Kasten oder Kübel, 25 cm tief', 'mit Rankhilfe am Geländer oder an der Wand'],
+      ['Salat, Radieschen, Spinat, Mangold', 'Kasten, 15 bis 20 cm tief', 'ideal für Staffelsaat (Heft 2)'],
+      ['Möhren', 'Kasten oder Eimer, 30 cm tief', 'kurze, runde Sorten (z. B. Pariser Markt)'],
+      ['Erdbeeren', '3 bis 5 Liter pro Pflanze', 'gern in Ampeln, Säcken oder Etagentöpfen'],
+      ['Kräuter', '3 bis 10 Liter', 'siehe Heft 8'],
+      ['Heidelbeere, Säulenobst', '40 bis 60 Liter', 'siehe Heft 9'],
+    ], breiten: [2700, 2600, 3770] },
+    { h2: 'Gefäße aus dem Vorhandenen' },
+    { punkte: ['**Holzkisten** (Obstkisten, Weinkisten) mit Jutestoff oder Kartoffelsäcken auskleiden.', '**Eimer** (mindestens 10 Liter), alte Wannen, Waschschüsseln – unten Löcher bohren.', '**Jutesäcke** und stabile Einkaufstaschen aus Stoff als Pflanzsäcke für Kartoffeln.', '**Europaletten** senkrecht an die Wand gelehnt, die Zwischenräume mit Jute zu kleinen Taschen für Salat und Kräuter.', 'Was zählt: **Abzugslöcher** im Boden und eine **Drainageschicht** aus Kies oder Tonscherben.'] },
+    R({ titel: 'Ein Gießtopf, der sich selbst bewässert', info: 'Für Tomaten und durstige Pflanzen', thema: [T.PLANEN, T.PFLEGE], zutaten: ['zwei Töpfe oder Eimer, die ineinanderpassen; der innere mit Löchern im Boden', 'ein Stück Baumwollstoff oder ein Baumwolldocht (etwa 30 cm)', 'ein Stück Rohr oder Schlauch zum Nachfüllen', 'Erde'], schritte: ['In den Boden des inneren Topfes ein Loch für den Docht schneiden.', 'Den Docht von innen durch das Loch fädeln, sodass er unten 10 cm heraushängt und innen in die Erde reicht.', 'Das Rohr am Rand in den inneren Topf stellen – es reicht bis in den Zwischenraum.', 'Den inneren Topf in den äußeren stellen; zwischen den Böden soll ein Hohlraum von 5 bis 10 cm bleiben (notfalls Steine unterlegen).', 'Den inneren Topf mit Erde füllen und bepflanzen.', 'Durch das Rohr Wasser in den Hohlraum füllen. Der Docht saugt es nach oben.'], tipp: 'Das alte Prinzip spart viel Gießarbeit im Hochsommer. In den ersten zwei Wochen trotzdem von oben gießen, bis die Wurzeln den Docht erreicht haben.' }),
+    { h2: 'Die richtige Erde' },
+    'Für Gemüse im Topf: **2 Teile reifer Kompost oder Lauberde, 1 Teil Gartenerde, ein Teil Sand oder feiner Kies**, dazu eine Handvoll Wurmhumus (Heft 3) pro Topf. Wer keinen Kompost hat, kauft **torffreie** Gemüseerde. Nach einer Saison ist die Erde ausgelaugt: Mische sie mit frischem Kompost auf oder gib sie auf den Kompost der Gemeinschaftsgärten.',
+  ],
+};
