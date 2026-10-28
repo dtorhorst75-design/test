@@ -1,0 +1,92 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 7",
+  "titel": "Der Bunker unter dem Zeppelin",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-7-Wuensdorf",
+  "ort": "Wünsdorf",
+  "besuchen": [
+    "Wünsdorf gehört zur Stadt Zossen im Landkreis Teltow-Fläming und liegt etwa 40 Kilometer südlich von Berlin. Seit Anfang des 20. Jahrhunderts war der Ort ein großer Militärstandort. Im Zweiten Weltkrieg entstanden hier im Wald riesige Bunkeranlagen, unter anderem Maybach I, Maybach II und der Nachrichtenbunker Zeppelin.",
+    "Von 1945 bis 1994 war Wünsdorf das Hauptquartier der sowjetischen, später russischen Truppen in Deutschland. Zehntausende Menschen lebten hier, Deutsche durften die Stadt nicht betreten, daher der Name „Verbotene Stadt“. 1994 zogen die letzten Truppen ab. Vor dem Haus der Offiziere steht bis heute eine Lenin-Statue.",
+    "Heute ist Wünsdorf eine Bücherstadt mit Antiquariaten und Museen. Die Bunker kannst du nur bei offiziellen Führungen besichtigen, Termine findest du beim Tourismusbüro der Bücherstadt. Bitte geh nie auf eigene Faust in Bunker, verlassene Kasernen oder Schächte, auch nicht für Fotos oder Videos. Es gibt Einsturzgefahr, Kälte, Dunkelheit und keinen Handyempfang.",
+    "In der Umgebung liegen viele Seen, zum Beispiel der Große Wünsdorfer See. Wer einen vermissten Angehörigen aus dieser Zeit sucht, kann sich an Suchdienste wenden, etwa den Suchdienst des Deutschen Roten Kreuzes.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, das Antiquariat, das Café, die Pension, der Gang hinter der Sprengstelle mit dem Raum und der Stahltür, der Notausgang, die Übergabeprotokolle, der kleine Friedhof am Waldrand in dieser Form und das Verbrechen. Die Abläufe bei Polizei, Rechtsmedizin, Behörden und Bunkerführungen sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "ILSE": ["Ilse Wendland, Antiquarin", "Sprecherin 1 (leise, genau)"],
+    "PAWEL": ["Pawel Orlow (Brief und Tagebuch)", "Sprecher 3 (jung, russischer Akzent)"],
+    "KATRIN": ["Katrin Schulz", "Sprecherin 1 (warm, brandenburgisch)"],
+    "BERND": ["Bernd Schulz", "Sprecher 2 (alt, rau, ruhig)"],
+    "OLGA": ["Olga Orlowa", "Sprecherin 1 (russischer Akzent, rollendes R)"],
+    "SAUER": ["Kommissar Dimitri Sauer", "Sprecher 2 oder 3 (sehr leise)"],
+    "LINDNER": ["Frau Lindner, Tourismusbüro", "Sprecherin 1"],
+    "KUBITZ": ["Andreas Kubitz", "Sprecher 3"],
+    "KEVIN": ["Kevin Rathenow („Bunker-Kev“)", "Sprecher 3 (jung, berlinerisch)"],
+    "KOLLEGE": ["Junger Polizist", "Sprecher 3"],
+    "ACHIM": ["Achim Krause", "Sprecher 2 oder 3"],
+    "KALKAR": ["Hermann Terhorst (Brief)", "Sprecher 2 (alt, niederrheinisch)"]
+  },
+  "aussprache": [
+    "Wünsdorf – WÜNS-dorf",
+    "Zossen – ZOS-sen",
+    "Zeppelin – TSEP-pe-lin",
+    "Pawel – PA-wel",
+    "Pascha – PA-scha",
+    "Orlow, Orlowa – OR-low, OR-lo-wa",
+    "Smolensk – smo-LENSK",
+    "Walenki – wa-LEN-ki (Filzstiefel)",
+    "Bajan – ba-JAN (russisches Knopfakkordeon)",
+    "Prosti, maltschik – pras-TI, MAL-tschik (Verzeih, Junge)",
+    "Kalinka – ka-LIN-ka",
+    "Soljanka – sol-JAN-ka",
+    "Puschkin – PUSCH-kin",
+    "Kalkar – KAL-kar"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Die Verbotene Stadt",
+      "figuren": ["Jo", "Konrad", "Benny", "Hermine"],
+      "beschreibung": "Verschneite Straße mit Kopfsteinpflaster zwischen verfallenen Kasernen aus gelbem Klinker, verblasste sowjetische Wandbilder. Vor einem großen gelben Gebäude mit Säulen steht eine Lenin-Statue mit Schnee auf den Schultern. Hermine fährt langsam vorbei.",
+      "prompt": "A straight snow-covered cobblestone street through a pine forest, lined with large abandoned barracks of yellow and red brick, broken windows, birch saplings growing from the gutters, faded Soviet murals and Cyrillic letters on the walls. On a square stands a large yellow neoclassical building with columns and a red tiled roof, and in front of it, on a tall granite plinth, a bronze statue of a bearded man with a cap and outstretched arm, snow on his shoulders. The vintage hearse drives slowly past, leaving the first tyre tracks in fresh snow. Silent, grey January light, melancholic and eerie."
+    },
+    "2": {
+      "titel": "Katjas Café",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Ein kleines, warmes Café mit karierten Tischdecken, Kachelofen und Schwarz-Weiß-Fotos von sowjetischen Soldaten und einem abfahrenden Zug an den Wänden. Hinter der Theke Katrin (49, blond, mehlige Schürze). Am Kachelofen ein großer alter Mann mit weißem Bürstenhaar und Zeitung. Die drei am Fenster, der Dackel unter dem Tisch.",
+      "prompt": "A small cosy village café with six little tables with checked tablecloths, a glass cabinet full of apple crumble cakes and an old tiled stove in the corner. On the walls black-and-white photographs of young Soviet soldiers in oversized caps, children playing under a statue and a train leaving a station with soldiers waving from the windows. Behind the counter a friendly woman of 49 with short blonde hair and a flour-dusted apron cuts a cake. In the corner by the stove a big old man of 80 with bristly white hair and a dark green cardigan sits with a newspaper, watching over the top of it. The woman with red glasses, the old man in a navy peaked cap and the young man sit by the window, a small wire-haired dachshund under the table. Warm light outside snow, subtle tension."
+    },
+    "3": {
+      "titel": "Der Eingang im Wald",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Im verschneiten Kiefernwald ein langer flacher Hügel, an einer Seite eine graue Betonmauer mit Graffiti und einer rostigen Stahltür, angelehnt, das Vorhängeschloss offen. Davor die drei mit weißen Helmen und Stirnlampen, eine junge Frau mit roter Mütze und großem Schlüsselbund, eine Antiquarin mit langem grauem Zopf, der Dackel knurrt.",
+      "prompt": "A snowy pine forest in January. A long low mound covered with snow and young pine trees, and on one side, like a mouth opening into the earth, a cracked grey concrete wall with moss and graffiti and a heavy rusty steel door standing ajar, an open padlock hanging from the hasp. In front of it the three characters wearing white plastic helmets with headlamps, a young woman in a red woollen hat with a huge bunch of keys, a tall woman of 68 with a long grey braid and a green wool coat holding a thermos, and a small dachshund growling at the dark opening. Cold breath in the air, ominous silence."
+    },
+    "4": {
+      "titel": "Die Stahltür",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Tief unter der Erde, in einem schmalen, eiskalten Gang mit Raureif an den Wänden: eine graue Stahltür mit einem kleinen runden Guckloch und einem schweren eisernen Riegel, vorgeschoben. Davor auf dem Boden eine große schwarze Taschenlampe. Benny leuchtet durch das Guckloch, Konrad und Jo dahinter.",
+      "prompt": "Deep underground in a narrow, slightly crooked concrete corridor, so cold that hoarfrost glitters on the walls and ceiling in the light of headlamps, breath forming white clouds. At the end a grey steel door with rust at the edges, a small round thick-glass peephole at eye level and a heavy iron bolt pushed across it from the outside. On the floor in front of the door lies a large black torch, switched off. The young man leans to the peephole, shining his light through; behind him the old man in a white helmet and the woman with red glasses stand frozen. Claustrophobic, chilling, hushed."
+    },
+    "5": {
+      "titel": "Zwei Frauen",
+      "figuren": ["Jo", "Benny"],
+      "beschreibung": "Blick durch das beschlagene Fenster des Cafés im Schnee: Drinnen umarmen sich zwei Frauen Ende vierzig, die eine mit blonder Kurzhaarfrisur und mehliger Schürze, die andere mit dunklen kurzen Haaren in Winterjacke und weißer Krankenhaushose. Auf der Theke ein kleines Schwarz-Weiß-Foto. Am Kachelofen ein leerer Tisch mit gefalteter Zeitung. Draußen vor dem Fenster Jo und Benny im Schnee.",
+      "prompt": "Seen through the misty window of a small village café from the snowy street outside: inside, two women in their late forties embrace tightly – one with short blonde hair and a flour-dusted apron, the other short and sturdy with short dark hair, a winter jacket and white hospital trousers, a backpack at her feet. On the counter lies a small black-and-white photograph with a deckled edge. In the corner by a tiled stove an empty table with a neatly folded newspaper and an untouched cup of coffee. Outside in the snow, in the foreground, the woman with red glasses and the young man stand watching, not daring to go in. Tender, heartbreaking."
+    },
+    "6": {
+      "titel": "Fünf Äpfel",
+      "figuren": ["Konrad"],
+      "beschreibung": "Der kahle Betonraum im Bunker, nur von einer Kerze im Glas beleuchtet. Auf einem eisernen Feldbett ohne Matratze sitzt ein alter Mann im dunklen Mantel mit grauen Filzstiefeln, einen Holzwanderstock über den Knien, neben ihm fünf rote Äpfel in einer Reihe. An der Wand über ihm eingeritzte Striche und das Wort КАТЯ. Konrad sitzt ihm gegenüber auf dem Boden, den weißen Helm neben sich.",
+      "prompt": "A small bare concrete room deep underground, lit only by a single candle in a glass. On an empty iron field bed with bare springs sits a big old man of 80 in a dark coat and tall grey Russian felt boots, a hand-carved wooden walking stick across his knees; beside him on the iron frame five shiny red apples lie in a neat row. On the wall above him rows of scratched tally marks and, carved deeper and larger, the Cyrillic word КАТЯ. Opposite him the old man in a grey suit sits on the cold floor with his back to the wall, a white helmet beside him, listening. Through the open steel door figures stand in the dark corridor. Deeply sad, quiet, almost sacred."
+    },
+    "7": {
+      "titel": "Kalinka",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Ein kleiner Friedhof am Waldrand im Schnee mit schlichten Steinen mit kyrillischen Buchstaben. Am offenen Grab ein heller Holzsarg mit einem roten Apfel und einem kleinen roten Buch darauf. Auf einer Bank spielt ein Kommissar mit Pelzmütze ein großes schwarzes Knopfakkordeon, daneben eine Frau ein kleines rotes Akkordeon. Ein orthodoxer Priester mit Bart, wenige Trauergäste, eine blonde Frau lacht unter Tränen.",
+      "prompt": "A small cemetery at the edge of a pine forest in February snow, simple headstones with Cyrillic letters, red stars and Orthodox crosses, all freshly swept clean of snow. At an open grave a plain light wooden coffin with a single red apple and a small dark red book lying open on its lid. On a bench a slim man in a long dark coat and a fur hat with ear flaps plays a large black button accordion; beside him a short woman with dark hair plays a small red accordion with mother-of-pearl keys. A Russian Orthodox priest with a long grey beard and black robes, incense smoke drifting between the pines. A handful of mourners; a blonde woman laughs through her tears. The old man in a navy peaked cap, the woman with red glasses and the young man with a barking dachshund stand by the grave. Bittersweet, warm, hopeful."
+    }
+  }
+}

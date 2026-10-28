@@ -57,4 +57,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 4. Landunter (Halligen, Nordfriesland)
 5. Was der Berg gehört hat (Teufelsberg, Berlin)
 6. Die letzte Schicht (Völklinger Hütte, Saarland)
-7. Wünsdorf (Brandenburg) – Auftrag: Antiquarin Ilse Wendland, Brief eines sowjetischen Soldaten von 1994 an seine Mutter in Smolensk: „such mich im Bunker unter dem Zeppelin“. Benny hat jetzt Dackel Fridolin. Achim: viertes Abendessen an Weihnachten
+7. Der Bunker unter dem Zeppelin (Wünsdorf, Brandenburg)
+8. Kalkar (Niederrhein) – „Wunderland“, nie in Betrieb gegangener Schneller Brüter, heute Freizeitpark mit Kettenkarussell im Kühlturm. Auftrag: Hermann Terhorst (84), Ingenieur 1973–1991, Kollege Gerrit van Heek verschwand November 1985, „unter dem Kettenkarussell“. Herr Becker hat eine neue Knospe, Fridolin schläft auf Konrads Kissen mit 42 Rosen. Achim kocht weiter, ohne zu zählen.
