@@ -1,0 +1,41 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 1",
+  "titel": "Der Messingring von Wollseifen",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-1-Wollseifen",
+  "ort": "Wollseifen",
+  "besuchen": [
+    "Wollseifen liegt im Nationalpark Eifel auf der Dreiborner Hochfläche bei Schleiden. Das Dorf wurde im Spätsommer 1946 auf Anordnung der britischen Militärregierung geräumt; danach war das Gelände fast sechzig Jahre lang Truppenübungsplatz, zuerst der Briten, ab 1950 der belgischen Armee. Seit 2006 gehört es zum Nationalpark Eifel.",
+    "Heute erreichst du Wollseifen zu Fuß oder mit dem Fahrrad, zum Beispiel vom Besucherzentrum Vogelsang aus (etwa vier Kilometer). Die Kirche, die alte Schule, die Grundmauern der Häuser mit kleinen Schildern und die Übungshäuser der belgischen Armee kannst du auf den Wegen besichtigen. Mit dem Auto darf man nicht hinfahren.",
+    "Bitte bleib auf den Wegen: Der Nationalpark schützt hier seltene Tiere und Pflanzen, und auf dem ehemaligen Truppenübungsplatz kann abseits der Wege noch Munition im Boden liegen. Infos, Öffnungszeiten und Führungen findest du beim Nationalpark Eifel und bei Vogelsang IP.",
+    "Was erfunden ist: Alle Figuren, ihre Familien, der Heimatverein „Heimatfreunde Hochfläche“, die Firma Lentzen Bau, die Milchkanne und das Verbrechen sind frei erfunden. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig. Die Einrichtung der Kirche, die Grabung an der Schule und manche Abläufe bei Polizei und Behörden sind für die Geschichte verändert."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "ANNELIESE": ["Anneliese (Brief)", "Gaststimme oder Sprecherin 1"],
+    "GAST": ["Absender aus Hof (Brief)", "Gaststimme oder Sprecher 2"],
+    "SVENJA": ["Svenja Brück", "Sprecherin 1"],
+    "JOSEFINE": ["Josefine Esser", "Sprecherin 1"],
+    "MERTES": ["Kommissarin Mertes", "Sprecherin 1"],
+    "KLEIN": ["Notarin Dr. Klein", "Sprecherin 1"],
+    "HAMACHER": ["Frau Hamacher", "Sprecherin 1"],
+    "KALFF": ["Gerd Kalff", "Sprecher 2"],
+    "BERND": ["Bernd Lentzen", "Sprecher 3 mit tiefer Stimme oder Gaststimme"],
+    "DIETER": ["Dieter Brück", "Sprecher 3"],
+    "LUKAS": ["Lukas Stollenwerk", "Sprecher 3"],
+    "ACHIM": ["Achim Krause", "Sprecher 3"]
+  },
+  "aussprache": [
+    "Wollseifen – WOLL-sei-fen",
+    "Dreiborn – DREI-born",
+    "Herhahn – HER-hahn",
+    "Urft (Fluss, Urftsee) – wie geschrieben, kurzes u",
+    "Vogelsang – FOH-gel-sang",
+    "Lentzen – LENT-zen",
+    "Stollenwerk – STOL-len-werk",
+    "Hamacher – HAH-mach-er"
+  ]
+}
