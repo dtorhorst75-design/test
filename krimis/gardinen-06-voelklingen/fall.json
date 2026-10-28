@@ -1,0 +1,89 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 6",
+  "titel": "Die letzte Schicht",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-6-Voelklingen",
+  "ort": "Die Völklinger Hütte",
+  "besuchen": [
+    "Die Völklinger Hütte liegt mitten in Völklingen an der Saar, nicht weit von Saarbrücken. Hier wurde über hundert Jahre lang Roheisen hergestellt, 1986 war damit Schluss. Die Anlage blieb fast vollständig erhalten und wurde 1994 als erstes Industriedenkmal aus der Blütezeit der Industrialisierung zum UNESCO-Weltkulturerbe erklärt.",
+    "Heute ist die Hütte ein Museum und Ausstellungsort. Du kannst durch die riesige Gebläsehalle gehen, die Möllerhalle unter den Hochöfen besuchen und über Treppen bis auf eine Aussichtsplattform in rund 45 Meter Höhe steigen. In der ehemaligen Kokerei wächst ein verwilderter Garten, das „Paradies“. Abends wird die Anlage farbig beleuchtet. Öffnungszeiten, Führungen und Ausstellungen findest du auf der Website des Weltkulturerbes. Feste Schuhe und warme Kleidung sind eine gute Idee, und nach dem Besuch hast du oft rostrote Hände.",
+    "In der Umgebung lohnt sich die Saarschleife bei Mettlach mit dem Aussichtspunkt Cloef. Im Saarland gehören Bergbau und Hütte eng zusammen, das Lied „Glück auf, der Steiger kommt“ wird bis heute bei vielen Anlässen gespielt.",
+    "Die Berufsgenossenschaften sind die gesetzliche Unfallversicherung für Arbeitsunfälle. Wer glaubt, dass bei einem Arbeitsunfall in der Familie etwas falsch entschieden wurde, kann sich dort oder bei einer Beratungsstelle informieren.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, der Förderverein, die Ausstellung, das Archiv, die Pizzeria, die Kleingartenanlage, die Beerdigungen und das Verbrechen. Der Unfall von 1984, die Abläufe auf dem Gelände, die Sanierung der Winderhitzer und die Arbeit von Polizei, Rechtsmedizin, Staatsanwaltschaft und Berufsgenossenschaft sind für die Geschichte erfunden oder verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "MARLENE": ["Marlene Schäfer", "Sprecherin 1 (Saarländisch, warm, fest)"],
+    "WEBER": ["Kommissar Pascal Weber", "Sprecher 2 oder 3 (Saarländisch, gemütlich)"],
+    "ZIMMER": ["Rainer Zimmer", "Sprecher 2 (freundlich, später gebrochen)"],
+    "MARCO": ["Marco Russo", "Sprecher 3 (Saarländisch mit italienischem Klang)"],
+    "MONZ": ["Frau Monz", "Sprecherin 1 (alt, Saarländisch)"],
+    "ALTMEYER": ["Herr Altmeyer, Archiv", "Sprecher 2 (alt, Saarländisch)"],
+    "BRIGITTE": ["Brigitte Zimmer", "Sprecherin 1"],
+    "THOMAS": ["Thomas Schäfer", "Sprecher 3"],
+    "ACHIM": ["Achim Krause", "Sprecher 2 oder 3"],
+    "WUENSDORF": ["Ilse Wendland (Postkarte)", "Sprecherin 1"]
+  },
+  "aussprache": [
+    "Völklingen – FÖLK-lin-gen",
+    "Saar – SAAR",
+    "Wehrden – WEHR-den",
+    "Cowper – KAU-per (Winderhitzer)",
+    "Möllerhalle – MÖL-ler-hal-le",
+    "Hoorische – HOO-ri-sche (Kartoffelklöße)",
+    "Lyoner – LI-o-ner (Fleischwurst)",
+    "Henkelmann – HEN-kel-mann",
+    "Hennes – HEN-nes",
+    "Altmeyer – ALT-mei-er",
+    "Russo – RUS-so",
+    "Isch, net, gell – Saarländisch für ich, nicht, nicht wahr",
+    "Wünsdorf – WÜNS-dorf"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Der rostige Riese",
+      "figuren": ["Jo", "Konrad", "Benny", "Hermine"],
+      "beschreibung": "Ankunft in Völklingen im Nebel: direkt neben der kleinen Stadt ein Gebirge aus rostbraunem Eisen, sechs Hochöfen, Rohre, Schornsteine, Kräne. Hermine auf einer Brücke über der Saar, die drei schauen hinüber.",
+      "prompt": "A small grey German town on a river in fog, with Christmas lights in its streets; right next to the houses rises an enormous historic ironworks, a mountain of rust-brown iron in a hundred shades: six blast furnaces in a row, a tangle of huge pipes, chimneys, cranes, catwalks and staircases. On a bridge over the river the vintage hearse has stopped; the three characters stand at the railing looking across at it, tiny against its scale. Damp December mist, awe-inspiring, like a sleeping dragon."
+    },
+    "2": {
+      "titel": "Die Laube an der Saar",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Kleingartenanlage am Fluss: eine verkohlte Gartenlaube hinter rot-weißem Absperrband, das Vorhängeschloss außen an der Tür. Ein leerer Hundekorb unter dem Vordach. Ein großer, runder Kommissar mit grauen Locken und Lederjacke isst ein Brötchen. Konrad betrachtet das Schloss.",
+      "prompt": "A small allotment garden on a grey river bank in winter: beds covered with straw, a little greenhouse with green tomatoes, and in the middle a burnt-out wooden garden shed, its roof collapsed, walls charred black, behind fluttering red-and-white police tape. On the blackened door a small brass padlock hangs closed in the hasp outside. Under a small canopy an empty wicker dog basket with an old blanket. A big, round-faced detective in his late forties with grey curls and a tight leather jacket eats a sandwich; the old man in a grey suit bends close to look at the padlock; the woman and the young man stand near. Above the railway embankment behind looms the rusty ironworks in the fog. Melancholic and tense."
+    },
+    "3": {
+      "titel": "Die letzte Schicht",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "In der dunklen Möllerhalle: eine Fotoausstellung mit großen Schwarz-Weiß-Fotos auf weißen Tafeln. Vorne das Foto von Erwin Schäfer beim letzten Abstich. Davor ein schlanker Mann um die 65 mit grauem Bart in dunkelblauer Arbeitsjacke, der Schülern erzählt. Die drei hören zu.",
+      "prompt": "A long, dark industrial hall beneath blast furnaces, with concrete ore bunkers and narrow rails on the floor. Along the walls a photo exhibition: large black-and-white photographs on white panels lit by small spotlights, showing workers in silver heat-protective jackets and molten iron pouring out like sunlight. In front of the first photo, a broad man with a moustache holding a long iron bar at the tap hole, a slim man of about 65 with short grey hair and a neat grey beard in a dark blue work jacket explains it warmly to a group of schoolchildren. The woman with red glasses, the old man with a navy peaked cap and the young man listen at the back. Atmospheric, nostalgic, with a hidden unease."
+    },
+    "4": {
+      "titel": "Der Henkelmann",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "In Marlenes kleiner Küche: auf dem Tisch zwischen Tellern ein alter, verbeulter grauer Henkelmann, der Deckel aufgebrochen, darin ein gelbes, sehr klein gefaltetes Papier. Marlene (70, graue kurze Haare, geblümte Kittelschürze) streckt zitternd die Hand aus. Konrad mit Lesebrille daneben, ein verbogenes Buttermesser auf dem Tisch.",
+      "prompt": "A small, warm old-fashioned kitchen with lace doilies and shelves of preserved fruit in jars. On the table between plates of potato dumplings stands an old dented grey metal two-tier lunch pail; its lid is pried open, revealing a tiny, flat, folded yellowish sheet of carbon-copy paper hidden inside. A sturdy woman of 70 with short grey hair, a flowered apron over a thick sweater, reaches toward it with trembling hands. Beside her the old man in reading glasses sits very still, a slightly bent butter knife on the table. The woman with red glasses and the young man watch, holding their breath; a small grey-bearded wire-haired dachshund lifts its head under the table. Intimate, breathless."
+    },
+    "5": {
+      "titel": "Die Hütte bei Nacht",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Nachts: Die Hütte leuchtet im Nebel in Blau, Grün und Violett. Daneben stehen drei hohe, runde Winderhitzer schwarz im Schatten. Am dritten, in halber Höhe, auf einer Bühne, eine offene runde Luke, aus der von tief unten ein schwaches Licht kommt. Konrad steigt die Leiter hinauf, Benny dicht hinter ihm. Unten warten Jo, Marlene, Marco und ein Kommissar mit großer Taschenlampe.",
+      "prompt": "Night, thick fog: a historic ironworks illuminated in blue, green and violet light, blast furnaces glowing like ice cathedrals, pipes shining green. Next to it three tall cylindrical hot-blast stoves stand black in shadow like giant tombstones. Halfway up the third one, on a narrow catwalk with a railing, a round hatch stands open, a heavy rusty steel cover leaning beside it, and from deep inside comes a faint white light like from a well. An old man in a grey suit climbs the iron ladder towards it, the young man two rungs below him. At the foot of the ladder wait the woman with red glasses, a small woman of 70 in a coat and knitted cap, a strong man with flour on his sleeves and a big detective with a huge torch. Eerie, dramatic, dreamlike."
+    },
+    "6": {
+      "titel": "Morgengrauen",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Am frühen Morgen, als die Beleuchtung aus ist: Am Fuß des Winderhitzers steht eine Trage mit einem weißen Tuch, darauf sorgfältig eine silberne Schutzjacke gelegt. Davor in einer stillen Reihe Konrad mit der Mütze vor der Brust, Benny, Jo, Marco, Polizisten und fünf Höhenretter in roten Overalls. Marlene legt die Hand auf die Jacke, ihr großer Sohn mit Schnurrbart hinter ihr.",
+      "prompt": "Grey dawn at the foot of a tall rusty hot-blast stove, the coloured illumination of the ironworks just switched off. On an aluminium rescue stretcher lies a white sheet, and on top of it, carefully folded, an old silver heat-protective jacket, dented and blackened at the edges, with a small enamel badge. A small woman of 70 lays her hand on the jacket; behind her a tall man with a thick moustache rests his hands on her shoulders. Beside them, in a silent row, the old man holding his peaked cap to his chest, the young man, the woman with red glasses, a strong man in a dark coat, police officers and five mountain-rescue firefighters in red overalls holding their helmets. Solemn, quiet, dignified, not gruesome."
+    },
+    "7": {
+      "titel": "Glück auf",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Beerdigung am Hang des Friedhofs von Wehrden, Blick über die Saar auf die Hütte. Ein Mann trägt seinen zehnjährigen Sohn auf den Schultern, der Junge hält einen roten Helm mit „E. S.“ im Arm. Eine Bergmannskapelle in schwarzen Uniformen mit Federbüschen spielt, alte Hüttenleute nehmen die Hüte ab. Benny mit dem Dackel Fridolin mit schwarzem Halstuch.",
+      "prompt": "A hillside cemetery on a cold, clear December afternoon, low sun and long shadows; across the river below rises the rust-red ironworks with its six blast furnaces. At an open grave a tall man with a moustache carries his ten-year-old son on his shoulders; the boy holds a scratched red worker's helmet with the white painted letters E.S. in both arms and looks across at the ironworks. A small woman of 70 covers her mouth with her hand. On the slope above a miners' brass band in black uniforms with gold buttons and plumed caps plays; many old men in dark coats with walking sticks take off their hats and sing. Nearby the old man in a grey suit, the woman with red glasses and the young man with a small wire-haired dachshund wearing a black neckerchief. Moving, warm, full of light."
+    }
+  }
+}
