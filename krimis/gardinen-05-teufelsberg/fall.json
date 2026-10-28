@@ -1,0 +1,87 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 5",
+  "titel": "Was der Berg gehört hat",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-5-Teufelsberg",
+  "ort": "Den Teufelsberg",
+  "besuchen": [
+    "Der Teufelsberg liegt im Grunewald im Westen Berlins und ist eine der höchsten Erhebungen der Stadt. Er ist ein Trümmerberg: Nach dem Zweiten Weltkrieg wurde hier über viele Jahre der Schutt der zerbombten Häuser abgeladen, Millionen Kubikmeter. Darunter liegt der Rohbau einer militärtechnischen Hochschule, die in der NS-Zeit gebaut, aber nie fertig wurde und sich nach dem Krieg nicht sprengen ließ.",
+    "Oben auf dem Berg betrieben die Amerikaner und die Briten im Kalten Krieg eine große Abhörstation mit den weißen Radarkuppeln, die man von weit her sieht. Anfang der Neunzigerjahre wurde sie aufgegeben. Heute ist das Gelände privat betrieben und gegen Eintritt zugänglich, mit Führungen und einer der größten Street-Art-Galerien Europas. Öffnungszeiten, Preise und Führungen findest du auf der Website des Geländes. In der großen Kuppel kannst du das berühmte Echo selbst ausprobieren. Bitte nur auf den offiziellen Wegen und nur zu den Öffnungszeiten auf das Gelände gehen, nie über den Zaun.",
+    "Am Fuß des Berges liegt der Teufelssee, ein kleiner Waldsee. Über die Geschichte der Alliierten in Berlin erzählt das AlliiertenMuseum in Dahlem. Wer wissen möchte, ob die Staatssicherheit über die eigene Familie Akten angelegt hat, kann beim Stasi-Unterlagen-Archiv im Bundesarchiv einen Antrag auf Akteneinsicht stellen, auch für verstorbene nahe Angehörige.",
+    "Zur Asche: In Deutschland gilt in den meisten Bundesländern die Friedhofspflicht, auch für Urnen. Manche Friedhöfe haben Aschestreuwiesen oder Gemeinschaftsfelder. Die Regeln sind je nach Bundesland verschieden. Frag bei einem Friedhof oder einem Bestattungsinstitut nach, was erlaubt ist.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, das Veteranentreffen, das Hotel, die Zeitzeugenführung, der Waldfriedhof mit der Streuwiese und das Verbrechen. Die Abläufe auf dem Gelände, bei Polizei, Rechtsmedizin, Behörden und im Archiv sind für die Geschichte verändert. Die Abhörstation und ihre Arbeit sind stark vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "DORIS": ["Doris Mahnke", "Sprecherin 1 (Berlinerisch, laut, rau)"],
+    "RAY": ["Ray Hollis (Kassette)", "Sprecher 2 (warm, amerikanischer Akzent)"],
+    "HARRY": ["Harry Pike (Brief)", "Sprecher 2 oder Gaststimme (britisch)"],
+    "KESSLER": ["Norbert Kessler", "Sprecher 2 (warme Radiostimme)"],
+    "AYDIN": ["Kommissarin Selin Aydın", "Sprecherin 1 (schnell, trocken)"],
+    "TOM": ["Tom Pike", "Sprecher 3 (höflich, englisch)"],
+    "JURI": ["Juri, Sprayer", "Sprecher 3 (jung)"],
+    "RENATE": ["Renate Kolbe, Taxifahrerin", "Sprecherin 1 (Berlinerisch)"],
+    "ACHIM": ["Achim Krause", "Sprecher 2 oder 3"],
+    "SAAR": ["Marlene Schäfer (Telefon)", "Sprecherin 1 (Saarländisch)"]
+  },
+  "aussprache": [
+    "Teufelsberg – TEU-fels-berg",
+    "Grunewald – GRUH-ne-wald",
+    "Eichkamp – EICH-kamp",
+    "Radome – ra-DOH-me (die Kuppeln)",
+    "Aydın – AI-dün (das ı ohne Punkt klingt wie ein dumpfes ü)",
+    "Kessler – KESS-ler",
+    "Hollis – HOL-lis",
+    "Pike – PEIK",
+    "Ashworth – ÄSCH-wörs",
+    "Völklingen – FÖLK-lin-gen",
+    "Det, ick, wat – Berlinerisch für das, ich, was"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Die Kuppeln über den Kiefern",
+      "figuren": ["Jo", "Konrad", "Benny", "Hermine"],
+      "beschreibung": "Am Gartentor in Eichkamp: über den Kiefern ein langer bewaldeter Hügel, darauf die zerrissenen weißgrauen Radarkuppeln. Hermine steht vor dem Tor, Konrad steigt aus, Doris (62, rot gefärbte kurze Haare, Lederjacke) wartet rauchend.",
+      "prompt": "A quiet street of small 1920s houses with pine trees in the gardens on the edge of a forest. Above the pine tops, on a long wooded hill, stand huge white-grey radar domes like giant golf balls on a concrete tower, their fabric skins torn and fluttering. In front of a garden gate the vintage hearse is parked; the old man steps out, the woman and the young man look up at the hill. At the gate waits a short, plump woman of 62 with short dyed red hair and a leather jacket, a cigarette in her hand. Grey November light, melancholy and strange."
+    },
+    "2": {
+      "titel": "Die Abhörstation",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Auf dem Gelände: lange graue Betonbauten voller bunter Street-Art, ein Fuchs mit Astronautenhelm, ein alter Mann mit Kopfhörern. Darüber der hohe Turm mit der großen zerrissenen Kuppel. Unten rot-weißes Absperrband und eine Kommissarin im grünen Parka.",
+      "prompt": "An abandoned Cold War listening station on a hilltop: long flat grey concrete and corrugated-metal buildings with broken windows, every wall covered in huge colourful street art, including a fox in an astronaut helmet and an old man wearing headphones listening to the sky. Above everything rises a tall concrete tower topped by a huge torn white radome, with smaller domes on its corners, fabric shreds flapping in the wind. At the foot of the tower red-and-white police tape, a police car and a woman in a dark green parka with dark curls and bright white sneakers. The three characters stand in front of it, small. Overcast November sky."
+    },
+    "3": {
+      "titel": "Das Echo",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "In der großen Kuppel: ein runder, heller Raum unter der zerrissenen Hülle, viele Touristen still im Kreis. In der Mitte ein alter Mann mit weißem Haar, grauem Wollschal und Stock mit silbernem Knauf, der flüstert. Am Rand die drei.",
+      "prompt": "Inside a vast round radome: a bright circular concrete floor under a torn grey fabric dome with holes showing the sky, a big tear on one side reveals a view over forest and a distant city skyline with a TV tower. A crowd of tourists stands silently in a circle. In the centre an elegant old man of 81 with thick white swept-back hair, a black coat, a grey hand-knitted wool scarf and a walking stick with a silver knob raises one hand and whispers. At the edge the woman with red glasses, the old man with a navy peaked cap and the young man watch him closely. Hushed, magical, slightly sinister."
+    },
+    "4": {
+      "titel": "Das blaue Ohr",
+      "figuren": ["Benny"],
+      "beschreibung": "Unter einer kleinen, fast ganz zerrissenen Kuppel: Schlafsack, Spraydosen, Campingkocher, Bierflaschen. An der Wand ein riesiges blaues Ohr mit einer Stadt bei Nacht darin. Benny sitzt auf der obersten Stufe, Juri (22, rasierter Kopf, Ring in der Augenbraue, Farbe an den Händen) im Schlafsack.",
+      "prompt": "Under a small radome whose fabric is almost completely torn away, so the steel lattice frame shows the morning sky. On the floor a sleeping bag, dozens of spray-paint cans, a camping stove, a pack of toast and empty beer bottles. On the only remaining wall a huge unfinished mural of a giant blue ear, the size of a garage door, with a glittering city at night inside it like in a seashell. The young man sits calmly on the top step of a stairway; a thin young man of 22 with a shaved head, an eyebrow ring and paint on his hands and cheeks sits up in the sleeping bag, startled. First pale morning light."
+    },
+    "5": {
+      "titel": "Weiß gewinnt",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Im vollen Wohnzimmer: Doris sitzt am kleinen Tisch vor dem staubigen Schachbrett und setzt die weiße Dame neben den schwarzen König. Konrad beugt sich daneben, die Hände auf dem Rücken. Im Flur die gefaltete amerikanische Fahne im Holzkasten.",
+      "prompt": "A small, cluttered living room with books, photos and old furniture. At a little table a woman of 62 with short red hair and a leather jacket sits before a wooden chessboard covered in decades of dust and places the white queen next to the black king, leaving grey dust on her fingertips. Beside her the old man in a grey suit leans over with his hands behind his back, studying the board. The woman with red glasses and the young man stand in the doorway. In the hallway behind them a folded American flag in a wooden display case with glass. Warm lamplight, intense stillness."
+    },
+    "6": {
+      "titel": "Raureif",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Früher Morgen: Der ganze Wald ist weiß von Raureif, die Kuppeln oben leuchten fast weiß. Auf einem schmalen Pfad gehen eine Kommissarin, Juri mit einem silbernen Kassettenrekorder, Doris mit einer dunkelgrünen Urne im Arm, Konrad, Jo und Benny bergauf.",
+      "prompt": "Early morning after a hard frost: the whole pine forest on the hill is white with hoarfrost, every twig glittering in low pale sunlight, breath visible in the air. Above the trees the radomes on the tower shine almost pure white. On a narrow steep path through brambles a small group climbs in single file: a woman in a green parka, a young man with a shaved head carrying a heavy silver 1980s cassette recorder by its handle, a woman in a leather jacket and woollen hat holding a dark green funeral urn to her chest with both arms, the old man in a navy peaked cap, the woman with red glasses and the young man with dark curls. Silent, solemn, determined."
+    },
+    "7": {
+      "titel": "Love, Dad",
+      "figuren": ["Jo", "Konrad"],
+      "beschreibung": "Sonnenuntergang in der großen Kuppel: Das rote Licht färbt die zerrissene Hülle orange und gold. Über sechzig alte Veteranen mit Stöcken, Rollatoren und Baseballmützen nehmen die Mützen ab. In der Mitte steht Doris. Hinter einem Stahlpfeiler Juri mit dem Kassettenrekorder.",
+      "prompt": "Sunset inside a huge torn radome on a hilltop: warm red and golden light pours through the tears in the fabric skin and lays long stripes across the concrete floor; through the big opening the city below is beginning to light up. More than sixty elderly veterans with walking sticks, walkers and old baseball caps, with their families, stand in a wide circle and take off their caps. In the centre stands a short woman with red hair and a leather jacket. Behind a steel pillar at the far side a young man crouches next to a silver cassette recorder. Near the door the woman with red glasses and the old man in a navy peaked cap. Deeply emotional, luminous, quiet."
+    }
+  }
+}

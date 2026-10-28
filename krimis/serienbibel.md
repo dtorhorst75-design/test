@@ -55,6 +55,6 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 2. Dreimal kurz in Mödlareuth (Bayern/Thüringen)
 3. Die Glocke von Lindenau (F60, Lausitz)
 4. Landunter (Halligen, Nordfriesland)
-5. Teufelsberg (Berlin) – Auftrag: Doris Mahnke, Vater (US-Abhörstation) starb Nov. 1989 oben, Asche verstreuen; Jo berät jetzt donnerstags Achims Cold Cases
-6. Völklinger Hütte (Saarland)
+5. Was der Berg gehört hat (Teufelsberg, Berlin)
+6. Völklinger Hütte (Saarland) – Auftrag: Marlene Schäfer, Vater verschwand am letzten Tag (Juli 1986), als der letzte Hochofen ausgeblasen wurde
 7. Wünsdorf (Brandenburg)
