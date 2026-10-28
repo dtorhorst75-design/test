@@ -1,0 +1,91 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 4",
+  "titel": "Landunter",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-4-Halligen",
+  "ort": "Die Halligen",
+  "besuchen": [
+    "Im nordfriesischen Wattenmeer gibt es zehn Halligen, darunter Hooge, Langeneß, Oland, Gröde und Nordstrandischmoor. Halligen sind kleine Inseln ohne festen Deich. Die Häuser stehen auf künstlich aufgeschütteten Hügeln, den Warften. Bei Sturmflut wird das flache Land überspült, nur die Warften schauen noch heraus. Das nennt man Landunter. Im Winter kann das viele Male vorkommen.",
+    "Auf einige Halligen fahren Fähren und Ausflugsschiffe, zum Beispiel ab Schlüttsiel. Die Abfahrten hängen von den Gezeiten ab, informiere dich also vorher über den Fahrplan. Autos von Gästen dürfen nicht mit, sie bleiben am Festland. Auf manchen Halligen gibt es Ferienwohnungen, eine kleine Kirche, eine Halligschule und ein Museum, auf Hooge zum Beispiel den Königspesel. Ein Fething ist ein Süßwasserteich auf der Warft, früher die Wasserstelle für das Vieh.",
+    "Die Halligen liegen im Nationalpark Schleswig-Holsteinisches Wattenmeer, das Wattenmeer ist UNESCO-Welterbe. Im Frühjahr und im Herbst rasten hier Zehntausende Ringelgänse. Bitte bleib auf den Wegen, pflück nichts und geh nie allein und ohne Kenntnis der Gezeiten ins Watt. Wattwanderungen nur mit einer zertifizierten Führung. Bei Sturmflutwarnung gilt: drinnen bleiben.",
+    "Rungholt ist eine Stadt, die 1362 in einer großen Sturmflut untergegangen ist, der Groten Mandränke. Wo genau sie lag und wie sie aussah, erforschen Archäologinnen und Archäologen bis heute.",
+    "Was erfunden ist: die Hallig Lüttmoor mit ihren Warften, alle Figuren und ihre Familien, der Kaufmannsladen, das Ausflugsschiff, die Freiwilligen der Schutzstation und das Verbrechen. Die Arbeit von Polizei, Rechtsmedizin, Fähren, Schutzstation und Behörden ist für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "INKEN": ["Inken Bohlsen", "Sprecherin 1 (tief, rau, ruhig)"],
+    "OCKE": ["Ocke Bohlsen", "Sprecher 2 (alt, hart)"],
+    "HAUKE": ["Hauke Bohlsen (Brief)", "Sprecher 2 oder Gaststimme"],
+    "FRERK": ["Frerk Hansen, ehemaliger Fährmann", "Sprecher 2 (alt, knapp)"],
+    "LORENZ": ["Lorenz Petersen", "Sprecher 3 (warm, später brüchig)"],
+    "SWANTJE": ["Swantje Petersen", "Sprecherin 1 (leise, flach)"],
+    "THOMSEN": ["Kommissarin Wiebke Thomsen", "Sprecherin 1 (knapp, trocken)"],
+    "MAREIKE": ["Mareike Brodersen, Schutzstation", "Sprecherin 1 (jung, schnell)"],
+    "IDA": ["Ida Petersen, 11", "Sprecherin 1 (Kind)"],
+    "ACHIM": ["Achim Krause", "Sprecher 2 oder 3"],
+    "BERLIN": ["Doris Mahnke (Sprachnachricht)", "Sprecherin 1 (Berlinerisch)"]
+  },
+  "aussprache": [
+    "Hallig – HAL-lich, Mehrzahl Halligen",
+    "Warft – WARFT, Mehrzahl Warften",
+    "Fething – FEH-ting",
+    "Schlüttsiel – SCHLÜTT-siel",
+    "Lüttmoor – LÜTT-moor",
+    "Bohlsen – BOHL-sen",
+    "Ocke – OCK-e",
+    "Frerk – FRERK",
+    "Swantje – SWANT-je",
+    "Telse – TEL-se",
+    "Queller – KWEL-ler",
+    "Rungholt – RUNG-holt",
+    "Pesel – PEH-sel (die gute Stube)",
+    "Kluntje – KLUNT-je (Kandisbrocken)"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Hinter dem Deich",
+      "figuren": ["Jo", "Konrad", "Benny", "Hermine"],
+      "beschreibung": "Oben auf dem Deich: Vor Hermine und den dreien liegt bei Niedrigwasser das glänzende graue Watt mit silbernen Prielen und Tausenden Vögeln. Ganz weit draußen kleine Hügel mit Häusern darauf, die Halligen.",
+      "prompt": "View from the top of a grassy green sea dike with sheep grazing on it. The vintage hearse is parked on the dike road, the three characters stand beside it looking out. Before them at low tide an endless glistening grey mudflat crossed by silver tidal channels, thousands of wading birds. Far out on the horizon small low mounds rising from the shallow water like upturned bowls, each with a few thatched houses on top. Big pale northern sky, wind, vast and quiet."
+    },
+    "2": {
+      "titel": "Inken am Anleger",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Ankunft auf der Hallig Lüttmoor: ein Betonsteg mit einer kleinen Holzwartehalle, dahinter flaches grünes Land, drei Warften mit Reetdachhäusern. Inken, groß, kurze graue Haare, Schürze und Gummistiefel, hält Konrads Hand. Daneben ein Bollerwagen.",
+      "prompt": "A small concrete jetty on a tiny flat green island in the North Sea, with a little wooden waiting shelter. Behind it flat salt meadows with winding tidal creeks and three raised earth mounds, each with thatched-roof houses; one has a small white church with a tiny bell turret and wind-bent trees. A tall woman of 68 with short grey wind-blown hair, a dark blue work jacket, an apron and rubber boots holds the hand of the old man, whose felt hat is tied on with an elastic band under his chin. The other woman and the young man carry bags, a wooden handcart stands ready. A flock of dark brent geese flies low over the water. Fresh, windy, autumn light."
+    },
+    "3": {
+      "titel": "Der Fething am Morgen",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Früher Morgen auf der Westwarft im Bodennebel: am Teich mit dem grauen Lattenzaun liegt eine Gestalt unter einer silbernen Rettungsdecke. Lorenz kniet nass daneben, Benny mit dem Rucksack. Konrad steht am kleinen Lattentor. In einer Haustür eine kleine, magere Frau mit grauem Zopf.",
+      "prompt": "Early morning on a raised mound on a flat island, thin white ground fog. Between thatched houses a small round freshwater pond enclosed by a weathered grey wooden fence with a small slatted gate. In the wet grass beside it lies a covered figure under a silver emergency blanket, only yellow oilskin boots visible. A big man in a soaked wool sweater kneels beside it, the young man with a first-aid backpack crouches next to him. The old man in his grey suit stands at the little gate looking at its iron hook. In the doorway of a house with a blue gate a small thin woman with a grey braid holds the door frame. Muted, sorrowful, very quiet."
+    },
+    "4": {
+      "titel": "Frerks Kalender",
+      "figuren": ["Jo", "Konrad"],
+      "beschreibung": "In Frerks kleiner, unordentlicher Küche: Auf dem Tisch mit der Wachstuchdecke liegen alte Gezeitenkalender nebeneinander, daneben eine offene Zigarrenkiste. Jo mit blauen Einmalhandschuhen blättert, Konrad sitzt mit Lesebrille daneben. An der Wand ein Foto einer alten Fähre.",
+      "prompt": "A small cluttered kitchen of an old seaman: a table with an oilcloth cover, a cold teapot, a pipe ashtray. Spread across the table a row of old tide calendars held together with rubber bands, and an open wooden cigar box full of more calendars. The woman wears blue disposable gloves and turns a page with pencil notes; the old man sits on the only chair with reading glasses on the tip of his nose, hands folded. On the wall a tide calendar and a framed photo of an old ferry. Grey window light, dust in the air, a feeling of discovery."
+    },
+    "5": {
+      "titel": "Die Westkante",
+      "figuren": ["Jo", "Benny"],
+      "beschreibung": "Unten an der Westseite der Warft im fahlgelben Sturmlicht: eine Reihe weiß-roter Vermessungspflöcke, das Wasser kriecht schon über das Gras. In einer kleinen Abbruchkante im grauen Klei ragt ein verrosteter Pfannenstiel heraus. Jo fotografiert, Benny und eine junge Frau in grüner Jacke mit Fernglas schauen.",
+      "prompt": "The foot of a steep grassy earth mound on a flat island under a strange sulphur-yellow stormy sky with racing dark clouds. A row of white wooden survey stakes with red tops stands in the grass, thin fingers of seawater already creeping over it. In a small eroded edge of shiny grey clay at the base of the slope the rusty black handle of an old cast-iron pan sticks out. The woman photographs it with her phone, the young man and a young woman in a green nature-conservation jacket with binoculars watch. Ominous, windswept, tense."
+    },
+    "6": {
+      "titel": "Landunter",
+      "figuren": ["Jo"],
+      "beschreibung": "Blick aus dem Küchenfenster: Die ganze Hallig ist überspült, nur graues, schäumendes Wasser bis zum Horizont, darin die drei Warften mit ihren Häusern wie Schiffe. Am Fenster Jo und Inken, auf der Rampe drängen sich die Schafe.",
+      "prompt": "View through a small cottage window with white frames during a storm flood: the whole flat island has disappeared under grey, foaming water reaching to the horizon. Only three raised mounds with thatched houses and a little church stick out of the sea like arks. In the foreground on the ramp of the mound a tight flock of sheep. At the window, seen from behind, the woman with red glasses and a tall grey-haired woman stand side by side. Dramatic dusk light, rain streaks on the glass, awe."
+    },
+    "7": {
+      "titel": "Haukes Boot",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Nachts im Sturm: das kleine weiße Holzboot mit dem Namen „Inken“ auf einer hohen Welle. Benny rudert, Inken sitzt hinten mit der Taschenlampe, Jo schöpft Wasser mit einem Zinkeimer, Konrad hält sich in viel zu kurzem gelbem Ölzeug fest. Vorn in der Dunkelheit eine kleine gelbe Stirnlampe am Fuß der Warft.",
+      "prompt": "Night, storm, heavy sea. A small white wooden rowing boat with the name painted on its bow climbs a huge black wave crested with white foam. The young man rows with all his strength; at the stern a tall grey-haired woman in an oversized yellow oilskin holds a big torch and points the way; at the bow the woman bails water with an old zinc bucket; next to her the old man in a too-short yellow oilskin, hat tied under his chin, grips the gunwale and stares ahead calmly. Ahead in the darkness a tiny yellow headlamp glows at the foot of a dark mound. Spray, rain, epic and frightening, but full of courage."
+    }
+  }
+}
