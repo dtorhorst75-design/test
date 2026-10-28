@@ -1,0 +1,13 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 5, id: 'cremes', teil: 'haut', titel: 'Cremes aus der Natur', kurz: 'Cremes',
+  bloecke: [
+    'Eine Creme ist eine Mischung aus Öl und Wasser. Damit sich beides verbindet, braucht es einen „Vermittler“. In der Natur übernehmen das **Bienenwachs** und **Lecithin** aus Sonnenblumen – so entstand schon im alten Rom die berühmte „Cold Cream“ des Arztes Galen.',
+    'Weil Cremes Wasser enthalten, können sie verderben. Deshalb: kleine Mengen rühren, im Kühlschrank aufbewahren, innerhalb von 1 bis 2 Wochen verbrauchen.',
+    R({ titel: 'Rosen-Cold-Cream nach Galen', info: 'Für etwa 100 ml', thema: T.HAUT, zutaten: ['40 g Mandelöl', '10 g Bienenwachs', '1 TL Sonnenblumenlecithin (flüssig, Reformhaus)', '40 ml Rosenwasser (Hydrolat) oder frischer Rosenblütenaufguss (abgekühlt)', 'Wasserbad, Thermometer, Milchschäumer'], schritte: ['Gefäße und Werkzeug heiß ausspülen und trocknen.', 'Mandelöl, Bienenwachs und Lecithin im Wasserbad schmelzen (etwa 65 °C).', 'Rosenwasser in einem zweiten Gefäß auf die gleiche Temperatur erwärmen.', 'Das Rosenwasser **tropfenweise** zur Ölmischung geben und dabei ständig mit dem Milchschäumer rühren.', 'Weiterrühren, bis die Creme abgekühlt, weiß und cremig ist.', 'In einen sauberen Tiegel füllen.'], tausch: 'Statt Bienenwachs 7 g Candelillawachs.', tipp: 'Die Creme kühlt beim Auftragen angenehm – daher der Name. Im Kühlschrank 1 bis 2 Wochen haltbar. Trennt sich etwas Wasser ab, einfach kurz umrühren.' }),
+    R({ titel: 'Aloe-Vera-Gelcreme', info: 'Für etwa 50 ml', thema: T.HAUT, zutaten: ['3 EL frisches Gel aus einem Aloe-vera-Blatt (Zimmerpflanze)', '1 EL Jojoba- oder Mandelöl'], schritte: ['Ein unteres Aloe-Blatt abschneiden, aufrecht 10 Minuten in ein Glas stellen, damit der gelbe Saft abläuft (er reizt die Haut).', 'Blatt schälen und das klare Gel herauslösen.', 'Mit dem Öl im Mixer kurz aufschlagen.', 'Im Kühlschrank aufbewahren und innerhalb von 3 bis 4 Tagen verbrauchen.'], tipp: 'Kühlend nach der Sonne und bei leichtem Sonnenbrand. Starker Sonnenbrand mit Blasen gehört in ärztliche Behandlung.' }),
+    { h2: 'Wenn es nicht klappt' },
+    { tabelle: [['Problem', 'Ursache und Lösung'], ['Creme trennt sich', 'Wasser zu schnell zugegeben oder Temperaturen unterschiedlich – das nächste Mal langsamer tropfen und genauer messen; kurz wieder aufschlagen hilft oft'], ['Creme ist zu fest', 'weniger Wachs, mehr Öl'], ['Creme riecht säuerlich oder anders', 'verdorben – wegwerfen']], breiten: [2700, 6370] },
+    'Wer lieber ganz ohne Wasser arbeitet, nimmt die **Salben, Balsame und Körperbutter** aus den anderen Kapiteln – sie halten viele Monate.',
+  ],
+};

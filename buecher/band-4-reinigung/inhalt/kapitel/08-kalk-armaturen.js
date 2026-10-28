@@ -8,6 +8,6 @@ module.exports = {
     R({ titel: 'Wasserkocher entkalken', info: 'Für einen Wasserkocher', thema: [T.BAD, T.KUECHE], zutaten: ['500 ml Wasser', '1 bis 2 EL Zitronensäure oder 100 ml Essig'], schritte: ['Wasser **handwarm** erwärmen (nicht kochen!), Zitronensäure einrühren.', '30 Minuten stehen lassen.', 'Ausgießen, zweimal mit frischem Wasser aufkochen und weggießen.'] }),
     { h2: 'Duschwand und Fliesen' },
     { punkte: ['Nach dem Duschen mit einem Abzieher das Wasser abziehen – so entsteht kaum noch Kalk.', 'Glaswände mit Essigwasser oder Kalklöser-Spray reinigen, mit einem Mikrofasertuch trocken polieren.', 'Duschvorhang bei 40 °C mit zwei Handtüchern und einem Schuss Essig waschen.'] },
-    R({ titel: 'Badreiniger-Paste', info: 'Für Waschbecken und Wanne', thema: T.BAD, zutaten: ['4 EL Natron', '1 EL Schmierseife oder Spülmittel', 'etwas Wasser'], schritte: ['Zu einer cremigen Paste verrühren.', 'Mit einem feuchten Schwamm auftragen und sanft reiben.', 'Gründlich nachspülen.'], tipp: 'Ersetzt Scheuermilch und kratzt nicht – auch für Acrylwannen geeignet.' }),
+    R({ titel: 'Badreiniger-Paste', info: 'Für Waschbecken und Wanne', thema: T.BAD, zutaten: ['4 EL Natron', '1 EL Kastanien-, Efeu- oder Waschnusssud', 'etwas Wasser'], schritte: ['Zu einer cremigen Paste verrühren.', 'Mit einem feuchten Schwamm auftragen und sanft reiben.', 'Gründlich nachspülen.'], tipp: 'Ersetzt Scheuermilch und kratzt nicht – auch für Acrylwannen geeignet.' }),
   ],
 };

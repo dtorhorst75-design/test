@@ -9,6 +9,6 @@ module.exports = {
     { h2: 'Verstopfter Abfluss' },
     'Das bekannte Hausmittel „Natron und Essig“ sprudelt eindrucksvoll, löst aber festsitzende Verstopfungen kaum – die beiden neutralisieren sich gegenseitig. Besser funktioniert Mechanik:',
     { schritte: ['**Siphon-Sieb** und Stopfen herausnehmen und Haare entfernen.', '**Saugglocke (Pömpel):** Überlauf mit einem feuchten Tuch zuhalten, etwas Wasser im Becken lassen, kräftig pumpen.', '**Rohrspirale** oder ein Abflussreiniger-Kunststoffstreifen mit Widerhaken für Haarknäuel.', '**Siphon abschrauben:** Eimer unterstellen, Siphon öffnen und reinigen.', 'Danach mit einem Kessel **heißem** (nicht kochendem bei Kunststoffrohren) Wasser nachspülen.'] },
-    R({ titel: 'Vorbeugende Abfluss-Pflege', info: 'Einmal pro Woche', thema: T.BAD, zutaten: ['2 EL Soda oder Natron', '1 Liter heißes Wasser'], schritte: ['Soda in den Abfluss geben.', 'Mit heißem Wasser nachgießen.', '30 Minuten einwirken lassen, dann mit klarem Wasser spülen.'], tipp: 'Ein Haarsieb im Abfluss erspart die meisten Verstopfungen. Kein Fett und keinen Kaffeesatz in die Spüle gießen.' }),
+    R({ titel: 'Vorbeugende Abfluss-Pflege', info: 'Einmal pro Woche', thema: T.BAD, zutaten: ['2 EL Natron', '1 Liter heißes Wasser'], schritte: ['Natron in den Abfluss geben.', 'Mit heißem Wasser nachgießen.', '30 Minuten einwirken lassen, dann mit klarem Wasser spülen.'], tipp: 'Ein Haarsieb im Abfluss erspart die meisten Verstopfungen. Kein Fett und keinen Kaffeesatz in die Spüle gießen.' }),
   ],
 };
