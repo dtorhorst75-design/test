@@ -1,0 +1,15 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 5, id: 'spuelen', teil: 'kueche', titel: 'Spülen von Hand und in der Maschine', kurz: 'Spülen',
+  bloecke: [
+    R({ titel: 'Spülmittel aus Kernseife', info: 'Für etwa 500 ml', thema: [T.KUECHE, T.GRUND], zutaten: ['15 g Kernseife, fein gerieben', '500 ml heißes Wasser', '1 TL Waschsoda (für fettiges Geschirr)', 'Spender oder Flasche'], schritte: ['Seife im heißen Wasser vollständig auflösen.', 'Mit Handschuhen das Soda einrühren.', 'Abkühlen lassen – die Mischung wird dickflüssig. Kräftig schütteln oder mixen.', 'Einen Spritzer ins Spülwasser geben.'], tipp: 'Es schäumt weniger als gekauftes Spülmittel, reinigt aber genauso. Schaum hat nichts mit Reinigungskraft zu tun.' }),
+    R({ titel: 'Spülmittel aus Efeu oder Kastanien', info: 'Für einen Abwasch', thema: T.KUECHE, zutaten: ['Efeu- oder Kastaniensud (siehe Kapitel Waschmittel und Band 2)'], schritte: ['Eine Tasse Sud ins Spülwasser geben.', 'Wie gewohnt spülen und mit klarem Wasser nachspülen.'], tipp: 'Beide Pflanzen sind giftig – Geschirr nach dem Spülen gründlich mit klarem Wasser abspülen.' }),
+    { h2: 'Angebranntes und Hartnäckiges' },
+    { punkte: ['**Angebrannte Töpfe:** Boden mit Wasser bedecken, 2 EL Natron oder 1 EL Soda dazugeben, aufkochen und über Nacht stehen lassen. Am nächsten Tag löst sich alles mit dem Spülschwamm.', '**Teeränder in Tassen:** Natron mit wenig Wasser zu einer Paste verrühren und ausreiben.', '**Kalk auf Gläsern:** in lauwarmem Wasser mit einem Schuss Essig einweichen.', '**Gusseisen:** nur heiß ausspülen und ausbürsten, kein Spülmittel, danach trocken erhitzen und dünn einölen.', '**Holzbretter und -löffel:** mit grobem Salz und einer halben Zitrone abreiben, abspülen, trocknen lassen, ab und zu mit Speiseöl einreiben.'] },
+    { h2: 'Spülmaschine' },
+    'Selbst gemachte Spülmaschinenpulver funktionieren je nach Wasserhärte und Maschine unterschiedlich gut. Ehrlich gesagt: Gekaufte Tabs reinigen oft gründlicher, und Gläser können mit Soda-Mischungen auf Dauer trüb werden (Glaskorrosion). Wer es probieren möchte:',
+    R({ titel: 'Spülmaschinenpulver', info: 'Für etwa 30 Spülgänge', thema: T.KUECHE, zutaten: ['200 g Waschsoda', '100 g Zitronensäure', '100 g Spülmaschinensalz (Regeneriersalz)', 'Schraubglas', 'Handschuhe, Schutzbrille'], schritte: ['Alle Zutaten trocken in einem Glas mischen.', 'Gut verschlossen und trocken lagern – die Mischung zieht Feuchtigkeit und verklumpt.', '1 EL pro Spülgang ins Dosierfach geben.'], tipp: 'Als Klarspüler-Ersatz Essig mit Wasser 1 : 1 ins Klarspülerfach. Zeigen sich weiße Beläge, ist dein Wasser zu hart – dann lieber wieder gekaufte Tabs nehmen.' }),
+    { h2: 'Die Spülmaschine pflegen' },
+    { punkte: ['Sieb einmal pro Woche unter fließendem Wasser ausbürsten.', 'Einmal im Monat eine Tasse Essig in den leeren Korb stellen und das heißeste Programm laufen lassen.', 'Gegen Gerüche: 2 EL Natron auf den Boden streuen und über Nacht stehen lassen.'] },
+  ],
+};

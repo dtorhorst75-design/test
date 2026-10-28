@@ -1,0 +1,14 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 9, id: 'wc-fugen-abfluss', teil: 'bad', titel: 'WC, Fugen und Abfluss', kurz: 'WC, Fugen, Abfluss',
+  bloecke: [
+    R({ titel: 'WC-Reiniger gegen Urinstein', info: 'Für eine Toilette', thema: T.BAD, zutaten: ['3 bis 4 EL Zitronensäure-Pulver', 'WC-Bürste', 'Handschuhe'], schritte: ['Abends Zitronensäure ins Becken streuen, besonders auf die Ränder unterhalb des Wasserspiegels.', 'Über Nacht einwirken lassen.', 'Morgens mit der Bürste schrubben und spülen.'], tipp: 'Niemals zusammen mit chlorhaltigem WC-Reiniger verwenden – Chlorgas!' }),
+    R({ titel: 'WC-Tabs zum Vorrätighalten', info: 'Für etwa 20 Tabs', thema: [T.BAD, T.GRUND], zutaten: ['200 g Natron', '100 g Zitronensäure', 'Sprühflasche mit Wasser', 'Eiswürfelform oder Pralinenform aus Silikon', 'Handschuhe'], schritte: ['Natron und Zitronensäure in einer Schüssel mischen.', 'Mit der Sprühflasche **ganz wenig** Wasser aufsprühen und mit den Fingern vermengen, bis die Masse wie feuchter Sand zusammenhält. Zu viel Wasser lässt sie aufschäumen.', 'Fest in die Form drücken und über Nacht trocknen lassen.', 'Herauslösen und in einem verschlossenen Glas aufbewahren.'], tipp: '1 bis 2 Tabs ins Becken werfen, sprudeln lassen, nach 15 Minuten bürsten und spülen. Gut für zwischendurch – gegen hartnäckigen Urinstein hilft die Zitronensäure-Kur über Nacht.' }),
+    { h2: 'Fugen' },
+    { punkte: ['Paste aus Natron und wenig Wasser mit einer alten Zahnbürste in die Fugen reiben, 15 Minuten einwirken lassen, abspülen.', 'Silikonfugen mit dunklen Punkten sind meist von Schimmel durchwachsen – Reinigen hilft dann nur kurzzeitig. Austauschen ist die dauerhafte Lösung.', 'Vorbeugung: Nach dem Duschen lüften und Fugen trocken wischen.'] },
+    { h2: 'Verstopfter Abfluss' },
+    'Das bekannte Hausmittel „Natron und Essig“ sprudelt eindrucksvoll, löst aber festsitzende Verstopfungen kaum – die beiden neutralisieren sich gegenseitig. Besser funktioniert Mechanik:',
+    { schritte: ['**Siphon-Sieb** und Stopfen herausnehmen und Haare entfernen.', '**Saugglocke (Pömpel):** Überlauf mit einem feuchten Tuch zuhalten, etwas Wasser im Becken lassen, kräftig pumpen.', '**Rohrspirale** oder ein Abflussreiniger-Kunststoffstreifen mit Widerhaken für Haarknäuel.', '**Siphon abschrauben:** Eimer unterstellen, Siphon öffnen und reinigen.', 'Danach mit einem Kessel **heißem** (nicht kochendem bei Kunststoffrohren) Wasser nachspülen.'] },
+    R({ titel: 'Vorbeugende Abfluss-Pflege', info: 'Einmal pro Woche', thema: T.BAD, zutaten: ['2 EL Soda oder Natron', '1 Liter heißes Wasser'], schritte: ['Soda in den Abfluss geben.', 'Mit heißem Wasser nachgießen.', '30 Minuten einwirken lassen, dann mit klarem Wasser spülen.'], tipp: 'Ein Haarsieb im Abfluss erspart die meisten Verstopfungen. Kein Fett und keinen Kaffeesatz in die Spüle gießen.' }),
+  ],
+};

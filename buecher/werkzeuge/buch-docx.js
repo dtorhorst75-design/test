@@ -64,6 +64,7 @@ const fehlendeThemen = [];
 function rh3(text, eigenesThema) {
   if (!currentPf) return h3(text);
   const thema = eigenesThema !== undefined ? eigenesThema : THEMEN.themen[text];
+  if (thema === undefined && currentPf.istKapitel) return h3(text);
   if (thema === undefined) fehlendeThemen.push(`${currentPf.id}: ${text}`);
   if (!thema) return h3(text);
   const id = `r${rezeptListe.length + 1}`;
@@ -134,6 +135,7 @@ function renderBlocks(blocks) {
     else if (b.kasten) { out.push(box(b.kasten, b.zeilen)); out.push(gap()); }
     else if (b.warnung) { out.push(warnbox(b.warnung, b.zeilen)); out.push(gap()); }
     else if (b.links) out.push(pl(b.links));
+    else if (b.rezept) out.push(...recipe(b.rezept));
   }
   return out;
 }
@@ -275,9 +277,10 @@ function chapter(pf) {
 function build(outFile) {
   const rahmen = require(path.join(BAND, 'inhalt', 'rahmen.js'));
   kalenderH3 = rahmen.kalenderH3 || 'Sammelkalender';
-  const dir = path.join(BAND, 'inhalt', 'pflanzen');
-  const pflanzen = fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort().map((f) => require(path.join(dir, f)));
-  pflanzen.sort((a, b) => a.nr - b.nr);
+  const lade = (name) => { const d = path.join(BAND, 'inhalt', name); return fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.js') && !f.startsWith('_')).map((f) => require(path.join(d, f))).sort((a, b) => a.nr - b.nr) : []; };
+  const pflanzen = lade('pflanzen');
+  // Themenbände (z. B. Reinigung) bestehen statt aus Pflanzen aus Kapiteln mit Blöcken und Rezepten
+  const kapitel = lade('kapitel');
 
   const body = [];
   // Titelei
@@ -311,10 +314,25 @@ function build(outFile) {
     body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: list.map((x) => x.name).join(' · '), size: 20, color: '6B5F4D' })] }));
     list.forEach((pf) => body.push(...chapter(pf)));
   }
+  for (const [key, name, sub] of (kapitel.length ? saisons : [])) {
+    const list = kapitel.filter((k) => k.teil === key);
+    if (!list.length) continue;
+    body.push(new Paragraph({ pageBreakBefore: true, children: [], spacing: { before: 3000 } }));
+    body.push(h1Marke(name, `s_${key}`, { pageBreakBefore: false, alignment: AlignmentType.CENTER }));
+    body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: sub, italics: true, size: 26, color: INK })], spacing: { after: 400 } }));
+    body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: list.map((x) => x.titel).join(' · '), size: 20, color: '6B5F4D' })] }));
+    for (const k of list) {
+      currentPf = { name: k.kurz || k.titel, id: k.id, istKapitel: true };
+      body.push(h1Marke(k.titel, `k_${k.id.replace(/-/g, '_')}`, { ebene: 2 }));
+      body.push(...renderBlocks(k.bloecke));
+      currentPf = null;
+    }
+  }
 
   // Anhang
   for (const kap of rahmen.hinten) { body.push(h1(kap.titel)); body.push(...renderBlocks(kap.bloecke)); }
   // Gesamtkalender und Register aus den Pflanzendaten
+  if (pflanzen.length) {
   body.push(h1(rahmen.kalenderTitel || 'Sammelkalender aller Pflanzen'));
   body.push(p(rahmen.kalenderText || 'Die Übersicht zeigt für jede Pflanze die Haupterntezeit des wichtigsten Pflanzenteils (●) und weitere mögliche Erntezeiten (○). Die Angaben gelten für mittlere Lagen in Deutschland; in warmen Regionen beginnt die Saison früher, im Bergland später.'));
   const rows = pflanzen.map((pf) => {
@@ -324,16 +342,18 @@ function build(outFile) {
     return kalenderZeile(pf.name, [...haupt], [...neben].filter((m) => !haupt.has(m)));
   });
   body.push(table(['Pflanze', ...MONATE], rows, KAL_W, { size: 16, center: true }));
+  }
   body.push(h1('Rezepte und Anwendungen nach Themen'));
-  body.push(p('Hier findest du alle Rezepte, Tees und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
+  body.push(p(rahmen.registerText || 'Hier findest du alle Rezepte, Tees und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
   for (const thema of THEMEN.REIHENFOLGE) {
     const liste = rezeptListe.filter((r) => r.themen.includes(thema)).sort((a, b) => a.titel.localeCompare(b.titel, 'de'));
     if (!liste.length) continue;
     body.push(h2(thema));
-    body.push(table(['Rezept oder Anwendung', 'Pflanze', 'Seite'], liste.map((r) => [r.titel, r.pflanze, seite(r.id)]), [5000, 2670, 1400], { size: 18 }));
+    body.push(table(['Rezept oder Anwendung', rahmen.registerSpalte || 'Pflanze', 'Seite'], liste.map((r) => [r.titel, r.pflanze, seite(r.id)]), [5000, 2670, 1400], { size: 18 }));
   }
   if (fehlendeThemen.length) console.warn('Ohne Thema im Register:\n  ' + fehlendeThemen.join('\n  '));
 
+  if (pflanzen.length) {
   body.push(h1('Register'));
   body.push(p('Alle Pflanzen dieses Bandes alphabetisch, mit botanischem Namen und Volksnamen.'));
   const reg = [];
@@ -345,6 +365,7 @@ function build(outFile) {
   });
   reg.sort((a, b) => a[0].localeCompare(b[0], 'de'));
   body.push(table(['Name', 'siehe', 'Seite'], reg.map(([a, b, c]) => [a.includes(' ') && /^[A-Z][a-z]+ [a-z]/.test(a) && !a.includes('*') ? `*${a}*` : a, b, c]), [3600, 3870, 1600], { size: 18 }));
+  }
 
   // Inhaltsverzeichnis mit festen Seitenzahlen (in Word über „Felder aktualisieren“ neu berechenbar)
   const toc = tocListe.map(({ text, id, ebene }) => new Paragraph({
@@ -380,7 +401,7 @@ function build(outFile) {
       children: body,
     }],
   });
-  return Packer.toBuffer(doc).then((buf) => { fs.writeFileSync(outFile, buf); console.log(`${pflanzen.length} Pflanzen → ${outFile}`); });
+  return Packer.toBuffer(doc).then((buf) => { fs.writeFileSync(outFile, buf); console.log(`${pflanzen.length || kapitel.length} ${pflanzen.length ? 'Pflanzen' : 'Kapitel'} → ${outFile}`); });
 }
 
 build(AUSGABE || path.join(BAND, `${require(path.join(BAND, 'inhalt', 'rahmen.js')).datei || 'Was-die-Natur-uns-schenkt-Band-1'}.docx`));

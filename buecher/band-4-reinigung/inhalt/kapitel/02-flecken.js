@@ -1,0 +1,27 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 2, id: 'flecken', teil: 'waesche', titel: 'Flecken entfernen', kurz: 'Flecken',
+  bloecke: [
+    'Bei Flecken gilt: **Je schneller, desto besser.** Ein frischer Fleck geht fast immer heraus, ein eingetrockneter oft nicht mehr.',
+    { h2: 'Die fünf goldenen Regeln' },
+    { punkte: ['**Tupfen, nicht reiben** – sonst arbeitest du den Fleck tiefer in den Stoff.', '**Von außen nach innen** arbeiten, damit sich der Fleck nicht vergrößert.', '**Eiweißflecken** (Blut, Ei, Milch) immer zuerst **kalt** auswaschen – Wärme lässt sie gerinnen.', 'Erst an einer **unauffälligen Stelle** testen, vor allem bei bunten und empfindlichen Stoffen.', '**Erst wenn der Fleck weg ist**, in den Trockner oder auf die Heizung – Hitze fixiert Reste.'] },
+    { h2: 'Fleckentabelle' },
+    { tabelle: [['Fleck', 'So geht er weg'],
+      ['**Blut**', 'sofort mit **kaltem** Wasser auswaschen, dann mit Gallseife einreiben; bei eingetrocknetem Blut in kaltem Salzwasser einweichen'],
+      ['**Rotwein, Saft, Obst**', 'mit Mineralwasser oder kaltem Wasser ausspülen und tupfen; Gallseife; bei weißer Baumwolle Natriumpercarbonat oder Zitronensaft und Sonne'],
+      ['**Kaffee, Tee**', 'kalt ausspülen, Gallseife; weiß: Zitronensaft oder Natriumpercarbonat'],
+      ['**Fett, Öl, Butter**', 'überschüssiges Fett mit Speisestärke oder Kartoffelmehl aufsaugen lassen, ausbürsten; dann Spülmittel oder Gallseife einreiben, warm auswaschen'],
+      ['**Gras**', 'Gallseife oder ein paar Tropfen Spiritus (auf Baumwolle), dann waschen'],
+      ['**Schweiß, gelbe Ränder**', 'Paste aus Natron und Wasser einreiben, 1 Stunde einwirken lassen; oder in Wasser mit einem Schuss Essig einweichen'],
+      ['**Kugelschreiber, Filzstift**', 'mit Spiritus oder hochprozentigem Alkohol betupfen, saugfähiges Tuch unterlegen'],
+      ['**Kerzenwachs**', 'hart werden lassen (Gefrierfach), abbröseln; Reste zwischen Küchenpapier mit dem Bügeleisen herausbügeln'],
+      ['**Kaugummi**', 'einfrieren, dann abbrechen; Reste mit etwas Öl lösen, danach Gallseife'],
+      ['**Rost**', 'Zitronensaft und Salz auftragen, in die Sonne legen, auswaschen (nur helle, robuste Stoffe)'],
+      ['**Kurkuma, Curry, Rote Bete**', 'Gallseife, dann in die **Sonne** legen – UV-Licht bleicht diese Farbstoffe oft vollständig'],
+      ['**Make-up, Lippenstift**', 'Gallseife oder Spülmittel, bei Lippenstift vorher mit etwas Öl lösen'],
+      ['**Ei, Milch, Kakao**', '**kalt** auswaschen, dann Gallseife, dann normal waschen'],
+    ], breiten: [2600, 6470] },
+    R({ titel: 'Fleckenspray für den Vorrat', info: 'Für 250 ml', thema: [T.FLECKEN, T.GRUND], zutaten: ['200 ml Wasser', '2 EL flüssige Gallseife oder Spülmittel', '1 EL Natron', 'eine Sprühflasche'], schritte: ['Alles in die Sprühflasche geben und vorsichtig schwenken.', 'Vor dem Waschen auf den Fleck sprühen, kurz einwirken lassen, dann waschen.'], tipp: 'Vor Gebrauch schütteln. Nicht auf Wolle und Seide.' }),
+    R({ titel: 'Weißmacher-Einweichbad', info: 'Für vergraute Weißwäsche', thema: [T.FLECKEN, T.WASCHEN], zutaten: ['Eimer oder Waschbecken mit 5 Litern warmem Wasser (40 bis 60 °C)', '2 bis 3 EL Natriumpercarbonat', 'Handschuhe'], schritte: ['Natriumpercarbonat im warmen Wasser auflösen.', 'Weiße Baumwollwäsche einlegen und 2 bis 6 Stunden einweichen lassen.', 'Danach normal waschen.'], tipp: 'Nur für weiße, kochfeste Textilien – nicht für Wolle, Seide und Buntes.' }),
+  ],
+};
