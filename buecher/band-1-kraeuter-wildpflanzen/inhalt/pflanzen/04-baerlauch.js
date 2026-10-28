@@ -7,7 +7,7 @@ module.exports = {
     detailbluete: 'stern', labels: { bluete: 'Scheindolde aus weißen Sternblüten', blatt: 'Blatt: einzeln gestielt, unterseits matt', stengel: 'Blütenstiel: dreikantig', wurzel: 'schmale Zwiebel' }, detail2: 'Blatt mit eigenem Stiel', detail3: 'Fruchtkapsel' },
   intro: [
     'Wenn im März und April die Laubwälder nach Knoblauch duften, ist Bärlauchzeit. Dann bedecken die frischgrünen Blätter an vielen Stellen den Waldboden wie ein Teppich, und Sammlerinnen und Sammler ziehen mit Körben los. Bärlauch ist das wohl bekannteste Wildgemüse des Frühlings – und zugleich das mit den gefährlichsten Doppelgängern.',
-    'Jedes Jahr kommt es in Deutschland zu schweren, manchmal tödlichen Vergiftungen, weil Maiglöckchen oder Herbstzeitlose mit Bärlauch verwechselt werden. Lies deshalb den Abschnitt zur Verwechslungsgefahr besonders aufmerksam – dann steht dem Genuss nichts im Weg.',
+    'Jedes Jahr kommt es in Deutschland zu schweren, manchmal tödlichen Vergiftungen, weil Maiglöckchen oder Herbstzeitlose mit Bärlauch verwechselt werden. Lies deshalb den Abschnitt zur Verwechslungsgefahr besonders aufmerksam. Und wenn du dir nicht hundertprozentig sicher bist: **Kauf ihn einfach.** Bärlauch gibt es im Frühjahr frisch im Supermarkt, auf dem Wochenmarkt und im Bioladen – genauso lecker, ganz ohne Risiko.',
   ],
   steckbrief: [
     ['Lebensform', 'ausdauernde Zwiebelpflanze; Blätter nur im Frühjahr, danach zieht sie ein'],
@@ -38,6 +38,7 @@ module.exports = {
       ['Gefleckter Aronstab (*Arum maculatum*) – **giftig**', 'gleicher Standort, junge Blätter ähnlich', 'Blätter **pfeil- bis spießförmig** mit netzartiger Aderung (Bärlauch: parallele Längsnerven), oft dunkel gefleckt; kein Knoblauchgeruch'],
       ['Weiße Germer, Vielblütige Weißwurz – **giftig**', 'breite Blätter im Frühjahr', 'Blätter sitzen an einem Stängel, nicht einzeln aus dem Boden; kein Knoblauchgeruch'],
     ],
+    tipp: { titel: 'Auf Nummer sicher: Bärlauch kaufen oder selbst pflanzen', zeilen: ['Von März bis Mai bekommst du frischen Bärlauch im Supermarkt, auf dem Wochenmarkt und im Bioladen. Alle Rezepte in diesem Kapitel gelingen damit genauso.', 'Noch besser: Bärlauchpflanzen oder -zwiebeln aus der Gärtnerei unter einen Strauch im Garten setzen. Nach zwei, drei Jahren hast du deinen eigenen kleinen Bärlauchteppich – und weißt genau, dass dort nichts anderes wächst.', '**Faustregel:** Wenn du beim Sammeln auch nur kurz zögerst – lass es stehen und kauf ihn.'] },
     warnung: { titel: 'Die Knoblauch-Falle', zeilen: [
       'Der Geruchstest ist nur zuverlässig, wenn deine Finger nicht schon nach Knoblauch riechen. Nach ein paar gesammelten Blättern riechen die Hände – dann scheint auch ein Maiglöckchenblatt nach Knoblauch zu duften.',
       '- **Jedes Blatt einzeln** pflücken und prüfen: eigener Stiel, weich, Knoblauchgeruch.',
