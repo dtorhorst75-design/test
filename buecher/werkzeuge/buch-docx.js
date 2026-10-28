@@ -343,13 +343,13 @@ function build(outFile) {
   });
   body.push(table(['Pflanze', ...MONATE], rows, KAL_W, { size: 16, center: true }));
   }
-  body.push(h1('Rezepte und Anwendungen nach Themen'));
+  body.push(h1(rahmen.registerTitel || 'Rezepte und Anwendungen nach Themen'));
   body.push(p(rahmen.registerText || 'Hier findest du alle Rezepte, Tees und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
   for (const thema of THEMEN.REIHENFOLGE) {
     const liste = rezeptListe.filter((r) => r.themen.includes(thema)).sort((a, b) => a.titel.localeCompare(b.titel, 'de'));
     if (!liste.length) continue;
     body.push(h2(thema));
-    body.push(table(['Rezept oder Anwendung', rahmen.registerSpalte || 'Pflanze', 'Seite'], liste.map((r) => [r.titel, r.pflanze, seite(r.id)]), [5000, 2670, 1400], { size: 18 }));
+    body.push(table([rahmen.registerKopf || 'Rezept oder Anwendung', rahmen.registerSpalte || 'Pflanze', 'Seite'], liste.map((r) => [r.titel, r.pflanze, seite(r.id)]), [5000, 2670, 1400], { size: 18 }));
   }
   if (fehlendeThemen.length) console.warn('Ohne Thema im Register:\n  ' + fehlendeThemen.join('\n  '));
 

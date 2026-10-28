@@ -1,0 +1,18 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 8, id: 'giessen-hacken', teil: 'pflege', titel: 'Gießen, Hacken, Mulchen', kurz: 'Gießen und Hacken',
+  bloecke: [
+    'Im Sommer bestehen die meisten Gartentage aus drei Dingen: gießen, hacken, ernten. Mit ein paar alten Regeln sparst du dabei viel Zeit und Wasser.',
+    { h2: 'Richtig gießen' },
+    { punkte: ['**Morgens gießen.** Dann ist der Boden kühl, wenig verdunstet, und die Blätter trocknen bis zum Abend ab. Abends gießen lockt Schnecken.', '**Selten, aber durchdringend.** Lieber zweimal pro Woche 10 bis 20 Liter pro m² als jeden Tag ein bisschen. So wachsen die Wurzeln in die Tiefe und die Pflanzen werden robuster.', '**An die Wurzel, nicht über die Blätter.** Nasse Blätter fördern Pilzkrankheiten wie Mehltau und Krautfäule.', '**Regenwasser** ist weich, warm und kostenlos. Leitungswasser ist besser, wenn es einen Tag in der Kanne gestanden und Umgebungstemperatur angenommen hat.', '**Frisch Gesätes** braucht täglich ein wenig Wasser, bis es gekeimt ist – sonst vertrocknen die Keimlinge.'] },
+    R({ titel: 'Die Fingerprobe fürs Gießen', info: 'Muss ich heute gießen?', thema: T.PFLEGE, zutaten: ['dein Zeigefinger'], schritte: ['Den Finger neben einer Pflanze bis zum zweiten Glied in die Erde stecken.', 'Ist die Erde dort noch feucht und kühl: nicht gießen.', 'Ist sie trocken und krümelig: gründlich gießen.'] }),
+    R({ titel: 'Regenwasser sammeln', info: 'Eine Tonne an jedem Fallrohr', thema: T.PFLEGE, zutaten: ['eine Regentonne mit **festem Deckel**', 'ein Regensammler (Füllautomat) für das Fallrohr aus dem Baumarkt', 'ein paar Steine oder ein Sockel'], schritte: ['Die Tonne auf einen stabilen, erhöhten Sockel stellen – so passt die Gießkanne unter den Hahn.', 'Den Regensammler nach Anleitung ins Fallrohr einsetzen. Er leitet Wasser in die Tonne und lässt es weiterlaufen, wenn sie voll ist.', 'Deckel immer schließen – wegen Kindern, Tieren und Mücken.', 'Vor dem ersten Frost leeren, sonst kann die Tonne platzen.'], tipp: 'Von 10 m² Dachfläche kommen bei einem Liter Regen pro m² schon 10 Liter in die Tonne. Ein sommerlicher Regenschauer füllt sie oft komplett.' }),
+    { h2: 'Hacken: einmal gehackt ist zweimal gegossen' },
+    'Dieser alte Gärtnerspruch stimmt: Wenn du die oberste Bodenschicht lockerst, unterbrichst du die feinen Kanäle, durch die das Wasser nach oben steigt und verdunstet. Der Boden bleibt darunter länger feucht. Nebenbei entfernst du Unkraut, solange es klein ist.',
+    { punkte: ['Flach hacken, nur 2 bis 3 cm tief, damit du die Wurzeln deiner Gemüse nicht verletzt.', 'An einem sonnigen, trockenen Tag hacken – dann vertrocknet das ausgehackte Unkraut gleich.', 'Am besten einmal pro Woche, besonders nach einem Regen, wenn der Boden eine Kruste gebildet hat.', 'Unkraut ohne Samen bleibt als Mulch liegen oder kommt auf den Kompost.'] },
+    { h2: 'Mulchen spart Gießen und Hacken' },
+    'Sobald die Gemüse etwas gewachsen sind und der Boden warm ist (meist ab Ende Mai), legst du eine Mulchschicht zwischen die Reihen. Sie hält die Feuchtigkeit, und es wächst kaum noch Unkraut. Welches Material sich eignet, steht im Kapitel „Kompost und Pflanzendünger“.',
+    { h2: 'Urlaub im Sommer?' },
+    { punkte: ['Vorher kräftig gießen und dick mulchen.', 'Mit Nachbarn tauschen: Sie gießen, du gibst ihnen die Ernte. Das ist Selbstversorgung im besten Sinn.', 'Für einzelne Pflanzen: eine Tonflasche oder einen unglasierten Tontopf mit verschlossenem Loch eingraben und mit Wasser füllen – der Ton gibt das Wasser langsam ab (das alte Prinzip der „Olla“).'] },
+  ],
+};

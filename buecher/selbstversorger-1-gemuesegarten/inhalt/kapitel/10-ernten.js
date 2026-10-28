@@ -1,0 +1,25 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 10, id: 'ernten', teil: 'ernte', titel: 'Ernten: wann ist was reif?', kurz: 'Ernten',
+  bloecke: [
+    'Das Schönste kommt zum Schluss. Und doch ist es eine kleine Kunst: Viele Gemüse schmecken jung am besten, und wer regelmäßig erntet, bekommt bei Zucchini, Bohnen und Salat sogar mehr. Ernte am besten **morgens**, wenn die Pflanzen frisch und knackig sind – außer bei Zwiebeln und Kartoffeln, die bei trockenem Wetter aus der Erde kommen.',
+    { tabelle: [['Gemüse', 'Erntezeit', 'Reif, wenn …'],
+      ['Radieschen', '4–6 Wochen nach der Saat', 'die Knollen 2 bis 3 cm dick sind. Nicht warten – alte Radieschen werden holzig und scharf („pelzig“).'],
+      ['Pflücksalat', 'ab etwa 6 Wochen', 'die äußeren Blätter groß genug sind. Immer nur außen pflücken, das Herz wächst weiter.'],
+      ['Spinat', '6–8 Wochen nach der Saat', 'die Blätter handgroß sind. Vor dem Schossen ernten – bei langen Tagen im Juni bildet er Blüten und wird bitter.'],
+      ['Erbsen', 'Juni–Juli', 'die Hülsen prall sind, aber noch grün und glänzend. Alle 2 bis 3 Tage pflücken.'],
+      ['Buschbohnen', '8–10 Wochen nach der Saat', 'die Hülsen knackig sind und die Kerne sich gerade abzeichnen. **Nur gekocht essen!**'],
+      ['Zucchini', 'Juli–September', 'die Früchte 15 bis 20 cm lang sind. Täglich nachsehen – über Nacht werden sie zu Keulen.'],
+      ['Mangold', 'Juni bis zum Frost', 'die Blätter groß genug sind. Immer die äußeren Blätter abdrehen, das Herz stehen lassen.'],
+      ['Frühkartoffeln', 'Juni–Juli', 'die Pflanzen blühen. Vorsichtig eine Pflanze probeweise ausgraben.'],
+      ['Lagerkartoffeln', 'September', 'das Kraut abgestorben ist – dann noch 2 Wochen warten, damit die Schale fest wird.'],
+      ['Zwiebeln', 'August', 'das Laub sich gelb färbt und umknickt.'],
+      ['Möhren', 'Juni bis November', 'sie dick genug sind – probeweise eine ziehen. Lagermöhren vor dem Frost ernten.'],
+      ['Rote Bete', 'Juli–Oktober', 'die Knollen tischtennisball- bis faustgroß sind. Größere werden holzig.'],
+    ], breiten: [1900, 2400, 4770] },
+    { h2: 'Ernten zum Aufbewahren' },
+    R({ titel: 'Zwiebeln trocknen', info: 'Im August, bei trockenem Wetter', thema: T.ERNTE, zutaten: ['reife Zwiebeln', 'ein luftiger, trockener, überdachter Platz', 'Bindfaden'], schritte: ['Zwiebeln an einem trockenen Tag aus der Erde ziehen.', 'Bei Sonne ein paar Tage auf dem Beet oder auf einem Gitter liegen lassen, abends zudecken.', 'Danach an einem luftigen, überdachten Ort 2 bis 3 Wochen nachtrocknen lassen, bis die Schalen rascheln und der Hals ganz trocken ist.', 'Laub abschneiden oder die Zwiebeln am Laub zu Zöpfen flechten und aufhängen.'], tipp: 'Kühl, trocken und dunkel gelagert halten sie bis ins Frühjahr. Zwiebeln mit dickem Hals zuerst verbrauchen, sie halten nicht so gut.' }),
+    R({ titel: 'Kartoffeln einlagern', info: 'Im September', thema: T.ERNTE, zutaten: ['Grabegabel', 'Holzkisten oder Kartoffelkiste mit Luftschlitzen', 'ein dunkler, kühler, frostfreier Raum (4 bis 8 °C)'], schritte: ['Kartoffeln an einem trockenen Tag mit der Grabegabel vorsichtig ausgraben – von außen her, um die Knollen nicht anzustechen.', 'Einige Stunden an der Luft abtrocknen lassen, nicht in die pralle Sonne legen.', 'Verletzte Knollen aussortieren und bald essen.', 'Die anderen in die Kisten legen, nicht zu hoch schichten, und **dunkel** lagern – Licht macht sie grün und giftig.'], tipp: 'Nicht neben Äpfeln lagern: Äpfel geben Ethylen ab, das die Kartoffeln keimen lässt. Mehr zum Lagern findest du im Heft „Vorratskeller und Lagerung“.' }),
+    { kasten: 'Was zu viel ist', zeilen: ['Im Sommer ist es oft mehr, als du essen kannst. Verschenk es an Nachbarn, tausch es – oder mach es haltbar: einkochen, trocknen, fermentieren. Dazu gibt es eigene Hefte in dieser Reihe. Rezepte, wie du jedes Gemüse ganz nutzt, von der Wurzel bis zum Blatt, findest du in „Was die Natur uns schenkt“, Band 3.'] },
+  ],
+};

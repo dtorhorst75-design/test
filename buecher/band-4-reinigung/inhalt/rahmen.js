@@ -9,9 +9,11 @@ module.exports = {
   datei: 'Was-die-Natur-uns-schenkt-Band-4',
   kurz: 'Band-4',
   registerSpalte: 'Kapitel',
+  registerTitel: 'Anleitungen nach Themen',
+  registerKopf: 'Anleitung',
   registerText: 'Hier findest du alle Anleitungen dieses Buches nach Themen geordnet. Die Grundzutaten und Sicherheitsregeln stehen vorne im Buch.',
 
-  impressum: band1.impressum.map((z) => z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 4: Sauber selbst gemacht – Putzen und Waschen')),
+  impressum: band1.impressum.map((z) => (z.startsWith('**Wichtiger Hinweis:**') ? '**Wichtiger Hinweis:** Bitte beachte den Haftungsausschluss auf den folgenden Seiten. Die Inhalte dieses Buches wurden sorgfältig recherchiert. Sie dienen der allgemeinen Information. Wer die beschriebenen Mittel herstellt und anwendet, tut dies auf eigene Verantwortung. Autorin und Verlag übernehmen keine Haftung für Schäden, die aus der Anwendung der beschriebenen Anleitungen entstehen.' : z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 4: Sauber selbst gemacht – Putzen und Waschen').replace('Texte und Pflanzenzeichnungen wurden', 'Die Texte wurden'))),
 
   abschnitte: [
     ['waesche', 'Wäsche', 'Waschen, Flecken, Pflege'],

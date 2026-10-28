@@ -1,0 +1,27 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 7, id: 'auspflanzen', teil: 'saeen', titel: 'Pflanzen, stecken, legen: Abstände und Zeiten', kurz: 'Auspflanzen',
+  bloecke: [
+    { h2: 'Die Eisheiligen' },
+    'Mitte Mai – zu den **Eisheiligen** vom 11. bis 15. Mai – gibt es in Mitteleuropa oft die letzten Nachtfröste. Alles, was Frost nicht verträgt, kommt erst danach ins Freie: **Zucchini, Buschbohnen**, später auch Tomaten, Gurken und Kürbis. Ob es bei dir früher oder später sicher ist, erfährst du von Nachbarn und aus dem Wetterbericht. Robuste Gemüse wie Erbsen, Spinat, Radieschen, Möhren und Zwiebeln vertragen leichten Frost.',
+    { h2: 'Die Tabelle für dein Beet' },
+    { tabelle: [['Gemüse', 'Wann', 'Tiefe', 'In der Reihe', 'Reihen-abstand'],
+      ['Radieschen', 'März–Sept.', '1 cm', '5 cm', '15 cm'],
+      ['Pflücksalat', 'April–Aug. (Pflanzen ab April)', 'nur andrücken', '25 cm', '25 cm'],
+      ['Spinat', 'März–April, Aug.–Sept.', '2–3 cm', '5 cm', '20 cm'],
+      ['Erbsen', 'März–Mai', '3–5 cm', '5 cm', '40 cm'],
+      ['Buschbohnen', 'Mitte Mai–Anf. Juli', '3–4 cm', '5–8 cm', '40 cm'],
+      ['Zucchini', 'pflanzen nach Mitte Mai', '–', '100 cm', '100 cm'],
+      ['Mangold', 'April–Juli', '2–3 cm', '25–30 cm', '40 cm'],
+      ['Kartoffeln', 'April', '10 cm', '30–35 cm', '60–70 cm'],
+      ['Steckzwiebeln', 'März–April', 'Spitze schaut heraus', '10 cm', '20 cm'],
+      ['Möhren', 'März–Juni', '1 cm', '3–5 cm', '20–25 cm'],
+      ['Rote Bete', 'April–Juni', '2–3 cm', '10 cm', '25–30 cm'],
+      ['Petersilie, Dill', 'April–Juli', '1 cm', '10 cm', '20 cm'],
+    ], breiten: [1900, 2400, 1600, 1500, 1670] },
+    'Die Abstände gelten **nach dem Vereinzeln**. Gesät wird etwas dichter.',
+    R({ titel: 'Jungpflanzen setzen', info: 'Für vorgezogene Zucchini und Salat', thema: T.SAAT, zutaten: ['abgehärtete Jungpflanzen', 'Pflanzkelle, reifer Kompost, Gießkanne', 'ein trüber Tag oder der späte Nachmittag'], schritte: ['Jungpflanzen im Topf gründlich wässern.', 'Ein Pflanzloch graben, etwas größer als der Topfballen. Für Zucchini eine Schaufel Kompost hineingeben.', 'Pflanze vorsichtig aus dem Topf lösen, Ballen nicht zerdrücken.', 'Einsetzen – **Salat nicht tiefer als vorher**, sonst fault er; Zucchini ebenfalls auf gleicher Höhe.', 'Erde rundum andrücken, sodass eine kleine Gießmulde entsteht, und kräftig angießen.'], tipp: 'Bei Sonne in den ersten Tagen mit einem Stück Vlies oder einer umgedrehten Kiste schattieren. Gegen Schnecken: siehe Kapitel „Schnecken und andere Mitesser“.' }),
+    R({ titel: 'Kartoffeln vorkeimen', info: 'Ab Anfang März, 4 bis 6 Wochen vor dem Legen', thema: T.SAAT, zutaten: ['Saatkartoffeln (aus dem Fachhandel, von gesunden Pflanzen)', 'flache Kisten oder Eierkartons', 'ein heller, kühler Raum (10 bis 15 °C)'], schritte: ['Kartoffeln mit dem „Nabel“ (der Stelle, an der sie an der Mutterpflanze hingen) nach unten in die Kisten legen.', 'Hell und kühl stellen, aber nicht in die pralle Sonne.', 'Es bilden sich kurze, kräftige, grüne oder violette Keime. Lange, weiße Keime entstehen im Dunkeln – die brechen leicht ab.'], tipp: 'Vorgekeimte Kartoffeln sind zwei bis drei Wochen früher erntereif und haben einen Vorsprung vor der Krautfäule.' }),
+    R({ titel: 'Kartoffeln legen und häufeln', info: 'April, wenn der Boden etwa 8 °C hat', thema: T.SAAT, zutaten: ['vorgekeimte Saatkartoffeln', 'Spaten oder Hacke, Pflanzschnur', 'reifer Kompost'], schritte: ['Entlang der Schnur eine Furche ziehen, etwa 10 cm tief.', 'Eine Handvoll Kompost in die Furche, dann die Kartoffeln im Abstand von 30 bis 35 cm hineinlegen, Keime nach oben.', 'Mit Erde bedecken.', 'Sobald das Kraut etwa 15 bis 20 cm hoch ist, Erde von den Seiten an die Pflanzen ziehen (**häufeln**), sodass ein Damm entsteht. Nach 2 bis 3 Wochen wiederholen.'], tipp: 'Häufeln schützt junge Triebe vor Spätfrost und verhindert, dass die Knollen ans Licht kommen und grün (und giftig) werden. Droht noch Frost, die Triebe ganz mit Erde bedecken.' }),
+  ],
+};

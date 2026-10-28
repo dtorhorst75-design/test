@@ -11,7 +11,7 @@ module.exports = {
   registerSpalte: 'Kapitel',
   registerText: 'Hier findest du alle Rezepte dieses Buches nach Themen geordnet. Grundlagen, Hygiene und Zutatenkunde stehen vorne im Buch.',
 
-  impressum: band1.impressum.map((z) => z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 5: Natürliche Körperpflege selbst gemacht')),
+  impressum: band1.impressum.map((z) => (z.startsWith('**Wichtiger Hinweis:**') ? '**Wichtiger Hinweis:** Bitte beachte den Haftungsausschluss auf den folgenden Seiten. Die Inhalte dieses Buches wurden sorgfältig recherchiert. Sie dienen der allgemeinen Information und ersetzen keine ärztliche oder dermatologische Beratung. Wer die beschriebenen Mittel herstellt und anwendet, tut dies auf eigene Verantwortung. Autorin und Verlag übernehmen keine Haftung für Schäden, die aus der Anwendung der beschriebenen Rezepte entstehen.' : z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 5: Natürliche Körperpflege selbst gemacht').replace('Texte und Pflanzenzeichnungen wurden', 'Die Texte wurden'))),
 
   abschnitte: [
     ['waschen', 'Natürlich waschen', 'Seifenkraut, Waschnüsse, Hafer, Heilerde und Mandelkleie'],
