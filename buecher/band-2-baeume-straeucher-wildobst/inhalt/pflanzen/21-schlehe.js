@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 21, id: 'schlehe', saison: 'herbst',
+  name: 'Schlehe', botanisch: 'Prunus spinosa',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Schlehe',
+  volksnamen: 'Schwarzdorn, Schlehdorn, Heckendorn, Sauerpflaume',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gesaegt', blattlaenge: 50, blattbreite: 24, knoten: 8, bluete: 'fuenf', farbe: '#ffffff', mitte: '#e9d9a0', bluetengroesse: 24, frucht: 'schlehe', dornen: true, silhouette: 'strauch', wuchshoehe: 'Strauch, 1 bis 3 m', rinde: 'rissig',
+    labels: { bluete: 'weiße Blüten vor dem Laub, März/April', blatt: 'Blatt: klein, elliptisch, fein gesägt', stengel: 'schwarze Zweige mit Dornen', frucht: 'blaue, bereifte Früchte' } },
+  intro: ['Im März ist die Schlehe die erste weiße Wolke in der noch kahlen Landschaft: Ihre Blüten erscheinen vor den Blättern an schwarzen, dornigen Zweigen. Im Herbst hängen kleine, blau bereifte Früchte daran.', 'Roh sind Schlehen so herb, dass sich der Mund zusammenzieht. Erst nach dem ersten Frost – oder ein paar Tagen im Gefrierfach – werden sie milder und lassen sich zu Saft, Marmelade und dem berühmten Schlehenlikör verarbeiten.'],
+  steckbrief: [['Wuchs', 'Strauch, 1 bis 3 m, sehr dicht, bildet viele Wurzelausläufer'], ['Zweige', '**schwarzgrau**, sparrig, mit **Kurztrieben, die in Dornen enden**'], ['Blätter', 'klein (2 bis 4 cm), elliptisch, fein gesägt'], ['Blüte', 'März bis April, **vor dem Laubaustrieb**: weiß, dicht an den Zweigen'], ['Früchte', 'Oktober bis November: kugelig, 1 bis 1,5 cm, **blauschwarz mit hellblauem Reif**, aufrecht an kurzen Stielen'], ['Standort', 'Hecken, Waldränder, Feldraine, Böschungen'], ['Genutzte Teile', 'Früchte, Blüten']],
+  erkennen: [['Schlehe im Winter', 'Schwarze, dornige Zweige mit aufrecht sitzenden, blau bereiften Früchten – und das bis in den Dezember. So erkennst du sie, wenn alle anderen Sträucher kahl sind.']],
+  verwechslung: { text: 'Mit ihren Dornen und blau bereiften Früchten ist die Schlehe gut zu erkennen. Blaue Beeren anderer Sträucher wachsen nicht an dornigen, schwarzen Zweigen.' },
+  standort: ['Schlehen bilden dichte Hecken an Feldrainen, Waldrändern und Böschungen in sonniger Lage.'],
+  sammeln: { tabelle: [['Blüten', 'März bis April', 'einige Blüten abzupfen, den Rest für Bienen und Früchte stehen lassen'], ['Früchte', 'Oktober bis Dezember', 'nach dem ersten Frost; oder vor dem Frost ernten und 2 bis 3 Tage einfrieren']], kalender: [['Blüten', [3, 4]], ['Früchte', [10, 11], [12]]], tipps: ['Handschuhe und feste Kleidung – die Dornen brechen ab und entzünden sich leicht.'] },
+  inhaltsstoffe: { punkte: ['**Gerbstoffe** – der herbe Geschmack, durch Frost gemildert', 'Anthocyane, Fruchtsäuren, Vitamin C', 'Kerne: **Amygdalin** – Kerne nicht knacken oder mitpürieren'] },
+  kueche: { text: ['Schlehen haben ein unverwechselbares herb-fruchtiges Aroma mit einem Hauch Bittermandel aus der Schale.'], ideen: ['**Saft und Sirup.**', '**Marmelade und Gelee**, gern gemischt mit Äpfeln.', '**Schlehenlikör** oder „Sloe Gin“.', '**Schlehenblüten:** als Tee.'] },
+  rezepte: [
+    { titel: 'Schlehensaft', info: 'Für ca. 1 Liter', thema: T.SAFT, zutaten: ['1 kg Schlehen (nach Frost oder eingefroren)', '1 Liter Wasser', '300 g Zucker'], schritte: ['Schlehen waschen und in einen großen Topf geben.', 'Wasser aufkochen und kochend über die Schlehen gießen. Zugedeckt 24 Stunden stehen lassen.', 'Saft abgießen, aufkochen und wieder über die Schlehen gießen. Das an zwei weiteren Tagen wiederholen.', 'Am letzten Tag den Saft abseihen, mit Zucker aufkochen und heiß abfüllen.'], tipp: 'Diese alte Methode laugt die Früchte schonend aus, ohne dass Kerne zerbrechen. Der Saft wird tiefrot und herrlich herb.' },
+    { titel: 'Schlehen-Apfel-Gelee', info: 'Für 5 Gläser', thema: T.MARMELADE, zutaten: ['500 ml Schlehensaft (ungesüßt)', '500 ml Apfelsaft', '500 g Gelierzucker 2 : 1'], schritte: ['Säfte mit Gelierzucker nach Grundrezept 2 kochen.', 'Heiß abfüllen.'] },
+  ],
+  anwendung: { bloecke: ['Schlehenblüten wurden in der Volksheilkunde als milder Tee bei **Erkältungen** und als „Blutreinigungstee“ im Frühjahr verwendet. Die Früchte galten wegen der Gerbstoffe als Mittel bei **leichtem Durchfall** und als Gurgelmittel. Eine HMPC-Monographie gibt es nicht.', { h3: 'Schlehenblütentee', thema: T.TEE }, { schritte: ['1 bis 2 TL getrocknete Blüten mit 250 ml kochendem Wasser übergießen.', '5 bis 10 Minuten ziehen lassen.'] }] },
+  haushalt: [['Wanderstock', 'Schlehdorn-Stöcke sind traditionell hart und zäh – in Irland wird daraus der „Shillelagh“ gemacht.', T.PFLEGE]],
+  geschichte: ['Schlehenkerne wurden schon in Pfahlbausiedlungen der Jungsteinzeit gefunden. Die Schlehe war eine wichtige Wintervitaminquelle. In Bayern heißt es: „Wenn die Schlehe blüht, ist der Winter vorbei“ – oft folgt dann aber noch der „Schlehenwinter“, ein Kälteeinbruch.'],
+  haltbar: [['Früchte', 'einfrieren.', '1 Jahr'], ['Saft, Gelee', 'heiß abgefüllt.', '1 Jahr'], ['Blüten', 'trocknen.', '1 Jahr']],
+  vorsicht: ['Kerne nicht zerkleinern.', 'Dornen: Verletzungen entzünden sich leicht.'],
+  quellen: ['BfN FloraWeb: *Prunus spinosa*'],
+};

@@ -1,0 +1,34 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 2, id: 'fichte', saison: 'fruehling',
+  name: 'Gemeine Fichte', botanisch: 'Picea abies',
+  familie: 'Kieferngewächse (Pinaceae)', artikel: 'in der Fichte',
+  volksnamen: 'Rotfichte, Rottanne, Schwarztanne, Feichte',
+  zeichnung: { wuchs: 'zweig', blatt: 'nadel', nadellaenge: 28, frucht: 'zapfen-haengend', rinde: 'schuppig', silhouette: 'nadelbaum', wuchshoehe: 'Baum, bis 50 m',
+    labels: { blatt: 'Nadeln: spitz, stechend, rundum am Zweig', stengel: 'Zweig: rotbraun, mit Nadelkissen', frucht: 'Zapfen hängen, fallen ganz ab' } },
+  intro: ['Die Fichte ist der häufigste Baum Deutschlands. Im Mai treiben an ihren Zweigen leuchtend hellgrüne, weiche Spitzen aus – die „Maiwipfel“. Sie schmecken frisch-harzig und leicht zitronig und sind die Grundlage für den berühmten Fichtenspitzensirup.', 'Auch das Harz der Fichte wurde früher genutzt: als Pechsalbe für die Haut und als Kaugummi der Waldarbeiter.'],
+  steckbrief: [['Wuchs', 'Baum, 30 bis 50 m, kegelförmige Krone'], ['Rinde', 'rotbraun, in dünnen, runden Schuppen abblätternd'], ['Nadeln', '1 bis 2,5 cm, **vierkantig**, spitz und **stechend**, stehen **rund um den Zweig**, sitzen auf kleinen braunen Stielchen'], ['Zapfen', '10 bis 15 cm, **hängend**, fallen als Ganzes ab'], ['Austrieb', 'Mai: hellgrüne, weiche Triebspitzen in einer braunen Knospenhülle'], ['Standort', 'Wälder, Forste, Parks; im Bergland natürlich'], ['Genutzte Teile', 'junge Triebe, Nadeln, Harz']],
+  erkennen: [['Fichte, Tanne oder Eibe?', { tabelle: [['Merkmal', 'Fichte', 'Tanne', 'Eibe (giftig!)'], ['Nadeln', 'spitz, stechend, vierkantig, rundum', 'flach, weich, vorn eingekerbt, gescheitelt', 'flach, weich, spitz, ohne Duft'], ['Unterseite', 'grün', 'zwei **weiße** Streifen', 'hellgrün, ohne weiße Streifen'], ['Zapfen', 'hängend, fallen ganz', 'stehend, zerfallen am Baum', 'keine – rote Beerenbecher'], ['Duft beim Zerreiben', 'harzig', 'harzig, zitronig', 'kein Harzduft']], breiten: [1800, 2400, 2400, 2470] }], ['Der Merksatz', '„Die Fichte sticht, die Tanne nicht.“ Und: Fichtenzapfen findest du auf dem Waldboden, Tannenzapfen nie.']],
+  verwechslung: {
+    text: 'Die wichtigste Regel bei allen Nadelbäumen: Lerne die Eibe kennen. Sie wächst in Parks, Gärten und Friedhöfen, oft direkt neben Fichten.',
+    tabelle: [['Eibe (*Taxus baccata*) – **sehr giftig**', 'immergrün, Nadeln', 'Nadeln weich, flach, ohne weiße Streifen, **kein Harzduft**; keine Zapfen, sondern rote Beerenbecher; Rinde rotbraun, glatt abschuppend']],
+    warnung: { titel: 'Riechen ist Pflicht', zeilen: ['Fichtentriebe duften beim Zerreiben deutlich nach Harz und Zitrone. Eibennadeln riechen nach nichts. Sammle nur von Bäumen, die du als Fichte erkannt hast – mit stechenden Nadeln und hängenden Zapfen am Baum oder darunter.'] },
+  },
+  standort: ['Fichten wachsen von Natur aus im Bergland und in kühlen Lagen. Im Flachland wurden sie in Forsten angepflanzt. Sie leiden unter Trockenheit und Borkenkäfern – geschwächte, braune Bestände bitte meiden.'],
+  sammeln: { tabelle: [['Maiwipfel (junge Triebspitzen)', 'Ende April bis Anfang Juni', 'nur einzelne Triebe von großen Bäumen, nie die Spitze eines jungen Baums; die braune Knospenhülle abzupfen'], ['Nadeln', 'ganzjährig', 'von frisch geschnittenen Ästen'], ['Harz', 'ganzjährig', 'nur getrocknete Harztropfen von Wunden, nie den Baum anritzen']], kalender: [['Maiwipfel', [5], [4, 6]], ['Nadeln', [1, 2, 3, 10, 11, 12]]] },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** (Bornylacetat, Pinen, Limonen)', '**Vitamin C** – junge Triebe sind reich daran', 'Harzsäuren, Gerbstoffe'] },
+  kueche: { text: ['Maiwipfel schmecken roh frisch, harzig und leicht säuerlich. Ältere Nadeln sind zäh, geben aber Aroma in Tee und Brühe.'], ideen: ['**Maiwipfel roh:** fein gehackt über Salat oder Quark.', '**Fichtenspitzenzucker oder -salz:** mit Zucker oder Salz mixen und trocknen.', '**Wildgerichte:** ein Zweig im Schmorfond.'] },
+  rezepte: [
+    { titel: 'Fichtenspitzensirup', info: 'Für ca. 1 Liter', thema: T.ERK, zutaten: ['3 große Handvoll Maiwipfel (ca. 200 g)', '1 Liter Wasser', '800 g Zucker', 'Saft von 1 Zitrone'], schritte: ['Maiwipfel waschen und grob hacken.', 'Mit dem Wasser aufkochen und zugedeckt über Nacht ziehen lassen.', 'Durch ein Tuch abseihen, gut ausdrücken.', 'Mit Zucker und Zitronensaft aufkochen und 20 bis 30 Minuten leise einkochen lassen, bis er leicht dickflüssig ist.', 'Kochend heiß in saubere Flaschen füllen.'], tipp: 'Löffelweise pur oder in heißem Wasser bei Halskratzen – oder einfach als Sirup für Limonade und über Pfannkuchen.' },
+    { titel: 'Fichtenspitzen-Salz', info: 'Für 1 Glas', thema: T.VORRAT, zutaten: ['1 Handvoll Maiwipfel', '200 g grobes Meersalz'], schritte: ['Maiwipfel mit dem Salz im Mixer fein zerkleinern.', 'Auf einem Blech dünn ausbreiten und bei max. 40 °C oder an der Luft trocknen.', 'Zerbröseln und in ein Glas füllen. Passt zu Kartoffeln, Pilzen und Ofengemüse.'] },
+  ],
+  anwendung: { bloecke: ['Fichtennadelöl ist vom HMPC zur **äußerlichen** Anwendung bei Erkältungsbeschwerden (Einreibung, Inhalation) und bei leichten Muskel- und Gelenkschmerzen eingestuft. Ätherische Öle gehören nicht in Kinderhände.', 'Traditionell wurden Fichtennadelbäder zur Entspannung und Fichtenharzsalbe („Pechsalbe“) bei kleinen Hautverletzungen und Splittern verwendet.'], hinweise: ['Ätherisches Fichtennadelöl nicht bei Säuglingen und Kleinkindern anwenden (Gefahr von Atemkrämpfen), nicht bei Asthma oder Keuchhusten.', 'Harz kann bei empfindlicher Haut allergische Reaktionen auslösen.'] },
+  haushalt: [
+    { rezept: { titel: 'Fichtennadel-Bad', info: 'Für ein Vollbad', thema: T.HAUT, zutaten: ['2 Handvoll frische Fichtenzweige mit Nadeln', '2 Liter Wasser'], schritte: ['Zweige zerkleinern, mit kaltem Wasser aufsetzen und 15 Minuten köcheln lassen.', 'Abseihen und ins Badewasser (36 bis 38 °C) geben.', '15 Minuten baden, danach warm einpacken und ruhen.'], tipp: 'Nicht für Kinder unter 6 Jahren und nicht bei Herzschwäche oder Bluthochdruck ohne ärztlichen Rat.' } },
+    ['Duftzweige', 'Ein paar Zweige in der Vase oder im Adventskranz duften frisch und harzig. Getrocknete Nadeln in Säckchen halten den Kleiderschrank frisch.', T.PFLEGE],
+  ],
+  geschichte: ['Aus Fichtenholz werden seit Jahrhunderten Geigen und Gitarrendecken gebaut – das „Klangholz“ aus langsam gewachsenen Bergfichten ist besonders begehrt. Waldarbeiter kauten früher getrocknetes Fichtenharz wie Kaugummi.'],
+  haltbar: [['Maiwipfel', 'einfrieren oder als Sirup und Salz konservieren.', '1 Jahr']],
+  vorsicht: ['**Nie mit der giftigen Eibe verwechseln** – Duftprobe und Zapfen prüfen.', 'Ätherisches Öl nicht bei kleinen Kindern.', 'Nur einzelne Triebe von großen Bäumen nehmen.'],
+  quellen: ['EMA/HMPC: Monographie *Piceae turiones recentes* / *Piceae aetheroleum*', 'BfN FloraWeb: *Picea abies*'],
+};

@@ -1,0 +1,23 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 24, id: 'mispel', saison: 'herbst',
+  name: 'Echte Mispel', botanisch: 'Mespilus germanica',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Mispel',
+  volksnamen: 'Asperl, Hespelein, Dürgen, Nespel',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'lanzett', rand: 'glatt', blattlaenge: 120, blattbreite: 34, knoten: 5, bluete: 'fuenf', farbe: '#ffffff', mitte: '#e9d9a0', bluetengroesse: 46, frucht: 'mispel', silhouette: 'laubbaum', wuchshoehe: 'kleiner Baum, 3 bis 6 m',
+    labels: { bluete: 'große, weiße Einzelblüten, Mai', blatt: 'Blatt: groß, lanzettlich, filzig', stengel: 'Zweige filzig behaart', frucht: 'braune Früchte mit offener Krone' } },
+  intro: ['Die Mispel ist ein fast vergessenes Obst aus Großmutters Garten. Ihre braunen, apfelförmigen Früchte haben oben eine weit offene „Krone“ aus Kelchblättern. Frisch vom Baum sind sie steinhart und ungenießbar.', 'Erst nach dem ersten Frost oder nach einigen Wochen Lagerung werden sie weich, braun und teigig – und schmecken dann süß-säuerlich nach Apfelmus und Datteln.'],
+  steckbrief: [['Wuchs', 'kleiner Baum oder Strauch, 3 bis 6 m, oft knorrig'], ['Blätter', 'groß (bis 12 cm), lanzettlich, ganzrandig, unterseits **filzig**'], ['Blüte', 'Mai: große (3 bis 5 cm), weiße **Einzelblüten**'], ['Früchte', 'Oktober bis November: braun, 2 bis 3 cm, mit weit **offenem Kelch** an der Spitze und 5 harten Kernen'], ['Standort', 'alte Gärten, Weinberge, Klostergärten; selten verwildert'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Mispel erkennen', 'Keine andere Frucht hat diese braune Form mit der offenen, fünfzipfligen Krone.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht.' },
+  standort: ['Mispeln wachsen in alten Bauern- und Klostergärten, in Weinbaugebieten und Streuobstwiesen. Sie werden wieder häufiger gepflanzt.'],
+  sammeln: { tabelle: [['Früchte', 'Oktober bis November, nach dem ersten Frost', 'hart ernten und auf Stroh lagern, bis sie braun und weich sind („Teigigwerden“) – das dauert 2 bis 4 Wochen']], kalender: [['Früchte', [10, 11]]] },
+  inhaltsstoffe: { punkte: ['Zucker (nimmt beim Teigigwerden zu), Fruchtsäuren', '**Gerbstoffe** (bauen sich beim Lagern ab)', 'Pektin'] },
+  kueche: { text: ['Teigige Mispeln werden ausgelöffelt – die Kerne bleiben übrig.'], ideen: ['**Pur ausgelöffelt.**', '**Mispelmus** und **Gelee** – mit viel Pektin.', '**Kompott** mit Äpfeln.'] },
+  rezepte: [{ titel: 'Mispelgelee', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['1,5 kg teigige Mispeln', '1 Liter Wasser', 'Saft einer Zitrone', 'Gelierzucker 2 : 1 nach Saftmenge'], schritte: ['Mispeln halbieren, mit Wasser 30 Minuten weich kochen.', 'Durch ein Tuch abtropfen lassen.', 'Saft mit Zitrone und Gelierzucker nach Grundrezept 2 kochen.', 'Heiß abfüllen.'], tipp: 'Das Gelee ist bernsteinfarben und schmeckt nach Apfel und Karamell – toll zu Käse.' }],
+  anwendung: { bloecke: ['Mispeln wurden in der Klostermedizin wegen ihrer Gerbstoffe bei Durchfall verwendet. Heute sind sie vor allem ein Genuss für Liebhaber alter Obstsorten.'] },
+  geschichte: ['Die Mispel war im Mittelalter in ganz Europa ein beliebtes Winterobst und stand in jedem Klostergarten. Im Capitulare de villis Karls des Großen ist sie als Pflanze aufgeführt, die in jedem Hofgut wachsen sollte.'],
+  haltbar: [['Teigige Früchte', 'kühl lagern und bald verarbeiten.', '1 bis 2 Wochen'], ['Gelee, Mus', 'heiß abgefüllt.', '1 Jahr']],
+  vorsicht: ['Nur teigige Früchte essen.'],
+  quellen: ['BfN FloraWeb: *Mespilus germanica*'],
+};

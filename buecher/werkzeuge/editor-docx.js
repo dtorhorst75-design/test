@@ -7,7 +7,7 @@ const {
   WidthType, ShadingType, BorderStyle, LevelFormat, Footer, PageNumber, PageOrientation,
 } = require('docx');
 
-const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
+const BAND = path.join(__dirname, '..', process.env.BAND || 'band-1-kraeuter-wildpflanzen');
 const GREEN = '3E5A2A', INK = '3B2F22';
 const MONATE = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
@@ -71,7 +71,7 @@ function build(outFile) {
   const rahmen = require(path.join(BAND, 'inhalt', 'rahmen.js'));
   const dir = path.join(BAND, 'inhalt', 'pflanzen');
   const pflanzen = fs.readdirSync(dir).filter((f) => f.endsWith('.js')).map((f) => require(path.join(dir, f))).sort((a, b) => a.nr - b.nr);
-  const riskant = (pf) => !!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen';
+  const riskant = (pf) => pf.saison === 'haushalt' || !!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis;
   const W = 14400; // Querformat-Inhaltsbreite für Tabellen
 
   const body = [];
@@ -81,7 +81,7 @@ function build(outFile) {
   body.push(p('In dieser Datei sammelst du alles, was du später noch ins Buch einfügen möchtest:'));
   body.push(bullet('**Teil 1:** Was vor der Veröffentlichung noch offen ist – als Checkliste.'));
   body.push(bullet('**Teil 2:** Platz für deine eigenen Texte zu jeder Pflanze („Aus Dianas Kräuterküche“).'));
-  body.push(bullet('**Teil 3:** Die Fotoliste aller 80 Pflanzen, damit du nach und nach echte Bilder besorgen kannst.'));
+  body.push(bullet(`**Teil 3:** Die Fotoliste aller ${pflanzen.length} Pflanzen, damit du nach und nach echte Bilder besorgen kannst.`));
   body.push(p('**So kommt alles ins Buch:** Schreib deine Texte hier hinein (oder schick sie mir einfach im Chat, Stichpunkte reichen). Ich setze sie dann an der richtigen Stelle ein und baue das Buch neu. Bitte trag sie nicht direkt in die Buch-Datei ein – sonst gehen sie beim nächsten Neubau verloren.'));
 
   // Teil 1
@@ -106,7 +106,7 @@ function build(outFile) {
 
   // Teil 3
   body.push(h1('Teil 3: Fotoliste'));
-  body.push(p('Hier stehen alle 80 Pflanzen des Buches. Fang mit den Pflanzen der Priorität **hoch** an: Sie haben giftige Doppelgänger, und dort helfen echte Fotos der Bestimmungsmerkmale am meisten. Fotografiere wenn möglich auch den Doppelgänger zum Vergleich.'));
+  body.push(p(`Hier stehen alle ${pflanzen.length} Pflanzen des Buches. Fang mit den Pflanzen der Priorität **hoch** an: Sie haben giftige Doppelgänger, und dort helfen echte Fotos der Bestimmungsmerkmale am meisten. Fotografiere wenn möglich auch den Doppelgänger zum Vergleich.`));
   body.push(h2('Tipps für gute Pflanzenfotos'));
   [
     '**Licht:** Tageslicht bei leicht bewölktem Himmel ist ideal. Pralle Mittagssonne macht harte Schatten.',
@@ -171,4 +171,4 @@ function build(outFile) {
   return Packer.toBuffer(doc).then((buf) => { fs.writeFileSync(outFile, buf); console.log(`Editor-Datei → ${outFile}`); });
 }
 
-build(process.argv[2] || path.join(BAND, 'Editor-Datei-Band-1.docx'));
+build(process.argv[2] || path.join(BAND, `Editor-Datei-${require(path.join(BAND, 'inhalt', 'rahmen.js')).kurz || 'Band-1'}.docx`));

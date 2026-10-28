@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 4, id: 'kiefer', saison: 'fruehling',
+  name: 'Waldkiefer', botanisch: 'Pinus sylvestris',
+  familie: 'Kieferngewächse (Pinaceae)', artikel: 'in der Kiefer',
+  volksnamen: 'Föhre, Forle, Kienbaum, Kienföhre',
+  zeichnung: { wuchs: 'zweig', blatt: 'nadel', nadellaenge: 55, nadelwinkel: 35, frucht: 'kiefernzapfen', rinde: 'rissig', silhouette: 'nadelbaum', wuchshoehe: 'Baum, bis 35 m',
+    labels: { blatt: 'Nadeln: zu zweit, 4–7 cm, gedreht', stengel: 'Rinde oben fuchsrot, unten rissig', frucht: 'Zapfen: eiförmig, 3–7 cm' } },
+  intro: ['Die Waldkiefer erkennst du schon von Weitem: Ihr Stamm leuchtet im oberen Teil fuchsrot, und die Krone ist im Alter schirmartig. Sie wächst dort, wo andere Bäume aufgeben – auf trockenem Sand und in Mooren.', 'Im Frühling bilden sich an den Zweigenden helle „Kerzen“, die jungen Triebe. Sie werden wie Fichtenspitzen zu Sirup und Tee verarbeitet. Kiefernnadelöl ist ein bekanntes Erkältungsmittel.'],
+  steckbrief: [['Wuchs', 'Baum, 15 bis 35 m, im Alter schirmförmig'], ['Rinde', 'unten grau-braun und tief rissig, oben **fuchsrot** und in dünnen Schuppen abblätternd'], ['Nadeln', '**immer zu zweit** in einer Scheide, 4 bis 7 cm, blaugrün, leicht gedreht'], ['Zapfen', 'eiförmig, 3 bis 7 cm, reifen erst im zweiten Jahr'], ['Austrieb', 'Mai: hellbraune „Kerzen“ an den Zweigenden'], ['Standort', 'Sandböden, Heiden, Moore, Kiefernforste'], ['Genutzte Teile', 'junge Triebe, Nadeln, Harz, Knospen']],
+  erkennen: [['Zweinadler', 'Kein anderer heimischer Waldbaum hat zwei lange Nadeln in einer gemeinsamen Scheide. Die Schwarzkiefer (*Pinus nigra*) hat ebenfalls zwei, aber längere (8 bis 15 cm), steife, dunkelgrüne Nadeln und eine graue Rinde – sie wird genauso genutzt.']],
+  verwechslung: { text: 'Kiefern lassen sich durch die Nadelpaare nicht mit giftigen Nadelbäumen verwechseln. Die Eibe hat einzelne, flache Nadeln.' },
+  standort: ['Die Waldkiefer ist anspruchslos und lichthungrig. Sie prägt die Sandlandschaften Brandenburgs, die Heiden Norddeutschlands und viele Moorränder.'],
+  sammeln: { tabelle: [['Junge Triebe („Kerzen“)', 'Mai bis Anfang Juni', 'einzeln von unteren Ästen, solange sie weich sind'], ['Nadeln', 'ganzjährig', 'von abgebrochenen oder geschnittenen Ästen'], ['Harz', 'ganzjährig', 'nur getrocknete Tropfen an Wunden']], kalender: [['Triebe', [5], [6]], ['Nadeln', [1, 2, 3, 10, 11, 12]]] },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** (Pinen, Limonen, Bornylacetat)', '**Vitamin C**', 'Harzsäuren, Gerbstoffe'] },
+  kueche: { text: ['Kieferntriebe schmecken kräftiger und harziger als Fichten- und Tannenspitzen.'], ideen: ['**Sirup** wie Fichtenspitzensirup.', '**Kiefernnadel-Tee** im Winter.', '**Kiefernzucker:** Triebe mit Zucker mixen und trocknen – für Gebäck.'] },
+  rezepte: [
+    { titel: 'Kiefernnadel-Wintertee', info: 'Für 1 Kanne', thema: T.ERK, zutaten: ['2 EL frische Kiefernnadeln', '500 ml Wasser', '1 Scheibe Zitrone', 'Zucker oder Sirup nach Geschmack'], schritte: ['Nadeln waschen und mit der Schere in kleine Stücke schneiden.', 'Mit kochendem Wasser übergießen und 10 Minuten zugedeckt ziehen lassen – nicht kochen, sonst wird er bitter.', 'Abseihen, mit Zitrone und etwas Süße servieren.'] },
+  ],
+  anwendung: { bloecke: ['Kiefernnadelöl ist vom HMPC zur **äußerlichen** Anwendung als Einreibung und zur Inhalation bei **Erkältungsbeschwerden** sowie bei leichten Muskelschmerzen eingestuft. Kiefernknospen (*Pini turiones*) wurden traditionell als Tee und Sirup bei Husten verwendet.'], hinweise: ['Ätherisches Kiefernnadelöl nicht bei Säuglingen und Kleinkindern, nicht bei Asthma oder Keuchhusten.', 'Nicht in die Augen bringen.'] },
+  haushalt: [['Kienspan und Anzünder', 'Harzreiches Holz („Kien“) von alten Kiefernstümpfen brennt hell und lange – ein traditioneller Feueranzünder.', T.PFLEGE], ['Mulch', 'Kiefernnadeln sind ein guter, leicht saurer Mulch für Heidelbeeren und Rhododendron im Garten.', T.GARTEN]],
+  geschichte: ['In der Steinzeit war Kiefernkien die wichtigste Lichtquelle: Kienspäne wurden in Halterungen an der Wand angezündet. Aus dem Harz der Kiefer gewann man Terpentin und Kolophonium, das Geiger bis heute für ihren Bogen verwenden.'],
+  haltbar: [['Nadeln', 'trocknen und luftdicht aufbewahren.', '6 Monate']],
+  vorsicht: ['Ätherisches Öl nicht bei kleinen Kindern.', 'Junge Bäume nicht beschädigen.'],
+  quellen: ['EMA/HMPC: Monographie *Pini aetheroleum*', 'BfN FloraWeb: *Pinus sylvestris*'],
+};

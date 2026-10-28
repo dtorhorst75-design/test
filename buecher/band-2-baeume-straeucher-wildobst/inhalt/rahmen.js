@@ -1,0 +1,170 @@
+// Titelei, Grundlagen (vorne) und Anhang (hinten) für Band 2.
+// Haftungsausschluss, Impressum-Hinweis und Anwendungshinweise stammen aus Band 1, damit sie überall gleich lauten.
+const band1 = require('../../band-1-kraeuter-wildpflanzen/inhalt/rahmen.js');
+const kapitel1 = (titel) => band1.vorne.find((k) => k.titel === titel);
+
+module.exports = {
+  titel: 'Was die Natur uns schenkt',
+  untertitel: 'Band 2: Bäume, Sträucher & Wildobst',
+  motto: 'erkennen · ernten · nutzen',
+  autorin: 'Diana',
+  datei: 'Was-die-Natur-uns-schenkt-Band-2',
+  kurz: 'Band-2',
+
+  impressum: band1.impressum.map((z) => z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 2: Bäume, Sträucher & Wildobst')),
+
+  abschnitte: [
+    ['fruehling', 'Bäume des Frühlings', 'März bis Mai: Saft, Knospen, junge Triebe und Blätter'],
+    ['sommer', 'Blüten und Beeren des Sommers', 'Juni bis August: Lindenblüten, Holunder und die ersten Beeren'],
+    ['herbst', 'Früchte und Nüsse des Herbstes', 'September bis November: Wildobst, Nüsse und Samen'],
+    ['haushalt', 'Nicht zum Essen – aber Gold wert im Haushalt', 'Zwei giftige Pflanzen, aus denen du Waschmittel machst'],
+  ],
+
+  vorne: [
+    kapitel1('Bevor du loslegst: Haftungsausschluss'),
+    {
+      titel: 'Vorwort',
+      bloecke: [
+        'Schön, dass du wieder da bist!',
+        'Im ersten Band ging es um Kräuter und Wildpflanzen am Boden. Jetzt schauen wir nach oben: auf Bäume, Sträucher und Hecken. Sie schenken uns jedes Jahr Blüten für Tee und Sirup, Beeren für Marmelade, Nüsse für den Winter und sogar Waschmittel – und das meiste davon wächst am Waldrand, im Park oder am Feldweg, ganz ohne dass jemand es gießt.',
+        'Unsere Großeltern wussten genau, wann die Holunderblüten reif sind, wann die Schlehen nach dem ersten Frost süßer werden und wie man aus Bucheckern Öl presst. Mit diesem Buch hole ich dieses Wissen zurück in den Alltag – zurück zu den Basics, ohne Schnickschnack.',
+        'Auch hier gilt: Ich habe bewusst auf Gehölze verzichtet, die giftig sind oder leicht mit giftigen verwechselt werden. Die einzige Ausnahme sind Rosskastanie und Efeu ganz am Ende des Buches. Sie sind giftig und werden **nicht gegessen** – aber sie liefern ein wunderbares, kostenloses Waschmittel. Deshalb stehen sie in einem eigenen, deutlich markierten Teil.',
+        'Ich wünsche dir volle Körbe, klebrige Finger vom Beerenpflücken und eine Speisekammer voller Gläser.',
+        'Herzlich,',
+        '*Diana*',
+      ],
+    },
+    {
+      titel: 'So benutzt du dieses Buch',
+      bloecke: [
+        'Die Gehölze sind nach ihrer **wichtigsten Erntezeit** geordnet: zuerst die Bäume des Frühlings, dann Blüten und Beeren des Sommers, dann Früchte und Nüsse des Herbstes. Ganz am Ende stehen Rosskastanie und Efeu – nicht zum Essen, sondern für den Haushalt.',
+        { h2: 'Aufbau der Kapitel' },
+        { punkte: [
+          '**Zeichnung:** ein schematischer Zweig mit Blatt, Blüte und Frucht, dazu die Wuchsform des ganzen Baums oder Strauchs und Detailansichten. Die Zeichnungen sind schematisch und nicht zum Bestimmen gedacht – maßgeblich sind die Merkmale im Text.',
+          '**Steckbrief, Erkennen, Verwechslungsgefahr:** woran du das Gehölz sicher erkennst, auch im Winter.',
+          '**Sammeln und Ernten:** welcher Teil wann geerntet wird, mit Sammelkalender – und wie du dem Baum dabei nicht schadest.',
+          '**Küche und Rezepte:** Marmeladen, Säfte, Kuchen, herzhafte Gerichte.',
+          '**Tee und traditionelle Verwendung:** ohne Heilversprechen, mit allen wichtigen Hinweisen.',
+          '**Haushalt und Garten, Haltbar machen, Vorsicht auf einen Blick.**',
+        ] },
+        { h2: 'Zeichen und Kästen' },
+        { tabelle: [['Kasten', 'Bedeutung'],
+          ['Grüner Kasten', 'Wissenswertes und Tipps aus der Praxis'],
+          ['Roter Kasten', 'Warnung: Verwechslungen, Gegenanzeigen, Mengenbegrenzungen'],
+          ['Tausch-Tipp', 'pflanzliche Alternative für Zutaten wie Butter, Sahne, Ei oder Honig'],
+          ['● im Kalender', 'Haupterntezeit'],
+          ['○ im Kalender', 'Ernte ebenfalls möglich'],
+        ], breiten: [2600, 6470] },
+        { h2: 'Tauschen erlaubt' },
+        'Die meisten Rezepte kommen ganz von selbst rein pflanzlich daher – Obst, Zucker, Nüsse. Wo doch einmal Butter, Sahne, Ei oder Honig drinsteckt, findest du unter dem Rezept einen kleinen **Tausch-Tipp**.',
+        { h2: 'Mengenangaben' },
+        { punkte: [
+          '**TL / EL** = gestrichener Tee- bzw. Esslöffel',
+          '**Tasse** = etwa 250 ml',
+          '**Gelierzucker 1 : 1 / 2 : 1 / 3 : 1** = Verhältnis Frucht zu Gelierzucker laut Packung',
+        ] },
+      ],
+    },
+    {
+      titel: 'Sicher ernten an Bäumen und Sträuchern',
+      bloecke: [
+        'Bäume und Sträucher sind langlebig. Wer klug erntet, kann jedes Jahr wiederkommen.',
+        { h2: 'Die goldenen Regeln' },
+        { punkte: [
+          '**Nur was du sicher kennst.** Iss keine Beere, keine Nuss und keine Blüte, die du nicht zweifelsfrei bestimmt hast. Das gilt besonders für Kinder: Bring ihnen bei, nie ohne Erwachsene Beeren zu essen.',
+          '**Handstraußregel:** Für den eigenen Bedarf darfst du in der freien Landschaft Blüten, Früchte und Zweige in kleinen Mengen sammeln (§ 39 Bundesnaturschutzgesetz). In Naturschutzgebieten ist das Sammeln verboten.',
+          '**Fremdes Eigentum:** Obst an Straßenbäumen, in Gärten und Plantagen gehört jemandem. Frag vorher. Eine Hilfe ist die Karte auf mundraub.org, auf der frei nutzbare Obstbäume eingetragen sind.',
+          '**Nicht von stark befahrenen Straßen** ernten – mindestens 25 bis 50 Meter Abstand halten. Auch Hundewege und gespritzte Feldränder meiden.',
+          '**Den Tieren etwas lassen:** Beeren und Nüsse sind Winterfutter für Vögel, Eichhörnchen und Igel. Nimm nie alles von einem Strauch.',
+        ] },
+        { h2: 'Ohne Schaden für den Baum' },
+        { punkte: [
+          '**Rinde nie vom Stamm schälen.** Rinde wird nur von frisch geschnittenen Ästen genommen, etwa beim Gehölzschnitt im eigenen Garten. Ein Ringelschnitt am Stamm lässt den Baum sterben.',
+          '**Birkensaft** nur von Bäumen ab etwa 25 cm Stammdurchmesser, nur wenige Tage und nur mit Erlaubnis des Eigentümers. Das Bohrloch danach verschließen.',
+          '**Junge Triebe** (Maiwipfel) nur einzeln von großen Bäumen nehmen, nie den Haupttrieb oder die Spitze eines jungen Baums.',
+          '**Zweige** mit einer scharfen Gartenschere schneiden, nicht abreißen.',
+        ] },
+        { h2: 'Ausrüstung' },
+        { punkte: ['flache Körbe oder Dosen für empfindliche Beeren', 'Gartenschere, Handschuhe für dornige Sträucher', 'ein Haken oder Spazierstock, um Zweige herunterzuziehen', 'Stoffbeutel für Nüsse'] },
+      ],
+    },
+    {
+      titel: 'Einkochen, Trocknen und Grundrezepte',
+      bloecke: [
+        'Wildobst hat eine kurze Saison – aber mit den folgenden Grundtechniken hast du das ganze Jahr etwas davon. In den Kapiteln wird auf diese Grundrezepte verwiesen.',
+        { h2: 'Gläser vorbereiten' },
+        { schritte: ['Gläser und Deckel heiß spülen.', 'Gläser kopfüber auf ein sauberes Tuch stellen oder 10 Minuten bei 120 °C in den Backofen stellen; Deckel 5 Minuten in kochendes Wasser legen.', 'Gläser heiß befüllen, bis knapp unter den Rand, Rand sauber wischen, sofort verschließen.'] },
+        { h2: 'Grundrezept 1: Marmelade und Konfitüre' },
+        'Für die meisten Früchte. Mit Gelierzucker 1 : 1 wird sie am festesten und hält am längsten; mit 2 : 1 oder 3 : 1 schmeckt sie fruchtiger.',
+        { schritte: ['1 kg vorbereitete Früchte (gewaschen, entsteint, eventuell püriert) mit dem Gelierzucker laut Packung in einen großen Topf geben.', 'Unter Rühren aufkochen und mindestens 4 Minuten sprudelnd kochen lassen.', '**Gelierprobe:** einen Teelöffel Masse auf einen kalten Teller geben. Wird sie nach einer Minute fest, ist die Marmelade fertig.', 'Sofort in die vorbereiteten Gläser füllen und verschließen.'] },
+        { h2: 'Grundrezept 2: Gelee' },
+        'Für Früchte mit vielen Kernen (Holunder, Hagebutte, Quitte, Brombeere): Nur der Saft wird verwendet.',
+        { schritte: ['Früchte knapp mit Wasser bedecken und weich kochen.', 'Durch ein Tuch abtropfen lassen, am besten über Nacht. Nicht pressen, sonst wird das Gelee trüb.', 'Saft mit Gelierzucker laut Packung 4 Minuten sprudelnd kochen, Gelierprobe machen, abfüllen.'] },
+        { h2: 'Grundrezept 3: Fruchtmus' },
+        'Früchte mit wenig Wasser weich kochen, durch die Flotte Lotte oder ein Sieb streichen, mit etwas Zucker abschmecken und nochmals aufkochen. Heiß abfüllen. Mus ist die Basis für Kuchen, Soßen und Grütze.',
+        { h2: 'Grundrezept 4: Saft im Dampfentsafter oder Topf' },
+        { schritte: ['Früchte waschen, Stiele müssen bei den meisten Beeren nicht entfernt werden (außer beim Holunder).', 'Im Dampfentsafter 45 bis 60 Minuten entsaften – oder mit wenig Wasser 15 Minuten kochen und durch ein Tuch abtropfen lassen.', 'Saft nach Geschmack süßen, nochmals aufkochen und kochend heiß in saubere Flaschen füllen, sofort verschließen.'] },
+        { h2: 'Grundrezept 5: Sirup' },
+        'Für Blüten (Holunder, Linde) und Saft: 1 Liter Saft oder Blütenaufguss mit 750 g bis 1 kg Zucker und dem Saft einer Zitrone aufkochen, bis sich der Zucker gelöst hat, kochend heiß abfüllen. Geöffnete Flaschen in den Kühlschrank.',
+        { h2: 'Grundrezept 6: Dörren und Fruchtleder' },
+        { punkte: ['**Dörren:** Früchte halbieren oder in Scheiben schneiden und bei 40 bis 50 °C im Dörrgerät oder im Backofen (Tür einen Spalt offen) trocknen, bis sie ledrig sind. Kleine Beeren ganz lassen.', '**Fruchtleder:** Fruchtmus etwa 3 bis 4 mm dick auf Backpapier streichen, bei 50 °C 6 bis 10 Stunden trocknen, in Streifen schneiden, aufrollen.'] },
+        { h2: 'Grundrezept 7: Nüsse lagern' },
+        'Nüsse aus der Schale holen erst kurz vor dem Gebrauch. Frisch gesammelte Nüsse 2 bis 4 Wochen luftig in einer Schicht trocknen, dann in Netzen oder Stoffbeuteln kühl und trocken lagern. Mäuse lieben Nüsse – Vorrat gut verschließen. Nüsse mit Schimmel oder bitterem Geschmack wegwerfen.',
+        { h2: 'Grundrezept 8: Eicheln entbittern' },
+        'Eicheln enthalten viele Gerbstoffe und schmecken roh bitter und unangenehm. Erst nach dem Entbittern sind sie genießbar.',
+        { schritte: ['Eicheln schälen und halbieren oder grob hacken.', 'In einen Topf mit Wasser geben und aufkochen, Wasser abgießen. Das Wasser wird braun.', 'Mit frischem Wasser wiederholen, bis das Wasser klar bleibt und die Eicheln nicht mehr bitter schmecken – meist 4- bis 8-mal.', 'Alternativ: gehackte Eicheln 1 bis 2 Wochen in kaltem Wasser einweichen und das Wasser täglich wechseln.', 'Danach trocknen, rösten und mahlen – als Mehl oder Kaffee-Ersatz.'] },
+        { h2: 'Grundrezept 9: Tee aus Blüten, Blättern und Rinde' },
+        { punkte: ['**Aufguss** für Blüten und Blätter: 1 bis 2 TL pro Tasse mit kochendem Wasser übergießen, 5 bis 10 Minuten zugedeckt ziehen lassen.', '**Abkochung** für Rinde und Früchte: 1 TL pro Tasse mit kaltem Wasser aufsetzen, aufkochen und 5 bis 10 Minuten köcheln lassen.'] },
+      ],
+    },
+    kapitel1('Wichtige Hinweise zur Anwendung'),
+  ],
+
+  hinten: [
+    {
+      titel: 'Giftige Beeren und Gehölze erkennen',
+      bloecke: [
+        'In diesem Buch stehen bewusst keine giftigen Gehölze zum Essen. Trotzdem wachsen sie oft direkt neben den guten – in Hecken, Parks und Gärten. Wer die wichtigsten kennt, sammelt entspannter. Bring auch Kindern bei: **Keine Beere essen, die ein Erwachsener nicht geprüft hat.**',
+        { tabelle: [['Giftige Pflanze', 'Woran du sie erkennst', 'Wird verwechselt mit'],
+          ['Eibe (*Taxus baccata*) – **sehr giftig**', 'weiche, flache Nadeln ohne Duft, unterseits hellgrün; rote, becherförmige Früchte mit dunklem Samen; alles außer dem roten Fruchtfleisch giftig', 'Fichte, Tanne'],
+          ['Zwergholunder, Attich (*Sambucus ebulus*) – **giftig**', 'krautig, 1 bis 2 m, stirbt im Winter ab; Dolden **aufrecht**, Beeren **stehen nach oben**; Blüten mit roten Staubbeuteln; unangenehmer Geruch', 'Schwarzer Holunder'],
+          ['Traubenholunder (*Sambucus racemosa*)', 'Blüten im April/Mai in Rispen, **rote** Beeren; Kerne giftig', 'Schwarzer Holunder'],
+          ['Tollkirsche (*Atropa belladonna*) – **sehr giftig**', 'krautige Staude, 0,5 bis 1,5 m; **einzelne**, glänzend schwarze Beeren mit sternförmigem Kelch; braunviolette Glockenblüten', 'Heidelbeere'],
+          ['Rauschbeere (*Vaccinium uliginosum*)', 'Beeren blau, innen **hell**, Blätter blaugrün und ganzrandig; Moore', 'Heidelbeere'],
+          ['Pfaffenhütchen (*Euonymus europaeus*) – **giftig**', 'rosa, viereckige Kapseln mit orangem Samenmantel', 'Kinder lockt die Farbe'],
+          ['Liguster (*Ligustrum vulgare*) – **giftig**', 'schwarze, glänzende Beeren in Trauben, ledrige gegenständige Blätter, Heckenpflanze', 'Holunder, Aronia'],
+          ['Rote Heckenkirsche (*Lonicera xylosteum*) – **giftig**', 'rote Beeren immer **paarweise** an einem Stiel', 'Johannisbeere'],
+          ['Seidelbast (*Daphne mezereum*) – **sehr giftig**', 'blüht rosa vor dem Laubaustrieb direkt am Stamm, rote Beeren direkt am Zweig', 'Kirschen'],
+          ['Kirschlorbeer (*Prunus laurocerasus*) – **giftig**', 'immergrüne, ledrige Blätter; schwarze Beeren in Trauben', 'Kirschen, Aronia'],
+          ['Schneebeere (*Symphoricarpos*) – **giftig**', 'weiße, runde Beeren, platzen beim Draufdrücken', 'Kinder lockt das Knallen'],
+          ['Rosskastanie (*Aesculus hippocastanum*) – **giftig**', 'Fruchthülle mit wenigen, kurzen Stacheln; glänzende Samen mit hellem Fleck; gefingerte Blätter', 'Esskastanie'],
+        ], breiten: [2700, 4170, 2200] },
+        { warnung: 'Im Notfall', zeilen: [
+          'Bei Verdacht auf eine Vergiftung sofort den **Giftnotruf** anrufen, zum Beispiel Berlin: **030 19240**, München: **089 19240**. Bei Bewusstlosigkeit, Krämpfen oder Atemnot den **Notruf 112** wählen.',
+          'Pflanzenreste und Beeren mitnehmen – sie helfen bei der Bestimmung. Kein Erbrechen auslösen und keine Milch geben.',
+        ] },
+      ],
+    },
+    {
+      titel: 'Literatur und Quellen',
+      bloecke: [
+        'Die Angaben in diesem Buch beruhen auf den folgenden Quellen und Nachschlagewerken. Sie eignen sich auch zum Weiterlesen und zur Kontrolle.',
+        { h2: 'Bestimmung und Wildobst' },
+        { punkte: [
+          'Fleischhauer, S. G.; Guthmann, J.; Spiegelberger, R.: *Enzyklopädie essbare Wildpflanzen*. AT Verlag.',
+          'Spohn, M.; Golte-Bechtle, M.; Spohn, R.: *Was blüht denn da?* und *Welcher Baum ist das?* Kosmos.',
+          'Bundesamt für Naturschutz: *FloraWeb* (floraweb.de).',
+          'mundraub.org – Karte frei nutzbarer Obstbäume und Sträucher.',
+        ] },
+        { h2: 'Heilpflanzen und traditionelle Anwendung' },
+        { punkte: [
+          'Europäische Arzneimittel-Agentur (EMA), Ausschuss für pflanzliche Arzneimittel (HMPC): Monographien (ema.europa.eu).',
+          'Wichtl, M. (Hrsg.): *Teedrogen und Phytopharmaka*. Wissenschaftliche Verlagsgesellschaft.',
+          'Giftinformationszentren der Länder, z. B. GIZ-Nord: Pflanzeninformationen.',
+        ] },
+        { h2: 'Recht und Naturschutz' },
+        { punkte: ['Bundesnaturschutzgesetz (BNatSchG), insbesondere § 39.', 'Bundesartenschutzverordnung (BArtSchV).'] },
+      ],
+    },
+  ],
+};

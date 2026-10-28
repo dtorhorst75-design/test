@@ -11,14 +11,15 @@ const {
   Bookmark, SimpleField, Tab, TabStopType,
 } = require('docx');
 
-const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
+const BAND = path.join(__dirname, '..', process.env.BAND || 'band-1-kraeuter-wildpflanzen');
 const GREEN = '3E5A2A', INK = '3B2F22', PALE = 'EEF3E4', WARN = 'FBEDE7', WARN_LINE = 'B5482F', SAND = 'F6EFDD';
 const FONT = 'Georgia';
 const CONTENT_W = 9070;
-const WICKEL = require(path.join(BAND, 'inhalt', 'wickel.js'));
-const THEMEN = require(path.join(BAND, 'inhalt', 'rezeptthemen.js'));
-const TAUSCH = require(path.join(BAND, 'inhalt', 'tausch.js'));
-const DIANA = require(path.join(BAND, 'inhalt', 'dianas-texte.js'));
+const optional = (name, fallback) => (fs.existsSync(path.join(BAND, 'inhalt', name)) ? require(path.join(BAND, 'inhalt', name)) : fallback);
+const WICKEL = optional('wickel.js', { proPflanze: {} });
+const THEMEN = optional('rezeptthemen.js', { REIHENFOLGE: [], themen: {} });
+const TAUSCH = optional('tausch.js', {});
+const DIANA = optional('dianas-texte.js', {});
 // Seitenzahlen: Ein erster Durchlauf (--marker) setzt unsichtbare Marken hinter jede Sprungmarke; buch-bauen.js
 // liest daraus die Seiten ab und übergibt sie dem zweiten Durchlauf (--seiten datei.json) als feste Zahlen.
 const ARGS = process.argv.slice(2);
@@ -59,9 +60,9 @@ const h3 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: 
 let currentPf = null;
 const rezeptListe = [];
 const fehlendeThemen = [];
-function rh3(text) {
+function rh3(text, eigenesThema) {
   if (!currentPf) return h3(text);
-  const thema = THEMEN.themen[text];
+  const thema = eigenesThema !== undefined ? eigenesThema : THEMEN.themen[text];
   if (thema === undefined) fehlendeThemen.push(`${currentPf.id}: ${text}`);
   if (!thema) return h3(text);
   const id = `r${rezeptListe.length + 1}`;
@@ -125,7 +126,7 @@ function renderBlocks(blocks) {
   for (const b of blocks) {
     if (typeof b === 'string') out.push(p(b));
     else if (b.h2) out.push(h2(b.h2));
-    else if (b.h3) out.push(rh3(b.h3));
+    else if (b.h3) out.push(rh3(b.h3, b.thema));
     else if (b.punkte) b.punkte.forEach((t) => out.push(bullet(t)));
     else if (b.schritte) out.push(...steps(b.schritte));
     else if (b.tabelle) { out.push(table(b.tabelle[0], b.tabelle.slice(1), b.breiten)); out.push(gap()); }
@@ -138,14 +139,15 @@ function renderBlocks(blocks) {
 
 // ---------- Pflanzenkapitel ----------
 function recipe(r) {
-  const out = [rh3(r.titel)];
+  const out = [rh3(r.titel, r.thema)];
   if (r.info) out.push(pl(`*${r.info}*`));
   out.push(new Paragraph({ children: [new TextRun({ text: r.zutatenTitel || 'Zutaten', bold: true })], spacing: { after: 60 } }));
   r.zutaten.forEach((i) => out.push(bullet(i)));
   out.push(new Paragraph({ children: [new TextRun({ text: r.schritteTitel || 'Zubereitung', bold: true })], spacing: { before: 120, after: 60 } }));
   out.push(...steps(r.schritte));
   if (r.tipp) out.push(p(`*Tipp: ${r.tipp}*`));
-  if (TAUSCH[r.titel]) out.push(new Paragraph({ spacing: { before: 60, after: 140, line: 280 }, children: [new TextRun({ text: 'Tausch-Tipp: ', bold: true, size: 20, color: GREEN }), ...runs(TAUSCH[r.titel], { size: 20 })] }));
+  const tausch = r.tausch || TAUSCH[r.titel];
+  if (tausch) out.push(new Paragraph({ spacing: { before: 60, after: 140, line: 280 }, children: [new TextRun({ text: 'Tausch-Tipp: ', bold: true, size: 20, color: GREEN }), ...runs(tausch, { size: 20 })] }));
   return out;
 }
 
@@ -163,11 +165,13 @@ function chapter(pf) {
   const img = path.join(BAND, 'abbildungen', `${pf.id}.png`);
   if (fs.existsSync(img)) {
     // Pflanzen mit giftigen Doppelgängern (und alle Doldenblütler) bekommen unter der Zeichnung einen Warnhinweis.
-    const riskant = !!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen';
-    const [w, h] = riskant ? [500, 700] : [580, 812];
+    const giftig = pf.saison === 'haushalt';
+    const riskant = !giftig && (!!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis);
+    const [w, h] = riskant || giftig ? [500, 700] : [580, 812];
     out.push(new Paragraph({ pageBreakBefore: true, alignment: AlignmentType.CENTER, children: [new ImageRun({ type: 'png', data: fs.readFileSync(img), transformation: { width: w, height: h }, altText: { title: pf.name, description: `Schematische Zeichnung: ${pf.name} (${pf.botanisch})`, name: pf.id } })] }));
-    out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: `Abb.: ${pf.name} (${pf.botanisch}), schematische Zeichnung mit Wurzel, Stängel, Blättern und Blüte; unten Detailansichten. Zum Bestimmen sind die Merkmale im Text maßgeblich.`, italics: true, size: 18, color: '6B5F4D' })] }));
+    out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: `Abb.: ${pf.name} (${pf.botanisch}), schematische Zeichnung ${pf.zeichnung && pf.zeichnung.wuchs === 'zweig' ? 'eines Zweigs mit Blättern, Blüte und Frucht, links die Wuchsform' : 'mit Wurzel, Stängel, Blättern und Blüte'}; unten Detailansichten. Zum Bestimmen sind die Merkmale im Text maßgeblich.`, italics: true, size: 18, color: '6B5F4D' })] }));
     if (riskant) out.push(warnbox('Die Zeichnung allein reicht zum Bestimmen nicht', [`${pf.name} hat giftige Doppelgänger. Die Zeichnung ist schematisch und zeigt nicht jedes Unterscheidungsmerkmal genau. Sammle nur, wenn **alle** Merkmale aus „Erkennen“ und „Verwechslungsgefahr“ an der echten Pflanze zutreffen – am besten mit einem Bestimmungsbuch mit Fotos oder einer kundigen Begleitung.`]));
+    if (giftig) out.push(warnbox('Giftig – nur für den Haushalt', [`${pf.name} ist giftig und wird **nicht gegessen**. Sie steht in diesem Buch nur wegen ihres Nutzens im Haushalt. Halte Kinder und Haustiere fern und bewahre alles, was du daraus herstellst, beschriftet auf.`]));
     out.push(pageBreak());
   }
 
@@ -246,7 +250,7 @@ function chapter(pf) {
     out.push(h2(pf.haushaltTitel || 'In Haushalt, Garten und Pflege'));
     for (const item of pf.haushalt) {
       if (item.rezept) out.push(...recipe(item.rezept));
-      else { out.push(rh3(item[0])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
+      else { out.push(rh3(item[0], item[2])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
     }
   }
 
@@ -283,19 +287,19 @@ function build(outFile) {
   const tocStelle = body.length;
 
   const vorne = [...rahmen.vorne];
-  vorne.splice(vorne.findIndex((k) => k.titel === WICKEL.nachKapitel) + 1, 0, WICKEL.kapitel);
+  if (WICKEL.kapitel) vorne.splice(vorne.findIndex((k) => k.titel === WICKEL.nachKapitel) + 1, 0, WICKEL.kapitel);
   for (const kap of vorne) { body.push(h1(kap.titel)); body.push(...renderBlocks(kap.bloecke)); }
 
-  const saisons = [
-    ['fruehling', 'Frühling', 'März bis Mai: junge Blätter, erste Blüten, Wurzeln vor dem Austrieb'],
-    ['sommer', 'Sommer', 'Juni bis August: Blüten, Kraut und die ersten Samen'],
-    ['herbst', 'Spätsommer und Herbst', 'September bis November: Wurzeln, Samen und späte Blüten'],
+  const saisons = rahmen.abschnitte || [
+    ['fruehling', 'Pflanzen des Frühlings', 'März bis Mai: junge Blätter, erste Blüten, Wurzeln vor dem Austrieb'],
+    ['sommer', 'Pflanzen des Sommers', 'Juni bis August: Blüten, Kraut und die ersten Samen'],
+    ['herbst', 'Pflanzen des Spätsommers und Herbstes', 'September bis November: Wurzeln, Samen und späte Blüten'],
   ];
   for (const [key, name, sub] of saisons) {
     const list = pflanzen.filter((x) => x.saison === key);
     if (!list.length) continue;
     body.push(new Paragraph({ pageBreakBefore: true, children: [], spacing: { before: 3000 } }));
-    body.push(h1Marke(`Pflanzen des ${name === 'Spätsommer und Herbst' ? 'Spätsommers und Herbstes' : name + 's'}`, `s_${key}`, { pageBreakBefore: false, alignment: AlignmentType.CENTER }));
+    body.push(h1Marke(name, `s_${key}`, { pageBreakBefore: false, alignment: AlignmentType.CENTER }));
     body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: sub, italics: true, size: 26, color: INK })], spacing: { after: 400 } }));
     body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: list.map((x) => x.name).join(' · '), size: 20, color: '6B5F4D' })] }));
     list.forEach((pf) => body.push(...chapter(pf)));
@@ -314,7 +318,7 @@ function build(outFile) {
   });
   body.push(table(['Pflanze', ...MONATE], rows, KAL_W, { size: 16, center: true }));
   body.push(h1('Rezepte und Anwendungen nach Themen'));
-  body.push(p('Hier findest du alle Rezepte, Tees, Wickel und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
+  body.push(p('Hier findest du alle Rezepte, Tees und Anleitungen dieses Buches nach Themen geordnet – für den Fall, dass du nicht von der Pflanze, sondern von der Frage ausgehst: Was hilft bei Husten? Was koche ich heute? Manche Rezepte stehen unter mehreren Themen. Die Grundrezepte und Grundtechniken findest du vorne im Buch.'));
   for (const thema of THEMEN.REIHENFOLGE) {
     const liste = rezeptListe.filter((r) => r.themen.includes(thema)).sort((a, b) => a.titel.localeCompare(b.titel, 'de'));
     if (!liste.length) continue;
@@ -372,4 +376,4 @@ function build(outFile) {
   return Packer.toBuffer(doc).then((buf) => { fs.writeFileSync(outFile, buf); console.log(`${pflanzen.length} Pflanzen → ${outFile}`); });
 }
 
-build(AUSGABE || path.join(BAND, 'Was-die-Natur-uns-schenkt-Band-1.docx'));
+build(AUSGABE || path.join(BAND, `${require(path.join(BAND, 'inhalt', 'rahmen.js')).datei || 'Was-die-Natur-uns-schenkt-Band-1'}.docx`));

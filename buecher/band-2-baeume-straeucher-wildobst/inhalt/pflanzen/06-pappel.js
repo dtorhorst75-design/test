@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 6, id: 'pappel', saison: 'fruehling',
+  name: 'Schwarzpappel', botanisch: 'Populus nigra',
+  familie: 'Weidengewächse (Salicaceae)', artikel: 'in der Pappel',
+  volksnamen: 'Saarbaum, Albernbaum, Pappel, Bellen',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'herz', rand: 'gekerbt', blattlaenge: 90, blattbreite: 60, bluete: 'kaetzchen', farbe: '#b0485a', bluetengroesse: 80, frucht: 'kaetzchen', fruchtfarbe: '#e9e4d2', silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 30 m', rinde: 'rissig',
+    labels: { bluete: 'rote männliche Kätzchen im März', blatt: 'Blatt: dreieckig, lang zugespitzt', stengel: 'Knospen: spitz, klebrig, duften nach Balsam', frucht: 'Samen mit weißer „Pappelwolle“' } },
+  intro: ['Wer im Februar oder März an einer Pappel vorbeikommt, sollte an den Knospen riechen: Sie sind klebrig und duften intensiv nach Balsam und Honig. Aus diesem Harz sammeln Bienen ihr Propolis – und aus den Knospen machten unsere Großmütter die Pappelsalbe.', 'Die echte Schwarzpappel ist selten geworden. Häufiger sind Hybridpappeln an Straßen und in Plantagen, deren Knospen genauso genutzt werden.'],
+  steckbrief: [['Wuchs', 'Baum, 20 bis 30 m, breite Krone'], ['Rinde', 'dunkelgrau, tief gefurcht, oft mit Wülsten am Stamm'], ['Blätter', 'dreieckig bis rautenförmig, lang zugespitzt, gekerbt, mit seitlich abgeflachtem Stiel – sie zittern im Wind'], ['Knospen', '**spitz, harzig-klebrig**, duften nach Balsam'], ['Blüte', 'März bis April: rote (männliche) oder grüne (weibliche) Kätzchen'], ['Früchte', 'Kapseln mit weißwolligen Samen („Pappelschnee“ im Mai/Juni)'], ['Standort', 'Flussauen, Ufer, Alleen'], ['Genutzte Teile', 'Knospen']],
+  erkennen: [['Duftprobe', 'Zerreib eine Knospe zwischen den Fingern: Klebriges, gelbes Harz und ein starker Balsamduft zeigen dir die richtige Pappel. Die Knospen der Zitterpappel (Espe) duften nicht.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Balsampappeln (*Populus balsamifera* und Hybriden) haben besonders viel Harz und sind gleichwertig.' },
+  standort: ['Schwarzpappeln wachsen in Flussauen und an Ufern. Hybridpappeln wurden an Straßen, Feldwegen und Gräben gepflanzt. Pappeln werden oft gefällt oder geschnitten – frag nach den Ästen.'],
+  sammeln: { tabelle: [['Knospen', 'Januar bis März, vor dem Austrieb', 'von abgebrochenen oder frisch geschnittenen Ästen, besonders nach Sturm; nur wenige von einem lebenden Ast']], kalender: [['Knospen', [2, 3], [1]]], tipps: ['Handschuhe oder ein altes Glas verwenden – das Harz klebt hartnäckig. Von den Fingern geht es mit etwas Öl ab, nicht mit Wasser.'] },
+  inhaltsstoffe: { punkte: ['**Harz** mit Flavonoiden (Pinocembrin, Chrysin) – den Stoffen des Propolis', '**Phenolglykoside** (Salicin, Populin)', 'ätherisches Öl'] },
+  kueche: { text: ['Pappelknospen werden nicht gegessen.'] },
+  rezepte: [
+    { titel: 'Pappelknospen-Öl', info: 'Für ca. 200 ml', thema: T.HAUT, zutaten: ['1 Handvoll frische Pappelknospen (ca. 50 g)', '200 ml Olivenöl oder Sonnenblumenöl'], schritte: ['Knospen in ein sauberes Glas geben und mit Öl bedecken.', 'Glas ins Wasserbad stellen und 2 bis 3 Stunden bei etwa 60 °C ziehen lassen (oder 4 Wochen an einen warmen Ort stellen).', 'Abseihen, die Knospen gut ausdrücken.', 'In eine dunkle Flasche füllen. Das Öl duftet nach Honig und Balsam.'] },
+    { titel: 'Pappelsalbe', info: 'Für 2 Tiegel à 50 ml', thema: T.HAUT, zutaten: ['100 ml Pappelknospen-Öl', '10 bis 12 g Bienenwachs'], schritte: ['Öl und Wachs im Wasserbad schmelzen.', 'Probe auf einem kalten Teller machen und Konsistenz anpassen.', 'In saubere Tiegel füllen und offen abkühlen lassen.'], tausch: 'Statt Bienenwachs etwa 8 g Candelilla- oder Carnaubawachs.', tipp: 'Für raue, rissige Hände und Lippen. Vorher an einer kleinen Hautstelle testen.' },
+  ],
+  anwendung: { bloecke: ['Pappelknospen sind von der Kommission E zur **äußerlichen** Anwendung bei **oberflächlichen Hautverletzungen**, Frostbeulen und Sonnenbrand positiv bewertet. Pappelsalbe ist ein traditionelles Hausmittel für raue Haut, kleine Schrunden und Prellungen.'], hinweiseTitel: 'Wichtig', hinweise: ['Nur äußerlich.', '**Nicht bei Allergie gegen Propolis, Perubalsam oder Salicylate.**', 'Nicht auf offene, größere Wunden.'] },
+  haushalt: [['Pappelholz', 'Pappelholz ist leicht und splittert nicht – daraus werden Obstkisten, Streichhölzer und Holzschuhe gemacht.', T.PFLEGE]],
+  geschichte: ['Die „Unguentum populeum“, die Pappelsalbe, stand jahrhundertelang in jedem Apothekenbuch. Der Name *Populus* soll vom lateinischen Wort für Volk stammen: Unter Pappeln hielten die Römer ihre Volksversammlungen ab.'],
+  haltbar: [['Öl und Salbe', 'kühl und dunkel.', '1 Jahr']],
+  vorsicht: ['Nur äußerlich.', 'Nicht bei Propolis- oder Salicylat-Allergie.'],
+  quellen: ['Kommission E: Monographie *Populi gemma*', 'BfN FloraWeb: *Populus nigra*'],
+};

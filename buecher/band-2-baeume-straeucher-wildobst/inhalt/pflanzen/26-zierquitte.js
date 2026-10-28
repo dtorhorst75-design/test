@@ -1,0 +1,25 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 26, id: 'zierquitte', saison: 'herbst',
+  name: 'Zierquitte', botanisch: 'Chaenomeles japonica',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Zierquitte',
+  volksnamen: 'Japanische Quitte, Scheinquitte, Feuerbusch, Zitrone des Nordens',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gesaegt', blattlaenge: 60, blattbreite: 30, knoten: 7, bluete: 'fuenf', farbe: '#e04a2a', mitte: '#e9c33b', bluetengroesse: 36, frucht: 'apfel', fruchtfarbe: '#d9cf4a', dornen: true, silhouette: 'strauch', wuchshoehe: 'Strauch, 1 bis 2 m',
+    labels: { bluete: 'leuchtend rote Blüten im April', blatt: 'Blatt: klein, glänzend, gesägt', stengel: 'Zweige mit Dornen', frucht: 'gelbgrüne, harte Früchtchen' } },
+  intro: ['Die Zierquitte ist ein beliebter Gartenstrauch, der im April feuerrot blüht. Im Herbst trägt sie kleine, harte, gelbgrüne Früchte, die meist niemand beachtet – dabei sind sie ein fantastischer Zitronenersatz.', 'Die Früchte sind zu sauer und hart zum Rohessen, aber sie duften herrlich und enthalten viel Vitamin C und Pektin.'],
+  steckbrief: [['Wuchs', 'Strauch, 1 bis 2 m, sparrig'], ['Zweige', 'mit **Dornen**'], ['Blätter', 'klein, elliptisch, gesägt, glänzend'], ['Blüte', 'März bis April: leuchtend **rot, orange oder rosa**, oft vor dem Laub'], ['Früchte', 'September bis Oktober: apfelförmig, 3 bis 5 cm, gelbgrün, sehr hart, duftend'], ['Standort', 'Gärten, Parks, Hecken'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Zierquitte erkennen', 'Dorniger Strauch, auffallend rote Blüten im Frühjahr, kleine, harte, quittenartige Früchte im Herbst.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht.' },
+  standort: ['Die Zierquitte stammt aus Japan und China und steht in vielen Gärten und Parks. Frag die Besitzer – viele freuen sich, wenn jemand die Früchte nimmt.'],
+  sammeln: { tabelle: [['Früchte', 'September bis Oktober', 'wenn sie gelb werden und duften; liegen oft unter dem Strauch']], kalender: [['Früchte', [9, 10]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin C**, viel **Fruchtsäure**', '**Pektin**', 'Aromastoffe'] },
+  kueche: { text: ['Zierquitten werden wie Zitronen eingesetzt.'], ideen: ['**Sirup** für Tee und Limonade.', '**Gelee** – geliert wegen des vielen Pektins hervorragend.', '**Als Zitronenersatz:** in dünne Scheiben geschnitten im Tee oder mit Zucker eingelegt.'] },
+  rezepte: [
+    { titel: 'Zierquitten-Sirup', info: 'Für ca. 750 ml', thema: T.SAFT, zutaten: ['500 g Zierquitten', '500 g Zucker'], schritte: ['Früchte waschen, vierteln und Kerngehäuse entfernen, in dünne Scheiben schneiden.', 'Schichtweise mit Zucker in ein großes Glas geben.', 'Verschlossen 2 bis 3 Wochen stehen lassen, ab und zu schütteln, bis sich der Zucker zu Sirup gelöst hat.', 'Abseihen und in Flaschen füllen, im Kühlschrank aufbewahren.'], tipp: 'Wie Zitronensaft in Tee, Limonade und Salatdressings verwenden. Die eingelegten Scheiben schmecken in heißem Tee.' },
+    { titel: 'Zierquitten-Gelee', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['1 kg Zierquitten', '1,5 Liter Wasser', 'Gelierzucker 2 : 1 nach Saftmenge'], schritte: ['Früchte vierteln und mit Wasser 30 Minuten weich kochen.', 'Durch ein Tuch abtropfen lassen.', 'Saft nach Grundrezept 2 mit Gelierzucker kochen.', 'Heiß abfüllen.'] },
+  ],
+  geschichte: ['Die Zierquitte kam im 18. Jahrhundert aus Japan nach Europa und wurde wegen ihrer Blüten beliebt. In Lettland wird sie als „Zitrone des Nordens“ angebaut und zu Saft verarbeitet.'],
+  haltbar: [['Früchte', 'kühl lagern.', '4 bis 6 Wochen'], ['Sirup', 'im Kühlschrank.', '3 Monate']],
+  vorsicht: ['Dornen.', 'Kerne nicht zerkleinern.'],
+  quellen: ['Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

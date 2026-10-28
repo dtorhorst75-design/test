@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 29, id: 'preiselbeere', saison: 'herbst',
+  name: 'Preiselbeere', botanisch: 'Vaccinium vitis-idaea',
+  familie: 'Heidekrautgewächse (Ericaceae)', artikel: 'in der Preiselbeere',
+  volksnamen: 'Kronsbeere, Moosbeere (fälschlich), Rote Heidelbeere, Grantn (Österreich)',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'glatt', blattlaenge: 40, blattbreite: 22, knoten: 9, bluete: 'glocke', farbe: '#f6dce3', bluetengroesse: 20, frucht: 'preiselbeere', silhouette: 'zwergstrauch', wuchshoehe: 'Zwergstrauch, 10 bis 30 cm',
+    labels: { bluete: 'weiß-rosa Glöckchen in Trauben', blatt: 'Blatt: ledrig, immergrün, Rand eingerollt', stengel: 'Zweige rund, verholzt', frucht: 'rote Beeren in Trauben' } },
+  intro: ['Preiselbeeren wachsen als niedriger, immergrüner Zwergstrauch in Nadelwäldern und auf Heiden – oft zusammen mit Heidelbeeren. Ihre roten, herb-säuerlichen Beeren sind roh kaum genießbar, aber gekocht der Klassiker zu Wild, Kartoffelpuffern und Käse.', 'Preiselbeeren enthalten von Natur aus Benzoesäure und halten sich deshalb besonders lange.'],
+  steckbrief: [['Wuchs', 'immergrüner Zwergstrauch, 10 bis 30 cm'], ['Blätter', 'ledrig, glänzend, 1 bis 3 cm, **ganzrandig mit leicht eingerolltem Rand**, unterseits heller mit **dunklen Punkten**'], ['Blüte', 'Mai bis Juni: weiß bis rosa Glöckchen in kleinen, nickenden Trauben'], ['Früchte', 'August bis Oktober: **rot**, erbsengroß, in Trauben, herb-säuerlich'], ['Standort', 'Nadelwälder, Heiden, Moore; saure Böden'], ['Genutzte Teile', 'Beeren']],
+  erkennen: [['Preiselbeere oder Bärentraube?', 'Die Echte Bärentraube (*Arctostaphylos uva-ursi*) ist sehr ähnlich, aber ihre Blätter haben **keine Punkte**, dafür ein deutliches Adernetz, und ihre Beeren sind mehlig und fade. Sie ist geschützt, aber nicht giftig.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Rote Beeren in Nadelwäldern können aber auch vom geschützten Bärentraube-Strauch stammen – an den gepunkteten Blattunterseiten erkennst du die Preiselbeere.' },
+  standort: ['Preiselbeeren brauchen saure, nährstoffarme Böden: Kiefern- und Fichtenwälder, Heiden, Bergwälder und Moorränder. In Skandinavien bedecken sie ganze Wälder.'],
+  sammeln: { tabelle: [['Beeren', 'August bis Oktober', 'wenn sie ganz rot sind; oft gibt es zwei Ernten im Jahr']], kalender: [['Beeren', [8, 9, 10]]], tipps: ['In Naturschutzgebieten nicht sammeln. Beeren gründlich waschen oder kochen.'] },
+  inhaltsstoffe: { punkte: ['**Benzoesäure** – natürliches Konservierungsmittel', 'Vitamin C, Anthocyane, Gerbstoffe', 'Proanthocyanidine'] },
+  kueche: { text: ['Preiselbeeren werden fast immer gekocht und gesüßt.'], ideen: ['**Preiselbeerkompott** zu Kartoffelpuffern, Wild, Käse, Grießbrei.', '**Preiselbeer-Birnen** (gefüllte Birnenhälften).', '**Saft** und **Gelee**.'] },
+  rezepte: [
+    { titel: 'Gerührte Preiselbeeren', info: 'Für 2 Gläser', thema: T.MARMELADE, zutaten: ['500 g Preiselbeeren', '250 g Zucker'], schritte: ['Preiselbeeren verlesen und waschen, gut abtropfen lassen.', 'Mit dem Zucker in eine Schüssel geben und 20 bis 30 Minuten immer wieder rühren, bis sich der Zucker gelöst hat und Saft entsteht – nicht kochen.', 'In saubere Gläser füllen und kühl aufbewahren.'], tipp: 'Die schwedische Art: Dank der Benzoesäure halten sich „rårörda lingon“ im Kühlschrank mehrere Monate.' },
+    { titel: 'Preiselbeer-Kompott', info: 'Für 2 Gläser', thema: T.MARMELADE, zutaten: ['500 g Preiselbeeren', '150 g Zucker', '100 ml Wasser', '1 Zimtstange'], schritte: ['Alles aufkochen und 5 bis 10 Minuten köcheln, bis die meisten Beeren geplatzt sind.', 'Zimt entfernen, heiß abfüllen.'] },
+  ],
+  anwendung: { bloecke: ['Preiselbeeren sind mit der amerikanischen Cranberry verwandt und enthalten ähnliche Stoffe (Proanthocyanidine), die bei Blasenentzündungen untersucht werden. Ein sicherer Nutzen ist nicht belegt.'], hinweise: ['Blasenentzündungen mit Fieber, Blut im Urin oder Flankenschmerzen ärztlich behandeln lassen.'] },
+  geschichte: ['In Skandinavien sind Preiselbeeren Volksnahrung: zu Köttbullar, Pfannkuchen und Wild. Das Jedermannsrecht erlaubt dort, sie überall im Wald zu sammeln.'],
+  haltbar: [['Gerührt', 'im Kühlschrank.', '3 bis 6 Monate'], ['Kompott', 'heiß abgefüllt.', '1 Jahr'], ['Einfrieren', 'ganze Beeren.', '1 Jahr']],
+  vorsicht: ['Nicht in Naturschutzgebieten sammeln.'],
+  quellen: ['BfN FloraWeb: *Vaccinium vitis-idaea*'],
+};

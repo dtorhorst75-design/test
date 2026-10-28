@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 11, id: 'himbeere', saison: 'sommer',
+  name: 'Himbeere', botanisch: 'Rubus idaeus',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Himbeere',
+  volksnamen: 'Waldhimbeere, Hindbeere, Holbeere, Mollbeere',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'fiedrig', blattlaenge: 120, blattbreite: 60, knoten: 4, bluete: 'fuenf', farbe: '#ffffff', mitte: '#d8d0a0', bluetengroesse: 28, frucht: 'sammelfrucht', fruchtfarbe: '#d2304a', dornen: true, silhouette: 'strauch', wuchshoehe: 'Halbstrauch, 1 bis 2 m',
+    labels: { bluete: 'kleine weiße Blüten, nickend', blatt: 'Blatt: 3–7 Blättchen, unten weißfilzig', stengel: 'Ruten mit feinen Stacheln', frucht: 'rote Sammelfrucht, innen hohl' } },
+  intro: ['Wilde Himbeeren wachsen auf Waldlichtungen und Kahlschlägen, oft in dichten Beständen. Sie sind kleiner als Gartenhimbeeren, aber umso aromatischer.', 'Neben den Früchten wird auch das Laub genutzt: Himbeerblättertee ist ein traditioneller Frauentee und Teil vieler Haustee-Mischungen.'],
+  steckbrief: [['Wuchs', 'Halbstrauch, 1 bis 2 m; Ruten sind zweijährig'], ['Ruten', 'aufrecht, mit **feinen, weichen Stacheln**, bläulich bereift'], ['Blätter', 'gefiedert mit 3 bis 7 Blättchen, oberseits grün, **unterseits weißfilzig**'], ['Blüte', 'Mai bis Juni: klein, weiß, nickend'], ['Früchte', 'Juli bis August: rote Sammelfrüchte, die sich **hohl** vom Zapfen lösen'], ['Standort', 'Waldlichtungen, Kahlschläge, Waldränder, Gärten'], ['Genutzte Teile', 'Früchte, Blätter']],
+  erkennen: [['Himbeere oder Brombeere?', 'Himbeeren lösen sich als **hohler Hut** vom Fruchtzapfen, Brombeeren nicht – bei ihnen bleibt der Zapfen in der Frucht. Himbeerblätter sind unterseits weiß, Brombeerblätter meist grün.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Alle Himbeer- und Brombeerarten sind essbar.' },
+  standort: ['Himbeeren wachsen in Lichtungen und auf Kahlschlägen, wo plötzlich viel Licht auf den Boden fällt. Nach einigen Jahren werden sie von Bäumen wieder verdrängt.'],
+  sammeln: { tabelle: [['Früchte', 'Juli bis August', 'vollreif, lösen sich leicht'], ['Blätter', 'Mai bis Juni', 'junge Blätter von Trieben ohne Blüten, vor der Fruchtreife']], kalender: [['Früchte', [7, 8]], ['Blätter', [5, 6]]], tipps: ['Wild gesammelte Beeren gründlich waschen oder für Marmelade und Saft erhitzen.', 'Lange Kleidung tragen – nicht wegen der Stacheln, sondern wegen der Zecken auf Lichtungen.'] },
+  inhaltsstoffe: { punkte: ['Früchte: **Vitamin C**, Fruchtsäuren, Ellagsäure, Aromastoffe', 'Blätter: **Gerbstoffe**, Flavonoide'] },
+  kueche: { text: ['Himbeeren sind empfindlich – am besten am selben Tag verarbeiten.'], ideen: ['**Roh:** auf Kuchen, im Müsli, mit Joghurt.', '**Marmelade, Sirup, Essig.**', '**Getrocknet:** als „Himbeer-Chips“ im Dörrgerät.'] },
+  rezepte: [
+    { titel: 'Himbeermarmelade ohne Kerne', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['1 kg Himbeeren', '500 g Gelierzucker 2 : 1', 'Saft einer halben Zitrone'], schritte: ['Himbeeren kurz aufkochen und durch ein feines Sieb streichen, um die Kerne zu entfernen.', 'Fruchtmark mit Gelierzucker und Zitrone verrühren.', 'Aufkochen und 4 Minuten sprudelnd kochen, Gelierprobe machen.', 'Heiß abfüllen.'] },
+    { titel: 'Himbeeressig', info: 'Für 500 ml', thema: T.VORRAT, zutaten: ['250 g Himbeeren', '500 ml heller Weinessig oder Apfelessig'], schritte: ['Himbeeren in ein Glas geben und leicht zerdrücken.', 'Mit Essig übergießen, verschließen und 1 bis 2 Wochen hell, aber nicht sonnig stehen lassen.', 'Durch ein Tuch abseihen und in Flaschen füllen.'], tipp: 'Für Salatdressings mit Walnussöl – oder einen Teelöffel in ein Glas Sprudelwasser.' },
+  ],
+  anwendung: { bloecke: ['Himbeerblätter sind vom HMPC als traditionelles pflanzliches Arzneimittel zur Linderung **leichter Krämpfe während der Monatsblutung** sowie bei **leichten Entzündungen im Mund und Rachen** (als Gurgelmittel) und bei **leichtem Durchfall** eingestuft.', { h3: 'Himbeerblättertee', thema: T.TEE }, { schritte: ['1 bis 2 TL getrocknete Himbeerblätter mit 250 ml kochendem Wasser übergießen.', '10 Minuten ziehen lassen, abseihen.'] }], hinweise: ['In der Volksmedizin wird Himbeerblättertee zur Geburtsvorbereitung empfohlen. Die Wirkung ist nicht belegt – in der Schwangerschaft nur nach Rücksprache mit Hebamme oder Arzt.'] },
+  geschichte: ['Der botanische Name *Rubus idaeus* bezieht sich auf das Ida-Gebirge auf Kreta, wo die Himbeere der Sage nach zuerst wuchs. Himbeeren wurden in Klöstern schon im Mittelalter angebaut; als Gartenfrucht setzten sie sich im 16. Jahrhundert durch.'],
+  haltbar: [['Früchte', 'einzeln auf einem Blech vorfrieren, dann in Beutel füllen.', '1 Jahr'], ['Blätter', 'trocknen.', '1 Jahr']],
+  vorsicht: ['Wild gesammelte Beeren waschen.', 'Blättertee in der Schwangerschaft nur nach Rücksprache.'],
+  quellen: ['EMA/HMPC: Monographie *Rubi idaei folium*', 'BfN FloraWeb: *Rubus idaeus*'],
+};

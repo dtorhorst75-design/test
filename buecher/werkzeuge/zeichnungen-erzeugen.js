@@ -5,7 +5,7 @@ const path = require('path');
 const { chromium } = require('playwright');
 const { zeichne } = require('./zeichnung');
 
-const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
+const BAND = path.join(__dirname, '..', process.env.BAND || 'band-1-kraeuter-wildpflanzen');
 const dir = path.join(BAND, 'inhalt', 'pflanzen');
 const outDir = path.join(BAND, 'abbildungen');
 const only = process.argv.slice(2);

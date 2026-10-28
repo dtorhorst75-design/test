@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 34, id: 'buche', saison: 'herbst',
+  name: 'Rotbuche', botanisch: 'Fagus sylvatica',
+  familie: 'Buchengewächse (Fagaceae)', artikel: 'in der Buche',
+  volksnamen: 'Buche, Mastbuche; Früchte: Bucheckern, Buchnüsse, Bucheln',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'glatt', blattlaenge: 80, blattbreite: 40, knoten: 6, frucht: 'buchecker', rinde: 'glatt', silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 40 m',
+    labels: { blatt: 'Blatt: oval, gewellter Rand, bewimpert', stengel: 'Knospen lang, spitz, zigarrenförmig', frucht: 'stachelige Becher mit dreikantigen Nüssen' } },
+  intro: ['Die Rotbuche ist die „Mutter des Waldes“: Ohne den Menschen wäre Deutschland zum größten Teil von Buchenwäldern bedeckt. Ihre glatte, silbergraue Rinde und die zigarrenförmigen Knospen machen sie unverwechselbar.', 'Im April sind die frisch ausgetriebenen Blätter zart und essbar. Im Herbst fallen die Bucheckern – kleine, dreikantige Nüsse, aus denen man früher Öl presste. **Wichtig:** Bucheckern werden **geröstet** gegessen, nicht roh in größeren Mengen.'],
+  steckbrief: [['Wuchs', 'Baum, 30 bis 40 m, dichte Krone'], ['Rinde', '**glatt, silbergrau**, auch im Alter'], ['Knospen', 'lang (2 cm), spitz, **zigarrenförmig**, kupferbraun'], ['Blätter', 'oval, 5 bis 10 cm, Rand **gewellt** und ganzrandig, junge Blätter am Rand **seidig bewimpert**'], ['Früchte', 'September bis Oktober: holziger, weichstacheliger Becher mit vier Klappen, darin zwei **dreikantige, braune Nüsse** (Bucheckern)'], ['Standort', 'Laubwälder, Parks, Hecken'], ['Genutzte Teile', 'junge Blätter, Bucheckern']],
+  erkennen: [['Buche erkennen', 'Glatte, graue Rinde, lange spitze Knospen und gewellte Blätter mit bewimpertem Rand – das ist die Buche, auch im Winter. Die Hainbuche ist ein ganz anderer Baum (Birkengewächs) mit gesägten, gefalteten Blättern.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Die Hainbuche hat keine Bucheckern, sondern kleine Nüsschen an dreilappigen Flügeln.' },
+  standort: ['Buchen prägen die Laubwälder Mitteleuropas. Viele Buchenwälder stehen als Weltnaturerbe unter Schutz – dort nicht sammeln.'],
+  sammeln: { tabelle: [['Junge Blätter', 'Mitte April bis Anfang Mai', 'nur die ganz frischen, hellgrünen, weichen Blätter'], ['Bucheckern', 'September bis Oktober', 'frisch gefallene, volle Nüsse; in Mastjahren gibt es reichlich, dazwischen oft kaum welche']], kalender: [['Junge Blätter', [4, 5]], ['Bucheckern', [9, 10]]], tipps: ['Eine Plane unter einen Baum legen und warten oder Nüsse aus dem Laub sammeln – mühsam, aber lohnend. Leere Nüsse sind flach.'] },
+  inhaltsstoffe: { punkte: ['Bucheckern: **Fett** (bis 40 %), Eiweiß, Mineralstoffe', 'Rohe Bucheckern: **Oxalsäure** und das Alkaloid **Fagin** – in größeren Mengen roh unbekömmlich (Übelkeit, Bauchschmerzen); durch Rösten weitgehend abgebaut', 'Junge Blätter: Vitamin C, Schleimstoffe'] },
+  kueche: { text: ['Junge Buchenblätter schmecken mild und leicht säuerlich. Geröstete Bucheckern sind aromatisch-nussig.'], ideen: ['**Junge Blätter** roh im Salat, auf dem Brot, als Pesto.', '**Geröstete Bucheckern** zum Knabbern, über Salat, im Müsli, im Brot.', '**Bucheckernöl** – in alten Zeiten aus der Ölmühle, heute eine Rarität.'] },
+  rezepte: [
+    { titel: 'Geröstete Bucheckern', info: 'Für 1 kleine Schale', thema: T.VORRAT, zutaten: ['250 g Bucheckern', 'eine Prise Salz nach Belieben'], schritte: ['Bucheckern in einer trockenen Pfanne unter Rühren 5 Minuten rösten, bis die Schalen aufplatzen und sie duften.', 'Etwas abkühlen lassen und die Schalen abreiben oder mit den Fingern öffnen.', 'Die Kerne nochmals kurz rösten, nach Wunsch leicht salzen.'], tipp: 'Wenige rohe Bucheckern sind unbedenklich – für größere Mengen und für Kinder aber immer rösten.' },
+    { titel: 'Buchenblatt-Salat', info: 'Für 2 Personen', thema: T.HERZHAFT, zutaten: ['3 Handvoll junge Buchenblätter', '1 Handvoll Feldsalat oder Rucola', '1 Birne', '2 EL geröstete Bucheckern oder Walnüsse', '3 EL Walnussöl, 1 EL Apfelessig, Salz, Pfeffer, 1 TL Sirup'], schritte: ['Blätter waschen und trocken schleudern.', 'Birne in dünne Spalten schneiden.', 'Dressing anrühren und alles mischen. Mit Nüssen bestreuen.'] },
+  ],
+  anwendung: { bloecke: ['Die Buche spielt in der Volksheilkunde kaum eine Rolle. Buchenholzteer wurde früher äußerlich bei Hautkrankheiten verwendet – das ist heute nicht mehr üblich.'], hinweise: ['Bucheckern nicht in größeren Mengen roh essen, besonders nicht von Kindern.'] },
+  haushalt: [['Buchenholzasche', 'Die Asche aus dem Ofen (nur unbehandeltes Holz) ist ein Kalidünger für Beerensträucher – in kleinen Mengen streuen. Früher wurde daraus Lauge zum Waschen gekocht.', T.GARTEN]],
+  geschichte: ['Das Wort „Buchstabe“ kommt von Buchenstäben, in die die Germanen Runen ritzten. In Notzeiten nach den Weltkriegen wurden Bucheckern in großen Mengen gesammelt und zu Speiseöl gepresst – ein Kilo Öl aus etwa fünf Kilo Nüssen.'],
+  haltbar: [['Bucheckern', 'trocken, luftig, in der Schale.', '3 bis 6 Monate'], ['Geröstete Kerne', 'luftdicht.', '4 Wochen']],
+  vorsicht: ['Bucheckern **rösten**, nicht in größeren Mengen roh essen.', 'Schutzgebiete beachten.'],
+  quellen: ['BfN FloraWeb: *Fagus sylvatica*', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

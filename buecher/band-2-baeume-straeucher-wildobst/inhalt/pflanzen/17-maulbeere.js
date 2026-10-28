@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 17, id: 'maulbeere', saison: 'sommer',
+  name: 'Maulbeere', botanisch: 'Morus alba und Morus nigra',
+  familie: 'Maulbeergewächse (Moraceae)', artikel: 'in der Maulbeere',
+  volksnamen: 'Weiße und Schwarze Maulbeere, Maulbeerbaum',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'herz', rand: 'gesaegt', blattlaenge: 110, blattbreite: 70, knoten: 5, frucht: 'maulbeere', fruchtfarbe: '#3a1f35', rinde: 'rissig', silhouette: 'laubbaum', wuchshoehe: 'Baum, 6 bis 15 m',
+    labels: { blatt: 'Blatt: herzförmig, oft gelappt', stengel: 'Zweige mit Milchsaft', frucht: 'brombeerähnliche Früchte' } },
+  intro: ['Maulbeerbäume stehen in alten Schlossparks, Klostergärten und manchmal einfach an der Straße. Im Juli fallen ihre brombeerähnlichen Früchte reif herunter – weiße, rosa oder tiefschwarze, je nach Art. Sie schmecken süß und mild.', 'Achtung, Flecken: Schwarze Maulbeeren färben Finger, Kleidung und Pflaster dunkelviolett.'],
+  steckbrief: [['Wuchs', 'Baum, 6 bis 15 m, breite Krone'], ['Rinde', 'graubraun, längsrissig; Zweige mit **Milchsaft**'], ['Blätter', 'herzförmig, gesägt, oft unregelmäßig gelappt – sogar am selben Baum unterschiedlich'], ['Blüte', 'Mai: unscheinbare, grünliche Kätzchen'], ['Früchte', 'Juli bis August: 2 bis 3 cm, wie Brombeeren aus vielen kleinen Kügelchen, weiß, rosa oder schwarz'], ['Standort', 'Parks, Klostergärten, Weinbaugebiete, Gärten'], ['Genutzte Teile', 'Früchte, junge Blätter']],
+  erkennen: [['Weiße und Schwarze Maulbeere', 'Die **Weiße Maulbeere** hat glatte, glänzende Blätter und Früchte, die weiß, rosa oder auch schwarz sein können. Die **Schwarze Maulbeere** hat raue, behaarte Blätter und immer tiefschwarze, säuerlich-aromatische Früchte. Beide sind essbar.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Die Früchte erinnern an Brombeeren, wachsen aber an einem Baum.' },
+  standort: ['Maulbeerbäume wurden im 17. und 18. Jahrhundert für die Seidenraupenzucht gepflanzt und stehen bis heute in Schlossparks, an Friedhöfen und in alten Alleen, besonders in Brandenburg, Sachsen und am Oberrhein.'],
+  sammeln: { tabelle: [['Früchte', 'Juli bis August', 'nur vollreife – sie fallen von selbst; ein Tuch unter dem Baum ausbreiten und den Ast leicht schütteln'], ['Junge Blätter', 'Mai', 'für Tee (Weiße Maulbeere)']], kalender: [['Früchte', [7, 8]], ['Blätter', [5, 6]]], tipps: ['**Unreife** Früchte und der weiße Milchsaft der Zweige können Bauchschmerzen und Hautreizungen verursachen – nur reife Früchte essen.'] },
+  inhaltsstoffe: { punkte: ['Früchte: Zucker, Anthocyane (schwarze), Vitamin C, Eisen', 'Blätter: 1-Desoxynojirimycin (DNJ), Flavonoide'] },
+  kueche: { text: ['Weiße Maulbeeren schmecken honigsüß, schwarze süß-säuerlich und intensiv.'], ideen: ['**Roh** direkt vom Tuch.', '**Getrocknet:** weiße Maulbeeren werden zu süßen Snacks wie Rosinen.', '**Marmelade** mit Zitrone, weil sie wenig Säure haben.'] },
+  rezepte: [
+    { titel: 'Maulbeer-Marmelade mit Zitrone', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['1 kg Maulbeeren, Stielchen entfernt', '500 g Gelierzucker 2 : 1', 'Saft und Schale einer Bio-Zitrone'], schritte: ['Maulbeeren leicht pürieren.', 'Mit Gelierzucker und Zitrone nach Grundrezept 1 kochen.', 'Heiß abfüllen.'] },
+    { titel: 'Getrocknete Maulbeeren', info: 'Für 1 Glas', thema: T.VORRAT, zutaten: ['500 g reife weiße Maulbeeren'], schritte: ['Vorsichtig waschen und gut abtropfen lassen.', 'Auf Dörrgitter legen und bei 45 bis 50 °C 12 bis 24 Stunden trocknen, bis sie knautschig-trocken sind.', 'In einem gut schließenden Glas aufbewahren.'] },
+  ],
+  anwendung: { bloecke: ['Blätter der Weißen Maulbeere werden in Asien als Tee getrunken. Ihr Inhaltsstoff DNJ kann den Anstieg des Blutzuckers nach dem Essen etwas bremsen. Eine offizielle Bewertung als Arzneimittel gibt es in Europa nicht.'], hinweise: ['Menschen mit Diabetes, die Medikamente nehmen, besprechen Maulbeerblättertee vorher mit ihrer Ärztin oder ihrem Arzt.'] },
+  geschichte: ['Friedrich der Große ließ in Preußen Hunderttausende Maulbeerbäume pflanzen – für eine eigene Seidenproduktion. Seidenraupen fressen fast nur Maulbeerblätter. Die Zucht scheiterte am Klima, aber viele Bäume stehen bis heute.'],
+  haltbar: [['Trocknen', 'bei 45 bis 50 °C.', '1 Jahr'], ['Einfrieren', 'einzeln vorfrieren.', '1 Jahr']],
+  vorsicht: ['Nur reife Früchte essen.', 'Milchsaft kann die Haut reizen.', 'Flecken: alte Kleidung tragen.'],
+  quellen: ['BfN FloraWeb: *Morus alba*'],
+};

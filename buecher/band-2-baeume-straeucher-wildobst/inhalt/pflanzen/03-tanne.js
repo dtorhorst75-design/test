@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 3, id: 'tanne', saison: 'fruehling',
+  name: 'Weißtanne', botanisch: 'Abies alba',
+  familie: 'Kieferngewächse (Pinaceae)', artikel: 'in der Tanne',
+  volksnamen: 'Edeltanne, Silbertanne, Weißtann',
+  zeichnung: { wuchs: 'zweig', blatt: 'nadel', nadellaenge: 32, nadelwinkel: 80, frucht: 'zapfen-stehend', rinde: 'glatt', silhouette: 'nadelbaum', wuchshoehe: 'Baum, bis 50 m',
+    labels: { blatt: 'Nadeln: flach, weich, unten 2 weiße Streifen', stengel: 'Rinde: glatt, silbergrau', frucht: 'Zapfen stehen aufrecht, zerfallen am Baum' } },
+  intro: ['Die Weißtanne ist die sanfte Schwester der Fichte: Ihre Nadeln stechen nicht, sie sind flach und weich und tragen auf der Unterseite zwei feine, weiße Streifen. Ihre Rinde ist silbergrau – daher der Name.', 'Junge Tannenspitzen schmecken milder und zitroniger als Fichtenspitzen. Sie werden genauso verwendet: für Sirup, Tee, Salz und Bäder.'],
+  steckbrief: [['Wuchs', 'Baum, 30 bis 50 m, im Alter mit abgeflachter „Storchennest“-Krone'], ['Rinde', 'glatt, **silbergrau**, im Alter in kleine Platten zerfallend'], ['Nadeln', '2 bis 3 cm, **flach**, weich, vorn **eingekerbt**, unterseits mit **zwei weißen Wachsstreifen**, seitlich gescheitelt'], ['Zapfen', '10 bis 16 cm, **aufrecht** auf den Zweigen, zerfallen am Baum – nur die Spindel bleibt stehen'], ['Austrieb', 'Mai bis Juni'], ['Standort', 'Bergmischwälder, Schwarzwald, Bayerischer Wald, Alpen'], ['Genutzte Teile', 'junge Triebe, Nadeln, Harz']],
+  erkennen: [['Nadeln umdrehen', 'Dreh einen Zweig um: Die beiden **weißen Streifen** auf jeder Nadel sind das sicherste Merkmal der Tanne. Die giftige Eibe hat keine weißen Streifen und keinen Harzduft.'], ['Zapfen', 'Tannenzapfen findest du nie ganz am Boden – sie zerfallen oben am Baum. Was im Wald als „Tannenzapfen“ gesammelt wird, sind fast immer Fichtenzapfen.']],
+  verwechslung: { text: 'Die wichtigste Verwechslung ist die mit der giftigen Eibe – siehe Tabelle im Fichtenkapitel.', tabelle: [['Eibe (*Taxus baccata*) – **sehr giftig**', 'flache, weiche Nadeln', 'Nadeln **ohne** weiße Streifen, spitz, nicht eingekerbt, **kein Harzduft**; rote Beerenbecher statt Zapfen'], ['Nordmanntanne (Weihnachtsbaum)', 'flache Nadeln', 'Nadeln dichter und glänzender; ebenfalls nutzbar, aber oft gespritzt']], warnung: { titel: 'Erst riechen, dann ernten', zeilen: ['Tanne duftet beim Zerreiben harzig-zitronig, Eibe gar nicht. Prüfe außerdem die weißen Streifen. Fehlen sie: Finger weg.'] } },
+  standort: ['Die Weißtanne braucht Feuchtigkeit und verträgt Schatten. Sie wächst vor allem in Bergmischwäldern Süddeutschlands. Im Flachland findest du sie selten – dafür oft Nordmanntannen aus Weihnachtsbaumkulturen.'],
+  sammeln: { tabelle: [['Junge Triebe', 'Mai bis Juni', 'einzeln von unteren Ästen großer Bäume'], ['Nadeln', 'ganzjährig', 'von Ästen, die beim Holzeinschlag anfallen'], ['Harz', 'ganzjährig', 'nur ausgetretene, getrocknete Tropfen']], kalender: [['Triebe', [5, 6]], ['Nadeln', [1, 2, 3, 10, 11, 12]]] },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** (Limonen, Pinen, Bornylacetat) – zitroniger als bei der Fichte', '**Vitamin C**', 'Harze'] },
+  kueche: { text: ['Tannenspitzen sind zart und mild. Sie lassen sich roh essen und schmecken nach Zitrone und Wald.'], ideen: ['**Roh:** fein gehackt im Salat, auf Butterbrot, im Quark.', '**Tannenspitzen-Pesto:** mit Petersilie, Nüssen und Öl.', '**Tee:** eine Handvoll Nadeln oder Triebe mit heißem Wasser übergießen.'] },
+  rezepte: [
+    { titel: 'Tannenspitzen-Pesto', info: 'Für 1 Glas', thema: T.HERZHAFT, zutaten: ['1 Handvoll junge Tannenspitzen', '1 Handvoll Petersilie', '50 g Walnüsse oder Sonnenblumenkerne', '1 Knoblauchzehe', '120 ml Olivenöl', 'Salz, Zitronensaft'], schritte: ['Tannenspitzen und Petersilie waschen, trocken tupfen.', 'Alles im Mixer oder Mörser fein zerkleinern.', 'Mit Salz und Zitrone abschmecken, in ein Glas füllen und mit Öl bedecken. Im Kühlschrank etwa 2 Wochen haltbar.'] },
+    { titel: 'Tannenspitzen-Tee', info: 'Für 1 Kanne', thema: T.TEE, zutaten: ['1 Handvoll junge Tannenspitzen oder 2 EL Nadeln', '500 ml Wasser', 'Honig oder Zucker nach Geschmack'], schritte: ['Spitzen grob hacken.', 'Mit kochendem Wasser übergießen und 10 Minuten zugedeckt ziehen lassen.', 'Abseihen und nach Geschmack süßen.'], tausch: 'Mit Zucker, Agaven- oder Ahornsirup statt Honig.' },
+  ],
+  anwendung: { bloecke: ['Tannenspitzen und Tannennadeln wurden traditionell bei **Erkältungen** als Tee, Sirup und Badezusatz verwendet, ähnlich wie Fichte und Kiefer. Eine eigene HMPC-Monographie gibt es nicht.'], hinweise: ['Ätherisches Tannenöl nicht bei Säuglingen und Kleinkindern.', 'Nicht bei Asthma inhalieren ohne ärztlichen Rat.'] },
+  haushalt: [['Raumduft', 'Getrocknete Nadeln mit Orangenschalen und Zimtstangen in einer Schale – der Duft von Weihnachten.', T.PFLEGE]],
+  geschichte: ['Die Weißtanne war früher der Weihnachtsbaum schlechthin. Heute steht in den meisten Wohnzimmern die Nordmanntanne aus dem Kaukasus, weil sie ihre Nadeln länger hält. Im Schwarzwald wurde Tannenholz als Flößerholz bis nach Holland verschifft.'],
+  haltbar: [['Triebe', 'einfrieren, trocknen oder als Sirup einkochen (wie Fichtenspitzensirup).', '1 Jahr']],
+  vorsicht: ['**Nicht mit der giftigen Eibe verwechseln** – weiße Streifen und Harzduft prüfen.', 'Ätherisches Öl nicht bei kleinen Kindern.'],
+  quellen: ['BfN FloraWeb: *Abies alba*'],
+};

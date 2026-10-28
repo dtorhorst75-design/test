@@ -1,0 +1,31 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 35, id: 'rosskastanie', saison: 'haushalt',
+  name: 'Rosskastanie', botanisch: 'Aesculus hippocastanum',
+  familie: 'Seifenbaumgewächse (Sapindaceae)', artikel: 'in der Rosskastanie',
+  volksnamen: 'Gemeine Rosskastanie, Wilde Kastanie, Pferdekastanie, Kastanie',
+  zeichnung: { wuchs: 'zweig', stellung: 'gegenstaendig', blatt: 'gefingert', blattlaenge: 150, blattbreite: 60, knoten: 2, bluete: 'aehre', farbe: '#ffffff', bluetengroesse: 60, frucht: 'rosskastanie', silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 30 m', rinde: 'rissig',
+    labels: { bluete: 'weiße „Kerzen“ im Mai', blatt: 'Blatt: gefingert, 5–7 Blättchen', stengel: 'große, klebrige Knospen', frucht: 'Hülle mit wenigen Stacheln, glänzende Samen' } },
+  intro: ['Kastanien sammeln gehört zu jeder Kindheit: Die glänzend braunen Samen der Rosskastanie liegen im September zu Tausenden unter den Bäumen in Parks, Alleen und Biergärten. Kaum jemand weiß, dass man daraus ein wunderbares, kostenloses Waschmittel machen kann.', '**Die Rosskastanie ist giftig und wird nicht gegessen.** Sie steht in diesem Buch nur, weil sie im Haushalt so nützlich ist.'],
+  steckbrief: [['Wuchs', 'Baum, 20 bis 30 m, breite, gewölbte Krone'], ['Knospen', 'groß, braun, **klebrig**'], ['Blätter', 'gegenständig, groß, **gefingert** mit 5 bis 7 Blättchen an einem langen Stiel'], ['Blüte', 'Mai: aufrechte, weiße **Blütenkerzen** mit gelben, später roten Flecken'], ['Früchte', 'September bis Oktober: grüne, dicke Hülle mit **wenigen, kurzen Stacheln**, darin meist ein runder, glänzend brauner Samen mit hellem Fleck'], ['Standort', 'Parks, Alleen, Biergärten, Schulhöfe'], ['Genutzte Teile', '**nur im Haushalt:** Samen als Waschmittel']],
+  erkennen: [['Rosskastanie oder Esskastanie?', 'Siehe die Tabelle im Kapitel Esskastanie. Kurz: Rosskastanien sind rund und glatt, ohne Spitze, und wachsen an Bäumen mit gefingerten Blättern.']],
+  verwechslung: {
+    text: 'Die Rosskastanie ist selbst die Pflanze, vor der in diesem Buch gewarnt wird.',
+    warnung: { titel: 'Giftig – nicht essen', zeilen: ['Samen, Rinde, Blätter und Blüten der Rosskastanie enthalten **Saponine (Aescin)**. Gegessen verursachen sie Übelkeit, Erbrechen und Durchfall, bei Kindern in größeren Mengen auch schwerere Vergiftungen.', '- Rosskastanien nie mit Esskastanien verwechseln.', '- Kinder beim Basteln beaufsichtigen – Kastanien nicht in den Mund nehmen.', '- Waschmittel-Sud gut beschriften und außer Reichweite von Kindern aufbewahren.', '- Im Notfall: **Giftnotruf** (z. B. 030 19240).'] },
+  },
+  standort: ['Die Rosskastanie stammt vom Balkan und wird seit dem 16. Jahrhundert in Mitteleuropa als Park- und Alleebaum gepflanzt – in Bayern traditionell in Biergärten, weil ihr Schatten die Bierkeller kühlte.'],
+  sammeln: { tabelle: [['Samen', 'September bis Oktober', 'frisch gefallene, glänzende Kastanien aufsammeln']], kalender: [['Samen', [9, 10]]], tipps: ['Für einen Wintervorrat Kastanien vierteln oder grob hacken und gut trocknen – ganze Kastanien schimmeln leicht.'] },
+  inhaltsstoffe: { punkte: ['**Saponine** (Aescin, 3 bis 6 %) – waschaktiv, schäumen in Wasser', 'Stärke, Flavonoide', 'Cumarine (Aesculin) in der Rinde'] },
+  kueche: { text: ['**Die Rosskastanie ist nicht essbar.**'] },
+  haushaltTitel: 'Rosskastanie im Haushalt',
+  haushalt: [
+    { rezept: { titel: 'Kastanien-Waschmittel', info: 'Für eine Waschmaschinenladung', thema: T.PFLEGE, zutaten: ['6 bis 8 Rosskastanien (frisch oder getrocknet)', '300 ml Wasser', 'ein Schraubglas, ein Sieb oder Tuch'], schritte: ['Kastanien vierteln oder grob hacken (mit einem kräftigen Messer, einem Hammer in einem Tuch oder im Mixer). Für **weiße Wäsche** die braune Schale vorher abschälen, sonst färbt sie leicht.', 'In ein Schraubglas geben und mit 300 ml Wasser auffüllen.', 'Mindestens 8 Stunden oder über Nacht stehen lassen. Wer es eilig hat, gießt warmes Wasser auf und lässt es 30 Minuten ziehen.', 'Glas schütteln – die Flüssigkeit schäumt und ist milchig.', 'Durch ein Sieb oder Tuch abgießen und direkt ins Waschmittelfach oder in die Trommel geben.'], tipp: 'Wäscht gut bei 30 bis 60 °C für normal verschmutzte Alltagswäsche. Für weiße Wäsche einen Teelöffel Natron dazugeben, für Flecken vorher Gallseife benutzen. Der Sud hält im Kühlschrank 2 bis 3 Tage – oder getrocknete Kastanienstücke für den Winter auf Vorrat lagern.' } },
+    ['Kastanien-Spülmittel', 'Den gleichen Sud kannst du auch zum Abwaschen von Geschirr verwenden. Fettiges Geschirr vorher mit heißem Wasser vorspülen. Danach gut mit klarem Wasser nachspülen.', T.PFLEGE],
+    ['Basteln', 'Kastanienmännchen, Ketten und Tiere – die klassische Herbstbeschäftigung für Kinder. Danach Hände waschen.', T.PFLEGE],
+  ],
+  anwendung: { bloecke: ['Rosskastaniensamen sind vom HMPC als pflanzliches Arzneimittel bei **chronischer Veneninsuffizienz** (schwere Beine, Schwellungen) eingestuft – allerdings nur als **standardisierte Fertigarzneimittel aus der Apotheke**. Selbst hergestellte Zubereitungen zum Einnehmen sind wegen der Giftigkeit **nicht** geeignet.'], hinweise: ['**Nicht selbst zum Einnehmen zubereiten.**', 'Bei Venenbeschwerden ärztlichen Rat einholen.'] },
+  geschichte: ['Der Name kommt vermutlich daher, dass die Türken Kastanien gegen Husten und Atemnot ihrer Pferde verfütterten. Im Ersten Weltkrieg sammelten Schulkinder in England Rosskastanien – aus der Stärke wurde Aceton für die Munitionsherstellung gewonnen.'],
+  haltbar: [['Getrocknete Stücke', 'gehackt, gut durchgetrocknet, in Gläsern oder Stoffbeuteln.', '1 Jahr'], ['Waschsud', 'im Kühlschrank.', '2 bis 3 Tage']],
+  vorsicht: ['**Giftig – nicht essen.**', 'Nicht mit der Esskastanie verwechseln.', 'Kinder beaufsichtigen, Sud beschriften.'],
+  quellen: ['EMA/HMPC: Monographie *Hippocastani semen*', 'Giftinformationszentrum Nord: *Aesculus hippocastanum*'],
+};

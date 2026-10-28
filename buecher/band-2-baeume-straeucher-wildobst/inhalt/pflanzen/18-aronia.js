@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 18, id: 'aronia', saison: 'sommer',
+  name: 'Aronia', botanisch: 'Aronia melanocarpa',
+  bestimmungshinweis: true,
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Aronia',
+  volksnamen: 'Schwarze Apfelbeere, Kahle Apfelbeere, Schwarzfrüchtige Eberesche',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gesaegt', blattlaenge: 80, blattbreite: 40, knoten: 6, bluete: 'rispe', farbe: '#ffffff', bluetengroesse: 50, frucht: 'beeren', fruchtfarbe: '#1e1a26', silhouette: 'strauch', wuchshoehe: 'Strauch, 1 bis 3 m',
+    labels: { bluete: 'weiße Blüten in Doldenrispen, Mai', blatt: 'Blatt: verkehrt-eiförmig, glänzend', stengel: 'Zweige: graubraun, ohne Dornen', frucht: 'schwarze Beeren in Büscheln' } },
+  intro: ['Die Aronia ist ein robuster Strauch aus Nordamerika, der heute in vielen Gärten und als Heckenpflanze steht. Im August hängen schwere Büschel glänzend schwarzer Beeren an den Zweigen, im Herbst färbt sich das Laub leuchtend rot.', 'Roh schmecken die Beeren herb und ziehen den Mund zusammen. Gemischt mit Apfel oder als Saft, Marmelade und Fruchtleder sind sie aber eine wunderbare, tiefviolette Zutat.'],
+  steckbrief: [['Wuchs', 'Strauch, 1 bis 3 m'], ['Blätter', 'verkehrt-eiförmig, 4 bis 8 cm, fein gesägt, glänzend; Herbstlaub leuchtend rot'], ['Blüte', 'Mai: weiß, in Doldenrispen'], ['Früchte', 'August bis September: erbsengroß, glänzend **schwarz**, innen **dunkelrot**, in Büscheln'], ['Standort', 'Gärten, Hecken, Plantagen'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Aronia sicher erkennen', 'Ein Strauch mit rundlichen, glänzenden, fein gesägten Blättern, weißen Doldenrispen im Mai und schwarzen, dunkelrot färbenden Beeren mit kleinem Krönchen.']],
+  verwechslung: { text: 'Im Garten wird die Aronia vor allem mit dem giftigen **Liguster** verwechselt.', tabelle: [['Liguster (*Ligustrum vulgare*) – **giftig**', 'schwarze Beeren in Büscheln, Heckenpflanze', 'Blätter **gegenständig**, ledrig, **ganzrandig** (nicht gesägt); Beeren ohne Krönchen, Fruchtfleisch grünlich bis violett'], ['Kirschlorbeer – **giftig**', 'schwarze Beeren', 'immergrün, große ledrige Blätter']] },
+  standort: ['Aronia wird in Gärten, als Heckenpflanze und in Plantagen (vor allem in Sachsen und Brandenburg) angebaut. Wild kommt sie bei uns kaum vor.'],
+  sammeln: { tabelle: [['Früchte', 'August bis September', 'ganze Büschel abschneiden, wenn alle Beeren schwarz sind; nach dem ersten Frost werden sie milder']], kalender: [['Früchte', [8, 9], [10]]] },
+  inhaltsstoffe: { punkte: ['**Anthocyane** und Polyphenole in sehr hoher Konzentration', '**Gerbstoffe** – der herbe, zusammenziehende Geschmack', 'Vitamin C, Folsäure', 'Kerne: geringe Mengen Amygdalin'] },
+  kueche: { text: ['Aronia ist zu herb, um sie in großen Mengen roh zu essen. Gekocht und gemischt ist sie ein Färbe- und Geschmackswunder.'], ideen: ['**Saft:** gemischt mit Apfelsaft (1 Teil Aronia, 3 Teile Apfel).', '**Marmelade** mit Apfel oder Birne.', '**Fruchtleder** und getrocknet im Müsli.', '**Kuchen:** eine Handvoll im Apfelkuchen.'] },
+  rezepte: [
+    { titel: 'Aronia-Apfel-Saft', info: 'Für ca. 2 Liter', thema: T.SAFT, zutaten: ['500 g Aronia-Beeren', '1,5 kg Äpfel', '500 ml Wasser', 'Zucker nach Geschmack'], schritte: ['Aronia von den Stielen zupfen, Äpfel grob würfeln.', 'Im Dampfentsafter (Grundrezept 4) entsaften – oder mit dem Wasser 15 Minuten kochen und abtropfen lassen.', 'Nach Geschmack süßen, nochmals aufkochen und heiß abfüllen.'] },
+    { titel: 'Aronia-Apfel-Fruchtleder', info: 'Für 1 Backblech', thema: T.VORRAT, zutaten: ['200 g Aronia-Beeren', '600 g Äpfel', '2 EL Sirup oder Honig', '1 TL Zimt'], schritte: ['Äpfel würfeln, mit Aronia und wenig Wasser weich kochen.', 'Pürieren, süßen und mit Zimt würzen.', 'Auf Backpapier 3 bis 4 mm dick verstreichen und nach Grundrezept 6 trocknen.', 'In Streifen schneiden und aufrollen.'], tausch: 'Mit Ahorn- oder Reissirup statt Honig.' },
+  ],
+  anwendung: { bloecke: ['Aronia wird wegen ihres hohen Polyphenolgehalts als „Superfood“ beworben. Gesicherte gesundheitliche Wirkungen beim Menschen sind bisher nicht belegt. Sie ist einfach ein gesundes, farbintensives Obst.'], hinweise: ['Roh nur in kleinen Mengen (eine Handvoll) essen.'] },
+  geschichte: ['Die Aronia stammt aus dem Osten Nordamerikas. Der russische Züchter Mitschurin brachte sie Anfang des 20. Jahrhunderts nach Osteuropa, wo sie für Saft und Lebensmittelfarbe angebaut wurde. In der DDR gab es große Plantagen.'],
+  haltbar: [['Trocknen', 'bei 50 °C.', '1 Jahr'], ['Einfrieren', 'ganze Beeren.', '1 Jahr']],
+  vorsicht: ['Nicht mit Liguster verwechseln – Blätter prüfen.', 'Roh nur in kleinen Mengen.'],
+  quellen: ['BfN FloraWeb', 'Fleischhauer u. a.: *Enzyklopädie essbare Wildpflanzen*'],
+};

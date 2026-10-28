@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 25, id: 'quitte', saison: 'herbst',
+  name: 'Quitte', botanisch: 'Cydonia oblonga',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Quitte',
+  volksnamen: 'Apfelquitte, Birnenquitte, Kittenbaum, Kütte',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'eifoermig', rand: 'glatt', blattlaenge: 90, blattbreite: 56, knoten: 5, bluete: 'fuenf', farbe: '#f8dbe3', mitte: '#e9d9a0', bluetengroesse: 46, frucht: 'quitte', silhouette: 'laubbaum', wuchshoehe: 'kleiner Baum, 4 bis 8 m',
+    labels: { bluete: 'große, zartrosa Einzelblüten, Mai', blatt: 'Blatt: rund-oval, ganzrandig, unten filzig', stengel: 'junge Zweige filzig', frucht: 'goldgelbe, duftende Früchte mit Flaum' } },
+  intro: ['Quitten duften wie kein anderes Obst: Ein paar Früchte in einer Schale erfüllen ein ganzes Zimmer mit einem Aroma aus Apfel, Rose und Zitrone. Roh sind sie hart und herb – gekocht werden sie zu Gelee, Mus und dem berühmten Quittenbrot.', 'Quittenbäume stehen in alten Bauerngärten und auf Streuobstwiesen. Oft werden die Früchte nicht geerntet, weil niemand mehr weiß, was man damit macht.'],
+  steckbrief: [['Wuchs', 'kleiner Baum oder Strauch, 4 bis 8 m'], ['Blätter', 'rund-oval, ganzrandig, 5 bis 10 cm, unterseits graufilzig'], ['Blüte', 'Mai: große (4 bis 5 cm), **zartrosa Einzelblüten**'], ['Früchte', 'Oktober: apfel- oder birnenförmig, **goldgelb**, mit grauem **Flaum**, sehr hart, intensiv duftend'], ['Standort', 'Gärten, Streuobstwiesen, Weinbaugebiete'], ['Genutzte Teile', 'Früchte, Kerne (nur ganz, für Schleim)']],
+  erkennen: [['Apfel- und Birnenquitte', 'Apfelquitten sind rund und besonders aromatisch, Birnenquitten länglich, weicher und milder. Beide werden gleich verarbeitet.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Die Zierquitte (nächstes Kapitel) ist ein dorniger Strauch mit kleinen Früchten.' },
+  standort: ['Quitten lieben warme, geschützte Lagen und stehen in alten Gärten, auf Streuobstwiesen und in Weinbaugebieten.'],
+  sammeln: { tabelle: [['Früchte', 'Oktober, vor dem ersten starken Frost', 'wenn sie goldgelb sind und duften; noch etwas grünliche Früchte gelieren besser']], kalender: [['Früchte', [10], [9, 11]]], tipps: ['Vor der Verarbeitung den Flaum mit einem rauen Tuch abreiben – er schmeckt bitter.'] },
+  inhaltsstoffe: { punkte: ['**Pektin** in großen Mengen – Quitten gelieren fast von selbst', 'Gerbstoffe, Fruchtsäuren, Vitamin C', 'Aromastoffe (Ester)', 'Kerne: **Schleimstoffe** in der Samenschale; im Inneren Amygdalin – Kerne nie zerkleinern'] },
+  kueche: { text: ['Quitten werden fast immer gekocht.'], ideen: ['**Gelee und Quittenbrot** (Konfekt).', '**Kompott** und Mus.', '**Herzhaft:** mit Lamm, Linsen oder als Chutney.', '**Quittenlikör.**'] },
+  rezepte: [
+    { titel: 'Quittengelee', info: 'Für 6 Gläser', thema: T.MARMELADE, zutaten: ['2 kg Quitten', '2 Liter Wasser', 'Saft einer Zitrone', 'Gelierzucker 2 : 1 nach Saftmenge'], schritte: ['Quitten abreiben, ungeschält in Stücke schneiden (Kerngehäuse bleibt dran).', 'Mit Wasser 40 bis 60 Minuten weich kochen.', 'Durch ein Tuch über Nacht abtropfen lassen – nicht pressen.', 'Saft mit Zitrone und Gelierzucker nach Grundrezept 2 kochen.', 'Heiß abfüllen.'] },
+    { titel: 'Quittenbrot', info: 'Für 1 Blech', thema: T.SUESS, zutaten: ['Das Fruchtfleisch vom Gelee (oder 1 kg gekochte Quitten)', 'Zucker: gleiche Menge wie Mus', 'Saft einer Zitrone', 'Zucker zum Wälzen'], schritte: ['Die gekochten Quitten (ohne Kerngehäuse) durch die Flotte Lotte streichen.', 'Mus abwiegen und mit der gleichen Menge Zucker und dem Zitronensaft unter ständigem Rühren einkochen, bis sich die Masse vom Topfboden löst (30 bis 45 Minuten, Vorsicht – spritzt!).', 'Auf ein Blech mit Backpapier 1 cm dick streichen.', 'Bei 50 °C oder an einem warmen Ort 2 bis 3 Tage trocknen lassen.', 'In Rauten schneiden, in Zucker wälzen und in Dosen zwischen Backpapier aufbewahren.'] },
+  ],
+  anwendung: { bloecke: ['Quittenkerne wurden traditionell als **Schleimmittel** verwendet: Ganze Kerne in Wasser eingeweicht ergeben einen Schleim, der bei Reizhusten und rauen Lippen und Händen genutzt wurde. Wichtig ist, die Kerne **nicht zu zerkleinern**.', { h3: 'Quittenschleim für raue Hände', thema: T.HAUT }, { schritte: ['1 TL ganze, getrocknete Quittenkerne mit 100 ml kaltem Wasser übergießen.', '30 Minuten stehen lassen, gelegentlich umrühren.', 'Abseihen – der zähe Schleim wird auf raue Haut gestrichen.'] }] },
+  haushalt: [['Natürlicher Raumduft', 'Ein paar reife Quitten in einer Schale duften wochenlang. Früher legte man sie in den Wäscheschrank.', T.PFLEGE]],
+  geschichte: ['Die Quitte stammt aus dem Kaukasus. Bei den alten Griechen war sie der Liebesgöttin Aphrodite geweiht, und Brautpaare aßen zur Hochzeit eine Quitte. Das Wort „Marmelade“ kommt vom portugiesischen *marmelo* – Quitte.'],
+  haltbar: [['Frische Früchte', 'kühl und luftig, nicht neben Äpfeln (Duft überträgt sich).', '4 bis 8 Wochen'], ['Quittenbrot', 'in Dosen.', '6 Monate']],
+  vorsicht: ['Kerne nie zerkleinern oder mitessen.'],
+  quellen: ['BfN FloraWeb: *Cydonia oblonga*'],
+};

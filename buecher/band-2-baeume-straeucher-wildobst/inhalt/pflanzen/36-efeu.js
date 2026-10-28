@@ -1,0 +1,30 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 36, id: 'efeu', saison: 'haushalt',
+  name: 'Efeu', botanisch: 'Hedera helix',
+  familie: 'Araliengewächse (Araliaceae)', artikel: 'im Efeu',
+  volksnamen: 'Gemeiner Efeu, Eppich, Immergrün (fälschlich), Mauerranke',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'handfoermig', rand: 'glatt', blattlaenge: 90, knoten: 6, bluete: 'kugel', farbe: '#c8cf6a', bluetengroesse: 40, frucht: 'efeubeeren', silhouette: 'kletterer', wuchshoehe: 'Kletterpflanze, bis 20 m',
+    labels: { bluete: 'gelbgrüne Blütenkugeln im Herbst', blatt: 'Blatt: 3- bis 5-lappig, ledrig, immergrün', stengel: 'Triebe mit Haftwurzeln', frucht: 'schwarze Beeren im Frühjahr' } },
+  intro: ['Efeu klettert an Bäumen, Mauern und Zäunen bis 20 Meter hoch und ist das ganze Jahr grün. Seine Blätter enthalten Saponine – und genau deshalb kann man aus ihnen ein Waschmittel machen, das zu jeder Jahreszeit verfügbar ist.', '**Efeu ist giftig und wird nicht gegessen.** Er steht in diesem Buch nur wegen seines Nutzens im Haushalt.'],
+  steckbrief: [['Wuchs', 'immergrüne Kletterpflanze oder Bodendecker, bis 20 m'], ['Triebe', 'mit **Haftwurzeln**, mit denen sie sich festhalten'], ['Blätter', 'ledrig, glänzend, an kriechenden und kletternden Trieben **3- bis 5-lappig**, an blühenden Trieben oben eiförmig-rautenförmig ohne Lappen'], ['Blüte', 'September bis November: gelbgrüne, kugelige Dolden – wichtige späte Bienenweide'], ['Früchte', 'Februar bis April: blauschwarze Beeren'], ['Standort', 'Wälder, Mauern, Hauswände, Friedhöfe, Gärten'], ['Genutzte Teile', '**nur im Haushalt:** Blätter als Waschmittel']],
+  erkennen: [['Efeu erkennen', 'Immergrüne, ledrige, gelappte Blätter an Trieben, die mit Haftwurzeln klettern – das ist Efeu.']],
+  verwechslung: {
+    text: 'Efeu ist selbst giftig – siehe Warnkasten.',
+    warnung: { titel: 'Giftig – nicht essen', zeilen: ['Blätter und besonders die **Beeren** enthalten Saponine (Hederin). Gegessen verursachen sie Erbrechen, Durchfall und Kopfschmerzen; für Kinder und Haustiere sind die Beeren gefährlich.', '- Der Pflanzensaft kann bei empfindlicher Haut **Kontaktallergien** auslösen (Falcarinol) – beim Sammeln und Zerkleinern **Handschuhe** tragen.', '- Waschmittel-Sud beschriften und außer Reichweite von Kindern aufbewahren.', '- Im Notfall: **Giftnotruf** (z. B. 030 19240).'] },
+  },
+  standort: ['Efeu wächst fast überall: in Wäldern als Bodendecker, an Baumstämmen, Mauern, Friedhofsmauern und Hauswänden. Er ist ganzjährig verfügbar.'],
+  sammeln: { tabelle: [['Blätter', 'ganzjährig', 'gesunde, große Blätter von kriechenden oder kletternden Trieben; mit Handschuhen']], kalender: [['Blätter', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]], tipps: ['Efeublüten im Herbst sind eine der letzten Nahrungsquellen für Bienen und Schwebfliegen – blühende Triebe stehen lassen.'] },
+  inhaltsstoffe: { punkte: ['**Saponine** (Hederasaponine, α-Hederin) – waschaktiv', 'Falcarinol – kann die Haut reizen', 'Flavonoide'] },
+  kueche: { text: ['**Efeu ist nicht essbar.**'] },
+  haushaltTitel: 'Efeu im Haushalt',
+  haushalt: [
+    { rezept: { titel: 'Efeu-Waschmittel', info: 'Für eine Waschmaschinenladung', thema: T.PFLEGE, zutaten: ['10 bis 15 große Efeublätter', '300 bis 500 ml Wasser', 'Handschuhe'], schritte: ['Blätter mit Handschuhen waschen und in Streifen reißen oder schneiden.', 'Mit dem Wasser aufkochen und 10 bis 15 Minuten köcheln lassen.', 'Abkühlen lassen und durch ein Sieb abgießen. Die Blätter dabei gut ausdrücken.', 'Den Sud ins Waschmittelfach oder direkt in die Trommel geben.'], tipp: 'Der Sud ist grünlich-braun, färbt aber normale Wäsche nicht. Für Weißwäsche einen Teelöffel Natron dazugeben. Im Kühlschrank hält er etwa eine Woche. Efeu hat gegenüber Kastanien einen Vorteil: Es gibt ihn das ganze Jahr.' } },
+    ['Efeu-Reiniger für dunkle Stoffe', 'Ein starker Efeu-Sud (20 Blätter auf 500 ml) frischt verblichene schwarze und dunkle Kleidung beim Waschen etwas auf – ein alter Hausfrauentipp.', T.PFLEGE],
+  ],
+  anwendung: { bloecke: ['Efeublätter sind vom HMPC als pflanzliches Arzneimittel bei **Husten mit festsitzendem Schleim** eingestuft – allerdings nur als **standardisierter Extrakt aus der Apotheke** (z. B. als Hustensaft). Selbst hergestellte Efeu-Zubereitungen zum Einnehmen sind wegen der Giftigkeit **nicht** geeignet.'], hinweise: ['**Nicht selbst zum Einnehmen zubereiten.**', 'Hautkontakt kann allergische Reaktionen auslösen.'] },
+  geschichte: ['Efeu war in der Antike dem Weingott Dionysos geweiht, und Efeukränze sollten vor Trunkenheit schützen. Weil er immergrün ist, galt er als Symbol für Treue und ewiges Leben – deshalb wächst er so oft auf Friedhöfen.'],
+  haltbar: [['Waschsud', 'im Kühlschrank.', 'etwa 1 Woche'], ['Blätter', 'lieber frisch sammeln – es gibt sie ganzjährig.', '–']],
+  vorsicht: ['**Giftig – nicht essen**, besonders die Beeren.', 'Handschuhe tragen (Kontaktallergie).', 'Kinder und Haustiere fernhalten.'],
+  quellen: ['EMA/HMPC: Monographie *Hederae helicis folium*', 'Giftinformationszentrum Nord: *Hedera helix*'],
+};

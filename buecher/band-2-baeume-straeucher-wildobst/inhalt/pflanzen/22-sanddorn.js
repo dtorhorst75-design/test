@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 22, id: 'sanddorn', saison: 'herbst',
+  name: 'Sanddorn', botanisch: 'Hippophae rhamnoides',
+  familie: 'Ölweidengewächse (Elaeagnaceae)', artikel: 'im Sanddorn',
+  volksnamen: 'Haffdorn, Seedorn, Fasanenbeere, Zitrone des Nordens',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'linear', rand: 'glatt', blattlaenge: 80, blattbreite: 10, knoten: 10, frucht: 'sanddorn', fruchtgroesse: 1, dornen: true, rinde: 'rissig', silhouette: 'strauch', wuchshoehe: 'Strauch, 1 bis 6 m',
+    labels: { blatt: 'Blatt: schmal, oben graugrün, unten silbrig', stengel: 'Zweige mit Dornen', frucht: 'orange Beeren dicht am Zweig' } },
+  intro: ['An der Ostsee und Nordsee wächst der Sanddorn in den Dünen: ein silbrig-grauer, dorniger Strauch, dessen Zweige im Herbst über und über mit leuchtend orangen Beeren besetzt sind. Die Beeren schmecken sauer-herb, nach Maracuja und Zitrone – und enthalten viel Vitamin C.', 'Weil Wildsanddorn an der Küste oft unter Naturschutz steht, kommt Sanddorn für die Küche heute meist aus dem Garten oder von Plantagen.'],
+  steckbrief: [['Wuchs', 'Strauch, 1 bis 6 m, mit vielen Ausläufern'], ['Zweige', 'graubraun, mit **spitzen Dornen**'], ['Blätter', 'schmal-lineal, 3 bis 8 cm, oberseits graugrün, **unterseits silbrig** mit Schuppen'], ['Blüte', 'März bis April, vor dem Laub, unscheinbar; männliche und weibliche Pflanzen'], ['Früchte', 'August bis Oktober: **orange**, 6 bis 8 mm, sitzen **dicht gedrängt** an den Zweigen der weiblichen Sträucher'], ['Standort', 'Küstendünen, Flussschotter, Gärten, Böschungen'], ['Genutzte Teile', 'Beeren']],
+  erkennen: [['Sanddorn erkennen', 'Silbrige, schmale Blätter, Dornen und orange Beeren, die wie aufgefädelt am Zweig sitzen: unverwechselbar.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Ähnlich ist die Ölweide (*Elaeagnus*) mit silbrigen Blättern; ihre Früchte sind ebenfalls essbar.' },
+  standort: ['Sanddorn liebt Sonne, Sand und Kies: Küstendünen, Flussauen in den Alpen, Bahndämme. Im Garten braucht er für Früchte eine männliche Pflanze in der Nähe.'],
+  sammeln: { tabelle: [['Beeren', 'August bis Oktober', 'die Beeren platzen leicht – mit einer Gabel abstreifen oder einzelne Fruchtzweige im eigenen Garten abschneiden, einfrieren und die gefrorenen Beeren abschütteln']], kalender: [['Beeren', [8, 9], [10]]], tipps: ['In Dünen und Naturschutzgebieten an der Küste ist das Pflücken oft verboten. Kauf Sanddorn dort lieber im Hofladen.'] },
+  inhaltsstoffe: { punkte: ['**Vitamin C** (200 bis 900 mg pro 100 g – ein Mehrfaches der Zitrone)', '**Carotinoide**, Vitamin E', 'Fruchtfleisch- und Kernöl mit Omega-7-Fettsäure (Palmitoleinsäure)'] },
+  kueche: { text: ['Sanddorn ist zu sauer, um ihn pur zu essen. Gesüßt oder gemischt ist er ein Vitaminwunder.'], ideen: ['**Saft:** mit Apfelsaft und Honig oder Sirup.', '**Fruchtaufstrich** mit Apfel oder Birne.', '**Im Müsli, Joghurt und in Dressings** als Säuerungsmittel.'] },
+  rezepte: [
+    { titel: 'Sanddorn-Apfel-Fruchtaufstrich', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['300 g Sanddornbeeren', '700 g Äpfel', '500 g Gelierzucker 2 : 1'], schritte: ['Sanddorn mit wenig Wasser kurz aufkochen und durch ein feines Sieb streichen, um Kerne zu entfernen.', 'Äpfel schälen, fein würfeln und mit dem Sanddornmark mischen.', 'Mit Gelierzucker nach Grundrezept 1 kochen.', 'Heiß abfüllen.'] },
+    { titel: 'Sanddorn-Wintersaft', info: 'Für 1 Glas', thema: T.ERK, zutaten: ['2 EL Sanddorn-Muttersaft (gekauft oder selbst gemacht)', '200 ml warmes Wasser', '1 TL Honig oder Sirup'], schritte: ['Wasser auf Trinktemperatur abkühlen lassen (nicht kochend, um das Vitamin C zu schonen).', 'Sanddornsaft und Honig einrühren.'], tausch: 'Mit Agaven- oder Ahornsirup statt Honig.' },
+  ],
+  anwendung: { bloecke: ['Sanddorn wird vor allem als **vitaminreiches Lebensmittel** in der Erkältungszeit geschätzt. Sanddornöl wird äußerlich zur Pflege trockener, gereizter Haut verwendet. Eine HMPC-Monographie gibt es nicht.'] },
+  haushalt: [['Sanddorn-Hautöl', 'Gekauftes Sanddornfruchtfleischöl ist stark orange. Ein paar Tropfen in einer neutralen Gesichtscreme pflegen trockene Haut. Vorsicht: färbt Textilien.', T.HAUT]],
+  geschichte: ['Im alten Griechenland soll Sanddornlaub an Pferde verfüttert worden sein, um ihr Fell glänzen zu lassen – daher der Name *Hippophae*, „glänzendes Pferd“. In der DDR wurde Sanddorn großflächig angebaut, und Sanddornsaft war die „Zitrone des Nordens“.'],
+  haltbar: [['Beeren', 'einfrieren.', '1 Jahr'], ['Saft', 'heiß abgefüllt.', '1 Jahr']],
+  vorsicht: ['Naturschutz in Küstendünen beachten.', 'Dornen.'],
+  quellen: ['BfN FloraWeb: *Hippophae rhamnoides*'],
+};

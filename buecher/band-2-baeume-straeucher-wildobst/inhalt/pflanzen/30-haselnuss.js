@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 30, id: 'haselnuss', saison: 'herbst',
+  name: 'Haselnuss', botanisch: 'Corylus avellana',
+  familie: 'Birkengewächse (Betulaceae)', artikel: 'in der Haselnuss',
+  volksnamen: 'Hasel, Gemeine Hasel, Haselstrauch, Nussstrauch',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'herz', rand: 'gesaegt', blattlaenge: 100, blattbreite: 64, knoten: 5, bluete: 'kaetzchen', farbe: '#e3cf6a', bluetengroesse: 90, frucht: 'haselnuss', silhouette: 'strauch', wuchshoehe: 'Strauch, 2 bis 6 m',
+    labels: { bluete: 'gelbe Kätzchen im Februar', blatt: 'Blatt: rundlich, doppelt gesägt, weich behaart', stengel: 'Ruten: gerade, glatt, braun', frucht: 'Nüsse in gefranster Hülle' } },
+  intro: ['Wenn im Februar gelbe Kätzchen an kahlen Sträuchern baumeln, beginnt für viele Pollenallergiker die Saison – und für alle anderen das Frühjahr. Die Hasel blüht als erster Strauch des Jahres.', 'Im Spätsommer reifen die Haselnüsse in ihren grünen, gefransten Hüllen. Eichhörnchen und Haselmäuse sind meist schneller – wer früh dran ist, kann aber einen Wintervorrat sammeln.'],
+  steckbrief: [['Wuchs', 'vielstämmiger Strauch, 2 bis 6 m'], ['Ruten', 'gerade, glatt, braun mit hellen Korkwarzen'], ['Blätter', 'rundlich, zugespitzt, doppelt gesägt, weich behaart'], ['Blüte', 'Februar bis März, vor dem Laub: männliche **gelbe Kätzchen**, weibliche winzige, rote Narbenbüschel'], ['Früchte', 'August bis Oktober: braune Nüsse in einer grünen, **gefransten Hülle**, oft zu 2 bis 4'], ['Standort', 'Waldränder, Hecken, lichte Wälder, Gärten'], ['Genutzte Teile', 'Nüsse, junge Blätter, Ruten']],
+  erkennen: [['Hasel erkennen', 'Die gelben Kätzchen im Februar, die rundlichen, weichen Blätter und die Nüsse in der gefransten Hülle sind eindeutig.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Die Baumhasel in Städten trägt ebenfalls essbare Nüsse in einer stark zerschlitzten Hülle.' },
+  standort: ['Haselsträucher wachsen an Waldrändern, in Hecken und Knicks und lichten Laubwäldern. Sie wurden früher als „Niederwald“ regelmäßig auf den Stock gesetzt.'],
+  sammeln: { tabelle: [['Nüsse', 'Ende August bis Oktober', 'wenn sich die Hülle braun färbt und die Nüsse leicht herausfallen; auch Fallnüsse vom Boden'], ['Junge Blätter', 'April bis Mai', 'als Wickelblätter'], ['Ruten', 'November bis Februar', 'für Bohnenstangen und Flechtzäune']], kalender: [['Nüsse', [9, 10], [8]], ['Blätter', [4, 5]]], tipps: ['Nüsse mit kleinen Löchern hat der Haselnussbohrer ausgefressen – aussortieren.', 'Nüsse, die im Wasser schwimmen, sind meist hohl.'] },
+  inhaltsstoffe: { punkte: ['**Fett** (60 %) mit viel Ölsäure', '**Eiweiß**, Vitamin E, Magnesium', 'Ballaststoffe'] },
+  kueche: { text: ['Frische Haselnüsse schmecken milchig-süß, getrocknete und geröstete intensiv nussig.'], ideen: ['**Geröstet** zum Knabbern, im Müsli, auf Salat.', '**Haselnussmus und Nougatcreme.**', '**Haselnussmilch.**', '**Gemahlen** in Kuchen und Plätzchen.'] },
+  rezepte: [
+    { titel: 'Nougatcreme selbst gemacht', info: 'Für 1 Glas', thema: T.SUESS, zutaten: ['200 g Haselnusskerne', '100 g Zartbitterschokolade', '2 EL Kakao', '3 EL Zucker oder Sirup', '1 Prise Salz', '2 bis 4 EL neutrales Öl'], schritte: ['Haselnüsse bei 180 °C 10 Minuten rösten, in einem Tuch aneinanderreiben, um die Häutchen zu lösen.', 'Im leistungsstarken Mixer 5 bis 10 Minuten mahlen, bis ein flüssiges Mus entsteht.', 'Geschmolzene Schokolade, Kakao, Zucker, Salz und Öl dazugeben und glatt mixen.', 'In ein Glas füllen. Bei Zimmertemperatur 3 bis 4 Wochen haltbar.'] },
+    { titel: 'Haselnussmilch', info: 'Für 1 Liter', thema: T.SAFT, zutaten: ['100 g Haselnusskerne', '1 Liter Wasser', '1 Prise Salz', '1 bis 2 Datteln nach Belieben'], schritte: ['Nüsse über Nacht in Wasser einweichen, abgießen.', 'Mit 1 Liter frischem Wasser, Salz und Datteln 2 Minuten fein mixen.', 'Durch ein Nussmilchtuch abseihen und gut ausdrücken.', 'Im Kühlschrank 3 Tage haltbar, vor Gebrauch schütteln.'], tipp: 'Den Trester trocknen und wie gemahlene Nüsse in Kuchen verwenden.' },
+  ],
+  anwendung: { bloecke: ['Haselnüsse sind ein wertvolles Lebensmittel. In der Volksheilkunde spielt die Hasel kaum eine Rolle.'], hinweise: ['**Haselnussallergie** kann schwere Reaktionen auslösen.', 'Haselpollen sind ein häufiges Frühjahrsallergen.'] },
+  haushalt: [['Bohnenstangen und Rankhilfen', 'Gerade Haselruten sind die klassischen Bohnenstangen und Erbsenreiser. Im Winter schneiden und trocken lagern.', T.GARTEN], ['Flechtzaun', 'Haselruten lassen sich zwischen eingeschlagene Pfosten zu einem Beetrand oder Sichtschutz flechten.', T.GARTEN]],
+  geschichte: ['Haselnüsse waren in der Mittel- und Jungsteinzeit ein Hauptnahrungsmittel: In Schottland wurde eine Grube mit den Schalen von Hunderttausenden gerösteter Haselnüsse aus der Zeit vor 9000 Jahren gefunden. Die Wünschelrute der Wassersucher war traditionell aus Haselholz.'],
+  haltbar: [['Nüsse in der Schale', 'nach dem Trocknen kühl und trocken in Netzen.', '1 Jahr'], ['Kerne', 'luftdicht, kühl.', '3 bis 6 Monate']],
+  vorsicht: ['Haselnussallergie.', 'Schimmelige oder bittere Nüsse wegwerfen.'],
+  quellen: ['BfN FloraWeb: *Corylus avellana*'],
+};

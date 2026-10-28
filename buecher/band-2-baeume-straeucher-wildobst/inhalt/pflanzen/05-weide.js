@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 5, id: 'weide', saison: 'fruehling',
+  name: 'Silberweide', botanisch: 'Salix alba',
+  familie: 'Weidengewächse (Salicaceae)', artikel: 'in der Weide',
+  volksnamen: 'Weißweide, Kopfweide, Felber, Palmweide (für Kätzchen tragende Arten)',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'lanzett', rand: 'gesaegt', blattlaenge: 120, blattbreite: 20, knoten: 8, bluete: 'kaetzchen', farbe: '#e3d77a', bluetengroesse: 70, frucht: 'kaetzchen', fruchtfarbe: '#e9e4d2', silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 25 m', rinde: 'rissig',
+    labels: { bluete: 'Kätzchen im April', blatt: 'Blatt: schmal, unten silbrig behaart', stengel: 'Zweige: biegsam, gelblich bis olivgrün', frucht: 'Samen mit weißer Wolle' } },
+  intro: ['Weiden stehen an Bächen und Flüssen, oft als knorrige Kopfweiden, deren Äste regelmäßig geschnitten werden. Ihre Blätter sind schmal und unterseits silbrig – im Wind blitzt der ganze Baum.', 'Die Weide ist eine der großen Nutzpflanzen der Menschheit: Ihre Rinde enthält Salicin, aus dem später die Acetylsalicylsäure entwickelt wurde. Ihre biegsamen Ruten wurden zu Körben, Zäunen und Lehmwänden geflochten.'],
+  steckbrief: [['Wuchs', 'Baum, 15 bis 25 m, oder Kopfweide mit kurzem, dickem Stamm'], ['Rinde', 'grau, tief längsrissig'], ['Blätter', 'lanzettlich, 5 bis 12 cm, fein gesägt, **unterseits seidig-silbrig behaart**'], ['Blüte', 'April, gleichzeitig mit dem Blattaustrieb: gelbe (männliche) oder grüne (weibliche) Kätzchen'], ['Früchte', 'Kapseln mit weißwolligen Samen'], ['Standort', 'Ufer, Auen, Gräben, feuchte Wiesen'], ['Genutzte Teile', 'Rinde junger Zweige, Ruten, Blätter']],
+  erkennen: [['Weiden allgemein', 'Es gibt in Mitteleuropa rund 40 Weidenarten, die sich auch untereinander kreuzen. Für Rinde und Ruten eignen sich besonders Silber-, Purpur- und Korbweide. Alle Weiden sind ungiftig.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Ähnliche schmale Blätter haben Sanddorn (dornig, Blätter oben grau) und Ölweide.' },
+  standort: ['Weiden lieben Wasser: Flussufer, Auen, Gräben, Teichränder. Kopfweiden wurden früher an Wegen und Gräben gepflanzt, um regelmäßig Ruten und Brennholz zu ernten.'],
+  sammeln: { tabelle: [['Rinde', 'Februar bis April', 'nur von 2- bis 3-jährigen Zweigen, die ohnehin geschnitten werden (z. B. beim Kopfweidenschnitt) – nie vom Stamm'], ['Ruten zum Flechten', 'November bis Februar', 'im Winter ohne Laub schneiden'], ['Kätzchen', '–', '**stehen lassen** – sie sind im Frühjahr eine der ersten Nahrungsquellen für Bienen und Hummeln']], kalender: [['Rinde', [2, 3], [4]], ['Ruten', [1, 2, 11, 12]]], tipps: ['Kopfweiden brauchen alle paar Jahre einen Rückschnitt. Viele Naturschutzverbände suchen dafür Helfer – eine gute Gelegenheit, an Rinde und Ruten zu kommen.'] },
+  inhaltsstoffe: { punkte: ['**Salicin** und andere Phenolglykoside (1,5 bis 11 % in der Rinde) – werden im Körper zu Salicylsäure umgewandelt', '**Gerbstoffe**', 'Flavonoide'] },
+  kueche: { text: ['Weidenrinde ist keine Küchenzutat – sie ist sehr bitter. Junge Blätter wurden in Notzeiten als Gemüse gegessen, sind aber zäh und bitter.'] },
+  anwendung: { bloecke: ['Weidenrinde ist vom HMPC als **etabliertes** pflanzliches Arzneimittel zur kurzzeitigen Behandlung von **Rückenschmerzen** und als traditionelles Mittel bei leichten Gelenkschmerzen, Fieber und Kopfschmerzen eingestuft. Die Wirkung setzt langsamer ein als bei Tabletten und ist schwächer.', { h3: 'Weidenrindentee (Abkochung)', thema: T.TEE }, { schritte: ['1 TL (2 bis 3 g) fein geschnittene Rinde mit 250 ml kaltem Wasser aufsetzen.', 'Aufkochen und 5 Minuten köcheln lassen, abseihen.', '2- bis 3-mal täglich eine Tasse. Sehr bitter – mit Zitrone und etwas Süße erträglicher.'] }], hinweiseTitel: 'Wichtig bei Weidenrinde', hinweise: ['**Nicht bei Allergie gegen Salicylate** (Aspirin) und nicht bei Asthma.', '**Nicht für Kinder und Jugendliche unter 18 Jahren.**', 'Nicht in Schwangerschaft und Stillzeit.', 'Nicht zusammen mit Blutverdünnern oder anderen Schmerzmitteln.', 'Nicht bei Magengeschwüren.'] },
+  haushalt: [
+    ['Weidenwasser als Bewurzelungshilfe', 'Junge Weidenzweige klein schneiden, mit Wasser bedecken und 1 bis 2 Tage ziehen lassen. Stecklinge von Rosen, Johannisbeeren oder Kräutern vor dem Stecken einige Stunden hineinstellen – sie bewurzeln sich besser.', T.GARTEN],
+    ['Flechten', 'Frisch geschnittene oder eingeweichte Ruten lassen sich zu Körben, Rankhilfen und Beeteinfassungen flechten. Weidentipis für Kinder: Ruten im Frühjahr in die Erde stecken – sie wachsen an.', T.GARTEN],
+  ],
+  geschichte: ['Schon die Ärzte des alten Ägypten und Hippokrates kannten Weidenrinde als Schmerzmittel. 1828 wurde das Salicin isoliert, 1897 entwickelte Felix Hoffmann bei Bayer daraus die Acetylsalicylsäure – das Aspirin. Der Name *Salix* ist auch die Wurzel des Wortes „Salicylsäure“.'],
+  haltbar: [['Rinde', 'in Streifen schneiden und trocknen.', '1 bis 2 Jahre']],
+  vorsicht: ['Rinde nicht bei Salicylat-Allergie, Asthma, Kindern, Schwangerschaft, Blutverdünnern.', 'Kätzchen für die Bienen stehen lassen.', 'Rinde nie vom Stamm lösen.'],
+  quellen: ['EMA/HMPC: Monographie *Salicis cortex*', 'BfN FloraWeb: *Salix alba*'],
+};

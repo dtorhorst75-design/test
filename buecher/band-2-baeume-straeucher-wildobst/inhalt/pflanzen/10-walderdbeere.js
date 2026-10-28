@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 10, id: 'walderdbeere', saison: 'sommer',
+  name: 'Walderdbeere', botanisch: 'Fragaria vesca',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Walderdbeere',
+  volksnamen: 'Erdbeere, Rotbeere, Besing, Brestling',
+  zeichnung: { wuchs: 'kriechend', blatt: 'dreizaehlig', rand: 'gesaegt', blattlaenge: 70, blattbreite: 40, bluete: 'fuenf', farbe: '#ffffff', mitte: '#e9c33b', bluetengroesse: 26, wurzel: 'faser', frucht: 'erdbeere', hoehe: 180,
+    labels: { bluete: 'weiße Blüten, fünf Blütenblätter', blatt: 'Blatt: dreizählig, gesägt, seidig', stengel: 'Ausläufer bilden neue Pflanzen', wurzel: 'Faserwurzeln' }, detail3: 'Frucht' },
+  intro: ['Eine Handvoll Walderdbeeren am Waldrand ist ein kleines Sommerglück: Die winzigen roten Früchte schmecken viel intensiver als jede Gartenerdbeere. Und weil die Pflanze so klein ist, braucht man Geduld – oder einen eigenen Walderdbeer-Teppich unter den Obstbäumen.', 'Auch die Blätter werden genutzt: Getrocknet ergeben sie einen milden Haustee.'],
+  steckbrief: [['Wuchs', 'ausdauernde Staude, 5 bis 25 cm, mit oberirdischen Ausläufern'], ['Blätter', 'dreizählig, grob gesägt, oberseits leuchtend grün, unterseits seidig behaart'], ['Blüte', 'April bis Juni: weiß, fünf Blütenblätter, gelbe Mitte'], ['Früchte', 'Juni bis August: kleine, rote Scheinfrüchte mit Nüsschen außen'], ['Standort', 'Waldränder, Lichtungen, Böschungen, Gärten'], ['Genutzte Teile', 'Früchte, Blätter']],
+  erkennen: [['Echte und falsche Erdbeere', 'Die **Indische Scheinerdbeere** (*Potentilla indica*) wächst in Gärten und Parks und sieht ähnlich aus. Sie hat aber **gelbe** Blüten und aufrecht stehende, fade schmeckende Früchte mit glänzender Oberfläche. Sie ist nicht giftig, nur langweilig.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Ähnlich sind Scheinerdbeere (gelbe Blüten, geschmacklos) und Erdbeer-Fingerkraut (ohne rote Früchte).' },
+  standort: ['Walderdbeeren lieben Halbschatten und lockeren, humosen Boden: lichte Wälder, Kahlschläge, Waldwege und Böschungen. Im Garten breiten sie sich mit Ausläufern schnell aus.'],
+  sammeln: { tabelle: [['Früchte', 'Juni bis August', 'vollreif, dunkelrot, lösen sich leicht vom Kelch'], ['Blätter', 'Mai bis Juli', 'junge, gesunde Blätter an trockenen Tagen']], kalender: [['Früchte', [6, 7], [8]], ['Blätter', [5, 6, 7]]], tipps: ['Wildfrüchte aus Bodennähe immer gründlich waschen. Wer ganz sicher gehen will, erhitzt sie kurz (z. B. für Marmelade) – das schützt vor dem sehr seltenen Fuchsbandwurm.'] },
+  inhaltsstoffe: { punkte: ['Früchte: **Vitamin C**, Fruchtsäuren, Aromastoffe, Anthocyane', 'Blätter: **Gerbstoffe** (Ellagitannine), Flavonoide'] },
+  kueche: { text: ['Walderdbeeren schmecken am besten roh und sofort. Für größere Mengen braucht man eine Gartenecke voll davon.'], ideen: ['**Roh:** auf Müsli, Joghurt, Pfannkuchen oder einfach so.', '**Walderdbeer-Zucker:** zerdrückte Beeren mit Zucker mischen und trocknen.', '**Blätter:** getrocknet als Haustee, gemischt mit Brombeer- und Himbeerblättern.'] },
+  rezepte: [
+    { titel: 'Walderdbeer-Joghurt mit Minze', info: 'Für 2 Personen', thema: T.SUESS, zutaten: ['1 Schale Walderdbeeren (ca. 100 g)', '300 g Joghurt', '1 EL Sirup oder Honig', 'einige Minzblätter'], schritte: ['Beeren vorsichtig waschen und abtropfen lassen.', 'Die Hälfte der Beeren mit dem Sirup zerdrücken und unter den Joghurt ziehen.', 'Mit den ganzen Beeren und Minze garnieren.'], tausch: 'Mit Soja- oder Haferjoghurt und Ahornsirup.' },
+    { titel: 'Haustee aus Beerenblättern', info: 'Für 1 Dose', thema: T.TEE, zutaten: ['je 1 Handvoll getrocknete Walderdbeer-, Brombeer- und Himbeerblätter', 'nach Belieben getrocknete Apfelschalen oder Minze'], schritte: ['Blätter zerbröseln und mischen.', 'Für eine Tasse 1 bis 2 TL mit kochendem Wasser übergießen, 8 bis 10 Minuten ziehen lassen.'], tipp: 'Ein milder Alltagstee – der klassische „Haustee“ vor der Zeit von Schwarztee und Kaffee.' },
+  ],
+  anwendung: { bloecke: ['Erdbeerblätter wurden in der Volksheilkunde wegen ihrer Gerbstoffe bei **leichtem Durchfall** und als Gurgelmittel verwendet. Eine HMPC-Monographie gibt es nicht.'], hinweise: ['Erdbeerallergie beachten (Früchte und Blätter).'] },
+  haushalt: [['Bodendecker', 'Walderdbeeren sind ein perfekter, essbarer Bodendecker unter Obstbäumen und Sträuchern. Ein paar Pflanzen genügen – nach zwei Jahren ist die Fläche zu.', T.GARTEN]],
+  geschichte: ['Bevor im 18. Jahrhundert die großfruchtige Gartenerdbeere aus amerikanischen Arten gezüchtet wurde, kannte man in Europa nur die Walderdbeere. Sie wurde in Klostergärten kultiviert und galt als Symbol der Maria.'],
+  haltbar: [['Blätter', 'trocknen.', '1 Jahr'], ['Früchte', 'einfrieren oder trocknen.', '6 bis 12 Monate']],
+  vorsicht: ['Früchte gründlich waschen.', 'Erdbeerallergie.'],
+  quellen: ['BfN FloraWeb: *Fragaria vesca*'],
+};

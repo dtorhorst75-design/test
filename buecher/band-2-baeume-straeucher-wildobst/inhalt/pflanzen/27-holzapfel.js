@@ -1,0 +1,25 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 27, id: 'holzapfel', saison: 'herbst',
+  name: 'Holzapfel', botanisch: 'Malus sylvestris',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'im Holzapfel',
+  volksnamen: 'Wildapfel, Europäischer Wildapfel, Holzbirne (fälschlich)',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'eifoermig', rand: 'gekerbt', blattlaenge: 80, blattbreite: 44, knoten: 5, bluete: 'fuenf', farbe: '#fbe3ea', mitte: '#e9d9a0', bluetengroesse: 38, frucht: 'apfel', fruchtfarbe: '#b9c24a', silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 10 m', rinde: 'rissig',
+    labels: { bluete: 'weiß-rosa Blüten, Mai', blatt: 'Blatt: rundlich, gekerbt', stengel: 'Kurztriebe teils dornig', frucht: 'kleine, harte, saure Äpfel' } },
+  intro: ['Der Holzapfel ist der einzige wilde Apfelbaum Mitteleuropas und einer der Vorfahren unserer Kulturäpfel. Seine Früchte sind klein, hart und so sauer, dass man sie nicht roh isst – gekocht aber ergeben sie das beste Apfelgelee, das es gibt.', 'Echte Holzäpfel sind selten geworden. Häufiger findest du verwilderte Kulturäpfel an Wegrändern – die werden genauso genutzt.'],
+  steckbrief: [['Wuchs', 'Baum, 5 bis 10 m, oft strauchig'], ['Zweige', 'Kurztriebe teils dornig'], ['Blätter', 'rundlich-eiförmig, gekerbt, beiderseits **kahl** (bei Kulturäpfeln unten filzig)'], ['Blüte', 'Mai: weiß bis rosa, in Büscheln'], ['Früchte', 'September bis Oktober: 2 bis 4 cm, gelbgrün, oft mit roter Backe, **sehr sauer und herb**'], ['Standort', 'Waldränder, Auen, Hecken'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Wildapfel oder Wegrandapfel?', 'Verwilderte Kulturäpfel haben größere, süßere Früchte und filzige Blattunterseiten. Für die Küche ist das egal – beide sind essbar.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Zieräpfel in Parks tragen ebenfalls essbare, kleine Früchte.' },
+  standort: ['Holzäpfel wachsen in lichten Auwäldern, an Waldrändern und in Hecken. Verwilderte Apfelbäume stehen an Feldwegen und Bahndämmen.'],
+  sammeln: { tabelle: [['Früchte', 'September bis Oktober', 'Fallobst und vom Baum; leicht unreife Früchte gelieren am besten']], kalender: [['Früchte', [9, 10]]], tipps: ['Auf mundraub.org sind viele freie Apfelbäume an Wegen eingetragen.'] },
+  inhaltsstoffe: { punkte: ['**Pektin** – besonders viel in Schale und Kerngehäuse', 'Fruchtsäuren, Gerbstoffe, Vitamin C', 'Kerne: Spuren von Amygdalin'] },
+  kueche: { text: ['Holzäpfel sind die Pektinlieferanten der Wildobstküche.'], ideen: ['**Apfelgelee** – auch als Geliermittel für andere Früchte.', '**Apfelessig** aus Schalen und Kerngehäusen.', '**Dörrapfelringe** von größeren Wegrandäpfeln.', '**Apfelmus.**'] },
+  rezepte: [
+    { titel: 'Wildapfelgelee', info: 'Für 5 Gläser', thema: T.MARMELADE, zutaten: ['2 kg Holzäpfel oder Wegrandäpfel', '1,5 Liter Wasser', '1 Zimtstange nach Belieben', 'Gelierzucker 2 : 1 nach Saftmenge'], schritte: ['Äpfel ungeschält vierteln.', 'Mit Wasser (und Zimt) 30 Minuten weich kochen.', 'Durch ein Tuch abtropfen lassen.', 'Saft nach Grundrezept 2 mit Gelierzucker kochen und heiß abfüllen.'], tipp: 'Wildapfelsaft ist so pektinreich, dass man ihn anderen Gelees zugeben kann, die schlecht gelieren (z. B. Holunder).' },
+    { titel: 'Apfelessig aus Schalen', info: 'Für ca. 1 Liter', thema: T.VORRAT, zutaten: ['Schalen und Kerngehäuse von etwa 1 kg Äpfeln', '1 Liter Wasser', '3 EL Zucker'], schritte: ['Zucker im Wasser auflösen, über die Apfelreste in ein großes Glas gießen, alles soll bedeckt sein.', 'Mit einem Tuch abdecken (nicht verschließen) und 2 bis 3 Wochen bei Zimmertemperatur gären lassen, täglich umrühren.', 'Abseihen, die Flüssigkeit wieder ins Glas geben und weitere 4 bis 6 Wochen stehen lassen, bis sie sauer schmeckt.', 'In Flaschen füllen.'], tipp: 'Die gallertartige Schicht, die sich bildet, ist die „Essigmutter“ – damit lässt sich der nächste Essig schneller ansetzen.' },
+  ],
+  geschichte: ['Der Holzapfel wurde schon in der Jungsteinzeit gesammelt: In Pfahlbausiedlungen fand man getrocknete, halbierte Wildäpfel als Wintervorrat. Unsere Kulturäpfel stammen allerdings überwiegend vom Asiatischen Wildapfel ab.'],
+  haltbar: [['Dörrapfel', 'in Ringen bei 50 °C.', '1 Jahr'], ['Gelee, Essig', 'abgefüllt.', '1 Jahr und länger']],
+  vorsicht: ['Kein besonderes Risiko.'],
+  quellen: ['BfN FloraWeb: *Malus sylvestris*'],
+};

@@ -7,8 +7,8 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
-const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
-const ziel = process.argv[2] || path.join(BAND, 'Was-die-Natur-uns-schenkt-Band-1.docx');
+const BAND = path.join(__dirname, '..', process.env.BAND || 'band-1-kraeuter-wildpflanzen');
+const ziel = process.argv[2] || path.join(BAND, `${require(path.join(BAND, 'inhalt', 'rahmen.js')).datei || 'Was-die-Natur-uns-schenkt-Band-1'}.docx`);
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'buch-'));
 const entwurf = path.join(tmp, 'entwurf.docx');
 const SOFFICE = '/mnt/skills/public/docx/scripts/office/soffice.py';

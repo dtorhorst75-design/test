@@ -1,0 +1,32 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 13, id: 'heidelbeere', saison: 'sommer',
+  name: 'Heidelbeere', botanisch: 'Vaccinium myrtillus',
+  bestimmungshinweis: true,
+  familie: 'Heidekrautgewächse (Ericaceae)', artikel: 'in der Heidelbeere',
+  volksnamen: 'Blaubeere, Bickbeere, Schwarzbeere, Mollbeere, Wolfsbeere',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'eifoermig', rand: 'gesaegt', blattlaenge: 50, blattbreite: 28, knoten: 8, bluete: 'glocke', farbe: '#e8b4b8', bluetengroesse: 22, frucht: 'heidelbeere', silhouette: 'zwergstrauch', wuchshoehe: 'Zwergstrauch, 15 bis 50 cm',
+    labels: { bluete: 'kleine, rosa Glockenblüten', blatt: 'Blatt: klein, eiförmig, fein gesägt', stengel: 'Zweige grün und kantig', frucht: 'blaue Beeren, innen dunkelrot' } },
+  intro: ['Wer einmal wilde Heidelbeeren gesammelt hat, weiß, warum man sie auch Blaubeeren nennt: Mund, Finger und Zähne sind danach blau. Anders als Kulturheidelbeeren aus dem Supermarkt sind die wilden Beeren **durch und durch dunkelrot-violett** und viel aromatischer.', 'Heidelbeeren wachsen als niedriger Zwergstrauch in lichten Nadelwäldern, oft als dichter Teppich.'],
+  steckbrief: [['Wuchs', 'Zwergstrauch, 15 bis 50 cm, oft große Teppiche'], ['Zweige', '**grün, kantig**, auch im Winter grün'], ['Blätter', 'klein (2 bis 3 cm), eiförmig, fein gesägt, hellgrün, im Herbst rot'], ['Blüte', 'April bis Juni: kleine, kugelige, grünlich-rosa **Glöckchen**'], ['Früchte', 'Juli bis August: blauschwarz, bereift, mit **Krönchen** an der Spitze, Fruchtfleisch **dunkelrot-violett**'], ['Standort', 'lichte Nadel- und Mischwälder, Heiden, saure Böden'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Die Sicherheitsmerkmale', ['1. **Zwergstrauch** mit vielen grünen, kantigen Zweigen – keine einzelne Staude.', '2. Beeren **einzeln** an kurzen Stielen, mit kleinem **Krönchen** (Kelchrest) an der Spitze.', '3. Fruchtfleisch **dunkel** und färbt.', '4. Blätter klein und **fein gesägt**.']]],
+  verwechslung: {
+    text: 'Zwei Pflanzen musst du kennen:',
+    tabelle: [['Tollkirsche (*Atropa belladonna*) – **sehr giftig**', 'schwarze, glänzende Beeren', 'kräftige **Staude** 0,5 bis 1,5 m, große Blätter; Beeren kirschgroß, **glänzend**, sitzen in einem **fünfzipfligen Kelchstern**; braunviolette Glockenblüten; wächst auf Kahlschlägen, nicht im Heidelbeerteppich'], ['Rauschbeere (*Vaccinium uliginosum*)', 'blaue, bereifte Beeren', 'Blätter **blaugrün, ganzrandig**, Zweige **braun und rund**; Fruchtfleisch **hell**; Moore; in Mengen unbekömmlich']],
+    tipp: { titel: 'Auf Nummer sicher', zeilen: ['Kulturheidelbeeren gibt es von Juni bis September günstig im Supermarkt und auf dem Markt. Alle Rezepte gelingen damit genauso – sie färben nur weniger. Für Kinder gilt: **Nur Beeren essen, die ein Erwachsener geprüft hat.**'] },
+  },
+  standort: ['Heidelbeeren brauchen saure, humusreiche Böden und Halbschatten: lichte Kiefern- und Fichtenwälder, Heiden, Moorränder und Bergwälder.'],
+  sammeln: { tabelle: [['Früchte', 'Juli bis August', 'vollreif, blauschwarz; mit einem Beerenkamm geht es schneller (in manchen Bundesländern ist er verboten oder nur für den Eigenbedarf erlaubt)']], kalender: [['Früchte', [7, 8], [9]]], tipps: ['Beeren gründlich waschen oder erhitzen.', 'In Naturschutzgebieten und Nationalparks nicht sammeln.'] },
+  inhaltsstoffe: { punkte: ['**Anthocyane** (Myrtillin) – der blaue Farbstoff, in wilden Beeren viel mehr als in Kulturheidelbeeren', '**Gerbstoffe**, besonders in getrockneten Beeren', 'Vitamin C, Ballaststoffe'] },
+  kueche: { text: ['Wilde Heidelbeeren sind kleiner, saftiger und färben stark.'], ideen: ['**Roh** mit Milch oder Joghurt – der Klassiker.', '**Pfannkuchen, Muffins, Kuchen.**', '**Marmelade, Saft, Kompott.**'] },
+  rezepte: [
+    { titel: 'Heidelbeerpfannkuchen', info: 'Für 4 Personen', thema: T.SUESS, zutaten: ['250 g Mehl', '400 ml Milch', '3 Eier', '1 Prise Salz, 1 EL Zucker', '250 g Heidelbeeren', 'Öl oder Butter zum Braten'], schritte: ['Mehl, Milch, Eier, Salz und Zucker zu einem glatten Teig rühren, 15 Minuten quellen lassen.', 'Wenig Fett in der Pfanne erhitzen, eine Kelle Teig hineingeben.', 'Sofort eine Handvoll Heidelbeeren darauf streuen.', 'Wenn die Unterseite goldbraun ist, wenden und fertig backen. Mit Zucker oder Apfelmus servieren.'], tausch: 'Mit Haferdrink statt Milch und 3 EL Kichererbsenmehl plus 6 EL Wasser statt der Eier; mit Öl braten.' },
+    { titel: 'Heidelbeermarmelade', info: 'Für 4 Gläser', thema: T.MARMELADE, zutaten: ['1 kg Heidelbeeren', '500 g Gelierzucker 2 : 1', 'Saft einer Zitrone'], schritte: ['Heidelbeeren leicht zerdrücken.', 'Mit Gelierzucker und Zitronensaft nach Grundrezept 1 kochen.', 'Heiß abfüllen.'] },
+  ],
+  anwendung: { bloecke: ['Getrocknete Heidelbeeren sind vom HMPC als traditionelles pflanzliches Arzneimittel bei **leichtem Durchfall** eingestuft. Wichtig: Nur die **getrockneten** Beeren wirken stopfend (wegen der Gerbstoffe); frische Beeren wirken eher leicht abführend.', { h3: 'Heidelbeer-Abkochung bei Durchfall', thema: T.BAUCH }, { schritte: ['2 bis 3 EL getrocknete Heidelbeeren mit 250 ml kaltem Wasser aufsetzen.', '10 Minuten köcheln lassen, abseihen.', 'Mehrmals täglich trinken; die Beeren können gut gekaut mitgegessen werden.'] }], hinweise: ['Durchfall bei Kindern, mit Fieber oder Blut im Stuhl, oder länger als 3 Tage ärztlich abklären.', 'Heidelbeerblätter werden heute nicht mehr empfohlen.'] },
+  haushalt: [['Färben', 'Heidelbeersaft färbt Wolle violett-blau. Flecken auf Kleidung sofort mit Zitronensaft und kaltem Wasser behandeln.', T.PFLEGE]],
+  geschichte: ['Heidelbeeren waren im Bayerischen Wald und im Schwarzwald früher eine wichtige Einnahmequelle für arme Familien: Ganze Dörfer zogen im Sommer zum „Beeren-Brocken“ in den Wald und verkauften die Ernte in der Stadt.'],
+  haltbar: [['Trocknen', 'bei 50 °C im Dörrgerät, bis sie hart und schrumpelig sind.', '1 Jahr'], ['Einfrieren', 'einzeln auf einem Blech vorfrieren.', '1 Jahr']],
+  vorsicht: ['**Nicht mit der Tollkirsche verwechseln** – einzelne glänzende Beeren im Kelchstern an einer großen Staude.', 'Kinder nur geprüfte Beeren essen lassen.', 'Wild gesammelte Beeren waschen oder erhitzen.'],
+  quellen: ['EMA/HMPC: Monographie *Myrtilli fructus siccus*', 'BfN FloraWeb: *Vaccinium myrtillus*, *Atropa belladonna*'],
+};

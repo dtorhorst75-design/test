@@ -57,6 +57,7 @@ class Canvas {
     if (shape === 'fein') return this.feathery(x, y, ang, L);
     if (shape === 'dreizaehlig') return this.ternate(x, y, ang, L, Wd, fill);
     if (shape === 'handfoermig') return this.palmate(x, y, ang, L, fill, teeth);
+    if (shape === 'gefingert') return this.digitate(x, y, ang, L, Wd, fill);
     if (shape === 'schrotsaege') return this.runcinate(x, y, ang, L, Wd, fill);
     if (shape === 'nadel') return this.needle(x, y, ang, L);
     if (shape === 'schild') return this.peltate(x, y, ang, L, fill);
@@ -82,6 +83,13 @@ class Canvas {
       }
     }
     if (!double) this.leafLocal(L, 0, 0, L * 0.28, Wd * 0.28, fill);
+    this.add('</g>');
+  }
+  digitate(x, y, ang, L, Wd, fill) { // gefingertes Blatt (Rosskastanie): 5 bis 7 Blättchen an einem Punkt
+    this.add(`<g transform="translate(${f(x)},${f(y)}) rotate(${f(ang)})">`);
+    const p = L * 0.35;
+    this.add(`<path d="M0,0 L${f(p)},0" stroke="${LEAF_DARK}" stroke-width="1.6"/>`);
+    for (const [a, k] of [[-70, 0.6], [-35, 0.85], [0, 1], [35, 0.85], [70, 0.6]]) this.add(`<g transform="translate(${f(p)},0) rotate(${a})"><path d="${simpleLeafPath(L * 0.7 * k, Wd * 0.3 * k, 'spatel', this.r, 'gesaegt')}" fill="${fill}" fill-opacity="0.82" stroke="${INK}" stroke-width="1.1"/><path d="M0,0 L${f(L * 0.65 * k)},0" stroke="${LEAF_DARK}" stroke-width="0.8"/></g>`);
     this.add('</g>');
   }
   leafLocal(x, y, ang, L, Wd, fill) {
@@ -237,6 +245,10 @@ class Canvas {
       }
       case 'zapfen': { // Hopfen
         for (let i = 0; i < 6; i++) this.add(`<ellipse cx="${f(x + (i % 2 ? 4 : -4))}" cy="${f(y + i * s * 0.18)}" rx="${f(s * 0.3)}" ry="${f(s * 0.16)}" fill="#c6d49a" stroke="${INK}" stroke-width="0.8"/>`);
+        break;
+      }
+      case 'kaetzchen': { // hängendes Kätzchen (Birke, Hasel, Weide, Eiche, Walnuss)
+        for (let i = 0; i < 11; i++) this.add(`<ellipse cx="${f(x + Math.sin(i * 0.5) * s * 0.05)}" cy="${f(y + i * s * 0.11)}" rx="${f(s * 0.11 * (1 - i * 0.03))}" ry="${f(s * 0.08)}" fill="${color}" stroke="${INK}" stroke-width="0.6"/>`);
         break;
       }
       default: { // kleine Einzelblüte
@@ -429,6 +441,97 @@ function plant(c, z) {
   return pts;
 }
 
+// ---------- Bäume und Sträucher: Zweig mit Blatt, Blüte, Frucht und kleiner Wuchsform ----------
+function silhouette(c, typ, x, y) {
+  // x,y = Fußpunkt; Fläche ca. 180 × 200
+  const T = '#6b5a3e', K = '#9fb07a';
+  c.add(`<rect x="${x - 100}" y="${y - 225}" width="200" height="245" rx="8" fill="${CREAM}" stroke="${INK}" stroke-width="0.8" stroke-dasharray="4,3"/>`);
+  c.add(`<line x1="${x - 85}" y1="${y}" x2="${x + 85}" y2="${y}" stroke="${INK}" stroke-width="1"/>`);
+  if (typ === 'nadelbaum') {
+    c.add(`<rect x="${x - 5}" y="${y - 40}" width="10" height="40" fill="${T}"/>`);
+    for (let i = 0; i < 5; i++) { const yy = y - 30 - i * 32, w = 70 - i * 12; c.add(`<path d="M${x - w},${yy} L${x},${yy - 60} L${x + w},${yy} Z" fill="#6f8a55" stroke="${INK}" stroke-width="0.8"/>`); }
+  } else if (typ === 'strauch' || typ === 'zwergstrauch' || typ === 'ranke') {
+    const h = typ === 'zwergstrauch' ? 50 : typ === 'ranke' ? 90 : 120;
+    for (let k = -3; k <= 3; k++) c.add(`<path d="M${x + k * 6},${y} Q${x + k * 16},${y - h * 0.6} ${x + k * (typ === 'ranke' ? 30 : 22)},${y - h * (typ === 'ranke' ? 0.7 : 1)}" fill="none" stroke="${T}" stroke-width="2"/>`);
+    c.add(`<ellipse cx="${x}" cy="${y - h * 0.65}" rx="${typ === 'zwergstrauch' ? 70 : 80}" ry="${h * 0.5}" fill="${K}" fill-opacity="0.75" stroke="${INK}" stroke-width="0.8"/>`);
+  } else if (typ === 'kletterer') {
+    c.add(`<rect x="${x - 50}" y="${y - 190}" width="40" height="190" fill="#c9bfa8" stroke="${INK}" stroke-width="0.8"/>`);
+    for (let i = 0; i < 14; i++) c.add(`<circle cx="${x - 30 + Math.sin(i) * 26}" cy="${y - 10 - i * 13}" r="11" fill="${K}" stroke="${INK}" stroke-width="0.6"/>`);
+  } else { // Laubbaum
+    c.add(`<path d="M${x - 8},${y} L${x - 6},${y - 80} L${x + 6},${y - 80} L${x + 8},${y} Z" fill="${T}"/>`);
+    c.add(`<ellipse cx="${x}" cy="${y - 135}" rx="78" ry="70" fill="${K}" fill-opacity="0.8" stroke="${INK}" stroke-width="0.8"/>`);
+  }
+}
+function zweig(c, z) {
+  const BARK = '#6b5a3e', color = z.farbe || '#f4f1e6', center = z.mitte || '#e9c33b';
+  const leaf = z.blatt || 'eifoermig', teeth = z.rand || 'gesaegt', arr = z.stellung || 'wechselstaendig';
+  const L0 = z.blattlaenge || 110, W0 = z.blattbreite || 46;
+  const pts = {};
+  const A = [330, 880], B = [450, 130];
+  const at = (t) => [A[0] + (B[0] - A[0]) * t + Math.sin(t * 3) * 25, A[1] + (B[1] - A[1]) * t];
+  let d = `M${A[0]},${A[1]}`;
+  for (let t = 0.05; t <= 1.0001; t += 0.05) { const [x, y] = at(t); d += ` L${f(x)},${f(y)}`; }
+  c.add(`<path d="${d}" fill="none" stroke="${BARK}" stroke-width="${z.blatt === 'nadel' ? 7 : 8}" stroke-linecap="round"/>`);
+  // Seitenzweige
+  const sides = [[0.38, -1, 190], [0.62, 1, 130]];
+  const tips = [];
+  for (const [t, dir, len] of sides) {
+    const [x, y] = at(t), ex = x + dir * len, ey = y - len * 0.55;
+    c.add(`<path d="M${f(x)},${f(y)} Q${f(x + dir * len * 0.5)},${f(y - len * 0.1)} ${f(ex)},${f(ey)}" fill="none" stroke="${BARK}" stroke-width="5" stroke-linecap="round"/>`);
+    tips.push([ex, ey, x, y, dir]);
+  }
+  if (z.dornen) for (let i = 0; i < 9; i++) { const [x, y] = at(0.1 + i * 0.09); const s = i % 2 ? 1 : -1; c.add(`<path d="M${f(x)},${f(y)} l${s * 14},-6 l${-s * 12},-4 Z" fill="${BARK}" stroke="${INK}" stroke-width="0.6"/>`); }
+  // Blätter
+  const leafAt = (x, y, base, i, scale = 1) => {
+    if (leaf === 'nadel') {
+      const nl = z.nadellaenge || 40;
+      for (const s of [-1, 1]) c.leaf(x, y, base + s * (z.nadelwinkel || 55), nl * scale, 4, 'nadel');
+      return;
+    }
+    const sc = L0 * scale, wd = W0 * scale;
+    if (arr === 'gegenstaendig') { c.leaf(x, y, base - 55, sc, wd, leaf, teeth); c.leaf(x, y, base + 55, sc, wd, leaf, teeth); }
+    else c.leaf(x, y, base + (i % 2 ? 55 : -55), sc, wd, leaf, teeth);
+  };
+  const ang = (x1, y1, x2, y2) => Math.atan2(y2 - y1, x2 - x1) * 180 / Math.PI;
+  const mainAng = ang(...A, ...B);
+  const nMain = leaf === 'nadel' ? 26 : (z.knoten || 6);
+  for (let i = 0; i < nMain; i++) {
+    const t = 0.12 + i * (0.8 / nMain), [x, y] = at(t);
+    leafAt(x, y, mainAng, i, 1 - t * 0.25);
+    if (i === Math.floor(nMain * 0.3)) pts.blatt = [x + 40, y - 30];
+  }
+  for (const [ex, ey, x, y, dir] of tips) {
+    const n = leaf === 'nadel' ? 12 : 3, a = ang(x, y, ex, ey);
+    for (let i = 1; i <= n; i++) { const t = i / (n + 1); leafAt(x + (ex - x) * t, y + (ey - y) * t, a, i, 0.75); }
+  }
+  pts.stengel = at(0.2);
+  // Blüte oben am Haupttrieb, Frucht am rechten Seitenzweig (oder umgekehrt bei Nadelbäumen)
+  const [bx, by] = B, [fx, fy] = tips[1];
+  if (z.bluete) {
+    if (z.bluete === 'kaetzchen') c.flower('kaetzchen', bx, by + 10, z.bluetengroesse || 90, color);
+    else c.inflorescence(z.bluete, bx, by, z.bluetengroesse || 60, color, center);
+    pts.bluete = [bx, by];
+    // weitere Blüten am linken Seitenzweig
+    const [lx, ly] = tips[0];
+    if (z.bluete === 'kaetzchen') c.flower('kaetzchen', lx, ly + 6, (z.bluetengroesse || 90) * 0.8, color);
+    else c.inflorescence(z.bluete, lx, ly, (z.bluetengroesse || 60) * 0.8, color, center);
+  }
+  if (z.frucht) { drawFruit(c, z.frucht, fx, fy + 50, z.fruchtgroesse || 0.85, z.fruchtfarbe); pts.wurzel = [fx, fy + 50]; }
+  silhouette(c, z.silhouette || 'laubbaum', 160, 880);
+  c.add(`<text x="160" y="${880 + 44}" text-anchor="middle" font-family="${FONT}" font-size="17" font-style="italic" fill="${INK}">${z.wuchshoehe || 'Wuchsform'}</text>`);
+  return pts;
+}
+
+function rinde(c, typ, x, y) {
+  const base = { birke: '#f2efe6', glatt: '#9a9a8a', schuppig: '#7a5a3e', rissig: '#6b5440' }[typ] || '#7a5a3e';
+  c.add(`<rect x="${x - 100}" y="${y - 100}" width="200" height="200" fill="${base}"/>`);
+  const r = rng(typ);
+  if (typ === 'birke') for (let i = 0; i < 14; i++) c.add(`<rect x="${f(x - 90 + r() * 160)}" y="${f(y - 90 + r() * 170)}" width="${f(20 + r() * 40)}" height="${f(3 + r() * 5)}" fill="#2d2a26"/>`);
+  else if (typ === 'glatt') for (let i = 0; i < 8; i++) c.add(`<path d="M${x - 100},${y - 80 + i * 22} q100,${f(r() * 8 - 4)} 200,0" stroke="#7a7a6a" stroke-width="1" fill="none"/>`);
+  else if (typ === 'rissig') for (let i = 0; i < 9; i++) { const xx = x - 90 + i * 22; c.add(`<path d="M${xx},${y - 100} q${f(r() * 16 - 8)},100 0,200" stroke="#3b2f22" stroke-width="${f(2 + r() * 3)}" fill="none"/>`); }
+  else for (let i = 0; i < 26; i++) c.add(`<ellipse cx="${f(x - 90 + r() * 180)}" cy="${f(y - 90 + r() * 180)}" rx="${f(10 + r() * 14)}" ry="${f(6 + r() * 6)}" fill="#5e4430" stroke="#3b2f22" stroke-width="0.7"/>`);
+}
+
 // ---------- Detailkreise ----------
 function inset(c, cx, cy, r, title, draw) {
   c.add(`<circle cx="${cx}" cy="${cy}" r="${r}" fill="${CREAM}" stroke="${INK}" stroke-width="1.3"/>`);
@@ -437,8 +540,127 @@ function inset(c, cx, cy, r, title, draw) {
   c.add('</g>');
   c.add(`<text x="${cx}" y="${cy + r + 24}" text-anchor="middle" font-family="${FONT}" font-size="17" font-style="italic" fill="${INK}">${title}</text>`);
 }
-function fruit(c, type, x, y) {
+function drawFruit(c, type, x, y, s = 1, color) {
+  c.add(`<g transform="translate(${f(x)},${f(y)}) scale(${s})">`);
+  fruit(c, type, 0, 0, color);
+  c.add('</g>');
+}
+const kreise = (c, list, r, fill, glanz = true) => list.forEach(([dx, dy]) => c.add(`<circle cx="${dx}" cy="${dy}" r="${r}" fill="${fill}" stroke="${INK}" stroke-width="0.9"/>${glanz ? `<circle cx="${dx - r * 0.3}" cy="${dy - r * 0.3}" r="${r * 0.22}" fill="#fff" fill-opacity="0.45"/>` : ''}`));
+const stiel = (c, x1, y1, x2, y2, w = 1.2) => c.add(`<path d="M${x1},${y1} L${x2},${y2}" stroke="#6b5a3e" stroke-width="${w}"/>`);
+function fruit(c, type, x, y, color) {
   switch (type) {
+    case 'beerendolde': { // Holunder: viele kleine Beeren an verzweigten Stielen
+      for (let i = 0; i < 7; i++) {
+        const a = (-140 + i * 100 / 6) * Math.PI / 180, ex = x + Math.cos(a) * -60, ey = y + 10 + Math.abs(Math.sin(a)) * 45;
+        stiel(c, x, y - 40, ex, ey, 1.4);
+        for (let j = 0; j < 5; j++) kreise(c, [[ex + (j - 2) * 9, ey + 8 + (j % 2) * 8]], 6, color || '#2b2233');
+      }
+      break;
+    }
+    case 'beeren': case 'heidelbeere': case 'preiselbeere': { // Traube/Gruppe runder Beeren
+      const r = type === 'heidelbeere' ? 15 : type === 'preiselbeere' ? 11 : 13;
+      const pos = [[-24, 0], [6, -14], [24, 12], [-6, 24], [-30, 30], [16, 38]];
+      stiel(c, x, y - 50, x, y + 30);
+      pos.forEach(([dx, dy]) => stiel(c, x, y - 30 + dy * 0.3, x + dx, y + dy, 0.8));
+      kreise(c, pos.map(([dx, dy]) => [x + dx, y + dy]), r, color || (type === 'heidelbeere' ? '#3b4a7a' : '#b3262e'));
+      if (type === 'heidelbeere') pos.forEach(([dx, dy]) => c.add(`<circle cx="${x + dx}" cy="${y + dy - r * 0.2}" r="${r * 0.3}" fill="none" stroke="${INK}" stroke-width="0.8"/>`));
+      break;
+    }
+    case 'sammelfrucht': case 'maulbeere': { // Brombeere, Himbeere, Maulbeere
+      const rows = type === 'maulbeere' ? 7 : 5;
+      stiel(c, x, y - 55, x, y - 34, 2);
+      for (let i = 0; i < rows; i++) for (let j = 0; j < 4 + (i % 2); j++) kreise(c, [[x - 18 + j * 10 - (i % 2) * 5, y - 30 + i * 11]], 6.5, color || '#3a1f35');
+      break;
+    }
+    case 'erdbeere':
+      c.add(`<path d="M${x},${y + 40} C${x - 34},${y + 10} ${x - 30},${y - 28} ${x},${y - 26} C${x + 30},${y - 28} ${x + 34},${y + 10} ${x},${y + 40} Z" fill="${color || '#c8282e'}" stroke="${INK}" stroke-width="1"/>`);
+      for (let i = 0; i < 14; i++) c.add(`<circle cx="${x - 16 + (i % 4) * 11}" cy="${y - 14 + Math.floor(i / 4) * 12}" r="1.6" fill="#f3d36b"/>`);
+      for (let k = 0; k < 6; k++) c.add(`<path d="M${x},${y - 26} l${f(Math.cos((-160 + k * 28) * Math.PI / 180) * 20)},${f(Math.sin((-160 + k * 28) * Math.PI / 180) * 12 - 2)}" stroke="${LEAF_DARK}" stroke-width="3" stroke-linecap="round"/>`);
+      break;
+    case 'apfel': case 'quitte': case 'mispel': {
+      const col = color || (type === 'quitte' ? '#e6c63a' : type === 'mispel' ? '#8a6a3a' : '#c9b03e');
+      c.add(`<path d="M${x},${y - 30} C${x + 46},${y - 46} ${x + 50},${y + 40} ${x},${y + 38} C${x - 50},${y + 40} ${x - 46},${y - 46} ${x},${y - 30} Z" fill="${col}" stroke="${INK}" stroke-width="1.1"/>`);
+      stiel(c, x, y - 30, x + 6, y - 52, 2.2);
+      if (type === 'mispel') for (let k = 0; k < 5; k++) c.add(`<path d="M${x},${y + 30} l${f(Math.cos(k * 1.256) * 16)},${f(Math.sin(k * 1.256) * 8 + 8)}" stroke="${INK}" stroke-width="2"/>`);
+      else c.add(`<circle cx="${x - 14}" cy="${y - 10}" r="7" fill="#fff" fill-opacity="0.35"/>`);
+      break;
+    }
+    case 'birne':
+      c.add(`<path d="M${x},${y - 44} C${x + 14},${y - 44} ${x + 14},${y - 14} ${x + 30},${y + 10} C${x + 40},${y + 42} ${x - 40},${y + 42} ${x - 30},${y + 10} C${x - 14},${y - 14} ${x - 14},${y - 44} ${x},${y - 44} Z" fill="${color || '#b8b04a'}" stroke="${INK}" stroke-width="1.1"/>`);
+      stiel(c, x, y - 44, x + 4, y - 62, 2);
+      break;
+    case 'hagebutte':
+      for (const [dx, a] of [[-22, -12], [22, 14]]) {
+        c.add(`<g transform="rotate(${a} ${x + dx} ${y})"><ellipse cx="${x + dx}" cy="${y}" rx="16" ry="30" fill="${color || '#c7351f'}" stroke="${INK}" stroke-width="1"/>`);
+        for (let k = 0; k < 5; k++) c.add(`<path d="M${x + dx},${y + 28} l${(k - 2) * 7},${14}" stroke="${INK}" stroke-width="1.2"/>`);
+        c.add(`</g>`);
+        stiel(c, x + dx, y - 30, x + dx * 0.4, y - 55, 1.6);
+      }
+      break;
+    case 'steinfrucht': case 'schlehe': case 'kornelkirsche': case 'sanddorn': {
+      const col = color || (type === 'schlehe' ? '#3c4775' : type === 'sanddorn' ? '#ef8a1d' : '#b11d2a');
+      if (type === 'sanddorn') { c.add(`<path d="M${x - 50},${y + 40} L${x + 50},${y - 40}" stroke="#6b5a3e" stroke-width="5"/>`); for (let i = 0; i < 12; i++) kreise(c, [[x - 44 + i * 8 + (i % 2) * 4, y + 36 - i * 7 + (i % 2 ? 8 : -8)]], 7, col); break; }
+      const pos = [[-22, 10], [20, 0], [0, 32]];
+      pos.forEach(([dx, dy]) => stiel(c, x, y - 50, x + dx, y + dy - (type === 'kornelkirsche' ? 18 : 14), 1.2));
+      pos.forEach(([dx, dy]) => c.add(type === 'kornelkirsche' ? `<ellipse cx="${x + dx}" cy="${y + dy}" rx="11" ry="18" fill="${col}" stroke="${INK}" stroke-width="0.9"/>` : `<circle cx="${x + dx}" cy="${y + dy}" r="15" fill="${col}" stroke="${INK}" stroke-width="0.9"/>${type === 'schlehe' ? `<circle cx="${x + dx}" cy="${y + dy}" r="15" fill="#c9d3e8" fill-opacity="0.3"/>` : `<circle cx="${x + dx - 5}" cy="${y + dy - 5}" r="3.5" fill="#fff" fill-opacity="0.5"/>`}`));
+      break;
+    }
+    case 'haselnuss':
+      for (const dx of [-24, 24]) {
+        c.add(`<ellipse cx="${x + dx}" cy="${y + 12}" rx="17" ry="20" fill="#9a6a32" stroke="${INK}" stroke-width="1"/>`);
+        c.add(`<path d="M${x + dx - 20},${y + 2} C${x + dx - 24},${y - 30} ${x + dx + 24},${y - 30} ${x + dx + 20},${y + 2} L${x + dx + 14},${y - 4} L${x + dx + 8},${y + 4} L${x + dx},${y - 6} L${x + dx - 8},${y + 4} L${x + dx - 14},${y - 4} Z" fill="${LEAF}" stroke="${INK}" stroke-width="1"/>`);
+      }
+      break;
+    case 'walnuss':
+      c.add(`<circle cx="${x - 22}" cy="${y}" r="30" fill="${LEAF}" stroke="${INK}" stroke-width="1"/><circle cx="${x - 30}" cy="${y - 8}" r="2" fill="${LEAF_DARK}"/><circle cx="${x - 14}" cy="${y + 8}" r="2" fill="${LEAF_DARK}"/>`);
+      c.add(`<ellipse cx="${x + 30}" cy="${y + 8}" rx="25" ry="28" fill="#b08a55" stroke="${INK}" stroke-width="1"/><path d="M${x + 30},${y - 20} L${x + 30},${y + 36} M${x + 16},${y - 6} q8,8 0,16 q-8,8 0,16 M${x + 44},${y - 6} q-8,8 0,16 q8,8 0,16" fill="none" stroke="${INK}" stroke-width="0.8"/>`);
+      break;
+    case 'esskastanie': case 'buchecker': {
+      const n = type === 'buchecker' ? 30 : 60, R = type === 'buchecker' ? 24 : 34;
+      c.add(`<circle cx="${x}" cy="${y}" r="${R}" fill="${type === 'buchecker' ? '#9a7a4a' : '#9fb35a'}" stroke="${INK}" stroke-width="1"/>`);
+      for (let i = 0; i < n; i++) { const a = i * 2 * Math.PI / n; c.add(`<path d="M${f(x + Math.cos(a) * R)},${f(y + Math.sin(a) * R)} l${f(Math.cos(a) * (type === 'buchecker' ? 6 : 14))},${f(Math.sin(a) * (type === 'buchecker' ? 6 : 14))}" stroke="${INK}" stroke-width="0.7"/>`); }
+      if (type === 'esskastanie') for (const dx of [-12, 12]) c.add(`<path d="M${x + dx - 14},${y + 6} Q${x + dx},${y - 26} ${x + dx + 14},${y + 6} Q${x + dx},${y + 16} ${x + dx - 14},${y + 6} Z" fill="#7a4a24" stroke="${INK}" stroke-width="0.9"/>`);
+      else for (const dx of [-8, 8]) c.add(`<path d="M${x + dx},${y - 16} L${x + dx + 9},${y + 10} L${x + dx - 9},${y + 10} Z" fill="#6b4523" stroke="${INK}" stroke-width="0.8"/>`);
+      break;
+    }
+    case 'rosskastanie':
+      c.add(`<circle cx="${x - 22}" cy="${y}" r="30" fill="#a9be6a" stroke="${INK}" stroke-width="1"/>`);
+      for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; c.add(`<path d="M${f(x - 22 + Math.cos(a) * 30)},${f(y + Math.sin(a) * 30)} l${f(Math.cos(a) * 7)},${f(Math.sin(a) * 7)}" stroke="${INK}" stroke-width="1"/>`); }
+      c.add(`<circle cx="${x + 30}" cy="${y + 6}" r="24" fill="#6b3418" stroke="${INK}" stroke-width="1"/><ellipse cx="${x + 30}" cy="${y + 18}" rx="14" ry="9" fill="#d8c49a"/><circle cx="${x + 22}" cy="${y - 4}" r="4" fill="#fff" fill-opacity="0.4"/>`);
+      break;
+    case 'eichel':
+      for (const dx of [-22, 22]) {
+        c.add(`<ellipse cx="${x + dx}" cy="${y + 8}" rx="13" ry="24" fill="#b08a45" stroke="${INK}" stroke-width="1"/>`);
+        c.add(`<path d="M${x + dx - 16},${y - 4} Q${x + dx},${y - 26} ${x + dx + 16},${y - 4} Z" fill="#8a6a3a" stroke="${INK}" stroke-width="1"/>`);
+        for (let k = 0; k < 4; k++) c.add(`<path d="M${x + dx - 12 + k * 8},${y - 8} l3,-5" stroke="${INK}" stroke-width="0.6"/>`);
+        stiel(c, x + dx, y - 18, x, y - 52, 1.6);
+      }
+      break;
+    case 'zapfen-haengend': case 'zapfen-stehend': case 'kiefernzapfen': {
+      const L = type === 'kiefernzapfen' ? 50 : 80, Wd = type === 'kiefernzapfen' ? 24 : 18, dir = type === 'zapfen-stehend' ? -1 : 1;
+      c.add(`<ellipse cx="${x}" cy="${y}" rx="${Wd}" ry="${L / 2}" fill="${type === 'zapfen-stehend' ? '#6a5a3a' : '#8a6a3a'}" stroke="${INK}" stroke-width="1"/>`);
+      for (let i = 0; i < 9; i++) { const yy = y - L / 2 + 6 + i * (L - 10) / 8; c.add(`<path d="M${x - Wd * 0.9},${f(yy)} Q${x},${f(yy + 8 * dir)} ${x + Wd * 0.9},${f(yy)}" fill="none" stroke="${INK}" stroke-width="0.7"/>`); }
+      stiel(c, x, y - dir * L / 2, x, y - dir * (L / 2 + 14), 3);
+      break;
+    }
+    case 'kaetzchen':
+      for (const dx of [-18, 14]) for (let i = 0; i < 9; i++) c.add(`<ellipse cx="${x + dx + Math.sin(i * 0.6) * 3}" cy="${y - 40 + i * 10}" rx="${7 - i * 0.3}" ry="6" fill="${color || '#c8b46a'}" stroke="${INK}" stroke-width="0.6"/>`);
+      break;
+    case 'fluegel': // Ahorn
+      for (const s of [-1, 1]) c.add(`<path d="M${x},${y} C${x + s * 20},${y - 10} ${x + s * 60},${y - 30} ${x + s * 66},${y - 14} C${x + s * 60},${y + 2} ${x + s * 26},${y + 10} ${x},${y + 8} Z" fill="#c7b47a" stroke="${INK}" stroke-width="1"/><circle cx="${x + s * 10}" cy="${y + 2}" r="9" fill="#9a8048" stroke="${INK}" stroke-width="0.8"/>`);
+      break;
+    case 'linde':
+      c.add(`<path d="M${x - 8},${y - 50} C${x - 30},${y - 30} ${x - 34},${y + 20} ${x - 22},${y + 30} C${x - 10},${y + 10} ${x},${y - 20} ${x - 8},${y - 50} Z" fill="#d6dca0" stroke="${INK}" stroke-width="1"/>`);
+      stiel(c, x - 12, y - 20, x + 10, y + 10, 1.2);
+      kreise(c, [[x + 4, y + 18], [x + 18, y + 14], [x + 12, y + 28]], 6, '#a89a62', false);
+      break;
+    case 'efeubeeren':
+      for (let i = 0; i < 9; i++) { const a = (-160 + i * 140 / 8) * Math.PI / 180; stiel(c, x, y + 20, x + Math.cos(a) * 40, y + 20 + Math.sin(a) * 40, 0.9); kreise(c, [[x + Math.cos(a) * 40, y + 20 + Math.sin(a) * 40]], 8, color || '#22202a'); }
+      break;
+    case 'berberitze':
+      stiel(c, x, y - 50, x, y + 30);
+      for (let i = 0; i < 6; i++) c.add(`<ellipse cx="${x + (i % 2 ? 14 : -14)}" cy="${y - 30 + i * 13}" rx="6" ry="11" fill="${color || '#c41e2e'}" stroke="${INK}" stroke-width="0.8"/>`);
+      break;
     case 'schirmchen':
       for (let i = 0; i < 3; i++) { const dx = (i - 1) * 45; c.add(`<ellipse cx="${x + dx}" cy="${y + 45}" rx="4" ry="12" fill="#8a6a3a"/><line x1="${x + dx}" y1="${y + 33}" x2="${x + dx}" y2="${y - 5}" stroke="${INK}" stroke-width="0.8"/>`); for (let k = 0; k < 12; k++) { const a = -170 + k * 160 / 11; c.add(`<line x1="${x + dx}" y1="${y - 5}" x2="${f(x + dx + Math.cos(a * Math.PI / 180) * 28)}" y2="${f(y - 5 + Math.sin(a * Math.PI / 180) * 28)}" stroke="${INK}" stroke-width="0.5"/>`); } }
       break;
@@ -478,22 +700,29 @@ function zeichne(z) {
   c.add(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`);
   c.add(`<rect width="${W}" height="${H}" fill="${PAPER}"/>`);
   c.add(`<rect x="22" y="22" width="${W - 44}" height="${H - 44}" fill="none" stroke="${INK}" stroke-width="1.5"/><rect x="30" y="30" width="${W - 60}" height="${H - 60}" fill="none" stroke="${INK}" stroke-width="0.6"/>`);
-  c.add(`<path d="M60,${GROUND} C220,${GROUND - 5} 420,${GROUND + 4} 620,${GROUND - 2}" fill="none" stroke="${INK}" stroke-width="1.3"/>`);
-  for (let i = 0; i < 38; i++) c.add(`<line x1="${70 + i * 14.5}" y1="${GROUND + 4}" x2="${62 + i * 14.5}" y2="${GROUND + 13}" stroke="${INK}" stroke-width="0.6" stroke-opacity="0.45"/>`);
-  const pts = plant(c, z);
+  const istZweig = z.wuchs === 'zweig';
+  if (!istZweig) {
+    c.add(`<path d="M60,${GROUND} C220,${GROUND - 5} 420,${GROUND + 4} 620,${GROUND - 2}" fill="none" stroke="${INK}" stroke-width="1.3"/>`);
+    for (let i = 0; i < 38; i++) c.add(`<line x1="${70 + i * 14.5}" y1="${GROUND + 4}" x2="${62 + i * 14.5}" y2="${GROUND + 13}" stroke="${INK}" stroke-width="0.6" stroke-opacity="0.45"/>`);
+  }
+  const pts = istZweig ? zweig(c, z) : plant(c, z);
   // Beschriftungen in der rechten Spalte
   const L = z.labels || {};
   const items = [
     ['bluete', L.bluete || 'Blüte'],
     ['blatt', L.blatt || 'Blatt'],
-    ['stengel', L.stengel || 'Stängel'],
-    ['wurzel', L.wurzel || 'Wurzel'],
+    ['stengel', L.stengel || (istZweig ? 'Zweig und Rinde' : 'Stängel')],
+    ['wurzel', istZweig ? (L.frucht || 'Frucht') : (L.wurzel || 'Wurzel')],
   ].filter(([k]) => pts[k]);
-  const slots = [140, 380, 620, 960];
+  const slots = istZweig ? [130, 340, 550, 760] : [140, 380, 620, 960];
+  if (istZweig) items.sort((a, b) => pts[a[0]][1] - pts[b[0]][1]);
   items.forEach(([k, t], i) => label(c, pts[k][0], pts[k][1], slots[i], t));
   // Detailkreise unten
   const R = 92, Y = 1150;
-  inset(c, 190, Y, R, z.detail1 || 'Blüte, vergrößert', () => {
+  if (istZweig && !z.bluete) inset(c, 190, Y, R, z.detail1 || 'Rinde', () => rinde(c, z.rinde || 'schuppig', 190, Y));
+  else inset(c, 190, Y, R, z.detail1 || 'Blüte, vergrößert', () => {
+    if (z.detailbluete === 'kaetzchen' || (istZweig && z.bluete === 'kaetzchen')) { c.flower('kaetzchen', 190, Y - 70, 130, z.farbe || '#c8b46a'); return; }
+    if (istZweig && z.bluete === 'dolde') { c.inflorescence('dolde', 190, Y + 30, 110, z.farbe || '#f4f1e6'); return; }
     const kind = z.detailbluete || (z.wuchs === 'dolde' ? 'dolde' : (z.bluete === 'aehre' || z.bluete === 'rispe' || z.bluete === 'traube') ? (z.einzelbluete || 'fuenf') : (z.bluete || 'fuenf'));
     if (kind === 'dolde') c.inflorescence('dolde', 190, Y + 30, 110, z.farbe || '#f4f1e6');
     else c.flower(kind, 190, Y + (kind === 'glocke' ? -50 : kind === 'lippe' ? 10 : 0), kind === 'lippe' ? 70 : 72, z.farbe || '#f4f1e6', z.mitte || '#e9c33b');
@@ -506,7 +735,7 @@ function zeichne(z) {
   });
   inset(c, 810, Y, R, z.detail3 || 'Frucht / Samen', () => {
     if (z.frucht === 'wurzel') roots(c, z.wurzel || 'pfahl', 810, Y - 70);
-    else fruit(c, z.frucht || 'nuesschen', 810, Y);
+    else drawFruit(c, z.frucht || 'nuesschen', 810, Y + 5, istZweig ? 1.25 : 1, z.fruchtfarbe);
   });
   c.add(`<text x="${W / 2}" y="${H - 88}" text-anchor="middle" font-family="${FONT}" font-size="40" fill="${INK}">${z.name}</text>`);
   c.add(`<text x="${W / 2}" y="${H - 52}" text-anchor="middle" font-family="${FONT}" font-size="24" font-style="italic" fill="${INK}">${z.botanisch}</text>`);

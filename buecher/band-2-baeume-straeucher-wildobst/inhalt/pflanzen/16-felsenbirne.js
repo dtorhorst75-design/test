@@ -1,0 +1,25 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 16, id: 'felsenbirne', saison: 'sommer',
+  name: 'Felsenbirne', botanisch: 'Amelanchier ovalis und A. lamarckii',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Felsenbirne',
+  volksnamen: 'Gewöhnliche und Kupfer-Felsenbirne, Korinthenbaum, Edelweißstrauch',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gesaegt', blattlaenge: 70, blattbreite: 38, knoten: 6, bluete: 'stern', farbe: '#ffffff', mitte: '#e9d9a0', bluetengroesse: 34, frucht: 'beeren', fruchtfarbe: '#3b2a4a', silhouette: 'strauch', wuchshoehe: 'Strauch, 2 bis 6 m',
+    labels: { bluete: 'weiße Sternblüten mit schmalen Blütenblättern', blatt: 'Blatt: rundlich-oval, fein gesägt', stengel: 'Zweige: dünn, graubraun', frucht: 'blauschwarze, süße Früchte im Juni' } },
+  intro: ['Die Felsenbirne ist ein Strauch für das ganze Jahr: im April weiße Sternblüten, im Juni süße, blauschwarze Früchte, im Herbst ein leuchtend kupferrotes Laub. Deshalb wird sie gern in Gärten und Parks gepflanzt.', 'Die Früchte schmecken süß mit einem feinen Marzipanaroma. Getrocknet erinnern sie an Rosinen – daher der alte Name Korinthenbaum.'],
+  steckbrief: [['Wuchs', 'Strauch oder kleiner Baum, 2 bis 6 m'], ['Blätter', 'rundlich bis oval, 3 bis 7 cm, fein gesägt; Austrieb oft kupferrot, Herbstlaub rot-orange'], ['Blüte', 'April: weiß, mit **fünf schmalen, langen Blütenblättern**, in lockeren Trauben'], ['Früchte', 'Juni bis Juli: erbsen- bis heidelbeergroß, erst rot, dann **blauschwarz**, mit kleinem Krönchen'], ['Standort', 'Gärten, Parks, Hecken; die Gewöhnliche Felsenbirne wild auf Kalkfelsen'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Felsenbirne erkennen', 'Die schmalen, fast fransigen weißen Blütenblätter im April, das kupferfarbene Laub beim Austrieb und die blauschwarzen „Mini-Äpfelchen“ mit Krönchen im Juni machen sie unverwechselbar.']],
+  verwechslung: { text: 'Giftige Doppelgänger mit ähnlichen Früchten gibt es im Garten kaum. Achte darauf, dass die Früchte ein **Krönchen** tragen und an einem verholzten Strauch mit rundlichen, gesägten Blättern wachsen. Liguster (giftig) hat ledrige, ganzrandige Blätter und glänzende Beeren ohne Krönchen.' },
+  standort: ['Die Kupfer-Felsenbirne ist ein beliebter Zierstrauch in Gärten, Parks und an Straßen. Die Gewöhnliche Felsenbirne wächst wild an sonnigen Kalkfelsen in Süddeutschland.'],
+  sammeln: { tabelle: [['Früchte', 'Juni bis Juli', 'wenn sie blauschwarz und weich sind; Amseln sind schnell – ein Netz hilft']], kalender: [['Früchte', [6, 7]]] },
+  inhaltsstoffe: { punkte: ['Zucker, Anthocyane, Vitamin C, Mineralstoffe', 'Samen: geringe Mengen Amygdalin – beim normalen Essen unbedenklich'] },
+  kueche: { text: ['Felsenbirnen schmecken roh am besten. Für Marmelade mischt man sie gern mit säuerlichen Früchten.'], ideen: ['**Roh** im Müsli und auf Joghurt.', '**Getrocknet** wie Rosinen.', '**Muffins und Kuchen.**', '**Marmelade** mit Johannisbeeren oder Rhabarber.'] },
+  rezepte: [
+    { titel: 'Felsenbirnen-Muffins', info: 'Für 12 Muffins', thema: T.SUESS, zutaten: ['250 g Mehl', '2 TL Backpulver', '100 g Zucker', '1 Prise Salz', '250 ml Milch', '80 ml Öl', '1 Ei', '200 g Felsenbirnen'], schritte: ['Ofen auf 180 °C vorheizen, Muffinform vorbereiten.', 'Mehl, Backpulver, Zucker und Salz mischen.', 'Milch, Öl und Ei verquirlen und kurz unter die trockenen Zutaten rühren – nur so lange, bis alles feucht ist.', 'Felsenbirnen unterheben, Teig in die Förmchen füllen.', '20 bis 25 Minuten backen.'], tausch: 'Haferdrink statt Milch, das Ei einfach weglassen und dafür 2 EL Apfelmus nehmen.' },
+  ],
+  haushalt: [['Für Vögel und Insekten', 'Die Felsenbirne ist ein idealer Strauch für den naturnahen Garten: früh blühend für Bienen, Früchte für Amseln und Drosseln.', T.GARTEN]],
+  geschichte: ['Die Kupfer-Felsenbirne stammt ursprünglich aus Nordamerika und verwilderte in Norddeutschland. In Kanada werden verwandte Arten als „Saskatoon Berries“ kommerziell angebaut.'],
+  haltbar: [['Trocknen', 'bei 50 °C im Dörrgerät.', '1 Jahr'], ['Einfrieren', 'einzeln vorfrieren.', '1 Jahr']],
+  vorsicht: ['Früchte nur von sicher erkannten Sträuchern.'],
+  quellen: ['BfN FloraWeb: *Amelanchier ovalis*, *A. lamarckii*'],
+};

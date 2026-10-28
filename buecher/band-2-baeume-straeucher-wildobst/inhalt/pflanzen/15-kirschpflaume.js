@@ -1,0 +1,25 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 15, id: 'kirschpflaume', saison: 'sommer',
+  name: 'Kirschpflaume', botanisch: 'Prunus cerasifera',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Kirschpflaume',
+  volksnamen: 'Myrobalane, Türkenkirsche, Wildpflaume, Blutpflaume (rotlaubige Form)',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'elliptisch', rand: 'gekerbt', blattlaenge: 70, blattbreite: 34, knoten: 6, bluete: 'fuenf', farbe: '#ffffff', mitte: '#e9d9a0', bluetengroesse: 30, frucht: 'steinfrucht', fruchtfarbe: '#e0a52a', silhouette: 'strauch', wuchshoehe: 'Großstrauch, 4 bis 8 m', rinde: 'rissig',
+    labels: { bluete: 'weiße Blüten im März', blatt: 'Blatt: elliptisch, fein gekerbt', stengel: 'Zweige: grün bis rotbraun, oft dornig', frucht: 'kirschgroße Pflaumen, gelb oder rot' } },
+  intro: ['Die Kirschpflaume ist einer der ersten Sträucher, die im März weiß blühen. Im Juli und August liegen ihre kirschgroßen, gelben oder roten Früchte oft massenhaft unter den Sträuchern in Parks, an Straßen und Bahndämmen – und kaum jemand sammelt sie.', 'Dabei schmecken sie wie kleine Mirabellen: süß-säuerlich und saftig. Perfekt für Marmelade, Kompott und Chutney.'],
+  steckbrief: [['Wuchs', 'Großstrauch oder kleiner Baum, 4 bis 8 m'], ['Zweige', 'grün bis rotbraun, kahl, teils mit Kurztrieben, die dornig enden'], ['Blätter', 'elliptisch, 3 bis 7 cm, fein gekerbt; bei der Zierform rot („Blutpflaume“)'], ['Blüte', 'März bis April: weiß (Zierform rosa), einzeln, oft vor dem Laub'], ['Früchte', 'Juli bis August: kugelig, 2 bis 3 cm, gelb, orange oder rot, mit Stein'], ['Standort', 'Parks, Straßenbegleitgrün, Hecken, Bahndämme'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Kirschpflaume oder Mirabelle?', 'Kirschpflaumen sind runder, glänzender und haben einen Stein, der fest am Fruchtfleisch haftet. Mirabellen sind matter, gelb mit roten Pünktchen und lösen sich gut vom Stein. Beide werden gleich verwendet.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht. Auch die rotlaubige Zierform („Blutpflaume“) trägt essbare, meist dunkelrote Früchte.' },
+  standort: ['Kirschpflaumen werden häufig in Hecken, an Straßen und in Parks gepflanzt und verwildern leicht. Prüfe immer, ob die Bäume öffentlich zugänglich sind – oft sind sie es.'],
+  sammeln: { tabelle: [['Früchte', 'Juli bis August', 'vollreif fallen sie von selbst – frische vom Boden aufsammeln oder den Ast leicht schütteln']], kalender: [['Früchte', [7, 8]]], tipps: ['Nicht von Bäumen direkt an stark befahrenen Straßen sammeln.'] },
+  inhaltsstoffe: { punkte: ['Zucker, Fruchtsäuren, Pektin – geliert gut', 'Vitamin C, Carotinoide (gelbe Sorten), Anthocyane (rote Sorten)', 'Kerne: Amygdalin – nicht knacken'] },
+  kueche: { text: ['Kirschpflaumen schmecken roh, gekocht und gebacken.'], ideen: ['**Kompott** zu Grießbrei und Pfannkuchen.', '**Marmelade**: sie geliert dank Pektin besonders gut.', '**Chutney** zu Käse und Curry.', '**Blechkuchen** wie mit Zwetschgen.'] },
+  rezepte: [
+    { titel: 'Kirschpflaumen-Chutney', info: 'Für 4 Gläser', thema: T.HERZHAFT, zutaten: ['1 kg Kirschpflaumen', '2 Zwiebeln', '1 Stück Ingwer (3 cm)', '250 g brauner Zucker', '200 ml Apfelessig', '1 TL Salz, 1 TL Senfsaat, ½ TL Chiliflocken'], schritte: ['Kirschpflaumen 5 Minuten in wenig Wasser kochen, bis sie aufplatzen; durch ein grobes Sieb streichen oder die Steine herausdrücken.', 'Zwiebeln und Ingwer fein hacken.', 'Alles in einem Topf 45 Minuten offen einkochen lassen, bis es dick ist. Öfter umrühren.', 'Heiß in Gläser füllen.'], tipp: 'Nach 4 Wochen schmeckt es am besten. Passt zu Käse, Linsen-Curry und Ofengemüse.' },
+    { titel: 'Kirschpflaumen-Marmelade', info: 'Für 5 Gläser', thema: T.MARMELADE, zutaten: ['1,2 kg Kirschpflaumen (ergibt ca. 1 kg Fruchtmark)', '500 g Gelierzucker 2 : 1', '1 Vanilleschote nach Belieben'], schritte: ['Kirschpflaumen mit wenig Wasser weich kochen und durch die Flotte Lotte streichen, um die Steine zu entfernen.', '1 kg Fruchtmark mit Gelierzucker und Vanillemark nach Grundrezept 1 kochen.', 'Heiß abfüllen.'] },
+  ],
+  geschichte: ['Die Kirschpflaume stammt aus Vorderasien und dem Kaukasus und ist eine der Stammformen unserer Zwetschgen und Pflaumen. Bei uns wurde sie vor allem als robuste Heckenpflanze gepflanzt.'],
+  haltbar: [['Früchte', 'entsteint einfrieren, Mus, Marmelade.', '1 Jahr'], ['Dörren', 'halbiert, entsteint, bei 50 °C.', '1 Jahr']],
+  vorsicht: ['Kerne nicht knacken.', 'Fremdes Eigentum beachten.'],
+  quellen: ['BfN FloraWeb: *Prunus cerasifera*', 'mundraub.org'],
+};

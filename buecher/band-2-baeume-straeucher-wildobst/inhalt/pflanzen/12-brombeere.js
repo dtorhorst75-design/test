@@ -1,0 +1,28 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 12, id: 'brombeere', saison: 'sommer',
+  name: 'Brombeere', botanisch: 'Rubus fruticosus agg.',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Brombeere',
+  volksnamen: 'Kratzbeere, Bramble, Hirschbeere, Moren',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'handfoermig', rand: 'gesaegt', blattlaenge: 110, knoten: 4, bluete: 'fuenf', farbe: '#f6e3ea', mitte: '#e9d9a0', bluetengroesse: 38, frucht: 'sammelfrucht', fruchtfarbe: '#2b1d33', dornen: true, silhouette: 'ranke', wuchshoehe: 'Rankstrauch, bis 3 m',
+    labels: { bluete: 'weiße bis rosa Blüten', blatt: 'Blatt: 3–5 Blättchen, handförmig', stengel: 'Ranken mit kräftigen Stacheln', frucht: 'schwarze Sammelfrucht mit Zapfen' } },
+  intro: ['Brombeeren findest du fast überall: an Waldrändern, Bahndämmen, Brachen und in jeder verwilderten Gartenecke. Ihre stacheligen Ranken bilden undurchdringliche Hecken – und von August bis in den Oktober hinein hängen sie voller schwarzer, süßer Beeren.', 'Die Blätter ergeben einen der besten heimischen Tees. Fermentiert schmeckt er sogar ähnlich wie Schwarztee.'],
+  steckbrief: [['Wuchs', 'Rankstrauch, bogig überhängende Ruten bis 3 m'], ['Ruten', 'kantig, mit **kräftigen, gebogenen Stacheln**'], ['Blätter', 'handförmig mit 3 bis 5 Blättchen, oft bis in den Winter grün'], ['Blüte', 'Juni bis August: weiß bis rosa, fünf Blütenblätter'], ['Früchte', 'August bis Oktober: erst grün, dann rot, reif **glänzend schwarz**; der Fruchtzapfen bleibt in der Beere'], ['Standort', 'Waldränder, Hecken, Brachen, Bahndämme'], ['Genutzte Teile', 'Früchte, junge Blätter']],
+  erkennen: [['Brombeeren-Vielfalt', 'In Mitteleuropa gibt es Hunderte Kleinarten von Brombeeren, die sich kaum unterscheiden lassen. Alle sind essbar. Die **Kratzbeere** (*Rubus caesius*) hat bläulich bereifte, säuerliche Früchte mit wenigen großen Teilfrüchten.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht.' },
+  standort: ['Brombeeren wachsen fast überall: in sonnigen und halbschattigen Lagen, auf nährstoffreichen Böden. Sie erobern Brachen in wenigen Jahren.'],
+  sammeln: { tabelle: [['Früchte', 'August bis Oktober', 'nur vollreife, glänzend schwarze Beeren – rote sind sauer'], ['Blätter', 'April bis Juni', 'junge, hellgrüne Blätter von den Triebspitzen; mit Handschuhen']], kalender: [['Früchte', [8, 9], [10]], ['Blätter', [4, 5, 6]]], tipps: ['Beeren in Bodennähe und an Hundewegen meiden. Früchte waschen oder erhitzen.', 'Eine alte Volksregel sagt: nach Ende September keine Brombeeren mehr essen. Dahinter steckt, dass späte Beeren oft schimmeln oder von Insekten befallen sind – also genau hinschauen.'] },
+  inhaltsstoffe: { punkte: ['Früchte: **Anthocyane**, Vitamin C, Fruchtsäuren, Ballaststoffe', 'Blätter: **Gerbstoffe** (bis 15 %), Flavonoide'] },
+  kueche: { text: ['Brombeeren sind robuster als Himbeeren und vielseitig.'], ideen: ['**Roh** mit Joghurt, im Müsli, auf Kuchen.', '**Gelee**, weil die Kerne hart sind.', '**Crumble**, Saft, Likör, Essig.'] },
+  rezepte: [
+    { titel: 'Brombeer-Crumble', info: 'Für eine Auflaufform', thema: T.SUESS, zutaten: ['500 g Brombeeren', '2 Äpfel', '2 EL Zucker', 'Streusel: 100 g Mehl, 50 g Haferflocken, 80 g Zucker, 100 g kalte Butter, 1 Prise Salz'], schritte: ['Ofen auf 190 °C vorheizen.', 'Äpfel würfeln, mit den Brombeeren und dem Zucker in die Form geben.', 'Mehl, Haferflocken, Zucker, Salz und Butter mit den Fingern zu Streuseln reiben.', 'Streusel auf den Früchten verteilen und 30 bis 35 Minuten goldbraun backen.'], tausch: 'Mit kalter Pflanzenmargarine oder 80 ml neutralem Öl statt Butter.' },
+    { titel: 'Brombeergelee', info: 'Für 5 Gläser', thema: T.MARMELADE, zutaten: ['1,5 kg Brombeeren', '250 ml Wasser', '500 g Gelierzucker 2 : 1 je Liter Saft'], schritte: ['Brombeeren mit Wasser aufkochen und 10 Minuten köcheln lassen.', 'Durch ein Tuch abtropfen lassen.', 'Saft abmessen und mit Gelierzucker nach Grundrezept 2 kochen.', 'Heiß abfüllen.'] },
+    { titel: 'Fermentierter Brombeerblättertee', info: 'Für 1 Dose', thema: T.TEE, zutaten: ['2 Handvoll junge Brombeerblätter'], schritte: ['Blätter einige Stunden welken lassen.', 'Zwischen den Händen rollen, bis Saft austritt und die Blätter dunkel werden.', 'In einem Glas mit feuchtem Tuch abgedeckt 1 bis 2 Tage warm stehen lassen, bis sie nach Obst duften.', 'Auf einem Blech bei 50 °C trocknen.', '1 bis 2 TL pro Tasse, 5 bis 8 Minuten ziehen lassen.'], tipp: 'Durch das Fermentieren schmeckt der Tee runder und erinnert an milden Schwarztee – ganz ohne Koffein.' },
+  ],
+  anwendung: { bloecke: ['Brombeerblätter sind von der Kommission E bei **unspezifischen, akuten Durchfallerkrankungen** und bei **leichten Entzündungen der Mund- und Rachenschleimhaut** (als Gurgelmittel) positiv bewertet. Grundlage ist ihr hoher Gerbstoffgehalt.'], hinweise: ['Durchfall bei Kindern, mit Fieber oder Blut im Stuhl ärztlich abklären.'] },
+  haushalt: [['Vogelschutz', 'Dichte Brombeerhecken sind Brutplatz und Winterquartier für Vögel, Igel und Insekten. Wenn es geht, eine Ecke stehen lassen.', T.GARTEN]],
+  geschichte: ['Brombeerkerne wurden schon in steinzeitlichen Siedlungen gefunden. Im Ersten und Zweiten Weltkrieg wurde Brombeerblättertee als „deutscher Tee“ statt importiertem Schwarztee getrunken.'],
+  haltbar: [['Früchte', 'einfrieren, Saft oder Gelee.', '1 Jahr'], ['Blätter', 'trocknen oder fermentieren.', '1 Jahr']],
+  vorsicht: ['Beeren in Bodennähe waschen oder erhitzen.', 'Handschuhe bei der Blätterernte.'],
+  quellen: ['Kommission E: Monographie *Rubi fruticosi folium*', 'BfN FloraWeb: *Rubus fruticosus* agg.'],
+};

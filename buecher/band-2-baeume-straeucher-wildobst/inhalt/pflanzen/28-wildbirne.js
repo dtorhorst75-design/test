@@ -1,0 +1,25 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 28, id: 'wildbirne', saison: 'herbst',
+  name: 'Wildbirne', botanisch: 'Pyrus pyraster',
+  familie: 'Rosengewächse (Rosaceae)', artikel: 'in der Wildbirne',
+  volksnamen: 'Holzbirne, Knödelbirne, Wilder Birnbaum',
+  zeichnung: { wuchs: 'zweig', stellung: 'wechselstaendig', blatt: 'rund', rand: 'gekerbt', blattlaenge: 70, blattbreite: 46, knoten: 5, bluete: 'fuenf', farbe: '#ffffff', mitte: '#9a3a4a', bluetengroesse: 34, frucht: 'birne', fruchtfarbe: '#a8a050', dornen: true, silhouette: 'laubbaum', wuchshoehe: 'Baum, bis 20 m', rinde: 'rissig',
+    labels: { bluete: 'weiße Blüten mit roten Staubbeuteln', blatt: 'Blatt: rundlich, lang gestielt', stengel: 'Kurztriebe oft dornig', frucht: 'kleine, harte Birnen' } },
+  intro: ['Die Wildbirne ist ein knorriger, oft dorniger Baum an Waldrändern. Ihre Früchte sind klein, rundlich und so hart und herb, dass sie roh kaum genießbar sind. Gelagert, gekocht oder gedörrt werden sie aber süß und aromatisch.', 'Wie beim Apfel gilt: Verwilderte Kulturbirnen am Wegrand werden genauso genutzt und schmecken oft besser.'],
+  steckbrief: [['Wuchs', 'Baum, bis 20 m, schmale Krone'], ['Zweige', 'Kurztriebe oft in Dornen endend'], ['Blätter', 'rundlich, fein gekerbt, **lang gestielt**, glänzend'], ['Blüte', 'April: weiß, mit **roten Staubbeuteln**'], ['Früchte', 'September bis Oktober: klein (2 bis 4 cm), rundlich bis birnenförmig, grünbraun, sehr hart, mit Steinzellen'], ['Standort', 'Waldränder, Auwälder, Hecken, Feldraine'], ['Genutzte Teile', 'Früchte']],
+  erkennen: [['Wildbirne erkennen', 'Rote Staubbeutel in weißen Blüten, lang gestielte, glänzende Blätter und die kleinen, harten Birnchen.']],
+  verwechslung: { text: 'Giftige Doppelgänger gibt es nicht.' },
+  standort: ['Wildbirnen sind selten und wachsen an warmen Waldrändern und in Auwäldern. Häufiger findest du verwilderte Kulturbirnen an Wegen und auf alten Streuobstwiesen.'],
+  sammeln: { tabelle: [['Früchte', 'September bis Oktober', 'Fallobst sammeln und einige Wochen kühl lagern, bis die Früchte weicher und süßer werden']], kalender: [['Früchte', [9, 10]]] },
+  inhaltsstoffe: { punkte: ['Zucker (steigt beim Lagern), Fruchtsäuren', '**Gerbstoffe** – der herbe Geschmack', '**Steinzellen** – die körnige Struktur', 'Ballaststoffe, Kalium'] },
+  kueche: { text: ['Wildbirnen sind ideal zum Dörren und Kochen.'], ideen: ['**Gedörrt** als „Hutzeln“ – die Grundlage für Hutzelbrot (Früchtebrot).', '**Birnenmus und Birnendicksaft.**', '**Gekocht mit Bohnen und Speck** („Birnen, Bohnen und Speck“ in Norddeutschland).'] },
+  rezepte: [
+    { titel: 'Hutzeln (gedörrte Birnen)', info: 'Für 1 großes Glas', thema: T.VORRAT, zutaten: ['2 kg kleine Wildbirnen oder Kochbirnen'], schritte: ['Birnen waschen, Stiele dranlassen. Größere Birnen halbieren.', '10 Minuten in Wasser kochen, damit sie beim Trocknen nicht braun und hart werden.', 'Im Dörrgerät oder Backofen bei 50 bis 60 °C trocknen, bis sie ledrig und dunkel sind (12 bis 24 Stunden).', 'In Gläsern aufbewahren.'] },
+    { titel: 'Birnen-Bohnen-Eintopf', info: 'Für 4 Personen', thema: T.HERZHAFT, zutaten: ['500 g grüne Bohnen', '4 kleine Birnen, ungeschält, halbiert', '500 g Kartoffeln', '1 Zwiebel', '1 Bund Bohnenkraut', '750 ml Gemüsebrühe', 'nach Wunsch 150 g Speck'], schritte: ['Zwiebel würfeln und (mit dem Speck) anbraten.', 'Kartoffeln würfeln, Bohnen in Stücke brechen.', 'Alles mit der Brühe und dem Bohnenkraut in einen Topf geben, die Birnen obenauf legen.', 'Zugedeckt 30 Minuten garen, bis alles weich ist. Mit Salz und Pfeffer abschmecken.'], tausch: 'Ohne Speck, dafür mit 1 TL Rauchpaprika und einem Schuss Öl beim Anbraten.' },
+  ],
+  geschichte: ['Hutzelbrot (Früchtebrot aus gedörrten Birnen) ist ein traditionelles Weihnachtsgebäck in Süddeutschland. Birnenholz ist fein und gleichmäßig – daraus werden Druckstöcke, Blockflöten und Lineale gemacht.'],
+  haltbar: [['Hutzeln', 'trocken in Gläsern.', '1 Jahr'], ['Frisch', 'kühl lagern.', '2 bis 6 Wochen']],
+  vorsicht: ['Kein besonderes Risiko.'],
+  quellen: ['BfN FloraWeb: *Pyrus pyraster*'],
+};
