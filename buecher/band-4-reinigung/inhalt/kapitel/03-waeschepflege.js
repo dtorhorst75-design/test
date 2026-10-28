@@ -9,6 +9,7 @@ module.exports = {
     { punkte: ['**Natron:** 2 EL direkt in die Trommel geben – neutralisiert Gerüche.', '**Maschine reinigen:** leer bei 60 °C mit 100 ml Essig oder 2 EL Zitronensäure waschen; Flusensieb und Dichtungsgummi auswischen.', '**Trocknen:** Wäsche sofort aus der Maschine nehmen und luftig aufhängen. Im Freien, bei Sonne, trocknet sie am frischesten.'] },
     { h2: 'Weißwäsche ohne Chlor' },
     { punkte: ['**Sonne** bleicht auf natürliche Weise – nasse Weißwäsche in die Sonne hängen.', '**Zitrone:** über Nacht in heißem Wasser mit Zitronenscheiben einweichen (Kapitel Flecken).', '**Natron:** 1 bis 2 EL mit in die Trommel.', 'Weiß und Bunt **trennen**, Neues separat waschen.'] },
-    R({ titel: 'Waschbälle und Trocknerbälle aus Wolle', info: 'Ersetzen Weichspüler im Trockner', thema: T.WASCHEN, zutaten: ['reine Schafwolle (Märchenwolle) oder Wollreste, die filzen', 'alter Nylonstrumpf'], schritte: ['Wolle zu einer festen Kugel wickeln (etwa tennisballgroß).', 'In den Nylonstrumpf stecken, Strumpf zwischen mehreren Kugeln abbinden.', 'Bei 60 °C mit Handtüchern waschen und im Trockner trocknen – die Kugeln verfilzen fest.', 'Aus dem Strumpf nehmen. 3 bis 4 Bälle mit in den Trockner geben – sie lockern die Wäsche auf und verkürzen die Trockenzeit.'] }),
+    { h2: 'Weiche Wäsche ohne Trockner' },
+    { punkte: ['Wäsche nach dem Schleudern **kräftig ausschütteln** und glatt ziehen, bevor du sie aufhängst.', '**Draußen bei Wind** trocknet sie am weichsten; in der prallen Sonne wird Frottee eher hart.', 'Handtücher nach dem Trocknen kurz ausschlagen oder rubbeln – dann sind sie wieder flauschig.', 'Essig im Weichspülerfach (oben) löst Kalkreste, die Wäsche steif machen.'] },
   ],
 };

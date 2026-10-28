@@ -13,7 +13,7 @@ module.exports = {
       ['**Fett, Öl, Butter**', 'überschüssiges Fett mit Speisestärke oder Kartoffelmehl aufsaugen lassen, ausbürsten; dann mit Kastanien- oder Efeusud warm auswaschen'],
       ['**Gras**', 'mit Zitronensaft oder Essig betupfen, Natronpaste einreiben, dann waschen'],
       ['**Schweiß, gelbe Ränder**', 'Paste aus Natron und Wasser einreiben, 1 Stunde einwirken lassen; oder in Wasser mit einem Schuss Essig einweichen'],
-      ['**Kugelschreiber**', 'über Nacht in Milch oder Buttermilch einweichen, dann waschen; Reste mit Zitronensaft betupfen'],
+      ['**Kugelschreiber**', 'frisch mit Zitronensaft betupfen, etwas Salz aufstreuen, 30 Minuten einwirken lassen, auswaschen; eingetrocknete Tinte geht mit Hausmitteln oft nicht mehr ganz heraus'],
       ['**Kerzenwachs**', 'hart werden lassen (Gefrierfach), abbröseln; Reste zwischen Küchenpapier mit dem Bügeleisen herausbügeln'],
       ['**Kaugummi**', 'einfrieren, dann abbrechen; Reste mit etwas Speiseöl lösen, danach mit Pflanzensud auswaschen'],
       ['**Rost**', 'Zitronensaft und Salz auftragen, in die Sonne legen, auswaschen (nur helle, robuste Stoffe)'],

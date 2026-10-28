@@ -14,7 +14,7 @@ module.exports = {
   impressum: band1.impressum.map((z) => z.replace('Band 1: Kräuter & Wildpflanzen', 'Band 5: Natürliche Körperpflege selbst gemacht')),
 
   abschnitte: [
-    ['waschen', 'Natürlich waschen', 'Seifenkraut, Waschnüsse, Hafer, Heilerde und Honig'],
+    ['waschen', 'Natürlich waschen', 'Seifenkraut, Waschnüsse, Hafer, Heilerde und Mandelkleie'],
     ['haut', 'Haut, Lippen und Hände', 'Salben, Balsame, Cremes, Gesicht'],
     ['haare', 'Haare, Zähne und Deo', 'Waschen, Spülen, Pflegen'],
     ['bad', 'Bad, Füße und Rasur', 'Wohlfühlen und Verschenken'],
@@ -50,7 +50,7 @@ module.exports = {
       bloecke: [
         'Schön, dass du da bist!',
         'Auf einer gekauften Creme stehen oft dreißig Zutaten. Für eine gute Salbe brauchst du drei: ein Öl, ein Wachs, vielleicht eine Butter. Unsere Großmütter haben ihre Ringelblumensalbe und ihr Haarwasser selbst gemacht und sich mit Seifenkraut gewaschen – und genau dahin geht es in diesem Buch zurück.',
-        'Und dafür nehmen wir nur, was die Natur hergibt: Pflanzenöle, Bienenwachs, Kräuter und Blüten, Hafer, Heilerde, Honig, Salz. Du lernst, wie du dich mit Seifenkraut, Waschnüssen und Hafer wäschst, Haare mit Roggenmehl reinigst, Salben, Balsame und Cremes rührst, Deo mischst und Badesalz für Geschenke abfüllst. Vieles davon verbindet sich mit den ersten Bänden: Ringelblume, Johanniskraut, Lavendel, Kamille und Rosen aus dem eigenen Garten.',
+        'Und dafür nehmen wir nur, was die Natur hergibt: Pflanzenöle, Pflanzenbutter und -wachse, Kräuter und Blüten, Hafer, Mandeln, Heilerde, Salz. Du lernst, wie du dich mit Seifenkraut, Waschnüssen und Hafer wäschst, Haare mit Roggenmehl reinigst, Salben, Balsame und Cremes rührst, Deo mischst und Badesalz für Geschenke abfüllst. Vieles davon verbindet sich mit den ersten Bänden: Ringelblume, Johanniskraut, Lavendel, Kamille und Rosen aus dem eigenen Garten.',
         'Herzlich,',
         '*Diana*',
       ],
@@ -88,12 +88,11 @@ module.exports = {
         { tabelle: [['Zutat', 'Eigenschaften', 'Achtung'],
           ['Sheabutter', 'fest-cremig, sehr pflegend', 'bei langsamem Abkühlen körnig – rasch kühlen'],
           ['Kakaobutter', 'hart, duftet nach Schokolade', 'macht Balsame fester'],
-          ['Bienenwachs', 'macht Salben fest, schützt die Haut', 'nicht vegan'],
-          ['Candelilla- und Carnaubawachs', 'pflanzlich, härter als Bienenwachs', 'etwa ein Drittel weniger dosieren'],
-          ['Lanolin (Wollwachs)', 'sehr pflegend, zieht Wasser an', 'kann Allergien auslösen, nicht vegan'],
+          ['Candelillawachs', 'aus einem Strauch; macht Salben fest, schützt die Haut', 'recht hart – sparsam dosieren'],
+          ['Sonnenblumenwachs', 'aus Sonnenblumenkernen, etwas weicher', 'ein Viertel mehr als Candelilla nehmen'],
         ], breiten: [2800, 3800, 2470] },
         { h2: 'Weitere Zutaten' },
-        { punkte: ['**Seifenkraut, Waschnüsse:** natürliche Waschstoffe (Saponine).', '**Hydrolate** (Pflanzenwässer, z. B. Rosen-, Lavendelwasser) oder frische Blütenaufgüsse: für Gesichtswasser und Cremes.', '**Sonnenblumenlecithin** (Reformhaus): natürlicher Helfer, der Öl und Wasser in Cremes verbindet.', '**Aloe vera** von der Fensterbank: kühlendes Gel.', '**Heilerde, Tonerde, Rhassoul:** für Waschpasten, Masken und Deo.', '**Hafer, Weizenkleie, Roggenmehl:** zum sanften Waschen.', '**Honig, Meersalz, Zucker:** für Reinigung, Peelings und Bäder.', '**Natron, Speisestärke, Kreide:** für Deo, Trockenshampoo und Zahnpulver.', '**Ätherische Öle:** sparsam, höchstens 1 % (etwa 20 Tropfen auf 100 g) im Körperprodukt, 0,5 % im Gesicht.'] },
+        { punkte: ['**Seifenkraut, Waschnüsse:** natürliche Waschstoffe (Saponine).', '**Hydrolate** (Pflanzenwässer, z. B. Rosen-, Lavendelwasser) oder frische Blütenaufgüsse: für Gesichtswasser und Cremes.', '**Sonnenblumenlecithin** (Reformhaus): natürlicher Helfer, der Öl und Wasser in Cremes verbindet.', '**Aloe vera** von der Fensterbank: kühlendes Gel.', '**Heilerde, Tonerde, Rhassoul:** für Waschpasten, Masken und Deo.', '**Hafer, Weizenkleie, Roggenmehl:** zum sanften Waschen.', '**Mandelkleie, Meersalz, Zucker:** für Reinigung, Peelings und Bäder.', '**Natron, Speisestärke, Kreide:** für Deo, Trockenshampoo und Zahnpulver.', '**Ätherische Öle:** sparsam, höchstens 1 % (etwa 20 Tropfen auf 100 g) im Körperprodukt, 0,5 % im Gesicht.'] },
         { h2: 'Grundrezept: Kräuter-Ölauszug' },
         'Die Basis vieler Salben: Ringelblumenöl, Johanniskrautöl (Rotöl), Lavendelöl, Kamillenöl. Die ausführliche Anleitung findest du in Band 1 (Grundrezept 4). Kurz: getrocknete Blüten locker in ein Glas füllen, mit Öl bedecken, 3 bis 6 Wochen warm ziehen lassen, abseihen. Schneller geht es im Wasserbad bei 50 bis 60 °C für 2 bis 3 Stunden.',
         { h2: 'Ausrüstung' },
