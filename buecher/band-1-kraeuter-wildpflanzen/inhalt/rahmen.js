@@ -28,6 +28,7 @@ module.exports = {
         'Bitte lies diese Seite, bevor du mit dem Sammeln anfängst. Sie ist kurz, aber wichtig.',
         { h2: 'Ein Ratgeber – keine Behandlung' },
         'Dieses Buch habe ich aus freien Stücken, nach bestem Wissen und Gewissen und mit großer Sorgfalt geschrieben. Es ist ein **Ratgeber** zur allgemeinen Information über Wildpflanzen und Kräuter und ihre traditionelle Verwendung in Küche, Haushalt und Volksheilkunde.',
+        '**Ich bin keine Apothekerin, keine Ärztin und keine Heilpraktikerin.** Ich habe keine medizinische oder pharmazeutische Ausbildung. In diesem Buch gebe ich weiter, was ich über Pflanzen gelernt und aus Fachliteratur und offiziellen Quellen zusammengetragen habe – sorgfältig, aber eben als Laiin und nicht als Fachfrau.',
         'Es ist **keine medizinische Beratung** und ersetzt weder eine ärztliche Untersuchung noch eine Diagnose oder Behandlung durch Ärztinnen, Ärzte, Apothekerinnen, Apotheker oder andere Fachleute. Die beschriebenen Anwendungen sind traditionelle Hausmittel. Sie sind kein Heilversprechen. Bei Beschwerden, die stark sind, länger anhalten oder dir unklar sind, gehst du bitte in eine Arztpraxis.',
         { h2: 'Iss nur, was du sicher kennst' },
         { warnung: 'Die wichtigste Regel dieses Buches', zeilen: [
@@ -37,7 +38,7 @@ module.exports = {
         ] },
         { h2: 'Deine Verantwortung' },
         { punkte: [
-          'Du sammelst, isst und verwendest Pflanzen **auf eigene Verantwortung**.',
+          'Du sammelst, isst und verwendest Pflanzen **auf eigene Gefahr und eigene Verantwortung**. Das gilt für alles, was du mit den Informationen aus diesem Buch machst.',
           'Jeder Mensch reagiert anders. **Allergien** und Unverträglichkeiten (zum Beispiel gegen Korbblütler oder Doldenblütler) sind möglich. Probiere neue Pflanzen immer zuerst in kleinen Mengen.',
           '**Schwangere, Stillende, Kinder**, ältere Menschen und alle, die **Medikamente** nehmen oder chronisch krank sind, sprechen vor der Anwendung mit ihrer Ärztin, ihrem Arzt oder in der Apotheke.',
           'Beachte die **Warnhinweise und Mengenangaben** in den Kapiteln und im Abschnitt „Wichtige Hinweise zur Anwendung“.',
@@ -47,7 +48,7 @@ module.exports = {
         'Alle Angaben in diesem Buch wurden sorgfältig recherchiert und geprüft. Trotzdem kann ich keine Gewähr für Richtigkeit, Vollständigkeit und Aktualität übernehmen – das Wissen über Pflanzen und ihre Inhaltsstoffe entwickelt sich ständig weiter.',
         'Soweit gesetzlich zulässig, übernehmen Autorin und Verlag **keine Haftung** für gesundheitliche, körperliche, materielle oder sonstige Schäden, die durch das Sammeln, die Verwechslung, den Verzehr oder die Anwendung der in diesem Buch beschriebenen Pflanzen, Rezepte und Verfahren entstehen. Mit dem Gebrauch dieses Buches erkennst du an, dass du diese Hinweise gelesen und verstanden hast.',
         { h2: 'Disclaimer (English)' },
-        { links: '*This book is a guide for general information and educational purposes only. It is not intended as medical advice and is not a substitute for diagnosis or treatment by a physician or other qualified health professional. The traditional uses described in this book have not been evaluated by the Food and Drug Administration (FDA) and are not intended to diagnose, treat, cure, or prevent any disease.*' },
+        { links: '*The author is not a pharmacist, physician or licensed health practitioner and has no medical or pharmaceutical training. This book is a guide for general information and educational purposes only. It is not intended as medical advice and is not a substitute for diagnosis or treatment by a physician or other qualified health professional. The traditional uses described in this book have not been evaluated by the Food and Drug Administration (FDA) and are not intended to diagnose, treat, cure, or prevent any disease.*' },
         { links: '*Never eat or use any plant unless you have identified it with absolute certainty. Several plants in this book have poisonous or deadly look-alikes; the drawings are schematic and are not meant for identification. Foraging, eating and using wild plants is done entirely at your own risk. Consult a physician before use if you are pregnant, nursing, taking medication or have a medical condition.*' },
         { links: '*To the fullest extent permitted by law, the author and publisher disclaim any liability for any injury, illness, loss or damage arising directly or indirectly from the use or misuse of the information in this book.*' },
       ],

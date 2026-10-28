@@ -7,8 +7,8 @@ const fs = require('fs');
 const path = require('path');
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, ImageRun, Table, TableRow, TableCell,
-  WidthType, ShadingType, BorderStyle, LevelFormat, PageBreak, Header, Footer, PageNumber, TableOfContents,
-  Bookmark, PageReference,
+  WidthType, ShadingType, BorderStyle, LevelFormat, PageBreak, Header, Footer, PageNumber, 
+  Bookmark, SimpleField, Tab, TabStopType,
 } = require('docx');
 
 const BAND = path.join(__dirname, '..', 'band-1-kraeuter-wildpflanzen');
@@ -19,6 +19,14 @@ const WICKEL = require(path.join(BAND, 'inhalt', 'wickel.js'));
 const THEMEN = require(path.join(BAND, 'inhalt', 'rezeptthemen.js'));
 const TAUSCH = require(path.join(BAND, 'inhalt', 'tausch.js'));
 const DIANA = require(path.join(BAND, 'inhalt', 'dianas-texte.js'));
+// Seitenzahlen: Ein erster Durchlauf (--marker) setzt unsichtbare Marken hinter jede Sprungmarke; buch-bauen.js
+// liest daraus die Seiten ab und übergibt sie dem zweiten Durchlauf (--seiten datei.json) als feste Zahlen.
+const ARGS = process.argv.slice(2);
+const MARKER = ARGS.includes('--marker');
+const SEITEN = ARGS.includes('--seiten') ? JSON.parse(fs.readFileSync(ARGS[ARGS.indexOf('--seiten') + 1], 'utf8')) : {};
+const AUSGABE = ARGS.filter((a, i) => !a.startsWith('--') && ARGS[i - 1] !== '--seiten')[0];
+const marke = (id) => (MARKER ? [new TextRun({ text: `⟦${id}⟧`, size: 2, color: 'FFFFFF' })] : []);
+const seitenFeld = (id) => new SimpleField(`PAGEREF ${id} \\h`, String(SEITEN[id] || '000'));
 const MONATE = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
 // ---------- Bausteine ----------
@@ -38,7 +46,13 @@ const runs = (text, base = {}) => {
 };
 const p = (text, opts = {}) => new Paragraph({ children: runs(text, opts.run), spacing: { after: 140, line: 300 }, alignment: opts.align || AlignmentType.JUSTIFIED, ...opts.para });
 const pl = (text, run) => p(text, { align: AlignmentType.LEFT, run });
-const h1 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun(text)] });
+// Inhaltsverzeichnis: jede Überschrift der Ebene 1 bekommt eine Sprungmarke.
+const tocListe = [];
+function h1Marke(text, id, { ebene = 1, ...opts } = {}) {
+  tocListe.push({ text, id, ebene });
+  return new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, ...opts, children: [new Bookmark({ id, children: [new TextRun(text)] }), ...marke(id)] });
+}
+const h1 = (text) => h1Marke(text, `t${tocListe.length + 1}`);
 const h2 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(text)] });
 const h3 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun(text)] });
 // Rezepte und Anleitungen in Pflanzenkapiteln bekommen ein Lesezeichen und landen im Themenregister.
@@ -52,7 +66,7 @@ function rh3(text) {
   if (!thema) return h3(text);
   const id = `r${rezeptListe.length + 1}`;
   rezeptListe.push({ titel: text, pflanze: currentPf.name, id, themen: Array.isArray(thema) ? thema : [thema] });
-  return new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new Bookmark({ id, children: [new TextRun(text)] })] });
+  return new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new Bookmark({ id, children: [new TextRun(text)] }), ...marke(id)] });
 }
 const seite = (id) => ({ seite: id });
 const bullet = (text) => new Paragraph({ numbering: { reference: 'punkte', level: 0 }, children: runs(text), spacing: { after: 80, line: 290 } });
@@ -78,7 +92,7 @@ function table(header, rows, widths, { size, center } = {}) {
       borders,
       shading: isHead ? { type: ShadingType.CLEAR, fill: GREEN, color: 'auto' } : undefined,
       margins: size ? { top: 40, bottom: 40, left: 40, right: 40 } : { top: 70, bottom: 70, left: 110, right: 110 },
-      children: [new Paragraph({ alignment: center && i > 0 ? AlignmentType.CENTER : AlignmentType.LEFT, children: c && c.seite ? [new TextRun({ text: 'S. ', size }), new PageReference(c.seite)] : runs(String(c), { ...(isHead ? { bold: true, color: 'FFFFFF' } : {}), ...(size ? { size } : {}) }), spacing: { after: 0, line: 260 } })],
+      children: [new Paragraph({ alignment: center && i > 0 ? AlignmentType.CENTER : AlignmentType.LEFT, children: c && c.seite ? [new TextRun({ text: 'S. ', size }), seitenFeld(c.seite)] : runs(String(c), { ...(isHead ? { bold: true, color: 'FFFFFF' } : {}), ...(size ? { size } : {}) }), spacing: { after: 0, line: 260 } })],
     })),
   });
   return new Table({ width: { size: total, type: WidthType.DXA }, columnWidths: widths, rows: [mk(header, true), ...rows.map((r) => mk(r, false))] });
@@ -138,7 +152,7 @@ function recipe(r) {
 function chapter(pf) {
   const out = [];
   currentPf = pf;
-  out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new Bookmark({ id: `p_${pf.id.replace(/-/g, '_')}`, children: [new TextRun(pf.name)] })] }));
+  out.push(h1Marke(pf.name, `p_${pf.id.replace(/-/g, '_')}`, { ebene: 2 }));
   out.push(new Paragraph({ children: [new TextRun({ text: pf.botanisch, italics: true }), ...(pf.botanisch2 ? [new TextRun(' · '), ...runs(pf.botanisch2)] : [])], spacing: { after: 60 } }));
   out.push(pl(`Familie: ${pf.familie}`));
   if (pf.volksnamen) out.push(pl(`**Volksnamen:** ${pf.volksnamen}`));
@@ -266,8 +280,7 @@ function build(outFile) {
   );
   rahmen.impressum.forEach((t) => body.push(pl(t, { size: 18 })));
   body.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun('Inhalt')] }));
-  body.push(new TableOfContents('Inhalt', { hyperlink: true, headingStyleRange: '1-1' }));
-  body.push(pl('*Das Inhaltsverzeichnis füllt Word beim Öffnen aus (Frage „Felder aktualisieren?“ mit Ja beantworten). Falls es leer bleibt: Rechtsklick darauf → „Felder aktualisieren“ → „Gesamtes Verzeichnis aktualisieren“.*', { size: 18 }));
+  const tocStelle = body.length;
 
   const vorne = [...rahmen.vorne];
   vorne.splice(vorne.findIndex((k) => k.titel === WICKEL.nachKapitel) + 1, 0, WICKEL.kapitel);
@@ -282,7 +295,7 @@ function build(outFile) {
     const list = pflanzen.filter((x) => x.saison === key);
     if (!list.length) continue;
     body.push(new Paragraph({ pageBreakBefore: true, children: [], spacing: { before: 3000 } }));
-    body.push(new Paragraph({ heading: HeadingLevel.HEADING_1, alignment: AlignmentType.CENTER, children: [new TextRun(`Pflanzen des ${name === 'Spätsommer und Herbst' ? 'Spätsommers und Herbstes' : name + 's'}`)] }));
+    body.push(h1Marke(`Pflanzen des ${name === 'Spätsommer und Herbst' ? 'Spätsommers und Herbstes' : name + 's'}`, `s_${key}`, { pageBreakBefore: false, alignment: AlignmentType.CENTER }));
     body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: sub, italics: true, size: 26, color: INK })], spacing: { after: 400 } }));
     body.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: list.map((x) => x.name).join(' · '), size: 20, color: '6B5F4D' })] }));
     list.forEach((pf) => body.push(...chapter(pf)));
@@ -322,6 +335,15 @@ function build(outFile) {
   reg.sort((a, b) => a[0].localeCompare(b[0], 'de'));
   body.push(table(['Name', 'siehe', 'Seite'], reg.map(([a, b, c]) => [a.includes(' ') && /^[A-Z][a-z]+ [a-z]/.test(a) && !a.includes('*') ? `*${a}*` : a, b, c]), [3600, 3870, 1600], { size: 18 }));
 
+  // Inhaltsverzeichnis mit festen Seitenzahlen (in Word über „Felder aktualisieren“ neu berechenbar)
+  const toc = tocListe.map(({ text, id, ebene }) => new Paragraph({
+    tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W, leader: 'dot' }],
+    indent: { left: ebene === 2 ? 400 : 0 },
+    spacing: { before: ebene === 1 ? 100 : 0, after: 20 },
+    children: [new TextRun({ text, bold: ebene === 1, size: ebene === 1 ? 22 : 20 }), new TextRun({ children: [new Tab()] }), seitenFeld(id)],
+  }));
+  body.splice(tocStelle, 0, ...toc);
+
   const doc = new Document({
     features: { updateFields: true },
     creator: rahmen.autorin,
@@ -350,4 +372,4 @@ function build(outFile) {
   return Packer.toBuffer(doc).then((buf) => { fs.writeFileSync(outFile, buf); console.log(`${pflanzen.length} Pflanzen → ${outFile}`); });
 }
 
-build(process.argv[2] || path.join(BAND, 'Was-die-Natur-uns-schenkt-Band-1.docx'));
+build(AUSGABE || path.join(BAND, 'Was-die-Natur-uns-schenkt-Band-1.docx'));
