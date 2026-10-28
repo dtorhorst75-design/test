@@ -1,0 +1,11 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 3, id: 'wurzeln-im-sand', teil: 'einlagern', titel: 'Möhren, Rote Bete und Wurzeln in Sand', kurz: 'Wurzeln in Sand',
+  bloecke: [
+    'Wurzelgemüse trocknet an der Luft schnell aus und wird schrumpelig. In feuchtem Sand dagegen bleibt es monatelang knackig – so wie in der Erde.',
+    R({ titel: 'Wurzelgemüse in Sand einlagern', info: 'Oktober bis November, vor starkem Frost', thema: T.EINLAGERN, zutaten: ['Möhren, Rote Bete, Pastinaken, Sellerie, Rettich, Schwarzwurzeln, Steckrüben', 'Holzkisten oder alte Eimer', 'gewaschener Sand (Spielsand oder Bausand), leicht feucht', 'eine Gießkanne'], schritte: ['Das Gemüse an einem trockenen Tag ernten. Nur gesunde, unverletzte Wurzeln einlagern.', '**Nicht waschen.** Grobe Erde abschütteln.', 'Das Kraut **abdrehen** (nicht abschneiden), sodass 1 bis 2 cm stehen bleiben. Bei Rote Bete das Kraut ebenfalls abdrehen, damit sie nicht „ausblutet“.', 'Eine 5 cm dicke Schicht feuchten Sand in die Kiste geben.', 'Eine Lage Gemüse darauflegen, so dass sich die Stücke nicht berühren. Möhren und Pastinaken liegend oder senkrecht wie im Beet.', 'Mit Sand bedecken, dann die nächste Lage – bis die Kiste voll ist. Oben eine dicke Schicht Sand.', 'Bei **1 bis 5 °C** lagern. Den Sand feucht halten, nicht nass: Er soll sich anfühlen wie Sand am Strand nach dem Regen.'], tipp: 'Möhren, Rote Bete und Sellerie halten so bis März oder April. Einmal im Monat vorsichtig nachsehen. Lauch und Sellerie können auch mit Wurzeln und etwas Erde in einer Kiste aufrecht „eingeschlagen“ werden.' }),
+    { h2: 'Was im Beet bleiben darf' },
+    'Manche Wurzeln musst du gar nicht ernten, bevor du sie brauchst. Sie überwintern im Beet und werden durch Frost sogar süßer:',
+    { punkte: ['**Pastinaken und Schwarzwurzeln:** völlig frosthart. Bei Frost nur nicht aus dem gefrorenen Boden zerren – mit Laub abdecken, dann kannst du auch im Januar graben.', '**Lauch:** Winterlauch bleibt im Beet; bei Kahlfrost mit Fichtenzweigen abdecken.', '**Topinambur:** frosthart, bleibt im Boden – Achtung, er breitet sich stark aus.', '**Möhren:** vertragen leichten Frost. Unter einer dicken Laub- oder Strohschicht bleiben sie in milden Gegenden bis Januar im Beet; in rauen Lagen lieber einlagern.'] },
+  ],
+};
