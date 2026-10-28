@@ -17,6 +17,8 @@ const FONT = 'Georgia';
 const CONTENT_W = 9070;
 const WICKEL = require(path.join(BAND, 'inhalt', 'wickel.js'));
 const THEMEN = require(path.join(BAND, 'inhalt', 'rezeptthemen.js'));
+const TAUSCH = require(path.join(BAND, 'inhalt', 'tausch.js'));
+const DIANA = require(path.join(BAND, 'inhalt', 'dianas-texte.js'));
 const MONATE = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
 // ---------- Bausteine ----------
@@ -129,6 +131,7 @@ function recipe(r) {
   out.push(new Paragraph({ children: [new TextRun({ text: r.schritteTitel || 'Zubereitung', bold: true })], spacing: { before: 120, after: 60 } }));
   out.push(...steps(r.schritte));
   if (r.tipp) out.push(p(`*Tipp: ${r.tipp}*`));
+  if (TAUSCH[r.titel]) out.push(new Paragraph({ spacing: { before: 60, after: 140, line: 280 }, children: [new TextRun({ text: 'Tausch-Tipp: ', bold: true, size: 20, color: GREEN }), ...runs(TAUSCH[r.titel], { size: 20 })] }));
   return out;
 }
 
@@ -208,9 +211,8 @@ function chapter(pf) {
     out.push(h2('Rezepte'));
     pf.rezepte.forEach((r) => out.push(...recipe(r)));
   }
-  out.push(gap());
-  out.push(box(`Aus Dianas Kräuterküche: ${pf.name}`, ['*[Platz für deine eigene Erfahrung: Wo findest du die Pflanze? Was ist dein Lieblingsrezept? Was hast du selbst ausprobiert? Zwei bis fünf Sätze in deinen eigenen Worten genügen.]*'], { fill: SAND, line: '8A6D3B' }));
-  out.push(gap());
+
+  if (DIANA[pf.id]) { out.push(gap()); out.push(box(`Aus Dianas Kräuterküche: ${pf.name}`, DIANA[pf.id], { fill: SAND, line: '8A6D3B' })); out.push(gap()); }
 
   if (pf.anwendung) {
     const a = pf.anwendung;

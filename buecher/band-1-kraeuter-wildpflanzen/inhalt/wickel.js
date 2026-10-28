@@ -80,7 +80,7 @@ module.exports = {
         'Nach 20 bis 30 Minuten (frische Blätter auch länger) abnehmen und die Haut abwaschen.',
       ] },
       { h3: 'Die Quarkauflage – kühlend bei Schwellungen' },
-      'Ein Klassiker ohne Kräuter: Zimmerwarmen Magerquark etwa einen halben Zentimeter dick auf ein Innentuch streichen, einschlagen und auf eine geschwollene, warme Stelle legen, etwa nach einem Insektenstich oder bei einer Prellung. Abnehmen, sobald der Quark antrocknet.',
+      'Ein Klassiker ohne Kräuter: Zimmerwarmen Magerquark etwa einen halben Zentimeter dick auf ein Innentuch streichen, einschlagen und auf eine geschwollene, warme Stelle legen, etwa nach einem Insektenstich oder bei einer Prellung. Abnehmen, sobald der Quark antrocknet. *Tausch-Tipp:* Ungesüßter Sojajoghurt (griechische Art) kühlt genauso.',
 
       { h2: 'Grundtechnik 4: Kräuterkissen und Wärmesäckchen' },
       'Trockene Kräuter in einem Stoffsäckchen werden über Wasserdampf erwärmt und wirken als sanfte, feuchte Wärme mit Duft.',
