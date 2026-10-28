@@ -53,8 +53,8 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 
 1. Der Messingring von Wollseifen (Eifel)
 2. Dreimal kurz in Mödlareuth (Bayern/Thüringen)
-3. Die F60 bei Lichterfeld (Lausitz)
-4. Die Halligen (Nordfriesland)
+3. Die Glocke von Lindenau (F60, Lausitz)
+4. Die Halligen (Nordfriesland) – Auftrag: Inken Bohlsen, Landunter im Februar vor 21 Jahren, verschwundener Nachbar, Schwager schweigt
 5. Teufelsberg (Berlin)
 6. Völklinger Hütte (Saarland)
 7. Wünsdorf (Brandenburg)

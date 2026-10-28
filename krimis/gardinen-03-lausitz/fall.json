@@ -1,0 +1,93 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 3",
+  "titel": "Die Glocke von Lindenau",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-3-Lausitz",
+  "ort": "Lausitz",
+  "besuchen": [
+    "Die F60 ist eine Abraumförderbrücke: rund 502 Meter lang, etwa 80 Meter hoch und rund 11.000 Tonnen schwer. Man nennt sie den „liegenden Eiffelturm“. Sie wurde Ende der Achtzigerjahre im Tagebau Klettwitz-Nord aufgebaut und lief nur etwa 13 Monate, dann wurde der Tagebau nach der Wende stillgelegt. Heute ist sie das Besucherbergwerk F60 in Lichterfeld (Landkreis Elbe-Elster), nicht weit von Finsterwalde. Bei Führungen kann man auf die Brücke steigen, bis in rund 74 Meter Höhe. In der Saison gibt es abends Licht- und Klangveranstaltungen. Öffnungszeiten, Führungen und Termine findest du auf der Website des Besucherbergwerks.",
+    "Gleich neben der Brücke liegt der Bergheider See, ein gefluteter Tagebau. Rund um die F60 entsteht das Lausitzer Seenland, eine neue Landschaft aus ehemaligen Gruben, mit Rad- und Wanderwegen. Ganz wichtig: Die gelben Schilder mit dem Wort „Sperrgebiet“ sind ernst gemeint. Kippenböden können ohne Vorwarnung rutschen. Geh nie hinter einen Sperrzaun, auch nicht für ein Foto.",
+    "In der Lausitz sind im 20. Jahrhundert weit über hundert Dörfer ganz oder teilweise für die Braunkohle abgebaggert worden. Viele davon waren sorbisch oder wendisch geprägt. Im Archiv verschwundener Orte in Horno bei Forst kann man ihre Geschichte nachlesen. Über die Sprache und Kultur der Sorben und Wenden erzählt das Wendische Museum in Cottbus. Finsterwalde nennt sich „Sängerstadt“, nach einem bekannten Lied über die Sänger von Finsterwalde.",
+    "Die Wölfe sind nach rund hundert Jahren zuerst in die Lausitz zurückgekehrt. Wenn du einen siehst: Abstand halten, ruhig bleiben, nicht füttern.",
+    "Was erfunden ist: das Dorf Wendisch Lindenau, der Lindenauer See, der Lindenauer Hafen mit seinen schwimmenden Häusern, der Imbiss „Zur Abraumkippe“, das Auktionshaus, die Glocke auf dem Friedhof von Lichterfeld und alle Figuren mit ihren Familien. Auch das Verbrechen ist frei erfunden. Das Besucherbergwerk, seine Mitarbeiterinnen und Mitarbeiter, seine Abläufe, das Archiv und die Arbeit von Polizei und Behörden sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
+    "KONRAD": ["Konrad", "Sprecher 2"],
+    "BENNY": ["Benny", "Sprecher 3"],
+    "HEDI": ["Hedi Kubasch (Brief)", "Sprecherin 1 (alt, warm)"],
+    "MARTA": ["Marta Domaschk", "Sprecherin 1 (alt, streng)"],
+    "NOWAK": ["Kommissar Jens Nowak", "Sprecher 2 oder 3 (ruhig, trocken)"],
+    "STEFFI": ["Steffi, Gästeführerin", "Sprecherin 1"],
+    "LEA": ["Lea Rademacher", "Sprecherin 1 (hell, freundlich)"],
+    "ACHIM": ["Achim Krause", "Sprecher 2 oder 3"],
+    "RONNY": ["Ronny Pschierer, Sondengänger", "Sprecher 3"],
+    "WENZEL": ["Herr Wenzel, Bergbausanierer", "Sprecher 2"],
+    "JENNY": ["Jenny Noack", "Sprecherin 1"],
+    "KALLE": ["Kalle Noack (Nachricht)", "Sprecher 2"],
+    "ZSCHORNACK": ["Frau Zschornack, Archivarin", "Sprecherin 1"],
+    "TOBIAS": ["Tobias Krenz, Hafenmeister", "Sprecher 3"],
+    "LEHMANN": ["Pfarrerin Lehmann", "Sprecherin 1"],
+    "HALLIG": ["Inken Bohlsen (Postkarte)", "Sprecherin 1"]
+  },
+  "aussprache": [
+    "Lausitz – LAU-sitz",
+    "F60 – Eff-sechzig",
+    "Lichterfeld – LICH-ter-feld",
+    "Finsterwalde – FIN-ster-wal-de",
+    "Kubasch – KUH-basch",
+    "Domaschk – DOH-maschk",
+    "Noack – NOH-ack",
+    "Nowak – NOH-wack",
+    "Pschierer – PSCHIE-rer",
+    "Zschornack – TSCHOR-nack",
+    "Plinsen – PLIN-sen (dünne Pfannkuchen)",
+    "Wendisch – WEN-disch",
+    "Hallig – HAL-lich"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Der liegende Eiffelturm",
+      "figuren": ["Jo", "Konrad", "Benny", "Hermine"],
+      "beschreibung": "Ankunft an der F60: die riesige rostrote Stahlbrücke über flachem Sandland, darunter ein weißes Polizeizelt mit Absperrband, davor Hermine und die drei, die nach oben schauen.",
+      "prompt": "A gigantic rust-red steel conveyor bridge, over 500 metres long and 80 metres high, lying across flat sandy land with pine forest behind it, like a fallen Eiffel Tower. Beneath it, between two enormous steel legs on rails, a white police forensics tent with red-and-white barrier tape and people in white overalls. In the foreground the vintage hearse is parked; next to it the three characters stand looking up at the bridge, tiny against its scale. Clear morning light, long shadows, quiet and ominous."
+    },
+    "2": {
+      "titel": "Ein Licht am anderen Ufer",
+      "figuren": ["Jo", "Benny"],
+      "beschreibung": "Nachts am Ende des Holzstegs: Jo im Trenchcoat über dem Schlafanzug und Benny schauen über den schwarzen See. Am anderen Ufer im Wald ein einzelnes kleines Licht. Im Hintergrund die F60 unter dem Mond.",
+      "prompt": "Night scene at the end of a long wooden jetty on a large still lake. Pastel floating houses moored to pontoons, all dark. The woman, wearing her trench coat over pyjamas, and the young man stand side by side, he points across the water. On the far shore, in a dark strip of birch and pine, a single tiny white light like a headlamp. Far left on the horizon the silhouette of the huge steel bridge under a bright moon, a small red aviation light at its top. Moonlight reflected on the water, deep blues, mysterious."
+    },
+    "3": {
+      "titel": "Der Brunnen im verschwundenen Dorf",
+      "figuren": ["Jo", "Benny"],
+      "beschreibung": "Im Sperrgebiet: zwischen jungen Birken und Brombeeren ein runder alter Ziegelbrunnen, daneben ein frischer gelber Sandhaufen mit Spuren. Überall alte rote Ziegel im Moos. Jo mit der Zeichnung in der Klarsichthülle, Benny mit Helm und Warnweste.",
+      "prompt": "Inside an overgrown restricted area where a village once stood: dense young birch trees, green filtered light, moss and brambles, broken old red bricks scattered everywhere, a knee-high ruined wall with a rusty window frame. In the centre a round old brick well about one metre high, partly collapsed, and next to it a fresh pile of bright yellow sand with footprints and narrow wheel tracks. The woman holds a hand-drawn map in a clear plastic sleeve, the young man stands beside her; both wear yellow safety vests and helmets over their usual clothes. Still, melancholic, slightly eerie."
+    },
+    "4": {
+      "titel": "Der Wolf am See",
+      "figuren": ["Jo", "Konrad"],
+      "beschreibung": "Nachts auf der Bank am Ende des Stegs: Konrad mit Hut, Decke über den Knien und einem Brief in der Hand, Jo neben ihm. Am Ufer, dreißig Meter entfernt, trinkt ein grauer Wolf aus dem See.",
+      "prompt": "Night, half moon. At the end of a wooden jetty an old man in a suit and felt hat sits on a bench with a blanket over his knees and a sheet of blue letter paper in his hand, a tartan thermos beside him; the woman sits next to him, both perfectly still. Thirty metres away, where the sandy shore meets the reeds, a lean grey wolf with long legs drinks from the lake, its fur silvery in the moonlight. Far away the dark silhouette of the steel bridge with its red light. Hushed, magical, tender."
+    },
+    "5": {
+      "titel": "Die Brücke leuchtet",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Die Lichtinstallation: die ganze F60 leuchtet in Rot, Blau, Grün und Gelb vor dem dunkelblauen Abendhimmel. Oben auf der Plattform, klein, die drei am Geländer.",
+      "prompt": "Dusk turning to deep blue night. The entire giant steel conveyor bridge is illuminated in waves of red, blue, green and yellow light travelling along its girders and struts. Below, on a car park, a crowd of small figures holding up glowing phones, a child on his father's shoulders. High up on the top platform, tiny, three figures stand at a chest-high railing: an old man holding his hat in the wind, a woman with a red-framed glasses glint, a tall young man. Spectacular, festive, with a hint of suspense."
+    },
+    "6": {
+      "titel": "Unter der Osterdecke",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "In Hedis kleinem Schlafzimmer: auf dem Bett eine aufgeschlagene rot-schwarz bestickte Decke, darauf eine alte silberne Taufschale. Marta (84, schwarzes Kopftuch) sitzt mit einem blauen Kleid mit weißen Punkten auf dem Schoß daneben. Konrad hält den Hut in der Hand.",
+      "prompt": "A small, tidy, old-fashioned bedroom with lavender light through a window that shows distant fields and the steel bridge on the horizon. On the bed an unfolded embroidered cloth with red and black folk patterns; on it lies a flat round tarnished silver baptismal bowl with an engraved rim. An old woman of 84 in a black headscarf and blue work smock sits on the bed holding a blue dress with white polka dots on her lap, laughing and crying at once. The old man stands nearby holding his felt hat, the woman and the young man in the doorway. Warm, quiet, deeply moving."
+    },
+    "7": {
+      "titel": "Die Glocke von Lindenau",
+      "figuren": ["Jo", "Konrad", "Benny"],
+      "beschreibung": "Auf dem Friedhof von Lichterfeld unter einer großen Linde: die dunkle Glocke in ihrem Holzgerüst schwingt, Marta mit weißem kurzem Haar zieht am hellen Hanfseil. Um sie herum viele alte Menschen, einige mit Rollator. Am Horizont die F60.",
+      "prompt": "A small village cemetery on a hot July afternoon, under a large old linden tree. A dark bronze bell with a greenish patina hangs in a simple wooden frame and swings; an old woman with short white hair pulls a new light hemp rope with both hands. Around her a crowd of very old people in dark clothes, some with walking frames, supported by grandchildren, all looking up at the bell. The old man in his grey suit holds his hat to his chest, the woman and the young man stand beside him. On the horizon over shimmering fields the long silhouette of the steel bridge. Golden light, joyful and solemn at the same time."
+    }
+  }
+}
