@@ -1,0 +1,16 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 3, id: 'baum-schneiden', teil: 'baeume', titel: 'Obstbäume schneiden – ohne Angst', kurz: 'Bäume schneiden',
+  bloecke: [
+    'Ein Obstbaum, der nie geschnitten wird, wird dicht, trägt kleine Früchte und wird anfällig für Krankheiten. Aber auch zu viel Schnitt schadet: Er treibt dann senkrechte „Wasserschosse“ und trägt weniger. Die Regel heißt: **lieber jedes Jahr ein wenig als alle paar Jahre viel.**',
+    { h2: 'Wann schneiden?' },
+    { tabelle: [['Obst', 'Wann', 'Warum'],
+      ['**Äpfel, Birnen** (Kernobst)', 'im Spätwinter (Februar bis März) an frostfreien Tagen; Sommerschnitt im Juli', 'Im Winter siehst du die Krone ohne Laub am besten.'],
+      ['**Kirschen, Zwetschgen, Pflaumen** (Steinobst)', '**nach der Ernte** im Sommer', 'Im Sommer heilen die Wunden schnell; im Winter geschnitten, drohen Gummifluss und Infektionen.'],
+      ['**Pfirsiche**', 'kurz vor oder während der Blüte', 'Sie tragen nur am einjährigen Holz und brauchen jährlichen Schnitt.'],
+    ], breiten: [2700, 3300, 3070] },
+    R({ titel: 'Der jährliche Erhaltungsschnitt', info: 'Für Apfel und Birne im Spätwinter', thema: T.SCHNITT, zutaten: ['eine scharfe Gartenschere, eine Astsäge', 'eine standsichere Obstleiter', 'Handschuhe'], schritte: ['Erst schauen, dann schneiden: einmal um den Baum herumgehen und die Krone betrachten.', '**Totes, krankes und abgebrochenes Holz** entfernen.', 'Äste, die **nach innen** wachsen oder sich **kreuzen und reiben**, herausschneiden.', '**Wasserschosse** – senkrecht nach oben wachsende, kräftige Triebe ohne Blütenknospen – am Ansatz entfernen.', 'Die Krone so auslichten, dass man **einen Hut hindurchwerfen** könnte: Licht und Luft müssen bis ins Innere kommen.', 'Immer **direkt am Astring** schneiden (der leichten Verdickung, wo der Ast am Stamm ansetzt) – keine Stummel stehen lassen, nicht in den Stamm schneiden.'], tipp: 'Kleine Schnittwunden brauchen keinen Wundverschluss. Große Äste (dicker als ein Handgelenk) vorher von unten anschneiden, damit die Rinde nicht abreißt – oder besser einer Fachperson überlassen.' }),
+    R({ titel: 'Der Sommerschnitt', info: 'Ende Juni bis Juli', thema: T.SCHNITT, zutaten: ['Gartenschere'], schritte: ['Junge Wasserschosse jetzt einfach **ausreißen**, solange sie grün und weich sind – sie wachsen dann nicht wieder.', 'Triebe, die Früchte beschatten, etwas einkürzen.', 'Bei Kirschen und Zwetschgen nach der Ernte die abgetragenen und zu dichten Äste herausnehmen.'], tipp: 'Der Sommerschnitt bremst das Wachstum, der Winterschnitt regt es an. Wer einen starkwüchsigen Baum ruhiger haben will, schneidet mehr im Sommer.' }),
+    R({ titel: 'Früchte ausdünnen', info: 'Juni, nach dem natürlichen Fruchtfall', thema: T.PFLEGE, zutaten: ['deine Finger oder eine kleine Schere'], schritte: ['Ende Juni werfen Apfelbäume von selbst einen Teil der jungen Früchte ab („Junifall“).', 'Danach an jedem Büschel nur **eine bis zwei Früchte** stehen lassen, die schönsten.', 'Abstand zwischen den Früchten etwa eine Handbreit.'], tipp: 'Das fühlt sich falsch an, lohnt sich aber: Die Früchte werden größer und schmecken besser, und der Baum trägt jedes Jahr – nicht ein Jahr übermäßig und das nächste fast nichts.' }),
+  ],
+};

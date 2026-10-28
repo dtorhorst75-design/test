@@ -1,0 +1,26 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 1, id: 'baeume-auswaehlen', teil: 'baeume', titel: 'Den richtigen Baum auswählen', kurz: 'Bäume auswählen',
+  bloecke: [
+    'Bevor du einen Obstbaum kaufst, beantwortest du drei Fragen: **Wie viel Platz hast du? Welches Obst willst du? Und wer bestäubt ihn?**',
+    { h2: 'Die Baumform: Wie groß wird er?' },
+    'Wie groß ein Obstbaum wird, bestimmt vor allem seine **Unterlage** – die Wurzel, auf die die Sorte veredelt ist. Frag in der Baumschule danach.',
+    { tabelle: [['Form', 'Höhe', 'Platzbedarf', 'Trägt ab', 'Für wen'],
+      ['**Spindel** (schwache Unterlage)', '2–3 m', '2 × 2 m', '2.–3. Jahr', 'kleine Gärten; braucht dauerhaft einen Pfahl und guten Boden'],
+      ['**Buschbaum** (mittelstark)', '3–4 m', '4 × 4 m', '3.–5. Jahr', 'der Familienbaum für den Hausgarten'],
+      ['**Halbstamm**', '4–6 m', '6 × 6 m', '5.–7. Jahr', 'größere Gärten; man kann darunter sitzen'],
+      ['**Hochstamm** (stark)', '6–10 m', '8 × 10 m', '6.–10. Jahr', 'Streuobstwiese; robust, langlebig, ein Baum für Generationen'],
+      ['**Spalier, Säule**', '2–3 m', 'an der Wand, schmal', '2.–3. Jahr', 'Hauswand, Zaun, Balkon (Kübel)'],
+    ], breiten: [2300, 1100, 1700, 1300, 2670] },
+    { h2: 'Wer bestäubt wen?' },
+    { tabelle: [['Obst', 'Selbstfruchtbar?', 'Was du tust'],
+      ['**Äpfel, Birnen**', 'meist **nein**', 'eine zweite, passende Sorte in der Nähe (bis etwa 100 m – oft steht beim Nachbarn eine)'],
+      ['**Süßkirschen**', 'viele **nein**', 'Befruchtersorte pflanzen oder eine selbstfruchtbare Sorte wählen'],
+      ['**Sauerkirschen**', 'meist **ja**', 'ein Baum genügt'],
+      ['**Zwetschgen, Pflaumen, Mirabellen**', 'viele **ja**', 'ein Baum genügt meist; beim Kauf nachfragen'],
+      ['**Quitten, Pfirsiche**', '**ja**', 'ein Baum genügt'],
+    ], breiten: [2700, 2000, 4370] },
+    { h2: 'Welche Sorte?' },
+    { punkte: ['Wähle **robuste, krankheitsfeste Sorten**, die in deiner Gegend gut wachsen. Viele alte Sorten sind widerstandsfähig gegen Schorf und Mehltau.', 'Frag den örtlichen **Obst- und Gartenbauverein** oder die Pomologen – sie wissen, was bei dir gedeiht.', 'Mische **frühe und späte Sorten**: ein Sommerapfel zum Frischessen im August, ein Lagerapfel für den Winter.', 'Für Hausgärten ohne Spritzmittel gut geeignet sind zum Beispiel bei Äpfeln Topaz, Santana, Rebella, Boskoop und viele regionale Sorten, bei Zwetschgen die Hauszwetschge und robuste Neuzüchtungen, bei Birnen Gellerts Butterbirne und Conference.', 'Kaufe in einer **Baumschule**, nicht im Baumarkt – dort bekommst du Beratung und gesunde, gut gezogene Bäume.'] },
+  ],
+};
