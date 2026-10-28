@@ -1,0 +1,28 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 1, id: 'keimen', teil: 'saatgut', titel: 'Was Samen zum Keimen brauchen', kurz: 'Keimen',
+  bloecke: [
+    'Ein Samenkorn ist eine kleine Pflanze mit Proviant, die auf ihren Moment wartet. Damit sie aufwacht, braucht sie drei Dinge: **Feuchtigkeit, die richtige Wärme und Luft.** Manche brauchen außerdem Licht, andere Dunkelheit.',
+    { h2: 'Wärme: Wann ist der Boden warm genug?' },
+    'Jedes Gemüse keimt erst ab einer bestimmten Bodentemperatur. Säst du zu früh in kalten Boden, liegen die Samen wochenlang, faulen oder werden von Vögeln und Schnecken gefressen.',
+    { tabelle: [['Keimt schon bei …', 'Gemüse', 'Was das heißt'],
+      ['**ab 2 bis 5 °C**', 'Spinat, Feldsalat, Erbsen, Radieschen, Möhren, Pastinaken, Zwiebeln, Salat', 'Diese säst du ab März, sobald der Boden abgetrocknet ist.'],
+      ['**ab 8 bis 10 °C**', 'Rote Bete, Mangold, Kohl, Kohlrabi, Lauch, Kartoffeln (legen)', 'ab Mitte April'],
+      ['**ab 12 °C**', 'Buschbohnen, Stangenbohnen', 'ab Mitte Mai; in kaltem Boden faulen Bohnen'],
+      ['**ab 15 °C**, besser 20 bis 25 °C', 'Gurken, Zucchini, Kürbis, Tomaten, Paprika, Basilikum', 'auf der Fensterbank vorziehen oder erst Ende Mai direkt säen'],
+    ], breiten: [2300, 3700, 3070] },
+    { kasten: 'Die alte Bauernprobe', zeilen: ['Früher setzte man sich mit nacktem Hintern auf den Acker: Wenn es angenehm war, war es Zeit für die Aussaat. Heute geht es einfacher – mit der flachen Hand auf dem Boden oder einem Thermometer, 5 cm tief gesteckt, morgens gemessen. Und die Natur zeigt es dir auch: Blüht der Löwenzahn, ist der Boden warm genug für Kartoffeln und die meisten Gemüse.'] },
+    { h2: 'Licht oder Dunkel?' },
+    { tabelle: [['', 'Gemüse', 'So säst du'],
+      ['**Lichtkeimer**', 'Salat, Sellerie, Basilikum, Dill, Kresse', 'nur auf die Erde streuen und andrücken, höchstens hauchdünn mit Erde oder Sand übersieben'],
+      ['**Dunkelkeimer**', 'Feldsalat, Tomaten, Kürbis, Gurken, Zucchini, Bohnen, Erbsen, Spinat, Rote Bete', 'gut mit Erde bedecken, mindestens zweimal so tief wie das Korn dick ist'],
+      ['**gleichgültig**', 'die meisten anderen Gemüse', 'Faustregel: zwei- bis dreimal so tief wie das Korn'],
+    ], breiten: [1900, 3900, 3270] },
+    { h2: 'Geduld: So lange dauert das Keimen' },
+    { tabelle: [['Schnell (3 bis 7 Tage)', 'Mittel (1 bis 2 Wochen)', 'Langsam (2 bis 4 Wochen)'],
+      ['Radieschen, Kresse, Senf, Salat, Kohl, Zucchini, Kürbis, Gurken, Bohnen', 'Tomaten, Rote Bete, Mangold, Spinat, Erbsen, Zwiebeln, Lauch, Dill', 'Möhren, Petersilie, Pastinaken, Sellerie, Paprika'],
+    ], breiten: [3000, 3000, 3070] },
+    'Bei den Langsamen ist es besonders wichtig, die Saatreihe **gleichmäßig feucht** zu halten. Einmal austrocknen kann die ganze Aussaat kosten. Ein Brett oder ein feuchter Jutesack über der Möhrenreihe hilft – aber täglich nachsehen und entfernen, sobald die ersten Keimlinge erscheinen.',
+    R({ titel: 'Petersilie und Möhren schneller keimen lassen', info: 'Vor der Aussaat', thema: T.SAATGUT, zutaten: ['die Samen', 'ein Glas lauwarmes Wasser', 'ein Küchentuch'], schritte: ['Die Samen über Nacht (etwa 12 Stunden) in lauwarmem Wasser einweichen.', 'Abgießen und auf dem Küchentuch kurz antrocknen lassen, damit sie nicht zusammenkleben.', 'Sofort säen und die Reihe feucht halten.'], tipp: 'Das spart ein paar Tage Keimzeit. Funktioniert auch bei Erbsen und Bohnen – aber nur, wenn der Boden schon warm genug ist.' }),
+  ],
+};
