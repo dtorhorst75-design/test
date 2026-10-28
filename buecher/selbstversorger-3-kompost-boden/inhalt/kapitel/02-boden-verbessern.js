@@ -1,0 +1,28 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 2, id: 'boden-verbessern', teil: 'boden', titel: 'Den Boden Jahr für Jahr verbessern', kurz: 'Boden verbessern',
+  bloecke: [
+    'Kein Boden ist perfekt, aber jeder lässt sich verbessern. Wie, hängt davon ab, was du hast. Die Fingerprobe aus Heft 1 sagt es dir.',
+    { tabelle: [['Bodenart', 'Das Problem', 'Was hilft'],
+      ['**Sandboden**', 'trocknet schnell aus, hält Nährstoffe schlecht', 'jedes Jahr reichlich Kompost (5 bis 6 Liter pro m²), dick mulchen, Gründüngung; etwas Gesteinsmehl oder Lehm aus dem Fachhandel einarbeiten'],
+      ['**Lehmboden**', 'kaum eins – im Sommer mal hart', 'Kompost (3 Liter pro m²) und Mulch halten ihn locker'],
+      ['**Tonboden**', 'schwer, kalt, nass im Frühjahr, rissig im Sommer', 'im Herbst grob lockern und den Frost arbeiten lassen; viel Kompost, grober Sand, tiefwurzelnde Gründüngung (Winterroggen, Phacelia); nie nass bearbeiten'],
+    ], breiten: [1900, 2800, 4370] },
+    { h2: 'Wie viel Kompost?' },
+    { tabelle: [['Für', 'Menge pro m² und Jahr', 'Das sind etwa'],
+      ['Starkzehrer (Kohl, Kürbis, Kartoffeln, Tomaten)', '5 bis 6 Liter', 'ein halber Eimer'],
+      ['Mittelzehrer (Möhren, Rote Bete, Salat, Zwiebeln)', '3 Liter', 'ein Viertel Eimer'],
+      ['Schwachzehrer (Erbsen, Bohnen, Kräuter)', '1 bis 2 Liter oder gar nichts', 'ein paar Schaufeln'],
+    ], breiten: [4200, 2600, 2270] },
+    'Kompost wird im Frühjahr **oberflächlich** eingeharkt, nicht tief eingegraben. Dort, in der obersten Schicht, arbeitet das Bodenleben.',
+    { h2: 'Natürliche Bodenhelfer' },
+    { tabelle: [['Helfer', 'Was er kann', 'Wie viel und wann'],
+      ['**Gesteinsmehl** (Basalt, Diabas)', 'bringt Spurenelemente, verbessert Sandböden, bindet Gerüche im Kompost und in der Jauche', '100 bis 200 g pro m² im Frühjahr oder Herbst; eine Handvoll pro Schubkarre Kompost'],
+      ['**Holzasche** aus unbehandeltem Holz', 'enthält Kalium und Kalk, wirkt basisch', '**sparsam**: höchstens eine Handvoll (50 g) pro m² und Jahr, besser dünn in den Kompost streuen; nicht zu Kartoffeln (Schorf), Heidelbeeren und anderen Säureliebhabern'],
+      ['**Kaffeesatz**', 'füttert Regenwürmer, leicht sauer', 'in den Kompost oder dünn unter den Mulch; nicht dick aufs Beet (schimmelt)'],
+      ['**Kalk** (kohlensaurer Kalk, Algenkalk)', 'hebt den pH-Wert bei saurem Boden', 'nur wenn ein Test zeigt, dass der Boden zu sauer ist (unter pH 5,5); im Herbst, nach Packungsangabe'],
+    ], breiten: [2600, 3000, 3470] },
+    R({ titel: 'Den pH-Wert prüfen', info: 'Einmal alle paar Jahre', thema: T.BODEN, zutaten: ['ein pH-Bodentest aus dem Gartenfachhandel (Teststreifen oder Flüssigtest)', 'ein sauberes Glas, destilliertes Wasser oder Regenwasser', 'Bodenproben aus 10 bis 20 cm Tiefe von mehreren Stellen eines Beets'], schritte: ['Die Bodenproben mischen und Steine, Wurzeln entfernen.', 'Nach Anleitung des Tests mit Wasser verrühren und absetzen lassen.', 'Den Wert ablesen und ins Gartentagebuch schreiben.'], tipp: 'Die meisten Gemüse wachsen gut bei **pH 6 bis 7**. Ein Wert zwischen 5,5 und 7,5 ist für einen Gemüsegarten in Ordnung. Wer regelmäßig Kompost gibt, braucht meist gar nichts weiter zu tun – Kompost gleicht aus.' }),
+    { kasten: 'Kein Torf, keine Blumenerde aus dem Sack', zeilen: ['Gekaufte Blumenerde besteht oft zu großen Teilen aus Torf. Für Torf werden Moore abgebaut, die über Jahrtausende gewachsen sind und riesige Mengen Kohlenstoff speichern. Deine eigene Kompost- und Lauberde ist besser – und kostet nichts.'] },
+  ],
+};

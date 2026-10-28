@@ -1,0 +1,13 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 7, id: 'hochbeet', teil: 'beete', titel: 'Das Hochbeet richtig füllen', kurz: 'Hochbeet',
+  bloecke: [
+    'Ein Hochbeet ist ein Hügelbeet im Kasten. Es schont den Rücken, hält Schnecken etwas fern, erwärmt sich im Frühjahr schnell und passt auch auf eine gepflasterte Terrasse. Der Schlüssel ist die richtige Füllung – und die kommt fast ganz aus dem eigenen Garten.',
+    { h2: 'Der Kasten' },
+    { punkte: ['**Höhe:** 80 bis 90 cm – Arbeitshöhe etwa auf Hüfthöhe.', '**Breite:** höchstens 1,20 m, damit du von beiden Seiten an die Mitte kommst. Steht es an einer Wand, nur 70 bis 80 cm.', '**Holz:** unbehandelte Lärche oder Douglasie halten ohne Holzschutzmittel viele Jahre. Kein imprägniertes oder lackiertes Holz – die Mittel gelangen in die Erde.', '**Unten offen,** damit Regenwürmer einwandern und Wasser abfließt. Bei Wühlmäusen ein engmaschiges Drahtgitter auf den Boden legen.', 'Wer das Holz schützen möchte, kann die Innenwände mit Jutesäcken oder alten Brettern auskleiden, die man später auswechselt.'] },
+    R({ titel: 'Ein Hochbeet befüllen', info: 'Im Herbst oder zeitigen Frühjahr, für 80 cm Höhe', thema: [T.BEETE, T.KOMPOST], zutaten: ['Äste, Zweige und Strauchschnitt', 'Rasensoden oder Staudenreste', 'Laub, Stroh, Grasschnitt', 'Grobkompost', 'reifer Kompost und Gartenerde (zusammen etwa ein Drittel der Füllung)'], schritte: ['**Unten – Holz (25 bis 30 cm):** Äste und Zweige, die dicksten nach unten, gut festtreten.', '**Rasensoden (10 bis 15 cm):** mit der Grasseite nach unten.', '**Laub und Grünes (15 bis 20 cm):** feucht einfüllen und andrücken.', '**Grobkompost (10 bis 15 cm).**', '**Oben – Erde und reifer Kompost (20 bis 25 cm):** halb und halb gemischt.', 'Jede Schicht kräftig wässern und festtreten.', 'Ein paar Wochen setzen lassen, dann mit Erde und Kompost bis 5 cm unter den Rand auffüllen.'], tipp: 'Das Hochbeet sackt jedes Jahr 10 bis 20 cm ein. Im Frühjahr jeweils mit Kompost auffüllen. Nach 5 bis 6 Jahren alles ausräumen, die Erde auf die Beete geben und neu schichten.' }),
+    { h2: 'Was ins Hochbeet kommt' },
+    'Wie beim Hügelbeet: im ersten Jahr die Hungrigen (Zucchini, Tomaten, Kohl, Sellerie, Lauch), ab dem dritten Jahr auch Salat, Spinat, Möhren und Radieschen. Zucchini und Kürbis an die Kante pflanzen, damit sie über den Rand ranken können und nicht alles überwuchern.',
+    { kasten: 'Das Hochbeet trocknet schneller', zeilen: ['Die Erde liegt frei in der Luft und erwärmt sich stark. Im Sommer täglich prüfen, ob gegossen werden muss, und von Anfang an dick mulchen. Eine Regentonne in der Nähe spart viele Wege.'] },
+  ],
+};

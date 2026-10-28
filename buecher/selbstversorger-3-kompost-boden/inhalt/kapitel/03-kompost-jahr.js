@@ -1,0 +1,26 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 3, id: 'kompost-jahr', teil: 'kompost', titel: 'Der Kompost durchs Jahr', kurz: 'Kompost',
+  bloecke: [
+    'Wie du einen Komposthaufen aufsetzt, steht in Heft 1. Hier geht es darum, ihn durchs Jahr zu begleiten, Probleme zu erkennen und den fertigen Kompost richtig zu verwenden.',
+    { h2: 'Was wann zu tun ist' },
+    { tabelle: [['Wann', 'Was du tust'],
+      ['**Frühjahr** (März bis April)', 'Reifen Kompost sieben und auf die Beete bringen. Den Haufen vom Vorjahr umsetzen – damit beginnt die Rotte neu. Leere Kammer für das neue Jahr vorbereiten.'],
+      ['**Sommer** (Mai bis August)', 'Viel Grünes fällt an: Grasschnitt immer mit Braunem (Laub, Stroh, Häcksel) mischen, sonst fault er. Bei Hitze gießen und abdecken.'],
+      ['**Herbst** (September bis November)', 'Die Zeit der großen Mengen: Laub, Gemüsereste, Staudenschnitt. Jetzt einen neuen Haufen aufsetzen. Laub, das nicht mehr hineinpasst, getrennt sammeln (Laubkompost).'],
+      ['**Winter** (Dezember bis Februar)', 'Der Haufen ruht. Mit Laub, Stroh oder Brettern abdecken, damit er nicht auskühlt und durchnässt. Küchenreste weiter oben drauflegen und mit etwas Laub bedecken.'],
+    ], breiten: [2600, 6470] },
+    { h2: 'Wenn etwas nicht stimmt' },
+    { tabelle: [['Du bemerkst …', 'Ursache', 'Was hilft'],
+      ['Der Haufen **stinkt** faulig', 'zu nass, zu viel Grünes, keine Luft', 'umsetzen, dabei viel Braunes (Laub, Stroh, zerrissene Pappe) untermischen'],
+      ['**Es tut sich nichts**', 'zu trocken oder zu viel Holziges', 'gießen, frisches Grünes (Grasschnitt, Brennnesseln) und eine Schaufel Erde untermischen'],
+      ['**Ameisen** im Haufen', 'zu trocken', 'gründlich wässern, umsetzen'],
+      ['**Weißer Pilzbelag**', 'Pilze zersetzen Holziges', 'ganz normal, kein Grund zur Sorge'],
+      ['**Fruchtfliegen**', 'offen liegende Obstreste', 'Küchenabfälle immer mit etwas Laub, Erde oder Grasschnitt abdecken'],
+      ['**Ratten oder Mäuse**', 'gekochte Essensreste, Brot', 'nur rohe Pflanzenreste kompostieren; unter den Komposter ein engmaschiges Drahtgitter legen'],
+    ], breiten: [2400, 2700, 3970] },
+    R({ titel: 'Kompost sieben', info: 'Im Frühjahr', thema: T.KOMPOST, zutaten: ['ein Durchwurfsieb (Maschenweite 10 bis 15 mm) oder ein selbst gebautes Sieb aus Holzlatten und Drahtgitter', 'Grabegabel, Schubkarre'], schritte: ['Das Sieb schräg gegen die Schubkarre oder einen Pfahl lehnen.', 'Den reifen Kompost mit der Grabegabel dagegenwerfen.', 'Was durchfällt, ist fertige Komposterde.', 'Grobes, das hängen bleibt (Zweige, Schalen, Steine), kommt zurück in den neuen Haufen – es impft ihn mit Leben.'], tipp: 'Für Anzuchterde noch einmal durch ein feineres Sieb (5 mm) geben. Reifer Kompost riecht nach Waldboden, ist dunkel und krümelig und lässt keine Pflanzenreste mehr erkennen.' }),
+    R({ titel: 'Der Kressetest: Ist der Kompost reif?', info: 'Bevor du ihn für Jungpflanzen verwendest', thema: T.KOMPOST, zutaten: ['zwei kleine Schalen', 'Kompost und gekaufte oder alte Gartenerde zum Vergleich', 'Kressesamen'], schritte: ['Eine Schale mit dem Kompost füllen, die andere mit der Vergleichserde.', 'In beide gleich viel Kressesamen streuen, andrücken, feucht halten.', 'Nach 5 bis 7 Tagen vergleichen.'], tipp: 'Keimt die Kresse im Kompost genauso gut und bleibt grün, ist er reif. Keimt sie schlecht, bekommt sie gelbe oder braune Spitzen, braucht der Kompost noch ein paar Monate.' }),
+    { kasten: 'Was nicht auf den Kompost gehört', zeilen: ['Gekochte Essensreste und Brot (Ratten), kranke Pflanzen (Krautfäule, Kohlhernie), Unkräuter mit reifen Samen, Wurzelunkräuter wie Quecke, Giersch und Ackerwinde, Asche von Kohle und Grillbriketts, Katzenstreu, beschichtetes oder bedrucktes Papier, Zitrusschalen in großen Mengen.'] },
+  ],
+};
