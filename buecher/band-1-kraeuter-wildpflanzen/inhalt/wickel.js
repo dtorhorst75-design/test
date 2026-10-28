@@ -90,7 +90,7 @@ module.exports = {
         'Temperatur am Unterarm prüfen, dann auf die gewünschte Stelle legen und mit einem Tuch abdecken.',
         'Liegen lassen, solange es angenehm warm ist.',
       ] },
-      'Ein **Duft- oder Schlafkissen** wird nicht erwärmt: Ein Säckchen mit Lavendel, Hopfen, Melisse oder Steinklee liegt einfach neben dem Kopfkissen.',
+      'Ein **Duft- oder Schlafkissen** wird nicht erwärmt: Ein Säckchen mit Lavendel, Melisse oder Echtem Labkraut liegt einfach neben dem Kopfkissen.',
 
       { h2: 'Grundtechnik 5: Dampfbad und Inhalation' },
       { schritte: [
@@ -137,10 +137,10 @@ module.exports = {
         ['Wofür', 'Anwendung', 'Pflanze'],
         ['Bauch und Verdauung', 'warmer Bauchwickel, Leberwickel, Sitzbad', 'Kamille, Schafgarbe'],
         ['Husten und Hals', 'Brustwickel, Halswickel, Dampfbad, Gurgeln', 'Thymian, Salbei, Kamille'],
-        ['Prellungen und Verstauchungen', 'Umschlag, Auflage', 'Arnika, Beinwell'],
+        ['Prellungen und Schwellungen', 'kühle Quarkauflage, Kompresse', 'Grundtechnik 3, Ringelblume'],
         ['Haut, Stiche, Sonnenbrand', 'Kompresse, frische Blattauflage', 'Ringelblume, Spitzwegerich'],
         ['Verspannte Muskeln', 'Öl-Einreibung, Wärmesäckchen', 'Johanniskraut, Lavendel'],
-        ['Ruhe und Schlaf', 'Bad, Fußbad, Schlafkissen', 'Lavendel, Baldrian, Hopfen'],
+        ['Ruhe und Schlaf', 'Bad, Fußbad, Schlafkissen', 'Lavendel'],
       ], breiten: [2700, 3600, 2770] },
     ],
   },
@@ -169,17 +169,8 @@ module.exports = {
     spitzwegerich: [
       { titel: 'Wegerich-Pflaster bei Insektenstichen', info: 'Frische Blattauflage (Grundtechnik 3)', zutaten: ['2 bis 3 frische Spitzwegerichblätter'], schritte: ['Blätter abspülen oder abwischen.', 'Zwischen den Fingern kräftig zerreiben oder rollen, bis Saft austritt.', 'Direkt auf den Stich oder die gereizte Stelle drücken.', 'Liegen lassen oder mit einem Pflaster fixieren, bei Bedarf nach einer Stunde erneuern.'], tipp: 'Das wohl bekannteste „Wanderer-Hausmittel“ – Spitzwegerich wächst fast überall am Wegrand. Bei Stichen im Mund- oder Rachenraum, starker Schwellung oder Atemnot sofort den Notruf 112 wählen.' },
     ],
-    arnika: [
-      { titel: 'Arnika-Umschlag bei Prellungen', info: 'Kühle Kompresse (Grundtechnik 3) · nur äußerlich, nur auf unverletzter Haut', zutaten: ['1 EL Arnikatinktur aus der Apotheke', '100 bis 250 ml kaltes Wasser (Tinktur 3- bis 10-fach verdünnt)', 'saubere Baumwolltücher'], schritte: ['Tinktur mit dem kalten Wasser mischen – **nie unverdünnt** auf die Haut.', 'Ein gefaltetes Tuch darin tränken, leicht ausdrücken.', 'Auf die Prellung oder den Bluterguss legen, mit einer Binde locker befestigen.', '15 bis 20 Minuten liegen lassen, mehrmals täglich wiederholen.'], tipp: 'Arnika nicht auf offene Wunden, nicht bei Korbblütler-Allergie. Bei Hautrötung oder Juckreiz sofort absetzen. Bei starker Schwellung, Fehlstellung oder großen Schmerzen ärztlich abklären lassen (Bruch?).' },
-    ],
-    beinwell: [
-      { titel: 'Beinwell-Wurzelauflage', info: 'Bei Prellungen und Verstauchungen · Breiauflage (Grundtechnik 3) · nur äußerlich', zutaten: ['2 bis 3 EL getrocknete, fein gemahlene Beinwellwurzel', 'heißes Wasser', 'Innentuch, Binde'], schritte: ['Das Wurzelpulver mit so viel heißem Wasser verrühren, dass ein dicker, streichfähiger Brei entsteht.', 'Auf Körperwärme abkühlen lassen.', 'Etwa fingerdick auf das Innentuch streichen und zu einem Päckchen falten.', 'Auf die **unverletzte** Haut über der Prellung legen und mit einer Binde befestigen.', '1 bis 2 Stunden liegen lassen, danach die Haut abwaschen.'], tipp: 'Wegen der Pyrrolizidinalkaloide nicht auf offene Wunden, höchstens 4 bis 6 Wochen im Jahr, nicht in Schwangerschaft und Stillzeit, nicht bei Kindern unter 3 Jahren.' },
-    ],
     johanniskraut: [
       { titel: 'Rotöl-Einreibung bei verspannten Muskeln', info: 'Einreibung mit warmer Auflage', zutaten: ['1 bis 2 TL Johanniskrautöl (Rotöl, siehe Rezept oben)', 'ein Wärmesäckchen oder eine Wärmflasche'], schritte: ['Das Öl in der Hand anwärmen.', 'Auf die verspannte Stelle (Nacken, Schultern, Rücken) geben und mit kreisenden Bewegungen sanft einmassieren.', 'Ein Tuch darüberlegen und ein Wärmesäckchen oder eine Wärmflasche auflegen.', '20 Minuten ruhen.'], tipp: 'Johanniskrautöl macht die Haut lichtempfindlich: behandelte Stellen 24 Stunden nicht der Sonne oder dem Solarium aussetzen. Rotöl färbt Wäsche dauerhaft rot – alte Tücher verwenden.' },
-    ],
-    baldrian: [
-      { titel: 'Baldrian-Bad zum Abschalten', info: 'Vollbad (Grundtechnik 6)', zutaten: ['100 g getrocknete, zerkleinerte Baldrianwurzel', '2 Liter Wasser'], schritte: ['Wurzel mit kaltem Wasser ansetzen, langsam aufkochen und 10 Minuten köcheln lassen.', 'Abseihen und ins Badewasser (36 bis 38 °C) geben.', '15 bis 20 Minuten baden, dann direkt ins Bett.'], tipp: 'Der Geruch ist gewöhnungsbedürftig – mit einem Lavendelaufguss gemischt wird er angenehmer. Nach dem Bad nicht mehr Auto fahren.' },
     ],
   },
 };
