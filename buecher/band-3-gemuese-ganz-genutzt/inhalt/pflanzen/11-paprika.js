@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 11, id: 'paprika', saison: 'sommer',
+  name: 'Paprika', botanisch: 'Capsicum annuum',
+  familie: 'Nachtschattengewächse (Solanaceae)', artikel: 'im Paprika',
+  volksnamen: 'Gemüsepaprika, Peperoni (scharfe Sorten), Pfefferoni (Österreich)',
+  zeichnung: { wuchs: 'strauch', stellung: 'wechselstaendig', blatt: 'lanzett', rand: 'glatt', blattlaenge: 110, blattbreite: 34, bluete: 'stern', farbe: '#ffffff', bluetengroesse: 26, fruchtAmStengel: true, frucht: 'paprika', wurzel: 'faser', hoehe: 480,
+    labels: { bluete: 'kleine weiße Blüten', blatt: 'Blatt: glatt, glänzend', stengel: 'verzweigter, kleiner Busch', wurzel: 'Faserwurzeln' }, detail3: 'Früchte' },
+  intro: ['Paprika gibt es in Grün, Gelb, Orange und Rot – und das sind keine verschiedenen Sorten, sondern meist Reifestufen: Grüne Paprika sind unreif und herber, rote voll ausgereift und süß.', 'Im Garten gedeihen Paprika am besten im Gewächshaus oder an einer warmen Hauswand. Wer zu viele hat, trocknet sie zu Paprikapulver.'],
+  steckbrief: [['Pflanze', 'einjährig (bei uns), Busch bis 80 cm'], ['Essbare Teile', 'Früchte'], ['Pflanzung', 'Ende Mai; Anzucht ab Februar'], ['Ernte', 'August bis Oktober'], ['Lagerung', 'kühl (8 bis 10 °C), nicht im kalten Kühlschrankfach, 1 Woche']],
+  erkennen: [['Sorten', 'Blockpaprika, Spitzpaprika (dünnere Haut, süßer), Snackpaprika und scharfe Chili und Peperoni. Die Schärfe (Capsaicin) sitzt vor allem in den hellen Scheidewänden.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Paprika brauchen viel Wärme (über 20 °C), Sonne und Schutz vor Wind und Regen. Im Topf auf dem Balkon klappt es oft besser als im Beet.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Grüne Paprika', 'ab August', 'wenn sie ihre volle Größe erreicht haben'], ['Bunte Paprika', 'August bis Oktober', 'wenn sie vollständig ausgefärbt sind; mit Messer oder Schere abschneiden']], kalender: [['Paprika', [8, 9], [10]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin C** – rote Paprika enthalten bis 140 mg pro 100 g, mehr als Zitronen', 'Carotinoide (rot, gelb), Vitamin E', 'Capsaicin (nur scharfe Sorten)'] },
+  kueche: { text: ['Paprika schmecken roh knackig, geröstet süß und rauchig.'], ideen: ['**Roh** als Rohkost und im Salat.', '**Gefüllt** mit Reis oder Linsen.', '**Geröstet** und gehäutet, in Öl eingelegt.', '**Paprikamus** (Ajvar-Art) als Aufstrich.'] },
+  rezepte: [
+    { titel: 'Paprikamus nach Ajvar-Art', info: 'Für 3 Gläser', thema: T.EINMACHEN, zutaten: ['2 kg rote Paprika', '1 Aubergine', '3 Knoblauchzehen', '100 ml Olivenöl', '2 EL Essig', 'Salz, Zucker, Chili nach Geschmack'], schritte: ['Paprika und Aubergine im Ofen bei 230 °C rösten, bis die Haut schwarze Blasen wirft (30 bis 40 Minuten).', 'In einer Schüssel abgedeckt abkühlen lassen, häuten und entkernen.', 'Mit Knoblauch fein hacken oder pürieren.', 'Mit Öl unter Rühren 30 bis 45 Minuten dick einkochen, mit Essig, Salz, Zucker und Chili abschmecken.', 'Heiß abfüllen, mit etwas Öl bedecken.'] },
+  ],
+  verwerten: [{ rezept: { titel: 'Selbst gemachtes Paprikapulver', info: 'Für 1 kleines Glas', thema: T.VERWERTEN, zutaten: ['1 kg rote Paprika (gern auch weiche oder leicht schrumpelige)'], schritte: ['Paprika entkernen und in dünne Streifen schneiden.', 'Im Dörrgerät oder Backofen bei 50 bis 60 °C trocknen, bis sie brechen (12 bis 24 Stunden).', 'In einer Gewürzmühle fein mahlen.', 'Dunkel und luftdicht aufbewahren.'], tipp: 'Für geräuchertes Paprikapulver die Streifen vorher 1 Stunde über Buchenholzrauch im Grill räuchern.' } }],
+  geschichte: ['Paprika stammt aus Mittel- und Südamerika und wurde von Kolumbus nach Europa gebracht. In Ungarn wurde daraus im 18. Jahrhundert das Nationalgewürz.'],
+  haltbar: [['Einfrieren', 'in Streifen, roh.', '10 Monate'], ['Trocknen und mahlen', 'als Pulver.', '1 Jahr'], ['Geröstet in Öl', 'im Kühlschrank.', '2 Wochen']],
+  vorsicht: ['Kraut und Blätter nicht essen.', 'Bei scharfen Sorten Handschuhe tragen und nicht in die Augen fassen.'],
+  quellen: ['BZfE: Paprika'],
+};

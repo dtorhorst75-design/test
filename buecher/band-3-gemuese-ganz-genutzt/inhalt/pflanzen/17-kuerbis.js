@@ -1,0 +1,30 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 17, id: 'kuerbis', saison: 'herbst',
+  name: 'Kürbis', botanisch: 'Cucurbita maxima, C. moschata, C. pepo',
+  familie: 'Kürbisgewächse (Cucurbitaceae)', artikel: 'im Kürbis',
+  volksnamen: 'Speisekürbis, Hokkaido, Butternut, Muskatkürbis, Riesenkürbis',
+  zeichnung: { wuchs: 'kriechend', blatt: 'handfoermig', rand: 'gesaegt', blattlaenge: 90, blattbreite: 60, bluete: 'glocke', farbe: '#f2b62a', bluetengroesse: 40, bodenfrucht: true, frucht: 'kuerbis', wurzel: 'faser', hoehe: 220,
+    labels: { bluete: 'große gelbe Blüten – essbar', blatt: 'Blatt: riesig, rau', stengel: 'Ranken bis mehrere Meter', wurzel: 'Faserwurzeln' }, detail3: 'Frucht' },
+  intro: ['Im Herbst leuchten Kürbisse orange auf jedem Markt. Sie halten sich monatelang und füllen die Küche mit Suppen, Ofengemüse, Kuchen und Brot.', 'Vom Kürbis kannst du fast alles nutzen: das Fruchtfleisch, beim Hokkaido sogar die Schale, die Kerne geröstet, die Blüten gefüllt.', '**Wichtig:** Wie bei der Zucchini gilt – bittere Kürbisse niemals essen.'],
+  steckbrief: [['Pflanze', 'einjährig, rankend, braucht 2 bis 3 m²'], ['Essbare Teile', 'Fruchtfleisch, Kerne, Blüten, beim Hokkaido die Schale'], ['Pflanzung', 'Mitte Mai'], ['Ernte', 'September bis Oktober'], ['Lagerung', '10 bis 15 °C, trocken, 3 bis 12 Monate je nach Sorte']],
+  erkennen: [['Speise- und Zierkürbisse', '**Hokkaido** (orange, Schale essbar), **Butternut** (birnenförmig, nussig), **Muskatkürbis** (groß, gerippt, aromatisch), **Spaghettikürbis**. **Zierkürbisse** sind oft bitter und giftig – nicht essen und keine Samen davon aussäen.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Kürbisse sind Starkzehrer: am besten auf oder neben dem Komposthaufen, in voller Sonne, mit viel Wasser. Früchte auf ein Brett legen, damit sie nicht faulen.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Früchte', 'September bis Oktober, vor dem ersten Frost', 'wenn der Stiel verholzt und die Frucht beim Klopfen hohl klingt; **mit Stiel** abschneiden'], ['Blüten', 'Juli bis August', 'männliche Blüten morgens']], kalender: [['Kürbis', [9, 10], [11, 12, 1, 2]], ['Blüten', [7, 8]]], tipps: ['Vor dem Einlagern 2 Wochen bei Zimmertemperatur nachreifen lassen – dann härtet die Schale aus.'] },
+  inhaltsstoffe: { punkte: ['**Beta-Carotin** (je oranger, desto mehr)', 'Kalium, Vitamin E', 'Kerne: Fett, Eiweiß, Zink, Magnesium, Phytosterine', '**Cucurbitacine** nur in bitteren Früchten'] },
+  kueche: { text: ['Kürbis schmeckt süßlich-nussig. Er lässt sich kochen, backen, braten und roh raspeln.'], ideen: ['**Kürbissuppe** mit Ingwer und Kokosmilch.', '**Ofenkürbis** mit Rosmarin und Knoblauch.', '**Kürbisbrot** und **Kürbiskuchen**.', '**Kürbis-Risotto.**'] },
+  rezepte: [
+    { titel: 'Hokkaido-Suppe', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['1 Hokkaido (ca. 1 kg)', '1 Zwiebel, 1 Stück Ingwer', '2 EL Öl', '1 Liter Gemüsebrühe', '200 ml Kokosmilch', 'Salz, Pfeffer, Chili, Zitronensaft'], schritte: ['Kürbis waschen, halbieren, Kerne herauslösen (aufheben!). Mit Schale würfeln.', 'Zwiebel und Ingwer in Öl andünsten, Kürbis zugeben.', 'Mit Brühe 20 Minuten kochen.', 'Kokosmilch zugeben, pürieren und abschmecken. Mit gerösteten Kürbiskernen bestreuen.'] },
+  ],
+  verwerten: [
+    { rezept: { titel: 'Geröstete Kürbiskerne', info: 'Aus einem Kürbis', thema: T.VERWERTEN, zutaten: ['Kerne eines Speisekürbisses', '1 TL Öl', 'Salz, nach Belieben Paprika oder Curry'], schritte: ['Kerne aus dem Fruchtfleisch lösen, in einem Sieb waschen und trocken tupfen.', 'Mit Öl und Gewürzen mischen.', 'Auf einem Blech bei 160 °C 15 bis 20 Minuten rösten, bis sie knacken.'], tipp: 'Kerne von Hokkaido kann man mit Schale essen. Von großen Kürbissen sind sie härter – dann eher in Suppe und Brot.' } },
+    ['Kürbisschalen', 'Schalen von Butternut und Muskatkürbis mit Öl und Salz im Ofen zu Chips rösten oder in die Gemüsebrühe geben.', T.VERWERTEN],
+  ],
+  anwendung: { titel: 'Hausmittel und traditionelle Verwendung', bloecke: ['Kürbissamen sind vom HMPC als traditionelles pflanzliches Arzneimittel zur Linderung von Beschwerden bei **Reizblase** und beim Wasserlassen infolge einer **gutartigen Prostatavergrößerung** eingestuft – nachdem ernste Erkrankungen ärztlich ausgeschlossen wurden.'], hinweise: ['Beschwerden beim Wasserlassen immer ärztlich abklären.'] },
+  geschichte: ['Kürbisse gehören zu den ältesten Kulturpflanzen Amerikas: In Mexiko wurden 10 000 Jahre alte Kürbissamen gefunden. In der Steiermark wird seit dem 18. Jahrhundert das dunkelgrüne Kürbiskernöl aus schalenlosen Ölkürbissen gepresst.'],
+  haltbar: [['Lagern', 'mit Stiel, 10 bis 15 °C.', '3 bis 12 Monate'], ['Einfrieren', 'roh gewürfelt oder als Püree.', '10 Monate'], ['Süß-sauer eingelegt', 'nach Grundrezept 2.', '1 Jahr']],
+  vorsicht: ['**Bittere Kürbisse ausspucken und wegwerfen** (Cucurbitacine).', 'Keine Zierkürbisse essen und keine Samen davon nehmen.'],
+  quellen: ['EMA/HMPC: Monographie *Cucurbitae semen*', 'BfR: Cucurbitacine'],
+};

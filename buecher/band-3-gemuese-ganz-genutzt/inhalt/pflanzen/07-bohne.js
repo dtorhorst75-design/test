@@ -1,0 +1,28 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 7, id: 'bohne', saison: 'sommer',
+  name: 'Gartenbohne', botanisch: 'Phaseolus vulgaris',
+  familie: 'Hülsenfrüchtler (Fabaceae)', artikel: 'in der Bohne',
+  volksnamen: 'Buschbohne, Stangenbohne, Grüne Bohne, Fisole (Österreich)',
+  zeichnung: { wuchs: 'kletternd', stellung: 'wechselstaendig', blatt: 'dreizaehlig', blattlaenge: 130, blattbreite: 60, bluete: 'lippe', einzelbluete: 'lippe', farbe: '#f6f2e6', fruchtAmStengel: true, frucht: 'bohne', wurzel: 'faser', hoehe: 640, knoten: 5,
+    labels: { bluete: 'weiße oder rote Blüten', blatt: 'Blatt: dreizählig', stengel: 'Stangenbohnen winden sich hoch', wurzel: 'Wurzeln mit Knöllchen' }, detail3: 'Hülsen' },
+  intro: ['Grüne Bohnen gehören zum Sommer wie Tomaten. Buschbohnen bleiben niedrig, Stangenbohnen winden sich an Stangen bis 3 Meter hoch. Wer eine Reihe pflanzt, kann wochenlang ernten.', '**Wichtig:** Bohnen werden **nie roh** gegessen. Sie enthalten Phasin, einen Eiweißstoff, der erst durch Kochen zerstört wird.'],
+  steckbrief: [['Pflanze', 'einjährig, Busch- oder Kletterform'], ['Essbare Teile', 'Hülsen (gekocht), reife Bohnenkerne (gekocht)'], ['Aussaat', 'Mitte Mai bis Juli, nach den Eisheiligen'], ['Ernte', 'Juli bis September'], ['Lagerung', 'frisch 2 bis 3 Tage im Kühlschrank']],
+  erkennen: [['Sorten', 'Grüne, gelbe (Wachsbohnen) und violette Hülsen (werden beim Kochen grün). Flache „Schwertbohnen“ und runde „Prinzessbohnen“. Zum Trocknen: Borlotti, Kidney, weiße Bohnen.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Bohnen sind wärmebedürftig und frostempfindlich. Erst säen, wenn der Boden warm ist. Sie mögen Sonne und lockeren Boden; Stangenbohnen brauchen 2 bis 3 m lange Stangen. Bohnenkraut als Nachbar hält Läuse fern – und gehört ohnehin in den Topf.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Grüne Hülsen', 'Juli bis September', 'solange die Kerne noch klein sind und die Hülse beim Biegen knackt'], ['Trockenbohnen', 'September', 'Hülsen an der Pflanze trocken werden lassen, dann auspalen']], kalender: [['Grüne Bohnen', [7, 8, 9]], ['Trockenbohnen', [9, 10]]], tipps: ['Alle 2 bis 3 Tage pflücken – dann bilden sich ständig neue Hülsen.'] },
+  inhaltsstoffe: { punkte: ['Eiweiß, Ballaststoffe, Folsäure, Vitamin C, Kalium', '**Phasin** (roh) – wird beim Kochen zerstört'] },
+  kueche: { text: ['Grüne Bohnen **mindestens 10 Minuten** kochen oder 15 Minuten dämpfen. Getrocknete Bohnen über Nacht einweichen und 1 bis 2 Stunden kochen.'], ideen: ['**Grüne Bohnen mit Bohnenkraut** und Butter.', '**Bohnensalat** (aus gekochten Bohnen!).', '**Eintopf** mit Kartoffeln.', '**Im Speckmantel** oder in Olivenöl geschmort.'] },
+  rezepte: [
+    { titel: 'Grüner Bohnensalat', info: 'Für 4 Personen', thema: T.SALAT, zutaten: ['750 g grüne Bohnen', '1 rote Zwiebel', '4 EL Öl, 3 EL Weißweinessig, 1 TL Senf, 1 TL Zucker', '2 Zweige Bohnenkraut', 'Salz, Pfeffer'], schritte: ['Bohnen putzen und **10 bis 12 Minuten** in Salzwasser mit Bohnenkraut kochen.', 'Abgießen, kurz abschrecken.', 'Zwiebel in feine Ringe schneiden.', 'Marinade anrühren und noch warm mit Bohnen und Zwiebeln mischen.', 'Mindestens 30 Minuten ziehen lassen.'] },
+    { titel: 'Bohnen-Kartoffel-Eintopf', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['500 g grüne Bohnen', '500 g Kartoffeln', '2 Möhren, 1 Zwiebel', '1 Liter Gemüsebrühe', '2 Zweige Bohnenkraut', '1 EL Öl, Salz, Pfeffer'], schritte: ['Zwiebel würfeln und in Öl andünsten.', 'Kartoffeln und Möhren würfeln, Bohnen in Stücke brechen.', 'Alles mit Brühe und Bohnenkraut 25 Minuten köcheln lassen.', 'Abschmecken.'] },
+  ],
+  verwerten: [['Bohnenschalen', 'Die leeren Hülsen getrockneter Bohnen lassen sich als Tee verwenden (siehe Hausmittel) oder kommen auf den Kompost.', T.VERWERTEN], ['Kochwasser', 'Das Kochwasser grüner Bohnen eignet sich als Basis für Suppen und Soßen.', T.VERWERTEN]],
+  anwendung: { titel: 'Hausmittel und traditionelle Verwendung', bloecke: ['Getrocknete Bohnenhülsen (ohne Samen) sind von der Kommission E zur **unterstützenden Durchspülung** bei leichten Harnwegsbeschwerden positiv bewertet.', { h3: 'Bohnenschalen-Tee', thema: T.BAUCH }, { schritte: ['2 EL getrocknete, zerkleinerte Bohnenhülsen mit 250 ml kaltem Wasser aufsetzen.', '10 bis 15 Minuten köcheln lassen, abseihen.', '3-mal täglich eine Tasse, dazu viel trinken.'] }], hinweise: ['Nicht bei Ödemen durch Herz- oder Nierenschwäche.', 'Harnwegsbeschwerden mit Fieber oder Blut ärztlich abklären.'] },
+  geschichte: ['Die Gartenbohne stammt aus Mittel- und Südamerika und kam mit Kolumbus nach Europa. Vorher kannte man hier nur die Ackerbohne (Saubohne).'],
+  haltbar: [['Einfrieren', 'in Stücken 3 Minuten blanchiert.', '1 Jahr'], ['Sauer einlegen', 'gekocht, nach Grundrezept 2.', '1 Jahr'], ['Fermentieren', 'kurz blanchiert, nach Grundrezept 1.', '6 Monate']],
+  vorsicht: ['**Bohnen nie roh essen** – immer mindestens 10 Minuten kochen.', 'Auch Kinder nicht rohe Bohnen aus dem Beet naschen lassen.'],
+  quellen: ['BfR: Phasin in rohen Bohnen', 'Kommission E: *Phaseoli pericarpium*'],
+};

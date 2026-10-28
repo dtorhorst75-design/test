@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 4, id: 'kohlrabi', saison: 'fruehling',
+  name: 'Kohlrabi', botanisch: 'Brassica oleracea var. gongylodes',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'im Kohlrabi',
+  volksnamen: 'Oberkohlrabi, Rübkohl, Kohlrübe (regional)',
+  zeichnung: { wuchs: 'rosette', blatt: 'eifoermig', rand: 'gekerbt', blattlaenge: 150, blattbreite: 60, blaetter: 7, stiele: 0, bluete: 'kreuz', farbe: '#f2d93a', knolleOben: '#cfe0a8', wurzel: 'faser', frucht: 'kohlkopf', fruchtfarbe: '#e4eec8', hoehe: 260, detail3: 'Knolle im Schnitt',
+    labels: { blatt: 'Blätter: essbar, vitaminreich', wurzel: 'Knolle wächst über der Erde' } },
+  intro: ['Kohlrabi ist ein typisch deutsches Gemüse – im Ausland kennen ihn viele gar nicht. Die Knolle wächst über der Erde und ist eigentlich ein verdickter Stängel.', 'Die Blätter werden fast immer weggeworfen. Dabei enthalten sie mehr Vitamine als die Knolle und schmecken wie milder Grünkohl.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Knolle, Blätter, Blattstiele'], ['Aussaat/Pflanzung', 'März bis Juli'], ['Ernte', 'Mai bis Oktober, 8 bis 12 Wochen nach der Pflanzung'], ['Lagerung', 'ohne Blätter im Kühlschrank 1 bis 2 Wochen']],
+  erkennen: [['Sorten', 'Weiße (hellgrüne) und blaue Kohlrabi schmecken gleich – nur die Schale ist anders gefärbt. Riesen-Kohlrabi wie „Superschmelz“ bleiben auch groß zart.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Kohlrabi braucht nährstoffreichen, gleichmäßig feuchten Boden. Bei Trockenheit wird er holzig, bei Wasserschüben platzt er. Er wächst schnell und eignet sich für Folgesaaten.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Knolle', 'wenn sie tennisballgroß ist', 'zu große Knollen werden holzig (außer bei Riesensorten)'], ['Blätter', 'mit der Knolle', 'junge, zarte Herzblätter roh, größere gegart']], kalender: [['Knollen', [5, 6, 7, 8, 9, 10]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin C** (etwa 60 mg pro 100 g Knolle, in den Blättern doppelt so viel)', 'Senfölglykoside, Kalium, Folsäure', 'Blätter: Beta-Carotin, Calcium, Eisen'] },
+  kueche: { text: ['Kohlrabi schmeckt roh mild-nussig und gegart leicht süßlich.'], ideen: ['**Roh** in Stiften zum Dippen oder geraspelt im Salat.', '**In heller Soße** mit Petersilie – der Klassiker.', '**Als Schnitzel paniert.**', '**Im Ofen** mit anderem Gemüse.'] },
+  rezepte: [{ titel: 'Kohlrabi-Schnitzel', info: 'Für 4 Personen', thema: T.HAUPT, zutaten: ['2 große Kohlrabi', '100 g Mehl', '2 Eier', '100 g Semmelbrösel', 'Salz, Pfeffer, Muskat', 'Öl zum Braten'], schritte: ['Kohlrabi schälen und in 1 cm dicke Scheiben schneiden.', '5 Minuten in Salzwasser vorkochen, abtropfen lassen.', 'Würzen, nacheinander in Mehl, verquirltem Ei und Bröseln wenden.', 'In Öl von beiden Seiten goldbraun braten.'], tausch: 'Statt Ei: 4 EL Mehl mit 100 ml Haferdrink zu einem dicken Teig verrühren.' }],
+  verwerten: [
+    { rezept: { titel: 'Kohlrabiblätter-Gemüse', info: 'Für 2 Personen als Beilage', thema: T.VERWERTEN, zutaten: ['Blätter von 3 bis 4 Kohlrabi', '1 Zwiebel', '1 EL Öl', 'Salz, Pfeffer, Muskat, ein Schuss Sahne oder Hafercreme'], schritte: ['Blätter waschen, dicke Mittelrippen herausschneiden.', 'Blätter in Streifen schneiden und 2 Minuten blanchieren.', 'Zwiebel in Öl andünsten, Blätter zugeben, kurz schmoren und abschmecken.'] } },
+    ['Schalen für die Brühe', 'Kohlrabischalen sind zu hart zum Essen, geben aber der Gemüsebrühe (Grundrezept 5) einen feinen Geschmack.', T.VERWERTEN],
+  ],
+  geschichte: ['Kohlrabi stammt vermutlich aus dem Mittelmeerraum und ist in Deutschland seit dem 16. Jahrhundert bekannt. Das Wort „Kohlrabi“ ist sogar ins Englische und Japanische übernommen worden.'],
+  haltbar: [['Einfrieren', 'in Stiften 3 Minuten blanchiert.', '10 Monate'], ['Fermentiert', 'in Stiften nach Grundrezept 1.', '3 Monate']],
+  vorsicht: ['Kein besonderes Risiko.'],
+  quellen: ['BZfE: Kohlrabi'],
+};

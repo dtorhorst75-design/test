@@ -1,0 +1,26 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 5, id: 'mangold', saison: 'fruehling',
+  name: 'Mangold', botanisch: 'Beta vulgaris subsp. vulgaris',
+  familie: 'Fuchsschwanzgewächse (Amaranthaceae)', artikel: 'im Mangold',
+  volksnamen: 'Stielmangold, Blattmangold, Krautstiel (Schweiz), Römischer Kohl',
+  zeichnung: { wuchs: 'rosette', blatt: 'eifoermig', rand: 'glatt', blattlaenge: 200, blattbreite: 70, blaetter: 8, stiele: 0, bluete: 'kugel', farbe: '#b8c06a', wurzel: 'pfahl', frucht: 'stange', fruchtfarbe: '#e0b02a', hoehe: 300, detail1: 'Blüte (2. Jahr)', detail3: 'bunte Stiele',
+    labels: { blatt: 'Blätter: groß, glänzend, gewellt', wurzel: 'Pfahlwurzel' } },
+  intro: ['Mangold ist der unkomplizierteste Spinat-Ersatz im Garten: Er wird einmal gesät und liefert von Juni bis zum Frost immer neue Blätter. Die Stiele leuchten je nach Sorte weiß, gelb, orange, pink oder rot.', 'Von Mangold kannst du alles nutzen: Blätter wie Spinat, Stiele wie Spargel.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Blätter und Stiele'], ['Aussaat', 'April bis Juli'], ['Ernte', 'Juni bis November, oft bis ins Frühjahr'], ['Lagerung', 'frisch 2 bis 3 Tage im Kühlschrank']],
+  erkennen: [['Stielmangold und Blattmangold', '**Stielmangold** hat breite, fleischige Stiele, die separat gegart werden. **Blattmangold** hat schmale Stiele und wird wie Spinat verwendet. Mangold ist eng mit der Roten Bete verwandt.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Mangold ist anspruchslos, mag aber nährstoffreichen, feuchten Boden und Sonne bis Halbschatten. Bunte Sorten sind auch im Blumenbeet und im Kübel eine Zierde.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Blätter und Stiele', 'Juni bis November', 'immer die äußeren Blätter am Grund abdrehen, das Herz stehen lassen – dann wächst er weiter']], kalender: [['Blätter', [6, 7, 8, 9, 10], [11]]] },
+  inhaltsstoffe: { punkte: ['Vitamin K, Vitamin A (Beta-Carotin), Vitamin C', 'Magnesium, Kalium, Eisen', '**Oxalsäure** und **Nitrat**'] },
+  kueche: { text: ['Blätter und Stiele haben unterschiedliche Garzeiten: Stiele brauchen 5 bis 8 Minuten, Blätter 2 bis 3.'], ideen: ['**Blätter** wie Spinat: gedünstet, in Quiche, Lasagne, Pasta.', '**Stiele** wie Spargel mit Butter und Bröseln oder in Gratin.', '**Mangoldrouladen:** große Blätter gefüllt wie Kohlrouladen.'] },
+  rezepte: [
+    { titel: 'Mangoldrouladen mit Linsen', info: 'Für 4 Personen', thema: T.HAUPT, zutaten: ['8 große Mangoldblätter', '200 g gekochte Linsen', '100 g gekochter Reis', '1 Zwiebel, 1 Knoblauchzehe', '1 EL Tomatenmark', '400 g passierte Tomaten', 'Salz, Pfeffer, Paprika, Thymian', '2 EL Öl'], schritte: ['Mangoldstiele herausschneiden (für das Gratin unten aufheben). Blätter 1 Minute blanchieren.', 'Zwiebel und Knoblauch hacken, in Öl andünsten, Tomatenmark kurz mitrösten.', 'Mit Linsen und Reis mischen und kräftig würzen.', 'Füllung auf die Blätter verteilen, Seiten einschlagen, aufrollen.', 'In eine Form legen, mit passierten Tomaten übergießen und 25 Minuten bei 180 °C backen.'] },
+  ],
+  verwerten: [{ rezept: { titel: 'Mangoldstiel-Gratin', info: 'Für 2 Personen als Beilage', thema: T.VERWERTEN, zutaten: ['Stiele von 1 Bund Mangold', '150 ml Sahne', '50 g geriebener Käse', 'Salz, Pfeffer, Muskat'], schritte: ['Stiele in 5 cm lange Stücke schneiden und 5 Minuten in Salzwasser vorkochen.', 'In eine Form legen, mit gewürzter Sahne übergießen und mit Käse bestreuen.', 'Bei 200 °C 15 Minuten überbacken.'], tausch: 'Mit Hafer-Kochcreme und 2 EL Hefeflocken mit Semmelbröseln statt Käse.' } }],
+  geschichte: ['Mangold wurde schon von den alten Griechen und Römern angebaut und war im Mittelalter eines der wichtigsten Blattgemüse – lange bevor sich der Spinat durchsetzte.'],
+  haltbar: [['Blätter einfrieren', 'blanchiert wie Spinat.', '10 Monate'], ['Stiele einfrieren', 'in Stücken 3 Minuten blanchiert.', '10 Monate']],
+  vorsicht: ['Gegarten Mangold nicht lange warmhalten (Nitrat), besonders nicht für Säuglinge.', 'Bei Nierensteinen in Maßen (Oxalsäure).'],
+  quellen: ['BZfE: Mangold'],
+};

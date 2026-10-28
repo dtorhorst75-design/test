@@ -1,0 +1,28 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 3, id: 'radieschen', saison: 'fruehling',
+  name: 'Radieschen', botanisch: 'Raphanus sativus var. sativus',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'im Radieschen',
+  volksnamen: 'Radies, Monatsrettich, Rotrübchen',
+  zeichnung: { wuchs: 'rosette', blatt: 'schrotsaege', blattlaenge: 130, blattbreite: 34, blaetter: 8, stiele: 0, bluete: 'kreuz', farbe: '#f3e3ee', wurzel: 'rundknolle', wurzelfarbe: '#d22d4a', wurzelgroesse: 0.6, frucht: 'schote', hoehe: 220, detail3: 'Schoten (essbar)',
+    labels: { blatt: 'Blätter: rau, essbar', wurzel: 'rote Knolle, innen weiß' } },
+  intro: ['Radieschen sind das schnellste Gemüse im Garten: Vier bis sechs Wochen nach der Aussaat kannst du sie ernten. Kinder lieben es, weil man so schnell etwas sieht.', 'Fast alle werfen das Grün weg – dabei schmecken die Blätter würzig-scharf und ergeben ein tolles Pesto oder eine Suppe. Und wenn Radieschen blühen, kannst du sogar die jungen Schoten knabbern.'],
+  steckbrief: [['Pflanze', 'einjährig'], ['Essbare Teile', 'Knolle, Blätter, Blüten, junge Schoten, Sprossen'], ['Aussaat', 'März bis September, alle 2 bis 3 Wochen neu'], ['Ernte', '4 bis 6 Wochen nach der Saat'], ['Lagerung', 'ohne Blätter im Kühlschrank 1 Woche']],
+  erkennen: [['Sorten', 'Neben roten Kugeln gibt es weiße, gelbe, violette und lange „Eiszapfen“-Radieschen. Alle schmecken ähnlich.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Radieschen brauchen lockeren Boden, Sonne und gleichmäßige Feuchtigkeit – sonst werden sie pelzig oder platzen. Ideal als Lückenfüller und Markiersaat zwischen langsam keimenden Möhren.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Knollen', 'wenn sie etwa 2 bis 3 cm groß sind', 'nicht zu lange warten, sonst werden sie holzig'], ['Blätter', 'mit der Knolle', 'nur frische, saftige Blätter verwenden'], ['Schoten', 'wenn Radieschen geblüht haben', 'grüne, weiche Schoten pflücken']], kalender: [['Knollen', [4, 5, 6, 7, 8, 9]], ['Schoten', [6, 7, 8]]] },
+  inhaltsstoffe: { punkte: ['**Senfölglykoside** – die Schärfe', 'Vitamin C, Kalium', 'Blätter: mehr Vitamin C und Calcium als die Knolle'] },
+  kueche: { text: ['Radieschen schmecken roh am besten, sind aber auch kurz gebraten oder geschmort lecker.'], ideen: ['**Aufs Butterbrot** mit Salz und Schnittlauch.', '**Im Salat** und Quark.', '**Geschmort** in Butter – milder und süßlich.', '**Fermentiert** (Grundrezept 1).'] },
+  rezepte: [{ titel: 'Radieschen-Quark-Aufstrich', info: 'Für 4 Personen', thema: T.SALAT, zutaten: ['1 Bund Radieschen', '250 g Quark', '2 EL Joghurt', '½ Bund Schnittlauch', 'Salz, Pfeffer'], schritte: ['Radieschen fein würfeln oder grob raspeln.', 'Mit Quark und Joghurt verrühren.', 'Schnittlauch in Röllchen schneiden, unterheben, abschmecken.'], tausch: 'Mit ungesüßtem Sojajoghurt (griechische Art) statt Quark und Joghurt.' }],
+  verwerten: [
+    { rezept: { titel: 'Radieschenblätter-Pesto', info: 'Für 1 Glas', thema: T.VERWERTEN, zutaten: ['Blätter von 2 Bund Radieschen', '50 g Sonnenblumenkerne', '1 Knoblauchzehe', '100 ml Olivenöl', 'Salz, Zitronensaft'], schritte: ['Blätter waschen, welke aussortieren, trocken schleudern.', 'Kerne ohne Fett rösten.', 'Alles im Mixer zu einem Pesto verarbeiten und abschmecken.', 'Mit Öl bedeckt im Kühlschrank 1 Woche haltbar.'] } },
+    { rezept: { titel: 'Radieschenblätter-Suppe', info: 'Für 2 Personen', thema: T.VERWERTEN, zutaten: ['Blätter von 2 Bund Radieschen', '2 Kartoffeln', '1 Zwiebel', '1 EL Öl', '600 ml Gemüsebrühe', 'Salz, Pfeffer, Muskat'], schritte: ['Zwiebel und Kartoffeln würfeln und im Öl andünsten.', 'Mit Brühe auffüllen und 15 Minuten kochen.', 'Gewaschene Blätter zugeben, 2 Minuten mitkochen, pürieren und abschmecken.'] } },
+    ['Radieschenschoten', 'Junge, grüne Schoten schmecken roh knackig-scharf – im Salat, als Snack oder sauer eingelegt wie Kapern.', T.VERWERTEN],
+  ],
+  geschichte: ['Radieschen wurden erst im 16. Jahrhundert in Europa aus dem Rettich gezüchtet. Im Namen steckt das lateinische *radix* – Wurzel.'],
+  haltbar: [['Blätter abschneiden', 'Knollen ohne Blätter im feuchten Tuch in den Kühlschrank.', '1 Woche'], ['Fermentiert', 'nach Grundrezept 1.', '3 Monate']],
+  vorsicht: ['Kein besonderes Risiko.'],
+  quellen: ['BZfE: Radieschen'],
+};

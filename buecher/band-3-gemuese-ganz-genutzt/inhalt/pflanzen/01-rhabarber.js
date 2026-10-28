@@ -1,0 +1,32 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 1, id: 'rhabarber', saison: 'fruehling',
+  name: 'Rhabarber', botanisch: 'Rheum rhabarbarum',
+  familie: 'Knöterichgewächse (Polygonaceae)', artikel: 'im Rhabarber',
+  volksnamen: 'Rabarber, Rhabarberstängel, Krautrhabarber',
+  zeichnung: { wuchs: 'rosette', blatt: 'herz', rand: 'glatt', blattlaenge: 210, blattbreite: 110, blaetter: 6, stiele: 0, bluete: 'rispe', farbe: '#f2ead0', wurzel: 'rhizom', frucht: 'stange', fruchtfarbe: '#c23a4a', hoehe: 300, detail1: 'Blütenrispe (Juni)', detail3: 'Stiele',
+    labels: { blatt: 'riesige Blätter – nicht essbar', wurzel: 'kräftiger Wurzelstock' } },
+  intro: ['Rhabarber ist das erste „Obst“ des Jahres, obwohl er botanisch ein Gemüse ist. Ab April schieben sich die roten oder grünen Stiele aus der Erde, und dann gibt es Kompott, Kuchen und Schorle.', '**Wichtig:** Gegessen werden nur die **Stiele**. Die großen Blätter enthalten sehr viel Oxalsäure und sind giftig – im Garten sind sie aber ein nützlicher Pflanzenschutz.'],
+  steckbrief: [['Pflanze', 'ausdauernde Staude, kommt jedes Jahr wieder'], ['Höhe', 'Blätter bis 1 m, Blütenstand bis 2 m'], ['Essbarer Teil', '**nur die Blattstiele**, grün bis rot'], ['Blätter', 'riesig, herzförmig, gewellt – **nicht essbar**'], ['Erntezeit', 'April bis Ende Juni'], ['Lagerung', 'im Kühlschrank 1 Woche, eingefroren 1 Jahr']],
+  erkennen: [['Sorten', 'Es gibt **grünstielige** Sorten (kräftig sauer), **rotstielige mit grünem Fleisch** (milder) und **rotstielig-rotfleischige** „Himbeer-Rhabarber“ (am mildesten, weniger Oxalsäure).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Rhabarber braucht einen sonnigen bis halbschattigen Platz mit tiefgründigem, nährstoffreichem Boden und viel Platz (1 m²). Er wird als Wurzelstück im Herbst oder Frühjahr gepflanzt und bleibt 8 bis 10 Jahre am selben Ort. Im ersten Jahr nicht ernten, damit er gut einwächst.', 'Blütenstängel früh ausbrechen – sie kosten Kraft. Im Herbst eine Schicht Kompost oder Mist auf den Wurzelstock geben.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Stiele', 'April bis Juni', 'nicht schneiden, sondern mit einer Drehbewegung am Grund **abdrehen**; immer nur ein Drittel der Stiele nehmen'], ['Ende der Ernte', 'um den Johannistag (24. Juni)', 'danach braucht die Pflanze ihre Kraft – außerdem steigt der Oxalsäuregehalt']], kalender: [['Stiele', [4, 5, 6]]] },
+  inhaltsstoffe: { punkte: ['**Oxalsäure** – in den Stielen mäßig, in den Blättern sehr viel', '**Fruchtsäuren** (Äpfel- und Zitronensäure)', 'Kalium, Vitamin C, Ballaststoffe'], nach: 'Oxalsäure bindet Calcium. Darum Rhabarber gern mit Milchprodukten oder calciumreichen Lebensmitteln kombinieren und gekocht statt roh essen.' },
+  kueche: { text: ['Rhabarber wird fast immer gekocht und gesüßt.'], ideen: ['**Kompott** zu Grießbrei, Pfannkuchen, Joghurt.', '**Kuchen** mit Streuseln oder Baiser.', '**Herzhaft:** als Chutney zu Käse oder im Curry.', '**Schorle und Sirup.**'] },
+  rezepte: [
+    { titel: 'Rhabarberkompott', info: 'Für 4 Personen', thema: T.BACKEN, zutaten: ['750 g Rhabarber', '100 g Zucker', '1 Päckchen Vanillezucker', '50 ml Wasser oder Apfelsaft'], schritte: ['Rhabarber waschen, Enden abschneiden, nur grobe Fäden abziehen (die Schalen aufheben!).', 'In 2 cm lange Stücke schneiden.', 'Mit Zucker, Vanillezucker und Wasser 5 bis 8 Minuten köcheln, bis er weich ist, aber noch etwas Biss hat.', 'Warm oder kalt servieren.'] },
+    { titel: 'Rhabarber-Streuselkuchen vom Blech', info: 'Für 1 Blech', thema: T.BACKEN, zutaten: ['Teig: 300 g Mehl, 1 Päckchen Backpulver, 150 g Zucker, 150 ml Milch, 100 ml Öl, 2 Eier', '1 kg Rhabarber', 'Streusel: 250 g Mehl, 150 g Zucker, 150 g kalte Butter, 1 TL Zimt'], schritte: ['Ofen auf 180 °C vorheizen.', 'Teigzutaten verrühren und auf ein gefettetes Blech streichen.', 'Rhabarber in Stücke schneiden und auf dem Teig verteilen.', 'Streuselzutaten mit den Fingern verkrümeln und darüberstreuen.', '35 bis 40 Minuten backen.'], tausch: 'Haferdrink statt Milch, 2 EL Apfelmus statt der Eier, kalte Pflanzenmargarine statt Butter.' },
+  ],
+  verwerten: [
+    { rezept: { titel: 'Rhabarberschalen-Sirup', info: 'Für ca. 500 ml', thema: T.VERWERTEN, zutaten: ['Schalen und Abschnitte von 1 kg Rhabarber', '500 ml Wasser', '250 g Zucker', 'Saft einer halben Zitrone'], schritte: ['Schalen mit Wasser 15 Minuten köcheln lassen – das Wasser wird rosa.', 'Abseihen, mit Zucker und Zitrone aufkochen, bis sich der Zucker gelöst hat.', 'Heiß in eine Flasche füllen. Im Kühlschrank 4 Wochen haltbar.'], tipp: 'Mit Sprudelwasser verdünnt die schönste Rhabarberschorle.' } },
+    ['Töpfe entkalken und putzen', 'Rhabarberschalen in Wasser in einem verkalkten oder angelaufenen Edelstahl- oder Aluminiumtopf 15 Minuten auskochen – die Oxalsäure löst Kalk und Beläge. Danach gut ausspülen.', T.PFLEGE],
+  ],
+  haushaltTitel: 'Im Garten',
+  haushalt: [{ rezept: { titel: 'Rhabarberblätter-Brühe gegen Blattläuse', info: 'Für 5 Liter', thema: T.GARTEN, zutaten: ['500 g Rhabarberblätter', '5 Liter Wasser'], schritte: ['Blätter klein schneiden, mit Wasser übergießen.', '24 Stunden ziehen lassen, dann 30 Minuten köcheln, abkühlen, abseihen.', 'Unverdünnt auf befallene Pflanzen sprühen – nicht auf Gemüse, das bald geerntet wird.'], tipp: 'Die Brühe ist giftig: beschriften, Handschuhe tragen, Kinder und Haustiere fernhalten.' } }],
+  geschichte: ['Rhabarber stammt aus China und Tibet, wo seine Wurzel seit Jahrtausenden als Abführmittel verwendet wird. Als Gemüse wurde er in Europa erst im 18. Jahrhundert beliebt, zuerst in England.'],
+  haltbar: [['Einfrieren', 'roh in Stücken.', '1 Jahr'], ['Kompott', 'heiß in Gläser füllen und einkochen (80 °C, 30 Minuten).', '1 Jahr']],
+  vorsicht: ['**Blätter nicht essen** (Oxalsäure).', 'Nach Ende Juni nicht mehr ernten.', 'Bei Nierensteinen (Calciumoxalat) nur wenig Rhabarber essen.'],
+  quellen: ['BZfE: Rhabarber', 'BfR: Oxalsäure in Lebensmitteln'],
+};

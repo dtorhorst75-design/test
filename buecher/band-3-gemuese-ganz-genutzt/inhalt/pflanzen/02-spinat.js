@@ -1,0 +1,30 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 2, id: 'spinat', saison: 'fruehling',
+  name: 'Spinat', botanisch: 'Spinacia oleracea',
+  familie: 'Fuchsschwanzgewächse (Amaranthaceae)', artikel: 'im Spinat',
+  volksnamen: 'Blattspinat, Winterspinat, Babyspinat',
+  zeichnung: { wuchs: 'rosette', blatt: 'eifoermig', rand: 'glatt', blattlaenge: 150, blattbreite: 64, blaetter: 11, stiele: 0, bluete: 'kugel', farbe: '#c9cf7a', wurzel: 'pfahl', wurzelfarbe: '#e9c0c8', frucht: 'nuesschen', hoehe: 240, detail1: 'Blütenknäuel',
+    labels: { blatt: 'Blätter: zart, dunkelgrün', wurzel: 'Wurzel: rosa Wurzelhals essbar' } },
+  intro: ['Spinat ist das Frühlingsgrün aus dem Beet: Er wächst schnell, verträgt Kälte und kann im März und im Herbst gesät werden. Junge Blätter schmecken roh im Salat, größere gedünstet mit Knoblauch oder als Rahmspinat.', 'Ein Mythos sei gleich ausgeräumt: Spinat enthält nicht außergewöhnlich viel Eisen. Ein Kommafehler in alten Tabellen hat ihn – und Popeye – berühmt gemacht. Gesund ist er trotzdem.'],
+  steckbrief: [['Pflanze', 'einjährig, Blattrosette'], ['Essbare Teile', 'Blätter, Stiele, der **rosa Wurzelhals**'], ['Aussaat', 'März bis April (Frühjahr), August bis September (Herbst, Winterspinat)'], ['Ernte', 'April bis Juni, September bis November, teils über Winter'], ['Lagerung', 'frisch 1 bis 2 Tage im Kühlschrank; blanchiert eingefroren 1 Jahr']],
+  erkennen: [['Sorten', 'Frühjahrsspinat ist zart und mild, Winterspinat kräftiger und robuster. „Babyspinat“ sind einfach sehr jung geerntete Blätter.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Spinat mag kühle Temperaturen und humosen, feuchten Boden. Bei Hitze und langen Tagen „schießt“ er, das heißt, er bildet Blüten und die Blätter werden bitter. Deshalb im Frühjahr früh und im Spätsommer erneut säen.', 'Gute Nachbarn: Erdbeeren, Kohl, Radieschen, Tomaten.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Blätter', 'ab 6 Wochen nach der Saat', 'einzelne äußere Blätter pflücken oder die ganze Rosette über dem Boden abschneiden'], ['Ganze Pflanze mit Wurzelhals', 'vor dem Schossen', 'samt rosa Wurzelansatz ernten – er ist süß und knackig']], kalender: [['Frühjahrsspinat', [4, 5], [6]], ['Herbst-/Winterspinat', [9, 10, 11], [3]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin K**, Folsäure, Vitamin C, Beta-Carotin', 'Magnesium, Kalium, Eisen (etwa 3 mg pro 100 g – nicht mehr als bei anderem Blattgemüse)', '**Nitrat** und **Oxalsäure**'] },
+  kueche: { text: ['Spinat fällt beim Garen stark zusammen: Aus 1 kg frischen Blättern werden etwa 300 g gegarter Spinat.'], ideen: ['**Roh** als Salat mit Erdbeeren oder Orangen.', '**Gedünstet** mit Knoblauch und Olivenöl.', '**In Pasta, Lasagne, Quiche, Strudel.**', '**Im Smoothie** mit Banane und Apfel.'] },
+  rezepte: [
+    { titel: 'Spinat mit Kartoffeln und Spiegelei', info: 'Für 4 Personen – der Klassiker', thema: T.HAUPT, zutaten: ['1 kg Kartoffeln', '1 kg frischer Spinat', '1 Zwiebel, 1 Knoblauchzehe', '2 EL Butter', '100 ml Sahne', 'Salz, Pfeffer, Muskat', '4 Eier'], schritte: ['Kartoffeln kochen.', 'Spinat waschen, grobe Stiele abzupfen (aufheben!).', 'Zwiebel und Knoblauch in Butter andünsten, Spinat tropfnass dazugeben und zusammenfallen lassen.', 'Grob hacken, mit Sahne, Salz, Pfeffer und Muskat abschmecken.', 'Spiegeleier braten und mit den Kartoffeln servieren.'], tausch: 'Mit Olivenöl und Hafer-Kochcreme; statt Spiegelei gebratener Räuchertofu.' },
+    { titel: 'Spinat-Salat mit Erdbeeren', info: 'Für 2 Personen', thema: T.SALAT, zutaten: ['150 g junger Spinat', '250 g Erdbeeren', '2 EL geröstete Sonnenblumenkerne', '3 EL Öl, 1 EL Balsamico, 1 TL Senf, 1 TL Sirup, Salz, Pfeffer'], schritte: ['Spinat waschen und trocken schleudern.', 'Erdbeeren vierteln.', 'Dressing anrühren, alles mischen und mit Kernen bestreuen.'] },
+  ],
+  verwerten: [
+    ['Stiele und Wurzelhälse', 'Die rosa Wurzelhälse und die Stiele sind süß und knackig. Fein geschnitten kurz in Öl anbraten oder roh über den Salat geben.', T.VERWERTEN],
+    ['Grüne Nudeln und grüne Pfannkuchen', 'Übrig gebliebenen gegarten Spinat pürieren und in Nudel- oder Pfannkuchenteig rühren – Kinder lieben die Farbe.', T.VERWERTEN],
+  ],
+  geschichte: ['Spinat kam über Persien und die Araber im Mittelalter nach Europa. Der Eisen-Mythos stammt wahrscheinlich aus dem 19. Jahrhundert und wurde durch die Comicfigur Popeye ab 1929 weltberühmt.'],
+  haltbar: [['Blanchieren und einfrieren', '2 Minuten blanchieren, abschrecken, ausdrücken, portionsweise einfrieren.', '1 Jahr']],
+  vorsicht: ['Gegarten Spinat nicht lange warmhalten oder mehrfach aufwärmen (Nitrat → Nitrit), besonders nicht für Säuglinge.', 'Bei Nierensteinen nur in Maßen essen (Oxalsäure).', 'Vitamin K: Wer Blutverdünner vom Cumarin-Typ nimmt, sollte Spinat gleichmäßig, nicht in wechselnden großen Mengen essen.'],
+  quellen: ['BZfE: Spinat', 'BfR: Nitrat in Blattgemüse'],
+};

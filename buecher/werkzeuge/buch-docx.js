@@ -58,6 +58,7 @@ const h2 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: 
 const h3 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun(text)] });
 // Rezepte und Anleitungen in Pflanzenkapiteln bekommen ein Lesezeichen und landen im Themenregister.
 let currentPf = null;
+let kalenderH3 = 'Sammelkalender';
 const rezeptListe = [];
 const fehlendeThemen = [];
 function rh3(text, eigenesThema) {
@@ -151,6 +152,16 @@ function recipe(r) {
   return out;
 }
 
+// Einträge aus Haushalt/Verwerten: entweder { rezept } oder [titel, text, thema]
+function eintraege(liste) {
+  const out = [];
+  for (const item of liste) {
+    if (item.rezept) out.push(...recipe(item.rezept));
+    else { out.push(rh3(item[0], item[2])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
+  }
+  return out;
+}
+
 function chapter(pf) {
   const out = [];
   currentPf = pf;
@@ -166,7 +177,7 @@ function chapter(pf) {
   if (fs.existsSync(img)) {
     // Pflanzen mit giftigen Doppelgängern (und alle Doldenblütler) bekommen unter der Zeichnung einen Warnhinweis.
     const giftig = pf.saison === 'haushalt';
-    const riskant = !giftig && (!!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis);
+    const riskant = !giftig && pf.bestimmungshinweis !== false && (!!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis);
     const [w, h] = riskant || giftig ? [500, 700] : [580, 812];
     out.push(new Paragraph({ pageBreakBefore: true, alignment: AlignmentType.CENTER, children: [new ImageRun({ type: 'png', data: fs.readFileSync(img), transformation: { width: w, height: h }, altText: { title: pf.name, description: `Schematische Zeichnung: ${pf.name} (${pf.botanisch})`, name: pf.id } })] }));
     out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: `Abb.: ${pf.name} (${pf.botanisch}), schematische Zeichnung ${pf.zeichnung && pf.zeichnung.wuchs === 'zweig' ? 'eines Zweigs mit Blättern, Blüte und Frucht, links die Wuchsform' : 'mit Wurzel, Stängel, Blättern und Blüte'}; unten Detailansichten. Zum Bestimmen sind die Merkmale im Text maßgeblich.`, italics: true, size: 18, color: '6B5F4D' })] }));
@@ -193,16 +204,16 @@ function chapter(pf) {
     if (v.tipp) { out.push(typeof v.tipp === 'string' ? box('Tipp', [v.tipp]) : box(v.tipp.titel, v.tipp.zeilen)); out.push(gap()); }
   }
 
-  if (pf.standort) { out.push(h2('Standort und Lebensraum')); pf.standort.forEach((t) => out.push(p(t))); }
+  if (pf.standort) { out.push(h2(pf.standortTitel || 'Standort und Lebensraum')); pf.standort.forEach((t) => out.push(p(t))); }
   if (pf.oekologie) { out.push(h2(pf.oekologie.titel || 'Bedeutung für Insekten und Tiere')); renderBlocks(pf.oekologie.bloecke).forEach((x) => out.push(x)); }
 
   if (pf.sammeln) {
     const s = pf.sammeln;
-    out.push(h2('Sammeln und Ernten'));
+    out.push(h2(pf.sammelnTitel || 'Sammeln und Ernten'));
     if (s.text) (Array.isArray(s.text) ? s.text : [s.text]).forEach((t) => out.push(p(t)));
     if (s.tabelle) { out.push(table(['Pflanzenteil', 'Erntezeit', 'Worauf du achtest'], s.tabelle, [2300, 2600, 4170])); out.push(gap()); }
     if (s.kalender) {
-      out.push(h3('Sammelkalender'));
+      out.push(h3(kalenderH3));
       out.push(table(['Teil', ...MONATE], s.kalender.map(([n, a, b]) => kalenderZeile(n, a, b)), KAL_W, { size: 17, center: true }));
       out.push(pl('*● Haupterntezeit · ○ ebenfalls möglich*', { size: 18 }));
     }
@@ -229,6 +240,7 @@ function chapter(pf) {
     out.push(h2('Rezepte'));
     pf.rezepte.forEach((r) => out.push(...recipe(r)));
   }
+  if (pf.verwerten) { out.push(h2(pf.verwertenTitel || 'Alles verwerten: Schalen, Blätter und Reste')); out.push(...eintraege(pf.verwerten)); }
 
   if (DIANA[pf.id]) { out.push(gap()); out.push(box(`Aus Dianas Kräuterküche: ${pf.name}`, DIANA[pf.id], { fill: SAND, line: '8A6D3B' })); out.push(gap()); }
 
@@ -239,20 +251,14 @@ function chapter(pf) {
     if (a.hinweise) { out.push(warnbox(a.hinweiseTitel || 'Wichtig bei der Anwendung', a.hinweise.map((t) => `- ${t}`))); out.push(gap()); }
   }
 
-  const wickel = WICKEL.proPflanze[pf.id];
+  const wickel = pf.wickel || WICKEL.proPflanze[pf.id];
   if (wickel) {
     out.push(h2('Wickel, Auflagen und Bäder'));
     out.push(p(`*Wie man einen Wickel anlegt, steht ausführlich im Kapitel „${WICKEL.kapitel.titel}“ vorne im Buch. Dort findest du auch, wann du besser keinen Wickel machst.*`));
     wickel.forEach((r) => out.push(...recipe({ zutatenTitel: 'Du brauchst', schritteTitel: 'So geht es', ...r })));
   }
 
-  if (pf.haushalt) {
-    out.push(h2(pf.haushaltTitel || 'In Haushalt, Garten und Pflege'));
-    for (const item of pf.haushalt) {
-      if (item.rezept) out.push(...recipe(item.rezept));
-      else { out.push(rh3(item[0], item[2])); (Array.isArray(item[1]) ? item[1] : [item[1]]).forEach((t) => out.push(p(t))); }
-    }
-  }
+  if (pf.haushalt) { out.push(h2(pf.haushaltTitel || 'In Haushalt, Garten und Pflege')); out.push(...eintraege(pf.haushalt)); }
 
   if (pf.geschichte) { out.push(h2('Aus der Geschichte')); pf.geschichte.forEach((t) => out.push(p(t))); }
 
@@ -268,6 +274,7 @@ function chapter(pf) {
 // ---------- Buch ----------
 function build(outFile) {
   const rahmen = require(path.join(BAND, 'inhalt', 'rahmen.js'));
+  kalenderH3 = rahmen.kalenderH3 || 'Sammelkalender';
   const dir = path.join(BAND, 'inhalt', 'pflanzen');
   const pflanzen = fs.readdirSync(dir).filter((f) => f.endsWith('.js')).sort().map((f) => require(path.join(dir, f)));
   pflanzen.sort((a, b) => a.nr - b.nr);
@@ -308,8 +315,8 @@ function build(outFile) {
   // Anhang
   for (const kap of rahmen.hinten) { body.push(h1(kap.titel)); body.push(...renderBlocks(kap.bloecke)); }
   // Gesamtkalender und Register aus den Pflanzendaten
-  body.push(h1('Sammelkalender aller Pflanzen'));
-  body.push(p('Die Übersicht zeigt für jede Pflanze die Haupterntezeit des wichtigsten Pflanzenteils (●) und weitere mögliche Erntezeiten (○). Die Angaben gelten für mittlere Lagen in Deutschland; in warmen Regionen beginnt die Saison früher, im Bergland später.'));
+  body.push(h1(rahmen.kalenderTitel || 'Sammelkalender aller Pflanzen'));
+  body.push(p(rahmen.kalenderText || 'Die Übersicht zeigt für jede Pflanze die Haupterntezeit des wichtigsten Pflanzenteils (●) und weitere mögliche Erntezeiten (○). Die Angaben gelten für mittlere Lagen in Deutschland; in warmen Regionen beginnt die Saison früher, im Bergland später.'));
   const rows = pflanzen.map((pf) => {
     const k = (pf.sammeln && pf.sammeln.kalender) || [];
     const haupt = new Set(), neben = new Set();

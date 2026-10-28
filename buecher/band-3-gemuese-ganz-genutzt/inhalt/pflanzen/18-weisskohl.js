@@ -1,0 +1,32 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 18, id: 'weisskohl', saison: 'herbst',
+  name: 'Weißkohl', botanisch: 'Brassica oleracea var. capitata f. alba',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'im Kohl',
+  volksnamen: 'Weißkraut, Kraut, Kappes, Spitzkohl (Sorte); verwandt: Rotkohl, Wirsing',
+  zeichnung: { wuchs: 'rosette', blatt: 'rund', rand: 'glatt', blattlaenge: 170, blattbreite: 110, blaetter: 7, stiele: 0, bluete: 'kreuz', farbe: '#f2d93a', kopf: '#dfe8b8', wurzel: 'pfahl', frucht: 'kohlkopf', hoehe: 200, detail3: 'Kopf im Schnitt',
+    labels: { bluete: 'fester Kopf aus Blättern', blatt: 'Umblätter: groß, bläulich bereift', wurzel: 'Strunk und Pfahlwurzel' } },
+  intro: ['Kohl war über Jahrhunderte das wichtigste Wintergemüse Europas – als Sauerkraut sicherte er die Vitaminversorgung bis zum Frühjahr. Weißkohl, Rotkohl, Wirsing und Spitzkohl sind eng verwandt und werden ähnlich verwendet.', 'Auch als Hausmittel ist Kohl berühmt: Die Kohlblattauflage bei geschwollenen Gelenken oder beim Milchstau kennen Hebammen bis heute.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Kopf, Strunk (geschält), äußere Blätter'], ['Pflanzung', 'April bis Juni'], ['Ernte', 'Juli (Frühkohl) bis November (Lagerkohl)'], ['Lagerung', 'kühl, 2 bis 4 Monate']],
+  erkennen: [['Kohlsorten', '**Weißkohl** (fest, für Sauerkraut und Krautsalat), **Spitzkohl** (zart, schnell gar), **Rotkohl** (Blaukraut, wird mit Säure rot, ohne blau), **Wirsing** (gekräuselt, locker, mild).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Kohl ist ein Starkzehrer: nährstoffreicher, feuchter Boden, Sonne und viel Platz. Ein Kulturschutznetz hält Kohlweißling und Kohlfliege fern. Gute Nachbarn: Sellerie, Tomaten, Salat.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Köpfe', 'Juli bis November', 'wenn sie fest sind; mit dem Messer über dem Strunk abschneiden'], ['Lagerkohl', 'Oktober bis November', 'vor starkem Frost, mit einigen Umblättern']], kalender: [['Kohl', [8, 9, 10, 11], [7, 12, 1, 2]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin C** – bleibt im Sauerkraut gut erhalten', '**Senfölglykoside** (Glucosinolate)', 'Ballaststoffe, Kalium, Folsäure, Vitamin K'] },
+  kueche: { text: ['Kohl wird bekömmlicher mit Kümmel, Fenchel oder Anis.'], ideen: ['**Sauerkraut** (Grundrezept 1).', '**Krautsalat.**', '**Kohlrouladen** und **Krautwickel**.', '**Schmorkohl** mit Kartoffeln.'] },
+  rezepte: [
+    { titel: 'Sauerkraut selbst gemacht', info: 'Für ein 2-Liter-Glas oder einen Gärtopf', thema: T.EINMACHEN, zutaten: ['2 kg Weißkohl', '30 bis 40 g Salz (ohne Jod)', '1 TL Kümmel, nach Belieben Wacholderbeeren'], schritte: ['Äußere Blätter entfernen und **aufheben**, Kohl vierteln, Strunk herausschneiden.', 'Kohl fein hobeln, mit Salz und Gewürzen in einer Schüssel kräftig kneten oder stampfen, bis viel Saft austritt (10 Minuten).', 'Portionsweise fest ins Glas pressen, bis Saft über dem Kohl steht.', 'Mit einem ganzen Kohlblatt abdecken und beschweren.', 'Nach Grundrezept 1 eine Woche warm, dann 3 bis 6 Wochen kühl gären lassen.'] },
+    { titel: 'Krautsalat', info: 'Für 4 Personen', thema: T.SALAT, zutaten: ['½ Weißkohl', '1 Möhre', '1 TL Salz', '3 EL Öl, 3 EL Essig, 1 TL Zucker, 1 TL Kümmel, Pfeffer'], schritte: ['Kohl fein hobeln, mit Salz kräftig kneten und 15 Minuten ziehen lassen.', 'Möhre raspeln, mit Marinade untermischen.', 'Mindestens 1 Stunde durchziehen lassen – am nächsten Tag schmeckt er noch besser.'] },
+  ],
+  verwerten: [
+    ['Kohlstrunk', 'Der Strunk ist süß und knackig: geschält in Stifte schneiden und roh knabbern (früher der Snack für Kinder) oder in Pfanne und Suppe mitgaren.', T.VERWERTEN],
+    ['Äußere Blätter', 'Für Kohlrouladen, als Abdeckung im Sauerkrautglas oder für die Kohlblattauflage (siehe unten).', T.VERWERTEN],
+  ],
+  wickel: [{ titel: 'Kohlblattauflage', info: 'Bei Schwellungen, schmerzenden Gelenken, Prellungen; von Hebammen bei Milchstau empfohlen', thema: [T.WICKEL, T.HAUT], zutaten: ['2 bis 3 äußere Weißkohl- oder Wirsingblätter', 'Nudelholz oder Flasche', 'Tuch, Binde'], schritte: ['Blätter waschen, die dicke Mittelrippe flach schneiden.', 'Mit dem Nudelholz walzen, bis Saft austritt.', 'Für Gelenke: Blätter kurz auf Körpertemperatur anwärmen (Wärmflasche). Bei Milchstau: kühl aus dem Kühlschrank, Brustwarze aussparen.', 'Mehrere Blätter überlappend auflegen, mit Tuch und Binde befestigen.', 'Mehrere Stunden oder über Nacht liegen lassen; bei Milchstau 20 bis 30 Minuten.'], tipp: 'Wird die Haut rot oder juckt sie, abnehmen. Bei Milchstau mit Fieber oder geröteter, harter Stelle Hebamme oder Arzt rufen.' }],
+  anwendung: { titel: 'Hausmittel und traditionelle Verwendung', bloecke: ['Frischer Weißkohlsaft wurde traditionell bei Magenbeschwerden getrunken. Sauerkraut und Sauerkrautsaft gelten als verdauungsfördernd – sie enthalten lebende Milchsäurebakterien, solange sie nicht erhitzt werden.'], hinweise: ['Rohes Sauerkraut kann anfangs Blähungen machen – langsam mit kleinen Mengen beginnen.'] },
+  geschichte: ['Kapitän James Cook nahm im 18. Jahrhundert Tonnen von Sauerkraut auf seine Weltreisen mit – kein Seemann seiner Mannschaft starb an Skorbut. Deshalb nannten die Engländer die Deutschen später „Krauts“.'],
+  haltbar: [['Lagern', 'kopfüber hängend oder in Zeitungspapier, kühl.', '2 bis 4 Monate'], ['Sauerkraut', 'kühl im Glas.', '6 bis 12 Monate']],
+  vorsicht: ['Bei Schilddrüsenerkrankungen große Mengen roher Kohl meiden (Senfölglykoside); gekocht unbedenklich.'],
+  quellen: ['BZfE: Kohl', 'Katz: *Die Kunst der Fermentation*'],
+};

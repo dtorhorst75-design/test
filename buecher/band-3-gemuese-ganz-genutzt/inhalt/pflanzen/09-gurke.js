@@ -1,0 +1,28 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 9, id: 'gurke', saison: 'sommer',
+  name: 'Gurke', botanisch: 'Cucumis sativus',
+  familie: 'Kürbisgewächse (Cucurbitaceae)', artikel: 'in der Gurke',
+  volksnamen: 'Salatgurke, Einlegegurke, Schlangengurke, Kukumer',
+  zeichnung: { wuchs: 'kletternd', stellung: 'wechselstaendig', blatt: 'handfoermig', rand: 'gesaegt', blattlaenge: 100, bluete: 'glocke', farbe: '#f2d22a', bluetengroesse: 30, achselblueten: 'glocke', fruchtAmStengel: true, frucht: 'gurke', fruchtgroesse: 0.8, wurzel: 'faser', hoehe: 600, knoten: 5,
+    labels: { bluete: 'gelbe Blüten', blatt: 'Blatt: groß, gelappt, rau', stengel: 'Ranken klettern am Netz', wurzel: 'flache Faserwurzeln' }, detail3: 'Frucht' },
+  intro: ['Gurken bestehen zu 97 Prozent aus Wasser – an heißen Tagen das erfrischendste Gemüse überhaupt. Einlegegurken werden zu sauren Gurken und Gewürzgurken, Salatgurken zu Gurkensalat und Tsatsiki.', 'Gurken kühlen auch von außen: Gurkenscheiben auf müden Augen sind ein altes Hausmittel.'],
+  steckbrief: [['Pflanze', 'einjährig, kriechend oder kletternd'], ['Essbare Teile', 'Früchte (mit Schale)'], ['Pflanzung', 'Mitte Mai ins Freiland, früher ins Gewächshaus'], ['Ernte', 'Juli bis September'], ['Lagerung', 'bei 10 bis 12 °C, nicht neben Tomaten und Äpfeln, 1 Woche']],
+  erkennen: [['Sorten', '**Salat- oder Schlangengurken** (lang, glatt, oft im Gewächshaus), **Einlegegurken** (kurz, warzig, für das Freiland), **Schälgurken** (dicke Schale, zum Schmoren).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Gurken lieben Wärme, Sonne, Windschutz und gleichmäßige Feuchtigkeit mit lauwarmem Wasser. Ein Rankgitter spart Platz und hält die Früchte sauber.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Einlegegurken', 'Juli bis September', 'klein (6 bis 12 cm) für Gewürzgurken, täglich kontrollieren'], ['Salatgurken', 'Juli bis September', 'wenn sie gleichmäßig grün und fest sind']], kalender: [['Gurken', [7, 8, 9]]] },
+  inhaltsstoffe: { punkte: ['97 % Wasser', 'Kalium, Vitamin C und K (vor allem in der Schale)', 'Cucurbitacine – nur bei bitteren Früchten'] },
+  kueche: { text: ['Gurken werden am besten mit Schale gegessen – dort stecken Vitamine und Aroma.'], ideen: ['**Gurkensalat** mit Dill.', '**Tsatsiki** mit Joghurt und Knoblauch.', '**Kalte Gurkensuppe** im Sommer.', '**Saure Gurken** – fermentiert oder in Essig.'] },
+  rezepte: [
+    { titel: 'Saure Gurken fermentiert (Salzgurken)', info: 'Für 1 Glas à 1,5 Liter', thema: T.EINMACHEN, zutaten: ['1 kg kleine Einlegegurken', '1 Liter Wasser', '30 g Salz', '3 Knoblauchzehen', '1 Dillblüte oder 1 Bund Dill', '1 TL Senfsaat, 5 Pfefferkörner', '2 Weinblätter oder Eichenblätter (für Knackigkeit)'], schritte: ['Gurken waschen, über Nacht in kaltes Wasser legen, Blütenansatz abschneiden.', 'Salz im Wasser auflösen.', 'Gurken mit Gewürzen und Blättern fest ins Glas schichten.', 'Mit Lake bedecken und beschweren (Grundrezept 1).', '5 bis 7 Tage bei Zimmertemperatur gären lassen, dann kühl stellen.'] },
+    { titel: 'Gurkensalat mit Dill', info: 'Für 4 Personen', thema: T.SALAT, zutaten: ['2 Salatgurken', '1 kleine Zwiebel', '1 Bund Dill', '3 EL Öl, 2 EL Essig, 1 TL Zucker, Salz, Pfeffer'], schritte: ['Gurken in feine Scheiben hobeln.', 'Zwiebel fein würfeln, Dill hacken.', 'Marinade anrühren und alles mischen. Kurz vor dem Essen anmachen, sonst zieht die Gurke Wasser.'] },
+  ],
+  verwerten: [['Gurkenwasser', 'Das Wasser aus dem Gurkenglas ist eine würzige Marinade für Kartoffelsalat, Dressings und Krautsalat – nicht wegschütten.', T.VERWERTEN], ['Gurkenschalen', 'Wer Gurken schält: Die Schalen in Wasser einlegen – ein erfrischendes Getränk wie im Spa.', T.VERWERTEN]],
+  wickel: [{ titel: 'Gurkenmaske und Gurkenscheiben', info: 'Für müde Augen und gereizte, sonnenwarme Haut', thema: T.HAUT, zutaten: ['1 Stück kühle Bio-Gurke', 'nach Belieben 2 EL Joghurt'], schritte: ['Für die Augen: zwei dünne Scheiben aus dem Kühlschrank 10 Minuten auf die geschlossenen Augen legen.', 'Für die Maske: Gurke fein reiben oder pürieren, nach Belieben mit Joghurt mischen.', 'Auf Gesicht oder Dekolleté auftragen und 15 Minuten wirken lassen, mit lauwarmem Wasser abwaschen.'], tausch: 'Mit Sojajoghurt oder ganz ohne.' }],
+  geschichte: ['Gurken stammen aus Indien und werden seit über 3000 Jahren angebaut. Der Spreewald in Brandenburg ist seit Jahrhunderten für seine sauren Gurken berühmt.'],
+  haltbar: [['Fermentiert oder in Essig', 'nach Grundrezept 1 oder 2.', '6 bis 12 Monate']],
+  vorsicht: ['Bittere Gurken nicht essen (Cucurbitacine).'],
+  quellen: ['BZfE: Gurken', 'BfR: Cucurbitacine'],
+};

@@ -71,7 +71,7 @@ function build(outFile) {
   const rahmen = require(path.join(BAND, 'inhalt', 'rahmen.js'));
   const dir = path.join(BAND, 'inhalt', 'pflanzen');
   const pflanzen = fs.readdirSync(dir).filter((f) => f.endsWith('.js')).map((f) => require(path.join(dir, f))).sort((a, b) => a.nr - b.nr);
-  const riskant = (pf) => pf.saison === 'haushalt' || !!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis;
+  const riskant = (pf) => pf.saison === 'haushalt' || (pf.bestimmungshinweis !== false && (!!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen' || !!pf.bestimmungshinweis));
   const W = 14400; // Querformat-Inhaltsbreite für Tabellen
 
   const body = [];

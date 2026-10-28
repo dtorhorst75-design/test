@@ -1,0 +1,36 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 15, id: 'zwiebel', saison: 'sommer',
+  name: 'Zwiebel', botanisch: 'Allium cepa',
+  familie: 'Amaryllisgewächse (Amaryllidaceae)', artikel: 'in der Zwiebel',
+  volksnamen: 'Küchenzwiebel, Bolle (Berlin), Zipolle, Zwiefel',
+  zeichnung: { wuchs: 'gras', bluete: 'kugel', farbe: '#f2eee6', bluetengroesse: 60, wurzel: 'zwiebel', wurzelfarbe: '#c9893a', wurzelgroesse: 2, frucht: 'wurzel', hoehe: 520, detail3: 'Zwiebel',
+    labels: { bluete: 'Blütenkugel (2. Jahr)', blatt: 'Blätter röhrig, hohl', stengel: 'hohler Blütenschaft', wurzel: 'Zwiebel mit Schalen' } },
+  intro: ['Ohne Zwiebeln geht in der Küche fast nichts. Aber die Zwiebel kann noch viel mehr: Ihre Schalen färben Ostereier goldbraun, ihr Saft ist ein altes Hustenmittel, und das Zwiebelsäckchen bei Ohrenschmerzen kennt jede Großmutter.', 'Von der Zwiebel wird wirklich alles genutzt – bis zur letzten Schale.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Zwiebel, grüne Blätter (Lauchzwiebel)'], ['Pflanzung', 'Steckzwiebeln März bis April, Aussaat März'], ['Ernte', 'Juli bis September'], ['Lagerung', 'trocken, luftig, kühl, 6 bis 8 Monate']],
+  erkennen: [['Sorten', 'Gelbe Haushaltszwiebeln, rote Zwiebeln (mild, für Salat), weiße Zwiebeln, Schalotten (fein-aromatisch) und Frühlingszwiebeln (mit Grün).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Zwiebeln brauchen Sonne und lockeren Boden, aber keinen frischen Mist. Steckzwiebeln so setzen, dass die Spitze herausschaut. Mischkultur mit Möhren hilft gegen Möhren- und Zwiebelfliege.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Zwiebeln', 'Juli bis September', 'wenn das Laub umfällt und gelb wird; ausziehen und 1 bis 2 Wochen an einem luftigen, trockenen Ort nachtrocknen'], ['Grün', 'ganzjährig', 'Frühlingszwiebeln oder austreibende Zwiebeln im Topf']], kalender: [['Zwiebeln', [7, 8, 9], [10, 11, 12, 1, 2, 3]]] },
+  inhaltsstoffe: { punkte: ['**Schwefelverbindungen** (Alliine) – Geruch und Tränen', '**Quercetin** (Flavonoid), besonders in den äußeren Schichten und Schalen', 'Vitamin C, Kalium, Ballaststoffe (Inulin)'] },
+  kueche: { text: ['Zwiebeln werden roh scharf, langsam gegart süß.'], ideen: ['**Zwiebelkuchen** im Herbst mit Federweißer.', '**Zwiebelsuppe** mit Brot.', '**Rote Zwiebeln** in Essig eingelegt als Topping.', '**Röstzwiebeln** aus dem Ofen.'] },
+  rezepte: [
+    { titel: 'Französische Zwiebelsuppe', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['1 kg Zwiebeln', '3 EL Butter oder Öl', '1 TL Zucker', '1,2 Liter Gemüsebrühe', '1 Lorbeerblatt, Thymian, Salz, Pfeffer', '4 Scheiben Brot, 100 g geriebener Käse'], schritte: ['Zwiebeln in Ringe schneiden (Schalen aufheben!).', 'In Butter bei mittlerer Hitze 30 bis 40 Minuten goldbraun schmoren, zwischendurch mit Zucker bestreuen.', 'Mit Brühe auffüllen, Kräuter zugeben und 20 Minuten köcheln.', 'In ofenfeste Schalen füllen, mit Brot und Käse belegen und überbacken.'], tausch: 'Mit Öl, und statt Käse Brot mit Knoblauchöl rösten oder pflanzlichen Reibekäse nehmen.' },
+    { titel: 'Rosa eingelegte Zwiebeln', info: 'Für 1 Glas', thema: T.EINMACHEN, zutaten: ['2 rote Zwiebeln', '150 ml Apfelessig, 150 ml Wasser', '1 EL Zucker, 1 TL Salz'], schritte: ['Zwiebeln in feine Ringe schneiden und ins Glas geben.', 'Essig, Wasser, Zucker und Salz aufkochen und darübergießen.', 'Abkühlen lassen und in den Kühlschrank stellen. Nach 1 Stunde fertig, hält 3 Wochen.'] },
+  ],
+  verwerten: [
+    { rezept: { titel: 'Ostereier färben mit Zwiebelschalen', info: 'Für 10 Eier', thema: T.VERWERTEN, zutaten: ['Schalen von 10 bis 15 Zwiebeln (über Wochen sammeln)', '1,5 Liter Wasser', '2 EL Essig', 'weiße Eier'], schritte: ['Schalen mit Wasser 30 Minuten kochen, abseihen.', 'Essig zugeben, Eier in den Sud legen und 10 Minuten kochen.', 'Im Sud abkühlen lassen – je länger, desto dunkler. Rote Zwiebelschalen ergeben rotbraune Töne.'], tipp: 'Für Muster ein Blatt (z. B. Petersilie) auf das Ei legen, mit einem alten Nylonstrumpf festbinden und mitfärben.' } },
+    ['Zwiebelschalen in die Brühe', 'Die Schalen geben der Gemüsebrühe eine goldbraune Farbe und Aroma.', T.VERWERTEN],
+    ['Zwiebelgrün nachziehen', 'Den Wurzelboden einer Frühlingszwiebel in ein Glas Wasser stellen – nach einer Woche ist neues Grün nachgewachsen.', T.VERWERTEN],
+  ],
+  anwendung: { titel: 'Hausmittel und traditionelle Verwendung', bloecke: ['Zwiebeln werden in der Volksheilkunde bei **Husten** (als Sirup), bei **Ohrenschmerzen** (als warmes Säckchen) und bei **Insektenstichen** (frische Scheibe auflegen) verwendet. Die Kommission E bewertet Zwiebeln positiv bei Appetitlosigkeit und zur Vorbeugung altersbedingter Gefäßveränderungen.', { h3: 'Zwiebelsirup bei Husten', thema: T.ERK }, { schritte: ['1 große Zwiebel fein würfeln und in ein sauberes Glas geben.', 'Mit 3 bis 4 EL Zucker oder Honig bestreuen, verschließen.', 'Einige Stunden oder über Nacht stehen lassen, bis sich Saft gebildet hat.', 'Abseihen. Mehrmals täglich 1 TL einnehmen. Im Kühlschrank 2 bis 3 Tage haltbar.'] }, 'Bei einem Insektenstich eine frisch aufgeschnittene Zwiebelhälfte einige Minuten auf die Stelle drücken – das kühlt und lindert den Juckreiz.'], hinweise: ['Kein Honig für Kinder unter einem Jahr.', 'Husten, der länger als 2 Wochen dauert oder mit Fieber und Atemnot einhergeht, ärztlich abklären.'] },
+  wickel: [
+    { titel: 'Zwiebelsäckchen bei Ohrenschmerzen', info: 'Wärmendes Säckchen (Grundtechnik Kompressen)', thema: [T.WICKEL, T.ERK], zutaten: ['1 Zwiebel', 'ein dünnes Tuch oder Säckchen', 'Mütze oder Stirnband'], schritte: ['Zwiebel fein hacken und in das Tuch geben.', 'Auf einem Teller über Wasserdampf oder zwischen zwei Wärmflaschen auf **Körperwärme** bringen und leicht zusammendrücken.', 'Auf das Ohr legen – **nicht in den Gehörgang stecken** –, mit Mütze oder Stirnband befestigen.', '20 bis 30 Minuten liegen lassen, mehrmals täglich.'], tipp: 'Ohrenschmerzen mit Fieber, Ausfluss, Hörverlust oder länger als zwei Tage ärztlich abklären – bei Kindern besonders.' },
+    { titel: 'Zwiebelwickel auf der Brust', info: 'Bei festsitzendem Husten (warmer Wickel)', thema: [T.WICKEL, T.ERK], zutaten: ['2 bis 3 Zwiebeln', 'Innentuch, Außentuch, Wärmflasche'], schritte: ['Zwiebeln grob hacken und in einer Pfanne ohne Fett glasig anwärmen (nicht bräunen).', 'In das Innentuch einschlagen, Temperatur am Unterarm prüfen.', 'Auf die Brust legen, Außentuch darüber, Wärmflasche darauf, gut zudecken.', '20 bis 30 Minuten liegen lassen.'] },
+  ],
+  geschichte: ['Zwiebeln werden seit mindestens 5000 Jahren angebaut. In Ägypten galten ihre Ringe als Symbol der Ewigkeit. Im Mittelalter hängte man Zwiebelzöpfe ins Haus, um Krankheiten fernzuhalten.'],
+  haltbar: [['Lagern', 'als Zopf oder in Netzen, kühl, dunkel und luftig.', '6 bis 8 Monate'], ['Röstzwiebeln', 'im Ofen getrocknet, luftdicht.', '2 Monate']],
+  vorsicht: ['Kein besonderes Risiko. Für Hunde und Katzen sind Zwiebeln giftig.'],
+  quellen: ['Kommission E: Monographie *Allii cepae bulbus*', 'BZfE: Zwiebeln'],
+};

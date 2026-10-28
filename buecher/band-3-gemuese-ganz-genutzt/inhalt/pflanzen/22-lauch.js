@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 22, id: 'lauch', saison: 'herbst',
+  name: 'Lauch', botanisch: 'Allium porrum',
+  familie: 'Amaryllisgewächse (Amaryllidaceae)', artikel: 'im Lauch',
+  volksnamen: 'Porree, Breitlauch, Winterlauch',
+  zeichnung: { wuchs: 'gras', bluete: 'kugel', farbe: '#e8d8e8', bluetengroesse: 55, wurzel: 'stange', frucht: 'wurzel', hoehe: 520, detail1: 'Blütenkugel (2. Jahr)', detail3: 'Schaft mit Wurzeln',
+    labels: { bluete: 'Blüte im 2. Jahr', blatt: 'Blätter: flach, blaugrün – das Grün ist essbar', stengel: 'Schaft', wurzel: 'weißer Schaft und Wurzeln' } },
+  intro: ['Lauch ist das Allzweckgemüse für Suppen, Eintöpfe, Quiches und Brühen. Er steht den ganzen Winter im Beet und wird geerntet, wann immer man ihn braucht.', 'Viele werfen das dunkle Grün weg und nutzen nur den hellen Schaft. Dabei ist das Grün aromatischer und vitaminreicher – es braucht nur etwas länger zum Garen.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Schaft, grüne Blätter, Wurzeln (frittiert)'], ['Pflanzung', 'Mai bis Juli'], ['Ernte', 'August bis April'], ['Lagerung', 'im Beet; geerntet 1 Woche im Kühlschrank']],
+  erkennen: [['Sommer- und Winterlauch', '**Sommerlauch** ist hell und zart, **Winterlauch** dunkler, kräftiger und frosthart.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Lauch braucht nährstoffreichen Boden. Jungpflanzen in 15 cm tiefe Löcher setzen und nur angießen – nicht zuschütten. Später anhäufeln, dann wird der Schaft lang und weiß. Gute Nachbarn: Möhren, Sellerie, Erdbeeren.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Stangen', 'August bis April', 'mit der Grabegabel lockern und herausziehen']], kalender: [['Lauch', [9, 10, 11, 12, 1, 2, 3], [8, 4]]] },
+  inhaltsstoffe: { punkte: ['Schwefelverbindungen (milder als Zwiebel)', 'Vitamin C, K, Folsäure', '**Inulin** (Ballaststoff)'] },
+  kueche: { text: ['Lauch sorgfältig waschen: der Länge nach aufschneiden und zwischen den Blättern Erde ausspülen.'], ideen: ['**Lauchsuppe** mit Kartoffeln.', '**Lauchkuchen und Quiche.**', '**Geschmorter Lauch** mit Vinaigrette.', '**Lauch-Kartoffel-Gratin.**'] },
+  rezepte: [{ titel: 'Lauch-Kartoffel-Suppe', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['3 Stangen Lauch (mit Grün)', '500 g Kartoffeln', '1 EL Öl', '1 Liter Gemüsebrühe', '100 ml Sahne', 'Salz, Pfeffer, Muskat'], schritte: ['Lauch putzen, das dunkle Grün und den Schaft in Ringe schneiden (Wurzeln aufheben!).', 'Im Öl andünsten, gewürfelte Kartoffeln zugeben.', 'Mit Brühe 20 Minuten kochen, pürieren, Sahne einrühren, abschmecken.'], tausch: 'Mit Hafer-Kochcreme.' }],
+  verwerten: [
+    ['Lauchgrün', 'Das dunkle Grün in feine Ringe schneiden und länger garen (Suppe, Eintopf) oder einfrieren. Große Blätter sind ein Klassiker für die Gemüsebrühe.', T.VERWERTEN],
+    { rezept: { titel: 'Frittierte Lauchwurzeln', info: 'Als Topping', thema: T.VERWERTEN, zutaten: ['Wurzelbärte von 4 Stangen Lauch', 'Öl zum Frittieren, Salz'], schritte: ['Wurzeln gründlich waschen und gut trocknen.', 'In heißem Öl 30 Sekunden frittieren, bis sie knusprig sind.', 'Salzen und über Suppe oder Salat streuen.'] } },
+  ],
+  geschichte: ['Lauch ist das Nationalsymbol von Wales: Der Legende nach trugen walisische Soldaten im Jahr 633 Lauch an den Helmen, um sich von den Feinden zu unterscheiden.'],
+  haltbar: [['Einfrieren', 'roh in Ringen.', '6 bis 10 Monate'], ['Im Beet', 'Winterlauch steht bis zum Frühjahr.', 'bis April']],
+  vorsicht: ['Kein besonderes Risiko. Für Hunde und Katzen giftig.'],
+  quellen: ['BZfE: Porree'],
+};

@@ -1,0 +1,31 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 13, id: 'rote-bete', saison: 'sommer',
+  name: 'Rote Bete', botanisch: 'Beta vulgaris subsp. vulgaris var. conditiva',
+  familie: 'Fuchsschwanzgewächse (Amaranthaceae)', artikel: 'in der Roten Bete',
+  volksnamen: 'Rote Rübe, Rahne (Süddeutschland), Randen (Schweiz), Salatrübe',
+  zeichnung: { wuchs: 'rosette', blatt: 'eifoermig', rand: 'glatt', blattlaenge: 180, blattbreite: 60, blaetter: 7, stiele: 0, bluete: 'kugel', farbe: '#b8c06a', wurzel: 'rundknolle', wurzelfarbe: '#8a1f3a', frucht: 'wurzel', hoehe: 300, detail1: 'Blüte (2. Jahr)', detail3: 'Knolle',
+    labels: { blatt: 'Blätter mit roten Adern: essbar', wurzel: 'rote Knolle' } },
+  intro: ['Rote Bete färbt Finger, Brettchen und Teller – und genau dafür lieben wir sie. Sie schmeckt erdig-süß, ist im Winter lange lagerfähig und lässt sich vom Salat bis zum Kuchen verwenden.', 'Die Blätter sind eng mit Mangold verwandt und genauso essbar.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Knolle, Blätter, Stiele'], ['Aussaat', 'April bis Juni'], ['Ernte', 'Juli bis Oktober'], ['Lagerung', 'im Sandkeller bis zum Frühjahr, im Kühlschrank 2 bis 3 Wochen']],
+  erkennen: [['Sorten', 'Neben tiefroten Kugeln gibt es gelbe, weiße und rot-weiß geringelte („Chioggia“) Sorten, die weniger färben.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Rote Bete ist anspruchslos, mag lockeren, nährstoffreichen Boden und Sonne. Jedes „Samenkorn“ ist ein Knäuel mit mehreren Samen – deshalb nach dem Aufgehen vereinzeln (die jungen Pflänzchen sind ein zarter Salat).'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Junge Knollen mit Blättern', 'Juli bis August', 'tischtennisballgroß, besonders zart'], ['Lagerknollen', 'September bis Oktober', 'vor Frost ernten, Blätter abdrehen (nicht schneiden, sonst „bluten“ sie)']], kalender: [['Knollen', [7, 8, 9, 10], [11, 12, 1, 2]]] },
+  inhaltsstoffe: { punkte: ['**Betanin** – der rote Farbstoff', '**Nitrat** – in Rote-Bete-Saft viel', 'Folsäure, Kalium, Eisen', 'Oxalsäure'], nach: 'Roter Urin nach dem Essen ist harmlos („Beeturie“).' },
+  kueche: { text: ['Rote Bete mit Schale kochen (40 bis 60 Minuten) oder im Ofen garen, dann häuten – so blutet sie weniger aus. Handschuhe schützen die Finger.'], ideen: ['**Roh** geraspelt mit Apfel und Meerrettich.', '**Ofen-Rote-Bete** mit Thymian.', '**Rote-Bete-Suppe** (Borschtsch).', '**Rote-Bete-Brownies** – saftig und schokoladig.'] },
+  rezepte: [
+    { titel: 'Rote-Bete-Salat mit Apfel und Meerrettich', info: 'Für 4 Personen', thema: T.SALAT, zutaten: ['500 g gekochte Rote Bete', '1 säuerlicher Apfel', '1 kleine rote Zwiebel', '1 EL frisch geriebener Meerrettich', '3 EL Öl, 2 EL Apfelessig, 1 TL Honig oder Sirup, Salz, Pfeffer'], schritte: ['Rote Bete und Apfel in Würfel schneiden, Zwiebel fein würfeln.', 'Dressing mit Meerrettich anrühren.', 'Alles mischen und 30 Minuten durchziehen lassen.'] },
+    { titel: 'Rote Bete süß-sauer eingelegt', info: 'Für 3 Gläser', thema: T.EINMACHEN, zutaten: ['1,5 kg Rote Bete', '500 ml Essig, 500 ml Wasser', '150 g Zucker, 1 EL Salz', '1 TL Kümmel, 3 Lorbeerblätter, 5 Nelken'], schritte: ['Rote Bete mit Schale 40 bis 60 Minuten kochen, schälen und in Scheiben schneiden.', 'Sud mit Gewürzen aufkochen.', 'Scheiben in Gläser schichten, mit kochendem Sud übergießen und nach Grundrezept 2 einkochen.'] },
+  ],
+  verwerten: [
+    ['Rote-Bete-Blätter', 'Junge Blätter roh im Salat, größere wie Mangold oder Spinat dünsten. Die roten Stiele fein schneiden und mitbraten.', T.VERWERTEN],
+    ['Natürliche Lebensmittelfarbe', 'Ein Schuss Kochwasser oder Saft färbt Zuckerguss, Nudelteig, Reis und Ostereier pink bis violett.', T.VERWERTEN],
+    ['Rote-Bete-Chips', 'Rohe Rote Bete hauchdünn hobeln, mit Öl und Salz bei 150 °C 20 bis 30 Minuten backen.', T.VERWERTEN],
+  ],
+  geschichte: ['Schon die Römer aßen Mangold; die verdickte Rübe wurde erst im Mittelalter gezüchtet. In Osteuropa ist Rote Bete die Grundlage des Borschtsch.'],
+  haltbar: [['Sandkeller', 'ungewaschen, mit kurzen Blattstielen.', 'bis zum Frühjahr'], ['Eingelegt', 'nach Grundrezept 2.', '1 Jahr'], ['Fermentiert', 'als Rote-Bete-Kwass.', '3 Monate']],
+  vorsicht: ['Bei Nierensteinen in Maßen (Oxalsäure).', 'Rote-Bete-Saft enthält viel Nitrat – nicht für Säuglinge.'],
+  quellen: ['BZfE: Rote Bete'],
+};

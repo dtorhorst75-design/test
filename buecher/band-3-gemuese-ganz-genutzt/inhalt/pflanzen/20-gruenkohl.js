@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 20, id: 'gruenkohl', saison: 'herbst',
+  name: 'Grünkohl', botanisch: 'Brassica oleracea var. sabellica',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'im Grünkohl',
+  volksnamen: 'Braunkohl, Krauskohl, Federkohl, Kale, Lippische Palme',
+  zeichnung: { wuchs: 'aufrecht', stellung: 'wechselstaendig', blatt: 'schrotsaege', blattlaenge: 170, blattbreite: 50, knoten: 7, bluete: 'kreuz', farbe: '#f2d93a', wurzel: 'pfahl', frucht: 'schote', hoehe: 560, detail1: 'Blüte (2. Jahr)',
+    labels: { bluete: 'gelbe Blüte im 2. Frühjahr', blatt: 'krause Blätter, nach Frost süßer', stengel: 'dicker, aufrechter Strunk', wurzel: 'Pfahlwurzel' } },
+  intro: ['Grünkohl ist das Wintergemüse Norddeutschlands: Wenn der erste Frost über die krausen Blätter gegangen ist, wird er süßer und milder. Dann gibt es Grünkohl mit Kartoffeln – und die „Kohlfahrt“.', 'Inzwischen ist er als „Kale“ wieder modern, für Chips, Smoothies und Salate.'],
+  steckbrief: [['Pflanze', 'zweijährig, bis 1,5 m hoch'], ['Essbare Teile', 'Blätter, junge Triebspitzen, im Frühjahr die Blütenknospen'], ['Pflanzung', 'Juni bis Juli'], ['Ernte', 'Oktober bis März'], ['Lagerung', 'am besten im Beet stehen lassen; geerntet 3 bis 5 Tage im Kühlschrank']],
+  erkennen: [['Sorten', 'Grüne, krause Sorten, rotviolette Sorten und der italienische Palmkohl (Cavolo nero) mit glatten, dunklen Blättern.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Grünkohl ist robust und winterhart bis −15 °C. Er braucht nährstoffreichen Boden und kann nach Frühkartoffeln oder Erbsen gepflanzt werden.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Blätter', 'Oktober bis März', 'von unten nach oben einzelne Blätter abbrechen, das Herz stehen lassen'], ['Blütenknospen („Kohlspargel“)', 'März bis April', 'wie Brokkoli ernten, bevor sie gelb blühen']], kalender: [['Blätter', [11, 12, 1, 2], [10, 3]], ['Knospen', [3, 4]]], tipps: ['Nach dem ersten Frost ernten – Kälte wandelt Stärke in Zucker um. Wer nicht warten will, legt die Blätter eine Nacht ins Gefrierfach.'] },
+  inhaltsstoffe: { punkte: ['**Vitamin C, K, A** (Beta-Carotin) – einer der vitaminreichsten Kohle', 'Calcium, Eisen, Folsäure', 'Senfölglykoside, Ballaststoffe'] },
+  kueche: { text: ['Blätter von den harten Mittelrippen streifen.'], ideen: ['**Grünkohl mit Kartoffeln** – deftig geschmort.', '**Grünkohl-Chips** aus dem Ofen.', '**Roh im Salat:** Blätter mit Öl und Salz weich massieren.', '**Smoothie** mit Banane und Apfel.'] },
+  rezepte: [
+    { titel: 'Grünkohl-Eintopf mit Kartoffeln', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['1 kg Grünkohl (Blätter ohne Rippen)', '2 Zwiebeln', '2 EL Öl oder Schmalz', '500 ml Gemüsebrühe', '2 EL Haferflocken oder Senf', 'Salz, Pfeffer, Muskat, 1 TL Zucker', '1 kg Kartoffeln', 'nach Wunsch Kasseler oder Mettwurst'], schritte: ['Grünkohl waschen und 2 Minuten blanchieren, grob hacken.', 'Zwiebeln würfeln und im Fett andünsten.', 'Grünkohl und Brühe zugeben und zugedeckt mindestens 1 Stunde schmoren (mit Fleisch dieses mitgaren).', 'Mit Haferflocken binden, kräftig abschmecken.', 'Mit Salz- oder Bratkartoffeln servieren. Am nächsten Tag aufgewärmt schmeckt er noch besser.'], tausch: 'Ohne Fleisch, dafür mit Räuchertofu und 1 TL Rauchpaprika.' },
+    { titel: 'Grünkohl-Chips', info: 'Für 1 Blech', thema: T.VERWERTEN, zutaten: ['200 g Grünkohlblätter', '1 EL Öl', '½ TL Salz, nach Belieben Paprika oder Hefeflocken'], schritte: ['Blätter von den Rippen zupfen, in Chip-Größe zerreißen, waschen und **sehr gut** trocknen.', 'Mit Öl und Gewürzen einmassieren.', 'Auf einem Blech verteilen und bei 130 °C 15 bis 20 Minuten backen, bis sie knusprig, aber noch grün sind.'] },
+  ],
+  verwerten: [['Mittelrippen und Strunk', 'Fein geschnitten in die Brühe, in den Eintopf oder als Gemüse kurz gebraten – sie sind nur zäh, nicht ungenießbar.', T.VERWERTEN]],
+  geschichte: ['In Norddeutschland ziehen Gruppen im Winter mit einem Bollerwagen zur „Kohlfahrt“ und essen danach Grünkohl. In Oldenburg wird jedes Jahr ein „Kohlkönig“ gekürt.'],
+  haltbar: [['Einfrieren', 'blanchiert und gehackt.', '1 Jahr']],
+  vorsicht: ['Vitamin K: Wer Blutverdünner vom Cumarin-Typ nimmt, sollte Grünkohl gleichmäßig in moderaten Mengen essen.'],
+  quellen: ['BZfE: Grünkohl'],
+};

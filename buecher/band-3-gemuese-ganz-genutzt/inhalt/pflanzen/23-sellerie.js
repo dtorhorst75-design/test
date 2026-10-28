@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 23, id: 'sellerie', saison: 'herbst',
+  name: 'Sellerie', botanisch: 'Apium graveolens',
+  familie: 'Doldenblütler (Apiaceae)', artikel: 'im Sellerie', bestimmungshinweis: false,
+  volksnamen: 'Knollensellerie, Stangensellerie (Staudensellerie), Eppich, Zeller',
+  zeichnung: { wuchs: 'rosette', blatt: 'fiedrig', blattlaenge: 200, blattbreite: 70, blaetter: 8, stiele: 0, bluete: 'dolde', farbe: '#ffffff', wurzel: 'rundknolle', wurzelfarbe: '#e8dcbc', wurzelgroesse: 1.2, frucht: 'wurzel', hoehe: 300, detail1: 'Blüte (2. Jahr)', detail3: 'Knolle',
+    labels: { blatt: 'Blätter: kräftig würzig', wurzel: 'Knolle mit Wurzelbart' } },
+  intro: ['Sellerie ist das Gewürz in der Suppe: Ohne ihn schmeckt eine Gemüsebrühe flach. Die Knolle wird gekocht, gebraten oder roh geraspelt, die Stangen des Staudenselleries roh geknabbert.', 'Die Blätter werfen die meisten weg – dabei sind sie das würzigste am ganzen Sellerie und ergeben ein wunderbares Selleriesalz.'],
+  steckbrief: [['Pflanze', 'zweijährig, wird im ersten Jahr geerntet'], ['Essbare Teile', 'Knolle, Stangen, Blätter, Samen'], ['Pflanzung', 'Mitte Mai (Anzucht ab Februar)'], ['Ernte', 'September bis November'], ['Lagerung', 'im Sandkeller bis zum Frühjahr']],
+  erkennen: [['Sorten', '**Knollensellerie** (dicke Knolle), **Staudensellerie** (fleischige Stangen), **Schnittsellerie** (nur Blätter, wie Petersilie).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Sellerie braucht eine lange Wachstumszeit, viel Wasser und Nährstoffe. Nicht zu tief pflanzen – die Knolle soll über der Erde sitzen. Mischkultur mit Kohl hält Kohlweißlinge fern.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Knollen', 'Oktober bis November', 'vor starkem Frost, Blätter bis auf das Herz abdrehen'], ['Blätter', 'Juli bis Oktober', 'einzelne äußere Blätter laufend ernten']], kalender: [['Knollen', [10, 11], [9, 12, 1, 2]], ['Blätter', [7, 8, 9, 10]]] },
+  inhaltsstoffe: { punkte: ['**ätherisches Öl** (Phthalide) – der typische Geschmack', 'Kalium, Vitamin K, Ballaststoffe', 'Furanocumarine (vor allem in Blättern)'] },
+  kueche: { text: ['Sellerieknolle schälen und schnell verarbeiten oder in Zitronenwasser legen, damit sie nicht braun wird.'], ideen: ['**Selleriepüree** mit Kartoffeln.', '**Sellerieschnitzel** paniert.', '**Waldorfsalat** mit Apfel und Walnüssen.', '**Ofensellerie** im Ganzen gebacken.'] },
+  rezepte: [{ titel: 'Ganzer Ofensellerie', info: 'Für 4 Personen', thema: T.HAUPT, zutaten: ['1 Sellerieknolle (ca. 1 kg)', '3 EL Olivenöl', 'Salz, Pfeffer, Thymian, Knoblauch'], schritte: ['Ofen auf 180 °C vorheizen.', 'Knolle gründlich schrubben (nicht schälen), Wurzelbart abschneiden.', 'Rundum mit Öl, Salz und Kräutern einreiben.', 'In Backpapier oder einem Bräter zugedeckt 1,5 bis 2 Stunden backen, bis sie butterweich ist.', 'In dicke Scheiben schneiden und servieren.'] }],
+  verwerten: [
+    { rezept: { titel: 'Selleriesalz aus den Blättern', info: 'Für 1 Glas', thema: T.VERWERTEN, zutaten: ['Blätter von 1 Sellerieknolle oder 1 Bund Staudensellerie', '150 g grobes Meersalz'], schritte: ['Blätter waschen, trocken tupfen und mit dem Salz im Mixer fein zerkleinern.', 'Auf einem Blech dünn verteilen und bei 50 °C oder an der Luft trocknen.', 'Zerbröseln und in ein Glas füllen.'] } },
+    ['Schalen und Wurzelbart', 'Gründlich gewaschen in die Gemüsebrühe – sie geben viel Aroma.', T.VERWERTEN],
+  ],
+  geschichte: ['Wilder Sellerie wächst an salzigen Küsten Europas. Die Ägypter legten Selleriekränze in Gräber, die Griechen bekränzten damit Sieger. Als Gemüse wurde er erst ab dem 17. Jahrhundert gezüchtet.'],
+  haltbar: [['Sandkeller', 'Knollen in feuchtem Sand.', 'bis zum Frühjahr'], ['Einfrieren', 'gewürfelt blanchiert.', '1 Jahr'], ['Selleriesalz', 'trocken im Glas.', '1 Jahr']],
+  vorsicht: ['**Sellerie ist ein starkes Allergen** und muss auf Lebensmitteln gekennzeichnet werden. Kreuzallergie mit Beifuß und Birke möglich.', 'Blätter können zusammen mit Sonne Hautreizungen auslösen (Furanocumarine).'],
+  quellen: ['BZfE: Sellerie'],
+};

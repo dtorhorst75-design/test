@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 19, id: 'blumenkohl-brokkoli', saison: 'herbst',
+  name: 'Blumenkohl und Brokkoli', botanisch: 'Brassica oleracea var. botrytis und var. italica',
+  familie: 'Kreuzblütler (Brassicaceae)', artikel: 'in Blumenkohl und Brokkoli',
+  volksnamen: 'Karfiol (Österreich), Spargelkohl, Romanesco (Verwandter)',
+  zeichnung: { wuchs: 'rosette', blatt: 'eifoermig', rand: 'gekerbt', blattlaenge: 170, blattbreite: 70, blaetter: 7, stiele: 0, bluete: 'kreuz', farbe: '#f2d93a', kopf: '#7fa34a', kopfgroesse: 70, wurzel: 'pfahl', frucht: 'roeschen', hoehe: 260, detail3: 'Röschen',
+    labels: { bluete: 'Kopf aus Blütenknospen', blatt: 'Blätter: essbar', wurzel: 'dicker Stiel und Pfahlwurzel' } },
+  intro: ['Bei Blumenkohl und Brokkoli essen wir eigentlich Blüten – genauer: dichte Blütenknospen, die noch nicht aufgegangen sind. Lässt man Brokkoli stehen, blüht er gelb.', 'Und hier landet besonders viel im Müll: der dicke Stiel, die Blätter. Dabei sind beide zart und lecker – der Brokkolistiel schmeckt sogar besser als die Röschen.'],
+  steckbrief: [['Pflanze', 'einjährig'], ['Essbare Teile', 'Röschen, Stiel, Blätter'], ['Pflanzung', 'April bis Juni'], ['Ernte', 'Juli bis November'], ['Lagerung', 'im Kühlschrank 3 bis 5 Tage']],
+  erkennen: [['Verwandte', '**Blumenkohl** (weiß, auch violett und gelb), **Brokkoli** (grün), **Romanesco** (hellgrün, spiralförmige Türmchen). Alle werden gleich verwendet.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Wie alle Kohlarten: nährstoffreicher, feuchter Boden und Sonne. Blumenkohl bleibt weiß, wenn man die inneren Blätter über dem Kopf zusammenknickt. Brokkoli bildet nach der Ernte des Hauptkopfes noch Seitentriebe.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Blumenkohl', 'Juli bis November', 'wenn der Kopf fest und geschlossen ist'], ['Brokkoli', 'Juli bis Oktober', 'bevor die Knospen gelb werden; Seitentriebe weiter ernten']], kalender: [['Blumenkohl/Brokkoli', [7, 8, 9, 10], [11]]] },
+  inhaltsstoffe: { punkte: ['**Vitamin C** – Brokkoli hat besonders viel', '**Sulforaphan** (Brokkoli) und andere Senfölglykoside', 'Folsäure, Vitamin K, Kalium, Ballaststoffe'] },
+  kueche: { text: ['Kurz garen oder dämpfen, damit Vitamine und Biss erhalten bleiben.'], ideen: ['**Ganz im Ofen gerösteter Blumenkohl** mit Gewürzen.', '**Blumenkohl-„Reis“:** roh im Mixer zerkleinert.', '**Brokkoli-Pasta** mit Knoblauch und Chili.', '**Suppe** aus Stielen und Blättern.'] },
+  rezepte: [{ titel: 'Ganzer Ofen-Blumenkohl', info: 'Für 4 Personen', thema: T.HAUPT, zutaten: ['1 Blumenkohl mit Blättern', '4 EL Olivenöl', '1 TL Paprika, 1 TL Kreuzkümmel, 1 TL Salz', '2 Knoblauchzehen, gepresst', 'Joghurt-Kräuter-Dip'], schritte: ['Ofen auf 200 °C vorheizen.', 'Blumenkohl im Ganzen 8 Minuten in Salzwasser vorkochen, abtropfen lassen.', 'Öl mit Gewürzen und Knoblauch verrühren und den Kohl rundum einpinseln.', 'Mit den Blättern in eine Form setzen und 40 bis 50 Minuten rösten, bis er goldbraun ist. Die Blätter werden knusprig – mitessen!'], tausch: 'Dip mit Sojajoghurt.' }],
+  verwerten: [
+    { rezept: { titel: 'Brokkolistiel-Carpaccio', info: 'Für 2 Personen', thema: T.VERWERTEN, zutaten: ['2 Brokkolistiele', 'Saft einer halben Zitrone', '2 EL Olivenöl', 'Salz, Pfeffer, geröstete Nüsse'], schritte: ['Die harte Außenhaut der Stiele mit dem Sparschäler entfernen.', 'Stiele hauchdünn hobeln.', 'Mit Zitrone, Öl, Salz und Pfeffer marinieren, mit Nüssen bestreuen.'], tipp: 'Geschälte Stiele schmecken auch gewürfelt in Pfannengerichten oder gekocht in Suppe – zart wie Kohlrabi.' } },
+    ['Blumenkohl- und Brokkoliblätter', 'Die grünen Blätter wie Grünkohl verwenden: geschmort, in Suppe oder im Ofen geröstet als Chips.', T.VERWERTEN],
+  ],
+  geschichte: ['Brokkoli kam im 16. Jahrhundert mit Katharina von Medici aus Italien nach Frankreich. In Deutschland wurde er erst in den 1970er-Jahren bekannt, Blumenkohl dagegen war schon im 18. Jahrhundert ein Feingemüse.'],
+  haltbar: [['Einfrieren', 'Röschen 2 bis 3 Minuten blanchiert.', '1 Jahr'], ['Sauer eingelegt', 'Blumenkohl in Essigsud (Mixed Pickles, Grundrezept 2).', '1 Jahr']],
+  vorsicht: ['Kein besonderes Risiko.'],
+  quellen: ['BZfE: Blumenkohl, Brokkoli'],
+};

@@ -1,0 +1,27 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 8, id: 'zucchini', saison: 'sommer',
+  name: 'Zucchini', botanisch: 'Cucurbita pepo',
+  familie: 'Kürbisgewächse (Cucurbitaceae)', artikel: 'in der Zucchini',
+  volksnamen: 'Zucchetti (Schweiz), Courgette, Gartenkürbis',
+  zeichnung: { wuchs: 'kriechend', blatt: 'handfoermig', rand: 'gesaegt', blattlaenge: 90, blattbreite: 60, bluete: 'glocke', farbe: '#f2b62a', bluetengroesse: 40, bodenfrucht: true, frucht: 'zucchini', fruchtgroesse: 1.2, wurzel: 'faser', hoehe: 200,
+    labels: { bluete: 'große, gelbe Blüten – essbar', blatt: 'Blatt: groß, gelappt, rau', stengel: 'buschiger Wuchs', wurzel: 'Faserwurzeln' }, detail3: 'Frucht' },
+  intro: ['Eine Zucchinipflanze reicht für eine ganze Familie – zwei für die Nachbarschaft. Im Hochsommer wachsen die Früchte so schnell, dass man täglich ernten kann.', 'Neben den Früchten sind auch die großen gelben Blüten eine Delikatesse: gefüllt und ausgebacken.', '**Wichtig:** Schmeckt eine Zucchini **bitter**, darf sie nicht gegessen werden – siehe Vorsicht.'],
+  steckbrief: [['Pflanze', 'einjährig, buschig, bis 1 m Durchmesser'], ['Essbare Teile', 'Früchte, Blüten'], ['Pflanzung', 'Mitte Mai, nach den Eisheiligen'], ['Ernte', 'Juli bis September'], ['Lagerung', 'kühl (nicht im kalten Kühlschrankfach), 1 Woche']],
+  erkennen: [['Sorten', 'Grüne, gelbe, gestreifte und runde Zucchini – alle schmecken ähnlich. Kleine Früchte (15 bis 20 cm) sind am aromatischsten.']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Zucchini brauchen Sonne, Wärme, viel Platz (1 m²), nährstoffreichen Boden und viel Wasser. Nicht über die Blätter gießen, sonst gibt es Mehltau.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Früchte', 'Juli bis September', 'mit 15 bis 25 cm Länge abschneiden; Riesenzucchini sind wässrig'], ['Blüten', 'Juli bis August', 'vor allem **männliche** Blüten (am dünnen Stiel, ohne Fruchtansatz) morgens pflücken']], kalender: [['Früchte', [7, 8, 9]], ['Blüten', [7, 8]]] },
+  inhaltsstoffe: { punkte: ['viel Wasser, wenig Kalorien', 'Kalium, Vitamin C, Folsäure', '**Cucurbitacine** – nur bei bitteren Früchten, giftig'] },
+  kueche: { text: ['Zucchini sind vielseitig: roh, gebraten, gegrillt, gefüllt, gebacken.'], ideen: ['**Roh** in dünnen Streifen als Salat.', '**Gebraten** mit Knoblauch und Kräutern.', '**Gefüllte Zucchini** mit Reis und Tomaten.', '**Zucchinikuchen** – saftig wie Möhrenkuchen.'] },
+  rezepte: [
+    { titel: 'Gefüllte Zucchiniblüten', info: 'Für 4 Personen als Vorspeise', thema: T.HAUPT, zutaten: ['12 Zucchiniblüten', '200 g Ricotta oder Frischkäse', '1 Handvoll Kräuter (Basilikum, Petersilie)', 'Salz, Pfeffer, Zitronenschale', 'Ausbackteig: 100 g Mehl, 150 ml kaltes Sprudelwasser, Prise Salz', 'Öl zum Ausbacken'], schritte: ['Blüten vorsichtig öffnen und den Stempel innen herausbrechen.', 'Ricotta mit gehackten Kräutern, Salz, Pfeffer und Zitronenschale verrühren und in die Blüten füllen, Blütenspitzen zudrehen.', 'Mehl mit Sprudelwasser und Salz glatt rühren.', 'Blüten durch den Teig ziehen und in heißem Öl goldbraun ausbacken.'], tausch: 'Mit pflanzlichem Frischkäse oder zerdrücktem Tofu mit Zitrone und Kräutern.' },
+    { titel: 'Saftiger Zucchinikuchen', info: 'Für 1 Kastenform', thema: T.BACKEN, zutaten: ['300 g Zucchini, fein geraspelt', '250 g Mehl, 1 Päckchen Backpulver', '150 g Zucker', '100 g gemahlene Haselnüsse', '150 ml Öl', '2 Eier', '1 TL Zimt, 1 Prise Salz'], schritte: ['Ofen auf 180 °C vorheizen.', 'Zucchini raspeln (nicht ausdrücken).', 'Alle Zutaten verrühren und in eine gefettete Kastenform füllen.', '50 bis 60 Minuten backen (Stäbchenprobe).'], tausch: 'Statt der Eier 100 g Apfelmus.' },
+  ],
+  verwerten: [['Riesenzucchini', 'Zu groß geratene Zucchini schälen, entkernen und zu Suppe, Chutney oder Kuchen verarbeiten – oder halbieren und mit Reis und Tomaten gefüllt im Ofen backen.', T.VERWERTEN]],
+  geschichte: ['Die Zucchini ist eine italienische Züchtung aus dem 19. Jahrhundert – ein unreif geernteter Gartenkürbis. Ihr Name bedeutet „kleiner Kürbis“. In Deutschland wurde sie erst ab den 1970er-Jahren populär.'],
+  haltbar: [['Einfrieren', 'geraspelt für Kuchen oder in Scheiben gebraten.', '8 Monate'], ['Sauer einlegen', 'in Scheiben nach Grundrezept 2.', '1 Jahr']],
+  vorsicht: ['**Bittere Zucchini sofort ausspucken und wegwerfen** – Cucurbitacine sind giftig und werden durch Kochen nicht zerstört. Vor dem Kochen immer ein kleines rohes Stück probieren.', 'Kein eigenes Saatgut von Zucchini nehmen, die neben Zierkürbissen wuchsen.'],
+  quellen: ['BfR: Cucurbitacine in Zucchini und Kürbis', 'BZfE: Zucchini'],
+};

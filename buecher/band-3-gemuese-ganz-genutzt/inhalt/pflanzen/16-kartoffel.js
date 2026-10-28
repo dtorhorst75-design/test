@@ -1,0 +1,35 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 16, id: 'kartoffel', saison: 'herbst',
+  name: 'Kartoffel', botanisch: 'Solanum tuberosum',
+  familie: 'Nachtschattengewächse (Solanaceae)', artikel: 'in der Kartoffel',
+  volksnamen: 'Erdapfel, Grundbirne, Grumbeere (Pfalz), Tüffel, Erdbirne',
+  zeichnung: { wuchs: 'strauch', stellung: 'wechselstaendig', blatt: 'fiedrig', blattlaenge: 140, blattbreite: 60, bluete: 'stern', farbe: '#f2eef6', mitte: '#e9c33b', bluetengroesse: 30, wurzel: 'knolle', frucht: 'kartoffel', hoehe: 420,
+    labels: { bluete: 'weiße bis violette Blüten', blatt: 'Kraut: gefiedert – giftig', stengel: 'Stängel – giftig', wurzel: 'Knollen an Ausläufern' }, detail3: 'Knollen' },
+  intro: ['Die Kartoffel hat Europa satt gemacht. Sie ist günstig, vielseitig und lässt sich ohne Kühlschrank monatelang lagern. Wer einmal eigene Kartoffeln ausgegraben hat, weiß: Das ist wie Schatzsuche.', 'Auch die Kartoffel ist ein Hausmittel: Der warme Kartoffelwickel ist einer der bekanntesten Wickel überhaupt. Und die Schalen werden zu knusprigen Chips.'],
+  steckbrief: [['Pflanze', 'einjährig (Knollen überdauern), 40 bis 80 cm'], ['Essbare Teile', '**nur die Knollen** – gekocht; Kraut, Blüten und grüne Beeren sind giftig'], ['Pflanzung', 'April bis Mai'], ['Ernte', 'Frühkartoffeln ab Juni, Lagerkartoffeln September bis Oktober'], ['Lagerung', 'dunkel, kühl (4 bis 8 °C), luftig – 4 bis 8 Monate']],
+  erkennen: [['Kocheigenschaften', '**Festkochend** (Salat, Bratkartoffeln, Gratin), **vorwiegend festkochend** (Allrounder, Pellkartoffeln), **mehligkochend** (Püree, Klöße, Suppe, Reibekuchen).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Kartoffeln brauchen lockeren, nährstoffreichen Boden und Sonne. Vorgekeimte Saatkartoffeln 10 cm tief legen, wenn das Kraut 15 cm hoch ist, Erde anhäufeln. Auch im Kübel, Sack oder Hochbeet möglich.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Frühkartoffeln', 'Juni bis Juli', 'wenn die Pflanze blüht, vorsichtig nachgraben'], ['Lagerkartoffeln', 'September bis Oktober', '2 bis 3 Wochen nachdem das Kraut abgestorben ist – dann ist die Schale fest']], kalender: [['Frühkartoffeln', [6, 7]], ['Lagerkartoffeln', [9, 10], [11, 12, 1, 2, 3]]] },
+  inhaltsstoffe: { punkte: ['**Stärke** (15 bis 20 %)', 'Vitamin C, Kalium, B-Vitamine, hochwertiges Eiweiß', '**Solanin** – in grünen Stellen, Keimen, Kraut und Beeren'] },
+  kueche: { text: ['Kartoffeln immer gegart essen. Mit Schale gekocht (Pellkartoffeln) bleiben die meisten Vitamine erhalten.'], ideen: ['**Pellkartoffeln** mit Kräuterquark.', '**Bratkartoffeln** aus gekochten Kartoffeln vom Vortag.', '**Kartoffelsalat**, **Püree**, **Reibekuchen**, **Kartoffelsuppe**.'] },
+  rezepte: [
+    { titel: 'Reibekuchen (Kartoffelpuffer)', info: 'Für 4 Personen', thema: T.HAUPT, zutaten: ['1 kg mehligkochende Kartoffeln', '1 Zwiebel', '2 Eier', '2 EL Mehl', 'Salz, Muskat', 'Öl zum Braten', 'Apfelmus'], schritte: ['Kartoffeln schälen (Schalen aufheben!) und mit der Zwiebel fein reiben.', 'In einem Tuch kräftig ausdrücken, das Wasser auffangen und die Stärke absetzen lassen.', 'Wasser abgießen, die Stärke mit Kartoffeln, Eiern, Mehl und Gewürzen mischen.', 'Kleine Fladen in reichlich heißem Öl knusprig braten.'], tausch: 'Ohne Eier: einfach 2 EL Mehl mehr nehmen – die abgesetzte Kartoffelstärke bindet auch so.' },
+    { titel: 'Kartoffelsuppe', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['1 kg mehligkochende Kartoffeln', '2 Möhren, 1 Stück Sellerie, 1 Stange Lauch, 1 Zwiebel', '1,2 Liter Gemüsebrühe', '1 TL Majoran, Salz, Pfeffer, Muskat'], schritte: ['Gemüse und Kartoffeln würfeln, Zwiebel in etwas Öl andünsten.', 'Alles mit Brühe 25 Minuten kochen.', 'Teilweise pürieren, mit Majoran und Gewürzen abschmecken.'] },
+  ],
+  verwerten: [
+    ['Kartoffelschalen-Chips', 'Saubere Bio-Kartoffelschalen (ohne grüne Stellen!) nach Grundrezept 6 rösten.', T.VERWERTEN],
+    ['Kartoffelkochwasser', 'Abgekühltes, ungesalzenes Kochwasser enthält Mineralstoffe und ist ein guter Dünger für Zimmerpflanzen. Heiß über Unkraut in Pflasterfugen gegossen, lässt es dieses absterben.', T.GARTEN],
+    ['Kartoffelstärke', 'Beim Reiben abgesetzte Stärke trocknen lassen – sie bindet Soßen wie gekaufte Speisestärke.', T.VERWERTEN],
+  ],
+  wickel: [
+    { titel: 'Warmer Kartoffelwickel für Brust oder Hals', info: 'Bei Husten, Bronchitis, Halsschmerzen (warmer Wickel)', thema: [T.WICKEL, T.ERK], zutaten: ['3 bis 4 mittelgroße Kartoffeln', 'Innentuch, Zwischentuch, Außentuch (Wollschal für den Hals)'], schritte: ['Kartoffeln mit Schale weich kochen und abgießen.', 'Auf das Innentuch legen, zu einem Päckchen falten und mit der Hand flach drücken.', '**Sehr gründlich die Temperatur prüfen** – Kartoffeln speichern lange Hitze. Lieber ein paar Minuten warten und mehrmals am Unterarm testen.', 'Auf Brust oder Hals legen (am Hals die Wirbelsäule frei lassen), Zwischen- und Außentuch darüber.', 'Liegen lassen, solange es angenehm warm ist (20 bis 40 Minuten), danach nachruhen.'], tipp: 'Bei Kindern besonders vorsichtig: Verbrennungsgefahr! Nicht bei Fieber über 38,5 °C.' },
+  ],
+  anwendung: { titel: 'Hausmittel und traditionelle Verwendung', bloecke: ['Frisch gepresster Kartoffelsaft wird traditionell bei **Sodbrennen** und Magendrücken getrunken (2 bis 3 EL vor dem Essen, nur von einwandfreien Kartoffeln ohne grüne Stellen). Eine offizielle Bewertung gibt es nicht.'], hinweise: ['Anhaltendes Sodbrennen ärztlich abklären.'] },
+  geschichte: ['Die Kartoffel kam im 16. Jahrhundert aus den Anden nach Europa – zuerst als Zierpflanze. Friedrich der Große ließ 1756 den „Kartoffelbefehl“ erlassen, damit die Bauern sie anbauten. Der Legende nach ließ er Kartoffelfelder bewachen, damit das Volk glaubte, sie seien wertvoll.'],
+  haltbar: [['Lagern', 'dunkel, kühl und luftig in Kisten, nicht neben Äpfeln (beschleunigen die Keimung).', '4 bis 8 Monate'], ['Gekocht', 'im Kühlschrank.', '3 Tage']],
+  vorsicht: ['**Grüne Stellen und Keime großzügig wegschneiden**, stark grüne Kartoffeln wegwerfen (Solanin).', 'Kraut und grüne Beeren nie essen – Kinder warnen.', 'Kartoffelwickel: Verbrennungsgefahr.'],
+  quellen: ['BfR: Solanin in Kartoffeln', 'BZfE: Kartoffeln'],
+};

@@ -1,0 +1,31 @@
+const T = require('../rezeptthemen.js');
+module.exports = {
+  nr: 6, id: 'erbse', saison: 'sommer',
+  name: 'Erbse', botanisch: 'Pisum sativum',
+  familie: 'Hülsenfrüchtler (Fabaceae)', artikel: 'in der Erbse',
+  volksnamen: 'Gartenerbse, Markerbse, Zuckererbse, Schalerbse, Kefe (Schweiz)',
+  zeichnung: { wuchs: 'kletternd', stellung: 'wechselstaendig', blatt: 'fiedrig', blattlaenge: 110, blattbreite: 50, bluete: 'lippe', einzelbluete: 'lippe', farbe: '#f6f2fa', fruchtAmStengel: true, frucht: 'erbse', wurzel: 'faser', hoehe: 600, knoten: 5,
+    labels: { bluete: 'weiße Schmetterlingsblüten', blatt: 'Blatt: gefiedert, mit Ranken', stengel: 'Stängel rankt an Reisig', wurzel: 'Wurzeln mit Knöllchen (Stickstoff)' }, detail3: 'Hülse mit Erbsen' },
+  intro: ['Frische Erbsen direkt aus der Hülse zu naschen – das ist Sommer im Garten. Erbsen wachsen schnell, ranken an Reisig hoch und verbessern sogar den Boden, weil ihre Wurzeln Stickstoff aus der Luft binden.', 'Und das Beste: Nicht nur die Erbsen sind essbar. Aus den leeren Hülsen wird eine feine Suppe, und die jungen Triebspitzen schmecken wie zartes Erbsengrün.'],
+  steckbrief: [['Pflanze', 'einjährig, rankend, 0,5 bis 2 m'], ['Essbare Teile', 'Samen, junge Hülsen (Zuckererbsen), Triebspitzen, Sprossen'], ['Aussaat', 'März bis Mai'], ['Ernte', 'Juni bis Juli'], ['Lagerung', 'frisch 1 bis 2 Tage, sonst einfrieren']],
+  erkennen: [['Sorten', '**Schalerbsen** (glatte, runde Samen, für frühe Saat und zum Trocknen), **Markerbsen** (schrumpelig, süß, zum Frischessen) und **Zuckererbsen** (Kefen, flache Hülsen, die ganz gegessen werden).']],
+  standortTitel: 'Anbau im Garten',
+  standort: ['Erbsen mögen sonnige, lockere Böden und kühles Frühjahrswetter. Sie brauchen eine Rankhilfe: Reisig, Maschendraht oder Schnüre. Weil sie Stickstoff binden, sind sie eine gute Vorkultur für Kohl und Tomaten.'],
+  sammelnTitel: 'Ernten und Lagern',
+  sammeln: { tabelle: [['Markerbsen', 'Juni bis Juli', 'wenn die Hülsen prall, aber noch grün sind'], ['Zuckererbsen', 'Juni', 'solange die Hülsen flach sind'], ['Triebspitzen', 'Mai bis Juni', 'die obersten 5 cm einiger Triebe abknipsen']], kalender: [['Erbsen', [6, 7]], ['Triebspitzen', [5, 6]]], tipps: ['Regelmäßig ernten, dann setzt die Pflanze neue Hülsen an.'] },
+  inhaltsstoffe: { punkte: ['**Eiweiß** (frisch 6 %, getrocknet 23 %)', 'Ballaststoffe, Vitamin C, B-Vitamine, Folsäure', 'Zucker (Markerbsen), Stärke (Schalerbsen)'] },
+  kueche: { text: ['Frische Erbsen brauchen nur 3 bis 5 Minuten Garzeit. Getrocknete Erbsen werden eingeweicht und gekocht.'], ideen: ['**Roh** aus der Hülse.', '**Erbsen-Minz-Püree** zu Kartoffeln.', '**Erbsensuppe** aus getrockneten Erbsen – der Wintereintopf.', '**Zuckerschoten** kurz im Wok.'] },
+  rezepte: [
+    { titel: 'Erbseneintopf aus getrockneten Erbsen', info: 'Für 4 Personen', thema: T.SUPPE, zutaten: ['250 g getrocknete gelbe oder grüne Schälerbsen', '1 Zwiebel, 2 Möhren, 1 Stück Sellerie, 1 Stange Lauch', '3 Kartoffeln', '1,5 Liter Gemüsebrühe', '1 TL Majoran, Salz, Pfeffer', 'nach Wunsch Würstchen'], schritte: ['Erbsen waschen (Schälerbsen müssen nicht eingeweicht werden).', 'Mit der Brühe aufkochen und 45 Minuten köcheln.', 'Gemüse und Kartoffeln würfeln, zugeben und weitere 20 Minuten kochen.', 'Mit Majoran, Salz und Pfeffer abschmecken. Teilweise pürieren, wer es sämig mag.'], tausch: 'Mit Räuchertofu-Würfeln oder vegetarischen Würstchen.' },
+  ],
+  verwerten: [
+    { rezept: { titel: 'Erbsenschoten-Suppe', info: 'Für 2 Personen', thema: T.VERWERTEN, zutaten: ['Hülsen von 1 kg frischen Erbsen', '1 Zwiebel', '1 Kartoffel', '1 EL Öl', '750 ml Wasser oder Brühe', 'Salz, Pfeffer, einige Minzblätter'], schritte: ['Hülsen waschen, Stielansätze abschneiden.', 'Zwiebel und Kartoffel würfeln und im Öl andünsten.', 'Hülsen und Wasser zugeben und 20 Minuten kochen.', 'Fein pürieren und **unbedingt durch ein Sieb streichen** – so bleiben die zähen Fasern zurück.', 'Abschmecken und mit Minze servieren.'], tipp: 'Die Suppe schmeckt intensiv nach frischen Erbsen – aus etwas, das sonst im Kompost landet.' } },
+    ['Erbsengrün', 'Junge Triebspitzen roh über Salat, auf dem Brot oder kurz im Wok. Auch aus getrockneten Erbsen kannst du auf der Fensterbank Erbsengrün ziehen: Erbsen einweichen, in Erde säen, nach 2 bis 3 Wochen abschneiden.', T.VERWERTEN],
+  ],
+  haushaltTitel: 'Im Garten',
+  haushalt: [['Gründünger', 'Nach der Ernte die Erbsenpflanzen abschneiden und die Wurzeln im Boden lassen – die Knöllchen geben Stickstoff an die nächste Kultur ab.', T.GARTEN]],
+  geschichte: ['Erbsen gehören zu den ältesten Kulturpflanzen der Welt – sie wurden schon vor 9000 Jahren im Nahen Osten angebaut. Gregor Mendel entdeckte an Erbsen im 19. Jahrhundert die Grundregeln der Vererbung.'],
+  haltbar: [['Einfrieren', 'ausgepalt 1 bis 2 Minuten blanchiert.', '1 Jahr'], ['Trocknen', 'reife Schalerbsen an der Pflanze ausreifen lassen.', '2 Jahre']],
+  vorsicht: ['Kein besonderes Risiko. Getrocknete Erbsen immer gut durchgaren.'],
+  quellen: ['BZfE: Erbsen'],
+};
