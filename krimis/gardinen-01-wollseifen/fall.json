@@ -12,21 +12,66 @@
     "Was erfunden ist: Alle Figuren, ihre Familien, der Heimatverein „Heimatfreunde Hochfläche“, die Firma Lentzen Bau, die Milchkanne und das Verbrechen sind frei erfunden. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig. Die Einrichtung der Kirche, die Grabung an der Schule und manche Abläufe bei Polizei und Behörden sind für die Geschichte verändert."
   ],
   "sprecher": {
-    "JO": ["Jo (Erzählerin)", "Sprecherin 1 – Diana"],
-    "KONRAD": ["Konrad", "Sprecher 2"],
-    "BENNY": ["Benny", "Sprecher 3"],
-    "ANNELIESE": ["Anneliese (Brief)", "Gaststimme oder Sprecherin 1"],
-    "GAST": ["Absender aus Hof (Brief)", "Gaststimme oder Sprecher 2"],
-    "SVENJA": ["Svenja Brück", "Sprecherin 1"],
-    "JOSEFINE": ["Josefine Esser", "Sprecherin 1"],
-    "MERTES": ["Kommissarin Mertes", "Sprecherin 1"],
-    "KLEIN": ["Notarin Dr. Klein", "Sprecherin 1"],
-    "HAMACHER": ["Frau Hamacher", "Sprecherin 1"],
-    "KALFF": ["Gerd Kalff", "Sprecher 2"],
-    "BERND": ["Bernd Lentzen", "Sprecher 3 mit tiefer Stimme oder Gaststimme"],
-    "DIETER": ["Dieter Brück", "Sprecher 3"],
-    "LUKAS": ["Lukas Stollenwerk", "Sprecher 3"],
-    "ACHIM": ["Achim Krause", "Sprecher 3"]
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ANNELIESE": [
+      "Anneliese (Brief)",
+      "Gaststimme oder Sprecherin 1"
+    ],
+    "GAST": [
+      "Absender aus Hof (Brief)",
+      "Gaststimme oder Sprecher 2"
+    ],
+    "SVENJA": [
+      "Svenja Brück",
+      "Sprecherin 1"
+    ],
+    "JOSEFINE": [
+      "Josefine Esser",
+      "Sprecherin 1"
+    ],
+    "MERTES": [
+      "Kommissarin Mertes",
+      "Sprecherin 1"
+    ],
+    "KLEIN": [
+      "Notarin Dr. Klein",
+      "Sprecherin 1"
+    ],
+    "HAMACHER": [
+      "Frau Hamacher",
+      "Sprecherin 1"
+    ],
+    "KALFF": [
+      "Gerd Kalff",
+      "Sprecher 2"
+    ],
+    "BERND": [
+      "Bernd Lentzen",
+      "Sprecher 3 mit tiefer Stimme oder Gaststimme"
+    ],
+    "DIETER": [
+      "Dieter Brück",
+      "Sprecher 3"
+    ],
+    "LUKAS": [
+      "Lukas Stollenwerk",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 3"
+    ]
   },
   "aussprache": [
     "Wollseifen – WOLL-sei-fen",
@@ -37,5 +82,61 @@
     "Lentzen – LENT-zen",
     "Stollenwerk – STOL-len-werk",
     "Hamacher – HAH-mach-er"
-  ]
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Hermine vor der Fahrradwerkstatt",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Früher Morgen in einem Kölner Hinterhof: Hermine steht vor der Fahrradwerkstatt. Benny sitzt am Steuer und isst ein Brötchen, Konrad mit Thermoskanne auf dem Beifahrersitz, Jo steigt hinten zwischen den Häkelgardinen ein.",
+      "prompt": "Early morning in a narrow brick backyard in Cologne-Ehrenfeld, a small bicycle repair shop with bikes leaning against the wall and a hand-painted sign without readable letters. In front of it stands the vintage hearse, polished and gleaming. The young man sits behind the wheel eating a bread roll, the old man in a suit sits in the passenger seat holding his thermos, and the woman climbs into the back between the lace curtains, holding a small cardboard box. Soft morning light, pigeons on the roof, a feeling of a quirky road trip about to begin."
+    },
+    "2": {
+      "titel": "Der Bauer an der Ampel",
+      "figuren": [
+        "Jo",
+        "Hermine"
+      ],
+      "beschreibung": "An einer Dorfampel in der Eifel hält ein alter Bauer auf dem Traktor neben Hermine, nimmt ehrfürchtig die Mütze ab und hält sie vor die Brust – während Jo hinten die Gardine aufzieht und fröhlich winkt.",
+      "prompt": "Humorous scene at a traffic light in a small grey-stone Eifel village. An elderly farmer on a vintage green tractor has stopped next to the cream-white hearse and solemnly holds his flat cap to his chest out of respect. In the rear window of the hearse, the woman has pulled the lace curtain aside and waves cheerfully at him. The farmer's eyes widen in surprise. Rolling hills and dark spruce forest in the background, morning light."
+    },
+    "3": {
+      "titel": "Die Kirche von Wollseifen im Ginster",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Die drei stehen von hinten gesehen auf dem Weg über die Hochfläche. Vor ihnen die kleine weiße Kirche ganz allein im blühenden Ginster, ringsum nur noch niedrige Mauerreste. Konrad hat den Hut abgenommen.",
+      "prompt": "Wide view over an open windswept upland heath in full bloom with golden-yellow broom stretching to the horizon under a vast sky with larks. On a gentle rise stands a single small white church with a slate-roofed tower, completely alone; around it only low, mossy, knee-high stone wall remains in the grass where houses once stood. In the foreground, seen from behind on a gravel path, three figures stand still: the woman, the old man holding his hat in his hand, and the young man with headphones around his neck. Quiet, moving, slightly melancholic, beautiful light."
+    },
+    "4": {
+      "titel": "Josefine und Konrad",
+      "figuren": [
+        "Konrad"
+      ],
+      "beschreibung": "Im Gemeinschaftsraum des Seniorenheims: Die 97-jährige Josefine im lila Trainingsanzug, mit Lippenstift und dicker Brille, mustert Konrad, der ein wenig rot wird. Im Hintergrund läuft eine Quizsendung.",
+      "prompt": "Warm, funny scene in the common room of a small nursing home. A lively 97-year-old woman with very thick glasses that make her eyes look huge, bright lipstick and a purple tracksuit sits upright in an armchair and looks the old man up and down with a sharp, amused expression. He sits opposite her very politely, hat on his knees, cheeks slightly pink. A small table with coffee cups, a vase of lilac flowers, a TV in the background showing a colourful quiz show, a window with a view of a river and green hills."
+    },
+    "5": {
+      "titel": "Nachtwanderung über die Hochfläche",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Vollmondnacht auf der Hochfläche: Benny voraus mit rot abgeklebter Stirnlampe, dann Jo, dann Konrad im Anzug mit guten Schuhen. Der Ginster silbergrau, eine Eule auf einer Mauer, in der Ferne schwach das Licht des Baggers.",
+      "prompt": "Night scene under a bright full moon on a wide upland heath. The broom bushes look silver-grey in the moonlight. Three figures walk in single file along a narrow path: in front the young man with a headlamp giving only a faint red glow, then the woman, then the old man in his suit, carefully stepping in polished leather shoes. An owl sits on a low ruined stone wall. Far away on the horizon, a tiny white church silhouette and the faint yellow glow of work lights. Suspenseful but charming, deep blues and silver."
+    },
+    "6": {
+      "titel": "Der Messingring in der Kirche",
+      "figuren": [],
+      "beschreibung": "Nahaufnahme: In einer Mauernische der kleinen Kirche liegt der schiefe Messingring neben einem Marmeladenglas mit Ginster, einer brennenden Kerze und einem kleinen silbernen Kreuz an einer Kette.",
+      "prompt": "Intimate close-up still life inside a small, simple whitewashed village church. In a deep window niche in the thick stone wall lie a simple, slightly crooked ring hammered from brass, glowing warmly in candlelight, next to a jam jar with a bunch of golden-yellow broom, a lit white candle and a small tarnished silver cross on a fine chain. Soft daylight falls through a narrow window. Peaceful, moving, hopeful mood."
+    }
+  }
 }

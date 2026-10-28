@@ -10,6 +10,7 @@ Textformat der Kapitel (text/01.txt …):
   @NAME Absatz            Dialog: Text in „…“ spricht NAME, der Rest ist Erzählung (Jo)
   @@NAME Absatz           der ganze Absatz wird von NAME gesprochen (Briefe)
   § Text                  Eintrag aus Jos Spesenbuch
+  ! 3                     Bildplatz Nr. 3 (Beschreibung und Prompt stehen in fall.json unter „bilder“)
 """
 import glob
 import json
@@ -48,6 +49,8 @@ def zerlege(absatz):
     """Gibt (art, sprecher, text) zurück: art ist 'erzaehlung', 'dialog', 'ganz' oder 'spesen'."""
     if absatz.startswith('§'):
         return 'spesen', 'JO', absatz[1:].strip()
+    if absatz.startswith('!'):
+        return 'bild', None, absatz[1:].strip()
     m = re.match(r'@@([A-ZÄÖÜ]+)\s+(.*)', absatz, re.S)
     if m:
         return 'ganz', m.group(1), m.group(2)
@@ -171,6 +174,25 @@ def kapitelkopf(doc, nummer, titel):
     absatz(doc, titel, einzug=False, groesse=Pt(18), ausrichtung=WD_ALIGN_PARAGRAPH.CENTER, nach=24)
 
 
+def rahmen(p, farbe='9E9E9E'):
+    pPr = p._p.get_or_add_pPr()
+    bdr = OxmlElement('w:pBdr')
+    for seite in ('top', 'left', 'bottom', 'right'):
+        el = OxmlElement(f'w:{seite}')
+        for k, v in (('val', 'dashed'), ('sz', '8'), ('space', '6'), ('color', farbe)):
+            el.set(qn(f'w:{k}'), v)
+        bdr.append(el)
+    pPr.append(bdr)
+
+
+def bildplatz(doc, nr, bild):
+    p = absatz(doc, f"Bildplatz {nr}: {bild['titel']}\n(Hier das Bild einfügen, Breite 11 cm, dann diesen Kasten löschen.)",
+               einzug=False, farbe=GRAU, groesse=Pt(9), vor=10, nach=10, ausrichtung=WD_ALIGN_PARAGRAPH.CENTER)
+    for _ in range(4):
+        p.runs[-1].add_break()
+    rahmen(p)
+
+
 def lesefassung(fall, kapitel, seiten, ziel):
     doc = Document()
     grundlayout(doc)
@@ -184,6 +206,10 @@ def lesefassung(fall, kapitel, seiten, ziel):
             art, sprecher, text = zerlege(a)
             if art == 'spesen':
                 absatz(doc, 'Aus Jos Spesenbuch: ' + text, einzug=False, kursiv=True, farbe=GRAU, groesse=Pt(10), vor=10)
+            elif art == 'bild':
+                bildplatz(doc, text, fall['bilder'][text])
+                erster = True
+                continue
             elif art == 'ganz':
                 absatz(doc, text, einzug=False, kursiv=True, nach=6)
             else:
@@ -215,7 +241,45 @@ def seiten_ermitteln(docx_pfad, kapitel, extra):
                 ergebnis[titel] = i + 1
                 start = i
                 break
+    for i in range(len(seiten)):
+        for m in re.finditer(r'Bildplatz (\w+):', seiten[i]):
+            ergebnis['bild:' + m.group(1)] = i + 1
     return ergebnis
+
+
+def bildprompts(fall, kapitel, seiten, serie, ziel):
+    """Word-Datei mit allen Bildprompts für Gemini, mit Kapitel und Seite."""
+    doc = Document()
+    grundlayout(doc)
+    absatz(doc, f"{fall['reihe']} – {fall['fall']}: {fall['titel']}", einzug=False, groesse=Pt(10), farbe=GRAU, nach=4)
+    absatz(doc, 'Bildprompts für Gemini', einzug=False, groesse=Pt(20), nach=12)
+    for t in [
+        'Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil, damit alle Bilder zusammenpassen. Einfach den ganzen grauen Block in Gemini kopieren.',
+        '**Farbe oder Schwarz-Weiß?** Für das E-Book nimmst du die Farbversion. Für das Taschenbuch ist ein farbiger Innenteil bei Amazon KDP deutlich teurer – dann ersetzt du den letzten Absatz des Prompts (den Stil) durch den Schwarz-Weiß-Stil unten.',
+        '**So kommt das Bild ins Buch:** In der Lesefassung steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen (Rechtsklick › Größe und Position) und den Kasten löschen. Die Seitenzahlen unten gelten ohne Bilder; mit Bildern verschieben sie sich ein wenig nach hinten.',
+        '**Format:** Querformat 3:2, zum Beispiel 1800 × 1200 Pixel. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.',
+        'Wenn Gemini Buchstaben ins Bild malt oder eine Figur ganz anders aussieht: einfach neu erzeugen lassen.',
+    ]:
+        absatz(doc, t, einzug=False, nach=6)
+    absatz(doc, 'Schwarz-Weiß-Stil (für das Taschenbuch)', einzug=False, groesse=Pt(12), vor=8, nach=4)
+    absatz(doc, serie['stil_sw'], einzug=False, groesse=Pt(9), farbe=GRAU, nach=10)
+    kap_nach_bild = {}
+    for n, (titel, absaetze) in enumerate(kapitel, 1):
+        for a in absaetze:
+            if a.startswith('!'):
+                kap_nach_bild[a[1:].strip()] = (n, titel)
+    for nr, bild in fall['bilder'].items():
+        n, titel = kap_nach_bild.get(nr, ('?', '?'))
+        seite = seiten.get('bild:' + nr, '?')
+        absatz(doc, f'Bild {nr}: {bild["titel"]}', einzug=False, groesse=Pt(14), vor=14, nach=2)
+        absatz(doc, f'Kapitel {n} „{titel}“ · Seite {seite} der Lesefassung', einzug=False, farbe=GRAU, groesse=Pt(9), nach=4)
+        absatz(doc, bild['beschreibung'], einzug=False, nach=4)
+        figuren = ' '.join(serie['figuren'][f] + '.' for f in bild.get('figuren', []))
+        figuren = ('Characters: ' + figuren) if figuren else ''
+        prompt = f"{bild['prompt']} {figuren}".strip() + '\n\n' + serie['stil_farbe']
+        p = absatz(doc, prompt, einzug=False, groesse=Pt(9), nach=6)
+        rahmen(p, 'BDBDBD')
+    doc.save(ziel)
 
 
 def sprecherfassung(fall, kapitel, ziel):
@@ -261,6 +325,8 @@ def sprecherfassung(fall, kapitel, ziel):
         zeile('JO', f'Kapitel {n}. {titel}.')
         for a in absaetze:
             art, sprecher, text = zerlege(a)
+            if art == 'bild':
+                continue
             if art == 'spesen':
                 zeile('JO', 'Aus Jos Spesenbuch: ' + text, kursiv=True)
             elif art == 'ganz':
@@ -294,7 +360,11 @@ def main():
     lesefassung(fall, kapitel, {}, lese)
     seiten = seiten_ermitteln(lese, kapitel, extra)
     lesefassung(fall, kapitel, seiten, lese)
-    fehlend = [t for t, _ in kapitel if t not in seiten]
+    fehlend = [t for t, _ in kapitel if t not in seiten] + [k for k in fall.get('bilder', {}) if 'bild:' + k not in seiten]
+    if fall.get('bilder'):
+        serie = json.load(open(os.path.join(ordner, '..', 'serie.json'), encoding='utf-8'))
+        bildprompts(fall, kapitel, seiten, serie, os.path.join(ordner, fall['datei'] + '-Bildprompts.docx'))
+        print('Bilder:', {k: v for k, v in seiten.items() if k.startswith('bild:')})
     sprecher = os.path.join(ordner, fall['datei'] + '-Sprecherfassung.docx')
     sprecherfassung(fall, kapitel, sprecher)
     worte = sum(len(re.sub(r'^@@?[A-ZÄÖÜ]+\s', '', a).split()) for _, abs_ in kapitel for a in abs_)

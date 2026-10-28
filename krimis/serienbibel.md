@@ -8,6 +8,8 @@ Die Firma **Fink & Ehrlich – Letzte Wünsche aller Art** (Motto: „Wir erledi
 
 ## Die drei
 
+*Aussehen (für Bilder): Jo – kurzer aschblonder Bob, rote Brille, beiger Trenchcoat, kleines schwarzes Notizbuch. Konrad – groß, schmal, weißes Haar, glatt rasiert, grauer Dreiteiler, dunkler Filzhut, karierte Thermoskanne. Benny – groß, breitschultrig, dunkle Locken, Dreitagebart, grauer Kapuzenpulli, Jeans, Turnschuhe.*
+
 **Johanna „Jo“ Fink, 52** – Ich-Erzählerin. Früher Steuerprüferin beim Finanzamt Köln-Altstadt, nach einem Burn-out ausgestiegen. Trocken, ironisch, ordnungsliebend, führt ein **Spesenbuch**, in das sie auch Dinge einträgt, die man nicht bezahlen kann. Erkennt Lügen an Zahlen und Papieren. Geschieden von Achim, lebt allein mit einem Kaktus namens Herr Becker. Weint nie in der Öffentlichkeit, nur im Auto.
 
 **Konrad Ehrlich, 76** – pensionierter Bestatter aus Köln-Nippes, Witwer (seine Frau Gertrud starb vor vier Jahren; die Häkelgardinen im Wagen sind von ihr). Altmodisch höflich, siezt alle, nennt Benny „junger Mann“. Hat eine Thermoskanne mit Pfefferminztee und zu jedem Ort eine Geschichte („Wussten Sie, dass …“). Erkennt, wie jemand gestorben ist. Alte Menschen erzählen ihm alles.
@@ -31,7 +33,8 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 
 ## Regeln für jeden Fall
 
-- Etwa 13.000 bis 14.000 Wörter (rund 1,5 Stunden Hörzeit), 14 kurze Kapitel.
+- Ab Fall 2: etwa 25.000 bis 27.000 Wörter (rund 2 Stunden Lesezeit, knapp 3 Stunden Hörzeit), 22 bis 24 kurze Kapitel. (Fall 1: 13.600 Wörter.)
+- Mindestens 6 Bilder pro Fall; die Prompts stehen in fall.json und werden als eigene Word-Datei mit Seitenangaben ausgegeben.
 - Kapitel 1 ist immer **der Brief** des Verstorbenen an die Firma (Gaststimme).
 - Der Wunsch und der Mord hängen zusammen. Faires Rätseln: alle Hinweise liegen offen.
 - Jo, Konrad und Benny tragen jeder mit ihrem Können zur Lösung bei.
