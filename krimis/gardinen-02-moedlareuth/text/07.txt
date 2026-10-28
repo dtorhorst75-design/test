@@ -1,0 +1,71 @@
+# Ein Kalender mit einem Buchstaben
+
+Kerstin Lang empfing uns im Verwaltungstrakt des Museums, in einem Büro mit einem großen Fenster, durch das man direkt auf die Mauer sah. Auf ihrem Schreibtisch standen drei Kaffeetassen, alle halb voll, und ein Foto von zwei Kindern auf einem Trampolin. Sie hatte offensichtlich nicht geschlafen.
+
+@LANG „Rudi hatte ein kleines Zimmer hier hinten“, sagte sie. „Eigentlich eine Abstellkammer. Er hat sie ‚mein Büro‘ genannt. Da hat er seine Führungen vorbereitet und Besucher empfangen, die etwas über die Grenze wissen wollten. Die Polizei war gestern schon da und hat sich umgesehen. Sie haben gesagt, ich darf es Ihnen zeigen, solange Sie nichts mitnehmen.“
+
+Das Zimmer war winzig. Ein Schreibtisch, ein Stuhl, ein Regal, ein Fenster, das auf den Parkplatz ging. An der Wand eine Karte der innerdeutschen Grenze, mit rotem Filzstift beschriftet. Ein Foto in einem schwarzen Rahmen: Ein junger Soldat in grauer Uniform mit Schirmmütze, vielleicht zwanzig, mit abstehenden Ohren und einem ernsten, unsicheren Gesicht. Darunter, mit Kugelschreiber auf den Rahmen geschrieben: „Ich, 1966. Ich hätte es wissen müssen.“
+
+Auf dem Schreibtisch lag ein Tischkalender, einer von diesen Kalendern, die man in Apotheken geschenkt bekommt, mit einer Woche pro Doppelseite und einem Foto von Heilpflanzen. Er war bei der aktuellen Woche aufgeschlagen. Rudis Schrift war zittrig, die Buchstaben schwankten wie Grashalme im Wind, aber man konnte sie lesen.
+
+Am Montag stand dort: „Erika – 3. Versuch.“ Am Dienstag: „Gruppe Plauen, 11 Uhr.“ Am Mittwoch: „Waltraud?“ Mit Fragezeichen. Und am Donnerstag, dem Tag, an dem er gestorben war, stand: „20 Uhr – H. – Mauer.“
+
+@BENNY „H.“, sagte Benny. „Wer ist H.?“
+
+@LANG „Das hat die Polizei mich auch gefragt“, sagte Kerstin Lang. „Ich weiß es nicht. Hildegard, vielleicht. Hildegard Rödel. Die beiden kannten sich ewig. Oder der Hausarzt, der heißt Hofmann. Oder der Herr Hagen von der Zeitung, der den Zeitzeugentag ankündigen wollte. Oder …“ Sie stockte. „Oder jemand ganz anderes.“
+
+@JO „Frau Lang, Herr Söllner hatte doch Unterlagen. Gerhard Wunderlich hat geschrieben, Rudi habe Unterlagen, die beweisen, dass Gerhard seine Schwester nicht verraten hat. Wo sind die?“
+
+Kerstin Lang zog die oberste Schreibtischschublade auf. Darin lagen Kugelschreiber, Hustenbonbons, eine Lupe, ein Stapel Postkarten des Museums und eine leere, durchsichtige Plastikhülle, so eine, wie man sie für Aktenordner benutzt.
+
+@LANG „Er hatte eine blaue Mappe“, sagte sie. „Die hat er seit dem Frühjahr überall mit hingenommen. Er hat gesagt, das sei seine Akte. Seine Stasi-Akte. Er hat sie letztes Jahr beim Bundesarchiv beantragt, beim Stasi-Unterlagen-Archiv. Man kann als Betroffener seine eigene Akte einsehen und Kopien bekommen. Er war ja 1966 selbst verdächtigt worden, er sei an der Fluchthilfe beteiligt gewesen. Er wurde danach versetzt, an einen anderen Grenzabschnitt, und später unehrenhaft entlassen. In seiner Akte, hat er gesagt, steht alles. Wer die Flucht verraten hat. Und wer die Verhaftung geleitet hat.“
+
+@JO „Und die Mappe ist weg.“
+
+@LANG „Die Polizei hat sie nicht gefunden. Nicht hier, nicht in seinem Haus. Und auch nicht am Bach.“
+
+Konrad betrachtete das Foto des jungen Soldaten. Er stand sehr lange davor.
+
+@KONRAD „Ich hätte es wissen müssen“, las er leise vor. „Was hätte er wissen müssen, Frau Lang?“
+
+@LANG „Ich glaube“, sagte Kerstin Lang, „er meinte, dass man ihm nicht traute. Horst Fiedler hatte ihn gefragt, ob er in der Nacht wegsehen würde. Rudi hat Ja gesagt. Er war zwanzig, er war Bauernsohn aus der Gegend, er kannte Horst vom Fußball. Und in der Nacht hat man ihn kurzfristig vom Turm abgezogen und einen anderen hingestellt. Und unten am Bach haben sie schon gewartet. Rudi hat sein Leben lang geglaubt, dass er es war, der die Sache verraten hat, durch ein falsches Wort, durch einen Blick. Und das ganze Dorf hat ihm das genauso geglaubt. Bis er seine Akte gelesen hat.“
+
+Benny hatte sich inzwischen auf den Stuhl am Schreibtisch gesetzt, vorsichtig, als könne er etwas kaputt machen. Neben dem Kalender lag ein Tablet in einer abgegriffenen Lederhülle. Er tippte darauf. Der Bildschirm wurde hell. Ein Foto vom Tannbach im Winter, mit Eis an den Steinen.
+
+@BENNY „Kein Code“, sagte er. „Frau Lang, durfte die Polizei sich das Tablet ansehen?“
+
+@LANG „Sie haben es angesehen, ja. Sie haben gesagt, da ist nichts Besonderes drauf. Rudi hat damit Fotos gemacht und E-Mails geschrieben. Er hat gesagt, das Tablet sei für seine zitternden Finger besser als ein Handy.“
+
+@BENNY „Hatte er auch ein Handy?“
+
+@LANG „Ja, ein altes. Für Notfälle. Das hatte er immer bei sich, in der Brusttasche.“
+
+@BENNY „Und das hat die Polizei bei ihm gefunden?“
+
+Kerstin Lang dachte nach.
+
+@LANG „Nein“, sagte sie. „Ich glaube nicht. Sie haben mich danach gefragt.“
+
+Benny schaute auf das Tablet. Er sagte nichts. Aber ich kenne diesen Blick inzwischen. Es ist der Blick, den er hat, wenn er unter Hermines Motorhaube schaut und ein Geräusch hört, das da nicht hingehört.
+
+Auf dem Rückweg zum Ausgang führte uns Kerstin Lang durch die Ausstellung. Fotos, Uniformen, ein alter Trabant, Grenzsteine, Signalzaunteile, ein Funkgerät. Und eine Wand mit großen Schwarz-Weiß-Fotos vom Bau der Mauer im Sommer 1966: Männer mit Schubkarren, Betonteile an Kränen, Soldaten, die zusahen. Auf einem der Fotos standen drei Offiziere im Vordergrund, die Hände auf dem Rücken, und schauten zu, wie das erste Betonteil gesetzt wurde. Zwei von ihnen waren alt und dick. Der dritte war jung, schlank, mit einem schmalen Gesicht und einer Brille mit dünnem Metallgestell.
+
+Unter dem Foto stand nur: „Grenzoffiziere beim Mauerbau, August 1966.“
+
+@JO „Wer sind die?“, fragte ich.
+
+Kerstin Lang blieb stehen. Sie seufzte.
+
+@LANG „Die zwei Älteren sind längst tot. Der Junge …“ Sie zögerte. „Der Junge hieß Manfred Heinold. Er war damals Leutnant. Offiziell bei den Grenztruppen. Inoffiziell, so sagen jedenfalls die Historiker, gehörte er zur Staatssicherheit, zur Abteilung, die die eigenen Soldaten überwachte. Früher stand sein Name unter dem Foto. 2019 hat er uns über einen Anwalt mitteilen lassen, dass er nie in Mödlareuth Dienst getan habe und dass das eine Verwechslung sei. Er hat mit einer Klage gedroht. Wir sind ein kleines Museum. Wir haben den Namen entfernt.“
+
+@KONRAD „Lebt er noch?“
+
+@LANG „Er wohnt in Hof“, sagte Kerstin Lang. „Seit 1991. Auf der bayerischen Seite.“ Sie lachte, ganz kurz und ohne Freude. „Er ist dort Vorsitzender eines Schützenvereins. Und er hat eine Jagd im Frankenwald.“
+
+Heinold.
+
+H.
+
+Ich schrieb es in mein Spesenbuch, ganz klein, an den Rand der Seite, wo sonst nur die Summen stehen.
+
+§ Eintritt Deutsch-Deutsches Museum: drei Personen, ermäßigt für Konrad. Frau Lang wollte kein Geld nehmen. Ich habe trotzdem drei Postkarten gekauft. Eine davon schicke ich an Herrn Becker, meinen Kaktus. Er soll sehen, dass ich an ihn denke.

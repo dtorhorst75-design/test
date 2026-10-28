@@ -52,7 +52,7 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 ## Geplante Fälle
 
 1. Der Messingring von Wollseifen (Eifel)
-2. Mödlareuth (Bayern/Thüringen)
+2. Dreimal kurz in Mödlareuth (Bayern/Thüringen)
 3. Die F60 bei Lichterfeld (Lausitz)
 4. Die Halligen (Nordfriesland)
 5. Teufelsberg (Berlin)

@@ -1,0 +1,172 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 2",
+  "titel": "Dreimal kurz in Mödlareuth",
+  "autorin": "Diana",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-2-Moedlareuth",
+  "ort": "Mödlareuth",
+  "besuchen": [
+    "Mödlareuth liegt an der Grenze zwischen Bayern (Gemeinde Töpen, Landkreis Hof) und Thüringen (Stadt Gefell, Saale-Orla-Kreis), nicht weit von der Autobahn A9 zwischen Hof und Plauen. Seit 1810 bildet der Tannbach hier die Grenze; von 1952 an trennte ein Zaun, von 1966 an eine etwa 700 Meter lange Betonmauer das Dorf. Amerikanische Soldaten nannten es „Little Berlin“. Am 9. Dezember 1989 wurde in Mödlareuth ein Übergang für Fußgänger geöffnet, im Juni 1990 wurde die Mauer abgerissen – bis auf das Stück, das heute noch steht.",
+    "Das Deutsch-Deutsche Museum Mödlareuth zeigt eine Ausstellung zur deutschen Teilung und ein großes Freigelände mit Mauerstück, Wachturm, Grenzzäunen und Fahrzeugen. Öffnungszeiten, Eintritt und Führungen findest du auf der Website des Museums. Am Grünen Band, dem ehemaligen Grenzstreifen, kann man auf dem alten Kolonnenweg wandern.",
+    "Wer etwas über die eigene Familie und die Staatssicherheit wissen möchte, kann beim Stasi-Unterlagen-Archiv im Bundesarchiv einen Antrag auf Akteneinsicht stellen.",
+    "Was erfunden ist: Alle Figuren und ihre Familien, die Gaststätte „Zum Tannbach“, die Jagdhütte am Döbraberg, die Mitarbeiterinnen und Mitarbeiter des Museums, die Polizisten und das Verbrechen sind frei erfunden. Das Museum, sein Zeitzeugentag und die Abläufe bei Polizei und Behörden sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "GERHARD": [
+      "Gerhard Wunderlich (Briefe)",
+      "Gaststimme oder Sprecher 2"
+    ],
+    "ERIKA": [
+      "Erika Fiedler",
+      "Sprecherin 1 (alt, streng)"
+    ],
+    "WALTRAUD": [
+      "Waltraud Geipel",
+      "Sprecherin 1 (alt, warm)"
+    ],
+    "HILDEGARD": [
+      "Hildegard Rödel",
+      "Sprecherin 1 (alt, rau)"
+    ],
+    "LANG": [
+      "Kerstin Lang",
+      "Sprecherin 1"
+    ],
+    "WEISSFLOG": [
+      "Mandy Weißflog (Thüringen)",
+      "Sprecherin 1"
+    ],
+    "NOTARIAT": [
+      "Notariatsgehilfin",
+      "Sprecherin 1"
+    ],
+    "BAEUERIN": [
+      "Die zwei Bäuerinnen",
+      "Sprecherin 1"
+    ],
+    "STELZER": [
+      "Bernhard Stelzer (Bayern)",
+      "Sprecher 2 mit fränkischer Färbung"
+    ],
+    "HERTEL": [
+      "Dr. Albrecht Hertel",
+      "Sprecher 2"
+    ],
+    "HEINOLD": [
+      "Manfred Heinold",
+      "Gaststimme oder Sprecher 2 (ruhig, kühl)"
+    ],
+    "FRANK": [
+      "Frank Rödel",
+      "Sprecher 3"
+    ],
+    "THOMAS": [
+      "Thomas Fiedler",
+      "Sprecher 3 (tief)"
+    ],
+    "UWE": [
+      "Uwe Geipel",
+      "Sprecher 3"
+    ],
+    "LEHRER": [
+      "Der Lehrer",
+      "Sprecher 3"
+    ],
+    "POLIZIST": [
+      "Junger Polizist",
+      "Sprecher 3"
+    ],
+    "WAERSCHTLAMO": [
+      "Der Wärschtlamo",
+      "Sprecher 2 (fränkisch)"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 3"
+    ],
+    "KUBASCH": [
+      "H. Kubasch (Postkarte)",
+      "Gaststimme"
+    ]
+  },
+  "aussprache": [
+    "Mödlareuth – MÖHD-la-reut (langes Ö)",
+    "Tannbach – TANN-bach",
+    "Töpen – TÖH-pen",
+    "Gefell – ge-FELL",
+    "Döbraberg – DÖH-bra-berg",
+    "Wärschtlamo – WÄRSCHT-la-mo (fränkisch: Würstchenmann)",
+    "Weißflog – WEISS-flohg",
+    "Heinold – HEI-nold",
+    "Kubasch – KUH-basch"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Die Mauer im Dorf",
+      "figuren": [
+        "Hermine"
+      ],
+      "beschreibung": "Ankunft: Hermine hält oben an der Straße. Unten in der Senke das kleine Dorf mit roten Dächern, mittendurch das Stück graue Betonmauer und der Wachturm, davor zwei Polizeiautos und ein Krankenwagen ohne Blaulicht.",
+      "prompt": "View from a country road down into a small village in a green valley: red-roofed farmhouses, barns and a church with a pointed spire on one side, green meadows with cows. Cutting straight through the middle of the village a remaining section of grey concrete border wall with a round pipe on top, a watchtower with windows all around and a strip of raked sand. In front of the wall on the meadow two police cars and an ambulance with its lights off. In the foreground at the edge of the road the vintage hearse has stopped. Overcast late morning, quiet, ominous but beautiful."
+    },
+    "2": {
+      "titel": "Füße in Bayern, Kopf in Thüringen",
+      "figuren": [],
+      "beschreibung": "Am Tannbach streiten der bayerische Kommissar mit Schnauzbart und Trachtenjacke und die thüringische Kommissarin mit Pferdeschwanz, wer zuständig ist. Zwischen ihnen der schmale Bach mit Steinen, im Hintergrund die Mauer.",
+      "prompt": "Humorous scene at a narrow, clear brook with stones, alder trees and nettles, a section of grey concrete wall in the background. On one bank a stout man of about sixty with a big grey moustache and a green traditional Bavarian jacket points emphatically at the ground; on the other bank a slim woman of about forty with a blonde ponytail and a black windbreaker points at the water with crossed arms. Between them, in the brook, a small yellow boundary marker. A young police officer in uniform tries hard not to laugh. Red-and-white tape between two trees. Overcast light, gently comic."
+    },
+    "3": {
+      "titel": "Uwe und der Kirchturm",
+      "figuren": [
+        "Benny"
+      ],
+      "beschreibung": "In Waltrauds Küche: Benny hält mit zwei Fingern den Kirchturm aus Streichhölzern, Uwe im Rollstuhl strahlt, Waltraud in der Kirschenschürze holt den Marmorkuchen aus dem Ofen. Draußen bunte Windräder im Garten.",
+      "prompt": "Warm, cosy kitchen scene in a small village house. A cheerful man of about sixty with a broad friendly face sits in a wheelchair at the kitchen window, building a large, detailed model of a village church out of matchsticks. The tall young man stands bent over the table, carefully holding the tiny matchstick church tower with two fingers, concentrating hard. In the background a round elderly woman with short grey curls and an apron printed with cherries takes a marble cake out of the oven. Through the window colourful pinwheels in a vegetable garden. Afternoon sunlight, tender and funny."
+    },
+    "4": {
+      "titel": "Die blaue Mappe",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "In der Kanzlei des alten Notars in Hof: Jo liest am Schreibtisch die Kopien aus der blauen Mappe, Konrad hält ein Blatt in beiden Händen, Benny isst eine Butterbrezel, der Notar mit Fliege steht am Fenster.",
+      "prompt": "An old-fashioned lawyer's office with stucco ceiling, a thick carpet and tall windows onto a quiet old town street on a Sunday morning. At a large wooden desk the woman reads photocopied documents from an open blue folder; some lines are underlined in red pen. The old man sits beside her, holding a single sheet in both hands, deeply moved. The young man sits on a chair by the wall, eating a pretzel. At the window stands a very old, tall, stooped notary with a bow tie, looking down into the street. Coffee cups on the desk. Quiet, serious, warm light."
+    },
+    "5": {
+      "titel": "Erika spricht",
+      "figuren": [],
+      "beschreibung": "Zeitzeugentag vor der Mauer: Die 91-jährige Erika im dunkelgrauen Mantel mit Hut steht am Rednerpult auf der Bühne aus Holzpaletten und hält ein Blatt hoch. Davor zweihundert Klappstühle, eine Fernsehkamera, in der dritten Reihe ein Mann in grüner Lodenjacke.",
+      "prompt": "An outdoor remembrance event in front of a remaining section of grey concrete border wall and a watchtower. On a small stage made of wooden pallets a tiny, very upright 91-year-old woman in a dark grey 1960s coat and a small black hat stands at a lectern and holds up a single sheet of paper in a plastic sleeve. In front of her rows of folding chairs full of people of all ages, a TV camera on a tripod at the side. In the third row, at the aisle, a slim older man in a green loden jacket sits very straight. A white tent with a grill on the side. Overcast sky, solemn and powerful moment."
+    },
+    "6": {
+      "titel": "Hermine im Frankenwald",
+      "figuren": [
+        "Hermine",
+        "Benny"
+      ],
+      "beschreibung": "Hermine rast mit wehenden Häkelgardinen durch ein Schieferdorf im Frankenwald, vor der Kirche steht die Sonntagsgemeinde und bekreuzigt sich, eine alte Frau lässt ihr Gesangbuch fallen.",
+      "prompt": "Comic action scene: the vintage cream-white hearse with lace curtains fluttering speeds through a small Franconian Forest village with grey slate-covered houses and a church. In front of the church a congregation in Sunday clothes has just come out and stares in astonishment; several people cross themselves, an old woman drops her hymn book. The young man at the wheel concentrates, a big forester in a green jacket in the passenger seat points the way. Dark spruce forest on the hills behind. Dynamic composition, lively and funny."
+    },
+    "7": {
+      "titel": "Ein Bier für Gerhard",
+      "figuren": [
+        "Konrad"
+      ],
+      "beschreibung": "Auf der kleinen Brücke über den Tannbach: Erika gießt ein Glas Bier in den Bach, neben ihr untergehakt Waltraud, dahinter Thomas, Uwe mit Brause, die beiden Kommissare nebeneinander und Konrad mit dem Hut vor der Brust.",
+      "prompt": "Late afternoon golden light on a small wooden footbridge over a narrow brook between green meadows, a village with red roofs behind. A tiny, very old woman in a dark grey coat and hat pours a glass of golden beer from the bridge into the water in a thin stream. Arm in arm next to her a round old woman with grey curls. Behind them a big man in a checked shirt, a man in a wheelchair with a bottle of lemonade, a moustached man and a blonde woman standing side by side, and the tall old man holding his hat to his chest. Old beer glasses with an engraved edelweiss on the railing. Moving, warm, reconciling mood."
+    }
+  }
+}
