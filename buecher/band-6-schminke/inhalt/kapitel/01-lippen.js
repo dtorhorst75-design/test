@@ -1,0 +1,20 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 1, id: 'lippen', teil: 'lippen', titel: 'Farbe für die Lippen', kurz: 'Lippen',
+  bloecke: [
+    'Die Lippen sind der einfachste Einstieg: Ein getönter Balsam pflegt und gibt einen Hauch Farbe. Er ist kein deckender Lippenstift – das Ergebnis wirkt wie „deine Lippen, nur schöner“.',
+    { h2: 'Der Grundbalsam' },
+    'Alle getönten Lippenbalsame in diesem Kapitel bauen auf derselben Grundmischung auf. Sie reicht für etwa 6 Lippenstifthülsen oder 3 kleine Tiegel.',
+    { tabelle: [['Zutat', 'Menge', 'Aufgabe'],
+      ['Candelillawachs', '8 g', 'macht den Stift fest'],
+      ['Sheabutter oder Kakaobutter', '10 g', 'pflegt, macht cremig'],
+      ['Jojobaöl oder Mandelöl', '20 g', 'pflegt, lässt den Stift gleiten'],
+    ], breiten: [3600, 1600, 3870] },
+    'Für einen weicheren Balsam im Tiegel nimmst du nur 6 g Wachs.',
+    R({ titel: 'Getönter Lippenbalsam in Rosé', info: 'Für 6 Lippenstifthülsen', thema: T.LIPPEN, zutaten: ['Grundbalsam (siehe oben)', '½ bis 1 TL Rote-Bete-Pulver, fein gesiebt', 'Wasserbad, Mörser oder Schälchen, Pipette oder kleiner Löffel', 'Lippenstifthülsen, vorher mit Alkohol ausgewischt'], schritte: ['Rote-Bete-Pulver durch ein Teesieb geben und mit einem Teil des Öls im Mörser **glatt anreiben**, bis keine Körnchen mehr zu sehen sind.', 'Wachs, Butter und restliches Öl im Wasserbad schmelzen.', 'Die Farbpaste einrühren. Mit einem Tropfen auf dem Handrücken die Farbe prüfen – mehr Pulver für kräftigeres Rosé.', 'Zügig in die Hülsen füllen, dabei immer wieder umrühren, damit sich das Pulver nicht absetzt.', 'Abkühlen lassen, dann verschließen und beschriften.'], tipp: 'Die Farbe entfaltet sich erst auf den Lippen, wenn sie mit etwas Feuchtigkeit in Berührung kommt. Dunkel lagern – Licht bleicht Rote-Bete-Farbe. Nach etwa 3 Monaten wird sie bräunlicher.' }),
+    R({ titel: 'Schoko-Lippenbalsam in Nude', info: 'Für 6 Lippenstifthülsen', thema: T.LIPPEN, zutaten: ['Grundbalsam mit Kakaobutter', '½ bis 1 TL ungesüßtes Kakaopulver, fein gesiebt', 'für einen rosigen Ton: zusätzlich ¼ TL Rote-Bete-Pulver'], schritte: ['Kakao (und Rote Bete) mit etwas Öl glatt anreiben.', 'Wachs, Kakaobutter und Öl im Wasserbad schmelzen und die Farbpaste einrühren.', 'In Hülsen füllen, abkühlen lassen, verschließen.'], tipp: 'Ergibt einen warmen, natürlichen Braunton und duftet nach Schokolade. Kakao hält seine Farbe lange.' }),
+    R({ titel: 'Beerentönung aus dem Tiegel', info: 'Für 2 kleine Tiegel à 15 ml', thema: [T.LIPPEN, T.WANGEN], zutaten: ['4 g Candelillawachs', '8 g Sheabutter', '15 g Jojobaöl', '1 TL Rote-Bete-Pulver und eine Messerspitze Kakao'], schritte: ['Die Pulver mit einem Teil des Öls anreiben.', 'Wachs, Butter und Öl schmelzen, Farbpaste einrühren.', 'In die Tiegel gießen und abkühlen lassen.', 'Mit dem Finger auf die Lippen tupfen – oder als Creme-Rouge auf die Wangen.'], tipp: 'Diese weiche Tönung ist ein echtes Zwei-in-eins: Lippen und Wangen haben dann genau den gleichen Ton.' }),
+    R({ titel: 'Rote-Bete-Tönung für den Tag', info: 'Für einmal', thema: [T.LIPPEN, T.WANGEN], zutaten: ['eine Scheibe gekochte oder rohe Rote Bete', 'ein Wattestäbchen', 'etwas Lippenbalsam'], schritte: ['Mit dem Wattestäbchen etwas Saft von der Schnittfläche aufnehmen.', 'Auf die Lippen tupfen, kurz trocknen lassen und eine dünne Schicht farblosen Balsam darüber geben.', 'Für die Wangen sparsam auftupfen und sofort mit den Fingern verwischen.'], tipp: 'Das ist der älteste Trick überhaupt. Der Saft färbt kräftig – erst wenig nehmen. Den Rest nicht aufbewahren.' }),
+    R({ titel: 'Sanftes Lippenpeeling', info: 'Für ein kleines Glas', thema: T.LIPPEN, zutaten: ['2 TL feiner Zucker', '1 TL Jojoba- oder Mandelöl'], schritte: ['Zucker und Öl in einem kleinen Glas verrühren.', 'Etwas davon mit dem Finger kreisend auf die Lippen reiben.', 'Abwischen oder ablecken, dann Balsam auftragen.'], tipp: 'Vor dem Auftragen von getöntem Balsam aufgetragen, wird die Farbe gleichmäßiger. Nicht bei rissigen oder wunden Lippen.' }),
+  ],
+};
