@@ -41,7 +41,7 @@ module.exports = {
         { h2: 'Aufbau der Pflanzenkapitel' },
         'Jedes Kapitel folgt demselben Aufbau, damit du dich schnell zurechtfindest:',
         { punkte: [
-          '**Zeichnung:** Eine botanische Zeichnung zeigt die ganze Pflanze mit Wurzel, Stängel, Blättern und Blüte, dazu Detailansichten von Blüte, Blatt und Frucht. Die Zeichnungen sind schematisch und betonen die Bestimmungsmerkmale. Sie ersetzen kein Bestimmungsbuch und keinen Blick auf die echte Pflanze.',
+          '**Zeichnung:** Eine schematische Zeichnung zeigt die ganze Pflanze mit Wurzel, Stängel, Blättern und Blüte, dazu Detailansichten von Blüte, Blatt und Frucht. Die Zeichnungen sind schematisch und betonen die Bestimmungsmerkmale. Sie ersetzen kein Bestimmungsbuch mit Fotos und keinen genauen Blick auf die echte Pflanze. Bei Pflanzen mit giftigen Doppelgängern steht unter der Zeichnung ein roter Hinweis: Hier zählen allein die Merkmale im Text.',
           '**Steckbrief:** die wichtigsten Merkmale auf einen Blick.',
           '**Erkennen:** eine genaue Beschreibung aller Pflanzenteile.',
           '**Verwechslungsgefahr:** ähnliche Pflanzen und wie du sie unterscheidest – mit roten Warnkästen, wenn ein Doppelgänger giftig ist.',

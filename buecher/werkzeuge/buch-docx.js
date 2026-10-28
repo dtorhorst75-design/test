@@ -145,8 +145,12 @@ function chapter(pf) {
   // Abbildung auf eigener Seite
   const img = path.join(BAND, 'abbildungen', `${pf.id}.png`);
   if (fs.existsSync(img)) {
-    out.push(new Paragraph({ pageBreakBefore: true, alignment: AlignmentType.CENTER, children: [new ImageRun({ type: 'png', data: fs.readFileSync(img), transformation: { width: 580, height: 812 }, altText: { title: pf.name, description: `Botanische Zeichnung: ${pf.name} (${pf.botanisch})`, name: pf.id } })] }));
-    out.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: `Abb.: ${pf.name} (${pf.botanisch}) mit Wurzel, Stängel, Blättern und Blüte; unten Detailansichten.`, italics: true, size: 18, color: '6B5F4D' })] }));
+    // Pflanzen mit giftigen Doppelgängern (und alle Doldenblütler) bekommen unter der Zeichnung einen Warnhinweis.
+    const riskant = !!(pf.verwechslung && pf.verwechslung.warnung) || /Apiaceae/.test(pf.familie) || pf.id === 'hopfen';
+    const [w, h] = riskant ? [500, 700] : [580, 812];
+    out.push(new Paragraph({ pageBreakBefore: true, alignment: AlignmentType.CENTER, children: [new ImageRun({ type: 'png', data: fs.readFileSync(img), transformation: { width: w, height: h }, altText: { title: pf.name, description: `Schematische Zeichnung: ${pf.name} (${pf.botanisch})`, name: pf.id } })] }));
+    out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: `Abb.: ${pf.name} (${pf.botanisch}), schematische Zeichnung mit Wurzel, Stängel, Blättern und Blüte; unten Detailansichten. Zum Bestimmen sind die Merkmale im Text maßgeblich.`, italics: true, size: 18, color: '6B5F4D' })] }));
+    if (riskant) out.push(warnbox('Die Zeichnung allein reicht zum Bestimmen nicht', [`${pf.name} hat giftige Doppelgänger. Die Zeichnung ist schematisch und zeigt nicht jedes Unterscheidungsmerkmal genau. Sammle nur, wenn **alle** Merkmale aus „Erkennen“ und „Verwechslungsgefahr“ an der echten Pflanze zutreffen – am besten mit einem Bestimmungsbuch mit Fotos oder einer kundigen Begleitung.`]));
     out.push(pageBreak());
   }
 
