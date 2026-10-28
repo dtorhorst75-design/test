@@ -1,0 +1,16 @@
+const { R, T } = require('./_hilfe.js');
+module.exports = {
+  nr: 7, id: 'trocknen-lagern', teil: 'lagern', titel: 'Samen trocknen, reinigen und aufbewahren', kurz: 'Lagern und Tauschen',
+  bloecke: [
+    'Gut getrocknet und richtig gelagert, keimen die meisten Samen viele Jahre (die Tabelle steht in Heft 2). Feuchtigkeit und Wärme sind ihre größten Feinde.',
+    { h2: 'Gut trocknen' },
+    { punkte: ['An einem warmen, luftigen, schattigen Ort trocknen – nicht in der prallen Sonne, nicht auf der Heizung, nicht im Backofen. Über 35 °C leidet die Keimkraft.', 'In einer dünnen Schicht ausbreiten und ab und zu wenden.', 'Große Samen (Bohnen, Kürbis) brauchen 2 bis 3 Wochen, kleine (Salat, Tomaten) etwa 1 bis 2 Wochen.', 'Fertig getrocknete Samen sind hart und brechen eher, als dass sie sich biegen.'] },
+    R({ titel: 'Samen reinigen', info: 'Nach dem Trocknen', thema: T.LAGERN, zutaten: ['Siebe in verschiedenen Maschenweiten (Küchensieb, Teesieb)', 'ein großer, flacher Teller oder eine Schüssel', 'ein Tag mit leichtem Wind oder ein Föhn auf kalter Stufe'], schritte: ['Grobes (Stängel, Hülsen, Blütenreste) mit der Hand entfernen.', 'Durch ein Sieb reiben, in dem die Samen durchfallen, die gröberen Reste aber hängen bleiben. Dann durch ein feineres Sieb, in dem die Samen liegen bleiben und Staub durchfällt.', 'Zum Schluss die Samen in einer flachen Schüssel leicht in die Luft werfen und vorsichtig pusten (oder bei leichtem Wind draußen arbeiten): Die leichte Spreu fliegt weg, die schweren Samen fallen zurück.'] }),
+    R({ titel: 'Samentütchen falten', info: 'Ohne Kleber', thema: T.LAGERN, zutaten: ['ein Blatt Papier (A5 oder A6), gerne Packpapier oder Altpapier', 'ein Stift'], schritte: ['Das Blatt quer vor dich legen und das untere Drittel nach oben falten.', 'Linke und rechte Seite jeweils etwa 1,5 cm nach innen falten, dann die oberen Ecken etwas schräg.', 'Den Tütchen-Boden an den Seiten fest falzen. Samen einfüllen.', 'Das obere Drittel als Lasche nach unten falten und einstecken.', '**Beschriften:** Gemüse, Sorte, Erntejahr, Garten – und eine Besonderheit („früh“, „schießt spät“).'] }),
+    { h2: 'Richtig lagern' },
+    { punkte: ['Die Tütchen in ein **Schraubglas oder eine Blechdose** stellen. Ein Säckchen trockener Reis oder ein Stück Tafelkreide nimmt Feuchtigkeit auf.', '**Kühl, trocken und dunkel:** ein Schrank im Schlafzimmer, eine kühle Speisekammer. Nicht im Gartenhaus, nicht im feuchten Keller, nicht in der warmen Küche.', 'Ein Verzeichnis ins Gartentagebuch: was du hast, aus welchem Jahr, wie die Keimprobe war.'] },
+    { h2: 'Tauschen und weitergeben' },
+    'Samen sind zum Teilen da. Auf **Saatgut-Tauschbörsen** im Frühjahr, in Gemeinschaftsgärten, bei Erhaltungsvereinen und unter Nachbarn wechseln Samen von Hand zu Hand – und mit ihnen das Wissen, wie man sie anbaut. Leg jedem Tütchen einen Zettel bei: Sorte, Herkunft, Jahr und deine Erfahrungen.',
+    { kasten: 'Tauschen ja, verkaufen nein', zeilen: ['Privat tauschen und verschenken ist üblich und gehört zur Tradition. Wer Saatgut **verkaufen** möchte, unterliegt dem Saatgutverkehrsgesetz mit Sortenzulassung und Kontrollen. Dieses Heft ist für den eigenen Garten und den Tausch unter Gärtnern gedacht.'] },
+  ],
+};
