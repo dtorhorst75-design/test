@@ -1,0 +1,228 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Ausverkauf",
+  "band": "Band 6",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-6-Ausverkauf",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in der Uhrmacherwerkstatt finden: ein Heft über einen Kuckuck, der nachts ruft, ein Werkstattbuch, das Verzeichnis einer Uhrensammlung, Bettys Inventarlisten, einen Katalog, eine Anzeige aus dem Internet, einen Brief vom Gerichtsvollzieher und Ömers Schlossbuch. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Wochentage, auf Schrauben, auf einen kleinen Sprung und auf einen Draht.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Nimmt vor einem Meister den Hut ab."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Josef Faller",
+      "† mit 88, Uhrmachermeister in Schönwald, in dritter Generation. Im Juli gestorben."
+    ],
+    [
+      "Annelie Faller",
+      "52, seine Tochter, Grundschullehrerin. Glaubt an Physik. Schläft seit August nicht mehr durch."
+    ],
+    [
+      "Martin Faller",
+      "55, ihr Bruder, früher Bankberater in Stuttgart. Kommt manchmal am Wochenende."
+    ],
+    [
+      "Tobias Kienzle",
+      "24, Josefs Geselle. Schüchtern. Hat die richtigen Hände."
+    ],
+    [
+      "Benno Dold",
+      "61, Uhrenparadies Dold in Triberg. Hat tausend Kuckucksuhren und ein Angebot."
+    ],
+    [
+      "Dr. Ulrike Haas",
+      "42, Kuratorin des Uhrenmuseums Schönwald."
+    ],
+    [
+      "Anton Kaltenbach",
+      "Kriminalhauptkommissar, Kripo Villingen. Lacht nie über Kuckucke."
+    ]
+  ],
+  "nachwort_titel": "Den Schwarzwald wirklich besuchen",
+  "nachwort": [
+    "Schönwald, Schonach, Triberg und Furtwangen liegen im mittleren Schwarzwald, mitten im Land der Kuckucksuhren. Seit dem 18. Jahrhundert werden hier Uhren gebaut, früher in vielen kleinen Werkstätten auf den Höfen, im Winter, wenn die Felder ruhten. In Furtwangen gibt es ein großes Uhrenmuseum, in Triberg die berühmten Wasserfälle und viele Uhrengeschäfte.",
+    "Trompeteruhren gibt es wirklich. Sie wurden im 19. Jahrhundert im Schwarzwald gebaut. Hinter einer kleinen Tür steht ein Trompeter, der zur vollen Stunde ein Lied spielt. Sie gehören zu den schönsten und seltensten Schwarzwalduhren.",
+    "Wer eine echte alte Kuckucksuhr kaufen möchte, sollte genau hinsehen und am besten einen Uhrmacher fragen. Viele Uhren sind „im Stil der alten Meister“ gebaut. Das ist kein Betrug. Es muss nur draufstehen.",
+    "Was erfunden ist: die Uhrmacherei Faller, das Uhrenparadies Dold, das Uhrenmuseum Schönwald und alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Gericht und Gerichtsvollzieher sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 7: Wegen Geschäftsaufgabe**",
+    "Kassel. Eine alte Frau, die einmal Plätzchen gebacken hat, an einem Heiligabend. Sie muss ins Heim. Ihr Sohn sucht in ihrer Wohnung nach Geld, das es nicht gibt. Und nachts kommt jemand, der nicht ihr Sohn ist.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Uhrmacherei Faller",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein verschneiter Hang im Schwarzwald unter Tannen: ein großes altes Holzschindelhaus mit grünen Läden und daneben eine kleine Werkstatt mit einem geschnitzten Schild mit Kuckucksuhr. An der Tür ein Zettel in einer Klarsichthülle. Eine große Frau mit grauem Zopf, roter Brille und Rentierpullover kommt mit einer Schneeschaufel. Der orangefarbene Lastwagen hält.",
+      "prompt": "A snowy hillside in the Black Forest under dark fir trees laden with snow. A large old house with silver-grey wooden shingles, green shutters and a balcony with snow-covered flower boxes, and next to it a small low workshop with its own roof and chimney and a carved, painted wooden sign over the door showing a cuckoo clock (no readable letters). A sheet of paper in a plastic sleeve is taped to the door. A tall slim woman of 52 with a long grey braid, red-rimmed glasses and a knitted jumper with reindeer comes along the path with a snow shovel. The old orange removal truck has just arrived; the woman with the clipboard and the young man climb out into the snow. Advent mood, soft winter light."
+    },
+    "2": {
+      "titel": "Ein Draht",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine Werkstatt voller hunderter stiller Kuckucksuhren. Neben der Eingangstür springt aus einer schlichten Uhr ohne Gewichte ein Kuckuck. Ömer steht mit Schnee auf den Schultern in der offenen Tür und grinst, Annelie hält sich lachend an der Werkbank fest, Betty schreibt.",
+      "prompt": "Inside an old clockmaker's workshop in winter: hundreds of silent cuckoo clocks and wall clocks hang on every wall from floor to ceiling, a long workbench under a window with tools, vices and tiny drawers, a lamp glowing. Next to the entrance door a plain dark cuckoo clock without hands and without weights; its little door has just sprung open and a wooden bird pops out calling. A fine black wire runs almost invisibly from the clock down the wall to the door frame. The young man stands in the open doorway with snow on his shoulders, grinning; the tall woman with the grey braid and reindeer jumper laughs, holding onto the workbench, her glasses slipping; the woman with the clipboard writes. Warm and funny."
+    },
+    "3": {
+      "titel": "Zwölf Haken",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein kleines fensterloses Hinterzimmer mit vierzig alten Uhren in Reihen, jede über einem Messingschild mit Nummer. Annelie sitzt auf dem kalten Boden an der Wand, Betty steht mit dem Klemmbrett, Ömer leuchtet mit der Taschenlampe in ein Uhrengehäuse.",
+      "prompt": "A small windowless back room with a single ceiling lamp. On all four walls in neat rows hang forty very old Black Forest clocks with painted wooden dials, carved stags and flowers, cast-iron pine-cone weights, each above a small brass plate with a number. The tall woman with the grey braid and reindeer jumper sits on the cold stone floor with her back against the wall, knees drawn up. The woman with the clipboard stands with a list; the young man shines a torch into one clock case. A teapot on the floor. Quiet, shocked mood."
+    },
+    "4": {
+      "titel": "Uhrenparadies",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine Hauptstraße in einem Schwarzwaldstädtchen: An der Fassade eines Geschäfts hängt eine riesige Kuckucksuhr, so groß wie ein Haus, aus der gerade ein riesiger Kuckuck kommt. Touristen in bunten Jacken jubeln und filmen, Reisebusse. Ömer steht auf dem Gehweg und schaut entsetzt hinauf, Betty daneben.",
+      "prompt": "The main street of a small Black Forest town in winter, tour buses at a bus stop. On the facade of a big souvenir shop hangs a gigantic cuckoo clock as big as a house, with a dial as big as a living room and pine-cone weights as tall as a man; its door has just opened and a huge cuckoo the size of a sheep is calling. Tourists in colourful jackets cheer and film with their phones. On the pavement the young man looks up in horror and disbelief, the woman with the clipboard beside him calm. Snow on the roofs. Comic."
+    },
+    "5": {
+      "titel": "Muss i denn",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Nachts im Hinterzimmer: Das Deckenlicht ist gerade angegangen. Vor der Trompeteruhr, in der ein kleiner Trompeter hinter Glas spielt, stolpert ein großer, schmaler Mann im dunklen Pullover zurück, neben ihm ein offener Karton mit einer Nachbau-Uhr. Ein großer Kommissar mit Schnauzbart am Lichtschalter, Betty auf einem Hocker, in der Tür ein junger Mann mit Lupe und die Schwester im Mantel über dem Nachthemd.",
+      "prompt": "Night in a small back room full of old Black Forest clocks, the ceiling light has just been switched on. On the wall a tall narrow antique trumpeter clock: behind its glass door a small uniformed trumpeter figure raises his trumpet and plays. In front of it a tall thin man of 55 with short grey hair in a dark jumper and wet slippers stumbles back, hands over his mouth; next to him on the floor an open brown box with straw and a cheap replica clock. At the light switch a huge broad detective of 60 with an upturned grey moustache and a green hat with a chamois tuft. On a stool the woman with the clipboard. In the doorway a shy young man with blond curls, a blanket around his shoulders and an old horn-rimmed magnifying glass, and behind him the tall woman with the grey braid in a coat over her nightdress, holding a blue exercise book. Dramatic, sad and quietly touching."
+    },
+    "6": {
+      "titel": "Er hat Hunger",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Vor der verschneiten Werkstatt beugt sich ein junger Uhrmacher mit Lupe in die Fahrerkabine des orangefarbenen Lastwagens und betrachtet die kleine Kuckucksuhr auf dem Armaturenbrett. Betty am Steuer schüttelt lächelnd den Kopf, Ömer grinst auf dem Beifahrersitz. Am Werkstatttor ein neuer Zettel.",
+      "prompt": "In front of a snowy Black Forest workshop the old orange removal truck stands with its driver's door open. A shy young clockmaker with blond curls, round gold-rimmed glasses and a knitted hat leans into the cab and examines the small wooden cuckoo clock fixed on the dashboard with an old horn-rimmed magnifying glass. The woman with the clipboard at the wheel smiles and gently shakes her head; the young man in the passenger seat grins from ear to ear. In the background the tall woman with the grey braid and reindeer jumper holds a cup of tea, a new paper sign on the workshop door. Snow falling softly, warm and heartfelt."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Ausverkauf"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 6"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Dreihundert Uhren. Und ein Geist, der nachts um drei ruft.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es in den verschneiten Schwarzwald, in die Werkstatt eines verstorbenen Uhrmachermeisters. Die Tochter will nicht an Geister glauben. Und doch ruft seit dem Sommer jede Nacht um drei eine Kuckucksuhr, die keine Gewichte hat und die nie jemand aufgezogen hat. Im Hinterzimmer hängt die kostbare Sammlung, die ans Museum gehen soll. Als Betty sie Uhr für Uhr mit dem alten Verzeichnis vergleicht, stimmt etwas nicht.",
+        "Ein blaues Heft. Ein Kreuzschlitz, den es 1830 nicht gab. Ein kleiner Sprung in einem Tannenzapfen. Und ein Trompeter, der zur richtigen Zeit spielt.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Schwarzwald Krimi",
+        "Rätselkrimi Erwachsene",
+        "Wohlfühlkrimi Reihe",
+        "Krimi Kuckucksuhr Advent",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Baden-Württemberg / Schwarzwald)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A small old clockmaker's workshop with a carved wooden cuckoo-clock sign above its door on a snowy Black Forest hillside under dark fir trees at dusk, warm light glowing from its window, through which many cuckoo clocks can be seen on the walls. Above the door a little wooden cuckoo pops out of a clock. In front of it in the snow the old orange removal truck; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a knitted hat look at the workshop. Snow falling, Advent mood. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}
