@@ -1,0 +1,230 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Wegen Geschäftsaufgabe",
+  "band": "Band 7",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-7-Wegen-Geschaeftsaufgabe",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in Kassel finden: das Merkheft einer alten Bäckerin, Bettys Inventarliste aus ihrer Küche, Ömers Schlossbuch, einen Kontoauszug, einen Brief, den Betty auf dem Kopf liest, eine Vereinbarung und eine Notiz zu einem Telefonat. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Wochentage, auf Markttage, darauf, wie oft jemand abschließt, und auf eine Dose, die man nicht anfassen soll.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf. Fast alles."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus der Kasseler Nordstadt, Bettys Geschäftspartner. Hat vor drei Jahren ein Schloss nicht gewechselt."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Hildegard Wenzel",
+      "87, früher Bäckerin in der Holländischen Straße. Die mit den Plätzchen. Schreibt seit dem Frühjahr alles in ein rotes Heft."
+    ],
+    [
+      "Karl Wenzel",
+      "† 2001, ihr Mann, Bäckermeister. Sagte immer: Das Geld ist im Haus."
+    ],
+    [
+      "Rainer Wenzel",
+      "58, ihr Sohn. Hat vor drei Jahren ihre Rente verspielt. Zählt seitdem die Tage."
+    ],
+    [
+      "Dieter Siebert",
+      "64, Hausverwalter. Hat einen sehr großen Schlüsselbund."
+    ],
+    [
+      "Frau Celik",
+      "wohnt im zweiten Stock. Hört jeden auf der Treppe."
+    ],
+    [
+      "Fatma Yıldız",
+      "Ömers Mutter. Endlich."
+    ],
+    [
+      "Lena Brüggemann",
+      "31, Bettys Tochter, Deutschlehrerin in Göttingen."
+    ],
+    [
+      "Günther Heppe",
+      "Kriminalhauptkommissar, Polizei Kassel. Trinkt Kaffee nur aus dem eigenen Becher."
+    ]
+  ],
+  "nachwort_titel": "Kassel wirklich besuchen",
+  "nachwort": [
+    "Kassel liegt in Nordhessen an der Fulda, ziemlich genau in der Mitte Deutschlands. Von hier ist wirklich vieles gleich weit. Über der Stadt steht im Bergpark Wilhelmshöhe der Herkules, eine riesige Figur auf einer Pyramide, die zum UNESCO-Welterbe gehört. Im Sommer fließen dort die Wasserspiele die Kaskaden hinunter.",
+    "Alle fünf Jahre findet in Kassel die documenta statt, eine der wichtigsten Ausstellungen für zeitgenössische Kunst der Welt. Die Brüder Grimm haben hier lange gelebt und gearbeitet. In der Grimmwelt kann man ihre Märchen neu entdecken.",
+    "Die Nordstadt ist ein lebendiges, buntes Viertel mit vielen Sprachen, Bäckereien, kleinen Läden und der Universität. Die Holländische Straße gibt es wirklich. Das Haus mit der Nummer 112 und die Bäckerei Wenzel sind erfunden.",
+    "Was erfunden ist: die Bäckerei Wenzel, die Hausverwaltung Siebert, die Mainhaus Projektentwicklung und alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Gericht und Hausverwaltung sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer sind wieder unterwegs.",
+    "Irgendwo in Deutschland. Von Kassel aus gleich weit.",
+    "Danke, dass du mit ihnen gefahren bist. Durch sieben Häuser, sieben Fälle und sehr viele Dosen mit rotem Deckel.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Wegen Geschäftsaufgabe",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein alter gelber Backstein-Altbau in Kassel mit Stuck, unten eine geschlossene Bäckerei mit rot-weißer Markise und einem vergilbten Schild im Schaufenster. Betty steht mit dem Klemmbrett davor und liest, Ömer neben ihr. Der orangefarbene Lastwagen am Straßenrand. Weihnachtsbeleuchtung.",
+      "prompt": "An old three-storey yellow-brick tenement house with crumbling stucco in a lively working-class district of Kassel in December, Christmas lights strung across the street, a tram passing. On the ground floor a closed old bakery with a faded red-and-white striped awning and old metal letters above the door with two letters missing; in the dusty shop window a yellowed sign (no readable letters). The woman with the clipboard stands in front of the window, reading, very still; the young man stands beside her looking at her. The old orange removal truck parked at the kerb. Grey winter afternoon, nostalgic and warm."
+    },
+    "2": {
+      "titel": "Das Merkheft",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine kleine warme Küche voller Plätzchenbleche, ein Regal mit 31 bunten Blechdosen. Eine sehr kleine, alte Frau mit weißem Knoten und Kittelschürze sitzt am Tisch, vor ihr ein rotes Heft. Betty legt ihre Hand darauf. Ömer isst ein Haferplätzchen.",
+      "prompt": "A tiny warm old kitchen full of baking trays with Christmas biscuits on every surface: stars, moons, hearts, oat cookies. On a long wall a shelf with thirty-one colourful old tin boxes with Christmas pictures and handwritten labels; the top right one, red with a Saint Nicholas, sits a little lower than the others. At the table sits a very small, very old woman of 87 with a white bun, a flowered apron over a cardigan and flour on her hands, a small red notebook with an elastic band in front of her. The woman with the clipboard gently lays her hand on the notebook; the young man eats an oat biscuit with moist eyes. Golden lamplight, cosy and touching."
+    },
+    "3": {
+      "titel": "Zwei Bäckerinnen",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In einem schmalen Treppenhaus stehen sich zwei kleine alte Frauen gegenüber: die eine mit dunkelrotem Kopftuch und einem Korb, die andere im dunkelblauen Kleid mit Brosche und Mehl an den Händen. Betty und Ömer stehen auf der Treppe dahinter.",
+      "prompt": "A narrow old wooden staircase in a tenement house, worn creaking steps and a turned banister, a smell of cinnamon almost visible as warm light. On the top landing two small elderly women face each other: one round and energetic with a dark red headscarf, a long grey coat and a basket on her arm from which steam rises; the other tiny and frail with a white bun, a dark blue dress with a brooch and flour on her hands, holding the door frame. Both are about to laugh and cry. Behind them on the stairs the woman with the clipboard and the young man look at each other. Heartwarming."
+    },
+    "4": {
+      "titel": "Der Wächter",
+      "figuren": [
+        "Oemer"
+      ],
+      "beschreibung": "Im Flur einer alten Wohnung hängt über dem Schlüsselbrett eine schlichte Kuckucksuhr ohne Zeiger, aus der gerade der Vogel springt. Ömer steht in der offenen Wohnungstür, die alte Frau hält sich lachend am Küchentisch fest.",
+      "prompt": "The narrow hallway of an old flat with patterned wallpaper. Above a key board next to the door hangs a plain dark cuckoo clock without hands and without weights; its little door has just sprung open and a wooden bird pops out calling. A fine dark wire runs almost invisibly down the wallpaper to the door frame. The young man stands in the open front door, grinning; in the kitchen doorway the tiny old woman with the white bun and flowered apron holds onto the table and laughs like a girl coming out of a ghost train. Warm and funny."
+    },
+    "5": {
+      "titel": "Zwei Uhr zehn",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts, das Licht ist gerade angegangen: Im Flur steht ein großer, schwerer Mann im Wintermantel mit Wollmütze und Hausschuhen, ein riesiger Schlüsselbund am Gürtel, vor ihm auf dem Boden ein umgekippter Topf mit Fett. Über ihm ist der Kuckuck gerade herausgesprungen. Betty sitzt mit Klemmbrett auf einem Küchenstuhl, Ömer kommt mit einer Plätzchendose aus der Speisekammer, auf der Treppe ein Kommissar und eine Nachbarin im Morgenmantel mit Nudelholz.",
+      "prompt": "Night in a narrow old flat, the hallway light has just been switched on. A big heavy man of 64 with a red face and thin combed-over hair, in a dark winter coat, a wool hat and slippers, stands frozen, a huge bunch of keys with a handkerchief wrapped around it hanging from his belt, a master key in his hand. At his feet an aluminium pot has fallen over and yellow frying fat spreads across the polished wooden floor. Above his head a small cuckoo has just popped out of a plain clock above the key board. In the kitchen the woman with the clipboard sits calmly on a chair by the window under a woollen blanket; from behind a flowered curtain of the pantry steps the young man, flour on his shoulder, holding an open tin of cinnamon stars. On the stairs behind a small bald detective with a grey beard and a mug, and a round elderly neighbour in a rose-patterned dressing gown wielding a rolling pin. Comic and satisfying."
+    },
+    "6": {
+      "titel": "Gepfändet",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Heiligabend, es schneit. Vor dem Schaufenster der alten Bäckerei klebt Betty ein kleines blaues Siegel neben das vergilbte Schild und darunter einen Zettel. In den Fenstern der Straße warmes Licht.",
+      "prompt": "Christmas Eve night in a snowy old street in Kassel, warm yellow light from all the windows, snowflakes falling softly. In front of the dusty shop window of a closed old bakery with a striped awning the woman with the clipboard, in a winter coat, presses a small round blue official seal sticker onto the glass with her thumb, right next to an old yellowed sign, and below it a handwritten note (no readable letters). She is alone, smiling very slightly. Peaceful, moving, a perfect ending."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Wegen Geschäftsaufgabe"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 7"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Bis auf eine Dose, die man nicht anfassen darf.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal kommen sie nach Hause. Nach Kassel. Zu der Frau, wegen der Betty vor drei Jahren ihren Beruf aufgegeben hat. Hildegard Wenzel ist 87, sie hat einundvierzig Jahre lang Brötchen gebacken, und jetzt soll sie ins Heim. Weil sie den Herd anlässt. Weil sie ihre Brille im Kühlschrank findet. Weil sie vergesslich wird. Sagen alle. Aber Hildegard schreibt jede Nacht auf. Und jemand anderes hat einen Schlüssel.",
+        "Ein rotes Merkheft. Eine Holztreppe, die jeden verrät. Ein Uhrmacherkuckuck aus dem Schwarzwald. Und das große Finale der Reihe, an Heiligabend.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Kassel Krimi",
+        "Weihnachtskrimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Hessen) / Weihnachtskrimis"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. Christmas Eve in a snowy old street in Kassel at night: an old yellow-brick tenement house with crumbling stucco, warm golden light in every window, and on the ground floor a closed old bakery with a striped awning and a small round blue seal sticker on its shop window. On the third floor a tiny old woman with a white bun looks out of a lit window. In the street the old orange removal truck covered with snow; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a knitted hat look up at the window, snowflakes falling. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

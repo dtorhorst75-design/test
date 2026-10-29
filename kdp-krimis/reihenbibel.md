@@ -13,12 +13,14 @@
 - Ton: humorvoll, warm, ironisch, Herz. Erzählt in der dritten Person, nah an Betty.
 - Umfang: ca. 15.000 Wörter, 12–14 Kapitel.
 
-## Geplante Bände
-1. Mit Seeblick und Leiche – Villa am Starnberger See
-2. Besenrein – Hausboot in Hamburg
-3. Zu verschenken – Gutshof in Mecklenburg
-4. Restposten – Schloss bei Meißen an der Elbe (Schrank im Turmzimmer, abgeschlossen, Schlüssel seit 1945 weg)
-5. Sperrmüll – Hochhaus in Frankfurt
+## Bände (fertig)
+1. Mit Seeblick und Leiche – Villa am Starnberger See (Tutzing)
+2. Besenrein – Hausboot auf der Bille, Hamburg
+3. Zu verschenken – Gutshof bei Güstrow, Mecklenburg
+4. Restposten – Schloss Elbwinkel bei Meißen, Sachsen
+5. Sperrmüll – Wohnturm in Frankfurt-Nordweststadt
+6. Ausverkauf – Uhrmacherei in Schönwald, Schwarzwald
+7. Wegen Geschäftsaufgabe – Kassel-Nordstadt, Finale an Heiligabend
 
 ## Autorin
 
