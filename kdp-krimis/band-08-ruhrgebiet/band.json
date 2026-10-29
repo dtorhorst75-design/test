@@ -1,0 +1,224 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Räumungsverkauf",
+  "band": "Band 8",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-8-Raeumungsverkauf",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Ruhrgebiet finden: den Pass einer Brieftaube, Ömers Schlossbuch, ein Futterbuch, den Ausdruck einer Taubenuhr, eine Anzeige im Internet, Bettys Liste von einer Gartenparzelle und einen Brief aus Belgien. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf links und rechts, auf Augenfarben, auf eine Sieben ohne Fuß und darauf, wer um fünf Uhr früh wach ist.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Kann jedes Schloss halten, aber keine Taube."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Bruno Wischnewski",
+      "† mit 86, Bergmann auf Zeche Hugo, siebzig Jahre Taubenvater in Gelsenkirchen-Buer."
+    ],
+    [
+      "Kumpel",
+      "sein bester Täuber. Blau gehämmert, eine weiße Feder links. Kommt immer als Erster heim."
+    ],
+    [
+      "Jessica Wischnewski",
+      "31, Brunos Enkelin, Krankenschwester in Essen. Schläft seit neun Jahren nicht durch."
+    ],
+    [
+      "Erwin Lattek",
+      "79, Nachbar und fünfzig Jahre lang Brunos bester Feind. Steht um fünf Uhr auf."
+    ],
+    [
+      "Detlef Kranz",
+      "55, Vorsitzender der Reisevereinigung. Füttert die Tauben. Mit Herz und Flügel."
+    ],
+    [
+      "Pieter Van den Broeck",
+      "50, Taubenhändler aus Belgien. Sein Name ist sein Ring."
+    ],
+    [
+      "Sandra Pohlmann",
+      "Kriminalhauptkommissarin, Kripo Gelsenkirchen. Hat eine Taube auf dem Fensterbrett."
+    ]
+  ],
+  "nachwort_titel": "Das Ruhrgebiet wirklich besuchen",
+  "nachwort": [
+    "Gelsenkirchen-Buer liegt im Norden des Ruhrgebiets. Hier und überall im Revier gibt es noch alte Zechensiedlungen aus rotem Backstein, die vor hundert Jahren für die Bergleute gebaut wurden. Viele Fördertürme stehen noch und sind heute Denkmäler. Auf der Route der Industriekultur kann man sie besuchen, zu Fuß, mit dem Rad oder mit dem Auto.",
+    "Brieftauben gehören zum Ruhrgebiet wie Kohle und Fußball. Früher hatte fast jeder Bergmann einen Schlag auf dem Dach. Man nannte die Tauben das „Rennpferd des kleinen Mannes“. Heute gibt es weniger Züchter, aber die Wettflüge gibt es immer noch, und gute Tauben werden für sehr viel Geld ins Ausland verkauft.",
+    "Brieftauben finden über Hunderte Kilometer nach Hause. Wie genau sie das machen, ist bis heute nicht ganz erforscht. Sie orientieren sich wohl an der Sonne, am Magnetfeld der Erde, an Gerüchen und an Landmarken. Und sie wollen nach Hause.",
+    "Was erfunden ist: die Siedlung Hugo, wie sie hier beschrieben ist, die Kleingartenanlage Am Förderturm, die Reisevereinigung, die Taubenauktion im Internet und alle Menschen und Tauben darin und drumherum, und das Verbrechen. Abläufe bei Polizei und Verband sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 9: Leerstand**",
+    "Ein Leuchtturm an der Nordsee, auf einer Hallig. Der Wärter ist 1979 in einer Sturmflutnacht verschwunden. Seitdem ist das Haus verschlossen. Und gestern Nacht war Licht darin.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Glück auf",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Eine Zechensiedlung aus rotem Backstein im Ruhrgebiet, kleine Häuser in Reihen, auf den Dächern Taubenschläge. Am Ende der Straße ein Förderturm. Vor einem Haus mit grünem Taubenschlag auf dem Dach steht eine junge Krankenschwester mit blondem Pferdeschwanz. Der orangefarbene Lastwagen hält.",
+      "prompt": "A historic coal miners' settlement in the Ruhr area in winter: rows of small two-storey red-brick houses with white window frames and green shutters, little front gardens with roses wrapped in sacking against frost. On many roofs small wooden pigeon lofts with wire fronts and landing boards; the biggest one, painted green, sits on the fourth house, with a flat black antenna at the entrance hole. At the end of the street a tall red steel pithead tower with two big wheels. In front of the house a young nurse of 31 with a blonde ponytail in a navy fleece jacket. The old orange removal truck has just arrived; the woman with the clipboard and the young man climb out. Grey January sky."
+    },
+    "2": {
+      "titel": "Die weiße Feder",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im Taubenschlag unter dem Dach: Die junge Frau hält eine blaugraue Taube und fächert den rechten Flügel auf, eine Feder ist weiß. Betty hält einen Taubenpass, Ömer kniet mit Lupe davor. Ringsum in Holzfächern viele Tauben.",
+      "prompt": "Inside a long narrow pigeon loft under a roof: wooden walls, a sandy floor, shelves divided into nest boxes, in each a pigeon looking curiously with its head tilted. Under a small window an old kitchen chair with a flat cushion and a small table with a grey electronic timing box. The young nurse with the blonde ponytail holds a blue-grey chequered pigeon expertly in her hands and fans out its RIGHT wing; one flight feather is white. Her face shows shock. The woman with the clipboard holds an old pigeon passport form; the young man kneels with an old horn-rimmed magnifying glass. Warm dusty light, many pigeons cooing."
+    },
+    "3": {
+      "titel": "Der beste Feind",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Ein alter, kleiner, breiter Bergmann mit Schiebermütze, blauer Arbeitsjacke, Hausschuhen und dicken weißen Augenbrauen steht auf einer Leiter an seiner Hauswand und schaut über die Dachrinne zum Nachbarschlag. Betty steht unten am Zaun.",
+      "prompt": "Two neighbouring red-brick miners' houses with pigeon lofts on their roofs, a green one and a grey crooked one. An old, short, broad former miner of 79 with a ruddy weathered face, a crooked nose, bushy white eyebrows like little storm clouds, a flat cap, a blue work jacket and slippers stands on a wooden ladder against his own house wall and peers over the gutter towards the neighbour's loft with a grim, expert look. Below at the garden fence between rose bushes wrapped in sacking stands the woman with the clipboard looking up at him. Dusk, lights coming on. Funny and warm."
+    },
+    "4": {
+      "titel": "Parzelle siebzehn",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine Kleingartenanlage im Winter. Hinter einer hohen Ligusterhecke eine grüne Laube mit kleinem Taubenschlag, auf einer Regentonne ein Gartenzwerg mit blau-weißem Trikot. Im Hintergrund der Förderturm. Betty und der alte Bergmann gehen auf dem Schotterweg vorbei.",
+      "prompt": "An allotment garden colony in winter between an old colliery wall and a disused railway embankment, a straight gravel path, bare beds, closed little garden sheds. Behind a tall privet hedge a green summer house with tar-paper roof and a tin chimney, a small pigeon loft with a wire window attached to it, a padlock on the gate; on the rim of a rain barrel a fat garden gnome with a red hat and a blue-and-white football shirt grins. In the background over the roofs the red pithead tower with two wheels. On the path the woman with the clipboard and the old miner with flat cap and a bucket walk by, pretending not to look. Cold, quiet, suspenseful."
+    },
+    "5": {
+      "titel": "Heimkehr",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Abenddämmerung auf einem Dach der Zechensiedlung: Eine blaugraue Taube landet mit ausgebreiteten Flügeln auf dem Landebrett vor dem grünen Taubenschlag, eine weiße Feder links blitzt auf. Der alte Bergmann auf einem Küchenstuhl mit Fernglas, die junge Frau auf einer Decke, Ömer und Betty am Schornstein. Auf den Nachbardächern Leute, die zuschauen. Hinten der Förderturm mit roter Lampe.",
+      "prompt": "Winter dusk on a flat part of a roof between a chimney and the gutter in a red-brick miners' settlement; the sky pale cold blue turning yellow in the west and dark in the east, a red pithead tower with a blinking red light in the distance. A blue-grey pigeon with wings spread wide is just landing on the landing board in front of a green pigeon loft; one white flight feather flashes on its left wing. On an old kitchen chair sits the old miner with flat cap, binoculars around his neck, a thermos between his knees; the young nurse sits on a blanket with tears on her face; the young man and the woman with the clipboard lean against the warm chimney. On the neighbouring roofs other people sit watching, two boys holding up phones. Magical, emotional, triumphant."
+    },
+    "6": {
+      "titel": "Auf Opas Stuhl",
+      "figuren": [],
+      "beschreibung": "Im Taubenschlag: Auf der Lehne eines alten Küchenstuhls unter einem kleinen Fenster sitzt eine blaugraue Taube und schaut über die Dächer zum Förderturm. Davor hält die junge Frau ihr Futter aus der Hand hin, über die Dachrinne beugt sich der alte Nachbar mit einer Erbse.",
+      "prompt": "Inside a pigeon loft in soft morning light: on the backrest of an old kitchen chair with a flat cushion under a small window sits a proud blue-grey chequered pigeon with silvery eyes, looking out over the roofs of the miners' settlement towards a red pithead tower. The young nurse with the blonde ponytail holds out feed in her palm; through the small window the old miner with the flat cap leans over from the neighbouring roof, offering a single pea, and the pigeon puffs itself up at him. Tender and humorous."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Räumungsverkauf"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 8"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Bis auf eine Taube, die immer heimkommt.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es ins Ruhrgebiet, in eine alte Zechensiedlung in Gelsenkirchen. Der Bergmann Bruno Wischnewski ist gestorben und hinterlässt sechzig Brieftauben. Eine davon ist ein Vermögen wert: der Champion Kumpel. Ein Händler aus Belgien bietet 180.000 Euro. Aber seit Weihnachten kommt Kumpel nicht mehr als Erster heim. Und seine weiße Feder sitzt auf der falschen Seite.",
+        "Ein Taubenpass. Ein Ring, der keiner ist. Eine Uhr, die nichts vergisst. Ein grummeliger Nachbar, der um fünf Uhr früh wach ist. Und ein Gartenzwerg im falschen Trikot.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Ruhrgebiet Krimi",
+        "Brieftauben Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Ruhrgebiet / Nordrhein-Westfalen)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A red-brick miners' settlement in the Ruhr area at golden winter dusk, rows of small houses with pigeon lofts on their roofs, a tall red pithead tower with two wheels against the evening sky. A single blue-grey pigeon with one white feather on its left wing flies home in a straight line over the roofs towards a green pigeon loft. In the street below the old orange removal truck; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard look up and follow the pigeon with their eyes. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

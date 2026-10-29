@@ -22,6 +22,10 @@
 6. Ausverkauf – Uhrmacherei in Schönwald, Schwarzwald
 7. Wegen Geschäftsaufgabe – Kassel-Nordstadt, Finale an Heiligabend
 
+## Staffel 2
+8. Räumungsverkauf – Zechensiedlung Gelsenkirchen-Buer, Brieftauben
+9. Leerstand – Leuchtturm auf einer Hallig, Nordsee (Wärter 1979 verschwunden) – geplant
+
 ## Autorin
 
 Künstlername für diese Reihe: **Jette van Hoven**. Impressum nur mit Künstlername (keine Adresse, keine E-Mail, Verkauf nur über amazon.com).
