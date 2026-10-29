@@ -1,0 +1,231 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Sperrmüll",
+  "band": "Band 5",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-5-Sperrmuell",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Hochhaus und drumherum finden: die Sperrmüll-Liste des Hausmeisters, Bettys Inventarlisten, ein Haushaltsbuch, einen Einkaufszettel, das Protokoll einer Schließanlage, eine Quittung aus dem Krankenhaus, eine Strafanzeige, zwei Notizbücher und Briefe. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Daten, auf Chipnummern, auf das, was jemand eigentlich nicht wissen kann, und auf einen Vogel.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Mag keine Chips. Und keine Krankenhäuser."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Irmgard Schäfer",
+      "† mit 86, wohnte im 14. Stock des Wohnturms Niddablick. Hatte eine Kuckucksuhr, bei der der Vogel klemmte."
+    ],
+    [
+      "Heinz Kowalczyk",
+      "63, Hausmeister im Wohnturm, Eintracht-Fan. Fotografiert jeden Sperrmüll."
+    ],
+    [
+      "Leyla Demir",
+      "17, Abiturientin, wohnt nebenan. Hat für Frau Schäfer eingekauft und ihr vorgelesen."
+    ],
+    [
+      "Marcel Schäfer",
+      "38, Großneffe aus Offenbach, Autoverkäufer. Sehr nett."
+    ],
+    [
+      "Bernd Kühn",
+      "55, Erbenermittler. Hat Marcel gefunden. Gegen dreißig Prozent."
+    ],
+    [
+      "Dr. Hendrik Voß",
+      "61, Rechtsanwalt und Nachlasspfleger. Hat zweiundvierzig Nachlässe."
+    ],
+    [
+      "Rudi Hessler",
+      "79, „Opa Rudi“, sammelt Sperrmüll mit dem Lastenrad. Hat ein Prinzip."
+    ],
+    [
+      "Derya Aksoy",
+      "Kriminalhauptkommissarin, Polizei Frankfurt. In der Nordweststadt aufgewachsen."
+    ]
+  ],
+  "nachwort_titel": "Frankfurt wirklich besuchen",
+  "nachwort": [
+    "Die Nordweststadt ist eine große Siedlung aus den Sechziger- und Siebzigerjahren im Norden von Frankfurt, mit Hochhäusern, viel Grün und einer U-Bahn, die dort über der Erde fährt. Sie ist kein Ausflugsziel. Aber sie ist ein Zuhause für Zehntausende Menschen. Der Wohnturm Niddablick ist erfunden.",
+    "Den Flohmarkt am Museumsufer gibt es wirklich. Er findet jeden zweiten Samstag am Sachsenhäuser Mainufer statt, abwechselnd mit einem Flohmarkt im Osthafen. Wer früh kommt, findet die schönsten Sachen.",
+    "Der Eiserne Steg ist eine Fußgängerbrücke von 1869 zwischen der Altstadt und Sachsenhausen. An seinem Geländer hängen Zehntausende Liebesschlösser. Bitte wirf keine Schlüssel in den Main.",
+    "Was erfunden ist: der Wohnturm Niddablick mit allen Bewohnern, das Krankenhaus Nordwest, wie es hier beschrieben ist, die Erbenermittlung Kühn & Partner, die Uhrmacherei Faller und alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Nachlassgericht und Krankenhaus sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 6: Ausverkauf**",
+    "Eine Uhrmacherwerkstatt im Schwarzwald. Dreihundert Kuckucksuhren müssen raus. Und eine davon ruft jede Nacht um drei. Ohne Gewichte.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Sperrmüll",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein grauer Hochhausturm mit gelben Balkonen in Frankfurt. Davor an der Straße ein grüner Ohrensessel, eine Stehlampe ohne Schirm, ein Couchtisch und eine verschnürte Matratze. Ein kleiner, breiter Hausmeister mit Schnurrbart und Eintracht-Schal fotografiert den Sessel. Der orangefarbene Lastwagen parkt daneben.",
+      "prompt": "A grey 1970s residential tower block of 22 storeys with faded yellow balconies in a green suburb of Frankfurt, an overground tram line on a grass strip in the background. On the pavement in front of the entrance stands bulky waste: an old green velvet wingback armchair, a floor lamp without a shade, a small tiled coffee table and a rolled-up mattress tied with string. A short broad caretaker of 63 with a round head, short grey hair, a scrubbing-brush moustache, a blue work coat and a black-and-white football scarf with an eagle photographs the armchair with his phone. The old orange removal truck has just parked; the woman with the clipboard and the young man climb out. Grey November morning."
+    },
+    "2": {
+      "titel": "Keine Uhr",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In einer vollen, warmen Küche im 14. Stock reißt ein Mädchen mit langem schwarzen Zopf und Kapuzenpullover das Fenster auf und schaut hinunter auf die Straße. Ihre Mutter legt ihr eine Strickjacke um. Am Tisch mit Brot und Oliven sitzen Betty und Ömer.",
+      "prompt": "A crowded warm kitchen in a 14th-floor flat, fresh sesame bread, olives, tomatoes and white cheese on the table, a baby's toy on the floor. A 17-year-old girl with long black hair in a ponytail and a school hoodie has torn open the window and looks down fourteen storeys to the street, tears on her face. Her mother, a warm woman with a headscarf, puts a cardigan around her shoulders. At the table the woman with the clipboard and the young man watch quietly, a small shoebox full of handwritten shopping notes between them. Cold November wind blowing the curtain."
+    },
+    "3": {
+      "titel": "Mittwochnacht",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein Kellergang im Hochhaus mit Lattenverschlägen. Ein Verschlag steht offen, ein aufgeschnittenes Vorhängeschloss, überall Weihnachtskugeln. Eine Kommissarin mit dunklen Locken, Ömer mit einem schwarzen Notizbuch in einem Taschentuch, das Mädchen mit einer goldenen Kugel in der Hand.",
+      "prompt": "A long low concrete basement corridor of a tower block lit by neon tubes, wooden slatted storage cages on both sides with little number plates. One cage stands open, a cut padlock hangs from it, inside torn boxes, empty jam jars, an old sewing machine, and red and gold Christmas baubles scattered on the floor. A steel door to the underground car park stands open at the end. A woman detective of 36 with dark curls pinned up and a leather jacket leans breathless against the wall; the young man holds up a small black notebook in a handkerchief; the teenage girl in a hoodie holds a single golden Christmas bauble. The woman with the clipboard arrives from the stairs."
+    },
+    "4": {
+      "titel": "Opa Rudi",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Früh am Morgen, Straßenlaternen, Nieselregen: Ein alter, dünner Mann mit langem grauen Bart, Bommelmütze und Stirnlampe steht neben seinem schwarzen Lastenrad mit einer großen Holzkiste und betrachtet einen Sessel. Betty mit Thermoskanne und der Hausmeister mit Eintracht-Becher schauen zu.",
+      "prompt": "Dark early morning in a suburb of tower blocks, drizzle in the light of street lamps, piles of bulky waste along the street. A thin wiry old man of 79 with a long grey beard, a bobble hat with a headlamp on top and an old army jacket with many pockets stands next to his big black cargo bike with a wooden box the size of a bathtub, looking at a green wingback armchair with his head tilted. The woman with the clipboard holds a thermos flask; the caretaker with the moustache holds a mug with an eagle. Atmospheric and warm."
+    },
+    "5": {
+      "titel": "Auf dem Eisernen Steg",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine alte Eisenbrücke über den Main, das Geländer voller tausender bunter Liebesschlösser. Ömer liegt bäuchlings auf einer Kuckucksuhr, aus der gerade der Vogel herausspringt. Ein Mann in Lederjacke dreht sich erschrocken um, am anderen Ende wartet die Kommissarin mit Ausweis. Möwen fliegen auf. Im Hintergrund die Hochhäuser.",
+      "prompt": "Early grey morning on an old riveted iron footbridge over the river Main in Frankfurt, its railings completely covered with tens of thousands of colourful love padlocks. The young man lies flat on his stomach on the bridge, shielding an old Black Forest cuckoo clock with a carved stag's head, from which a little wooden bird has just shot out calling. A tall sporty man of 38 in a leather jacket and beanie spins round in panic; at the far end of the bridge the woman detective with dark curls holds up her police badge. A teenage girl in a hoodie stands behind the young man. Seagulls fly up from the railing. The Frankfurt skyline in the background. Comic and triumphant."
+    },
+    "6": {
+      "titel": "Der grüne Sessel",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In der Hausmeisterküche unter einer Eintracht-Fahne sitzt der Hausmeister im grünen Ohrensessel mit einer Tasse mit Adler. Auf dem Schreibtisch die Kuckucksuhr. Betty steht in der Tür.",
+      "prompt": "A small cluttered caretaker's kitchen in a tower block with a huge coffee machine, a black-and-white football flag with an eagle and a framed photo of a trophy on the wall. The short broad caretaker with the moustache sits in an old green velvet wingback armchair, holding a white cup with an eagle on it, not drinking, eyes moist. On the desk beside him an old Black Forest cuckoo clock with a carved stag's head. The woman with the clipboard stands quietly in the doorway, the young man behind her. Warm, touching afternoon light."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Sperrmüll"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 5"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Jeden Donnerstag ein Stück.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal ist es ein Hochhaus in Frankfurt. Jeden Donnerstag stellt jemand Sperrmüll an die Straße. Aus einer Wohnung im vierzehnten Stock, in der seit einem Jahr niemand mehr wohnt. Die alte Frau Schäfer ist tot, ein Testament gibt es angeblich nicht, und das Nachbarsmädchen wird des Diebstahls verdächtigt. Doch wer nachts mit dem Chip der Toten durch die Tür geht, sucht etwas.",
+        "Ein Haushaltsbuch. Ein Einkaufszettel. Ein Hausmeister, der jedes Möbelstück kennt. Und ein Vogel, der klemmt.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Frankfurt Krimi",
+        "Rätselkrimi Erwachsene",
+        "Wohlfühlkrimi Reihe",
+        "Krimi Testament Erbe",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Hessen)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A grey 1970s tower block with yellow balconies against an evening sky with a warm sunset over Frankfurt, one window on the 14th floor glowing. On the pavement in front: a green velvet wingback armchair, a floor lamp and, on top of a box, an old Black Forest cuckoo clock with a carved stag's head, its little door open and the wooden bird peeking out. Next to it the old orange removal truck; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard look up at the glowing window. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

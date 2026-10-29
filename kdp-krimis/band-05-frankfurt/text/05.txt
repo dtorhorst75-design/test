@@ -1,0 +1,102 @@
+# Der Chip lügt nicht
+
+„Das ist kein Schloss“, sagte Ömer zum dritten Mal an diesem Dienstagmorgen. „Das ist ein Computer mit einer Tür dran.“
+
+Er saß in Heinz Kowalczyks Büro im Erdgeschoss, vor dem Bildschirm, auf dem Stuhl des Hausmeisters, und Heinz Kowalczyk stand hinter ihm, mit verschränkten Armen und einem Becher Kaffee, auf dem ein Adler war, und sah ihm zu wie ein Vater, dessen Sohn zum ersten Mal Auto fährt.
+
+„Die Software kann alles“, sagte Heinz Kowalczyk. „Hat der Mann von der Firma gesagt. Sie weiß, welcher Chip wann welche Tür aufgemacht hat. Haustür, Keller, Aufzug nachts, jede Wohnung. Drei Jahre zurück.“ Er trank einen Schluck. „Ich hab nur nie reingeguckt. Ich kann das nicht. Ich bin Hausmeister. Ich kann Heizungen.“
+
+„Ich kann Schlösser“, sagte Ömer düster. „Echte.“
+
+Aber er konnte auch das. Nach einer halben Stunde hatte er herausgefunden, wie man die Tabelle nach Chipnummern sortierte. Nach einer Stunde, wie man sie nach Datum filterte. Und nach anderthalb Stunden hatte er eine Liste auf dem Bildschirm, die ihn so lange stumm machte, dass Betty, die mit ihrem Tee am Fenster stand, sich zu ihm umdrehte.
+
+„Druck das aus“, sagte sie.
+
+Ömer druckte es aus. Betty schrieb es trotzdem ab.
+
+[[DOK Formular | Schließanlage Niddabogen 7 · Ereignisprotokoll · Filter: Chip 14.07-1 und 14.07-2 · Auszug]]
+Chip      Datum       Uhrzeit  Tür                 Ergebnis
+14.07-1   13.11. (Vj.) 18:22   Whg. 14.07          ZU (Fr. Schäfer, letzte Nutzung)
+14.07-2   09.02.       11:05   Whg. 14.07          AUF (Dr. Voß)
+14.07-1   Mi. 11.09.   23:41   Haustür             AUF
+14.07-1   Mi. 11.09.   23:44   Whg. 14.07          AUF
+14.07-1   Do. 12.09.   02:16   Haustür (innen)     AUF
+14.07-1   Mi. 18.09.   23:38   Haustür             AUF
+14.07-1   Mi. 18.09.   23:42   Whg. 14.07          AUF
+   …      (jeden Mittwoch gleich, bis …)
+14.07-1   Mi. 20.11.   23:49   Whg. 14.07          AUF
+14.07-1   So. 24.11.   22:10   Haustür             AUF
+14.07-1   So. 24.11.   22:13   Whg. 14.07          AUF
+14.07-1   Mo. 25.11.   04:55   Haustür (innen)     AUF
+14.07-2   Mo. 25.11.   14:12   Whg. 14.07          AUF (Dr. Voß, mit Kassel)
+[[/DOK]]
+
+„Vierzehn null sieben eins“, sagte Heinz Kowalczyk. Er hatte den Becher abgestellt. „Das ist ihrer. Frau Schäfers. Der verlorene.“
+
+„Der ist nicht verloren“, sagte Ömer. „Der geht jeden Mittwoch um zwanzig vor zwölf durch die Haustür. Und um zwei wieder raus.“
+
+„Und am Sonntag“, sagte Betty. „Am Sonntag um zehn nach zehn. Bis fünf Uhr früh. Fast sieben Stunden.“
+
+„Weil er wusste, dass Sie am Montag kommen“, sagte Heinz Kowalczyk langsam. „Der Herr Voß hat es in der Eigentümerversammlung gesagt. Und die Hausverwaltung hat einen Zettel ans Schwarze Brett gehängt. Am Freitag. Ab Montag Räumung vierzehn null sieben durch Firma Brüggemann und Yıldız.“
+
+„Und deswegen hat er in der Nacht noch alles durchsucht, was übrig war“, sagte Betty. „Und am Montag früh rausgestellt. Den Sessel. Die Lampe. Den Tisch. Die Matratze aus dem Gästezimmer.“ Sie sah auf die Liste. „Er hatte es eilig.“
+
+„Kann man so einen Chip kopieren?“, fragte Heinz Kowalczyk. „Ich mein, vielleicht hat einer den kopiert. Mit so einem Gerät aus dem Internet.“
+
+Ömer drehte sich auf dem Stuhl um. Er sah sehr ernst aus.
+
+„Kann man“, sagte er. „Bei manchen. Bei dem hier nicht so leicht. Und selbst wenn. Wer kopiert, braucht den Chip in der Hand. Wenigstens einmal. Für eine Minute.“ Er tippte auf den Bildschirm, auf die erste Zeile. „Am dreizehnten November letztes Jahr, um achtzehn Uhr zweiundzwanzig, hat Frau Schäfer ihre Tür zugemacht. Mit diesem Chip. Das war das letzte Mal. Und danach?“
+
+„Danach ist sie ins Krankenhaus“, sagte Heinz Kowalczyk. „Am Abend. Mit dem Rettungswagen. Ich hab die Sanitäter reingelassen. Sie hatte Schmerzen in der Brust, sie hat mich angerufen, Kurzwahl eins. Sie hat noch gesagt: Heinz, meine Handtasche. Und ich hab ihr die Handtasche gegeben. Mit dem Portemonnaie und der Brille und dem Schlüsselbund.“
+
+„Wie sah der Schlüsselbund aus?“
+
+„Ein Ring. Der rote Chip, der Briefkastenschlüssel, der Kellerschlüssel. Und ein kleiner Adler aus Emaille. Den hab ich ihr geschenkt.“ Heinz Kowalczyk wischte sich über den Schnurrbart. „Mit dem Wappen.“
+
+„Und dann?“
+
+„Dann ist sie gestorben. Drei Tage später.“ Er setzte sich auf die Kante des Schreibtischs. „Und die Handtasche hat das Krankenhaus behalten, bis einer sie abholt. Das machen die so. Und ich hab gedacht, der Herr Voß hat sie abgeholt. Oder das Gericht. Und ich hab nie gefragt.“
+
+Betty zog ihr Klemmbrett heran und schrieb. Mit Bleistift, am Rand.
+
+„Krankenhaus Nordwest“, sagte sie. „Wer hat die Handtasche abgeholt?“
+
+Niemand antwortete.
+
+„Und der Herr Voß“, sagte Ömer. „Der hat vierzehn null sieben zwei. Den Ersatz. Kann der nicht auch …?“
+
+„Steht drin“, sagte Betty. Sie zeigte auf die Liste. „Vierzehn null sieben zwei. Zweimal in einem Jahr. Am neunten Februar und gestern, mit uns. Sonst nie. Der Herr Voß hatte zweiundvierzig Nachlässe.“
+
+„Und Ihr Generalchip?“, fragte Ömer Heinz Kowalczyk. Nicht unfreundlich. Nur sehr genau.
+
+Heinz Kowalczyk sah ihn lange an. Dann drehte er sich zum Bildschirm, nahm die Maus, klickte zweimal und drehte den Bildschirm zu ihnen. Eine neue Tabelle. Chip G-01. Hunderte Zeilen. Heizungskeller, Müllraum, sechster Stock, neunzehnter Stock, Tiefgarage. Vierzehn null sieben nicht ein einziges Mal.
+
+„Ich war seit einem Jahr nicht mehr drin“, sagte er. „Ich konnte nicht. Ohne sie. Ohne Kaffee.“
+
+Ömer nickte. Er schaltete den Bildschirm aus.
+
+„Ein Chip lügt nicht“, sagte er. „Wie ein Schloss. Aber er sagt nur, welcher Chip. Nicht, welcher Mensch.“
+
+„Dann müssen wir rausfinden, welcher Mensch“, sagte Betty. „Und Herr Kowalczyk?“
+
+„Ja?“
+
+„Sperren Sie den Chip nicht. Vierzehn null sieben eins. Ich weiß, Sie wollen. Tun Sie es nicht.“
+
+Heinz Kowalczyk sah sie an. Er hatte die Hand schon auf der Maus gehabt.
+
+„Warum nicht?“
+
+„Weil er morgen Mittwoch ist“, sagte Betty Brüggemann.
+
+Um elf klingelte es an der Tür der Hausmeisterwohnung. Draußen standen zwei Männer. Der eine war Mitte fünfzig, untersetzt, mit einem braunen Anzug, einer gelben Krawatte, gegelten Haaren und einem Lächeln, das schon an der Tür seine Visitenkarte verteilte. Der andere war Ende dreißig, groß, sportlich, braungebrannt, mit einem offenen, freundlichen Gesicht, einem weißen Hemd unter einer Lederjacke und einem Strauß Chrysanthemen in der Hand.
+
+„Kühn“, sagte der in dem braunen Anzug. „Bernd Kühn. Erbenermittlung Kühn und Partner, Frankfurt, Wiesbaden, Mainz. Und das ist mein Mandant. Herr Marcel Schäfer. Der Erbe.“
+
+„Mutmaßlich“, sagte Betty.
+
+„Mutmaßlich“, sagte Bernd Kühn, ohne aufzuhören zu lächeln.
+
+Marcel Schäfer hielt Betty die Chrysanthemen hin.
+
+„Für Tante Irmgards Grab“, sagte er. „Ich weiß gar nicht, wo es ist. Ich hab sie zwanzig Jahre nicht gesehen. Können Sie mir das zeigen?“
