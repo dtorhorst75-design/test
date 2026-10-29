@@ -1,0 +1,137 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Mit Seeblick und Leiche",
+  "band": "Band 1",
+  "autorin": "Diana",
+  "datei": "Alles-muss-raus-Band-1-Mit-Seeblick-und-Leiche",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer beim Ausräumen finden: Bettys Inventarlisten, Briefe, Zettel, Notizbücher, Ömers Schlossbuch und einen Zeitungsausschnitt. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Zahlen und auf das, was fehlt.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    ["Betty Brüggemann", "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."],
+    ["Ömer Yıldız", "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Redet viel, kann jedes Schloss öffnen."],
+    ["Der Kuckuck", "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."],
+    ["Konstanze von Albrecht", "91, berühmte Opernsängerin. Neun Tage vor Beginn der Geschichte im Schlaf gestorben."],
+    ["Maximilian Albrecht", "52, ihr Neffe, Immobilienmakler in München. Will die Villa verkaufen."],
+    ["Agnieszka Nowicka", "45, Konstanzes Pflegerin aus Breslau."],
+    ["Rosi Hupfauf", "74, die Nachbarin, vierzig Jahre lang Konstanzes Haushälterin. Hat ein Fernglas."],
+    ["Dr. Gerold Steinle", "61, Anwalt aus Starnberg, Konstanzes Vermögensverwalter mit Vorsorgevollmacht."],
+    ["Dr. Georg Brandl", "68, der Hausarzt."],
+    ["Veronika Gschwendtner", "Kriminalhauptkommissarin, Kripo Fürstenfeldbruck."]
+  ],
+  "nachwort_titel": "Den Starnberger See wirklich besuchen",
+  "nachwort": [
+    "Der Starnberger See liegt rund 25 Kilometer südwestlich von München und ist einer der größten Seen Bayerns. Tutzing liegt am Westufer. Von der Uferpromenade aus siehst du bei klarem Wetter die Alpen. Mit der S-Bahn kommst du von München aus bequem hin, und im Sommer fahren Ausflugsschiffe über den See.",
+    "Am Ufer stehen viele alte Villen aus der Zeit um 1900. Die meisten sind privat. Bitte bleib auf den öffentlichen Wegen und am öffentlichen Seeufer.",
+    "Was erfunden ist: die Villa Albrecht und alle Menschen darin und drumherum, die Firma Brüggemann & Yıldız, die Herbstgala, die Stiftung Junge Stimmen und das Verbrechen. Abläufe bei Polizei, Rechtsmedizin, Nachlassgericht und Banken sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 2: Besenrein**",
+    "Ein Hausboot in Hamburg. Ein Mann, der verschwunden ist. Und etwas an Bord, das ihm nicht gehört.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Der Kuckuck",
+      "figuren": ["Betty", "Oemer", "Kuckuck"],
+      "beschreibung": "Der orangefarbene Lastwagen auf der Autobahn, in der Fahrerkabine Betty am Steuer und Ömer mit den Füßen auf dem Armaturenbrett neben der Kuckucksuhr, eine Dose Börek zwischen den Sitzen.",
+      "prompt": "An old orange removal truck drives along a German motorway through hilly countryside in the morning. Through the windscreen we see the cab: the woman at the wheel, concentrated, and the young man beside her with his feet on the dashboard next to a small wooden cuckoo clock whose bird is just popping out, a round plastic food box with a red lid between the seats."
+    },
+    "2": {
+      "titel": "Die Villa am See",
+      "figuren": ["Betty", "Oemer", "Kuckuck"],
+      "beschreibung": "Eine weiße Jugendstilvilla mit Türmchen und grünen Fensterläden am Starnberger See, davor ein silberner Sportwagen und der orangefarbene Lastwagen. Ein Mann in Steppweste telefoniert. Am Zaun zum Nachbarn späht eine kleine alte Frau mit Kopftuch durch ein Fernglas.",
+      "prompt": "A grand white villa from around 1900 with a little tower, an oriel and green shutters, a garden sloping down to a lake with a wooden boathouse, mountains in the distance. In front of the wrought-iron gate a silver sports car and the old orange removal truck. A tall tanned man of 52 in a quilted vest and white shirt talks impatiently on his phone. Between two rhododendrons at the neighbour's fence a small round old woman of 74 with a headscarf and a dirndl under a down jacket peers through big binoculars. The woman with the clipboard and the young man climb out of the truck."
+    },
+    "3": {
+      "titel": "Der Sekretär",
+      "figuren": ["Betty", "Oemer"],
+      "beschreibung": "Im hellen Salon kniet Ömer mit dem alten Werkzeug seines Großvaters vor einem Biedermeier-Sekretär. Hinter ihm stehen Betty mit Klemmbrett und der Neffe mit verschränkten Armen, in der Tür die Pflegerin. Am Fenster draußen die Nachbarin mit Fernglas.",
+      "prompt": "A bright elegant salon with tall windows onto a lake, a black grand piano with silver photo frames, green velvet sofas and a huge crystal chandelier. In the corner by the window an antique Biedermeier writing desk of cherry wood with flower inlays and a heart-shaped brass keyhole. The young man kneels in front of it with fine old lock-picking tools rolled out on a leather cloth, talking to the lock. Behind him the woman with the clipboard and white cotton gloves, and a tanned man with crossed arms; in the doorway a tired woman of 45 with short dark-blond hair. Outside the window a small old woman with binoculars watches."
+    },
+    "4": {
+      "titel": "Zwei Uhr vierzehn",
+      "figuren": ["Betty", "Oemer", "Kuckuck"],
+      "beschreibung": "Nachts: die dunkle Villa, im Salonfenster das kleine Licht einer Taschenlampe. Vorn auf dem Kies Ömer barfuß im Fußballtrikot und Betty im Bademantel mit Gummistiefeln und Klemmbrett, im Hintergrund der Lastwagen unter Kastanien.",
+      "prompt": "Night. A dark villa behind a gate lit by a single lantern; in one ground-floor window the small white beam of a torch moves. On the gravel drive in the foreground the young man runs barefoot in tracksuit trousers and a football shirt, holding a tiny pen torch, and behind him the woman in a dressing gown and rubber boots clutches her clipboard like a sword. In the background the orange truck parked under chestnut trees. Suspenseful and comic at the same time."
+    },
+    "5": {
+      "titel": "Links oben",
+      "figuren": ["Betty", "Oemer"],
+      "beschreibung": "Der Kronleuchter ist gerade angegangen: Vor dem offenen Sekretär steht erstarrt ein rundlicher Mann mit weißem Kinnbart in Steppjacke und Mütze, eine goldene Kette mit Schlüssel und ein hellblaues Kuvert in der Hand. Im grünen Sessel sitzt Betty mit Klemmbrett, hinter dem Flügel Ömer, in der Küchentür eine Kommissarin mit blondem Zopf und Lodenjacke.",
+      "prompt": "A salon at night suddenly flooded with light from a crystal chandelier. In front of an open antique writing desk stands a round-faced man of 61 with a neat white goatee and rimless glasses, in a dark quilted jacket and a knitted hat, frozen, holding a small torch, a fine gold chain with a tiny key and a pale blue envelope. In a green velvet armchair sits the woman calmly with her clipboard on her knees; behind the grand piano the young man grins; in the kitchen doorway a tall woman detective with a thick blonde braid, a loden jacket and hiking boots. Dramatic, theatrical, satisfying."
+    },
+    "6": {
+      "titel": "Die Königin der Nacht",
+      "figuren": ["Betty", "Oemer"],
+      "beschreibung": "Friedhof über dem See: Am offenen Grab singt die kleine Rosi mit gefalteten Händen, daneben hält die Pflegerin ihre Hand. Junge Sängerinnen, alte Damen mit großen Hüten, ein Dirigent im Rollstuhl dirigiert mit einer Hand. Ganz hinten der Neffe. Betty und Ömer am Rand.",
+      "prompt": "A small hillside cemetery above a lake under a cloudy sky, mountains beyond. At an open grave a small round old woman with a headscarf sings with folded hands, eyes closed, with great feeling and no talent; beside her a woman of 45 holds her hand. Around them young women singers, elderly ladies in big hats, an old conductor in a wheelchair conducting gently with one hand. At the very back a tanned man in a white shirt, unshaven. At the edge the woman with the clipboard and the young man stand respectfully. Touching and quietly funny."
+    }
+  },
+  "kdp": [
+    ["Buchtitel", ["Mit Seeblick und Leiche"]],
+    ["Untertitel", ["Ein Krimi zum Mitraten"]],
+    ["Reihe", ["Alles muss raus, Band 1"]],
+    ["Autorin", ["Diana [Nachname oder Pseudonym]"]],
+    ["Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)", [
+      "**Alles muss raus. Aber nicht alles darf raus.**",
+      "Dreißig Jahre lang war Betty Brüggemann Gerichtsvollzieherin. Dann hat sie an Heiligabend eine alte Dame nicht aus ihrer Wohnung geworfen und am nächsten Tag gekündigt. Jetzt räumt sie mit Ömer Yıldız, einem Schlüsseldienstmeister mit sehr vielen Theorien, Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+      "Der erste große Auftrag führt die beiden an den Starnberger See. Die berühmte Opernsängerin Konstanze von Albrecht ist mit 91 Jahren im Schlaf gestorben. Ihr Neffe will die Villa bis Freitag leer haben, denn der Käufer zahlt 4,8 Millionen. Doch dann öffnet Ömer den abgeschlossenen Sekretär. Und darin liegt ein Testament, das alles verändert.",
+      "Zwei Tassen in der Spülmaschine. Sechs Tabletten zu wenig. Ein Fernglas am Gartenzaun. Und ein Kuckuck, der immer zur falschen Zeit ruft.",
+      "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Notizen, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+    ]],
+    ["Keywords (7 Felder bei KDP, je eins pro Feld)", [
+      "Krimi zum Mitraten",
+      "Cosy Krimi deutsch humorvoll",
+      "Krimi Starnberger See",
+      "Rätselkrimi Erwachsene",
+      "Wohlfühlkrimi Reihe",
+      "Krimi ältere Ermittlerin",
+      "Krimi Geschenk für Frauen"
+    ]],
+    ["Kategorien (bei KDP auswählen)", [
+      "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+      "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+      "Zusätzlich passend: Regionalkrimis (Bayern)"
+    ]],
+    ["Über die Autorin (kurze Info für die letzte Seite oder Amazon)", [
+      "Diana schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+    ]],
+    ["Preisvorschlag", [
+      "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+      "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+      "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+    ]],
+    ["Cover-Prompt für Gemini (Vorderseite, Hochformat)", [
+      "Book cover illustration, portrait format 2:3, no text, no letters. A grand white villa from around 1900 with a little tower and green shutters on the shore of a deep blue Bavarian lake, snow-capped Alps in the background, golden autumn light. In the foreground an old orange removal truck is parked at the gate, its rear doors open, a few moving boxes and an antique cherry-wood writing desk on the gravel. A sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a tool bag stand beside it, looking up at one window of the villa, where a curtain has just moved. On the dashboard of the truck a tiny cuckoo clock. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+      "Tipp: Titel, Untertitel und deinen Namen setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Die Reihe bekommt so immer denselben Aufbau: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+    ]],
+    ["Hochladen bei KDP – kurz", [
+      "1. Die Buchdatei in Word öffnen, deinen Namen und deine Adresse im Impressum eintragen, die Bilder einsetzen.",
+      "2. Datei › Speichern unter › PDF.",
+      "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+      "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+      "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+    ]]
+  ]
+}
