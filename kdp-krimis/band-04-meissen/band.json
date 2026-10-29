@@ -1,0 +1,222 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Restposten",
+  "band": "Band 4",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-4-Restposten",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Schloss finden: Bettys Inventarlisten und Maße, einen Zettel aus dem Jahr 1945, ein Schlüsselbuch, Ömers Schlossbuch, einen Auktionskatalog, eine Zuschlagsliste, ein Zutrittsprotokoll und Briefe. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Schlüssel, auf Staub und auf Zahlen. Manchmal reicht ein Zollstock.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf. Und misst alles nach."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Hat von diesem Schrank geträumt."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Gundula Pietzsch",
+      "61, Kastellanin von Schloss Elbwinkel. War Köchin im Kinderheim, das dort bis 1991 war."
+    ],
+    [
+      "Konstantin von Elbwinkel",
+      "87, aus Bamberg. Im Schloss geboren, im Februar 1945 mit seiner Mutter geflohen. Trägt einen Schlüssel um den Hals."
+    ],
+    [
+      "Ralf Mittag",
+      "56, Auktionator aus Dresden. Hat das ganze Schloss versteigert. Bis auf einen Schrank."
+    ],
+    [
+      "Dr. Sabine Wendt",
+      "44, Kunsthistorikerin, Expertin für Meißner Porzellan. Arbeitet für Herrn Mittag."
+    ],
+    [
+      "Florian Kessel",
+      "39, aus Dresden. Hat das Schloss gekauft und will ein Hotel daraus machen. Mit der Bank."
+    ],
+    [
+      "Sven Kretzschmar",
+      "Kriminalhauptkommissar, Kripo Dresden. Sehr höflich. Sehr gründlich."
+    ]
+  ],
+  "nachwort_titel": "Meißen und die Elbe wirklich besuchen",
+  "nachwort": [
+    "Meißen liegt rund 25 Kilometer elbabwärts von Dresden. Über der Altstadt stehen auf einem Felsen der Dom und die Albrechtsburg. In Meißen wird seit 1710 Porzellan hergestellt, das älteste in Europa. In der Schauwerkstatt der Manufaktur kannst du zusehen, wie es bemalt wird.",
+    "Das Schwanenservice gibt es wirklich. Es wurde ab 1737 für den Grafen Heinrich von Brühl gemacht und gilt als eines der berühmtesten Porzellanservices der Welt. Einzelne Teile stehen heute in Museen, zum Beispiel in Dresden. Alle Stücke, die in diesem Buch vorkommen, sind erfunden.",
+    "Entlang der Elbe zwischen Dresden und Meißen ziehen sich Weinberge mit Terrassen und Sandsteinmauern. Der Elberadweg führt mitten hindurch. Im Sommer fahren historische Raddampfer.",
+    "Was erfunden ist: Schloss Elbwinkel mit Turm, Schrank und toter Treppe, die Familie von Elbwinkel, das Kinderheim, das Auktionshaus Mittag und alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Auktion und Gericht sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 5: Sperrmüll**",
+    "Ein Hochhaus in Frankfurt. Jeden Donnerstag stellt jemand Sperrmüll an die Straße. Aus einer Wohnung, in der seit einem Jahr niemand mehr wohnt.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Schloss Elbwinkel",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein weißes Schloss auf einem Felsen über der Elbe, mit Weinbergterrassen, einem alten, grauen viereckigen Turm und ganz oben einem vergitterten Fenster. Im Hof ein Transporter eines Auktionshauses, Männer tragen Möbel. Eine kleine Frau in einer knallbunten Strickjacke läuft auf den orangefarbenen Lastwagen zu.",
+      "prompt": "A white baroque castle with three wings and a mossy red roof on a rock above the river Elbe, steep vineyard terraces with sandstone walls behind it, autumn colours. At the corner towards the river an old square grey rubble-stone tower, much older than the house, with small windows getting smaller towards the top and one barred window right under the pointed roof. In the courtyard a white van of an auction house with its rear doors open; two men in grey jackets carry an armchair. A small sturdy woman of 61 with short dyed blonde hair and an extremely colourful knitted cardigan runs waving towards the old orange removal truck, from which the woman with the clipboard and the young man climb out. A paddle steamer on the river."
+    },
+    "2": {
+      "titel": "Von innen",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Das kleine Turmzimmer: Ein riesiger, offener Barockschrank aus Nussbaum, der mittlere Boden leer bis auf zerknülltes altes Zeitungspapier. Davor auf dem Boden ein Mann im Kamelhaarmantel (nur angedeutet, nicht blutig), ein Bronzeleuchter. In der Tür stehen erschrocken die Kastellanin, ein alter Herr mit Hut und Stock, ein junger Mann mit gelben Rosen, eine Frau mit Kamera. Betty bückt sich nach einem kleinen Stück weißem Porzellan.",
+      "prompt": "A small high cold tower room with whitewashed walls, a single barred window over the river and faded green wallpaper with little golden birds on one wall only. Against that wall a huge carved baroque walnut wardrobe with both doors wide open; inside, bottom left a wooden casket, bottom right four tarnished silver candlesticks, top bundles of letters and a big bible, and the middle shelf empty except for crumpled old yellow newspaper. On the floor in front of it a man in a camel-hair coat lies on his side, only suggested, not gory, next to a heavy bronze candlestick. In the doorway, shocked: the small woman in the colourful cardigan, a frail old gentleman of 87 with a green hat and a walking stick, a young man dropping yellow roses, and a slim woman of 44 with short dark hair, big black glasses and a camera. The woman with the clipboard bends down to a small white porcelain fragment shaped like a swan's neck. Tense, cosy-crime mood, not gruesome."
+    },
+    "3": {
+      "titel": "Die tote Treppe",
+      "figuren": [
+        "Oemer"
+      ],
+      "beschreibung": "Ömer kniet im Schrank und hat die Rückwand aufgedrückt. Dahinter führt eine schmale, steile Steintreppe in der Mauer nach unten, voller Staub und Spinnweben, mit Fußspuren im Staub. Ein junger Kommissar mit Seitenscheitel und runder Brille leuchtet mit der Taschenlampe hinein.",
+      "prompt": "Inside a huge old baroque wardrobe in a tower room the young man kneels and has pushed open the back panel. Behind it, inside the thick stone wall, a very narrow steep stone staircase spirals down into darkness, the steps thick with grey dust and cobwebs, a trail of small shoe prints with a wavy sole pattern leading downwards. A young polite detective of 31 with a neat side parting, rosy cheeks and round glasses shines a torch into it and holds the young man back by the sleeve. Cold draught, mysterious."
+    },
+    "4": {
+      "titel": "Der Brief aus Bamberg",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Ein kleines Gästezimmer mit Häkeldecke. Am Fenster sitzt der alte Herr von Elbwinkel und schaut auf den dunklen Turm. Betty sitzt neben ihm mit einem Brief auf dem Klemmbrett.",
+      "prompt": "A small cosy guest room in a gatehouse at dusk, a crocheted blanket over an armchair. By the window sits a frail old gentleman of 87 with neatly parted white hair in a grey loden coat, looking out at a dark old castle tower with a barred window at the top, a key on a thin gold chain visible at his collar. Beside him on a chair sits the woman with the clipboard, a letter on it, listening. Quiet, melancholic, warm lamplight."
+    },
+    "5": {
+      "titel": "Für Konstantin",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts im Turmzimmer: Im Schrank kniet eine Frau mit Stirnlampe, voller Staub und Spinnweben, und hält ein kleines Holzfach mit einem alten Teddybären darin. Betty leuchtet sie mit der Taschenlampe an, Ömer faltet sich aus einer Lücke neben dem Schrank.",
+      "prompt": "Night in a tower room, moonlight through a barred window. Inside a big open baroque wardrobe a slim woman with short dark hair kneels, wearing a headlamp, covered in grey dust and cobwebs, holding a small flat wooden drawer; in it lies a small worn light-brown teddy bear with one button eye and a red ribbon. She stares in shock. From a three-legged chair the woman with the clipboard shines a torch at her, calm. Next to the wardrobe the young man unfolds himself from a narrow gap. Suspenseful and touching."
+    },
+    "6": {
+      "titel": "Brummi",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im Turmzimmer drückt der alte Herr den kleinen Teddy an seine Brust. Um ihn herum: die weinende Kastellanin, Ömer, ein junger Investor mit Mütze, der Kommissar putzt seine Brille, Betty mit dem Klemmbrett.",
+      "prompt": "In the tower room with green wallpaper with golden birds, in front of the open baroque wardrobe, the frail old gentleman of 87 in a grey loden coat presses a small worn teddy bear with a red ribbon to his chest, eyes closed, like a child. Around him the small woman in the colourful cardigan cries, the young man wipes his eyes, a young investor with a beanie looks out of the barred window, the young detective cleans his round glasses, and the woman holds her clipboard to her chest. A crocheted blanket on the floor. Soft morning light, deeply touching."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Restposten"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 4"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Bis auf einen Schrank.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal ist es ein Schloss an der Elbe bei Meißen. Alles ist versteigert. Nur ein riesiger Barockschrank im Turmzimmer ist übrig. Er passt nicht durch die Treppe, und er ist seit 1945 abgeschlossen. Dann kommt ein alter Herr mit dem Schlüssel um den Hals. Doch am nächsten Morgen liegt der Auktionator tot vor dem offenen Schrank, in einem Zimmer, das von innen abgeschlossen ist. Und zwölf Teile des berühmtesten Porzellans der Welt sind fort.",
+        "Ein Zollstock. Ein Schlüsselbuch. Eine Spinnwebe im Haar. Und eine Treppe, die es nicht geben dürfte.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Sachsen Krimi Meißen",
+        "Locked Room Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Krimi Schloss",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Sachsen)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A white baroque castle on a rock above the river Elbe at golden autumn evening light, vineyard terraces around it, and at its corner an old grey square tower with one barred window at the very top, a warm light glowing behind it. Below in the courtyard the old orange removal truck; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a leather tool roll look up at the tower window. A paddle steamer on the river. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

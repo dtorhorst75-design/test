@@ -1,0 +1,81 @@
+# Blatt 1
+
+Florian Kessel kam um fünf, in einem kleinen, roten Auto, das zu schnell in den Schlosshof fuhr und zu spät bremste. Er war Ende dreißig, schlank, mit einem gepflegten Dreitagebart, einer Strickmütze und einer Brille mit dickem, schwarzem Rand, und er hatte eine Papprolle unter dem Arm, wie Architekten sie haben, und ein Telefon am Ohr, in das er sagte: „Ja. Ja. Nein. Morgen. Ja.“ Dann legte er auf und gab Betty die Hand.
+
+„Kessel“, sagte er. „Ich bin der, dem das alles gehört.“ Er lachte, ein bisschen zu laut. „Also, mir und der Bank.“
+
+Er war nett. Er war sehr nett und sehr müde, mit dunklen Ringen unter den Augen, und er erzählte, ohne gefragt zu werden, von seinem Hotel. Vierzig Zimmer. Ein Spa im Gewölbekeller. Eine Weinverkostung im alten Pferdestall. Eine Hochzeitssuite im Turm.
+
+„Im Turmzimmer“, sagte Betty.
+
+„Im Turmzimmer“, sagte Florian Kessel. „Mit Blick auf die Elbe. Das wird das Herzstück. Dafür muss der Schrank raus. Leider. Ich weiß, er ist schön. Aber ich kann keine Hochzeitssuite um einen Schrank herum bauen, den niemand aufmachen kann.“ Er seufzte. „Herr Mittag hat angeboten, ihn umsonst abzubauen und mitzunehmen. Als Gefälligkeit. Aber Frau Pietzsch hat gesagt, sie kennt jemanden in Kassel.“
+
+„Frau Pietzsch kennt eine Kommissarin in Güstrow“, sagte Betty. „Die kennt eine in Hamburg.“
+
+„Das ist mir zu kompliziert“, sagte Florian Kessel. „Hauptsache, er ist bis Freitag weg. Freitag kommen die Handwerker.“
+
+Er rollte seinen Plan auf dem Tisch im Torhaus aus. Es war ein Grundriss des Schlosses, sauber und neu, vom Vermessungsbüro, mit allen Mauern und Maßen. Der Turm war ein kleines Quadrat an der Ecke. Daneben standen Zahlen.
+
+Betty schrieb sie ab. Dann ging sie mit Ömer noch einmal die hundertacht Stufen hinauf, mit einem Zollstock und einem Maßband, und machte das, was sie immer machte, wenn ein Möbelstück zerlegt werden musste. Sie maß. Sie maß alles. Den Raum, den Schrank, die Tür, das Fenster, die Treppe. Sie maß zweimal, weil Ömer beim ersten Mal das Maßband festgehalten hatte und dabei geredet hatte und dabei das Ende hatte rutschen lassen.
+
+Als sie fertig war, schrieb sie es auf.
+
+[[DOK Liste | Bettys Inventarliste · Schloss Elbwinkel · Turmzimmer (3. OG) · Blatt 1 · Mo., 17:40 Uhr]]
+Pos. | Gegenstand / Maß | Wert | Bemerkung
+1 | Turm außen (Grundriss Kessel, Vermessungsbüro) | 7,00 × 7,00 m | Mauerstärke laut Plan überall 0,90 m
+2 | Turmzimmer innen, Nord–Süd (Wand zu Wand) | 5,20 m | gemessen 2 ×
+3 | Turmzimmer innen, West–Ost (Tür bis Vorderseite Schrank) | 3,65 m | gemessen 2 ×
+4 | Schrank, Nussbaum, Dresden um 1731 | B 3,10 · H 2,85 · T 0,75 m | steht an der Ostwand, ohne Lücke. Rückseite nicht zu sehen
+5 | Schrankschloss, Messingbeschlag Krone | – | ABGESCHLOSSEN. Schlüssel: K. v. E. (Kette)
+6 | Tür Turmzimmer, Eiche, Kastenschloss | B 0,82 m | Schlüssel: bei Hr. Mittag (Schlüsselbuch Fr. Pietzsch)
+7 | Wendeltreppe, 108 Stufen | lichte Breite 0,78 m | Schrank passt NICHT durch, auch nicht hochkant
+8 | Fenster Süd, Eisengitter | 0,60 × 0,90 m | Gitter fest eingemauert, Abstand der Stäbe 11 cm
+9 | Restposten in der Ecke: 1 Stuhl (3 Beine), 1 Bronzeleuchter, 1 Bild (Gesicht zur Wand) | – | Bild: Graf v. E., Öl, Rahmen beschädigt
+10 | Tapete Ostwand (hinter/neben dem Schrank), grün, goldene Vögel | verblasst | nur an der Ostwand. Alle anderen Wände gekalkt
+[[/DOK]]
+
+„Warum ist nur an der Ostwand Tapete?“, fragte Ömer.
+
+„Weiß ich nicht“, sagte Betty. Sie schrieb etwas an den Rand. Mit Bleistift. „Noch nicht.“
+
+Unten im Torhaus hing neben der Tür ein Brett mit Haken, an jedem Haken ein Schlüssel mit einem Holzanhänger, und darunter, an einer Schnur, ein Heft. Ein altes, dünnes, blaues Schulheft mit einem Etikett, auf dem „Schlüsselbuch“ stand. Gundula Pietzsch führte es seit dreiunddreißig Jahren. Sie sagte, im Kinderheim habe man jeden Schlüssel aufschreiben müssen, sonst kam die Heimleitung, und dann gab es Ärger. Und das habe sie sich nie abgewöhnt.
+
+Betty las die letzte Seite.
+
+[[DOK Formular | Schlüsselbuch Torhaus (blaues Heft, Handschrift G. Pietzsch) · letzte Seite]]
+Datum   | Schlüssel        | an wen               | Uhrzeit | zurück
+Sa 16.11.| alle Säle        | Auktion (Hr. Mittag) | 7:00    | Sa 19:30 ✓
+Mo 18.11.| Turmtreppe       | Kassel (Fr. Brüggemann)| 12:10 | Mo 18:00 ✓
+Mo 18.11.| Turmzimmer       | Hr. Mittag (Fotos)   | 16:30   | ––––
+Mo 18.11.| Waschküche Keller| Hr. Kessel (Maße)    | 17:15   | Mo 17:40 ✓
+[[/DOK]]
+
+„Der Herr Mittag hat ihn noch“, sagte Gundula. „Den Turmzimmerschlüssel. Er hat gesagt, er bringt ihn morgen früh. Er will noch Fotos machen, bevor wir den Schrank aufmachen. Für den Katalog. Falls Herr von Elbwinkel verkaufen will.“
+
+„Will er verkaufen?“
+
+„Weiß ich nicht“, sagte Gundula. „Ich weiß nicht mal, ob ihm das überhaupt gehört. Was drin ist. Wo doch das Schloss Herrn Kessel gehört. Mit allen Restposten.“ Sie sah Betty an. „Wem gehört denn das, Frau Brüggemann? Was in einem Schrank ist, der einem gehört, und was die Mutter von einem anderen reingelegt hat?“
+
+Betty hatte dreißig Jahre lang solche Fragen beantwortet. Diese beantwortete sie nicht.
+
+„Das wird ein Gericht entscheiden“, sagte sie.
+
+Um sechs fuhren die Männer in den grauen Jacken mit dem Transporter nach Dresden. Um zehn nach sechs fuhr Dr. Sabine Wendt mit ihrem eigenen Auto, einem kleinen, grauen, und winkte aus dem Fenster und rief, sie komme morgen um halb neun wieder, zum großen Augenblick. Um halb sieben ging Ralf Mittag zu Fuß den Weinberg hinunter, mit seinem Kamelhaarmantel und einer Ledertasche, zum Gasthof an der Elbe, wo er ein Zimmer hatte. Um sieben kam Florian Kessels kleines rotes Auto nicht mehr in Gang, und Ömer schob es an, und Florian Kessel bedankte sich dreimal und fuhr.
+
+Um acht saßen Betty, Gundula und Konstantin von Elbwinkel in der Küche des Torhauses und aßen Kartoffelsuppe, und Konstantin erzählte vom Kinderzimmer im ersten Stock und vom Teddy, den er dagelassen hatte, weil im Koffer kein Platz mehr war.
+
+Ömer schlief im Kuckuck. Er schlief immer im Kuckuck, wenn es ging. Er sagte, im Kuckuck schlafe er besser als in jedem Hotel, weil der Kuckuck nach Möbeln rieche, und Möbel rochen nach Menschen, die zu Hause sind.
+
+Kurz vor Mitternacht wachte er auf.
+
+Er wusste nicht, wovon. Er lag auf seiner Matratze im Laderaum, zwischen den Umzugsdecken, und hörte. Draußen im Hof knirschte Kies. Ein Auto. Ein leises Auto, mit ausgeschalteten Scheinwerfern, das langsam über den Hof rollte und dann stand. Eine Tür, die ganz leise zugedrückt wurde. Schritte.
+
+Dann nichts mehr.
+
+Vorne in der Fahrerkabine rief der Kuckuck. Er rief zehn Mal. Zweiundzwanzig Uhr, behauptete er.
+
+Ömer nahm sein Handy und sah auf die Uhr. Dreiundzwanzig Uhr siebenundvierzig. Er schrieb es in sein schwarzes Notizbuch, ohne Licht, nach Gefühl. Auto im Hof. Leise. Ohne Licht. 23:47.
+
+Dann schlief er wieder ein. Er dachte, es ist der Herr Mittag, der seine Fotos machen will.
+
+Er dachte nicht weiter darüber nach. Darüber ärgerte er sich später sehr.
