@@ -170,13 +170,9 @@ def impressum(doc, band):
         doc.add_paragraph()
     for z in [
         f"**{band['reihe']} – {band['band']}: {band['titel']}**",
-        '© 2026 Diana [Nachname]. Alle Rechte vorbehalten.',
-        'Herausgeberin: Diana [Nachname], [Straße Hausnummer], [PLZ Ort]',
-        'Kontakt: [E-Mail-Adresse]',
-        'Druck: Amazon Distribution GmbH, Leipzig (bzw. siehe letzte Seite)',
+        f"© 2026 {band['autorin']}. Alle Rechte vorbehalten.",
         '',
         'Dieser Roman ist frei erfunden. Die Handlung spielt an realen Orten, alle Figuren, Firmen und Ereignisse sind jedoch erfunden. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig und nicht beabsichtigt.',
-        'Der Text wurde mit Unterstützung künstlicher Intelligenz erstellt und von der Autorin überarbeitet.',
     ]:
         kb.absatz(doc, z, einzug=False, groesse=Pt(8.5), nach=3)
     kb.seitenumbruch(doc)

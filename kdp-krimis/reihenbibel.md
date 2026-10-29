@@ -19,3 +19,7 @@
 3. Zu verschenken – Gutshof in Mecklenburg
 4. Restposten – Schloss in Sachsen
 5. Sperrmüll – Hochhaus in Frankfurt
+
+## Autorin
+
+Künstlername für diese Reihe: **Jette van Hoven**. Impressum nur mit Künstlername (keine Adresse, keine E-Mail, Verkauf nur über amazon.com).
