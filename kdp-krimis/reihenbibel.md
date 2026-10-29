@@ -17,7 +17,7 @@
 1. Mit Seeblick und Leiche – Villa am Starnberger See
 2. Besenrein – Hausboot in Hamburg
 3. Zu verschenken – Gutshof in Mecklenburg
-4. Restposten – Schloss in Sachsen
+4. Restposten – Schloss bei Meißen an der Elbe (Schrank im Turmzimmer, abgeschlossen, Schlüssel seit 1945 weg)
 5. Sperrmüll – Hochhaus in Frankfurt
 
 ## Autorin

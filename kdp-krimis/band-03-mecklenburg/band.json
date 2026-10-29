@@ -1,0 +1,235 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Zu verschenken",
+  "band": "Band 3",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-3-Zu-verschenken",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer auf dem Gutshof und im Dorf finden: Bettys Inventarlisten, Abschriften aus einem Wandkalender, einem Torbuch und einem Kranichbuch, Zettel, Briefe, ein Ernteprotokoll, einen Meldeschein, Ömers Schlossbuch und einen Zeitungsausschnitt. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Handschriften, auf die Art, wie jemand ein Datum schreibt, und auf einen Riegel.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Leidet, weil es auf dem ganzen Hof kein Schloss gibt."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Hinrich „Hinni“ Pagels",
+      "81, Besitzer von Gut Kranichsee. Hat 1994 ein Schild ans Tor gehängt: Zu verschenken. Im August tot im Kornspeicher gefunden."
+    ],
+    [
+      "Walter Pagels",
+      "79, sein Vetter, früher Fischer in Warnemünde. Hat alles geerbt."
+    ],
+    [
+      "Jule Rammin",
+      "27, Postbotin. Kam jeden Morgen um zwanzig vor acht."
+    ],
+    [
+      "Ines und Jan-Philipp Wörtmann",
+      "39 und 42, aus Berlin. Wollen das Herrenhaus retten."
+    ],
+    [
+      "Malte Frerichs",
+      "41, Nordlicht Solar GmbH. Will den Acker für einen Solarpark."
+    ],
+    [
+      "Rüdiger Kalinke",
+      "58, Agrargenossenschaft Kranichsee. Pachtet den Acker seit dreißig Jahren."
+    ],
+    [
+      "Hanna Dreyer",
+      "72, Wirtin der Pension Kranichblick."
+    ],
+    [
+      "Frau Krüger",
+      "vom Bäckerwagen. Weiß alles zuerst."
+    ],
+    [
+      "Anke Brüsehaber",
+      "Kriminalhauptkommissarin, Kripo Güstrow. Fährt Motorrad mit Beiwagen. Im Beiwagen: Krischan."
+    ]
+  ],
+  "nachwort_titel": "Die Kraniche wirklich besuchen",
+  "nachwort": [
+    "Jedes Jahr im Herbst rasten Zehntausende Kraniche in Mecklenburg-Vorpommern, bevor sie nach Süden ziehen. Die beste Zeit ist von Ende September bis Ende Oktober. Am bekanntesten ist die Gegend um die Boddenküste bei Zingst und Groß Mohrdorf, wo es ein Kranich-Informationszentrum und Beobachtungsstände gibt. Aber auch im Binnenland, rund um Güstrow und die Mecklenburgische Seenplatte, sieht man sie auf den Feldern.",
+    "Bitte halte Abstand. Kraniche sind sehr scheu. Bleib auf den Wegen, im Auto oder an den Beobachtungsständen, und lass Fernglas statt Füße arbeiten. Am schönsten ist es bei Sonnenuntergang, wenn die Vögel in großen Keilen zu ihren Schlafplätzen fliegen und rufen.",
+    "Alleen mit alten Linden und Eichen gibt es in Mecklenburg viele, ebenso alte Gutshäuser, von denen manche wieder bewohnt und manche noch Ruinen sind. Einige kann man besichtigen oder darin übernachten.",
+    "Was erfunden ist: das Gut Kranichsee, das Dorf Kranichsee, die Pension Kranichblick, die Nordlicht Solar GmbH, die Agrargenossenschaft, der Mecklenburger Landbote, das Notariat und alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Notar und Gericht sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 4: Restposten**",
+    "Ein Schloss an der Elbe bei Meißen. Alles ist versteigert. Nur ein Schrank im Turmzimmer will keiner. Er ist abgeschlossen, und der Schlüssel ist seit 1945 weg.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Gut Kranichsee",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein Gutshof in Mecklenburg: rechts ein rotes Backstein-Herrenhaus mit Turm und halb eingestürztem Dach, aus einem Fenster wächst eine Birke. Links ein weißes Verwalterhaus mit grünen Läden und Apfelbaum, dahinter ein hoher Fachwerkspeicher mit offener Luke. Der orangefarbene Lastwagen fährt vor, ein großer, dünner alter Fischer mit Pfeife wartet. Über dem Speicher ziehen Kraniche.",
+      "prompt": "A Mecklenburg manor farm in autumn. On the right a large red-brick manor house with a corner tower and tall pointed windows without glass, half of its roof collapsed, a young birch growing out of a first-floor window. On the left a small white-plastered steward's house with green shutters, an apple tree, a bench and a neatly stacked woodpile. Behind them a tall narrow half-timbered granary three storeys high with an open hatch under the gable. The old orange removal truck has just arrived; the woman with the clipboard and the young man climb out. A very tall, thin, stooped old fisherman of 79 in a blue fisherman's jacket and a Prince Henry cap with an unlit pipe waits by the white house. Above the granary a V of grey cranes flies, calling. Wide flat fields under a huge sky."
+    },
+    "2": {
+      "titel": "Das Schild am Tor",
+      "figuren": [],
+      "beschreibung": "Am Ende einer Lindenallee: Ein schiefer, schmiedeeiserner Torflügel mit einem alten Holzschild „Zu verschenken“ (ohne lesbare Schrift), daneben auf einem Pflock eine alte Milchkanne. Davor steht eine junge Postbotin mit blondem Zopf und gelber Mütze auf ihrem gelben Fahrrad und schaut zum Hof.",
+      "prompt": "The end of a long avenue of old lime trees with yellow autumn leaves. Between two brick gate pillars hangs a single crooked wrought-iron gate wing with a little crown on top; the other wing lies in brambles. Nailed to the gate an old weathered grey wooden board with faded white brush strokes (no readable letters). Next to the pillar on a wooden post stands a dented old aluminium milk churn with a pen hanging from its lid on a string. In front of the gate a young post-woman of 27 with a round face, red cheeks and a thick blonde braid under a yellow cap stands with one foot on the ground beside her yellow electric bicycle with big panniers, looking sadly up the sandy drive. Quiet, melancholic morning light."
+    },
+    "3": {
+      "titel": "An der Luke",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ganz oben im Kornspeicher: Durch die offene Luke sieht man ein weites Feld mit Kranichen. Auf dem Sims liegen ein Fernglas, eine Taschenlampe und ein kleines grünes Notizbuch. Betty mit weißen Handschuhen schlägt es auf, Ömer mit Spinnweben im Haar schaut über ihre Schulter.",
+      "prompt": "The dusty top floor of an old half-timbered granary under the gable. Two wooden hatch doors stand open; through them a vast brown stubble field to the horizon with a hedge at its edge and about a hundred grey cranes standing on it. On the broad wooden sill lie old binoculars, a torch and a small thick green notebook with a pencil. The woman with the clipboard, wearing white cotton gloves, opens the notebook; the young man with cobwebs in his hair looks over her shoulder. Soft evening light, very quiet."
+    },
+    "4": {
+      "titel": "Krischan",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Auf dem Gutshof hält ein altes schwarzes Motorrad mit Beiwagen. Eine große, knochige Kommissarin mit kurzen roten Haaren und Lederjacke nimmt den Helm ab. Im Beiwagen sitzt ein großer, grauer, struppiger Hund mit Schutzbrille. Betty und Ömer staunen, daneben der alte Fischer.",
+      "prompt": "In the yard of a manor farm stands an old black motorcycle with a sidecar. A tall bony woman detective in her fifties with short red hair turning grey at the sides and a worn leather jacket takes off her helmet. In the sidecar sits a big grey shaggy dog wearing motorcycle goggles, looking very serious. The woman with the clipboard and the young man stare in amazement, the tall old fisherman with his pipe smiles. In the background the orange truck and the half-timbered granary. Funny and warm."
+    },
+    "5": {
+      "titel": "Im Saal ohne Dach",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Der große Saal des Herrenhauses ohne Dach, durch das Loch scheint der Himmel. Auf einer alten Tür über zwei Strohballen liegen Kalender, Notizbücher, ein Bierdeckel und ein karierter Zettel. Drumherum sitzen alle Verdächtigen. Betty steht mit weißen Handschuhen am Tisch, eine elegante Frau mit dunklem Haar wird blass. In der Tür lehnt die Kommissarin mit dem Hund.",
+      "prompt": "A large ruined manor hall without a roof, the sky visible through the gap, a remnant of green and gold wallpaper on one wall and a huge marble fireplace in the corner, tall glassless windows onto a pond. In the middle an old door laid across two straw bales as a table; on it a wall calendar, notebooks, a beer mat and a small checked sheet of paper. Around it on odd chairs: a tall old fisherman in a white shirt with a too-wide collar, a young blonde post-woman, a heavy farmer with a cap in his hands, a sporty man with a tablet, an old landlady in an apron, a small round baker woman with a tray of butter cake, a pale bearded man with round glasses, and an elegant dark-haired woman in a light coat who has just gone pale. The woman with the clipboard stands at the table wearing white gloves. In the doorway leans the red-haired detective with the big grey dog. Dramatic, theatrical."
+    },
+    "6": {
+      "titel": "Verschenkt",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Am Tor unter kahlen Linden malt der alte Fischer mit weißer Farbe neue Worte unter das alte Schild, die junge Postbotin hält den Farbeimer. Ein Bauer mit Schirmmütze steht neben einem riesigen Traktor. Am Tor wartet der orangefarbene Lastwagen, Ömer wischt sich die Augen, Betty lächelt.",
+      "prompt": "Late autumn at the end of an avenue of almost bare lime trees, yellow leaves blowing across the road. At the old wrought-iron gate the tall thin old fisherman carefully paints new lines with white paint and a broad brush on the free part of the old weathered wooden board (no readable letters). The young blonde post-woman in a dark coat holds the paint bucket and smiles through tears. A heavy farmer with a cap stands next to a huge tractor and looks away, moved. The old orange truck waits with its engine running; the young man wipes his eyes and the woman with the clipboard smiles. High in the grey sky a last V of cranes heads south-west. Touching and hopeful."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Zu verschenken"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 3"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Aber manches will einfach keiner haben.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal ist es ein Gutshof in Mecklenburg. Seit dreißig Jahren hängt am Tor ein Schild: Zu verschenken. Niemand wollte ihn. Jetzt ist der alte Hinni tot, gestürzt im Kornspeicher, und plötzlich will ihn jeder. Ein Solarunternehmer, der Pächter, ein charmantes Paar aus Berlin mit einem handgeschriebenen Versprechen. Und im Dorf reden sie über die junge Postbotin.",
+        "Ein Kranichbuch ohne letzte Unterschrift. Ein Riegel, der von außen zu ist. Eine Bäckerin, die alles weiß. Und ein Hof ohne ein einziges Schloss, was Ömer fast den Verstand kostet.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Mecklenburg Krimi",
+        "Rätselkrimi Erwachsene",
+        "Wohlfühlkrimi Reihe",
+        "Krimi Gutshaus Kraniche",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Mecklenburg-Vorpommern / Norddeutschland)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. At the end of a long avenue of old lime trees in golden autumn colours stands an old crooked wrought-iron gate with a weathered wooden sign (no readable letters) and a dented milk churn on a post beside it. Behind the gate a sandy drive leads through a wild park past a pond with two swans to a red-brick manor house with a tower and a half-collapsed roof, and a tall half-timbered granary with an open hatch under the gable. Above the granary a V of grey cranes flies across a huge evening sky. At the gate the old orange removal truck; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a tool bag look up the drive. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei Band 1 und 2: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}
