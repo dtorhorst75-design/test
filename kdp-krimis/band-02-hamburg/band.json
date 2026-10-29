@@ -1,0 +1,232 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Besenrein",
+  "band": "Band 2",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-2-Besenrein",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer auf dem Hausboot und drumherum finden: Bettys Inventarlisten, Abschriften aus einem Bordbuch, Zettel, Briefe, ein Sturmprotokoll, Ömers Schlossbuch und einen Zeitungsausschnitt. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Handschriften, auf Knoten und auf das, was an einem Haken hängt.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Kann jedes Schloss öffnen und jeden Knoten lesen."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Hauke Lüders",
+      "58, Barkassenführer, wohnt auf dem Hausboot „Kuddel“. Seit sechs Wochen verschwunden."
+    ],
+    [
+      "Smutje",
+      "Haukes Kater, rot, mit einem halben Ohr. Wartet."
+    ],
+    [
+      "Wiebke Lüders",
+      "54, seine Schwester, Rechtspflegerin am Amtsgericht Hamburg-Mitte."
+    ],
+    [
+      "Frauke Ahlers",
+      "63, Malerin, wohnt auf dem Nachbarboot „Gesine“. Füttert den Kater."
+    ],
+    [
+      "Ingo Tamm",
+      "61, Stegwart des Hausbootvereins. Hat auch ein Klemmbrett."
+    ],
+    [
+      "Torben Reese",
+      "47, Reederei Reese, Hafenrundfahrten seit 1952. Haukes letzter Chef."
+    ],
+    [
+      "Lasse",
+      "19, Decksmann bei der Reederei Reese, Haukes Lehrling."
+    ],
+    [
+      "Merle Thordsen",
+      "Kriminalhauptkommissarin, LKA Hamburg, Vermisstenstelle. Strickt."
+    ]
+  ],
+  "nachwort_titel": "Die Bille wirklich besuchen",
+  "nachwort": [
+    "Die Bille ist ein kleiner Fluss, der in Schleswig-Holstein entspringt und in Hamburg-Rothenburgsort in die Elbe mündet. In Hamburg fließt sie durch Kanäle und Hafenbecken, vorbei an Lagerhallen, Kleingärten und Weiden. Die Straße Billwerder Ufer gibt es wirklich. Am schönsten erkundest du die Gegend zu Fuß oder mit dem Fahrrad. Ganz in der Nähe liegt der Elbpark Entenwerder mit Blick auf die Elbbrücken.",
+    "Hausboote gibt es in Hamburg an mehreren Stellen, unter anderem an der Bille und am Eilbekkanal. Die meisten sind privat bewohnt. Bitte betritt keine Stege ohne Einladung.",
+    "Barkassen fahren bis heute mit Gästen durch den Hamburger Hafen, ab den Landungsbrücken. Einige historische Barkassen werden von Vereinen gepflegt. Eine Fahrt lohnt sich, auch bei Regen.",
+    "Was erfunden ist: der Steg 4 und der Verein Billeblick, die Kuddel und alle Menschen darin und drumherum, die Reederei Reese, die Barkasse Moorfleet, der Hafenbote, die Elbe-Assekuranz, die Pension Zur Bille und das Verbrechen. Abläufe bei Polizei, Rechtsmedizin, Versicherung, Hafenbehörde und Insolvenzgericht sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 3: Zu verschenken**",
+    "Ein Gutshof in Mecklenburg. Ein Schild am Tor, das dreißig Jahre lang niemand ernst genommen hat. Und plötzlich will ihn jeder haben.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Am Steg",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Der orangefarbene Lastwagen am Billwerder Ufer, dahinter ein langer Holzsteg mit bunten Hausbooten. Am Tor eine große, sehnige Frau mit wirren grauen Haaren in Regenjacke. Auf dem Dach des kleinen grünen Hausboots ganz hinten sitzt ein roter Kater.",
+      "prompt": "A long wooden jetty reaching into a small river in an industrial harbour district of Hamburg, warehouses and willows around it. Along the jetty seven very different houseboats: a blue one with red window frames and flower boxes, a black wooden cube with a glass front, a converted hull with a greenhouse on top, and at the very end a small, slightly crooked green houseboat with a stove pipe and a little wind turbine; on its roof sits a big ginger tomcat with half an ear, staring down the river. In front of the gate the old orange removal truck; the woman with the clipboard and the young man climb out. At the gate waits a tall wiry woman of 54 with short grey hair sticking out in all directions, in a navy rain jacket and rubber boots. Grey northern sky."
+    },
+    "2": {
+      "titel": "Die Glocke",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im engen Hausboot hebt Betty mit weißen Handschuhen eine grüne Plane an. Darunter liegt eine Schiffsglocke aus Messing, eingewickelt in Zeitungspapier. Ömer und die Schwester beugen sich darüber, auf der Bank liegt der rote Kater.",
+      "prompt": "Inside a tiny cosy houseboat cabin with a cast-iron stove, a slanted chart table with sea charts, shelves up to the low ceiling, a pipe rack and a yellow oilskin on a hook by the door. In a corner by the bunk the woman, wearing white cotton gloves, lifts a heavy green canvas tarpaulin; underneath lies a tarnished brass ship's bell wrapped in layers of old newspaper. The young man and a tall wiry grey-haired woman of 54 lean over it. On the bench a big ginger tomcat with half an ear watches. Tense and quiet."
+    },
+    "3": {
+      "titel": "Bleistift bleibt",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Auf der Terrasse des Hausboots: Ein großer Mann mit Schiffermütze und Seemannsjacke hat gerade ein schwarzes Buch ins Wasser fallen lassen. Ömer liegt bäuchlings auf dem Steg und fischt es mit einem Bootshaken heraus. Betty steht in der Tür.",
+      "prompt": "On the small wooden front deck of a green houseboat. A tall broad-shouldered tanned man of 47 with a navy Elbe sailor's cap with a black peak and a navy pea coat with two rows of gold buttons, white teeth, raises his hands in fake dismay. In the narrow gap of brown water between houseboat and jetty floats a black leather notebook. The young man lies flat on his stomach on the jetty and fishes for it with a long boat hook. In the cabin door stands the woman with the clipboard, watching the man, not the book. Comic and suspicious."
+    },
+    "4": {
+      "titel": "Die alte Dame kommt hoch",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Morgennebel im Hafenbecken: Ein Schwimmkran hebt eine alte, genietete Barkasse aus dem Wasser, aus allen Ritzen strömt Wasser. Am Zaun stehen Betty, Ömer, die Schwester, ein Mann mit Klemmbrett, eine Malerin mit Skizzenbuch und eine kleine, runde Kommissarin mit Thermoskanne. Vorn am Kai der Reeder mit der Mütze in der Hand.",
+      "prompt": "Morning fog over a harbour basin in Hamburg. A floating crane lifts an old riveted steel harbour launch from 1928 out of the water with broad yellow straps; mud, water weeds and streams of water pour from every gap, its mahogany wheelhouse black with silt. Along a fence on the concrete quay stand the woman with the clipboard, the young man, a tall grey-haired woman holding the fence, a neat man with a grey moustache and his own clipboard, a small woman with a long white braid sketching in charcoal, a red-haired youth in a wool hat, and a small round woman detective with grey curls and a thermos flask. At the edge of the quay the tall man in the sailor's cap holds the cap to his chest. Melancholic, dramatic."
+    },
+    "5": {
+      "titel": "Ein Uhr sieben",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts im Hausboot geht das Licht an: Vor dem offenen Kartentisch steht ein großer Mann in Schwarz mit Wollmütze und Handschuhen, in der Hand einen Schlüsselbund mit rotem Korken und einen Zettel. Über ihm ruft die kleine Kuckucksuhr. Betty sitzt mit Wolldecke und Kater auf der Bank, Ömer steht mit dem Bootshaken hinter der Plane auf.",
+      "prompt": "Night inside a small houseboat cabin, the light has just been switched on. In front of a slanted chart table with an open drawer stands a tall man in black clothes, black wool hat and thin black gloves, frozen with shock, holding a sheet of paper and a key ring with a big red painted cork float. Just above his head on a nail a small wooden cuckoo clock, its bird popping out and calling. On the bench sits the woman calmly under a woollen blanket with a ginger tomcat on her lap and her hand on the light switch. From behind a green tarpaulin by the bunk rises the young man holding a long boat hook. Suspenseful and funny."
+    },
+    "6": {
+      "titel": "Acht Glasen",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Sonntagmittag auf der Bille: Am grünen Hausboot läutet die Schwester die polierte Schiffsglocke, daneben die Malerin mit dem roten Kater auf dem Arm und der Stegwart ohne Klemmbrett. Auf dem Fluss fahren langsam viele alte Barkassen vorbei, die erste steuert ein junger Mann mit roten Haaren. Betty und Ömer stehen abseits am Tor.",
+      "prompt": "Sunny autumn noon on a small river in Hamburg. On the front deck of a small green houseboat a tall grey-haired woman rings a shining polished brass ship's bell hanging on a hook by the door. Beside her a small woman with a long white braid holds a big ginger tomcat, and a neat man with a grey moustache stands with empty hands. On the river a slow procession of old harbour launches with wooden benches, pennants and wheelhouses passes by, the first one steered by a red-haired youth holding his wool hat. Further back on the jetty a small round woman with knitting sticking out of her pocket. At the gate, a little apart, the woman with the clipboard held to her chest and the young man wiping his eyes. Touching and warm."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Besenrein"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 2"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Aber manches muss an Bord bleiben.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal ist es ein Hausboot auf der Bille in Hamburg. Barkassenführer Hauke Lüders ist seit sechs Wochen verschwunden. Die Polizei glaubt, er habe die alte Barkasse seines Chefs versenkt und sei abgehauen. Im Bordbuch steht: Sucht mich nicht. Doch an Bord liegt etwas, das ihm nicht gehört. Und es ist in die falsche Zeitung gewickelt.",
+        "Ein Bordbuch mit Bleistift. Ein Ölzeug am falschen Haken. Ein Knoten, der nicht lügt. Und ein roter Kater, der jeden Tag den Fluss hinunterschaut.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Hamburg Krimi",
+        "Rätselkrimi Erwachsene",
+        "Wohlfühlkrimi Reihe",
+        "Krimi Hausboot",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Hamburg / Norddeutschland)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A small, slightly crooked green houseboat with a stove pipe at the end of a long wooden jetty on a quiet river in Hamburg, warehouses and willows in the background, grey-blue northern sky with a break of golden light. On the roof of the houseboat sits a big ginger tomcat with half an ear, looking down the river. A shining brass ship's bell hangs by the cabin door. On the jetty the old orange removal truck is parked by the gate; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard and a tool bag walk towards the boat. In the distance, in the water, the tilted mast of a sunken boat. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei Band 1: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

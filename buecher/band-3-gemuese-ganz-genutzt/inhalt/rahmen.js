@@ -7,7 +7,7 @@ module.exports = {
   titel: 'Was die Natur uns schenkt',
   untertitel: 'Band 3: Gemüse ganz genutzt',
   motto: 'anbauen · ernten · alles verwerten',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Was-die-Natur-uns-schenkt-Band-3',
   kurz: 'Band-3',
   kalenderTitel: 'Erntekalender',

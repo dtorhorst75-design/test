@@ -5,7 +5,7 @@ module.exports = {
   titel: 'Was die Natur uns schenkt',
   untertitel: 'Band 4: Sauber selbst gemacht – Putzen und Waschen',
   motto: 'einfach · günstig · ohne Chemiekeule',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Was-die-Natur-uns-schenkt-Band-4',
   kurz: 'Band-4',
   registerSpalte: 'Kapitel',

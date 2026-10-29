@@ -143,13 +143,10 @@ def impressum(doc, fall):
         doc.add_paragraph()
     for z in [
         f"**{fall['reihe']} – {fall['fall']}: {fall['titel']}**",
-        '© 2026 Diana [Nachname]. Alle Rechte vorbehalten.',
-        'Herausgeberin: Diana [Nachname], [Straße Hausnummer], [PLZ Ort]',
-        'Kontakt: [E-Mail-Adresse]',
-        'ISBN: [wird bei der Veröffentlichung vergeben]',
+        f"© 2026 {fall['autorin']}. Alle Rechte vorbehalten.",
+        'Kontakt: info@svsger.de',
         '',
         'Dieser Roman ist frei erfunden. Die Handlung spielt an realen Orten, alle Figuren, Firmen, Vereine und Ereignisse sind jedoch erfunden. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig und nicht beabsichtigt.',
-        'Der Text wurde mit Unterstützung künstlicher Intelligenz erstellt und von der Autorin überarbeitet.',
     ]:
         absatz(doc, z, einzug=False, groesse=Pt(8.5), nach=3)
     seitenumbruch(doc)

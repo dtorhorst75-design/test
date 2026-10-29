@@ -7,7 +7,7 @@ module.exports = {
   titel: 'Was die Natur uns schenkt',
   untertitel: 'Band 2: Bäume, Sträucher & Wildobst',
   motto: 'erkennen · ernten · nutzen',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Was-die-Natur-uns-schenkt-Band-2',
   kurz: 'Band-2',
 

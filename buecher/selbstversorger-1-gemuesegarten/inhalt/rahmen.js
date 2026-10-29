@@ -7,7 +7,7 @@ module.exports = {
   titel: 'Stück für Stück Selbstversorger',
   untertitel: UNTERTITEL,
   motto: 'Spaten, Samen, Kompost – zurück zu den Basics',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Stueck-fuer-Stueck-Selbstversorger-Heft-1',
   kurz: 'Heft-1',
   registerSpalte: 'Kapitel',

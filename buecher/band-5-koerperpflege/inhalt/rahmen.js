@@ -5,7 +5,7 @@ module.exports = {
   titel: 'Was die Natur uns schenkt',
   untertitel: 'Band 5: Natürliche Körperpflege selbst gemacht',
   motto: 'pur · mild · selbst gerührt',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Was-die-Natur-uns-schenkt-Band-5',
   kurz: 'Band-5',
   registerSpalte: 'Kapitel',

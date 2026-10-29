@@ -7,7 +7,7 @@ module.exports = {
   titel: 'Was die Natur uns schenkt',
   untertitel: UNTERTITEL,
   motto: 'Farbe aus Rübe, Kakao und Erde',
-  autorin: 'Diana',
+  autorin: 'Diana Bittenbinder',
   datei: 'Was-die-Natur-uns-schenkt-Band-6',
   kurz: 'Band-6',
   registerSpalte: 'Kapitel',
