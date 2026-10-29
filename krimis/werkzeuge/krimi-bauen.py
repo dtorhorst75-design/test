@@ -144,7 +144,7 @@ def impressum(doc, fall):
     for z in [
         f"**{fall['reihe']} – {fall['fall']}: {fall['titel']}**",
         f"© 2026 {fall['autorin']}. Alle Rechte vorbehalten.",
-        'Kontakt: info@svsger.de',
+        'Kontakt: victorhosenbein@gmail.com',
         '',
         'Dieser Roman ist frei erfunden. Die Handlung spielt an realen Orten, alle Figuren, Firmen, Vereine und Ereignisse sind jedoch erfunden. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig und nicht beabsichtigt.',
     ]:
