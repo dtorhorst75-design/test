@@ -1,0 +1,168 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 13",
+  "titel": "Findet den Käfer",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-13-Hamburg",
+  "ort": "Hamburg",
+  "besuchen": [
+    "Der Alte Elbtunnel, offiziell St.-Pauli-Elbtunnel, wurde am 7. September 1911 eröffnet. Er verbindet die Landungsbrücken in St. Pauli mit Steinwerder auf der anderen Seite der Elbe. Die beiden Röhren liegen etwa 24 Meter tief und sind gut 426 Meter lang. An beiden Enden gibt es große Fahrkörbe, die Fußgänger, Fahrräder und zu bestimmten Zeiten auch Autos nach unten und wieder nach oben bringen. Früher bedienten Fahrkorbführer die Körbe von Hand.",
+    "Das Eingangsgebäude an den Landungsbrücken hat eine große Kuppel mit grünem Kupferdach. Die Wände der Röhren sind gekachelt und mit Reliefs aus Keramik geschmückt, auf denen Fische, Krebse, Muscheln und andere Tiere aus dem Hafen zu sehen sind. Der Tunnel steht unter Denkmalschutz. Für Fußgänger und Radfahrer ist er rund um die Uhr geöffnet und kostenlos. Von Steinwerder aus hat man einen der schönsten Blicke auf Hamburg: die Landungsbrücken, den Michel und die Elbphilharmonie.",
+    "Der Friedhof Ohlsdorf ist mit fast 400 Hektar der größte Parkfriedhof der Welt. Es fahren Buslinien hindurch. Im Mai blühen dort Tausende Rhododendren. Nach Finkenwerder kommt man mit der Hafenfähre Linie 62 ab den Landungsbrücken, vorbei an Övelgönne und dem Museumshafen.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, die Ewerführerei Kröger & Sohn und ihre Barkasse, Schuppen 7, das Archiv mit den Fahrbüchern, die Kasse und die Quittungen, wie sie hier beschrieben sind, der Pausenraum mit den Spinden, der Garagenhof am Reiherstieg, der Freundeskreis Alter Elbtunnel, das Feld für Unbekannte in Ohlsdorf, wie es hier beschrieben ist, und das Verbrechen. Abläufe bei Polizei, Zoll, Tunnelbetrieb und Friedhofsverwaltung sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "HINRICH": [
+      "Hinrich Petersen (Brief, Notizbuch)",
+      "Sprecher 2 (alt, Hamburg)"
+    ],
+    "JANNIK": [
+      "Jannik Petersen, Enkel",
+      "Sprecher 3 (jung, Hamburg)"
+    ],
+    "MAHNKE": [
+      "Svenja Mahnke, Tunnel",
+      "Sprecherin 1 (knapp)"
+    ],
+    "INGE": [
+      "Inge Petersen",
+      "Sprecherin 1 (ruhig, fest)"
+    ],
+    "MATTES": [
+      "Mattes Lüders (Zettel)",
+      "Sprecher 3 (jung, fröhlich)"
+    ],
+    "OKONKWO": [
+      "Frau Okonkwo, Nachbarin",
+      "Sprecherin 1 (warm)"
+    ],
+    "ROLF": [
+      "Rolf Kröger",
+      "Sprecher 2 (fein, freundlich)"
+    ],
+    "WITT": [
+      "Bruno Witt, Zoll a. D.",
+      "Sprecher 2 (alt, genau)"
+    ],
+    "BRANDT": [
+      "Henning Brandt, Bestatter a. D.",
+      "Sprecher 2 (tief)"
+    ],
+    "RADEMACHER": [
+      "Hauke Rademacher, LKA",
+      "Sprecher 3 (ruhig, trocken)"
+    ],
+    "GESA": [
+      "Gesa Lüders, Schwester",
+      "Sprecherin 1 (hell)"
+    ],
+    "ELFRIEDE": [
+      "Elfriede Timm",
+      "Sprecherin 1 (alt, resolut)"
+    ],
+    "FAHRER": [
+      "Fahrer vom Abschleppdienst",
+      "Sprecher 3"
+    ],
+    "WUPPERTAL": [
+      "Hedwig Scholl (Telefon)",
+      "Sprecherin 1 (alt, bergisch)"
+    ]
+  },
+  "aussprache": [
+    "Steinwerder – STEIN-wer-der",
+    "Ottensen – OT-ten-sen",
+    "Ohlsdorf – OLS-dorf",
+    "Finkenwerder – FIN-ken-wer-der",
+    "Övelgönne – Ö-vel-gön-ne",
+    "Wilhelmsburg – WIL-helms-burg",
+    "Reiherstieg – REI-her-stieg",
+    "Ewerführer – E-wer-füh-rer",
+    "Schute – SCHU-te",
+    "Kaje – KA-je",
+    "Okonkwo – o-KON-kwo",
+    "Wuppertal – WUP-per-tal"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Die Kuppel",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Der runde Kuppelbau des Alten Elbtunnels an den Landungsbrücken mit grünem Kupferdach im Nieselregen. Davor Hermine auf einem Parkplatz, den es nicht gibt. Schüler fotografieren, ein Mann in gelber Regenjacke schaut durch die Häkelgardinen. Ein junger rothaariger Mann mit Wollmütze wartet am Tor.",
+      "prompt": "A round heavy domed building of pale stone with a green copper dome at the Hamburg harbour waterfront in January drizzle, a big arched gateway, the long stone pier buildings with towers and green roofs beside it, ferries and seagulls on the grey river behind. In front, Hermine parked where there is no parking space; schoolchildren hold up phones, a man in a yellow rain jacket with a bicycle peers through the crocheted curtains at a small dog on a cushion inside. A tall thin young man with red hair under a dark blue woollen hat and an oily harbour jacket waits at the gate, hands in pockets. Grey, salty, humorous."
+    },
+    "2": {
+      "titel": "Vierundzwanzig Meter",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Unten im Schacht: Hermine steht in einem eisernen Fahrkorb, das Gitter öffnet sich zur langen, runden, weiß gekachelten Tunnelröhre mit einer Kette gelber Lampen und bunten Keramikbildern von Fischen, Krebsen und einem Aal mit einem alten Schuh.",
+      "prompt": "At the bottom of a deep round lift shaft, Hermine stands in a huge iron lift cage whose lattice gate is opening onto a long round tunnel tube under a river: white glazed tiles, a long chain of yellow lamps disappearing into the distance, narrow footpaths on both sides with a cyclist and two girls with backpacks, and at eye level coloured ceramic reliefs of fish, crabs, shells and an eel wound around an old shoe. The man with the hat sits in the passenger seat looking out, the woman with the red glasses in the back with the small dog. Cool white light, wonder."
+    },
+    "3": {
+      "titel": "Vierhundertzwölf",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein Feld mit kleinen flachen grauen Steinen im nassen Wintergras hinter einem Birkenwäldchen auf einem riesigen Parkfriedhof. Konrad kniet in seinem grauen Anzug vor einem Stein und wischt das Moos weg. Ein sehr großer, dünner alter Mann in schwarzem Anzug hält einen rot-weißen gehäkelten Topflappen.",
+      "prompt": "A wide quiet meadow at the edge of a vast park cemetery in January, rows of small flat grey stones with numbers set into wet grey grass, a little grove of white birches, a hedge behind which a suburban train passes. The tall old man with white hair kneels in his grey three-piece suit in the wet grass in front of one small stone under a birch, his dark felt hat in one hand, gently wiping moss from the number with the other. Beside the woman with the red glasses stands a very tall thin old undertaker in a black suit holding a red-and-white crocheted pot holder with a little heart. The young man and the small dog wait on the path. Crows in the trees. Quiet, tender."
+    },
+    "4": {
+      "titel": "Garage vierzehn",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Ein alter Garagenhof an einem Kanal mit niedrigen Garagen, Moos auf den Dächern, einem gelben Bagger am Eingang. Benny hockt vor einem grünen, rostigen Blechtor mit glänzendem neuem Vorhängeschloss und leuchtet mit dem Handy durch einen Schlitz. Hermine wartet am Rand, eine Ente schwimmt im Kanal.",
+      "prompt": "An old courtyard of low lock-up garages behind a brick factory beside a canal in winter sunlight: flat tar roofs with moss and a little birch tree growing on one, faded metal doors in green, blue and grey, some open and empty, cobbles with puddles, a yellow excavator with a tarpaulin over its bucket waiting at the entrance next to a building sign. At the end of the row, the broad young man in a grey hoodie crouches in front of a rusty green garage door with a shiny new brass padlock, shining his phone torch through a narrow ventilation slit at the bottom. Hermine waits at the edge; a single duck swims in circles on the canal. Tense, still."
+    },
+    "5": {
+      "titel": "Zwei Uhr nachts",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Nachts im Nieselregen: Ein großer gelber Abschleppwagen und ein alter Mercedes vor einer offenen Garage. Darin ein staubiger grüner VW Käfer, gerade von der Plane befreit, Staub wirbelt im Scheinwerferlicht. Ein alter Herr in Kamelhaarmantel mit Plane in der Hand dreht sich um. Am Kanal steht Konrad von einem Klappstuhl auf, den Hut vor der Brust.",
+      "prompt": "Night in drizzle in an old garage courtyard by a canal: a big yellow tow truck with unlit orange roof lights and an old dark Mercedes in front of an open garage. Inside, in the headlights, a dusty bottle-green 1970s Volkswagen Beetle with a dent in the front left wing, a little nodding dog on the rear shelf, the grey tarpaulin just pulled off, dust swirling like snow in the light. A tall elegant old man in a camel-hair coat, hat and a cane with a silver seagull-head handle lying on the cobbles turns around, holding the tarpaulin. Twenty metres away by the canal, between two old iron bollards, the tall old man with white hair rises from a wooden folding chair with a crocheted blanket over its back, holding his hat to his chest. Torchlight appears from the rooftops. Dramatic but quiet."
+    },
+    "6": {
+      "titel": "Nicht leer",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Nachts auf Steinwerder: Der grüne Käfer ist gerade aus dem Tunnelgebäude mit der kleinen Kuppel gekommen. Eine alte Frau mit Stock und Decke winkt, ein alter Mann mit Rollator schaut auf die Uhr. Am Zaun stehen alle und blicken über die Elbe auf das leuchtende Hamburg mit Landungsbrücken, Michel und Elbphilharmonie.",
+      "prompt": "Night on the south bank of the river opposite Hamburg: a small domed tunnel building, and in front of it a bottle-green 1970s Volkswagen Beetle with a dent in the front wing and a nodding dog on the rear shelf, just arrived, its round headlights still on. A short round old woman with lilac permed hair, a four-footed walking stick and a red-and-black tartan blanket over her shoulders waves; a small thin old man with very large glasses and a walker looks at his wristwatch and nods. At the railing by the water stand two grey-haired women, a young red-haired man in a too-big uniform cap, the woman with the red glasses, the tall old man with the hat and the broad young man with the small dog, Hermine behind them. Across the dark river glitters the city: long stone piers, a green copper dome lit from below, the great church tower, a glass concert hall like a frozen wave, and one single lit window high in a colourful house. Moving, hopeful."
+    }
+  }
+}
