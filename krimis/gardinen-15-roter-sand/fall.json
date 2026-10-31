@@ -1,0 +1,170 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 15",
+  "titel": "Drei Mann an Bord",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-15-Roter-Sand",
+  "ort": "Bremerhaven und Roter Sand",
+  "besuchen": [
+    "Der Leuchtturm Roter Sand steht in der Außenweser, mitten im Wattenmeer, gut 50 Kilometer vor Bremerhaven. Er wurde von 1880 bis 1885 auf einem Senkkasten im Meeresgrund gebaut und gilt als einer der ersten Leuchttürme, die im offenen Meer auf sandigem Grund errichtet wurden. 1964 wurde er außer Dienst gestellt und durch einen neuen Leuchtturm ersetzt. Heute ist er ein Denkmal und wird von einer Stiftung erhalten und saniert.",
+    "Zum Roten Sand kommt man nur mit dem Schiff, und auch das nur zu bestimmten Zeiten und bei gutem Wetter. Ob und wann Besichtigungsfahrten möglich sind, hängt von der Sanierung ab; aktuelle Informationen gibt es bei der Stiftung, die den Turm betreut. Bitte nie auf eigene Faust hinausfahren: Wattenmeer und Fahrwasser sind gefährlich.",
+    "In Bremerhaven kann man das Deutsche Schifffahrtsmuseum und das Deutsche Auswandererhaus besuchen, im Neuen Hafen alte Schiffe und ein Feuerschiff ansehen und im Fischereihafen frischen Fisch kaufen. Vom Deich bei Weddewarden sieht man die großen Containerschiffe auf der Weser. Die Seenotretter haben in Bremerhaven eine Station.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, der Schmuggel, der alte Wassertank im Sockel, das Wachbuch, das Funkbuch, das Hafenbuch und das Archiv, wie sie hier beschrieben sind, der Kutter Annemarie, der Förderverein, die Sanierungsarbeiten und das Licht in der Laterne, und das Verbrechen. Abläufe bei Polizei, Wasserstraßen- und Schifffahrtsamt, Rechtsmedizin und Denkmalpflege sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "HERO": [
+      "Hero Janßen (Brief)",
+      "Sprecher 2 (sehr alt, norddeutsch)"
+    ],
+    "ENNO": [
+      "Enno Janßen, Lotse",
+      "Sprecher 3 (tief, ruhig)"
+    ],
+    "TJARK": [
+      "Tjark Wehmeyer",
+      "Sprecher 2 (rau)"
+    ],
+    "LUEDER": [
+      "Lüder Wehmeyer (Zettel)",
+      "Sprecher 3 (jung)"
+    ],
+    "GERDES": [
+      "Frau Gerdes, Archiv",
+      "Sprecherin 1 (freundlich)"
+    ],
+    "KLAAS": [
+      "Klaas Eden",
+      "Sprecher 2 (alt, langsam)"
+    ],
+    "LUEHRS": [
+      "Heinz Lührs",
+      "Sprecher 2 (breit, freundlich)"
+    ],
+    "OHLROGGE": [
+      "Jan Ohlrogge, Kripo Bremerhaven",
+      "Sprecher 3 (ruhig, trocken)"
+    ],
+    "SIEVERS": [
+      "Dr. Merle Sievers, Architektin",
+      "Sprecherin 1 (schnell)"
+    ],
+    "BRUENING": [
+      "Dr. Hanna Brüning, Rechtsmedizin",
+      "Sprecherin 1 (sachlich)"
+    ],
+    "RECHTSMEDIZIN": [
+      "Dr. Hanna Brüning, Rechtsmedizin",
+      "Sprecherin 1 (sachlich)"
+    ],
+    "KRIMINALTECHNIK": [
+      "Kriminaltechniker",
+      "Sprecher 3"
+    ],
+    "HILKE": [
+      "Hilke Folkerts",
+      "Sprecherin 1 (klar, kühl)"
+    ],
+    "BREMERHAVENER": [
+      "Mann mit Südwester",
+      "Sprecher 2"
+    ],
+    "HELGOLAND": [
+      "Meike Rickmers (Telefon)",
+      "Sprecherin 1 (jung, klar)"
+    ]
+  },
+  "aussprache": [
+    "Roter Sand – RO-ter SAND",
+    "Weser – WE-ser",
+    "Lehe – LE-he",
+    "Weddewarden – WED-de-war-den",
+    "Geestemünde – GEES-te-mün-de",
+    "Dorum – DO-rum",
+    "Janßen – JAN-sen",
+    "Lührs – LÜHRS",
+    "Ohlrogge – OHL-rog-ge",
+    "Tjark – TJARK",
+    "Mennige – MEN-ni-ge",
+    "Helgoland – HEL-go-land"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Bremerhaven",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Der Neue Hafen in Bremerhaven: ein alter roter Backstein-Leuchtturm mit grünem Spitzdach, ein rotes Feuerschiff, ein Dreimaster, dahinter ein Glasgebäude wie ein Segel. Hermine am Kai, ein bärtiger Mann mit gelbem Südwester und Fahrrad schaut durch die Häkelgardinen.",
+      "prompt": "The Neuer Hafen of a North Sea port town on a windy grey day: a small old red-brick lighthouse with a pointed green roof like a fairy tale, a red lightship with a lamp tower moored in the basin, an old three-masted sailing ship and a small steamer with a black funnel, a modern glass building shaped like a sail behind. On the quay, Hermine is parked; a bearded man in a yellow sou'wester with a bicycle bends to peer through the crocheted curtains at a small dog on a cushion; the broad young man answers him through the window; the tall old man with the hat and the woman with the red glasses stand by, coat collars up. Seagulls, drizzle, humour."
+    },
+    "2": {
+      "titel": "Roter Sand",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein rot-weiß gestreifter Leuchtturm mit schwarzem Kopf und vier kleinen Erkern steht allein im offenen Meer auf einem dicken Sockel, Wellen brechen sich weiß, Gerüst und Kran auf einem Ponton, hunderte Möwen. Ein kleines graues Arbeitsschiff nähert sich, an der Reling Konrad mit dem Hut in der Hand.",
+      "prompt": "A lone historic lighthouse standing in the open grey-green sea with no land in sight: tall, striped red and white with a black top and four small turret-like oriels around it like a castle, on a massive round caisson base of stone and iron where waves break in white spray. Scaffolding and tarpaulins around part of the tower, a crane on a pontoon, hundreds of circling gulls. In the foreground a small grey workboat with a crane at the stern approaches; at the rail stand the tall old man holding his hat against the wind, the broad young man with a toolbox at his feet, the woman with the red glasses shivering, and a large bearded pilot in a dark blue jacket in the wheelhouse. Early morning light, awe, loneliness."
+    },
+    "3": {
+      "titel": "Die Luke",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein kleiner niedriger gemauerter Raum im Sockel des Leuchtturms. In einer genieteten Eisenwand eine runde Luke, dick mit roter Mennige überstrichen, die Bolzen abgeschnitten. Benny stemmt einen langen Stahlhebel in die Fuge, die Luke springt einen Spalt auf. Ein Feuerwehrmann mit Schneidbrenner, Kriminaltechniker mit Kamera, Konrad hält den Hut.",
+      "prompt": "A small, low, windowless brick-vaulted room deep in the base of an old lighthouse, lit by a work lamp on a tripod: one wall is riveted rusty iron, and set into it a round hatch the size of a cartwheel, thickly painted over with dark red lead paint like dried blood, its eight bolts freshly cut off with a torch, sparks still cooling on the floor. The broad young man strains with his whole weight on a long flat steel lever wedged into the seam; the hatch has just cracked open a hand's breadth. A firefighter with a cutting torch, two forensic technicians with a camera, a small woman doctor with a head lamp and ponytail, a tall blond policeman in an orange rescue jacket; the tall old man stands holding his hat to his chest; the woman with the red glasses beside him. Tense, solemn."
+    },
+    "4": {
+      "titel": "An Land",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Am Kai im Neuen Hafen: Vier Männer tragen einen hellen Holzsarg über die Gangway eines grauen Behördenschiffs mit Flagge auf halbmast. Ein kleiner sehniger alter Mann im zu großen schwarzen Anzug legt die Hand auf den Sarg. Dahinter Hermine mit offener Heckklappe. Viele Menschen am Kai, Lotsen, Seenotretter, Fischer, einige pfeifen mit zwei Fingern.",
+      "prompt": "A harbour quay at midday under a pale sky: a grey government vessel with its flag at half-mast has just moored; four men in uniform carry a plain light wooden coffin down the gangway. At the foot, a small sinewy old man of 78 with weathered red hands, in a black suit too big for him, lays one hand flat on the coffin; beside him a tall thin old man with wild white hair in a cable-knit jumper and a big bearded pilot holding an old cap. Behind them Hermine waits with its tailgate open, fresh crocheted curtains in the windows, the tall old man with the hat at its side. A crowd fills the quay: pilots in dark blue, sea rescuers in orange, fishermen in rubber boots with caps in hand, and old men whistling with two fingers in their mouths. Gulls lifting off bollards. Deeply moving."
+    },
+    "5": {
+      "titel": "Lehe",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein Seemannsfriedhof mit alten Linden, Gräbern mit Ankern, Schiffen und Leuchttürmen auf den Steinen. Am offenen Grab pfeift ein großer dünner alter Mann mit abstehenden weißen Haaren mit zwei Fingern. Daneben ein kleiner alter Mann, der seine Hand hält. Ein neuer grauer Stein mit einem eingemeißelten, ungelenken Turm mit Lichtstrahl.",
+      "prompt": "An old seamen's cemetery behind a brick wall, tall linden trees, gravel paths, gravestones carved with anchors, ships, ship's wheels and lighthouses. At an open grave, a tall thin old man with wild white hair, a cable-knit jumper under a short black coat, whistles with two fingers in his mouth; beside him a small sinewy old man in an oversized black suit holds his other hand. Next to the grave stands a new narrow grey granite stone beside an older one, carved not with words but with a clumsy, childlike drawing of a lighthouse sending out a beam of light. Mourners stand very still: a pastor, pilots, a blond policeman with a big shaggy brown dog, the tall old man with the hat, the woman with the red glasses holding a man's hand. Quiet, tender."
+    },
+    "6": {
+      "titel": "Ein Licht",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Abenddämmerung auf dem Meer: Der rot-weiße Leuchtturm im Sonnenuntergang, oben in der Laterne leuchtet wieder ein weißes Licht. Ein kleines weißes Schiff mit schwarzem Streifen treibt davor. An der Reling stehen alle und sehen hinauf, ein Blumenkranz mit einer dunkelblauen Mütze treibt auf dem Wasser zum Turm.",
+      "prompt": "Dusk on the open sea, the sun a huge orange disc on the horizon: the lone red-and-white lighthouse with its black top and four little oriels stands silhouetted, and high up in its lantern a white light shines again, blinking. In front of it, fifty metres away, a small white ship with a black stripe drifts with its engine off; at the rail stand about twelve people looking up: an old man with red hands and his cap off, a tall thin old man whistling with two fingers, two old pilots in dark blue, a small woman with a bicycle helmet holding a radio, an archivist with tears in her eyes, a blond policeman with a seasick shaggy dog, the tall old man with the hat, the woman with the red glasses beside a tall man with black-rimmed glasses, the broad young man holding a small dog. On the calm water a wreath of white and blue flowers with a dark blue pilot's cap drifts towards the tower. Luminous, peaceful, moving."
+    }
+  }
+}
