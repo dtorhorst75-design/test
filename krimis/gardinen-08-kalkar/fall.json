@@ -1,0 +1,184 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 8",
+  "titel": "Unter dem Kettenkarussell",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-8-Kalkar",
+  "ort": "Kalkar",
+  "besuchen": [
+    "Kalkar liegt am Niederrhein, nicht weit von Kleve und der niederländischen Grenze. Die kleine Stadt hat einen schönen Marktplatz mit einem Rathaus aus Backstein und der großen Kirche St. Nicolai mit berühmten geschnitzten Altären aus dem Spätmittelalter.",
+    "Vor den Toren der Stadt, in Hönnepel am Rhein, steht der Schnelle Brüter: ein Kernkraftwerk, das in den Siebziger- und Achtzigerjahren als deutsch-niederländisch-belgisches Projekt gebaut, aber nie in Betrieb genommen wurde. 1991 wurde das Projekt endgültig aufgegeben. Seit Mitte der Neunzigerjahre ist dort ein Freizeitpark mit Hotel. Im Kühlturm steht ein Kettenkarussell, an seiner Außenwand eine Kletterwand. Die Saison beginnt im Frühjahr, Öffnungszeiten findest du auf der Website des Parks.",
+    "Die Landschaft drumherum ist flach und weit, mit Deichen, Kopfweiden, Kühen und Kolken. Auf dem Deich kann man stundenlang Rad fahren. Bitte geh nie an den Rand eines Kolks oder ins Wasser: Kolke sind oft viel tiefer, als sie aussehen, und sehr kalt.",
+    "Nimwegen in den Niederlanden ist nur eine halbe Stunde entfernt und eine der ältesten Städte des Landes, an der Waal.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, die Baufirma Hoymann, die gefälschten Prüfwürfel, der Pumpensumpf mit dem Kies, die Bank mit dem Schild, das Wachbuch, die Kantine mit dem Anschreibebuch, das Hospiz, wie es hier beschrieben ist, und das Verbrechen. Abläufe bei Polizei, Staatsanwaltschaft, Bergung und im Freizeitpark sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "TERHORST": [
+      "Hermann Terhorst",
+      "Sprecher 2 (alt, leise, niederrheinisch)"
+    ],
+    "PFLEGERIN": [
+      "Schwester Agnes (am Telefon)",
+      "Sprecherin 1"
+    ],
+    "AGNES": [
+      "Schwester Agnes",
+      "Sprecherin 1 (leise, freundlich)"
+    ],
+    "RUUD": [
+      "Ruud Jansen, Technischer Leiter",
+      "Sprecher 3 (holländischer Akzent)"
+    ],
+    "DERKSEN": [
+      "Frau Derksen, Nachbarin",
+      "Sprecherin 1 (alt, niederrheinisch)"
+    ],
+    "GERRIT": [
+      "Gerrit van Heek (Zettel)",
+      "Sprecher 3 (holländischer Akzent)"
+    ],
+    "MARIEKE": [
+      "Marieke van Heek, Hebamme",
+      "Sprecherin 1 (holländischer Akzent, warm)"
+    ],
+    "HANNA": [
+      "Hanna Kerkhoff",
+      "Sprecherin 1 (alt, niederrheinisch)"
+    ],
+    "MARKUS": [
+      "Markus Hoymann",
+      "Sprecher 3 (glatt, freundlich)"
+    ],
+    "WILLI": [
+      "Willi Hoymann",
+      "Sprecher 2 (alt, laut, rau)"
+    ],
+    "THEO": [
+      "Theo Brands",
+      "Sprecher 2 (alt, verbraucht)"
+    ],
+    "VERHOEVEN": [
+      "Kommissarin Elke Verhoeven",
+      "Sprecherin 1 (trocken)"
+    ],
+    "HENDRICKS": [
+      "Bauer Hendricks",
+      "Sprecher 3"
+    ],
+    "WILMA": [
+      "Wilma Jansen",
+      "Sprecherin 1 (alt, holländisch, schnell)"
+    ],
+    "LOTTE": [
+      "Lotte Kowalski, Studentin",
+      "Sprecherin 1 (jung, Ruhrgebiet)"
+    ],
+    "ARBEITER": [
+      "Junger Arbeiter",
+      "Sprecher 3"
+    ],
+    "EDERSEE": [
+      "Gertrud Vaupel (Telefon)",
+      "Sprecherin 1 (sehr alt, nordhessisch)"
+    ]
+  },
+  "aussprache": [
+    "Kalkar – KAL-kar",
+    "Hönnepel – HÖN-ne-pel",
+    "Kleve – KLEE-we",
+    "Wissel – WIS-sel",
+    "Kranenburg – KRA-nen-burg",
+    "Nimwegen – NIM-we-gen (niederländisch Nijmegen)",
+    "Waal – WAAL",
+    "Gerrit van Heek – CHER-rit fan HEEK",
+    "Marieke – ma-RIE-ke",
+    "Muisje – MÖIS-che (Mäuschen)",
+    "Goedemorgen – CHU-de-mor-chen",
+    "Stroopwafel – STROHP-waa-fel",
+    "Verloskundige – fer-los-KÜN-di-che (Hebamme)",
+    "Kees – KEES",
+    "Groesbeek – CHRUS-beek",
+    "Kolk – KOLK",
+    "Edersee – EH-der-see",
+    "Berich – BEH-rich"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Wunderland",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Ein riesiger, bunt bemalter Kühlturm mit gemalten Bergen und Himmel, daneben ein kantiges Kraftwerksgebäude mit Kuppel, stillstehende Fahrgeschäfte im Winterschlaf. Auf dem leeren Parkplatz Hermine.",
+      "prompt": "A huge cooling tower of a never-used nuclear power plant on the flat Lower Rhine plain, painted from bottom to top with mountains, snowy peaks, blue sky and clouds, next to an angular concrete reactor building with a dome. Around it a closed amusement park in early March: a still Ferris wheel, a roller coaster with covered cars, boarded-up stalls, painted clowns on concrete walls. On a vast empty car park stands Hermine; the woman with red glasses, the old man in the felt hat and the young man in the hoodie look up in wonder, a small dachshund on a lead. Poplars and grazing sheep in the distance, a huge grey sky."
+    },
+    "2": {
+      "titel": "Im Hospiz",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein helles Zimmer im Hospiz, am Fenster ein alter, sehr dünner Mann mit dicker Brille in einem Sessel, eine grüne Schreibmaschine neben ihm. Konrad sitzt bei ihm, der Dackel liegt mit dem Kinn auf seinem Hausschuh. Draußen Krokusse unter Buchen.",
+      "prompt": "A bright quiet room in a hospice with a large window onto a garden where purple and white crocuses bloom under old beech trees. In an armchair by the window sits a very thin old man of 84 with short white hair, thick glasses and a grey cardigan, a blanket over his knees; next to him on a table an old green typewriter with a sheet of paper. The old man in the felt hat sits beside him holding his hand; the woman with red glasses sits on the bed; the young man sits on the floor; the small dachshund lies with its chin on the old man's slipper. Gentle, warm, very moving."
+    },
+    "3": {
+      "titel": "Der Kolk",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine nasse Weide hinter einem Deich, ein runder dunkler Kolk mit Schilf, zwei Blesshühner. Eine blonde Kommissarin im Parka geht vorsichtig zum Ufer, Konrad steht mit dem Hut in der Hand, Benny mit dem Dackel auf dem Arm, Reifenspuren im Matsch.",
+      "prompt": "A wet meadow behind a Rhine dike under a grey sky, puddles and molehills, a round dark deep pond with reeds along its edge, two coots on the water. Near the reeds something dark is only suggested, nothing gruesome. A tall blonde female detective of 45 in a navy parka walks carefully along her own footprints. The old man stands with his hat in his hands, the young man holds the trembling dachshund in his arms, the woman with red glasses watches; deep tyre tracks lead from a farm track between two poplars to the water's edge. Quiet, melancholic, suspenseful."
+    },
+    "4": {
+      "titel": "Der Rasenmäher, der piept",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Im Inneren des riesigen Kühlturms: Eine junge Frau mit roten Haaren und Bommelmütze schiebt ein oranges Bodenradar über den Betonboden neben dem rot-weißen Kettenkarussell. Oben der runde Ausschnitt Himmel.",
+      "prompt": "Inside a gigantic empty cooling tower: a curved concrete wall rising to a round opening of blue sky far above, light falling down like into a well. In the centre a red-and-white chain swing carousel with a hundred empty hanging seats in yellow, red and blue, standing on a round concrete base. A small wiry young woman of 24 with short red hair and a bobble hat pushes an orange ground-penetrating radar cart that looks like a lawnmower across the floor, looking at a screen on its handle. The young man, the woman with red glasses, the old man with his hat and a tall man in a red jacket watch; the dachshund sniffs. Awe and mystery."
+    },
+    "5": {
+      "titel": "Der Hammer",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Nachts im Kühlturm, im Scheinwerferlicht: Ein Bagger mit Meißel hält einen Meter über Konrad an, der mit dem Hut auf den Knien auf der kleinen Treppe am Karussell sitzt. Ein Mann mit weißem Helm und Warnweste, Arbeiter, und von der Öffnung her kommt ein alter Mann im elektrischen Rollstuhl.",
+      "prompt": "Night inside a vast cooling tower lit by floodlights, stars visible through the round opening far above. A red-and-white chain swing carousel with hanging empty seats. A tracked excavator with a huge hydraulic breaker has stopped, its chisel hanging one metre above the old man in the dark coat, who sits calmly on the lowest step of the carousel's little staircase with his felt hat on his knees. A tall man of 52 in a high-visibility vest and white helmet stands frozen; two workers hesitate. From the big opening in the tower wall an old man of 82 in a grey three-piece suit with a watch chain rolls in in a black electric wheelchair, a small light shining ahead of him. Along the wall the woman with red glasses, the young man with the dachshund and a blonde detective with a thermos stand up. Dramatic and moving."
+    },
+    "6": {
+      "titel": "Das Kettenkarussell",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Saisonstart im Frühling: Das rot-weiße Kettenkarussell steht jetzt draußen neben dem bemalten Kühlturm. Eine Frau mit dunklen Locken fliegt lachend in einem gelben Sitz und hält einen alten gelben Zollstock. Unten winken alle, vor einer grünen Bank mit Messingschild.",
+      "prompt": "A bright spring morning at a small amusement park: the red-and-white chain swing carousel now stands outdoors on a meadow next to the huge cooling tower painted with mountains and sky. The seats fly high; in a yellow seat a woman of 47 with short dark grey-streaked curls laughs, holding an old yellow folding wooden ruler in both hands. Below, the woman with red glasses holds hands with a man in a dark suit; the old man holds his hat, the young man lifts the dachshund to see; an old woman with a cat carrier, a tall man in a red jacket at the control panel, gulls from the Rhine overhead. In front of the tower a simple green wooden bench with a small brass plaque. Joyful and deeply touching."
+    }
+  }
+}

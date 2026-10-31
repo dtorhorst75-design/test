@@ -58,4 +58,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 5. Was der Berg gehört hat (Teufelsberg, Berlin)
 6. Die letzte Schicht (Völklinger Hütte, Saarland)
 7. Der Bunker unter dem Zeppelin (Wünsdorf, Brandenburg)
-8. Kalkar (Niederrhein) – „Wunderland“, nie in Betrieb gegangener Schneller Brüter, heute Freizeitpark mit Kettenkarussell im Kühlturm. Auftrag: Hermann Terhorst (84), Ingenieur 1973–1991, Kollege Gerrit van Heek verschwand November 1985, „unter dem Kettenkarussell“. Herr Becker hat eine neue Knospe, Fridolin schläft auf Konrads Kissen mit 42 Rosen. Achim kocht weiter, ohne zu zählen.
+8. Unter dem Kettenkarussell (Kalkar, Niederrhein) – fertig
+9. Edersee (Nordhessen) – Gertrud Vaupel (93), geboren in Berich, das seit 1914 im Edersee liegt. Im leeren Sommersee lag auf der Kirchtreppe ein neuer Koffer mit dem Namen ihres Bruders, der 1959 im See ertrank. – geplant
