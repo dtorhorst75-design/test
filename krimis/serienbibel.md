@@ -62,4 +62,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 9. Die Treppe im See (Edersee, Nordhessen) – fertig
 10. Spind siebzehn (Prora, Rügen) – fertig. Benny hat erzählt, warum er aufgehört hat (Junge, 9, Balkon). Achim bügelt jetzt Taschentücher. Herr Becker: Blüte vertrocknet, neue Knospe unten am Stamm.
 11. Die Wilhelmine (Niederfinow, Brandenburg) – fertig. Herr Becker blüht zum zweiten Mal. Achim schenkt Jo ein gebügeltes Taschentuch.
-12. Goslar (Harz) – Rammelsberg. Anke Wedekind, Tochter eines Bergmanns († Nov. 2026). Am alten Markenbrett fehlt seit der letzten Schicht am 30.6.1988 die Marke Nr. 117. Wunsch: Sie soll wieder hängen. – geplant
+12. Die letzte Marke (Goslar, Rammelsberg) – fertig. Erstmals: Täter (Rinke) kommt vor Gericht, Mord verjährt nicht. Konrad schreibt nach jedem erfüllten Wunsch eine Quittung (wie Gertrud). Herr Becker: dritte Knospe.
+13. Hamburg, Alter Elbtunnel (St. Pauli) – Jannik Petersen, Enkel eines Fahrkorbführers (41 Jahre, † Dez. 2026, 95). 14.2.1975, 23 Uhr: ein grüner VW Käfer fährt in den Fahrkorb, 24 m runter, kommt auf der anderen Seite nie hoch. Testament: „Findet den Käfer.“ – geplant

@@ -1,0 +1,169 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 12",
+  "titel": "Die letzte Marke",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-12-Goslar",
+  "ort": "Goslar",
+  "besuchen": [
+    "Goslar liegt am Nordrand des Harzes in Niedersachsen. Die Altstadt mit ihren Fachwerkhäusern, Schieferdächern und der Kaiserpfalz gehört zusammen mit dem Erzbergwerk Rammelsberg zum UNESCO-Welterbe. Auf dem Marktplatz spielt mehrmals am Tag ein Glockenspiel mit Figuren aus der Geschichte des Bergbaus.",
+    "Im Rammelsberg wurde über tausend Jahre lang Erz abgebaut, vor allem Kupfer, Blei, Zink und Silber. Am 30. Juni 1988 fuhr die letzte Schicht. Heute ist das Bergwerk ein Museum und Besucherbergwerk. Man kann mit Führungen unter Tage gehen, alte Stollen, Wasserräder und Maschinen sehen und die großen Anlagen über Tage besichtigen.",
+    "Der 4. Dezember ist der Barbaratag. Die heilige Barbara ist die Schutzpatronin der Bergleute. In Bergbauregionen wird an diesem Tag gefeiert, und man schneidet Barbarazweige, meist von Kirschbäumen, die bis Weihnachten im Wasser blühen sollen. Das Steigerlied ist das bekannteste Lied der Bergleute.",
+    "Bitte geh nie auf eigene Faust in alte Stollen oder Schächte. Unter Tage darf man nur mit Führung. Das ist lebensgefährlich.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, die Markenkontrolle mit dem Markenbrett und die Lampenstube, wie sie hier beschrieben sind, Abbau 9 und Rolloch 9/3, die Bücher und Eintragungen, der Verein der Bergknappen, der Laden am Marktplatz, die Grubenwehr des Museums und das Verbrechen. Abläufe bei Polizei, Bergamt und Rechtsmedizin sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "HEINZ": [
+      "Heinz Wedekind (Brief)",
+      "Sprecher 2 (alt, Harz)"
+    ],
+    "DIETER": [
+      "Dieter Kühne (Zettel)",
+      "Sprecher 3 (jung, Harz)"
+    ],
+    "ANKE": [
+      "Anke Wedekind, Tochter",
+      "Sprecherin 1 (warm)"
+    ],
+    "REINI": [
+      "Reini Jahns, Bergmann",
+      "Sprecher 2 (rau, fröhlich)"
+    ],
+    "BLEY": [
+      "Dr. Johanna Bley, Museum",
+      "Sprecherin 1 (schnell, genau)"
+    ],
+    "GABI": [
+      "Gabi Kühne, Witwe",
+      "Sprecherin 1 (leise, klar)"
+    ],
+    "RINKE": [
+      "Werner Rinke, Obersteiger",
+      "Sprecher 2 (tief, laut, alt)"
+    ],
+    "KINDER": [
+      "Schulklasse",
+      "Sprecherin 1 und Sprecher 3 (zusammen)"
+    ],
+    "MAEDCHEN": [
+      "Mädchen aus der Schulklasse",
+      "Sprecherin 1 (Kinderstimme)"
+    ],
+    "THOMAS": [
+      "Thomas Rinke, Laden",
+      "Sprecher 3 (höflich)"
+    ],
+    "WOLTER": [
+      "Kommissarin Sabine Wolter",
+      "Sprecherin 1 (ruhig, Harz)"
+    ],
+    "PAUL": [
+      "Paul Wolter, alter Bergmann",
+      "Sprecher 2 (sehr alt)"
+    ],
+    "SIEBERT": [
+      "Olaf Siebert, Grubenwehr",
+      "Sprecher 3 (knapp, über Funk)"
+    ],
+    "VORSITZENDER": [
+      "Vorsitzender der Bergknappen",
+      "Sprecher 2"
+    ],
+    "HAMBURG": [
+      "Jannik Petersen (Telefon)",
+      "Sprecher 3 (jung, Hamburg)"
+    ]
+  },
+  "aussprache": [
+    "Goslar – GOS-lar",
+    "Rammelsberg – RAM-mels-berg",
+    "Kaue – KAU-e",
+    "Rolloch – ROLL-loch",
+    "Versatz – fer-SATZ",
+    "Bornit – bor-NIT",
+    "Kupferkies – KUP-fer-kies",
+    "Clausthal – KLAUS-tal",
+    "Wolfenbüttel – WOL-fen-büt-tel",
+    "Barbara – BAR-ba-ra",
+    "Glück auf – glück AUF"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Tausend Jahre",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Blick über die Schieferdächer und Fachwerkhäuser von Goslar zum Rammelsberg. Am Hang die riesige, gestaffelte Anlage des alten Bergwerks wie eine Treppe aus Backstein, Glas und Stahl, oben ein Förderturm. Davor Hermine an einer Ampel, Touristen fotografieren.",
+      "prompt": "A view over the steep grey slate roofs, little towers and crooked black-and-white half-timbered houses of an old German imperial town at the foot of the Harz mountains in late November, towards a broad, round, dark forested mountain. Halfway up its slope stands a huge old mining complex built in tiers up the hillside like an enormous staircase of brick, glass and steel, with conveyor bridges and a headframe with two big wheels on top. In the foreground Hermine waits at a traffic light in front of an imperial palace, tourists from a coach raising their phones at the hearse; the woman with red glasses, the old man in the felt hat and the young man in the hoodie inside, a dachshund barking at the window. Some dead brown spruce on distant slopes, young green trees growing. Grand and melancholic."
+    },
+    "2": {
+      "titel": "Das Markenbrett",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "In einem kleinen Raum mit Glasfenster ein großes schwarzes Holzbrett mit Hunderten kleiner Messinghaken in Reihen, an jedem eine runde Messingmarke mit Nummer. Ein einziger Haken ist leer, darunter in Weiß 117. Konrad steht mit dem Hut davor.",
+      "prompt": "A small former guard room with a large glass window onto a vast silent machine hall of an old mine museum. On the wall hangs a large black wooden board two metres wide with hundreds of small curved brass hooks in neat rows, and on every hook a round flat brass tag with a stamped number; above in white painted letters a miners' greeting. In the third row from the top, in the middle, one single hook is empty, with the small white number 117 painted below it; beside it a shiny new tag 116. The old man in the felt hat stands before it holding his hat; the woman with red glasses holds an old scratched brass tag in her palm; the young man points at the empty hook; a broad grey-haired woman in a down jacket and a football scarf, and a round old miner in a red fleece with a battered white helmet stand by. Quiet, moving."
+    },
+    "3": {
+      "titel": "Gabi",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Das Hinterzimmer eines kleinen Blumenladens zwischen Eimern mit Rosen und Tannengrün. Eine schmale Frau mit silbernen Haaren und grüner Schürze hält eine Postkarte mit dem Opernhaus von Sydney. Auf dem Tisch eine kleine geschnitzte Bergmannsfigur mit Lampe.",
+      "prompt": "The back room of a tiny flower shop in an old half-timbered house in December: buckets of roses, amaryllis and fir branches, a little table for binding wreaths. A small slim woman of 68 with short silver hair, very pale blue eyes and a green apron with soil on it holds a colourful old postcard showing the Sydney Opera House and Harbour Bridge, with an Australian stamp and block capitals on the back. On the table stands a small hand-carved wooden miner figure holding a little lamp. The old man in the felt hat bends over the card without touching it; the woman with red glasses and the young man listen. Through the doorway the shop window full of wooden miner figures between moss and candles. Quiet and sad."
+    },
+    "4": {
+      "titel": "Unter Tage",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Tief im Berg, in einem niedrigen nassen Stollen mit rostigen Schienen: Aus der Decke kommt ein runder Schacht und endet in einem eisernen Trichter mit einem rostigen Schieber, darauf verblasst 9/3. Ein alter Bergmann mit verbeultem weißem Helm hält ihn vor die Brust. Konrad mit zu großem Helm in der Hand, Grubenwehrmann mit Sauerstoff.",
+      "prompt": "Deep underground in an old ore mine: a low, wet, rocky tunnel with rusty rails on the floor, old black cables on the walls, water dripping from the ceiling, lit only by helmet lamps. From the ceiling comes a round shaft of concrete and iron ending a metre above the floor in an iron funnel closed by a big rusty slide gate with a long lever, faded white numbers 9/3 painted on it. A short broad old miner of 70 with a round red face and a plaster on his forehead holds his battered old white helmet to his chest. Beside him the old man in a borrowed white helmet much too big for him, holding it like a hat; the woman with red glasses and the young man in helmets; a tall thin mine rescue leader in an orange jacket with an oxygen pack. Grey sand and stones visible in the funnel's gap. Silent, heavy, tender."
+    },
+    "5": {
+      "titel": "Abziehen",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein enger runder Schacht unter Tage im Licht von Helmlampen. An einem Seil hängt ein alter Bergmann mit verbeultem weißem Helm und gräbt mit der Hand in grauem Sand und Steinen. Oben am Rand Grubenwehrleute in orangefarbenen Jacken mit Sauerstoffgeräten.",
+      "prompt": "Inside a narrow round vertical chute deep in an old mine, lit by the beams of helmet lamps: a short broad old miner with a battered white helmet and a lamp, roped and harnessed, digging carefully by hand in packed grey sand and stones, an oxygen mask hanging at his chest. Above him, at the rim of the chute in an old mined-out chamber, mine rescue team members in orange jackets with oxygen packs hold the rope and shine their lamps down. Dust floating in the light. Nothing gruesome visible, only the tip of an old black rubber boot emerging from the sand far below. Tense, solemn, full of respect."
+    },
+    "6": {
+      "titel": "Barbaratag",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Durch ein Glasfenster sieht man in die Markenkontrolle: Eine kleine Frau in dunkelblauem Kleid hängt eine alte, schwarz angelaufene Marke an den letzten leeren Haken. Daneben Jo mit einer zweiten Marke. In der großen Halle davor stehen zweihundert Menschen, alte Bergleute in schwarzen Uniformen mit Federbüschen, die Hüte in den Händen. Am Ende eines Tisches ein großer alter Mann mit Federbusch-Hut, der aufsteht.",
+      "prompt": "The great silent machine hall of an old mine museum on St Barbara's Day in the evening, candles on long tables, a miners' brass band in black uniforms with silver buttons and white plumes on their hats, a banner. Two hundred people stand, old miners holding their plumed hats in their hands. Through a large glass window into a small room: a small slim woman of 68 with silver hair in a dark blue dress with a little silver brooch hangs an old, tarnished brass tag on the last empty hook of a large black board full of tags; beside her the woman with red glasses hangs a second old tag next to it; the old man in a grey three-piece suit holds the door, hat in hand. At the far end of a long table, beside the banner, a tall broad very upright old man of 85 with thick white hair and bushy eyebrows in a black miner's uniform with a plumed hat rises from his seat. Hushed, overwhelming, deeply moving."
+    }
+  }
+}
