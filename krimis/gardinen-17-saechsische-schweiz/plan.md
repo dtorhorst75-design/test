@@ -1,0 +1,22 @@
+# Fall 17 – Plan (intern)
+
+Titel: Karl war oben
+Ort: Sächsische Schweiz (Elbsandsteingebirge, Nationalpark seit 1990). Bad Schandau (Elbe, historischer Personenaufzug 1904, Kirnitzschtalbahn), Postelwitz (Elbdorf), Falkenstein (Klettergipfel bei den Schrammsteinen, 1864 von Schandauer Turnern erstiegen = Beginn des sächsischen Kletterns). Echt: Sächsische Kletterregeln (kein Metall zur Sicherung außer Ringen, Knotenschlingen, keine Magnesia, nicht bei nassem Fels), Gipfelbücher in Metallkassetten, alte Bücher werden archiviert, Boofen, Felsstürze. Mauerbau 13.8.1961 (Sonntag). 11.8.1961 = Freitag.
+Zeit: Brief kommt Mo. 3.5.2027. Fall Di. 4.5. bis Sa. 15.5.2027. Rückkehr So. 16.5.; Quittung Di. 18.5.
+
+Figuren:
+- Arno Wendler († 26.4.2027 mit 98, geb. 1928), Bergsteiger, Brief = Kapitel 1. Sohn Gottfried Wendler (69, geb. 1958), Elbfähre-Schiffer i. R., Bad Schandau.
+- Karl Pietzsch (geb. 1937, 24 im Jahr 1961), Arnos Seilgefährte, Werkzeugmacher. Rotes Hanfseil (aus Prag, 1960). Schwester Hanni Pietzsch (85, geb. 1942), Postelwitz, hat 66 Jahre gewartet.
+- Egon Lämmel (93, geb. 1934), Klettergruppe „Die Falken“ (Arno, Karl, Egon). Legende, „Lämmelriss“ (angebliche Erstbegehung 1965). Ehrung am Sa. 15.5.2027: Gedenktafel „70 Jahre Lämmelriss“? → „Egon-Lämmel-Tafel“ an der Schrammsteinbaude / Falkensteinblick. Sohn Rico Lämmel (63), Kletterhalle in Pirna („Magnesia überall“).
+- Nadine Rühle (38), Nationalpark-Rangerin und Bergführerin.
+- KHK Steffen Gräfe (Kripo Pirna), kennt Inken Boysen (Fortbildung).
+
+1961: Fr. 11.8., Karl steigt den neuen Nordriss vor (Erstbegehung), setzt auf halber Höhe einen Ring, eingeschlagen „K P 61“. Arno steigt nach. Gipfel 17.40. Karl schreibt eine ganze Seite ins Gipfelbuch: Skizze, Beschreibung, „I. Beg. K. Pietzsch (VS), A. Wendler“. 18.00 Arno seilt nach Süden ab (zu den Rucksäcken). Egon kommt ihm auf dem Turnerweg entgegen (Arno sieht ihn). Karl will über die Nordseite abseilen, um seine Knotenschlinge aus dem Riss zu holen. Oben: Egon (27) sieht die Seite. Streit (Egon hat zwei Jahre am Nordriss probiert; außerdem Hanni). Karl seilt ab, Egon schneidet das Seil am Abseilring durch (Taschenmesser). Karl stürzt in die Schlucht hinter dem Falkenstein (Nordseite, enger Grund mit Blockwerk). Egon reißt die Seite raus, steckt sie ein, trägt sich um 18.40 auf der nächsten Seite ein: „E. Lämmel, Turnerweg, allein.“ Seilt ab. Unten sagt er zu Arno: Oben war keiner. Am 12.8. Suche halbherzig, 13.8. Mauer, Volkspolizei: Republikflucht über Böhmen. Arno muss unterschreiben, dass Karl am Einstieg weg ist (sonst Fluchthilfe). Er unterschreibt (Sohn Gottfried 3 Jahre).
+1962: Felssturz verschüttet den Grund. 1965 „erstbegeht“ Egon den Nordriss, nennt ihn Lämmelriss, sagt, der Ring sei von ihm.
+März 2027: Felssturz an der Nordseite, Nadine findet ein rotes Hanfseil und einen alten Kletterschuh (Filz). Arno hört davon, sagt: Jetzt weiß ich es. Schreibt Brief + Testamentszusatz. Stirbt.
+Nach dem Tod: Einbruch bei Arno (Postelwitz), Tourenbuch fehlt (Kiste unter der Treppe, im Karton alter Kletterschuhe). Weiße Spur Magnesia auf dem Fensterbrett (in Sachsen am Fels verboten → Halle). Rico.
+
+Spuren: Arnos Brief (nennt den Namen nicht), Seil (sauber geschnitten, nicht gerissen; Knoten = Karls Knoten, „Sackstich mit Halbschlag“), Gipfelbuch 1958–1962 im Archiv (Seite fehlt; Durchdruck auf nächster Seite: Skizze, K. P., A. W.; Egons Eintrag 18.40 „allein“ über dem Durchdruck), Protokolle der Volkspolizei 1961 (Arno: 18.00 abgeseilt, E. L. auf dem Turnerweg; Egon: 18.30 oben, keiner da, Buch in der Kassette – aber Eintrag 18.40), Ring „K P 61“ (Benny mit Nadine), Egons Ausrutscher („die Schlinge hat er ja dringelassen“), Fund im Grund (Konrad: Sturz, kein Sprung; Taschenmesser fehlt nicht – Karls Messer in seiner Tasche, zu), Tourenbuch (in Ricos Büro).
+Finale Sa. 15.5.: Ehrung am Falkensteinblick, Egon im Rollstuhl, Jo legt den Durchdruck hin, Hanni kommt. Egon gesteht und gibt die Seite aus der Brieftasche (66 Jahre aufgehoben).
+Ende: Benny steigt mit Nadine den Turnerweg und schreibt Karls Namen ins Gipfelbuch. Hanni unten. Karl wird in Postelwitz beerdigt (Konrad). Köln: Achims Wohnung mit Gertruds Gardinen, Herr Becker blüht (fünfte Blüte). Benny 315.
+Teaser Fall 18: Schwäbische Alb, verlassenes Dorf Gruorn (Truppenübungsplatz Münsingen, 1939 geräumt; Kirche und Schulhaus stehen). Anruferin Schwäbin. Auf der Schultafel steht seit 1939 ein Satz. Testament: „Wischt die Tafel ab.“

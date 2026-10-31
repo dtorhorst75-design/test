@@ -1,0 +1,150 @@
+{
+ "reihe": "Mit Gardinen ins Jenseits",
+ "fall": "Fall 17",
+ "titel": "Karl war oben",
+ "autorin": "Diana Bittenbinder",
+ "datei": "Mit-Gardinen-ins-Jenseits-Fall-17-Saechsische-Schweiz",
+ "ort": "Sächsische Schweiz",
+ "besuchen": [
+  "Die Sächsische Schweiz liegt südöstlich von Dresden an der Elbe, an der Grenze zu Tschechien. Das Elbsandsteingebirge besteht aus Sandstein, der über Jahrmillionen zu Tafelbergen, Schluchten und mehr als tausend einzelnen Felstürmen ausgewaschen wurde. Seit 1990 ist ein großer Teil davon Nationalpark. Bekannte Ziele sind die Bastei bei Rathen mit ihrer steinernen Brücke, die Schrammsteine bei Bad Schandau, der Lilienstein und die Festung Königstein. Im Nationalpark bitte auf den markierten Wegen bleiben.",
+  "Bad Schandau ist ein Kurort an der Elbe. Mitten im Ort steht ein historischer Personenaufzug aus Eisen, der 1904 gebaut wurde und Besucher etwa fünfzig Meter hinauf auf den Ortsteil Ostrau bringt. Durch das Kirnitzschtal fährt eine kleine Straßenbahn, die Kirnitzschtalbahn, bis zum Lichtenhainer Wasserfall. Über die Elbe fahren kleine Fähren, und im Sommer fahren historische Raddampfer auf dem Fluss.",
+  "Die Sächsische Schweiz gilt als eine Wiege des Freikletterns. 1864 stiegen Turner aus Bad Schandau auf den Falkenstein; das gilt als Beginn des sächsischen Bergsteigens. Bis heute gibt es hier strenge Kletterregeln: Man sichert sich mit Knotenschlingen und mit Ringen, die von den Erstbegehern gesetzt wurden, Magnesia ist verboten, und nach Regen klettert man nicht, weil der nasse Sandstein brechen kann. Auf den Gipfeln liegen in Metallkassetten Gipfelbücher, in die sich die Kletterer eintragen. Klettern sollte man nur mit Erfahrung oder mit einer Bergführerin oder einem Bergführer; den Falkenstein kann man aber auf Wanderwegen umrunden und von unten bestaunen. Am 13. August 1961 wurde in Berlin die Mauer gebaut.",
+  "Was erfunden ist: alle Figuren mit ihren Familien, die Klettergruppe, der Nordriss am Falkenstein, wie er hier beschrieben ist, der Ring, das Seil, die Seite aus dem Gipfelbuch, das Archiv und die Akten, wie sie hier beschrieben sind, die Kletterhalle, der Falkensteinblick, die Tafel und das Verbrechen. Abläufe bei Polizei, Bergwacht und Archiv sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+ ],
+ "sprecher": {
+  "JO": [
+   "Jo (Erzählerin)",
+   "Sprecherin 1 – Diana"
+  ],
+  "KONRAD": [
+   "Konrad",
+   "Sprecher 2"
+  ],
+  "BENNY": [
+   "Benny",
+   "Sprecher 3"
+  ],
+  "ACHIM": [
+   "Achim Krause",
+   "Sprecher 2 oder 3"
+  ],
+  "ARNO": [
+   "Arno Wendler (Brief, Tourenbuch, Aussage)",
+   "Sprecher 2 (sehr alt, sächsisch, ruhig)"
+  ],
+  "GOTTFRIED": [
+   "Gottfried Wendler, Fährmann i. R.",
+   "Sprecher 2 (tief, langsam, sächsisch)"
+  ],
+  "HANNI": [
+   "Hanni Pietzsch",
+   "Sprecherin 1 (alt, klar, fest)"
+  ],
+  "NADINE": [
+   "Nadine Rühle, Rangerin",
+   "Sprecherin 1 (knapp, sportlich)"
+  ],
+  "GRAEFE": [
+   "Steffen Gräfe, Kripo Pirna",
+   "Sprecher 3 (trocken)"
+  ],
+  "RICO": [
+   "Rico Lämmel, Kletterhalle",
+   "Sprecher 3 (locker, später leise)"
+  ],
+  "EGON": [
+   "Egon Lämmel",
+   "Sprecher 2 (sehr alt, dünn, sächsisch)"
+  ],
+  "TEUCHERT": [
+   "Frau Teuchert, Archiv",
+   "Sprecherin 1 (genau)"
+  ],
+  "KARL": [
+   "Karl Pietzsch (Seite im Gipfelbuch)",
+   "Sprecher 3 (jung, fröhlich)"
+  ],
+  "JUNGE": [
+   "Junge vor der Halle",
+   "Sprecher 3 (jung)"
+  ],
+  "ALB": [
+   "Gerlinde Mayer (Telefon)",
+   "Sprecherin 1 (schwäbisch, freundlich)"
+  ]
+ },
+ "aussprache": [
+  "Bad Schandau – bat SCHAN-dau",
+  "Postelwitz – POS-tel-witz",
+  "Schrammsteine – SCHRAMM-stei-ne",
+  "Falkenstein – FAL-ken-schtein",
+  "Kirnitzschtal – KIR-nitsch-tal",
+  "Pietzsch – PIETSCH",
+  "Lämmel – LÄM-mel",
+  "Rühle – RÜ-le",
+  "Gräfe – GRÄ-fe",
+  "Teuchert – TOI-chert",
+  "Boofe – BOO-fe",
+  "Gruorn – GRU-orn",
+  "Münsingen – MÜN-sin-gen"
+ ],
+ "bilder": {
+  "1": {
+   "titel": "Postelwitz",
+   "figuren": [
+    "Jo",
+    "Konrad",
+    "Benny"
+   ],
+   "beschreibung": "Ein Dorf an der Elbe: alte Holz- und Fachwerkhäuser in einer Reihe an der Uferstraße, direkt dahinter die zackige Felswand der Schrammsteine. Hermine, der cremeweiße Bestattungswagen mit Häkelgardinen, hält vor dem letzten Haus. Ein großer, breiter Mann um die siebzig in blauer Jacke mit Anker wartet. Jo, Konrad und Benny steigen aus, der kleine Hund schaut aus dem Fenster.",
+   "prompt": "A small village along the river Elbe in Saxon Switzerland: a single row of old half-timbered and wood-clad houses in brown and green with small windows and flower boxes along a quiet river road; directly behind the roofs rises a long jagged wall of pale yellow and grey sandstone cliffs with pine trees on top. A cream-white 1983 Mercedes hearse with white crocheted curtains in its windows has stopped in front of the last house. A tall broad man of 69 with short grey hair, huge hands and a blue jacket with a small anchor on the chest waits at the door. The woman with the red glasses, the tall old man with the hat and thermos and the broad young man step out; a small dog looks out of the back window. Late afternoon light, calm."
+  },
+  "2": {
+   "titel": "Am Fuß des Falkensteins",
+   "figuren": [
+    "Jo",
+    "Konrad",
+    "Benny"
+   ],
+   "beschreibung": "Ein einzelner, gewaltiger Felsturm im Wald. Auf der schattigen Nordseite liegen frische, helle Steinblöcke durcheinander, ein rot-weißes Absperrband ist um die Bäume gespannt. Eine kleine, sehnige Rangerin mit blondem Zopf zeigt hinauf zu einer hellen Abbruchstelle. Konrad nimmt den Hut ab, Benny sieht den dunklen Riss hinauf.",
+   "prompt": "A single massive sandstone rock tower rising out of a pine and beech forest, 90 metres of vertical yellow-grey walls with cracks, ledges and small pines, flat summit crowned with trees. On the shady north side fresh pale angular boulders lie jumbled among older mossy ones, uprooted roots, a red-and-white barrier tape strung between trees. A small wiry female ranger of 38 with a blond braid, green uniform and a huge rucksack points up to a fresh pale scar halfway up the wall. The tall old man has taken off his hat, the broad young man looks up along a long dark narrow crack running up the face, the woman with the red glasses beside them. Cool green light, awe, mystery."
+  },
+  "3": {
+   "titel": "Die Seite spricht",
+   "figuren": [
+    "Jo",
+    "Konrad",
+    "Benny"
+   ],
+   "beschreibung": "Ein schmaler Archivraum mit grauen Kartons bis zur Decke. Auf einem Tisch liegt ein altes Gipfelbuch. Jo beugt sich mit weißen Handschuhen ganz tief darüber, eine Schreibtischlampe liegt flach daneben und wirft Streiflicht über die Seite, so dass feine Linien als Schatten sichtbar werden. Eine kleine runde Archivarin mit Ärmelschonern hält den Atem an, Benny fotografiert, Konrad sitzt am Fenster.",
+   "prompt": "A long narrow archive room with grey cardboard boxes on shelves up to the ceiling, curtains drawn. On a table lies a small old grey linen-bound book open at a thin page. The woman with the red glasses and white cotton gloves bends very low over it; an old metal desk lamp lies flat on the table beside the book so its light skims sideways across the page, making faint pressed lines and a sketch of a rock crack visible as tiny shadows. A small round elderly archivist of 71 with glasses on a chain and black sleeve protectors holds her breath; the broad young man holds up a phone; the tall old man sits by the window with his hat on his knee. Dramatic warm side light, quiet tension."
+  },
+  "4": {
+   "titel": "Der Ring",
+   "figuren": [
+    "Benny"
+   ],
+   "beschreibung": "Benny mit rotem Helm hängt am Seil an einer senkrechten Sandsteinwand neben einem schmalen Riss. Vor ihm ist ein alter, rostiger Eisenring in den Fels gesetzt, mit Blei eingegossen. Tief unter ihm Wald und kleine Gestalten der Bergwacht.",
+   "prompt": "The broad young man with dark curls under a red climbing helmet hangs on a white rope against a vertical yellow-grey sandstone wall, beside a narrow dark crack with moss at its edges. At chest height in front of him an old rusty iron ring the size of a palm is set into the rock, its shaft sealed with grey lead; he looks at it very closely, moved. Far below, the green forest canopy and tiny figures of mountain rescuers among boulders in a narrow gully. Vertiginous view, morning light, quiet emotion, no visible letters."
+  },
+  "5": {
+   "titel": "Die Mundharmonika",
+   "figuren": [
+    "Jo",
+    "Konrad"
+   ],
+   "beschreibung": "Eine kleine, warme Küche mit Wachstuchdecke voller Kirschen. Eine sehr alte, kleine Frau mit weißem Haarknoten und Kittelschürze sitzt am Tisch, vor ihr ein Karton, ein einzelner alter Kletterschuh aus Leder und Filz und eine kleine Mundharmonika. An der Wand das Foto eines lachenden jungen Mannes mit Locke. Draußen Regen. Konrad und Jo hören zu.",
+   "prompt": "A small warm kitchen on a rainy day: oilcloth with a cherry pattern on the table, a pot on the stove, a geranium on the window, rain on the glass and the river beyond. A very old small woman of 85 with white hair in a bun and a flowered apron sits at the table holding a small old harmonica; in front of her a cardboard box, a single old climbing shoe of brown leather with a grey felt sole, and a plate of rhubarb crumble cake. On the wall beside the clock hangs a framed black-and-white photo of a laughing young man with a curl on his forehead. The tall old man with his hat on his knee and the woman with the red glasses listen. A wet cat lies under the stove. Tender, quiet."
+  },
+  "6": {
+   "titel": "Glück auf",
+   "figuren": [
+    "Jo",
+    "Konrad",
+    "Benny"
+   ],
+   "beschreibung": "Am Fuß des Falkensteins in der Morgensonne: Eine alte Frau sitzt auf einem Klappstuhl und spielt Mundharmonika, der kleine Hund liegt zu ihren Füßen. Jo, Konrad mit dem Hut vor der Brust, ein Mann im Pullover und ein großer Fährmann stehen daneben. Ganz oben auf dem Gipfel, winzig, Benny mit rotem Helm bei der Kassette mit dem Gipfelbuch.",
+   "prompt": "Morning sun at the foot of a huge sandstone rock tower in the forest. A very old small woman in a cardigan sits on a light aluminium folding chair on a flat stone and plays a small harmonica with all her heart; a small dog lies with its head on her shoe. Around her stand the woman with the red glasses holding hands with a man of about 55 in a jumper, the tall old man holding his hat to his chest, and a tall broad old ferryman covering his mouth with his big hands; a little apart by the trees a wiry grey-haired man of 63 stands alone and sings softly. Far above on the flat summit, tiny, the broad young man in a red helmet stands by a small metal box among the pines and sings towards the sky. Golden light, joyful and moving."
+  }
+ }
+}
