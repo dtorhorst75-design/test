@@ -1,0 +1,223 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Restbestand",
+  "band": "Band 16",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-16-Restbestand",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Spreewald finden: Ömers Schlossbuch, Bettys Inventarlisten, das Fährbuch eines Kahnfährmanns von 1989, Auszüge aus einer Stasi-Akte, einen Treffbericht und einen Brief, der in einem Einweckglas lag. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte darauf, wer wo stand, wer was weiß, obwohl es nirgends gedruckt wurde, und wie jemand ein bestimmtes Wort schreibt.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Weiß, wann in einem Ordner Seiten fehlen."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Kann jetzt Rudel sagen."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett wird es voll."
+    ],
+    [
+      "Willi Krautz",
+      "† mit 86, Kahnfährmann in Lehde. Ist seit Oktober 1989 nicht mehr gefahren."
+    ],
+    [
+      "Gerhard Krautz",
+      "82, sein Bruder. Hat lange in Berlin gelebt und klingt auch so."
+    ],
+    [
+      "Lene Nowka",
+      "58, Krankenschwester in Hannover. Hat 1989 versucht, in den Westen zu kommen."
+    ],
+    [
+      "Dietmar Pusch",
+      "66, Bürgermeister und Inhaber einer Gurkenfabrik. War 1989 Brigadier im Gurkenhaus."
+    ],
+    [
+      "Hanne und Liesel Mietke",
+      "73, Zwillinge, haben im Gurkenhaus sortiert. Halten Gänse."
+    ],
+    [
+      "Mirko Hantsch",
+      "Polizeihauptkommissar in Lübbenau. Kommt mit dem Kahn und mit Brötchen."
+    ]
+  ],
+  "nachwort_titel": "Den Spreewald wirklich besuchen",
+  "nachwort": [
+    "Der Spreewald liegt im Süden Brandenburgs, zwischen Berlin und Cottbus. Die Spree teilt sich hier in Hunderte kleine Wasserläufe, die Fließe heißen. Der Spreewald ist UNESCO-Biosphärenreservat. Viele Orte waren früher nur mit dem Kahn zu erreichen; die Post wird bis heute in manchen Gegenden mit dem Kahn ausgefahren.",
+    "Lehde bei Lübbenau ist ein kleines Dorf mit alten Holzhäusern und einem Freilandmuseum, in dem man sieht, wie die Menschen hier früher gelebt haben. Von Lübbenau und Lehde aus kann man Kahnfahrten machen, zum Beispiel zum Gasthaus Wotschofska mitten im Wald. Die Fährleute staken den Kahn mit einer langen Stange, die Rudel heißt.",
+    "Im Spreewald leben Sorben, auch Wenden genannt, ein slawisches Volk mit eigener Sprache und eigenen Bräuchen. Viele Orts- und Straßenschilder sind zweisprachig. Berühmt sind die Spreewaldgurken. Im Herbst 1989 gab es in vielen Städten der DDR Demonstrationen, und im Dezember besetzten Bürgerinnen und Bürger die Dienststellen der Staatssicherheit, um zu verhindern, dass Akten vernichtet werden. Heute können Betroffene ihre Akten im Stasi-Unterlagen-Archiv einsehen.",
+    "Was erfunden ist: Willi Krautz, sein Kahn, das Gurkenhaus, die LPG und die Gurkenfabrik, die Akte und alle Berichte darin, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei und Archiv sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 17: Sonderposten**",
+    "Eine kleine Brauerei in der Altstadt von Bamberg, mit einem Felsenkeller tief im Berg. Ganz hinten steht ein altes Eichenfass. Seit 1972 steht mit Kreide darauf: Nicht anzapfen. Keiner hat es je angefasst. Und jetzt läuft es aus. Und es ist kein Bier.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Kieloben",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein Dorf im Spreewald mit dunklen Holzhäusern und Schilfdächern an schmalen Kanälen unter hellgrünen Erlen. An einem Steg vor einem schwarzen Schuppen liegt ein langer, schwarzer, alter Holzkahn halb voll Wasser, eine lange Stakstange quer darüber. Ein kleiner runder alter Mann mit Schiebermütze und Hosenträgern zeigt darauf. Betty und Ömer stehen daneben.",
+      "prompt": "A village in the Spreewald in May: dark, almost black wooden houses with low reed roofs and white window frames along narrow still green-brown canals, alder trees in fresh bright green, water lily leaves, a dragonfly. In front of a long low black wooden shed with a ramp into the water, a long narrow old black wooden punt lies half full of water at a small jetty, a long wooden punting pole lying across its benches, faded white letters on the bow. A small round old man of 82 with a flat cap, braces and a checked shirt points at it; the woman with the clipboard and the young man look on. Calm, mysterious, green."
+    },
+    "2": {
+      "titel": "Gezogene Zähne",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im Kahn am Steg: Zwei Bodenbretter unter der mittleren Bank sind hochgestellt, darunter ein leerer Holzkasten. Ömer kniet auf dem Steg, beugt sich mit Taschenlampe hinein. Am Griff der Stakstange weiße Salzkrusten. Im Schuppen dahinter blaue Kunststofffässer und eine zerknüllte grüne Plane.",
+      "prompt": "Close view of an old black wooden punt moored at a jetty, half full of water: under the middle bench two floorboards have been pried up and stand at an angle like pulled teeth, revealing an empty little built-in wooden box. The young man kneels on the jetty boards and leans in with a torch; the woman with the clipboard stands behind him. On the grip of the long punting pole lying across the benches, fine white salt crusts and two tiny brown dill seeds are visible. Through the open gate of the black shed behind: rows of blue plastic barrels, three old wooden barrels with iron hoops and a crumpled torn green tarpaulin on a pale rectangle of floor. Detective mood."
+    },
+    "3": {
+      "titel": "Das Fährbuch",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine kleine Stube mit grünem Kachelofen, einem Bett unter einem Fenster zum Kanal und einem Tisch mit nur einem Stuhl. Betty liest in einem grünen Leinenbuch. An der Wand ein gerahmtes Schwarzweißfoto einer Erntebrigade vor einem Holzhaus mit Gurkenkörben. Der alte Mann sitzt auf dem Bett, Ömer zeigt auf das Foto.",
+      "prompt": "A tiny old wooden cottage room: a green tiled stove, a bed under a small window onto a canal, a table with only one chair, where the woman with the clipboard reads a green linen-bound logbook with pencil columns. On the wall a framed black-and-white photograph of a harvest brigade of twelve people in work clothes and headscarves in front of a long wooden barn with baskets of cucumbers; a man with a punting pole on the left, a girl with a long plait at the edge, and in the middle a big broad man with a peaked cap and a clipboard looking sideways at the girl. The small old man sits on the bed; the young man points at the photo. Warm afternoon light through the door, quiet tension."
+    },
+    "4": {
+      "titel": "Lake",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine helle Gurkenfabrik aus Blech mit Bändern voller grüner Gurken und großen Edelstahlbottichen mit trüber Lake, Dill und Senfkörnern. Frauen in weißen Kitteln und Haarnetzen sortieren. Ein großer, breiter Mann mit weißer Schürze und weißen Gummistiefeln mit Salzrand zeigt Betty und Ömer die Halle.",
+      "prompt": "A bright pickle factory hall: conveyor belts carrying thousands of shiny green gherkins, women in white coats and hairnets sorting them, huge stainless-steel vats full of cloudy greenish brine with sprigs of dill, mustard seeds and onion rings, a man stirring with a long wooden paddle. A big broad friendly-looking man of 66 with short grey hair, a white apron, a checked shirt and white rubber boots crusted with salt at the rims gestures proudly; the woman with the clipboard holds it tightly to her chest; the young man's eyes water from the smell. On the office wall above, a large framed old brigade photo with a small brass plaque. Busy, bright, faintly unsettling."
+    },
+    "5": {
+      "titel": "Der Steg",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nacht am Kanal: Auf der Kante eines Stegs sitzt eine schmale Frau mit grauem Zopf bis zur Rückenmitte im dunklen Mantel, einen Schuhkarton mit Weihnachtskarten auf den Knien, die Füße über dem Wasser. Neben ihr Betty, dahinter der alte Mann mit der Mütze in der Hand. Mondlicht auf dem schwarzen Wasser, der Kahn daneben.",
+      "prompt": "Night by a narrow canal in the Spreewald, moonlight on black still water reflecting alder trees and a single lit cottage window. On the edge of a small wooden jetty sits a slim woman of 58 with a long grey plait down to the middle of her back and a dark coat, her feet dangling over the water, an open shoebox full of cheap old Christmas cards on her knees. Beside her sits the woman with the clipboard, in silence; behind them on the jetty the small round old man holds his cap in his hands; the young man stands at the cottage door with a teapot. Next to the jetty the old black punt lies in the water. Frogs, stillness, tender."
+    },
+    "6": {
+      "titel": "Und komm an",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein schwarzer Kahn gleitet unter einem Dach aus alten Erlen durch ein stilles Fließ im Wald, hinten stakt der kleine alte Mann mit zu großer Mütze, vorne sitzt die Frau mit dem grauen Zopf. Dahinter viele weitere Kähne mit Dorfbewohnern. Vor ihnen ein großes Holzgasthaus mit Schilfdach und Terrasse am Wasser, ein Steg zum Anlegen.",
+      "prompt": "A long black wooden punt glides along a quiet canal deep in a forest under a roof of old alder trees, sunlight falling in green and golden patches. At the stern the small round old man of 82 with braces and a too-big flat cap pushes with a long pole, tears in his eyes; at the bow sits the slim woman with the long grey plait, singing softly, a shoebox on her knees; behind her two identical old women in blue smocks and headscarves, the woman with the clipboard and the young man. Behind them follows a line of a dozen more punts full of villagers, a grey aluminium police punt among them. Ahead, at a clearing, a large dark wooden inn with a reed roof, a long terrace on the water with tables and parasols, and a landing stage. Joyful, moving."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Restbestand"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 16"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch ein Kahn, der seit 1989 kieloben im Schuppen liegt.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es in den Spreewald, nach Lehde, wo die wichtigsten Straßen aus Wasser sind. Der alte Fährmann Willi ist gestorben. Seit Oktober 1989 hat er keinen Fahrgast mehr gefahren. Damals wollte die junge Lene mit seinem Kahn in den Westen fliehen und wurde verhaftet. Alle glauben, Willi hat sie verraten. Und jetzt lag sein Kahn eines Morgens im Wasser. Nass bis oben. Als ob einer nachts damit gefahren ist.",
+        "Zwei gezogene Bodenbretter. Salz und Dill an einer Stakstange. Ein Fährbuch, in dem steht, wer im Gurkenhaus war. Und ein Testament: Der Restbestand ist für Lene.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Akten, Briefe und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Spreewald Krimi",
+        "Brandenburg Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Brandenburg / Spreewald)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A narrow still canal in the Spreewald at dawn mist, dark wooden houses with reed roofs and alder trees reflected in the water; at a small jetty an old black wooden punt lies in the water, a long punting pole across it, while in the open black shed behind, a pale rectangle on the floor shows where it lay upside down for decades. A jar of pickled gherkins glows faintly on a cellar step. In the foreground on a sandy path the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard look at the punt in surprise. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

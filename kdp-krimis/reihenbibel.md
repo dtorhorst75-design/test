@@ -31,7 +31,8 @@
 13. Schlussverkauf – Kaufhaus Seidel, Görlitz (Obermarkt), Messing-Gitteraufzug, Handrad – fertig. Neu auf dem Armaturenbrett: Messingknopf mit Pfeil nach unten (aus der Kabine, von Hubert Woytek). KHKin Doreen Kliemt (Görlitz, Becher „Ich bin nicht im Dienst“) kennt Thielke.
 14. Zimmer frei – Pension zur Möwe, Lindau (Bodensee), Seeschwalbe 1970 – fertig. Neu auf dem Armaturenbrett: kleiner Rettungsring aus Kork (von Hr. Kolb). KHKin Lisa Allgaier (Lindau, Brezel) kennt Kliemt. Fini Brugger führt ab Mai die Pension.
 15. Unter den Hammer – Mühle Hoffnung, Groot-Siel (Rheiderland, Ostfriesland), Zwangsversteigerung Amtsgericht Leer – fertig. Neu auf dem Armaturenbrett: Mehlsäckchen aus Leinen (Talea). KHKin Wiebke Saathoff (Leer, Fahrrad, Rosinenstuten) kennt Allgaier. Betty: „Paragraf dreißig, bitte.“
-16. Restbestand – Spreewald (Lehde), Fährmann tot, sein Kahn liegt seit 1989 kieloben im Schuppen, gestern früh lag er nass am Steg mit dem Rudel drin. Anrufer: Bruder, Nummer von Folkert Bruns (Verein für alte Sachen). – geplant
+16. Restbestand – Lehde (Spreewald), Kahn „Lehder Liese“, Stasi 1989, IM „Rudel“ – fertig. Neu auf dem Armaturenbrett: winziges Einweckglas mit geschnitzter Gurke (Gerhard). PHK Mirko Hantsch (Lübbenau, Kahn, Brötchen) kennt Saathoff.
+17. Sonderposten – kleine Brauerei in der Bamberger Altstadt mit Felsenkeller, Eichenfass „Nicht anzapfen“ seit 1972, läuft aus, kein Bier. Anruferin: Nichte des Brauers, Nummer von Lisa Allgaier (Polizeischule). – geplant
 
 ## Autorin
 
