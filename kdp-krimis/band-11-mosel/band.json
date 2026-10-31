@@ -1,0 +1,227 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Nachlass",
+  "band": "Band 11",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-11-Nachlass",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Weinkeller finden: Ömers Schlossbuch, Bettys Inventarlisten, einen Kaufvertrag von 1946, ein achtzig Jahre altes Kellerbuch, das Gutachten eines Auktionators und eine Quittung aus einem Blechkasten. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Daten, auf Farbe und Tinte, auf eine Handschrift und darauf, wer in einem Keller fegt.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf. Trinkt keinen Wein."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Mag die Mosel, weil man ihm zuwinkt."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett: eine Kuckucksuhr, ein Vogel und ein Glasauge."
+    ],
+    [
+      "Alois Kremer",
+      "† mit 95, Winzer in Bernkastel. Hat nie verkauft, was ihm nicht gehörte."
+    ],
+    [
+      "Svenja Kremer",
+      "29, seine Enkelin, Winzerin. Will den Steilhang, keinen Urlaub."
+    ],
+    [
+      "Theo Kremer",
+      "64, Alois' Sohn, Weinhändler in Trier. Im Elferrat. Will verkaufen."
+    ],
+    [
+      "Bruno Lehnert",
+      "71, Kellermeister seit 1974. Hat ein Knie wie achtzig."
+    ],
+    [
+      "Dr. Valentin Roos",
+      "58, Auktionator aus Trier. Riecht nach Zedernholz."
+    ],
+    [
+      "Margarethe Schöneck",
+      "87, in Trier. War sieben, als das Weingut ihres Vaters brannte."
+    ],
+    [
+      "Anke Bremm",
+      "Kriminalhauptkommissarin in Wittlich. An Fastnacht eine Biene."
+    ]
+  ],
+  "nachwort_titel": "Die Mosel wirklich besuchen",
+  "nachwort": [
+    "Bernkastel-Kues liegt in einer großen Schleife der Mosel, zwischen Trier und Koblenz. Auf der einen Seite des Flusses steht das alte Bernkastel mit seinen Fachwerkhäusern und dem Marktplatz, auf der anderen Kues. Über der Stadt liegt die Burgruine Landshut. Die Weinberge reichen bis an die Häuser heran.",
+    "An der Mittelmosel wächst vor allem Riesling, oft in sehr steilen Lagen auf Schieferboden. Viele Weinberge kann man nur zu Fuß und mit der Hand bearbeiten. Im Winter werden die Reben geschnitten, im Herbst wird gelesen. Viele Winzerinnen und Winzer bieten Führungen, Weinproben und Traubensaft an. In Kues gibt es ein Weinmuseum.",
+    "Die Fastnacht ist an der Mosel ein großes Fest, mit Sitzungen, Umzügen und Weiberfastnacht, an der die Frauen den Männern die Krawatten abschneiden. Das Land Rheinland-Pfalz wurde übrigens wirklich erst am 30. August 1946 gegründet. Vorher gehörte die Gegend zur französischen Besatzungszone.",
+    "Was erfunden ist: das Weingut Kremer und das Weingut Schöneck, die Lage Engelsberg, der Keller mit Gang 7, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Notar und Auktionshaus sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 12: Ausverkauft**",
+    "Ein Zirkus-Winterquartier in der Lüneburger Heide. Zwölf Wagen. Wagen zwölf gehörte der Seiltänzerin, die 1989 in der letzten Vorstellung abgestürzt ist. Seitdem ist er zu. Und letzte Woche hat jemand von innen ans Fenster geklopft.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Tief im Berg",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein alter Gewölbekeller aus dunklem Schiefer, tief im Berg. Am Ende eines niedrigen Gangs eine rote Ziegelmauer mit einem Loch unten links. Eine junge Winzerin in Gummistiefeln hält eine staubige alte Weinflasche mit altmodischem Etikett hoch. Betty und Ömer leuchten mit Taschenlampen.",
+      "prompt": "A narrow low vaulted wine cellar tunnel cut into dark glittering slate rock deep inside a hill, small lamps far apart, empty old wooden racks along the walls, white fluffy cellar mould on the stone. At the end of the tunnel an old red brick wall closes it from floor to vault, with a hole the size of a shoebox broken out at the bottom left, brick crumbs on the floor. A small wiry young woman winemaker of 29 with short dark hair, freckles, a grey jumper, rubber boots and pruning shears in her back pocket holds up a dusty slender old wine bottle with an old-fashioned label showing a house with a little tower and a vineyard. The woman with the clipboard and the young man shine torches. Cold, mysterious, cosy."
+    },
+    "2": {
+      "titel": "Die Olympia",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein niedriges Büro mit dunklen Balken. Auf einem schweren Eichenschreibtisch eine alte grüne Schreibmaschine. Ömer beugt sich mit der Lupe über das tiefschwarze neue Farbband. Regale mit grünen Kellerbüchern. Durchs kleine Fenster ein steiler Weinberg.",
+      "prompt": "A low old office with dark ceiling beams above a winery: a heavy carved oak desk with an old green metal Olympia typewriter with round keys, a chair with a flattened cushion. Shelves full of identical tall narrow green linen-bound cellar books with gold years on their spines. Through a small window a very steep slate vineyard with bare vine rows rises into the sky. The young man bends over the typewriter with an old horn magnifying glass, looking at a glossy deep black new ribbon on the spools; the woman with the clipboard holds a crumpled shop receipt in a plastic sleeve; the young winemaker stands at the door. Warm lamplight, gentle humour."
+    },
+    "3": {
+      "titel": "Der Kellermeister",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In einer Halle zwischen riesigen Holzfässern sitzt ein kleiner breiter alter Mann mit Walnussgesicht, Schiebermütze und alter Lederschürze auf einem Hocker, das bandagierte Bein hochgelegt, und schenkt Kaffee aus einer Thermoskanne ein.",
+      "prompt": "A stone-flagged hall of an old Moselle winery between huge old wooden barrels, as big as small rooms, painted with years and names, the largest one at the back reading only a year. On a stool sits a small broad old cellar master of 71 with a face like a walnut, very pale blue eyes, a white fringe of hair under a flat cap and a shiny old leather apron; his bandaged right leg rests on a second stool. He pours black coffee from a thermos into small plastic cups for the woman with the clipboard and the young man. A young winemaker in rubber boots stands in the doorway looking hurt and loving at once. Warm morning light through a big round wooden gate."
+    },
+    "4": {
+      "titel": "Margarethe",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine sehr kleine, sehr alte, aufrechte Dame mit Pelzmütze sitzt im Winter auf einer Bank am Moselufer in Trier und hält ein kleines Poesiealbum aus rotem Samt offen auf den Knien. Daneben Betty und Ömer. Der Fluss fließt im grauen Licht.",
+      "prompt": "A garden of a care home on the bank of the river Moselle in Trier in February: on a bench right by the water sits a very small, very old, very upright lady of 87 with a narrow sharp face and pale grey eyes, in a thick winter coat and a fur hat, a walking stick beside her and a thermos on her knees. She holds open on her lap a small worn poesy album bound in red velvet with a page of old German handwriting in violet ink. Beside her sit the woman with the clipboard and the young man, both listening. The broad grey river flows past, bare trees, a barge in the distance. Quiet, melancholic, warm."
+    },
+    "5": {
+      "titel": "Gang sieben",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts im Keller: Ein großer runder Mann im Kaschmirmantel mit weißer Narrenkappe und Stirnlampe kniet vor dem Loch in der Ziegelmauer, eine lange Grillzange in der Hand, vor ihm ein rostiger Blechkasten und ein gelbes Papier, ein Feuerzeug. Eine Taschenlampe trifft ihn ins Gesicht. Hinter leeren Holzfächern Betty, Ömer im Kuckuckskostüm, eine Kommissarin und ein alter Mann mit Krücke.",
+      "prompt": "Night deep in a vaulted slate wine cellar: in front of an old red brick wall with a hole at the bottom kneels a big round red-faced man of 64 with a grey moustache in a dark cashmere coat, a white carnival fool's cap with golden tassels on his head with a headlamp strapped over it, a very long stainless-steel barbecue tongs in his hand. Before him on the floor a small rusty tin box with its lid open and a yellowed folded paper, a lighter fallen beside it. A strong torch beam hits his startled face. From behind empty wooden racks emerge the woman with the clipboard, the young man dressed in a funny cuckoo costume with a cardboard beak and a little door on his belly, a blonde policewoman with the torch, and a small old man with a crutch. Dramatic but humorous."
+    },
+    "6": {
+      "titel": "Nachlass",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im Keller vor der geöffneten Nische mit vielen alten, verschimmelten Flaschen: Die alte Dame mit Pelzmütze hält ein Glas goldenen Wein und schließt die Augen. Daneben die junge Winzerin, der alte Kellermeister mit Korkenzieher, Betty und Ömer mit Traubensaft.",
+      "prompt": "Inside an old vaulted slate wine cellar, in front of an opened brick wall revealing a small vaulted niche with six rows of old dusty bottles lying in a dark wooden rack, covered in white cotton-like mould, their labels showing a house with a little tower. A very small old lady of 87 in a fur hat holds a glass of golden amber wine and closes her eyes as she tastes it. Around her: the young winemaker with tears in her eyes, the small old cellar master holding an antique corkscrew and the cork, the woman with the clipboard and the young man raising glasses of grape juice, a blonde policewoman off duty. Warm golden lamplight, deeply touching."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Nachlass"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 11"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch hundertzwanzig Flaschen, die es gar nicht geben dürfte.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es an die Mosel, nach Bernkastel, mitten in die Fastnacht. Der alte Winzer Alois Kremer ist gestorben. Sein Keller ist dreihundert Jahre alt und reicht tief in den Berg. Ganz hinten, in Gang sieben, ist eine Mauer. Und dahinter liegen Flaschen vom Jahrgang 1945. Von einem Weingut, das 1944 abgebrannt ist.",
+        "Ein Kaufvertrag mit sehr schwarzer Schrift. Ein Kellerbuch in violetter Tinte. Ein Farbband aus dem Papierkorb. Ein Poesiealbum. Und ein Keller, in dem man nicht fegen darf.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Mosel Krimi",
+        "Wein Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Mosel / Rheinland-Pfalz)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A steep slate vineyard above a crooked colourful half-timbered Moselle town at blue winter dusk, carnival streamers and confetti in the lane, a castle ruin on the hilltop. In the foreground the dark mouth of an old vaulted wine cellar glowing with lamplight; inside, at the end of a tunnel, a red brick wall with a hole through which the necks of old dusty bottles are visible. In the lane the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard peer into the cellar. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

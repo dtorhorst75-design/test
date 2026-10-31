@@ -26,7 +26,8 @@
 8. Räumungsverkauf – Zechensiedlung Gelsenkirchen-Buer, Brieftauben
 9. Leerstand – Leuchtturm auf Hallig Süderwisch (fiktiv), Nordsee, Wärter 1979 – fertig
 10. Inventur – Puppenmanufaktur Hellmuth, Sonneberg (Thüringen) – fertig
-11. Nachlass – Weinkeller an der Mosel (Bernkastel), 300 Jahre alt. Hinter einer Wand eine Flasche Jahrgang 1945 von einem Weingut, das 1944 abgebrannt ist. Anruferin: Enkelin des Winzers († 95), Nummer von Merle Hansen. Glasauge von Erwin Greiner jetzt auf dem Armaturenbrett. – geplant
+11. Nachlass – Weingut Kremer, Bernkastel (Mosel), zur Fastnacht – fertig. Kommissarin Anke Bremm kennt Sandra Pohlmann (Band 8). Bruno schenkt Betty eine 1945er „zum Aufheben“.
+12. Ausverkauft – Zirkus-Winterquartier Familie Karoli bei Celle (Lüneburger Heide). 12 Wagen, Wagen 12 der Seiltänzerin (Absturz 1989, letzte Vorstellung), seitdem zu; letzte Woche klopfte jemand von innen ans Fenster. Nummer von Holger Wunderlich. – geplant
 
 ## Autorin
 
