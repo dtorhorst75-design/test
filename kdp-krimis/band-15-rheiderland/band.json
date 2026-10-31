@@ -1,0 +1,232 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Unter den Hammer",
+  "band": "Band 15",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-15-Unter-den-Hammer",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in der Mühle finden: Ömers Schlossbuch, Bettys Inventarlisten, ein Mahl- und Wetterbuch von 1981, den letzten Brief eines jungen Müllergesellen, einen Zeitungsausschnitt und einen Brief, der vierundvierzig Jahre unter einer Kiste lag. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf den Wind, auf Knoten, auf das, was einer weiß, obwohl es ihm keiner erzählt hat, und darauf, was ein Wort in Ostfriesland noch bedeuten kann.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Kennt Zwangsversteigerungen von hinten."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Lernt, was eine Königswelle ist."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett wird es voll."
+    ],
+    [
+      "Hinnerk Ubbens",
+      "† mit 89, Müller der Mühle Hoffnung. Hat 1981 die Flügel mit Ketten festgebunden."
+    ],
+    [
+      "Talea Ubbens",
+      "34, seine Enkelin, Pflegerin in Leer. Trägt einen gelben Friesennerz."
+    ],
+    [
+      "Ocko Dirksen",
+      "† 1981 mit 19, Hinnerks Geselle. Hat nie getrunken."
+    ],
+    [
+      "Gesche Dirksen",
+      "85, Ockos Mutter, Bunde. Hat vierundvierzig Jahre nicht mit den Ubbens geredet."
+    ],
+    [
+      "Remmer Feiken",
+      "74, Großbauer und Ortsvorsteher. Hinnerks Schwager. Schenkt beim Tee aus."
+    ],
+    [
+      "Gerda Wiltfang",
+      "Bäuerin, hat Hinnerk vierzig Jahre lang Roggen gebracht."
+    ],
+    [
+      "Folkert Bruns",
+      "61, Grundschullehrer, Vorsitzender des Mühlenvereins. Hat zweiundzwanzig Postkarten mit „nee“."
+    ],
+    [
+      "Wiebke Saathoff",
+      "Kriminalhauptkommissarin in Leer. Kommt mit dem Fahrrad und Rosinenstuten."
+    ]
+  ],
+  "nachwort_titel": "Das Rheiderland wirklich besuchen",
+  "nachwort": [
+    "Das Rheiderland liegt im Südwesten Ostfrieslands, westlich der Ems, an der Grenze zu den Niederlanden. Es ist flach, grün und weit, mit Deichen, Warften, Gräben und vielen Kühen und Schafen. Orte wie Bunde, Jemgum und Weener sind nicht weit von Leer.",
+    "In Ostfriesland stehen noch viele alte Windmühlen, oft Galerieholländer mit einem Rundgang auf halber Höhe. Viele werden von Mühlenvereinen gepflegt und sind am Deutschen Mühlentag an Pfingstmontag geöffnet. Die Kappe mit den Flügeln lässt sich drehen, damit die Flügel im Wind stehen; viele Mühlen haben dafür eine Windrose, die die Kappe von selbst nachführt.",
+    "Zur Ostfriesischen Teekultur gehören Kandiszucker, der Kluntje heißt, und Sahne, die man vorsichtig mit einem Löffel an den Rand gibt, damit sie eine Wolke macht. Man rührt nicht um. Unter drei Tassen ist es unhöflich zu gehen. Boßeln ist ein beliebter Sport, bei dem man Kugeln auf Straßen so weit wie möglich wirft.",
+    "Was erfunden ist: die Mühle Hoffnung und das Dorf Groot-Siel, der Rheiderland-Bote, das Mahlbuch und alle Briefe, das Versteigerungsverfahren, wie es hier beschrieben ist, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Gericht und Bank sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 16: Restbestand**",
+    "Ein Fährmann im Spreewald ist gestorben. Sein Kahn liegt seit 1989 kieloben im Schuppen, unter einer Plane. Und gestern früh lag er im Wasser. Am Steg. Mit dem Rudel drin. Nass bis oben. Als ob einer in der Nacht damit gefahren ist. Ohne Fährmann.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Gegen den Wind",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Weites, flaches grünes Land mit Gräben und schiefen Bäumen. Auf einer kleinen Warft eine hohe Galerieholländer-Windmühle mit Reetdach; die vier Flügel sind mit rostigen Ketten an Galerie und Pfosten gefesselt, zwei Ketten hängen lose. Davor der orange Lastwagen, Betty, Ömer und eine kräftige rotblonde Frau im gelben Friesennerz.",
+      "prompt": "Wide flat green East Frisian marshland in April under a huge sky, straight ditches full of water reflecting clouds, black-and-white cows, a few trees all bent in the same direction by the west wind, a dike with sheep in the distance. On a small artificial mound stands a tall old smock windmill: octagonal red-brick base, thatched octagonal tower, a wooden gallery running around it halfway up, a white cap with a small fantail, and four huge lattice sails without cloth. The sails are bound with heavy rusty iron chains to the gallery railing, to rings in the brickwork and to posts rammed into the mound, criss-cross like a net; two chains hang cut and loose, swinging. In front, the old orange removal truck; the woman with the clipboard and the young man look up beside a sturdy red-blonde woman of 34 in a yellow oilskin raincoat and rubber boots. Melancholy, windy, mysterious."
+    },
+    "2": {
+      "titel": "Die Galerie",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Auf der hölzernen Galerie der Mühle, zehn Meter hoch, mit Blick über flaches Land, Gräben, einen großen Fluss mit Schiff und Windräder am Horizont. Ömer liegt auf den Brettern im Mehlstaub, neben rostigen Vorhängeschlössern und einem dicken Bremsseil an einem Pfosten. Betty steht am Geländer. Ein großer Hof mit Silos in der Ferne.",
+      "prompt": "On the narrow wooden gallery of an old windmill ten metres above the ground: weathered boards dusted with old white flour, a railing with iron rings and six big rusty padlocks holding chains, a thick grey brake rope tied to a post. The young man lies flat on the boards with a torch, examining footprints in the flour dust; the woman with the clipboard leans against the thatched wall. Beyond the railing a vast flat landscape: shining ditches, a wide grey river with a large ship, a dike with sheep, a row of modern white wind turbines on the horizon, and three hundred metres away a big farm with a huge red roof, concrete silos and a long barn, a yellow excavator and a burly man in a flat cap walking across the yard. A crow sits on the tip of a sail. Airy, tense."
+    },
+    "3": {
+      "titel": "Gesche",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine blitzsaubere kleine Küche in einem Klinkerhaus. Eine sehr kleine, sehr gerade alte Frau mit weißem Haarknoten und blauer Kittelschürze sitzt am Tisch, vor sich Tee mit Kluntje und Sahne und einen blauen Luftpostbrief. Betty liest ihn vor. Draußen im Vorgarten Tulpen in geraden Reihen.",
+      "prompt": "A spotless small kitchen in a red clinker-brick house: an old glass-fronted kitchen dresser, a table with a lace cloth, a teapot, small porcelain cups with red roses, a bowl of white rock sugar and a little cream jug. A very small, very upright old woman of 85 with white hair in a bun and a blue floral smock sits with her hands in her lap, looking out of the window at tulips planted in perfectly straight rows; in front of her an opened blue airmail envelope and a magnifying glass. The woman with the clipboard reads aloud from a lined sheet of exercise-book paper. Quiet, grave, tender."
+    },
+    "4": {
+      "titel": "Teestunde",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein Saal im Dorfgemeinschaftshaus mit Fotos von Deichbau und Boßeln an den Wänden. Lange Tische, alte Leute mit Teetassen und Zuckerkuchen. Vorn ein großer roter Mann mit Schiebermütze an einem Messing-Samowar mit silberner Zuckerzange. Betty, Ömer und Talea sitzen an seinem Tisch; hinten steht eine kleine alte Frau mit Kopftuch und Stock auf.",
+      "prompt": "A village community hall with red-brick walls hung with old photographs of dike building, a mill with turning sails and people throwing balls along a road; long tables with white cloths where about twenty elderly people sit with porcelain cups with red roses and plates of butter-sugar cake. At the head, beside a huge brass samovar, a big broad red-faced man of 74 in a flat cap, checked shirt and green waistcoat pours tea and drops rock sugar into a cup with small silver tongs, smiling. At his little table sit the woman with the clipboard, the young man with cake and the red-blonde woman in the yellow oilskin, very still. At the back, a small old woman in a headscarf with a walking stick is getting to her feet. Cosy, with an undercurrent of tension."
+    },
+    "5": {
+      "titel": "Unter dem Hammer",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Im Steinboden der Mühle neben den großen Mühlsteinen: Auf einem Tuch liegen in einer Reihe schwere Schärfhämmer. Eine Bodenbohle ist herausgehoben, darunter eine alte rote Teedose mit goldenem Segelschiff. Eine Kommissarin mit blauen Handschuhen hält eine grüne Blechtaschenlampe mit zersprungenem Glas. Eine kleine alte Frau mit Hut sitzt auf einem Hocker.",
+      "prompt": "Inside the stone floor of an old windmill, dusty with flour, with a pair of huge round millstones and wooden gears; light falls through a small window. On a cloth on the floor lie a row of heavy short-handled millstone dressing hammers with sharp flat steel heads. A heavy iron-bound wooden chest has been moved aside, and beneath where it stood one short floorboard has been lifted, revealing a hollow with an old rusty red tea tin with a faded golden sailing ship on the lid. A tall policewoman with short grey hair, blue gloves and a blue rain jacket holds up an old green tin torch with a cracked glass; a technician photographs it. The young man kneels by the hole; the woman with the clipboard holds a letter; a very small old woman in a hat sits upright on a stool with her handbag on her knees. Intense, quiet."
+    },
+    "6": {
+      "titel": "Richtig rum",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Die Windmühle ohne Ketten, die Flügel drehen sich im Westwind. Auf der Wiese davor zweihundert Menschen mit Thermoskannen, eine Grundschulklasse mit einem bunten Plakat, Feuerwehr in Uniform. Ganz vorne eine kleine alte Frau mit Hut. Oben auf der Galerie die Frau im gelben Friesennerz am Seil. Die Ketten liegen im Gras.",
+      "prompt": "The tall thatched windmill on its mound in the evening light, now free of chains, its four huge sails turning in the west wind, blurred with motion; rusty chains lie in heaps in the grass. On the meadow below about two hundred people in rubber boots with thermos flasks, a primary school class holding up a colourful handmade banner (no readable letters), volunteer firefighters in uniform, all looking up and applauding. At the very front a very small upright old woman in a hat and, beside her, an old woman with a headscarf and a stick clapping. On the gallery a red-blonde woman in a yellow oilskin holds the brake rope; the young man, black with rust, waves a short bent iron pin. The woman with the clipboard stands at the edge with the orange truck. Joyful, moving, wide sky."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Unter den Hammer"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 15"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch aus einer Mühle, die seit 1981 in Ketten liegt.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es ins Rheiderland in Ostfriesland, zu einer alten Windmühle, die versteigert werden soll. Seit 1981 sind ihre Flügel mit Ketten festgebunden. Seit der Nacht, in der der junge Müllergeselle starb. Betrunken, sagen alle. Und vor einer Woche hat sich die Mühle gedreht. Mit den Ketten dran. Gegen den Wind.",
+        "Ein Knoten, den keiner aufkriegt. Ein Bolzenschneider mit einer Scharte. Ein Mahlbuch, das von zwei Lampen erzählt. Und ein Testament, in dem steht: Was ihr sucht, liegt unter dem Hammer.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Protokolle und Zeitungsausschnitte, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Ostfriesland Krimi",
+        "Windmühle Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Niedersachsen / Ostfriesland)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A tall old thatched East Frisian smock windmill with a wooden gallery on a small mound in wide flat green marshland at dusk, under a huge dramatic sky; its four great lattice sails are bound with heavy rusty chains, yet the sails are blurred as if turning, the cut chains flying out like whips; on the gallery a single torch light. In the foreground on the dike road the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard stare up at the mill. Sheep, ditches reflecting the sky. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

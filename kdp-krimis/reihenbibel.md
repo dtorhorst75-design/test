@@ -30,7 +30,8 @@
 12. Ausverkauft – Zirkus-Winterquartier Karoli, Heidbruch (Lüneburger Heide) – fertig. Neu auf dem Armaturenbrett: Gartenzwerg als Seiltänzer (von Rosi/Kalle). KHKin Maren Thielke (Celle) kennt Bremm.
 13. Schlussverkauf – Kaufhaus Seidel, Görlitz (Obermarkt), Messing-Gitteraufzug, Handrad – fertig. Neu auf dem Armaturenbrett: Messingknopf mit Pfeil nach unten (aus der Kabine, von Hubert Woytek). KHKin Doreen Kliemt (Görlitz, Becher „Ich bin nicht im Dienst“) kennt Thielke.
 14. Zimmer frei – Pension zur Möwe, Lindau (Bodensee), Seeschwalbe 1970 – fertig. Neu auf dem Armaturenbrett: kleiner Rettungsring aus Kork (von Hr. Kolb). KHKin Lisa Allgaier (Lindau, Brezel) kennt Kliemt. Fini Brugger führt ab Mai die Pension.
-15. Unter den Hammer – Windmühle (Holländer mit Galerie) im Rheiderland, Ostfriesland, seit 1981 Flügel mit Ketten festgebunden, Müller tot, letzte Nacht hat sie sich gedreht, gegen den Wind. Anruferin: Enkelin, Nummer von Fini (Ausbildung). – geplant
+15. Unter den Hammer – Mühle Hoffnung, Groot-Siel (Rheiderland, Ostfriesland), Zwangsversteigerung Amtsgericht Leer – fertig. Neu auf dem Armaturenbrett: Mehlsäckchen aus Leinen (Talea). KHKin Wiebke Saathoff (Leer, Fahrrad, Rosinenstuten) kennt Allgaier. Betty: „Paragraf dreißig, bitte.“
+16. Restbestand – Spreewald (Lehde), Fährmann tot, sein Kahn liegt seit 1989 kieloben im Schuppen, gestern früh lag er nass am Steg mit dem Rudel drin. Anrufer: Bruder, Nummer von Folkert Bruns (Verein für alte Sachen). – geplant
 
 ## Autorin
 
