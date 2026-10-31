@@ -1,0 +1,172 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 16",
+  "titel": "Es ist nicht meine",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-16-Helgoland",
+  "ort": "Helgoland",
+  "besuchen": [
+    "Helgoland liegt etwa 70 Kilometer vor der deutschen Küste in der Nordsee und ist Deutschlands einzige Hochseeinsel. Die Hauptinsel besteht aus rotem Buntsandstein, mit dem Unterland am Hafen und dem Oberland oben auf dem Felsen, verbunden durch eine Treppe und einen Aufzug. An der Nordspitze steht der freistehende Felsturm Lange Anna. Gegenüber liegt die Düne, eine kleine Nebeninsel mit Badestränden, an denen Kegelrobben und Seehunde liegen. Bitte halten Sie Abstand zu den Tieren.",
+    "Am Lummenfelsen brüten jedes Jahr Tausende Seevögel, darunter Basstölpel, Trottellummen und Dreizehenmöwen; er ist Naturschutzgebiet und darf nicht betreten werden, man beobachtet die Vögel vom Weg aus. Auf Helgoland fahren keine Autos, und auch Radfahren ist nicht erlaubt. Man erreicht die Insel mit dem Schiff, zum Beispiel ab Cuxhaven, oder mit dem Flugzeug. Am Hafen stehen die bunten Hummerbuden.",
+    "Im Zweiten Weltkrieg wurde Helgoland schwer bombardiert, die Bewohner wurden evakuiert, und 1947 sprengten die Briten die Militäranlagen. Am 1. März 1952 wurde die Insel an Deutschland zurückgegeben, und der Wiederaufbau begann. Im Museum Helgoland erfährt man viel über diese Geschichte, und bei Führungen kann man einen Teil der Bunkeranlagen unter dem Oberland besichtigen.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, das Hotel Thamsen, das Grundstück, der Kaufvertrag, die Kiste und der Luftschacht, das Fangbuch, die Akten, das Archiv und die Führung, wie sie hier beschrieben sind, und das Verbrechen. Abläufe bei Polizei, Grundbuchamt, Gemeinde und Vogelwarte sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "BOY": [
+      "Boy Rickmers (Brief)",
+      "Sprecher 2 (sehr alt, norddeutsch)"
+    ],
+    "MEIKE": [
+      "Meike Rickmers, Vogelwarte",
+      "Sprecherin 1 (schnell, klar)"
+    ],
+    "ANNA": [
+      "Anna Hamkens, geb. Payens",
+      "Sprecherin 1 (alt, warm)"
+    ],
+    "PETER": [
+      "Peter Payens (Postkarte)",
+      "Sprecher 3 (jung)"
+    ],
+    "KRUESS": [
+      "Frau Krüss, Museum",
+      "Sprecherin 1 (trocken)"
+    ],
+    "JENS": [
+      "Jens Thamsen, Hotelier",
+      "Sprecher 3"
+    ],
+    "UWE": [
+      "Uwe Thamsen",
+      "Sprecher 2 (sehr alt, leise)"
+    ],
+    "BOYSEN": [
+      "Inken Boysen, Kripo Pinneberg",
+      "Sprecherin 1 (ruhig, fest)"
+    ],
+    "BOTTER": [
+      "Jürgen Botter, Inselpolizist",
+      "Sprecher 2 (gemütlich)"
+    ],
+    "TADE": [
+      "Tade, Feuerwehr",
+      "Sprecher 3 (jung)"
+    ],
+    "TOENNIES": [
+      "Tönnies Payens (Testament)",
+      "Sprecher 2"
+    ],
+    "GRETE": [
+      "Grete Payens (Zeile)",
+      "Sprecherin 1"
+    ],
+    "FRAU": [
+      "Kerstin Thamsen",
+      "Sprecherin 1 (leise)"
+    ],
+    "FUEHRER": [
+      "Bunkerführer",
+      "Sprecher 2"
+    ],
+    "JUNGE": [
+      "Schuljunge",
+      "Sprecher 3"
+    ],
+    "SACHSEN": [
+      "Gottfried Wendler (Telefon)",
+      "Sprecher 2 (alt, sächsisch)"
+    ]
+  },
+  "aussprache": [
+    "Helgoland – HEL-go-land",
+    "Lange Anna – LAN-ge AN-na",
+    "Lummenfelsen – LUM-men-fel-sen",
+    "Basstölpel – BASS-töl-pel",
+    "Payens – PAI-ens",
+    "Hamkens – HAM-kens",
+    "Rickmers – RICK-mers",
+    "Thamsen – TAM-sen",
+    "Botter – BOT-ter",
+    "Tade – TA-de",
+    "Pinneberg – PIN-ne-berg",
+    "Bad Schandau – bat SCHAN-dau"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Ganz draußen",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ankunft auf Helgoland: die rote Felseninsel mit grünem Oberland, unten bunte Häuser und die Reihe bunter Hummerbuden am Hafen, an der Nordspitze die Lange Anna. Von der Fähre steigen Jo, Konrad mit Hut, Benny mit dem kleinen Hund und eine junge Frau mit Fernglas und Wollmütze.",
+      "prompt": "Arrival at a red sandstone island in the open North Sea: steep red cliffs with flat green grass on top, colourful 1950s houses at the foot, a long staircase and a lift tower to the upper level, and along the harbour quay a row of small wooden huts painted red, blue, green and yellow with pointed roofs; at the northern tip a slender free-standing red rock tower in the sea like a finger. Passengers in rain jackets leave a big white ferry; among them the tall old man with the hat and thermos, the woman with the red glasses, the broad young man holding a small dog and looking unhappy, and a small wiry young woman with a woollen hat and big binoculars. Seagulls, wind, bright colours."
+    },
+    "2": {
+      "titel": "Vier Uhr",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Nacht an der Vogelklippe, grünliches Nachtsicht-Licht: Hinter einem Busch knien Jo, Benny mit dem Hund und Meike mit einem großen Nachtglas. Am Zaun über der Kante kniet ein Mann mit Seil und kleiner Schaufel im roten Lehm, Vögel fliegen erschrocken auf.",
+      "prompt": "Night on the edge of a sea-bird cliff, seen partly as through green night-vision: a low wooden-and-wire fence with warning signs at the cliff edge, beyond it a sheer drop with thousands of nesting gannets and guillemots packed on every ledge; one bare patch of rock with a dark crack where no bird sits. At the fence, on the wrong side, a tall man in a dark jacket and expensive brown leather shoes kneels in red clay with a rope tied to a post and a small shovel; startled white birds flutter up beside him. Behind a bush in the foreground kneel the woman with the red glasses, the broad young man holding a small dog's muzzle, and a young woman with big night binoculars. Tense, eerie."
+    },
+    "3": {
+      "titel": "Der Schacht",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Am Morgen an der Vogelklippe: Ein junger Feuerwehrmann am Seil kommt über die Kante, unter dem Arm ein Bündel in zerfetztem Öltuch. Er legt es einer kleinen alten Frau mit weißen Locken auf einem Klappstuhl auf den Schoß. Daneben eine Kommissarin in roter Rettungsjacke, Konrad mit Hut. Hinter einem Absperrband viele Zuschauer.",
+      "prompt": "Morning at the top of a red sea-bird cliff behind a fence, the sea glittering below and a slender red rock tower in the distance: a young firefighter in a helmet and harness on a rope has just climbed back over the edge, red clay on his face, carrying a bundle wrapped in a tattered old oilcloth; he lays it gently in the lap of a small round old woman of 87 with white curls and a dark blue cardigan sitting on a folding chair with a stick between her knees. Beside her a young woman kneels to unwrap it, revealing a rusty tin box with a name scratched on the lid. Nearby a tall blonde policewoman in a red rescue jacket, the tall old man holding his hat, the woman with the red glasses, the broad young man. Behind a barrier tape a hundred onlookers with binoculars and cameras. Moving."
+    },
+    "4": {
+      "titel": "Sechs Uhr vierzig",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Im Nebel an der Kante über der Langen Anna: Ein sehr alter Mann in grauer Strickjacke im Rollstuhl und eine kleine alte Frau mit Stock und Ankerkette stehen einander gegenüber. Sie wirft einen kleinen roten Stein über den Rand ins Grau. Hinter ihnen Polizei und die anderen.",
+      "prompt": "Grey morning fog on the clifftop: by a low fence at the edge, a very old frail man of 89 in a grey cardigan and coat sits in a wheelchair; facing him, a small round old woman of 87 with white curls, a walking stick and a gold necklace with a tiny anchor, standing at the fence and throwing a small round red stone over the edge into the grey. The fog is tearing open just enough to reveal, behind them, the slender red rock tower with white gannets circling it. Standing back: a tall blonde policewoman, a round island policeman with a grey beard, a younger man with his face in his hands, the tall old man holding his hat, the woman with the red glasses. Silent, grave."
+    },
+    "5": {
+      "titel": "Die Uhr",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein kleiner Friedhof auf dem Oberland mit kleinen flachen Grabsteinen an einer Mauer, das Meer dahinter. Die alte Frau hält eine offene silberne Taschenuhr über eine kleine Mulde im Gras, ein Friedhofsgärtner hält den Grabstein. Eine Frau im schwarzen Mantel legt einen roten Stein auf das Grab.",
+      "prompt": "A small windswept cemetery on a clifftop island under a high blue sky, tiny flat granite gravestones in the grass along a stone wall, the open sea beyond. A small old woman with white curls and an anchor necklace bends with her stick over a small hollow in the grass, holding an opened silver pocket watch that has just started ticking again; a cemetery gardener holds a lifted small grey gravestone. A slim woman in a black coat with short grey hair kneels to place a small round red beach stone on the grave. Around them the tall old man with his hat, the woman with the red glasses, a young woman with binoculars, a policeman, a young firefighter. Tender, bright."
+    },
+    "6": {
+      "titel": "Drei Hummer",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein kleines offenes rotes Holzboot treibt unter der roten Vogelwand vor der Langen Anna. Die alte Frau lässt einen dunkelblauen Hummer ins grüne Wasser gleiten. Benny mit einer leeren Holzkiste, Meike am Außenborder, Konrad mit Hut neben der alten Frau, Jo und Achim in der Mitte, der kleine Hund.",
+      "prompt": "A small open red wooden boat with an outboard motor drifts on green sea water at the foot of a towering red sandstone cliff covered with white nesting seabirds, right in front of a slender red rock tower like a finger. At the bow a small old woman with white curls and an anchor necklace gently releases a large dark blue lobster into the water; the broad young man at the stern holds an empty wooden keep box; a young woman with a woollen hat at the tiller; the tall old man with his hat beside the old woman; the woman with the red glasses and a tall man with black-rimmed glasses in the middle; a small dog peering over the side. Peaceful, luminous."
+    }
+  }
+}
