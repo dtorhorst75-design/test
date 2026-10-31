@@ -1,0 +1,227 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Schlussverkauf",
+  "band": "Band 13",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-13-Schlussverkauf",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Kaufhaus finden: Ömers Schlossbuch, Bettys Inventarlisten, einen Zeitungsausschnitt von 2010, ein Kassenbuch, das Protokoll eines Aufzugmonteurs, ein Schlüsselbuch und dreiunddreißig Taschenkalender. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Nummern, darauf, wo der Aufzug gerade steht, und darauf, was jedes Jahr am selben Tag im Kalender steht.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Findet jede Zahl."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett wird es voll."
+    ],
+    [
+      "Erich Seidel",
+      "† mit 94, Kaufhausbesitzer. Hat sechzehn Jahre allein im fünften Stock gewohnt."
+    ],
+    [
+      "Mira Seidel",
+      "31, seine Enkelin, Restauratorin für Bleiglasfenster. Hat Höhenangst, aber nur auf Leitern."
+    ],
+    [
+      "Klaus Seidel",
+      "60, Erichs Sohn, Ingenieur in Dresden. Seit 2010 kaum ein Wort mit dem Vater."
+    ],
+    [
+      "Renate Bräuer",
+      "74, war 34 Jahre Kassiererin im Kaufhaus Seidel. Wirft nichts weg, was eine Zahl hat."
+    ],
+    [
+      "Frank Lehmann",
+      "68, früher Filialleiter, heute Stadtführer für Filmtouristen."
+    ],
+    [
+      "Hubert Woytek",
+      "75, Aufzugmonteur im Ruhestand. Schreibt immer mit Durchschlag."
+    ],
+    [
+      "Doreen Kliemt",
+      "Kriminalhauptkommissarin in Görlitz. Hat einen Becher, auf dem steht, dass sie nicht im Dienst ist."
+    ]
+  ],
+  "nachwort_titel": "Görlitz wirklich besuchen",
+  "nachwort": [
+    "Görlitz liegt ganz im Osten von Sachsen, an der Neiße. Auf der anderen Seite des Flusses liegt die polnische Stadt Zgorzelec. Bis 1945 war beides eine Stadt. Heute kann man über die Altstadtbrücke zu Fuß von Deutschland nach Polen gehen.",
+    "Die Altstadt von Görlitz hat den Krieg fast ohne Zerstörung überstanden. Es gibt dort Häuser aus der Gotik, der Renaissance, dem Barock und dem Jugendstil, viele davon schön restauriert. Weil die Stadt so gut erhalten ist, wurden hier viele Filme gedreht. Deshalb nennen manche sie Görliwood. Es gibt Stadtführungen zu den Drehorten.",
+    "Am Obermarkt und am Untermarkt kann man lange sitzen und schauen. Von der Peterskirche hat man einen schönen Blick über die Neiße. Zur Lausitz gehört auch der Mohnkuchen, den man in vielen Cafés bekommt.",
+    "Was erfunden ist: das Kaufhaus Seidel und sein Aufzug, das Café, die Zeitungsartikel, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Bank und Aufzugsprüfung sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 14: Zimmer frei**",
+    "Eine Pension auf der Insel Lindau im Bodensee, seit 1970 geschlossen. Zimmer sieben wurde fünfundfünfzig Jahre lang nie vermietet, und trotzdem wurde jeden Morgen das Bett frisch gemacht. Jetzt liegt darauf ein neuer Rettungsring. Mit dem Namen eines Schiffs, das 1970 im See untergegangen ist.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Außer Betrieb",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Der Lichthof eines leeren Jugendstil-Kaufhauses: fünf Galerien mit geschwungenen Eisengeländern, leere Regale, oben eine Glaskuppel. An einer Wand ein Aufzugschacht aus Messinggittern, unten eine Holzkabine mit Spiegel und roter Samtbank, am Gitter ein rotes Schild. Betty, Ömer und eine junge Frau mit runder Brille und Farbklecksen am Kittel.",
+      "prompt": "The light well of an empty Art Nouveau department store from 1912: five open galleries around a central atrium with curving wrought-iron railings decorated with flowers and tendrils, sweeping staircases, empty shelves and clothes racks with bare hangers, and high above a round glass dome letting in pale March light. On one side, running from bottom to top, an ornate golden brass lattice lift shaft with folding gates on every floor; at the bottom, behind the gate, a lift cabin of dark wood with brass fittings, a mirror at the back and a small red velvet bench. A red tin sign hangs on the gate. A slim young woman with a dark ponytail, round glasses and a paint-stained smock holds a big bunch of keys; the woman with the clipboard and the young man look at the lift, fascinated. Quiet, a little melancholy, mysterious."
+    },
+    "2": {
+      "titel": "Das Handrad",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein enger Maschinenraum aus Backstein auf dem Dach: eine schwarze eiserne Aufzugsmaschine mit Seiltrommel, daneben ein großes eisernes Handrad und ein roter Bremshebel. Ömer liegt mit Taschenlampe und Lupe auf dem Boden. Betty steht in der Tür. Durch ein kleines Fenster sieht man Dächer und Türme und einen Fluss.",
+      "prompt": "A cramped old brick machine room on a rooftop: a large black cast-iron lift machine with an electric motor and a drum wound with steel cable running down through a hole in the floor, beside it a big iron hand wheel with spokes like a lorry steering wheel, and a red brake lever with a small enamel sign. Dust, old oil, cobwebs. The young man lies on the floor with a torch and a magnifying glass, examining footprints in the dust. The woman with the clipboard stands in the narrow doorway. Through a small window, the rooftops and church towers of an old town and a river with another town on the far bank. Atmospheric light from the torch."
+    },
+    "3": {
+      "titel": "Mit Durchschlag",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein Schrebergarten an der Neiße mit grüner Laube und Ofenrohr. Ein kleiner, breiter alter Mann in Latzhose mit rotem Gesicht hält ein gelbes Blatt. Betty sitzt auf einer umgedrehten Gießkanne, Ömer steht bei einem alten Fahrrad. Eine rothaarige Frau mit Thermobecher hört zu. Hinter dem Fluss eine andere Stadt.",
+      "prompt": "An allotment garden by a river in early spring: a small green wooden summerhouse with a stovepipe chimney, a hand-painted sign on the garden gate, tools, an old bicycle turned upside down for repair. A short broad old man of 75 with a round red face, huge hands with dark fingernails and dungarees holds out a yellowed carbon-copy form. The woman with the clipboard sits on an upturned watering can, the young man stands by the bicycle looking at the brakes. A small sturdy woman of 50 with short red hair, freckles and a dark green down jacket listens, holding a thermos mug. Across the river, the towers of another town. Gentle, thoughtful."
+    },
+    "4": {
+      "titel": "Kaffee und Kuchen",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein Saal mit Stuck und Kachelofen, lange Tische mit weißen Decken, Mohnkuchen und Kaffeekannen. Alte Verkäuferinnen lachen. Am Fenster eine kleine weißhaarige Frau in altrosa Strickjacke, vor ihr eine Münze. In der Mitte ein großer Mann mit Schnurrbart und Trenchcoat. Betty mit Klemmbrett neben dem Teller.",
+      "prompt": "A back room of an old café with stucco ceiling and a green tiled stove, long tables with white tablecloths, poppy-seed crumble cake, apple cake and big coffee pots. A group of elderly former shop assistants, one with lilac hair, chatting and laughing. At a small table by the window, alone, a small upright white-haired woman in an old-rose cardigan with glasses on a chain, a fifty-cent coin on the tablecloth in front of her. In the middle of the long table a tall man of 68 with combed grey hair, a moustache and a beige trench coat, telling a story with big gestures. The woman with the clipboard sits with her clipboard placed beside her plate; at the end of the table the young man watches over his fork. Warm, cosy, a little tense."
+    },
+    "5": {
+      "titel": "Fünfter Stock",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts im fünften Stock: Ein Mann mit Stirnlampe und Trenchcoat sitzt auf der obersten Stufe einer geschwungenen Treppe. Hinter ihm der Messingaufzug, darin Ömer auf der roten Bank. In einer offenen Bürotür eine grüne Schreibtischlampe, Betty im Sessel. Eine Frau mit Becher kommt die Galerie entlang.",
+      "prompt": "Night on the top gallery of an empty Art Nouveau department store, seen across the dark atrium under a glass dome with a little moonlight. A tall man in a beige trench coat and thin latex gloves sits defeated on the top step of a grand curving staircase, holding a head torch in his hand; its beam falls down five storeys into the dark atrium. Behind him, the ornate brass lattice lift with its wooden cabin, the folding gate open, the young man sitting calmly on the little red velvet bench inside. Further along the gallery, through an open office door, a desk lamp with a green glass shade glows; the woman with the clipboard sits in a big old leather armchair. A sturdy red-haired woman with a thermos mug walks along the gallery without hurry. Dramatic but quiet."
+    },
+    "6": {
+      "titel": "Abwärts",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Tag im Lichthof: Die Holz-und-Messing-Kabine fährt langsam abwärts, darin eine kleine weißhaarige Frau in altrosa Strickjacke auf der roten Bank. Unten klatschen viele Menschen, Tauben fliegen unter der Glaskuppel auf. Betty mit Klemmbrett unten in der Menge.",
+      "prompt": "Bright day in the light well of an old Art Nouveau department store under a glass dome full of sunlight. The ornate brass lattice lift cabin of dark wood with a mirror slowly descends past the galleries; inside, a small white-haired woman of 74 in an old-rose cardigan sits on the red velvet bench, hand on the velvet, eyes shining. Below in the atrium about twenty people clap: elderly shop assistants, one with lilac hair, a man with a silk scarf, a slim young woman with round glasses holding the hand of a grey-haired man of 60, a red-haired woman with a thermos mug, and the woman with the clipboard. Pigeons fly up under the glass dome; bare hangers on empty clothes racks. Joyful, moving."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Schlussverkauf"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 13"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch aus einem Kaufhaus, das seit 2009 leer steht.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es nach Görlitz, in ein altes Kaufhaus am Obermarkt, fünf Stockwerke hoch, mit einem Lichthof aus Glas. Am Messingaufzug hängt seit sechzehn Jahren ein Schild: Außer Betrieb. Der Strom ist abgestellt. Und letzte Nacht ist er trotzdem gefahren.",
+        "Eine Geldbombe, die am Silvesterabend 2009 verschwunden ist. Eine Kassiererin, der niemand geglaubt hat. Ein grüner Tresor, dessen Zahl keiner kennt. Und dreiunddreißig Taschenkalender, in denen jedes Jahr am selben Tag dasselbe steht.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Protokolle, Kalender und Briefe, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Görlitz Krimi",
+        "Kaufhaus Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Sachsen / Oberlausitz)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. The glowing light well of an empty Art Nouveau department store at dusk, seen from below: five curving wrought-iron galleries rising to a round glass dome with the last evening sky. On one side an ornate golden brass lattice lift shaft; a wooden lift cabin with a red velvet bench hangs halfway up, lit from within, as if moving on its own. A red 'out of order' sign shape (no letters) dangles from the gate. At the bottom, a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard look up in amazement. Through the open front doors behind them the old orange removal truck with a small cuckoo clock on its dashboard stands on a cobbled square. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

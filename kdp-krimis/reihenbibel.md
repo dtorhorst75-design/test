@@ -28,7 +28,8 @@
 10. Inventur – Puppenmanufaktur Hellmuth, Sonneberg (Thüringen) – fertig
 11. Nachlass – Weingut Kremer, Bernkastel (Mosel), zur Fastnacht – fertig. Kommissarin Anke Bremm kennt Sandra Pohlmann (Band 8). Bruno schenkt Betty eine 1945er „zum Aufheben“.
 12. Ausverkauft – Zirkus-Winterquartier Karoli, Heidbruch (Lüneburger Heide) – fertig. Neu auf dem Armaturenbrett: Gartenzwerg als Seiltänzer (von Rosi/Kalle). KHKin Maren Thielke (Celle) kennt Bremm.
-13. Schlussverkauf – Kaufhaus in Görlitz, seit 2009 zu, Lichthof aus Glas, alter Messing-Gitteraufzug „Außer Betrieb“, Strom aus, gestern Nacht ist er vom 5. Stock nach unten gefahren. Anruferin: Enkelin des Kaufhausbesitzers, Nummer von Katrin Grieser (Band 10). – geplant
+13. Schlussverkauf – Kaufhaus Seidel, Görlitz (Obermarkt), Messing-Gitteraufzug, Handrad – fertig. Neu auf dem Armaturenbrett: Messingknopf mit Pfeil nach unten (aus der Kabine, von Hubert Woytek). KHKin Doreen Kliemt (Görlitz, Becher „Ich bin nicht im Dienst“) kennt Thielke.
+14. Zimmer frei – Pension auf der Insel Lindau (Bodensee), seit 1970 zu, Zimmer sieben nie vermietet, Bett jeden Morgen frisch gemacht, darauf ein neuer Rettungsring mit dem Namen eines 1970 gesunkenen Schiffs. Anrufer: Anton Riedle, Nummer aus der Görlitzer Zeitung. – geplant
 
 ## Autorin
 
