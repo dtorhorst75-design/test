@@ -1,0 +1,232 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Zimmer frei",
+  "band": "Band 14",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-14-Zimmer-frei",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in der Pension finden: Ömers Schlossbuch, Bettys Inventarlisten, die Rechnung eines Bootsausstatters, eine Seite aus einem Kassenbuch, die es eigentlich nicht mehr gibt, zwei Zeitungsausschnitte, ein Werftbuch aus Österreich, einen Zettel und eine Notiz. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Getränke, auf Wochentage und darauf, wer ein Wort benutzt, das er eigentlich gar nicht kennen dürfte.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. War noch nie auf einem See."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett wird es voll."
+    ],
+    [
+      "Theres Riedle",
+      "† mit 102, Wirtin der Pension zur Möwe. Hat Zimmer sieben 55 Jahre lang jeden Morgen frisch gemacht."
+    ],
+    [
+      "Jakob Brugger",
+      "† 1970 mit 31, Schiffsführer der Seeschwalbe. Hat jeden Sommer in Zimmer sieben gewohnt."
+    ],
+    [
+      "Anton Riedle",
+      "78, Theres' Neffe, Lehrer im Ruhestand. Hat achtundvierzig Ordner."
+    ],
+    [
+      "Fini Brugger",
+      "52, Pflegerin, Jakobs Nichte. Hat Theres die letzten fünf Jahre gepflegt."
+    ],
+    [
+      "Ernst Vogler",
+      "93, früher Reeder, heute in einer Residenz am See. Hat ein Fernglas."
+    ],
+    [
+      "Bernd Vogler",
+      "62, sein Sohn, Hotelier. Segelt."
+    ],
+    [
+      "Gebhard Hämmerle",
+      "70, Bootsbauer in Bregenz. Sein Vater hat alles aufgeschrieben."
+    ],
+    [
+      "Lisa Allgaier",
+      "Kriminalhauptkommissarin in Lindau. Isst immer eine Brezel."
+    ]
+  ],
+  "nachwort_titel": "Lindau wirklich besuchen",
+  "nachwort": [
+    "Lindau liegt im äußersten Südwesten Bayerns am Bodensee. Die Altstadt liegt auf einer Insel und ist über eine Brücke und einen Bahndamm mit dem Festland verbunden. Von der Insel sieht man über den See auf die Alpen in Österreich und der Schweiz.",
+    "An der Hafeneinfahrt stehen der bayerische Löwe aus Stein und der Neue Leuchtturm, der einzige Leuchtturm Bayerns. Am Hafen steht außerdem der Mangturm, ein alter Leuchtturm aus dem Mittelalter. Rund um den Bodensee gibt es Sturmwarnleuchten, die orange blinken: etwa 40-mal in der Minute bei Starkwind und etwa 90-mal bei Sturm. Wer auf dem See unterwegs ist, sollte dann schnell ans Ufer.",
+    "Mit dem Schiff fährt man von Lindau nach Bregenz in Österreich, wo im Sommer auf einer Bühne im See Opern gespielt werden, oder zur Blumeninsel Mainau. Wasserburg mit seiner Kirche auf einer Halbinsel liegt nicht weit westlich von Lindau. Der Bodensee ist an seiner tiefsten Stelle über 250 Meter tief.",
+    "Was erfunden ist: die Pension zur Möwe, die Reederei Vogler, die Seeschwalbe und ihr Untergang, das Hotel, die Residenz, der Bootsausstatter, die Werft Hämmerle, die Zeitungsartikel und das Gerichtsverfahren, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Versicherung und Gericht sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 15: Unter den Hammer**",
+    "Eine alte Windmühle im Rheiderland in Ostfriesland. Seit 1981 sind ihre Flügel mit Ketten festgebunden. Jetzt ist der Müller gestorben, und alles muss raus. Und letzte Nacht hat sich die Mühle gedreht. Mit den Ketten dran. Gegen den Wind.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Zimmer frei",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Die Promenade am Hafen einer Inselstadt am Bodensee, mit steinernem Löwen und weißem Leuchtturm an der Einfahrt, Alpen dahinter. Ein schmales, verblasstes rosa Haus mit grünen Läden. Im Fenster ein Pappschild. Betty, Ömer und ein großer hagerer alter Mann mit weißem Bart davor.",
+      "prompt": "A harbour promenade of an old island town on a great blue lake in April, chestnut trees just turning green, white excursion boats; at the harbour mouth a huge seated stone lion on a tall plinth and a slim white lighthouse with a clock; behind, across the water, high snow-covered Alps. At the end of the promenade a tall narrow four-storey house painted a faded pink, almost white, with closed green shutters, a bay window and tiny iron balconies, a wrought-iron sign with a seagull above a wooden door with coloured glass panes, and in the window behind a yellowed curtain a small handwritten cardboard sign. In front, the old orange removal truck; the woman with the clipboard and the young man look up at the house beside a tall gaunt old man with a short white beard, a cardigan and a big iron key. Bright, nostalgic."
+    },
+    "2": {
+      "titel": "Zwei Besucher",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein helles Zimmer unterm Dach mit Balkontür zum See. Ein frisch bezogenes weißes Bett, darauf ein neuer rot-weißer Rettungsring. Eine blaue Jacke mit Goldknöpfen über einem Stuhl, eine weiße Schiffermütze auf dem Schrank, ein Blechwecker. Ömer liegt mit Taschenlampe auf dem Parkett, Betty steht in der Tür.",
+      "prompt": "A bright attic room in an old lakeside guesthouse, sunlight pouring through an open balcony door with a view over roofs to a blue lake and snowy mountains. An old wide oak bed, freshly made with starched white linen, and in the middle of it a brand-new red-and-white lifebuoy with a rope around it. A dark blue jacket with gold buttons hangs over a chair, a white captain's cap with an anchor lies on the wardrobe, a round tin alarm clock and a vase of drooping yellow tulips stand on a bedside table. The young man lies flat on the parquet with a torch held low, studying the floor; the woman with the clipboard stands in the doorway. On the little iron balcony outside, the top of a rusty fire ladder. Quiet, mysterious."
+    },
+    "3": {
+      "titel": "Mit Durchschlag",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine alte Weinstube mit dunklen Balken, grünem Kachelofen und rot-weiß karierten Tischdecken. Auf der Theke neben einer Messingkasse ein Kassenbuch. Betty reibt mit einem flachen Bleistift über eine leere Seite, auf der weiße Schrift erscheint. Ömer und der alte Mann schauen zu.",
+      "prompt": "A low old wine tavern with dark wooden beams, a green tiled stove in the corner, wooden benches and red-and-white checked tablecloths under dust, shelves of glasses and an old brass cash register on the bar, photographs of white lake steamers on the walls. On the bar lies an open black ledger with red corners; the woman with the clipboard rubs a broad flat carpenter's pencil lightly across a blank page, and pale white handwriting and numbers appear in the grey graphite. The young man leans in, holding his breath; a tall old man with a white beard and reading glasses watches. Flat light from the harbour window. Concentrated, magical."
+    },
+    "4": {
+      "titel": "Bregenz",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine alte Bootswerft am Seeufer mit Holzhalle und Rampe ins Wasser, darauf ein kleines weißes Ausflugsschiff auf Böcken. Ein kleiner breiter Mann mit grauem Schnurrbart und Farbe an den Händen zeigt über den See auf einen Kirchturm mit Zwiebel. Im Hintergrund eine große Bühne im See unter Planen.",
+      "prompt": "An old boatyard on a lake shore: a long hall of wood and brick with a corrugated roof and big doors to the water, a slipway with rails running into the lake, on it a small old white excursion boat with a red stripe on wooden trestles, workers in blue overalls sanding the hull. A short broad man of 70 with a grey moustache, a cap and paint on his hands stands at the water's edge pointing west across the calm lake towards a distant white church tower with an onion dome on a reedy headland. The woman with the clipboard and the young man follow his gesture. In the background, a huge open-air stage in the lake with half-built giant figures under tarpaulins and cranes; mountains above. Clear spring morning."
+    },
+    "5": {
+      "titel": "Die Treppe",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein sehr alter, dünner Mann in dunkelblauem Blazer sitzt in Zimmer sieben auf der Stuhlkante vor der blauen Jacke und liest einen karierten Zettel in einer Klarsichthülle. Auf dem Nachttisch ein offener Messingkompass. In der Tür ein großer braungebrannter Mann, blass. Dahinter Betty, Ömer und eine blonde Kommissarin mit Brezel.",
+      "prompt": "The bright attic room of the lakeside guesthouse: a very old, very thin man of 93 in a dark blue blazer with gold buttons sits on the very edge of a chair over which hangs another dark blue jacket, holding a small checked note in a clear plastic sleeve with both trembling hands, reading. On the bedside table, beside a stopped tin alarm clock, an open brass pocket compass whose needle points out of the open balcony door across the lake. On the white bed a red-and-white lifebuoy. In the doorway, a tall tanned man of 62 in a light blue shirt and boat shoes, pale; behind him the woman with the clipboard, the young man and a tall blonde policewoman with a braid and a leather jacket holding a pretzel. Still, heavy, moving."
+    },
+    "6": {
+      "titel": "Belegt",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein kleines weißes Boot mit rotem Streifen liegt still auf dem glatten blauen See, im Hintergrund ein Kirchturm mit Zwiebel und die Alpen. Eine Frau mit roter Brille legt einen rot-weißen Rettungsring mit gelben Tulpen aufs Wasser. Ein alter Mann mit weißem Bart weint leise. Betty und Ömer sitzen hinten.",
+      "prompt": "A small white boat with a red stripe drifting with its engine off on a calm, glittering blue lake in the afternoon sun, five hundred metres off a village with a white church tower and onion dome on a headland, snowy Alps across the water. A sturdy woman of 52 with short brown hair, red-rimmed glasses and a green fleece gently lays a red-and-white lifebuoy on the water, a bunch of yellow tulips in its centre. Beside her a gaunt old man with a white beard holds the rail, crying quietly. At the helm a short broad old boatbuilder with his cap in his hand. At the back the woman with the clipboard, without her clipboard, and the young man with a life jacket on his knees. A single seagull. Peaceful, moving."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Zimmer frei"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 14"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch aus einem Zimmer, das 55 Jahre lang niemand gemietet hat.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es nach Lindau an den Bodensee, in eine Pension am Hafen, die seit 1970 geschlossen ist. Im Fenster steht ein Schild: Zimmer frei. Zimmer sieben hat die alte Wirtin fünfundfünfzig Jahre lang nie vermietet. Und trotzdem jeden Morgen das Bett frisch gemacht. Jetzt ist sie tot. Und auf dem Bett liegt ein neuer Rettungsring. Mit dem Namen eines Schiffs, das 1970 im Sturm gesunken ist.",
+        "Eine Seite aus einem Kassenbuch, die herausgeschnitten wurde. Ein Wecker, der um 21.38 Uhr stehen geblieben ist. Eine Feuerleiter mit frischem Rost. Und ein Kompass, den keiner findet.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Rechnungen, Zettel und Werftbücher, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Bodensee Krimi",
+        "Lindau Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Bayern / Bodensee)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A tall narrow faded pink guesthouse with green shutters at the end of a lakeside harbour promenade at golden evening light; on the top floor one small iron balcony with its door open and a red-and-white lifebuoy hanging on the railing; in the ground-floor window behind a yellowed curtain a small cardboard sign (no readable letters). At the harbour mouth a seated stone lion and a slim white lighthouse; beyond, a calm blue lake and snowy Alps, and on the lake a little orange storm-warning light. In front, the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard look up at the balcony. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

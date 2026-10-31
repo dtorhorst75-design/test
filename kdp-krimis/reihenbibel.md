@@ -29,7 +29,8 @@
 11. Nachlass – Weingut Kremer, Bernkastel (Mosel), zur Fastnacht – fertig. Kommissarin Anke Bremm kennt Sandra Pohlmann (Band 8). Bruno schenkt Betty eine 1945er „zum Aufheben“.
 12. Ausverkauft – Zirkus-Winterquartier Karoli, Heidbruch (Lüneburger Heide) – fertig. Neu auf dem Armaturenbrett: Gartenzwerg als Seiltänzer (von Rosi/Kalle). KHKin Maren Thielke (Celle) kennt Bremm.
 13. Schlussverkauf – Kaufhaus Seidel, Görlitz (Obermarkt), Messing-Gitteraufzug, Handrad – fertig. Neu auf dem Armaturenbrett: Messingknopf mit Pfeil nach unten (aus der Kabine, von Hubert Woytek). KHKin Doreen Kliemt (Görlitz, Becher „Ich bin nicht im Dienst“) kennt Thielke.
-14. Zimmer frei – Pension auf der Insel Lindau (Bodensee), seit 1970 zu, Zimmer sieben nie vermietet, Bett jeden Morgen frisch gemacht, darauf ein neuer Rettungsring mit dem Namen eines 1970 gesunkenen Schiffs. Anrufer: Anton Riedle, Nummer aus der Görlitzer Zeitung. – geplant
+14. Zimmer frei – Pension zur Möwe, Lindau (Bodensee), Seeschwalbe 1970 – fertig. Neu auf dem Armaturenbrett: kleiner Rettungsring aus Kork (von Hr. Kolb). KHKin Lisa Allgaier (Lindau, Brezel) kennt Kliemt. Fini Brugger führt ab Mai die Pension.
+15. Unter den Hammer – Windmühle (Holländer mit Galerie) im Rheiderland, Ostfriesland, seit 1981 Flügel mit Ketten festgebunden, Müller tot, letzte Nacht hat sie sich gedreht, gegen den Wind. Anruferin: Enkelin, Nummer von Fini (Ausbildung). – geplant
 
 ## Autorin
 
