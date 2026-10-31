@@ -1,0 +1,229 @@
+{
+ "reihe": "Alles muss raus",
+ "reihenzusatz": "Ein Krimi zum Mitraten",
+ "titel": "Sonderposten",
+ "band": "Band 17",
+ "autorin": "Jette van Hoven",
+ "datei": "Alles-muss-raus-Band-17-Sonderposten",
+ "mitraten": [
+  "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+  "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in Bamberg finden: Ömers Schlossbuch aus dem Felsenkeller, Bettys Inventarlisten, ein Kassenbuch vom Bierstand auf der Sandkerwa 1972, einen alten Zeitungsartikel, eine Postkarte aus Brixen und einen Brief mit Durchschlag. Sie sind grau hinterlegt und sehen aus wie das Original.",
+  "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Initialen, auf Uhrzeiten und darauf, wer einen Satz immer gleich sagt.",
+  "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+  "Viel Spaß beim Mitraten!"
+ ],
+ "figuren": [
+  [
+   "Betty Brüggemann",
+   "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Weiß, wann in einem Ordner Seiten fehlen."
+  ],
+  [
+   "Ömer Yıldız",
+   "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Kann jetzt Rudel sagen."
+  ],
+  [
+   "Der Kuckuck",
+   "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett ist kaum noch Platz."
+  ],
+  [
+   "Alois Pfister",
+   "† mit 91, Brauer der Brauerei „Zum Schwarzen Kater“ in Bamberg. Hat 1972 mit Kreide auf ein Fass geschrieben."
+  ],
+  [
+   "Ferdinand „Ferdl“ Pfister",
+   "83, sein jüngerer Bruder, Seniorchef. Geht am Stock und hat zu allem einen Satz."
+  ],
+  [
+   "Max Pfister",
+   "54, Ferdls Sohn, Braumeister. Hat ein neues Sudhaus und Schulden."
+  ],
+  [
+   "Kathi Pfister",
+   "40, Alois' Enkelin, Polizeihauptmeisterin in Bamberg. Darf nicht ermitteln."
+  ],
+  [
+   "Toni Haas",
+   "75, war 1972 Braugeselle bei Pfister. Lebt seitdem in Brixen."
+  ],
+  [
+   "Lisl Dorsch",
+   "74, Gärtnerin in der Bamberger Gärtnerstadt. Hat eine Postkarte aufgehoben."
+  ],
+  [
+   "Hans Mösl",
+   "78, der letzte Küfer in Bamberg."
+  ],
+  [
+   "Babette Schmitt",
+   "Kriminalhauptkommissarin in Bamberg. Kommt mit dem Fahrrad und mit Brezen."
+  ]
+ ],
+ "nachwort_titel": "Bamberg wirklich besuchen",
+ "nachwort": [
+  "Bamberg liegt in Oberfranken, an der Regnitz. Die Altstadt gehört zum UNESCO-Welterbe. Wie Rom ist sie auf sieben Hügeln gebaut. Das Alte Rathaus steht mitten im Fluss auf einer kleinen Insel, und die alten Fischerhäuser am Ufer heißen Klein-Venedig. Oben auf dem Domberg stehen der Kaiserdom und die Alte Hofhaltung.",
+  "Bamberg ist eine Bierstadt. In der Stadt und im Umland gibt es viele kleine Familienbrauereien. Berühmt ist das Rauchbier, das nach Schinken und Lagerfeuer schmeckt, weil das Malz über Buchenholz geräuchert wird. Unter den Hügeln liegen kilometerlange Felsenkeller im Sandstein, in denen das Bier früher gekühlt wurde. Einige kann man bei Führungen besichtigen. Im Sommer sitzt man „auf dem Keller“, das heißt im Biergarten über dem Keller, unter Kastanien. Ende August feiert Bamberg die Sandkerwa, ein großes Volksfest in der Sandstraße mit Fischerstechen auf der Regnitz.",
+  "Die Gärtnerstadt ist ein altes Viertel, in dem bis heute mitten in der Stadt Gemüse angebaut wird, zum Beispiel das Bamberger Hörnla, eine kleine Kartoffel, und Süßholz. Das stimmt auch: D-Mark-Scheine kann man bei der Deutschen Bundesbank bis heute unbegrenzt und kostenlos in Euro umtauschen.",
+  "Was erfunden ist: Die Brauerei „Zum Schwarzen Kater“ und ihr Felsenkeller, Fass sieben, das Bamberger Volksblatt, die Kasse von 1972, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei und Bank sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+ ],
+ "schluss": [
+  "Betty und Ömer kommen wieder.",
+  "**Band 18: Lagerräumung**",
+  "Eine Burgruine im Pfälzerwald, hoch über den Bäumen. Im Burghof ein Brunnen, sechzig Meter tief, mit einem Gitter darüber. Seit 1983 hängt da unten ein Eimer an einer Kette. Keiner hat ihn je hochgezogen. Und eines Morgens steht er oben am Rand. Voll. Und es ist kein Wasser drin.",
+  "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+ ],
+ "figurenprompt": {
+  "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+  "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+  "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+ },
+ "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+ "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+ "bildhinweise": [
+  "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+  "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+  "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+  "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+  "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+ ],
+ "bilder": {
+  "1": {
+   "titel": "Nicht anzapfen",
+   "figuren": [
+    "Betty",
+    "Oemer"
+   ],
+   "beschreibung": "Ein langer Felsenkeller im Sandstein, nur von Lampen beleuchtet. Ganz hinten in einem runden Raum liegt ein großes altes Eichenfass auf einem Holzgestell. Auf dem Deckel steht mit alter Kreide etwas geschrieben. Unten läuft eine Pfütze über den Boden. Betty leuchtet mit einer Taschenlampe, Ömer kniet davor.",
+   "prompt": "A long cellar tunnel cut into yellow sandstone, lit by a few old caged lamps; at the very end a small round vaulted chamber like a chapel. On a wooden cradle lies a huge old dark oak barrel with iron hoops; on its front head old faded chalk writing (unreadable scribbles). A shallow puddle of rusty water spreads across the sandy floor from a small hole near the bottom. The woman with the clipboard shines a torch on the barrel, the young man kneels in the puddle looking at the hole. Cool, quiet, mysterious."
+  },
+  "2": {
+   "titel": "Fass sieben",
+   "figuren": [
+    "Oemer"
+   ],
+   "beschreibung": "Ömer untersucht das Fass mit einer Lupe. Neben ihm liegen helle Holzspäne, auf einem Tuch ein kleiner Bohrer. Er zeigt auf ein frisches rundes Loch.",
+   "prompt": "Close-up in a sandstone cellar: the young man with the beard crouches beside the bottom of an old oak barrel, holding a magnifying glass to a small fresh round drill hole; pale fresh oak shavings lie on the damp floor, a torch lies beside him, and he has a small notebook open on his knee. Curious, focused, a little humorous."
+  },
+  "3": {
+   "titel": "Die Postkarte",
+   "figuren": [
+    "Betty"
+   ],
+   "beschreibung": "Ein Gemüsegarten mitten in der Stadt, Beete mit kleinen Kartoffeln und Kräutern, dahinter Dächer und ein Kirchturm. Eine alte Frau mit Kopftuch und Gartenschürze hält eine alte Postkarte. Betty liest mit.",
+   "prompt": "An urban market garden in the middle of an old Franconian town: neat beds of small potatoes, herbs and lettuce, a wooden shed, red roofs and a church tower behind. An old woman of 74 with a headscarf and a garden apron holds a faded old picture postcard of mountains in her earth-stained hands; the woman with the clipboard reads over her shoulder through her reading glasses. Warm afternoon light, tender."
+  },
+  "4": {
+   "titel": "Der Küfer",
+   "figuren": [
+    "Betty",
+    "Oemer"
+   ],
+   "beschreibung": "Im Felsenkeller hat ein alter Küfer mit Lederschürze den Deckel des Fasses abgenommen. Eine Polizistin mit roter Brille hebt eine alte Blechkassette heraus. Betty und Ömer stehen dahinter, eine jüngere Frau in Zivil am Eingang.",
+   "prompt": "In the sandstone cellar chapel: a small bent old cooper of 78 in a leather apron with antique tools has removed the head of the big oak barrel and leans it against the wall, the chalk writing visible. A short round woman detective of 50 with a blonde crop and red-rimmed glasses, wearing blue gloves, lifts out an old battered tin cash box. Behind her the woman with the clipboard and the young man watch; a younger woman in plain clothes stands with crossed arms in the doorway. Lamplight, tense and quiet."
+  },
+  "5": {
+   "titel": "Gleis drei",
+   "figuren": [
+    "Betty",
+    "Oemer"
+   ],
+   "beschreibung": "Ein kleiner Bahnhof, ein Zug ist eingefahren. Ein alter Mann mit Hut und Koffer steigt aus. Am Bahnsteig wartet eine alte Frau mit einem Blumenstrauß aus dem Garten. Betty und Ömer halten Abstand.",
+   "prompt": "A small German railway station platform marked with a plain sign without text, a regional train has just arrived. A tall old man of 75 with a hat, a mountain walking jacket and an old suitcase steps down, hesitating. On the platform an old woman of 74 holds a small bunch of garden flowers and herbs; they look at each other. A little further back the woman with the clipboard and the young man keep a respectful distance. Evening light, emotional."
+  },
+  "6": {
+   "titel": "Der lange Tisch",
+   "figuren": [
+    "Betty",
+    "Oemer"
+   ],
+   "beschreibung": "Ein langer Holztisch im Felsenkeller, mit Kerzen und Bierkrügen. Viele Menschen sitzen daran. Ein sehr alter Mann am Stock legt seine Hand auf den alten Fassdeckel mit der Kreideschrift. Ihm gegenüber sitzt der Mann mit dem Hut.",
+   "prompt": "A long wooden table in a candle-lit sandstone cellar, set with stoneware beer mugs, bread and bowls. A family and guests sit around it: a very old man of 83 with a walking stick lays his left hand on the old oak barrel head with faded chalk writing that lies on the table; opposite him sits the tall old man with the hat in his hands; the old gardener woman beside him; a broad brewer of 54, a young policewoman in plain clothes, an old cooper, the woman with the clipboard and the young man. Everyone is silent and looks at the old man. Warm, solemn, cosy."
+  }
+ },
+ "kdp": [
+  [
+   "Buchtitel",
+   [
+    "Sonderposten"
+   ]
+  ],
+  [
+   "Untertitel",
+   [
+    "Ein Krimi zum Mitraten"
+   ]
+  ],
+  [
+   "Reihe",
+   [
+    "Alles muss raus, Band 17"
+   ]
+  ],
+  [
+   "Autorin",
+   [
+    "Jette van Hoven"
+   ]
+  ],
+  [
+   "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+   [
+    "**Alles muss raus. Auch ein Fass, das seit 1972 keiner anfassen darf.**",
+    "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+    "Diesmal geht es nach Bamberg, in eine kleine Familienbrauerei mit einem Felsenkeller tief im Berg. Der alte Brauer Alois ist gestorben. Ganz hinten im Keller liegt Fass sieben. Seit 1972 steht mit Kreide darauf: Nicht anzapfen. Damals verschwand die Kasse der Sandkerwa, und der junge Braugeselle Toni floh nach Südtirol. Alle wissen, dass er der Dieb war. Und jetzt hat einer nachts ein Loch in das Fass gebohrt. Und was herausläuft, ist kein Bier.",
+    "Ein Kassenbuch mit Initialen. Eine Postkarte aus Brixen. Ein Brief mit Durchschlag. Und ein Testament: Der Sonderposten im hinteren Keller gehört Toni Haas.",
+    "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Akten, Briefe und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+   ]
+  ],
+  [
+   "Keywords (7 Felder bei KDP, je eins pro Feld)",
+   [
+    "Krimi zum Mitraten",
+    "Cosy Krimi deutsch humorvoll",
+    "Bamberg Krimi",
+    "Franken Krimi",
+    "Wohlfühlkrimi Reihe",
+    "Rätselkrimi Erwachsene",
+    "Krimi Geschenk für Frauen"
+   ]
+  ],
+  [
+   "Kategorien (bei KDP auswählen)",
+   [
+    "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+    "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+    "Zusätzlich passend: Regionalkrimis (Bayern / Franken)"
+   ]
+  ],
+  [
+   "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+   [
+    "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+   ]
+  ],
+  [
+   "Preisvorschlag",
+   [
+    "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+    "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+    "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+   ]
+  ],
+  [
+   "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+   [
+    "Book cover illustration, portrait format 2:3, no text, no letters. The view down a long sandstone cellar tunnel lit by old caged lamps; at its end, in a small round vaulted chamber, a huge old oak barrel with iron hoops and faded chalk scribbles on its head, a thin stream of water running from a small hole across the sandy floor towards the viewer. A black cat sits on a stoneware beer mug on a barrel nearby. Above the cellar entrance in the foreground, a beer garden under chestnut trees and the towers of an old Franconian town at dusk; the old orange removal truck with a small cuckoo clock on its dashboard is parked by the gate; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard peer into the cellar. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+    "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+   ]
+  ],
+  [
+   "Hochladen bei KDP – kurz",
+   [
+    "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+    "2. Datei › Speichern unter › PDF.",
+    "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+    "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+    "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+   ]
+  ]
+ ]
+}

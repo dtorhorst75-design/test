@@ -32,7 +32,8 @@
 14. Zimmer frei – Pension zur Möwe, Lindau (Bodensee), Seeschwalbe 1970 – fertig. Neu auf dem Armaturenbrett: kleiner Rettungsring aus Kork (von Hr. Kolb). KHKin Lisa Allgaier (Lindau, Brezel) kennt Kliemt. Fini Brugger führt ab Mai die Pension.
 15. Unter den Hammer – Mühle Hoffnung, Groot-Siel (Rheiderland, Ostfriesland), Zwangsversteigerung Amtsgericht Leer – fertig. Neu auf dem Armaturenbrett: Mehlsäckchen aus Leinen (Talea). KHKin Wiebke Saathoff (Leer, Fahrrad, Rosinenstuten) kennt Allgaier. Betty: „Paragraf dreißig, bitte.“
 16. Restbestand – Lehde (Spreewald), Kahn „Lehder Liese“, Stasi 1989, IM „Rudel“ – fertig. Neu auf dem Armaturenbrett: winziges Einweckglas mit geschnitzter Gurke (Gerhard). PHK Mirko Hantsch (Lübbenau, Kahn, Brötchen) kennt Saathoff.
-17. Sonderposten – kleine Brauerei in der Bamberger Altstadt mit Felsenkeller, Eichenfass „Nicht anzapfen“ seit 1972, läuft aus, kein Bier. Anruferin: Nichte des Brauers, Nummer von Lisa Allgaier (Polizeischule). – geplant
+17. Sonderposten – Brauerei Pfister „Zum Schwarzen Kater“, Bamberg (Sandstraße), Felsenkeller, Fass 7 „Nicht anzapfen! A. P. 1972“, Kerwa-Kasse 1972 – fertig. Neu auf dem Armaturenbrett: Bierdeckel mit schwarzem Kater. KHKin Babette Schmitt (Bamberg, Fahrrad, Brezen) kennt Allgaier. Küfer Hans Mösl gibt die Nummer weiter.
+18. Lagerräumung – Burgruine im Pfälzerwald, Brunnen 60 m, Eimer an der Kette seit 1983, kommt voll hoch, kein Wasser. Nummer vom Küfer Hans Mösl. – geplant
 
 ## Autorin
 
