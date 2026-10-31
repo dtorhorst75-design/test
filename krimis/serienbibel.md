@@ -61,4 +61,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 8. Unter dem Kettenkarussell (Kalkar, Niederrhein) – fertig
 9. Die Treppe im See (Edersee, Nordhessen) – fertig
 10. Spind siebzehn (Prora, Rügen) – fertig. Benny hat erzählt, warum er aufgehört hat (Junge, 9, Balkon). Achim bügelt jetzt Taschentücher. Herr Becker: Blüte vertrocknet, neue Knospe unten am Stamm.
-11. Niederfinow (Brandenburg) – Schiffshebewerk. Marlies Krüger, Witwe eines Maschinisten. Wunsch: Der Lastkahn „Wilhelmine“ (1962), seit 63 Jahren im Kanal versenkt, soll noch einmal durchs Hebewerk fahren. – geplant
+11. Die Wilhelmine (Niederfinow, Brandenburg) – fertig. Herr Becker blüht zum zweiten Mal. Achim schenkt Jo ein gebügeltes Taschentuch.
+12. Goslar (Harz) – Rammelsberg. Anke Wedekind, Tochter eines Bergmanns († Nov. 2026). Am alten Markenbrett fehlt seit der letzten Schicht am 30.6.1988 die Marke Nr. 117. Wunsch: Sie soll wieder hängen. – geplant

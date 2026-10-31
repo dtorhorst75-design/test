@@ -1,0 +1,154 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 11",
+  "titel": "Die Wilhelmine",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-11-Niederfinow",
+  "ort": "Niederfinow",
+  "besuchen": [
+    "Niederfinow liegt in Brandenburg, nordöstlich von Berlin, am Rand des Oderbruchs. Das alte Schiffshebewerk wurde 1927 bis 1934 gebaut und ist das älteste noch arbeitende Schiffshebewerk Deutschlands. Ein Trog voller Wasser hebt die Schiffe etwa 36 Meter vom Oder-Havel-Kanal hinunter ins Tal oder hinauf. Daneben steht seit 2022 ein neues, größeres Hebewerk.",
+    "Man kann die Hebewerke von einer Aussichtsplattform und vom Besucherbereich aus beobachten und im Sommer mit Ausflugsschiffen hindurchfahren. Im Besucherzentrum wird erklärt, wie die Technik mit Seilen und Gegengewichten funktioniert.",
+    "In Oderberg, wenige Kilometer entfernt, gibt es ein Binnenschifffahrtsmuseum mit alten Schiffen. Der Finowkanal in der Nähe gilt als die älteste noch schiffbare künstliche Wasserstraße Deutschlands. Im Herbst rasten in Brandenburg Zehntausende Kraniche, bevor sie in den Süden ziehen.",
+    "Bitte geh nicht auf Schleusen- und Hafenanlagen, die nicht für Besucher freigegeben sind, und nicht auf alte Wracks. Das ist gefährlich.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, der Kahn Wilhelmine und der alte Hafen, wie er hier beschrieben ist, die Reederei Kanter, der Verein Finowkanal, das Maschinenhaus mit seinem Pult und das Verbrechen. Abläufe bei Polizei, THW, Wasserstraßenamt und Hebewerk sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "HANS": [
+      "Hans Krüger (Brief)",
+      "Sprecher 2 (alt, brandenburgisch, zittrig)"
+    ],
+    "MINNA": [
+      "Minna Lindner (Brief)",
+      "Sprecherin 1 (jung, fröhlich)"
+    ],
+    "MARLIES": [
+      "Marlies Krüger, Witwe",
+      "Sprecherin 1 (alt, warm, brandenburgisch)"
+    ],
+    "HERTHA": [
+      "Hertha Lindner, Minnas Schwester",
+      "Sprecherin 1 (alt, hart)"
+    ],
+    "PRILL": [
+      "Gotthard Prill, Verein",
+      "Sprecher 2 (fröhlich, Bart)"
+    ],
+    "OLE": [
+      "Ole, THW-Taucher",
+      "Sprecher 3 (kurz, über Funk)"
+    ],
+    "JENS": [
+      "Jens Kanter, Reeder",
+      "Sprecher 3"
+    ],
+    "RUDI": [
+      "Rudi Kanter, alter Schiffer",
+      "Sprecher 2 (sehr alt, dünn)"
+    ],
+    "LUEDTKE": [
+      "Kommissarin Petra Lüdtke",
+      "Sprecherin 1 (ruhig)"
+    ],
+    "BEHM": [
+      "Lothar Behm, Schleusenmeister",
+      "Sprecher 3 (trocken)"
+    ],
+    "GOSLAR": [
+      "Anke Wedekind (Telefon)",
+      "Sprecherin 1 (Harz, ruhig)"
+    ]
+  },
+  "aussprache": [
+    "Niederfinow – nie-der-FIE-no",
+    "Oderberg – OH-der-berg",
+    "Liepe – LIE-pe",
+    "Eberswalde – EH-bers-wal-de",
+    "Bernau – BER-nau",
+    "Hohensaaten – ho-en-SAH-ten",
+    "Finowmaßkahn – FIE-no-maß-kahn",
+    "Brustleier – BRUST-lei-er",
+    "Szczecin – SCHTSCHE-tsin (Stettin)",
+    "Lüdtke – LÜT-ke",
+    "Goslar – GOS-lar",
+    "Rammelsberg – RAM-mels-berg"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Sechsunddreißig Meter",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Ein riesiges altes Stahlgerüst am Hang über einem flachen, nebligen Tal, darin ein Trog voller Wasser mit einem Frachter, der langsam nach unten fährt. Daneben ein neues, größeres Hebewerk aus hellem Beton. Auf der Straße hält Hermine. Kraniche über den Feldern.",
+      "prompt": "A gigantic old riveted steel structure like an enormous iron shelf stands at the edge of a long steep slope above a wide flat misty valley in Brandenburg in November: the old ship lift of Niederfinow, sixty metres high with struts, crosses and external stairs, an aqueduct canal leading into it from the hillside, and inside it hangs a huge steel trough full of water carrying a long red cargo ship, slowly descending on thick cables over great wheels. Beside it stands a newer, larger ship lift of pale concrete and glass. On the road down the slope Hermine has stopped; the woman with red glasses, the old man in the felt hat and the young man in the hoodie stare in wonder, a dachshund in the back window; a car with Polish number plates has stopped behind, its driver taking a photo. Cranes fly over the fields. Grand and melancholic."
+    },
+    "2": {
+      "titel": "Marlies",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine kleine Klinkerhausküche, deren Fenster ganz vom Hebewerk ausgefüllt ist. Eine kleine runde alte Frau mit Bommelmütze sitzt am Tisch mit Streuselkuchen, vor ihr ein alter Zigarrenkasten voller kleiner brauner Taschenkalender. An der Wand eine Dienstmütze mit Anker und Zahnrad und ein großer Eisenschlüssel.",
+      "prompt": "A small cosy kitchen in a yellow brick house whose window is completely filled by a huge old steel ship lift outside. At the table sits a small round old woman of 84 with a face like a winter apple and white curls under a knitted bobble hat, red chapped nurse's hands folded. Before her a tray of crumble cake, a teapot, and an old wooden cigar box with a lady with a fan on its lid, filled with forty-two small brown leatherette pocket diaries; one lies open on its own on the table. On the wall hang a dark blue peaked cap with an anchor and cogwheel badge and a large old iron key. The old man in the felt hat, the woman with red glasses and the young man sit with her. Warm, quiet, moving."
+    },
+    "3": {
+      "titel": "Der alte Hafen",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein stilles graues Hafenbecken im Nebel unterhalb des Hebewerks. Ein alter Steinkai mit Eisenpollern. Fünfzehn Meter vom Ufer ragt schräg ein kurzer schwarzer Mast aus dem Wasser, darunter der Schatten eines langen Kahns mit einem Häuschen am Heck. Konrad mit dem Hut in der Hand und ein Mann mit großem weißem Bart in gelber Öljacke.",
+      "prompt": "A still grey harbour basin in morning mist at the foot of a huge old steel ship lift. An old stone quay with iron bollards and grass between the stones, a rusty crane, a faded sign. Fifteen metres from the shore a short, black, broken wooden mast rises crookedly out of the lead-grey water, and beneath the surface, just visible in the slanting pale light, the long dark shadow of a sunken wooden barge with a small cabin house at the stern and a dark square hole where a skylight was. At the quay edge the old man holds his felt hat; beside him a jolly man of 70 with a big round white captain's beard in a yellow oilskin with a thermos and binoculars; the woman with red glasses and the young man; a small dachshund trembling, looking at the water. Silent and haunting."
+    },
+    "4": {
+      "titel": "Die Bergung",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein klarer Novembertag: Aus aufgewühltem, schlammigem Wasser hebt sich an gelben Gurten ein langer schwarzer Holzkahn mit weißen verblassten Buchstaben Wilhelmine, Wasser strömt aus allen Ritzen. Daneben ein grauer Ponton mit Winden, Taucher im Wasser. Am Kai viele Menschen, zwei alte Frauen halten sich an der Hand.",
+      "prompt": "A clear cold blue November day at a small harbour below a giant old steel ship lift: from churning muddy grey water a long black wooden cargo barge from 1912 rises on six broad yellow lifting straps, water pouring out of every seam and from three small round holes in its bottom, green weed hanging from its planks, faded white letters on the hull reading a woman's name, a small cabin house at the stern with its door shut by an iron bolt. Beside it a flat grey steel pontoon with four winches, a man with a white beard reading a gauge, round divers in dry suits in the water. On the quay a crowd with thermoses and folding chairs, a TV cameraman, and in front two old women standing holding hands, the old man in the felt hat beside them. Cranes overhead. Moving and grand."
+    },
+    "5": {
+      "titel": "Oben",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Oben auf der Kanalbrücke am Ende des Hebewerks liegt die Schute mit dem schwarzen Kahn. Am Bug eine alte, gerade Frau mit Stock und Wolldecke, die zu einem alten Mann im Rollstuhl mit Kapitänsmütze hinaufsieht, der auf dem Steg steht, hinter ihm sein Sohn. Weit hinten das flache Tal und Hügel im Dunst.",
+      "prompt": "At the top of an old steel ship lift, on the aqueduct canal bridge high above a wide flat valley: a flat steel barge carrying a black old wooden boat with a shabby cabin whose door stands open lies alongside a walkway. At the bow of the barge stands a small, very upright old woman of 82 with a walking stick and a wool blanket round her shoulders, looking up one metre at a very old, stooped, once very tall man of 88 in a wheelchair with a captain's cap and a blanket on his knees, his son, a big bald man in a fleece jacket, gripping the handles and weeping silently. Beside the old woman another old woman in a bobble hat, the old man holding his felt hat, the woman with red glasses, the young man with a dachshund. Far behind, the flat valley, a silver river in loops and blue hills in the haze. Cranes in the sky. Quiet, tense, deeply moving."
+    },
+    "6": {
+      "titel": "Hans",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein kleiner Dorffriedhof am Hang mit Blick auf das Hebewerk. Am offenen Urnengrab kniet Konrad. Eine alte Frau mit Stock legt einen kleinen braunen Kalender mit rotem Gummiband hinein, eine andere mit Bommelmütze wirft einen roten Apfel. Unten im Tal fährt ein weißes Ausflugsschiff im Trog nach oben, mit einem weißen Tuch am Geländer.",
+      "prompt": "A small village cemetery on a hillside behind a fieldstone church, at the edge of a forest, with a view down over the whole valley to a giant old steel ship lift. At a small open urn grave the old man in a grey three-piece suit kneels on the cold earth placing an urn. A small upright old woman with a walking stick bends to lay a small brown pocket diary bound with a red rubber band beside the urn; another old woman in a black coat and an ugly hand-knitted bobble hat drops a red apple into the grave. Around them: the woman with red glasses beside a man in a dark suit, the young man with a dachshund, round men in blue relief-service uniforms, a man with a white captain's beard, a choir in dark coats, elderly people with a wreath. Far below, in the trough of the lift, a white excursion boat rises slowly with a white banner tied to its railing. Frosty clear light, peaceful and full of warmth."
+    }
+  }
+}
