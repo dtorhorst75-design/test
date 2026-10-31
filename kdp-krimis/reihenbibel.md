@@ -25,7 +25,8 @@
 ## Staffel 2
 8. Räumungsverkauf – Zechensiedlung Gelsenkirchen-Buer, Brieftauben
 9. Leerstand – Leuchtturm auf Hallig Süderwisch (fiktiv), Nordsee, Wärter 1979 – fertig
-10. Inventur – Puppenmanufaktur in Sonneberg, Thüringen. 300 Puppen, eine klappert, „die darf nie jemand aufmachen“. Anruferin: Nichte der toten Inhaberin, Nummer von Tobias (Band 6). – geplant
+10. Inventur – Puppenmanufaktur Hellmuth, Sonneberg (Thüringen) – fertig
+11. Nachlass – Weinkeller an der Mosel (Bernkastel), 300 Jahre alt. Hinter einer Wand eine Flasche Jahrgang 1945 von einem Weingut, das 1944 abgebrannt ist. Anruferin: Enkelin des Winzers († 95), Nummer von Merle Hansen. Glasauge von Erwin Greiner jetzt auf dem Armaturenbrett. – geplant
 
 ## Autorin
 

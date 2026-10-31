@@ -1,0 +1,231 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Inventur",
+  "band": "Band 10",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-10-Inventur",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer in der Puppenmanufaktur finden: Ömers Schlossbuch, Bettys Inventarlisten, ein Testament, ein hundertzwanzig Jahre altes Inventurbuch, einen Brief aus dem Krankenhaus, eine Seite aus dem Internet und einen Brief aus einer Blechdose. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Daten, auf Linien, auf Staub und auf eine Tapete, die es nirgends mehr gibt.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Findet, dass Puppen gucken."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991, mit einer Kuckucksuhr, die falsch ruft."
+    ],
+    [
+      "Edeltraud „Traudl“ Hellmuth",
+      "† mit 89, die letzte Puppenmacherin der Manufaktur Hellmuth in Sonneberg. Zuletzt fast blind."
+    ],
+    [
+      "Lotte",
+      "eine Puppe im blauen Samtkleid, von 1961. Sitzt ganz oben. Klappert."
+    ],
+    [
+      "Katrin Grieser",
+      "46, Traudls Nichte, Grundschullehrerin in Neustadt bei Coburg. Hat nie nachgezählt."
+    ],
+    [
+      "Petra Hofmann",
+      "63, Katrins Schwester, in Bamberg. War noch nie in der Werkstatt."
+    ],
+    [
+      "Ramona Fleischer",
+      "58, seit dreißig Jahren Gesellin in der Manufaktur. Hat ein Testament."
+    ],
+    [
+      "Holger Wunderlich",
+      "62, Antiquitätenhändler aus Coburg. Trägt Fliege und Handschuhe."
+    ],
+    [
+      "Erwin Greiner",
+      "84, Nachbar, früher Glasaugenmacher in Lauscha. Hat Augen wie eine Eule."
+    ],
+    [
+      "Mirko Bätz",
+      "Kriminalhauptkommissar in Sonneberg. Isst gern Bratwurst."
+    ]
+  ],
+  "nachwort_titel": "Sonneberg wirklich besuchen",
+  "nachwort": [
+    "Sonneberg liegt im Süden von Thüringen, direkt an der Grenze zu Bayern. Die Stadt nennt sich Spielzeugstadt: Um 1900 kam ein großer Teil aller Puppen und Spielsachen der Welt von hier. Im Deutschen Spielzeugmuseum kann man das heute sehen, mit Tausenden alten Puppen, Teddys, Spielsachen und großen Schaufiguren.",
+    "Von 1952 bis 1989 lag Sonneberg im Sperrgebiet an der innerdeutschen Grenze. Das bayerische Neustadt bei Coburg ist nur wenige Kilometer entfernt, war aber fast vierzig Jahre lang unerreichbar. Im November 1989 öffnete sich die Grenze auch hier. Heute erinnern Gedenkorte und Wanderwege am ehemaligen Grenzstreifen daran, dem Grünen Band.",
+    "Im nahen Lauscha im Thüringer Wald wird seit Jahrhunderten Glas geblasen. Von hier kommen der gläserne Christbaumschmuck und die Glasaugen für Puppen, Teddybären und Menschen. In Lauscha gibt es ein Museum für Glaskunst und Werkstätten, in denen man zusehen kann.",
+    "Was erfunden ist: die Puppenmanufaktur Hellmuth und ihr Haus, die Puppe Lotte, die Internetseite PuppenMarkt, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei, Krankenhaus und Nachlassgericht sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 11: Nachlass**",
+    "Ein Weinkeller an der Mosel, dreihundert Jahre alt, tief im Berg. Hinter einer Wand liegt eine Flasche Jahrgang 1945. Von einem Weingut, das 1944 abgebrannt ist.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Dreihundert Augen",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine alte Puppenwerkstatt mit Regalen bis unter die Decke voller alter Puppen, die alle zur Tür sehen. Tapete mit kleinen roten Schaukelpferden. Eine Frau steht auf einer Leiter und hebt eine Puppe im hellblauen Samtkleid vom obersten Brett. Ömer lauscht.",
+      "prompt": "Inside an old doll workshop in a Thuringian half-timbered house: a long low room with creaking wooden floorboards, workbenches under the windows with brushes, paint pots and little bowls full of glass eyes in blue, brown and green. Faded wallpaper with rows of small red rocking horses. Shelves from floor to ceiling crowded with hundreds of antique dolls in velvet, lace and linen dresses, all of them looking towards the door. A friendly tired woman of 46 in a thick knitted jumper stands on a paint-splattered wooden ladder and lifts down from the very top shelf a large porcelain doll with blonde mohair curls and a pale blue velvet dress with a white collar, which alone looks towards the window. The woman with the clipboard waits below with open arms; the young man bends his ear close, listening. Cold, quiet, slightly eerie but warm and humorous."
+    },
+    "2": {
+      "titel": "Die Ständer",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Betty auf der Leiter mit Lesebrille vor einem Regalbrett: eine billige Plastikpuppe auf einem neuen eckigen Holzständer, darunter im Staub der runde Abdruck eines alten Ständers mit drei Punkten. Unten Ömer mit Notizbuch an der Werkbank vor einer Hintertür mit glänzendem neuem Schloss.",
+      "prompt": "Close view in an old doll workshop: the woman with the clipboard stands on a wooden ladder, reading glasses on, peering at a high shelf. On it sits a cheap modern plastic doll with shiny nylon hair and a synthetic dress on a new square pale pine stand, and just beside it, in the thick dust of the shelf, the clear round imprint of an older stand with three little dots from its feet. Next to it, old porcelain dolls on dark turned wooden stands. Below, the young man sits at a workbench among bowls of glass eyes, writing in a notebook; behind him a green felt curtain half open on a back door with a brand-new shiny brass lock cylinder. Curious, detective mood."
+    },
+    "3": {
+      "titel": "Der Glasaugenmacher",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein kleiner runder alter Mann mit Strickmütze und dicker Brille, hinter der seine Augen riesig wirken, sitzt an der Werkbank, eine graue Schürze mit Glassplittern, und hält ein blaues Glasauge gegen das Licht. Auf dem Ladentisch ein rotes Inventurbuch und ein Testament.",
+      "prompt": "In an old doll workshop a small round old man of 84 in a knitted cap with very thick glasses that make his eyes look huge like an owl's sits on a stool at a workbench, a grey canvas apron glittering with tiny glass splinters under his coat. He holds a single blue glass doll eye up against the window light, a fine ring visible around its iris; a bowl of glass eyes beside him. On the shop counter nearby lie an open red spiral notebook with a wobbly signature running diagonally over the line and a neat handwritten page with perfectly straight lines. The woman with the clipboard and the young man listen; a woman in a knitted jumper holds her hand over her mouth. Warm light, gentle humour."
+    },
+    "4": {
+      "titel": "Puppenmutti58",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Abends in der kalten Werkstatt: Ömer in drei Pullovern und Mütze zeigt auf dem Handy eine Puppe vor einer Tapete mit roten Schaukelpferden. Ein eleganter älterer Herr ohne Fliege öffnet auf der Werkbank einen flachen Karton mit zwei alten Porzellanpuppen in Seidenpapier.",
+      "prompt": "Evening in a cold old doll workshop lit by a single lamp: the young man wearing three jumpers and a woolly hat holds up his phone showing an online listing of an antique doll photographed in front of wallpaper with small red rocking horses, and points at the very same wallpaper on the wall behind him. At the workbench an elegant slim man of 62 with neatly combed silver hair, in a tweed jacket with leather elbow patches, his bow tie removed, opens a flat cardboard box: inside, wrapped in tissue paper, two antique porcelain character dolls, one laughing with two tiny teeth in a pink dress, one with a dark page-boy haircut in a sailor suit. The woman with the clipboard writes a receipt; a woman in a knitted jumper watches. Hundreds of dolls watch from the shelves."
+    },
+    "5": {
+      "titel": "Abholung",
+      "figuren": [
+        "Betty",
+        "Kuckuck"
+      ],
+      "beschreibung": "Vor dem kleinen Bahnhof von Sonneberg im Winter: Auf einer Bank sitzen zwei Frauen nebeneinander, dazwischen ein brauner Karton. Die eine mit kurzen rot gefärbten Haaren und langem dunklem Mantel, die Hände im Schoß. Die andere ist Betty mit Klemmbrett. Im Hintergrund hinter einem Bus der orangefarbene Lastwagen, an der Ecke ein Mann mit Bratwurst.",
+      "prompt": "In front of a small provincial German railway station on a cold grey February afternoon: on a bench by the main entrance sit two women side by side with a flat brown cardboard box sealed with tape between them. One is a sturdy tired woman of 58 with short dyed red hair in a long dark coat and scarf, hands folded in her lap, looking across the square. The other is the woman with the clipboard, sitting calmly. A young plainclothes policewoman in a woolly hat stands nearby holding a large envelope. Across the square, half hidden behind a bus, the old orange removal truck with the young man in the cab; at the corner a bald bearded man in a brown leather jacket has lowered his bratwurst. Travellers with suitcases pass without looking. Quiet, sad, humane."
+    },
+    "6": {
+      "titel": "Lotte",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In der Werkstatt: Eine große, strenge Frau mit grauen Haaren hat ihren dunkelblauen Mantel aufgeknöpft und wiegt die Puppe im hellblauen Samtkleid im Arm. Daneben ihre Schwester. Auf der Werkbank ein altes Foto von zwei jungen Frauen. Betty und Ömer schauen durch die Tür aus dem Laden.",
+      "prompt": "In an old doll workshop full of shelves of antique dolls, a tall slim stern woman of 63 with short grey hair has unbuttoned her dark blue coat and holds in her arms, rocking it gently like a baby, a large porcelain doll with blonde curls and a pale blue velvet dress with white collar, its blue glass eyes looking towards the window. Beside her stands her younger sister in a knitted jumper with tears in her eyes. On the workbench a small yellow note and an old deckle-edged photo of two young women on a bench in front of a shop window, one holding a doll, the other heavily pregnant. In the doorway to the shop, quietly watching, the woman with the clipboard and the young man. Soft winter light, deeply moving."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Inventur"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 10"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch dreihundert Puppen, die alle zur Tür gucken.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es nach Sonneberg in Thüringen, in die Spielzeugstadt. Die letzte Puppenmacherin der Manufaktur Hellmuth ist gestorben. In der Werkstatt sitzen dreihundert Puppen bis unter die Decke. Eine davon, ganz oben, im blauen Samtkleid, klappert. Und niemand darf sie aufmachen. Dann taucht ein Testament auf. Handgeschrieben. Mit sehr geraden Zeilen.",
+        "Ein Inventurbuch, das seit hundertzwanzig Jahren nicht lügt. Ein Brief aus dem Krankenhaus. Ein Staubrand mit drei Punkten. Eine Tapete, die es nirgends mehr gibt. Und eine Puppe, die seit 1961 aus dem Fenster nach Westen schaut.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Thüringen Krimi",
+        "Puppen Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Thüringen / Franken)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. The shop window of an old half-timbered doll workshop in a steep cobbled lane at blue winter dusk, warm light inside: shelves up to the ceiling full of antique dolls all looking out at the viewer, and at the very top, alone, a porcelain doll with blonde curls in a pale blue velvet dress looking sideways towards a distant window. In the lane the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard peer through the window. Snowflakes. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}
