@@ -60,4 +60,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 7. Der Bunker unter dem Zeppelin (Wünsdorf, Brandenburg)
 8. Unter dem Kettenkarussell (Kalkar, Niederrhein) – fertig
 9. Die Treppe im See (Edersee, Nordhessen) – fertig
-10. Prora (Rügen) – Matthias Lenz aus Binz. Sein Vater war 1985 Bausoldat in Prora, ist gestorben und hinterlässt einen alten Schlüssel „Block fünf, Zimmer 2817“ und einen Zettel: „Da wartet noch einer.“ – geplant
+10. Spind siebzehn (Prora, Rügen) – fertig. Benny hat erzählt, warum er aufgehört hat (Junge, 9, Balkon). Achim bügelt jetzt Taschentücher. Herr Becker: Blüte vertrocknet, neue Knospe unten am Stamm.
+11. Niederfinow (Brandenburg) – Schiffshebewerk. Marlies Krüger, Witwe eines Maschinisten. Wunsch: Der Lastkahn „Wilhelmine“ (1962), seit 63 Jahren im Kanal versenkt, soll noch einmal durchs Hebewerk fahren. – geplant

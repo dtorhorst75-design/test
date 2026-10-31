@@ -1,0 +1,167 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 10",
+  "titel": "Spind siebzehn",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-10-Prora",
+  "ort": "Prora",
+  "besuchen": [
+    "Prora liegt an der Ostküste von Rügen, zwischen Binz und Sassnitz, an einem langen weißen Sandstrand. Das riesige Gebäude wurde ab 1936 als „Seebad der Zwanzigtausend“ gebaut, aber nie als Ferienanlage fertiggestellt. Es ist rund viereinhalb Kilometer lang und besteht aus acht Blöcken. Nach dem Krieg nutzten es die sowjetische Armee und dann die Nationale Volksarmee der DDR.",
+    "Von 1982 bis 1989 waren in Prora auch Bausoldaten untergebracht. Das waren junge Männer, die den Dienst an der Waffe verweigerten und stattdessen mit einem Spaten auf der Schulterklappe Bauarbeiten machen mussten, unter anderem beim Bau des Fährhafens Mukran. Viele hatten danach große Nachteile im Beruf und im Studium.",
+    "Heute sind Teile von Prora saniert. Es gibt Wohnungen, Hotels und in Block V die größte Jugendherberge Deutschlands. Ausstellungen und Gedenkorte informieren über die Geschichte des Gebäudes, auch über die Bausoldaten. Unsanierte Bereiche sind gefährlich und dürfen nicht betreten werden.",
+    "Binz mit seiner Seebrücke und den weißen Villen der Bäderarchitektur ist zu Fuß oder mit dem Rad am Strand entlang gut zu erreichen. Auch Dresden-Loschwitz mit der blauen Brücke über die Elbe, dem „Blauen Wunder“, und der kleinen Barockkirche ist eine Reise wert.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, der Verein Spaten e. V. und seine Ausstellung im Südflügel, Stube 28 und Spind 17, das Heft, die Baustellentagebücher, die Ostsee-Residenz, die Vorgänge in der Kompanie und das Verbrechen. Abläufe bei Polizei, Staatsanwaltschaft und Akteneinsicht sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "GERD": [
+      "Gerd Lenz (Brief)",
+      "Sprecher 2 (leise, norddeutsch)"
+    ],
+    "THOMAS": [
+      "Thomas Wendt (Heft)",
+      "Sprecher 3 (jung, sächsisch leicht)"
+    ],
+    "MATTHIAS": [
+      "Matthias Lenz, Rettungsschwimmer",
+      "Sprecher 3 (norddeutsch)"
+    ],
+    "UWE": [
+      "Uwe Brettschneider, Verein",
+      "Sprecher 2 (laut, rau)"
+    ],
+    "RABE": [
+      "Klaus Rabe, Gemeindevertreter",
+      "Sprecher 2 (jovial, schwer)"
+    ],
+    "KALLWEIT": [
+      "Dr. Kallweit, Investor",
+      "Sprecher 3"
+    ],
+    "LEIPZIGERIN": [
+      "Frau aus Leipzig",
+      "Sprecherin 1 (sächsisch)"
+    ],
+    "KIND": [
+      "Mädchen mit Zöpfen",
+      "Sprecherin 1 (Kinderstimme)"
+    ],
+    "RUTH": [
+      "Ruth Wendt, Mutter",
+      "Sprecherin 1 (alt, klar, sächsisch leicht)"
+    ],
+    "HEIKO": [
+      "Heiko Thom, Lehrer",
+      "Sprecher 3"
+    ],
+    "BRIGITTE": [
+      "Brigitte Sander, Pastorin",
+      "Sprecherin 1 (warm)"
+    ],
+    "OHM": [
+      "Kommissarin Silke Ohm",
+      "Sprecherin 1 (norddeutsch, müde)"
+    ],
+    "MALTE": [
+      "Malte, Polizist",
+      "Sprecher 3 (jung)"
+    ],
+    "NIEDERFINOW": [
+      "Marlies Krüger (Telefon)",
+      "Sprecherin 1 (alt, brandenburgisch)"
+    ]
+  },
+  "aussprache": [
+    "Prora – PRO-ra",
+    "Rügen – RÜ-gen",
+    "Binz – BINTS",
+    "Mukran – MUK-ran",
+    "Sassnitz – SASS-nitz",
+    "Bergen – BER-gen",
+    "Stralsund – SCHTRAL-sunt",
+    "Kap Arkona – kap ar-KO-na",
+    "Loschwitz – LOSCH-witz",
+    "Bad Saarow – bat SAH-ro",
+    "Livores – li-WO-res",
+    "W50 – weh fünfzig",
+    "Niederfinow – nie-der-FIE-no"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Der Koloss",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Ein endloser grauweißer Betonriegel, sechs Stockwerke hoch, mit Tausenden gleichen Fenstern, läuft durch einen lichten Kiefernwald bis zum Horizont. Ein Teil ist frisch gestrichen mit Glasbalkonen, ein Teil grau und verfallen. Davor auf einem Parkplatz Hermine.",
+      "prompt": "A colossal endless grey-white concrete building six storeys high with thousands of identical windows in perfect rows runs from left to right through a light pine forest on the Baltic coast and simply never ends, fading into haze on the horizon. Part of it is freshly painted with modern glass balconies and palm trees in tubs; another part is grey and derelict, with dark empty window holes and small birch trees growing from the gutters, a construction fence in front. Behind it you sense the sea. On a car park at the forest edge stands Hermine; the woman with red glasses, the old man in the felt hat and the young man in the hoodie look up in silence, a small dachshund sniffing the sea air. Grey October sky, overwhelming and melancholic."
+    },
+    "2": {
+      "titel": "Stube 28",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein schmales Zimmer in der Ruine, fünf mal zweieinhalb Meter, Fenster ohne Glas zum Meer, Doppelstockbetten aus Metall ohne Matratzen, sechs graue Blechspinde. Fünf stehen offen, einer ist zu. Ein großer dünner Mann mit grauem Zopf legt die Hand auf die verschlossene Tür. Benny hält einen kleinen Schlüssel mit gelbem Anhänger hoch.",
+      "prompt": "A narrow room in a derelict former army barracks, five by two and a half metres, a window without glass at the end through which the grey Baltic Sea is visible, two pairs of bare metal bunk beds without mattresses, and against the wall six tall narrow grey sheet-metal lockers numbered 13 to 18; five stand open and empty with bent doors, number 17 is shut. A very tall thin man of 61 with a long grey ponytail and beard in an old leather jacket rests his hand on the closed locker door. The young man holds up a small grey key with a yellow plastic tag. The old man in the felt hat, the woman with red glasses, a young man in a red lifeguard jacket and an elderly couple with binoculars watch from the door. Cold light, peeling walls, deeply moving."
+    },
+    "3": {
+      "titel": "Der doppelte Boden",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Benny kniet vor dem aufgebrochenen Spind 17 und hebt ein grau gestrichenes Brett heraus. Darunter in einem flachen Hohlraum ein Päckchen in blau-weiß kariertem Wachstuch, mit Schnur. Daneben eine alte Feldmütze und ein Mäusenest. Ein gelbes Maßband liegt auf dem Boden.",
+      "prompt": "Close view: the young man with dark curls kneels in front of a tall grey army locker whose door has been forced open with a crowbar, the paint freshly chipped around the lock. With a pocket knife he lifts out a thin grey-painted wooden board from the bottom, revealing a shallow hidden space beneath, in which lies a small parcel wrapped in blue-and-white checked oilcloth tied with string. Beside him on the floor: an old faded grey army field cap, an old empty mouse nest of paper scraps, and a yellow tape measure. Behind him the old man in the felt hat, the woman with red glasses, a tall man with a grey ponytail, a small round woman pastor with a camera and a young man in a red lifeguard jacket hold their breath. Dusty light from a window without glass."
+    },
+    "4": {
+      "titel": "Ruth",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Am Ende einer langen hölzernen Seebrücke im Oktober: Eine kleine, aufrechte alte Dame mit weißen Haaren, randloser Brille und grauem Mantel hält ein Päckchen in kariertem Wachstuch und legt die Hand darauf. Neben ihr ein junger Mann in roter Rettungsschwimmerjacke. In der Ferne der lange graue Riegel von Prora.",
+      "prompt": "At the far end of a long wooden pier stretching out into a calm pale green Baltic Sea in October: a small, slim, very upright old lady of 87 with short white hair, rimless glasses and a light grey coat buttoned to the neck holds a parcel in blue-and-white checked oilcloth and lays her hand flat on an old blue school exercise book with a short chewed pencil under a rubber band. A small brown leather travel bag stands at her feet. Beside her a tall broad young man of 34 with sun-bleached hair in a red lifeguard jacket with a white cross; a few steps behind the old man holding his felt hat, the woman with red glasses and the young man with a dachshund. Gulls, a lone angler at the end. Far away along the white beach, in the haze, the long grey line of the colossal building. Quiet and moving."
+    },
+    "5": {
+      "titel": "Mitternacht",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Sturmnacht auf dem flachen, endlosen Dach des Gebäudes. Ein schwerer Mann im nassen Anzug steht auf der niedrigen Brüstung über dem Innenhof. Drei Meter vor ihm Konrad ohne Hut, die Hand ausgestreckt. Der Hut fliegt im Wind davon. In der Tür zum Treppenhaus Jo, Benny und eine Kommissarin im Licht einer Lampe.",
+      "prompt": "A violent storm night on the vast flat roof of an endless concrete building on the Baltic coast: tar paper, puddles, gravel, small birch trees growing from cracks, brick ventilation shafts like little houses. Horizontal rain lit by a lamp from an open metal stairwell door. On the low concrete parapet above a dark inner courtyard six storeys deep stands a heavy man of 67 in a soaking dark suit without coat, jacket flapping, a bunch of keys with a small brass spade in his hand. Three metres before him the old man with wet white hair, his felt hat being torn away by the wind into the darkness, stretches out his thin hand towards him. In the stairwell door the woman with red glasses, the young man in a hoodie and a blonde policewoman watch. Dramatic, tense, full of compassion."
+    },
+    "6": {
+      "titel": "Loschwitz",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein kleiner alter Friedhof am Hang über der Elbe im Herbst, unten eine blaue Eisenbrücke und ein Raddampfer. An einem schlichten grauen Grabstein unter einer Linde liegen eine graue Schulterklappe mit kleinem Spaten und eine Zigarette, die auf dem Steinrand verglimmt. Davor die alte Dame mit Reisetasche, ein junger Mann in Rot, ein Mann mit Kopfpflaster und drei Männer um die sechzig.",
+      "prompt": "A small old cemetery on a hillside above the river Elbe in Dresden on a clear cold autumn day, tall trees with yellow and red leaves falling, ivy over leaning gravestones. Below, the wide grey river with an old paddle steamer and a blue iron suspension bridge. At a simple grey gravestone under a linden tree, on the ivy, lies a grey cloth army shoulder strap with a small golden spade badge, and on the edge of the stone an old crumpled cigarette burns down with a thin thread of smoke rising into the tree. Before the grave stands the small upright old lady with white hair and a brown travel bag, beside her the tall young man in a red lifeguard jacket, a tall thin man with a grey ponytail and a plaster on his forehead, three men around sixty with hands in their pockets, the old man in the felt hat, the woman with red glasses, the young man with a dachshund. Hermine waits at the cemetery gate below. Peaceful, sad and full of warmth."
+    }
+  }
+}
