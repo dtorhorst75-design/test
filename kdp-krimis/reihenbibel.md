@@ -27,7 +27,8 @@
 9. Leerstand – Leuchtturm auf Hallig Süderwisch (fiktiv), Nordsee, Wärter 1979 – fertig
 10. Inventur – Puppenmanufaktur Hellmuth, Sonneberg (Thüringen) – fertig
 11. Nachlass – Weingut Kremer, Bernkastel (Mosel), zur Fastnacht – fertig. Kommissarin Anke Bremm kennt Sandra Pohlmann (Band 8). Bruno schenkt Betty eine 1945er „zum Aufheben“.
-12. Ausverkauft – Zirkus-Winterquartier Familie Karoli bei Celle (Lüneburger Heide). 12 Wagen, Wagen 12 der Seiltänzerin (Absturz 1989, letzte Vorstellung), seitdem zu; letzte Woche klopfte jemand von innen ans Fenster. Nummer von Holger Wunderlich. – geplant
+12. Ausverkauft – Zirkus-Winterquartier Karoli, Heidbruch (Lüneburger Heide) – fertig. Neu auf dem Armaturenbrett: Gartenzwerg als Seiltänzer (von Rosi/Kalle). KHKin Maren Thielke (Celle) kennt Bremm.
+13. Schlussverkauf – Kaufhaus in Görlitz, seit 2009 zu, Lichthof aus Glas, alter Messing-Gitteraufzug „Außer Betrieb“, Strom aus, gestern Nacht ist er vom 5. Stock nach unten gefahren. Anruferin: Enkelin des Kaufhausbesitzers, Nummer von Katrin Grieser (Band 10). – geplant
 
 ## Autorin
 

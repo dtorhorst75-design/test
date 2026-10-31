@@ -1,0 +1,232 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Ausverkauft",
+  "band": "Band 12",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-12-Ausverkauft",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer im Winterquartier finden: Ömers Schlossbuch, Bettys Inventarlisten, einen Zeitungsausschnitt von 1989, das Prüfbuch eines Hochseils, einen Brief der Versicherung und kleine Zettel aus einem sehr ungewöhnlichen Versteck. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Uhrzeiten, auf Stifte und Farben, darauf, wo eine Zeile steht, und darauf, was keiner anfasst.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. War noch nie im Zirkus."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Auf dem Armaturenbrett wird es voll."
+    ],
+    [
+      "Lucia Karoli",
+      "† 1989 mit 31, Seiltänzerin, „la regina del filo“. In der letzten Vorstellung abgestürzt."
+    ],
+    [
+      "Alfons Karoli",
+      "† mit 88, Zirkusdirektor. Hat Lucias Wagen 1989 plombiert."
+    ],
+    [
+      "Marco Karoli",
+      "52, sein Sohn, Werbeagentur in Hamburg. Will alles verkaufen."
+    ],
+    [
+      "Bianca Karoli",
+      "39, Lucias Tochter, Hochseilartistin in Toulouse. War damals vier."
+    ],
+    [
+      "Kalle Brodersen",
+      "75, Monteur und Pferdepfleger. Seit vierzig Jahren auf dem Hof."
+    ],
+    [
+      "Rosi Hagen",
+      "72, früher Kassiererin im Zirkus. Hat ein Album und viele Gartenzwerge."
+    ],
+    [
+      "Maren Thielke",
+      "Kriminalhauptkommissarin in Celle. Hat als Kind auf dem Gartenzaun balanciert."
+    ],
+    [
+      "Der Direktor",
+      "ein Waschbär."
+    ]
+  ],
+  "nachwort_titel": "Die Lüneburger Heide wirklich besuchen",
+  "nachwort": [
+    "Die Lüneburger Heide liegt in Niedersachsen, zwischen Hamburg, Bremen und Hannover. Sie ist eine der ältesten Kulturlandschaften Deutschlands. Im August und September blüht die Besenheide, dann sind weite Flächen lila. Im Frühjahr ist die Heide braun, und überall sieht man Wacholder, Birken und Kiefern.",
+    "Die Heidschnucken, eine alte Schafrasse mit gebogenen Hörnern, halten die Heide kurz, damit sie nicht zuwächst. Man kann Schäfern mit ihren Herden begegnen und auf vielen Wanderwegen durch die Heide gehen, zum Beispiel auf dem Heidschnuckenweg. Celle mit seiner Altstadt aus Fachwerkhäusern und seinem Schloss ist nicht weit.",
+    "Viele kleinere Zirkusse in Deutschland haben im Winter ein Winterquartier auf dem Land, wo sie üben und ihre Wagen reparieren. Manche bieten Zirkusschulen und Mitmachzirkus für Kinder an. Waschbären gibt es inzwischen in vielen Gegenden Deutschlands. Sie sind schlau und klettern gut.",
+    "Was erfunden ist: der Zirkus Karoli, das Winterquartier und das Dorf Heidbruch, das Celler Tageblatt, die Versicherung, alle Menschen und der Waschbär darin und drumherum, und das Verbrechen. Abläufe bei Polizei und Versicherung sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 13: Schlussverkauf**",
+    "Ein Kaufhaus in Görlitz, fünf Stockwerke, mit einem Lichthof aus Glas, seit 2009 geschlossen. Am alten Aufzug hängt seit sechzehn Jahren ein Schild: Außer Betrieb. Der Strom ist abgestellt. Und gestern Nacht ist er gefahren.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Manege frei",
+      "figuren": [
+        "Betty",
+        "Oemer",
+        "Kuckuck"
+      ],
+      "beschreibung": "Ein Hof in der braunen Märzheide mit Reetdach-Fachwerkhaus und einem kleinen ausgeblichenen rot-gelben Zelt. Zwölf bunt bemalte alte Zirkuswagen im Halbkreis. Der letzte ist nachtblau mit silbernen Sternen und einer Plombe an der Tür. Betty und Ömer vor dem orangefarbenen Lastwagen.",
+      "prompt": "A farmyard in the brown Lüneburg Heath in March, juniper bushes and white birches, an old half-timbered farmhouse with a thatched roof reaching almost to the ground, stables, and a small round circus tent of faded red and yellow stripes, almost pink, torn on one side. Twelve old wooden circus caravans on iron wheels with rounded roofs stand in a semicircle around a sandy grassy ring, each painted differently with faded stars, moons, tigers, elephants, plumed horses and clowns, golden numbers 1 to 12. The last one is deep night blue with hundreds of silver stars and a crescent moon over the door, a lead seal on the door handle, lace curtains drawn. In front, the old orange removal truck; the woman with the clipboard and the young man stare at the wagons, amazed. A flock of grey horned heath sheep passes on a sandy track in the distance. Warm, slightly mysterious."
+    },
+    "2": {
+      "titel": "Wagen zwölf",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Das Innere des blauen Zirkuswagens nach 36 Jahren: dicker Staub, ein Bett mit Sternendecke, ein Schminktisch mit rundem Spiegel und toten Glühbirnen, ein Kinderbett mit einem einohrigen Teddy. Unter der Decke an drei Haken eine lange silberne Stange mit Messingkappen. Ein Waschbär klettert durch die Dachluke davon.",
+      "prompt": "Inside an old circus caravan untouched for 36 years, everything under thick grey dust: a bed with a dark blue velvet cover embroidered with silver stars, a dressing table with a round mirror framed by dead light bulbs and a photo of a woman on a tightrope stuck in its frame, three drawers pulled open, a small child's cot with a teddy bear missing one ear, a small stove, a wall calendar from December 1989. Along the ceiling, on three brass hooks, lies a very long silver aluminium balancing pole in three sections with a round brass cap at each end, untouched. A raccoon with its black mask is climbing out through a small roof hatch. The young man waves goodbye to it; the woman with the clipboard stands in the doorway. Funny, tender and eerie."
+    },
+    "3": {
+      "titel": "Die Kassiererin",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine kleine Dorfküche. Eine runde, blond gefärbte Frau mit goldenen Ohrringen und Paillettenpullover blättert in einem dicken roten Fotoalbum voller Zirkusfotos und Zeitungsausschnitte. Durchs Fenster ein Vorgarten mit Gartenzwergen in Zirkuskostümen, einer auf einem Seil zwischen zwei Stöcken.",
+      "prompt": "A small cosy village kitchen: a round woman of 72 with dyed blonde hair, big golden earrings and a sequinned jumper glittering in the morning sun turns the pages of a thick red photo album with gold edges full of circus photos and yellowed newspaper clippings in photo corners; on the last page a clipping with a blurry photo of a circus tent at night with fire engines. Butter cake and coffee on the table. Through the window a front garden full of garden gnomes in hand-sewn circus costumes, a clown, a lion tamer, and one gnome balancing on a little rope stretched between two sticks with a tiny pole. The woman with the clipboard and the young man with cake listen. Warm, humorous, a little sad."
+    },
+    "4": {
+      "titel": "Die Kappe",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "In der Märzsonne liegt eine sieben Meter lange silberne Balancierstange auf zwei Holzböcken. Ömer kniet am Ende und hat eine Messingkappe abgeschraubt, eine Rolle schmaler karierter Papierstreifen kommt heraus. Daneben eine junge Frau in Schwarz mit Teddy und Heiligenbildchen, ein Mann in Lederjacke, eine Frau mit roter Brille und Zopf, Betty mit Klemmbrett.",
+      "prompt": "In bright March sunshine on a sandy circus winter-quarters yard, a seven-metre silver balancing pole lies across two wooden trestles in front of a night-blue caravan with silver stars. The young man kneels at one end, having unscrewed a round brass end cap, and carefully draws out a tight roll of narrow strips of checked paper. Beside him a small, slim, very upright woman of 39 in black with short dark hair holds a one-eared teddy bear and a small folded holy picture; a tall dark-haired man of 52 in a leather jacket; a tall bony policewoman with a long grey plait and red glasses in green rubber boots; a round woman in a sequinned jumper with her hand over her mouth; the woman with the clipboard ready to write. A raccoon watches from the caravan roof. Breathless, moving."
+    },
+    "5": {
+      "titel": "Acht Meter",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Nachts im kleinen Zirkuszelt im Licht einer einzigen Lampe: ein Stahlseil zwischen zwei hohen Masten acht Meter über einer alten Manege. Auf der einen Plattform sitzt ein kleiner alter Mann in grünem Arbeitsanzug. Über das Seil geht barfuß eine Frau in Schwarz mit einer langen silbernen Stange auf ihn zu. Unten Betty, Ömer und ein Stapel schwarzer Bücher. Im Riss der Zeltplane ein Waschbär.",
+      "prompt": "Night inside a small round faded circus tent, lit by a single lamp: a steel tightrope stretched between two tall slender iron masts with tiny platforms like birds' nests eight metres above a small old ring of grey sawdust inside a red wooden circle. On the left platform sits a small, crooked old man of 75 in a green work suit and knitted cap, legs dangling, hands in his lap. Across the rope, barefoot, a slim woman in black walks towards him in perfect balance carrying a long silver pole with brass caps. No net. Below, by a bench, a stack of thirty-six black notebooks with red corners; the woman with the clipboard in a quilted jacket over her nightdress, the young man, a policewoman in a raincoat over pyjamas and a barefoot man in a leather jacket look up holding their breath. Through a moonlit tear in the tent roof a raccoon peers down. Breathtaking, tense, tender."
+    },
+    "6": {
+      "titel": "Ausverkauft",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein kleines Zirkuszelt, randvoll mit Dorfbewohnern, Kindern, alten Leuten. Rundherum alte Plakate einer Seiltänzerin. Hoch oben auf dem Seil steht eine Frau in silbernem Paillettenkostüm in der Mitte und hebt eine Hand zur Zeltkuppel, durch deren Riss die Sonne fällt. Unten ein alter Mann mit Mütze lächelt.",
+      "prompt": "A small round circus tent packed to bursting on a Sunday afternoon: villagers on benches and on the floor, children with their teacher, old people, a shepherd with his dog, people crowding in the open entrance. Around the canvas walls hang twelve old circus posters of a beautiful tightrope walker. Fresh pale sawdust in the little ring. High above, on a steel rope between two masts, a slim woman in a new silver sequinned costume stands barefoot in the very middle holding a long silver pole with one hand and raising the other towards the tent roof, through whose tear the March sun falls in a golden beam. On the edge of the ring a small old man in a knitted cap smiles up for the first time; an elegant man with a bow tie starts to clap; the woman with the clipboard and the young man applaud. Joyful and deeply touching."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Ausverkauft"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 12"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch ein Zirkuswagen, der seit 1989 verschlossen ist.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. In einem orangefarbenen Lastwagen namens Kuckuck.",
+        "Diesmal geht es in die Lüneburger Heide, in das Winterquartier eines Zirkus, der seit 1989 nicht mehr fährt. Zwölf bunte Wagen stehen im Halbkreis. Wagen zwölf gehörte Lucia, der Seiltänzerin, die in der letzten Vorstellung abgestürzt ist. Seitdem ist er plombiert. Und letzte Woche hat jemand von innen ans Fenster geklopft.",
+        "Ein Prüfbuch mit einer Zeile an der falschen Stelle. Ein blauer Kugelschreiber. Eine Kassiererin mit einem Album. Eine Stange mit zwei Messingkappen. Und ein Waschbär, der Direktor heißt.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Lüneburger Heide Krimi",
+        "Zirkus Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Niedersachsen / Lüneburger Heide)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A semicircle of old painted circus caravans in the brown Lüneburg Heath at golden March dusk, juniper bushes and birches, a small faded striped circus tent glowing from inside. In front, a night-blue caravan with silver stars and a crescent moon; in its little lace-curtained window a raccoon with a black mask is knocking on the glass. In the yard the old orange removal truck with a small cuckoo clock on its dashboard; a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard stare at the window. Above them, faintly, a tightrope stretched across the sky. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}
