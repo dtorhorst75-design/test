@@ -1,0 +1,157 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 14",
+  "titel": "Alle haben auf den Elefanten geguckt",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-14-Wuppertal",
+  "ort": "Wuppertal",
+  "besuchen": [
+    "Die Wuppertaler Schwebebahn fährt seit 1901. Sie hängt an einem Gerüst aus Stahl, zum größten Teil über der Wupper, und fährt gut 13 Kilometer weit durch die Stadt, von Oberbarmen bis Vohwinkel, mit 20 Stationen. Kaiser Wilhelm II. machte im Oktober 1900 eine Probefahrt. Der historische Kaiserwagen fährt heute noch zu Sonderfahrten, die man buchen kann.",
+    "Am 21. Juli 1950 fuhr ein junger Zirkuselefant mit dem Namen Tuffi zu Werbezwecken mit der Schwebebahn. Zwischen den Stationen Alter Markt und Adlerbrücke geriet er in Panik, durchbrach die Seitenwand und fiel etwa zehn Meter tief in die Wupper. Er überlebte mit einer Schramme. Die Fotos gingen um die Welt.",
+    "Der Ölberg in Elberfeld ist ein Viertel mit Gründerzeithäusern, Treppenstraßen und kleinen Kneipen. Vom Toelleturm in Barmen sieht man über die Stadt. Auf der Nordbahntrasse, einer ehemaligen Bahnstrecke, kann man hoch über dem Tal wandern und Rad fahren. Die Müngstener Brücke zwischen Solingen und Remscheid ist mit 107 Metern die höchste Eisenbahnbrücke Deutschlands; im Brückenpark darunter gibt es eine Schwebefähre, die man selbst über die Wupper zieht.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, die Bergische Abendpost und die Wuppertaler Abendpost, der Fotoladen, das Dienstbuch, das Fundbuch und das Archiv, wie sie hier beschrieben sind, die Akten, der Mann ohne Karte und das Verbrechen. Die Fahrt mit Tuffi hat es gegeben; was in dieser Geschichte darüber hinaus in dem Wagen geschieht, ist erfunden. Abläufe bei Polizei, Stadtwerken und Gericht sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "WILHELM": [
+      "Wilhelm Scholl (Brief, Zettel)",
+      "Sprecher 2 (sehr alt, bergisch)"
+    ],
+    "HEDWIG": [
+      "Hedwig Scholl, Tochter",
+      "Sprecherin 1 (drahtig, klar)"
+    ],
+    "KARLA": [
+      "Karla Wendel",
+      "Sprecherin 1 (ruhig, genau)"
+    ],
+    "KARL": [
+      "Karl Wendel (Durchschläge)",
+      "Sprecher 3 (jung, sachlich)"
+    ],
+    "ANJA": [
+      "Anja Kremer, Fotoladen",
+      "Sprecherin 1 (lebhaft)"
+    ],
+    "AYDIN": [
+      "Merve Aydın, Kripo Wuppertal",
+      "Sprecherin 1 (direkt, lacht gern)"
+    ],
+    "DAHLMANN": [
+      "Gerhard Dahlmann, Bestatter a. D.",
+      "Sprecher 2 (alt, leise)"
+    ],
+    "WERNER": [
+      "Werner Lichtenberg",
+      "Sprecher 2 (sehr alt, klar, leise)"
+    ],
+    "FELIX": [
+      "Felix Lichtenberg, Verleger",
+      "Sprecher 3"
+    ],
+    "STEINBACH": [
+      "Uwe Steinbach, Schwebebahn",
+      "Sprecher 3 (brummig)"
+    ],
+    "YILMAZ": [
+      "Herr Yılmaz, Kiosk",
+      "Sprecher 3 (warm)"
+    ],
+    "BREMERHAVEN": [
+      "Enno Janßen (Telefon)",
+      "Sprecher 2 (tief, langsam, norddeutsch)"
+    ]
+  },
+  "aussprache": [
+    "Wupper – WUP-per",
+    "Oberbarmen – o-ber-BAR-men",
+    "Vohwinkel – FOH-win-kel",
+    "Elberfeld – EL-ber-feld",
+    "Ölberg – ÖL-berg",
+    "Toelleturm – TÖL-le-turm",
+    "Müngsten – MÜNG-sten",
+    "Tuffi – TUF-fi",
+    "Aydın – AI-dün",
+    "Yılmaz – JIL-mas",
+    "Melaten – me-LA-ten",
+    "Rolleiflex – ROL-lei-flex"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Über der Wupper",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Eine Straße in Wuppertal-Barmen mit Gründerzeithäusern, daneben die flache Wupper über Steinen, darüber das grüne Stahlgerüst der Schwebebahn. Ein blau-weißer Wagen hängt darunter und fährt über Hermine hinweg. Ein Kind drückt die Nase an die Scheibe, ein Reiher steht im Fluss.",
+      "prompt": "A long street in an old industrial German valley town in late February, Wilhelminian houses with stucco, shops and a bus; beside the street behind a railing a narrow shallow brown-green river flowing fast over stones, a grey heron standing on a rock. Above the river, on slanted green-painted riveted steel legs, an endless suspended railway structure, and hanging beneath it a long blue-and-white train car gliding overhead, gently swaying, passengers at the windows, a child pressing its nose to the glass and pointing down. Below on the street, Hermine has stopped; the broad young man at the wheel stares up, the tall old man with the hat smiles in the passenger seat. Wonder, gentle humour."
+    },
+    "2": {
+      "titel": "Das Dienstbuch",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine kleine helle Küche auf dem Ölberg voller Pflanzen und Fotos von der Schwebebahn. Auf dem Tisch Bergische Waffeln mit Kirschen, ein kleines schwarzes Dienstbuch und ein Kontaktabzug mit zwölf winzigen Bildern. Eine drahtige alte Frau mit kurzen weißen Haaren und grüner Wachsjacke sieht zu, wie Benny den Bogen herausnimmt.",
+      "prompt": "A small bright kitchen high up in an old hillside quarter, plants on the windowsill, framed photographs of a suspended railway on every wall, many with a young or old man in a tram driver's uniform. On the table: Bergische waffles with cherries, cups of tea, a small thick black service logbook lying open, and the broad young man carefully lifting out with two fingers a glossy postcard-sized photographic contact sheet with twelve tiny black-and-white frames in three rows. A wiry woman of 72 with short white hair and a green waxed jacket watches with her hands on her knees; the woman with the red glasses reads; the tall old man with white hair sits by the window. Warm, quiet, a little tense."
+    },
+    "3": {
+      "titel": "Zwölf Bilder",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine Dunkelkammer mit rotem Licht, Wannen und Schläuchen. Auf einem Leuchttisch ein Kontaktbogen, darüber eine große schwarze Lupe. Benny beugt sich darüber, neben ihm eine Frau mit roten kurzen Haaren, vielen Ohrringen und schwarzer Schürze. Konrad steht in der Tür unter dem roten Licht.",
+      "prompt": "A small photographic darkroom lit by a red safelight, developing trays, hoses, bottles and a smell you can almost see; in the middle a light table with a glowing white glass top on which lies a contact sheet of twelve tiny black-and-white frames. The broad young man bends over a large black magnifying loupe standing on one of the frames; beside him a woman of 41 with short dyed red hair, many earrings, reading glasses pushed up on her head and a stained black apron holds her hand over her mouth. In the doorway under the red light, the tall old man in the grey suit holds his hat. Mysterious, intimate, red and black."
+    },
+    "4": {
+      "titel": "Müngsten",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Ein bewaldetes Tal mit der flachen Wupper über Steinen, darüber in schwindelnder Höhe der schwarze Stahlbogen der Müngstener Brücke, auf der ein winziger Zug fährt. Am Ufer Konrad mit dem Hut in der Hand, Jo und Benny, Benny legt den Kopf in den Nacken.",
+      "prompt": "A deep wooded valley in late winter, a broad shallow grey-green river rushing over round stones with a little white foam around a big rock; high above, spanning from slope to slope, an enormous black riveted steel arch bridge more than a hundred metres high, with a tiny train crossing it like a toy. On the riverbank in a small park with paths and a little hand-operated ferry gondola, the tall old man stands with his hat in his hand looking at the water; the woman with the red glasses beside him; the broad young man with his head tilted far back staring up at the bridge, the small dog at his feet. Vast, quiet, melancholy."
+    },
+    "5": {
+      "titel": "Der Nestor",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine Bibliothek in einer weißen Villa am Waldrand mit Kamin und Bücherwänden. Ein sehr alter, dünner Mann mit weißem Haar und dunkelroter Fliege im Ohrensessel am Fenster, daneben ein blonder Mann im Anzug. Benny steht vor einer beleuchteten Glasvitrine mit einer alten braunen Aktentasche mit neuem Riemen.",
+      "prompt": "An elegant library in a white villa at the edge of a forest above a valley town: bookshelves to the ceiling with leather and gold spines, a crackling fireplace, a large window showing the forest and far below the valley with a green steel suspended-railway structure winding between houses. A tiny very thin man of 96 with long white hair and a dark red bow tie sits in a wing chair by the window, dark alert eyes; beside him stands a tall blond man of 46 in a dark blue suit with an expensive watch. The broad young man stands in front of a lit glass display case between the books, looking at an old brown leather briefcase with one newer, lighter strap and two small holes on the flap. The woman with the red glasses and the old man with the hat sit stiffly on a green velvet sofa with thin porcelain tea cups. Elegant, cold, tense."
+    },
+    "6": {
+      "titel": "Der Kaiserwagen",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Im historischen Kaiserwagen mit rotem Polster, Messinglampen und gerafften Spitzengardinen. Eine alte Frau mit einem zu großen grauen Hut dreht einen Rollstuhl mit einem sehr alten Mann zum Fenster, unter dem die Wupper fließt. Viele Menschen sitzen still auf den Bänken, vorne der Wagenführer mit Goldkordel an der Mütze.",
+      "prompt": "Inside a historic suspended-railway carriage from 1900: dark red and cream panelling with gold lines, wooden benches with red upholstery, brass lamps, gathered white lace curtains at the windows, a polished wooden floor. A tall slim woman of 76 with grey hair in a bun and a slightly too large grey felt hat turns a wheelchair so that the very old thin man in it, in a black coat and dark red bow tie, faces the window; through the window, ten metres below, a shallow river runs over stones between houses, a heron on a rock. On the benches sit about twenty quiet people: a wiry white-haired woman with snowdrops, a red-haired woman with an old twin-lens camera, a policewoman with black curls, the woman with the red glasses, the tall old man with his hat in his hands, the broad young man with the small dog. At the front, behind a glass partition, a driver in an old uniform cap with a gold cord looks ahead. Solemn, moving, still."
+    }
+  }
+}
