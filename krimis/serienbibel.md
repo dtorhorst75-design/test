@@ -59,4 +59,5 @@ Ein cremeweißer Mercedes-Bestattungswagen, Baujahr 1983, günstig gekauft. Hint
 6. Die letzte Schicht (Völklinger Hütte, Saarland)
 7. Der Bunker unter dem Zeppelin (Wünsdorf, Brandenburg)
 8. Unter dem Kettenkarussell (Kalkar, Niederrhein) – fertig
-9. Edersee (Nordhessen) – Gertrud Vaupel (93), geboren in Berich, das seit 1914 im Edersee liegt. Im leeren Sommersee lag auf der Kirchtreppe ein neuer Koffer mit dem Namen ihres Bruders, der 1959 im See ertrank. – geplant
+9. Die Treppe im See (Edersee, Nordhessen) – fertig
+10. Prora (Rügen) – Matthias Lenz aus Binz. Sein Vater war 1985 Bausoldat in Prora, ist gestorben und hinterlässt einen alten Schlüssel „Block fünf, Zimmer 2817“ und einen Zettel: „Da wartet noch einer.“ – geplant

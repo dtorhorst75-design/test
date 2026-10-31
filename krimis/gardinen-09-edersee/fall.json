@@ -1,0 +1,177 @@
+{
+  "reihe": "Mit Gardinen ins Jenseits",
+  "fall": "Fall 9",
+  "titel": "Die Treppe im See",
+  "autorin": "Diana Bittenbinder",
+  "datei": "Mit-Gardinen-ins-Jenseits-Fall-9-Edersee",
+  "ort": "Edersee",
+  "besuchen": [
+    "Der Edersee liegt in Nordhessen, im Landkreis Waldeck-Frankenberg. Die Sperrmauer wurde von 1908 bis 1914 gebaut und war damals eine der größten Talsperren Europas. Man kann auf der Mauer spazieren gehen, mit dem Schiff über den See fahren und mit der Seilbahn zum Schloss Waldeck hinauffahren, von dem man weit über das Tal sieht.",
+    "Für den See mussten Dörfer weichen, darunter Asel, Bringhausen (zum Teil) und Berich. Die Bewohner von Berich wurden in ein neues Dorf bei Bad Arolsen umgesiedelt, Neu-Berich. Ihre Kirche wurde abgetragen und dort wieder aufgebaut. Wenn der See im Spätsommer und Herbst sehr wenig Wasser hat, tauchen alte Mauern, Wege und Brücken auf, zum Beispiel die Aseler Brücke. Viele Menschen kommen dann, um durch dieses „Edersee-Atlantis“ zu wandern.",
+    "Bitte bleib dabei auf festen Wegen. Frischer Schlamm am Rand des Wassers kann sehr weich und gefährlich sein. Die Reste der Dörfer sind Bodendenkmäler: Graben, Sondengehen und Mitnehmen ist verboten.",
+    "Rund um den See liegt der Nationalpark Kellerwald-Edersee mit alten Buchenwäldern, die zum UNESCO-Weltnaturerbe gehören. Es gibt Wanderwege, Führungen mit Rangerinnen und Rangern und im Spätsommer blühendes Heidekraut auf den Bergen.",
+    "Was erfunden ist: alle Figuren mit ihren Familien, das Seehotel Kroll mit Bootshaus und Werft, die Kirchtreppe mit sieben Stufen, das Grab der Familie Vaupel, die Lage von Pfarrhaus und Friedhof, wie sie hier beschrieben sind, und das Verbrechen. Wasserstände, Abläufe bei Polizei, Denkmalpflege und Rechtsmedizin sind für die Geschichte verändert. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "sprecher": {
+    "JO": [
+      "Jo (Erzählerin)",
+      "Sprecherin 1 – Diana"
+    ],
+    "KONRAD": [
+      "Konrad",
+      "Sprecher 2"
+    ],
+    "BENNY": [
+      "Benny",
+      "Sprecher 3"
+    ],
+    "ACHIM": [
+      "Achim Krause",
+      "Sprecher 2 oder 3"
+    ],
+    "KESPER": [
+      "Dr. Reinhold Kesper, Notar",
+      "Sprecher 3 (förmlich)"
+    ],
+    "GERTRUD": [
+      "Gertrud Vaupel (Brief)",
+      "Sprecherin 1 (sehr alt, nordhessisch)"
+    ],
+    "HEINRICH": [
+      "Heinrich Vaupel (Zettel)",
+      "Sprecher 3 (jung)"
+    ],
+    "ILSE": [
+      "Ilse Wiegand, Nachbarin",
+      "Sprecherin 1 (nordhessisch, herzlich)"
+    ],
+    "WETEKAM": [
+      "Klaus Wetekam, Ortsvorsteher",
+      "Sprecher 2 (ordentlich)"
+    ],
+    "RHIEL": [
+      "Detlef Rhiel, Sondengänger",
+      "Sprecher 3 (eifrig)"
+    ],
+    "LIESEL": [
+      "Liesel Brandau, geb. Kroll",
+      "Sprecherin 1 (alt, klar, streng)"
+    ],
+    "BERND": [
+      "Bernd Kroll, Hotelier",
+      "Sprecher 3 (glatt, freundlich)"
+    ],
+    "JANA": [
+      "Jana Kroll, Rangerin",
+      "Sprecherin 1 (jung)"
+    ],
+    "EWALD": [
+      "Ewald Fennel, Bootsmann",
+      "Sprecher 2 (sehr alt, nordhessisch, leise)"
+    ],
+    "DEHNHARDT": [
+      "Kommissarin Tanja Dehnhardt",
+      "Sprecherin 1 (trocken)"
+    ],
+    "MUENCHNER": [
+      "Mann aus München",
+      "Sprecher 3 (bayerisch)"
+    ],
+    "HESSLER": [
+      "Dr. Ute Hessler, Archäologin",
+      "Sprecherin 1 (bestimmt)"
+    ],
+    "PFARRERIN": [
+      "Pfarrerin",
+      "Sprecherin 1 (jung)"
+    ],
+    "PRORA": [
+      "Matthias Lenz (Telefon)",
+      "Sprecher 2 (Ostsee, ruhig)"
+    ]
+  },
+  "aussprache": [
+    "Edersee – EH-der-see",
+    "Eder – EH-der",
+    "Berich – BEH-rich",
+    "Neu-Berich – NEU-beh-rich",
+    "Asel – AH-sel",
+    "Bringhausen – BRING-hau-sen",
+    "Waldeck – WAL-deck",
+    "Bad Arolsen – bat a-ROL-sen",
+    "Korbach – KOR-bach",
+    "Kellerwald – KEL-ler-wald",
+    "Traddelkopf – TRAD-del-kopf",
+    "Kohelet – ko-HEH-let",
+    "Vaupel – FAU-pel",
+    "Fennel – FEN-nel",
+    "Rhiel – RIEL",
+    "Wetekam – WEH-te-kam",
+    "Halifax – HÄ-li-fäx",
+    "Prora – PRO-ra",
+    "Binz – BINTS"
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Der leere See",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Der Edersee im Spätsommer, fast leer: ein grünes Band in der Mitte eines bewaldeten Tals, rechts und links graue, rissige Hänge aus Schlamm, gestrandete Boote, ein Steg ins Nichts. Unten im Tal Mauerreste eines versunkenen Dorfes. Oben die Sperrmauer und auf dem Berg ein Schloss. Auf dem Parkplatz Hermine.",
+      "prompt": "A long winding reservoir valley in central Germany in late summer, almost empty: only a narrow green ribbon of water remains in the middle, on both sides steep grey and brown banks of cracked dried mud with pale lines like tree rings where the water has retreated day by day. Pedal boats lie stranded on their sides, a wooden jetty leads out over dry ground into nothing. Far below, low ruined stone walls of a drowned village emerge from the mud, with an old arched stone bridge crossing nothing. In the distance a huge curved stone dam wall with little towers, and high on a forested hill a large old castle with towers and a cable car. On a car park under beech trees at the top stands Hermine; the woman with red glasses, the old man in the felt hat and the young man in the hoodie look down in silence, a small dachshund on a lead. Hot hazy light, melancholic and grand."
+    },
+    "2": {
+      "titel": "Der Koffer",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine kleine Dorfküche mit Kirschen-Wachstuchdecke. Auf dem Tisch zwischen Pflaumenkuchen und Kaffeekanne ein neuer blauer Rollkoffer, offen. Darin alte Hemden, ein grüner Reisepass, zwei Schiffsfahrkarten, ein hellblauer Brief und ein Foto. Konrad beugt sich darüber und riecht.",
+      "prompt": "A small tidy village kitchen in northern Hesse: a 1960s stove, a table with an oilcloth printed with cherries, a plum cake on a tray, a coffee pot. In the middle of the table stands an ordinary new dark blue fabric suitcase with wheels, open, a torn price-tag remnant on the handle. Inside lie two neatly folded old-fashioned white shirts, a grey hand-knitted cable jumper, a small wooden-handled carving knife, and on top a clear plastic sleeve with an old green West German passport from 1959, two large yellow-and-blue 1959 ocean liner tickets Bremerhaven to Halifax, a small pale blue folded letter and a deckle-edged photo of a laughing girl with dark curls on a jetty. The old man in the dark three-piece suit bends deep over the suitcase, sniffing; the woman with red glasses and the young man watch; a small round elderly woman in a flowered apron holds her coffee cup with both hands. Warm, quiet, mysterious."
+    },
+    "3": {
+      "titel": "Liesel",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Eine kleine helle Wohnung voller Bücher. Eine sehr alte, aufrechte Dame mit weißem Haarknoten, Brosche und Brille an einer Kette sitzt im Sessel am Balkonfenster und legt ihre Hand flach auf einen alten Briefumschlag. Draußen Dächer, ein tiefes Tal mit dem schmalen See und ein Schloss auf dem Berg.",
+      "prompt": "A small bright flat full of books, on shelves up to the ceiling and in piles on the floor, a framed photo of a kind bearded man with a pipe on the wall. In an armchair by the balcony window sits a very old, small, very upright lady of 87 with white hair in a bun, a blouse with a brooch, reading glasses on a chain, a walking stick with a silver knob across her knees. She lays her right hand flat and gently on an old envelope on the little table before her, beside two old ship tickets and a pale blue note. Opposite her sits the old man in the dark three-piece suit with his hat on his knees; the woman with red glasses and the young man stand quietly. Through the window: red geraniums on the balcony, old slate roofs, a deep green valley with a narrow remnant of a lake and a castle on a hill. Late afternoon light, deeply moving."
+    },
+    "4": {
+      "titel": "Die Kirchtreppe",
+      "figuren": [
+        "Jo",
+        "Konrad"
+      ],
+      "beschreibung": "Frühmorgens: Der leere See liegt unter dichtem Nebel. Nur eine breite Treppe aus sieben roten Sandsteinstufen ragt aus dem Nebel und hört oben im Nichts auf. Konrad sitzt auf der obersten Stufe, den Hut neben sich. Jo steht unten im Nebel.",
+      "prompt": "Dawn in a drowned valley: thick white mist lies over the empty reservoir and the ruins of an old village, only the treetops on the far shore rise above it. Out of the mist rises a broad old staircase of seven red sandstone steps with rounded worn edges, standing alone on a small mound, leading up to a church door that no longer exists and simply ending at the top in the grey sky. On the top step sits the old man in the dark three-piece suit, his felt hat beside him on the stone, a checked thermos flask steaming. At the foot of the stairs, knee-deep in mist, stands the woman with red glasses and a beige trench coat, looking up at him. The first pale golden light touches the steps. Silent, poetic, a little eerie."
+    },
+    "5": {
+      "titel": "Totenwache",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny"
+      ],
+      "beschreibung": "Nacht im leeren See: Ein Mann steckt bis zur Brust im glänzenden Schlamm am Wasserrand. Benny liegt flach auf langen Holzbohlen, die er in den Schlamm geschoben hat, und hält sein Handgelenk. Ein gelbes Seil führt den Hang hinauf, wo Konrad mit gehäkelter Decke und Hut zieht und Jo mit einer Polizistin. Hinten ein Ruderboot und Lichter am anderen Ufer.",
+      "prompt": "Night on the bed of an emptied lake, a few stars between clouds, wet shining mud at the water's edge reflecting a strong torch beam. A tall man in a dark hooded jacket is stuck up to his chest in the soft black mud, terrified. The young man with dark curls lies flat on his stomach on long wide wooden planks he has pushed out over the mud like a bridge over ice, firmly holding the man's wrist. A yellow tow rope leads from the man's chest up the slope, where the old man in a felt hat with a crocheted blanket around his shoulders pulls on it, together with the woman with red glasses and a young police officer. Behind them stone grave borders of an old cemetery with a red-and-white tape fluttering; below a small dark rowing boat stranded at the water, and far across the black lake the small lights of a hotel. A small dachshund barks. Dramatic, tense, but full of compassion."
+    },
+    "6": {
+      "titel": "Neu-Berich",
+      "figuren": [
+        "Jo",
+        "Konrad",
+        "Benny",
+        "Hermine"
+      ],
+      "beschreibung": "Ein kleiner Dorffriedhof neben einer alten grauen Kirche an einem klaren Herbsttag. Am offenen Grab eine sehr alte Dame mit zwei Ringen am Finger wirft einen Strauß Heidekraut hinein, neben ihr ein kleiner alter Mann in zu großem Anzug, der singt. Viele Trauergäste. Vor dem Tor Hermine.",
+      "prompt": "A small village cemetery beside an old squat grey stone church on a clear autumn day, golden light, a few yellow leaves. At an open grave beside older family gravestones stands a very old upright lady in a dark green dress with a brooch and a walking stick with a silver knob; on her left hand a gold ring and a wide old silver ring; she drops a small bunch of purple heather tied with a blade of grass into the grave. Next to her a small stooped old man of 91 in a borrowed suit far too large, sleeves rolled up, cap in his hands, singing softly with his eyes closed. Around them mourners: the woman with red glasses beside a man in a dark suit, the old man in the felt hat holding his hat, the young man with a dachshund in his arms, a young woman ranger in a green jacket with a black Labrador, a small round woman in black. In front of the cemetery gate stands Hermine with crocheted curtains. Peaceful, sad and full of warmth."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Fall 9 – Plan (intern)
+
+Titel: Die Treppe im See
+Ort: Edersee (Nordhessen). Sperrmauer 1908–1914, Dörfer Asel, Bringhausen (Teile), Berich überflutet. Berich: Bewohner nach Neu-Berich bei Bad Arolsen umgesiedelt, Kirche dort wieder aufgebaut, alter Friedhof umgebettet. Niedrigwasser im Spätsommer/Herbst: Mauerreste, Wege, Aseler Brücke („Edersee-Atlantis“). Nationalpark Kellerwald-Edersee, Schloss Waldeck, Seilbahn. 1943 Bombardierung der Mauer.
+Zeit: Mo. 31.8.2026 Brief kommt (Notar). Mo. 7.9. bis Sa. 26.9.2026.
+
+1959: Heinrich Vaupel (24), Gertruds Bruder, Bootsbauer-Geselle bei der Hotelbootswerft. Liebt Liesel (Elisabeth) Kroll (20), Tochter Seehotel Kroll. Plan: Auswandern nach Kanada, Schiff ab Bremerhaven 15.9.1959, zwei Fahrkarten. Treffpunkt: Sa. 12.9.1959, 5 Uhr, Kirchtreppe im alten Berich (See fast leer, Sommer 1959 sehr trocken), weil seine Eltern dort geheiratet haben. Walter Kroll (27), Liesels Bruder, fängt Liesels letzten Zettel ab, Vater schließt Liesel ein. Walter geht nachts zur Treppe, Streit, Faustschlag, Heinrich stürzt die Treppe hinunter, Hinterkopf auf Stufenkante, tot. Walter holt Ewald Fennel (24, Bootsmann des Hotels). Sie legen Heinrich in die leere Grube des umgebetteten Vaupel-Familiengrabs auf dem alten Bericher Friedhof (Steineinfassung blieb), decken Steine und Erde darauf. Ewald: „Ich hab ihn zu seinen Leuten gelegt.“ Walter nimmt den Koffer mit, versteckt ihn auf dem Hotelspeicher. Ewald legt Heinrichs Jacke am 13.9. ans Ufer bei Bringhausen und „findet“ sie. Polizei: beim Nachtschwimmen ertrunken. Herbst 1959 läuft der See voll.
+Heinrich hat in der Wartenacht „H + L 12.9.59“ in die oberste Stufe geritzt und auf die Rückseite einer Fahrkarte geschrieben: „Zwei Uhr. Ich warte. Die Sterne über Berich. H.“ (Zettel im Koffer.) Er hatte einen Ring in der Tasche (beim Toten).
+Walter zahlt Ewald 1960–1989 monatlich 50 DM, Kassenbuch Hotel: „E.F. Bootspflege“ – auch im Winter, wenn die Boote an Land sind.
+Walter † Jan. 2025. Sagt Sohn Bernd auf dem Sterbebett: „Der Vaupel liegt im Keller vom Pfarrhaus.“ (Gelogen oder verwirrt – er wollte, dass Bernd ihn nie findet? Oder Walter wusste nicht genau, Ewald hatte ihn verlegt. -> Ewald hat Heinrich in der Nacht allein umgebettet, während Walter den Koffer holte. Walter hatte ihn ins Pfarrhauskeller gelegt, Ewald konnte das nicht ertragen und trug ihn zum Grab der Eltern.)
+Jana Kroll (34), Bernds Tochter, Rangerin im Nationalpark. Findet im Sommer 2025 beim Ausräumen des Speichers den alten Lederkoffer (Aufkleber Seehotel Kroll). Packt Inhalt in einen neuen Koffer (Kaufhaus Kassel, Preisschild-Rest), stellt ihn Sept. 2025 auf die Kirchtreppe. Ortsvorsteher Klaus Wetekam findet ihn, bringt ihn Gertrud.
+Gertrud ruft am 1.4.2026 an, bittet: Kommen Sie im September, wenn der See leer ist. Stirbt 14.7.2026 im Schlaf. Brief beim Notar.
+Bernd Kroll (63): Hotel wird im Oktober an Investor verkauft. Sucht seit Herbst 2025 den Koffer (Einbruch bei Gertrud im Okt. 2025, nichts genommen – Koffer lag bei Ilse). Gräbt nachts im Pfarrhauskeller (findet nichts). Droht Ewald (Bootshaus gehört dem Hotel). Zersticht Hermines Reifen. Finale: Nachts versucht er, am alten Friedhof die Steine zu holen, bevor die Polizei gräbt, versinkt im Schlick, Benny rettet ihn mit Leiter und Brett.
+Polizei: KHKin Tanja Dehnhardt, Kripo Korbach.
+Liesel Brandau geb. Kroll (87), Waldeck, Seniorenwohnung mit Schlossblick. Hat gewartet, gedacht er ist allein gefahren. Bekommt den Ring.
+Ewald Fennel (91), Bootshaus am Nordufer, schnitzt Paddel. Gesteht Konrad.
+Detlef Rhiel (58), Hobby-Heimatforscher mit Metallsonde (Ablenkung, Lichter im Schlick).
+Ilse Wiegand (71), Gertruds Nachbarin in Neu-Berich.
+Ende: Beerdigung Neu-Berich Sa. 26.9., Heinrich neben Eltern und Gertrud. Herr Becker blüht. Teaser Fall 10: Prora (Rügen), Bausoldaten 1985.
+Bilder: 1 Sperrmauer/leerer See mit Ruinen (Kap. 2), 2 Koffer auf Gertruds Küchentisch (3), 3 Liesel am Fenster mit Schlossblick (5), 4 Konrad auf der Kirchtreppe im Morgennebel (14), 5 Grabung alter Friedhof, Steineinfassung (19), 6 Beerdigung Neu-Berich mit Hermine (22).
