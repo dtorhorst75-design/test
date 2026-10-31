@@ -1,0 +1,227 @@
+{
+  "reihe": "Alles muss raus",
+  "reihenzusatz": "Ein Krimi zum Mitraten",
+  "titel": "Leerstand",
+  "band": "Band 9",
+  "autorin": "Jette van Hoven",
+  "datei": "Alles-muss-raus-Band-9-Leerstand",
+  "mitraten": [
+    "Betty Brüggemann schreibt alles auf. Das hat sie dreißig Jahre lang als Gerichtsvollzieherin getan, und sie hört nicht damit auf, nur weil sie jetzt Wohnungen ausräumt.",
+    "In diesem Buch findest du deshalb nicht nur die Geschichte, sondern auch die **Dokumente**, die Betty und Ömer auf der Hallig finden: Ömers Schlossbuch, Bettys Inventarlisten, einen alten Zeitungsausschnitt, einen Küchenkalender von 1979, das Leuchtfeuerbuch des Turms und einen Brief, der fünfundvierzig Jahre lang auf seine Post gewartet hat. Sie sind grau hinterlegt und sehen aus wie das Original.",
+    "Alles, was du brauchst, um den Fall zu lösen, steht in diesen Dokumenten und in der Geschichte. Nichts wird dir vorenthalten. Lies genau. Achte auf Zahlen, und zwar darauf, wie sie geschrieben sind, auf Wasserstände, auf ein kleines Messingschild und darauf, wer wann nass geworden ist.",
+    "Vor der Auflösung kommt eine Seite mit dem Titel **„Jetzt bist du dran“**. Dort stehen sechs Fragen. Halte an, blättere zurück, mach dir Notizen. Und dann finde heraus, ob du so gut bist wie Betty.",
+    "Viel Spaß beim Mitraten!"
+  ],
+  "figuren": [
+    [
+      "Betty Brüggemann",
+      "58, früher Gerichtsvollzieherin in Kassel, jetzt Wohnungsauflöserin. Schreibt alles auf."
+    ],
+    [
+      "Ömer Yıldız",
+      "34, Schlüsseldienstmeister aus Kassel, Bettys Geschäftspartner. Wird auf Schiffen grün."
+    ],
+    [
+      "Der Kuckuck",
+      "ihr orangefarbener Lastwagen, Baujahr 1991. Muss diesmal am Festland bleiben. Seine Kuckucksuhr nicht."
+    ],
+    [
+      "Jens Hansen",
+      "† 1979, Leuchtfeuerwärter auf Hallig Süderwisch. In einer Sturmflutnacht verschwunden."
+    ],
+    [
+      "Merle Hansen",
+      "52, seine Tochter, Bootsbauerin in Husum. War damals sechs."
+    ],
+    [
+      "Hark Paulsen",
+      "74, früher Hilfswärter, dann vierzig Jahre Postschiffer. Spricht langsam. Hat Betty angerufen."
+    ],
+    [
+      "Ocke Jacobsen",
+      "84, Halligbauer, Jens' bester Freund. Schläft nicht mehr und sieht aus dem Fenster."
+    ],
+    [
+      "Broder Jacobsen",
+      "49, sein Sohn, Wirt der Halligpension „Seehund“. Wollte das Wärterhaus kaufen."
+    ],
+    [
+      "Kai Hinrichs",
+      "60, Wasserstraßen- und Schifffahrtsamt Tönning. Hat den Turmschlüssel."
+    ],
+    [
+      "Torge Nissen",
+      "Kriminalhauptkommissar, Kripo Husum. Weiß nicht, wie eine Linse aussieht."
+    ]
+  ],
+  "nachwort_titel": "Die Halligen wirklich besuchen",
+  "nachwort": [
+    "Die Halligen sind kleine Inseln ohne Deich im nordfriesischen Wattenmeer, vor der Küste von Schleswig-Holstein. Es gibt zehn, die größten sind Langeneß und Hooge. Bei Sturmflut stehen sie unter Wasser, das nennt man Landunter. Dann ragen nur noch die Warften heraus, die aufgeschütteten Hügel, auf denen die Häuser stehen.",
+    "Die bewohnten Halligen kann man besuchen. Fähren fahren von Schlüttsiel und Dagebüll aus, im Sommer gibt es auch Ausflugsschiffe. Auf einigen Halligen gibt es Pensionen, Ferienwohnungen und kleine Museen. Im Frühjahr und Herbst rasten dort Zehntausende Ringelgänse. Die Halligen liegen im Nationalpark Schleswig-Holsteinisches Wattenmeer, der zum Weltnaturerbe gehört.",
+    "Wattwandern darfst du nur mit einer geprüften Wattführerin oder einem Wattführer. Das Wasser kommt schneller zurück, als man denkt, und Priele können sehr tief sein. Bei Sturm und Hochwasser gilt, was Jens Hansen seiner Tochter gesagt hat: Man geht nicht auf den Damm.",
+    "Leuchtfeuer an der deutschen Küste haben heute keine Wärter mehr. Sie laufen automatisch und werden von den Wasserstraßen- und Schifffahrtsämtern betreut. Manche alten Leuchttürme kann man besichtigen, manche Wärterhäuser sind heute Ferienwohnungen oder Museen.",
+    "Was erfunden ist: die Hallig Süderwisch mit ihrem Leuchtturm, der Feuerwarft und der Hanswarft, die Halligpension „Seehund“, alle Menschen darin und drumherum, und das Verbrechen. Abläufe bei Polizei und Amt sind für die Geschichte vereinfacht. Ähnlichkeiten mit lebenden oder verstorbenen Personen sind zufällig."
+  ],
+  "schluss": [
+    "Betty und Ömer kommen wieder.",
+    "**Band 10: Inventur**",
+    "Eine Puppenmanufaktur in Sonneberg, Thüringen, hundertzwanzig Jahre alt. In der Werkstatt sitzen dreihundert Puppen bis unter die Decke. Eine davon klappert. Und niemand darf sie aufmachen.",
+    "Hat dir das Mitraten Spaß gemacht? Dann freue ich mich sehr über eine Bewertung bei Amazon. Für eine kleine Autorin ist jede einzelne Gold wert."
+  ],
+  "figurenprompt": {
+    "Betty": "Betty: a sturdy German woman of 58 with short grey hair in a practical bob, reading glasses on a chain, a dark green quilted jacket and a clipboard always in her hand",
+    "Oemer": "Ömer: a cheerful slim Turkish-German man of 34 with short black hair, a neat beard, a dark blue work jacket with many pockets and a small leather tool roll",
+    "Kuckuck": "the Kuckuck: an old orange 7.5-tonne removal truck from 1991 with a faded tarpaulin and a small cuckoo clock on the dashboard"
+  },
+  "stil_sw": "Style: black-and-white ink illustration with soft grey washes, like a classic cosy crime novel, clean lines, warm and slightly humorous, high contrast for print, no text, no letters, landscape 3:2.",
+  "stil_farbe": "Style: warm painterly gouache illustration, cosy crime novel feel, soft natural light, slightly humorous, no text, no letters, landscape 3:2.",
+  "bildhinweise": [
+    "Für jedes Bild gibt es einen fertigen Prompt. Er enthält schon die Beschreibung der Figuren und den Stil. Einfach den ganzen grauen Block in Gemini kopieren.",
+    "**Schwarz-Weiß zuerst:** Für das Taschenbuch bei KDP ist ein farbiger Innenteil deutlich teurer. Deshalb sind die Prompts unten schon im Schwarz-Weiß-Stil. Für das E-Book kannst du am Ende den Farbstil nehmen.",
+    "**So kommt das Bild ins Buch:** In der Buchdatei steht an der richtigen Stelle ein gestrichelter Kasten „Bildplatz“. Klick hinein, dann in Word auf Einfügen › Bilder, Bild auswählen, Breite auf 11 cm stellen und den Kasten löschen.",
+    "**Format:** Querformat 3:2. Für den Druck mindestens 300 dpi, also bei 11 cm Breite etwa 1300 Pixel breit.",
+    "Wenn Gemini Buchstaben ins Bild malt: einfach neu erzeugen lassen."
+  ],
+  "bilder": {
+    "1": {
+      "titel": "Moin",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Ein kleines blau-weißes Postschiff im grauen Wattenmeer. Vorne eine flache, braune Hallig mit zwei Warften, auf der kleineren ein rot-weißer Leuchtturm mit einem weißen Reethaus daneben. An der Reling ein grüner Ömer mit einer Kuckucksuhr in der Jackentasche, daneben Betty und ein langer alter Mann mit Prinz-Heinrich-Mütze.",
+      "prompt": "A small blue-and-white mail boat crossing the grey North Sea shallows in January under a huge cloudy sky with gulls. Ahead lies a flat brown Hallig island with winding tidal creeks, barely higher than the waves, with two small artificial mounds carrying houses; on the smaller western mound stands a slender red-and-white striped lighthouse about twenty metres high with a gallery and glass lantern, and pressed against its foot a small white thatched cottage with grey moss on the roof and green shutters, all closed. On deck crates of milk and bread, a child's bicycle with a bow and bundles of flat moving boxes. At the rail the young man looks seasick and green, a small carved wooden cuckoo clock peeking out of his jacket pocket; next to him the woman with the clipboard, and a tall gaunt old man of 74 with a long weathered face, pale blue eyes and a dark sailor's cap stares at the lighthouse. Gentle humour and a hint of mystery."
+    },
+    "2": {
+      "titel": "Das Haus, das wartet",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Die Stube des Wärterhauses, seit 1979 unberührt: grüner Kachelofen, Barometer auf Sturm, durchwühlter Schreibtisch. Ömer liegt im Flur auf dem Bauch und leuchtet flach über den Staub, in dem Gummistiefelspuren zu sehen sind. Durch die Küchentür sieht man den gedeckten Tisch mit drei umgedrehten Tassen.",
+      "prompt": "Inside an old lighthouse keeper's cottage untouched since 1979, everything under a thick grey layer of dust. A narrow hallway with white tiles painted with blue ships, a wooden coat rack with a heavy blue jacket whose pockets are turned out, a large and a tiny pair of wooden clogs beneath it. The young man lies flat on his stomach on the threshold and shines a small torch low across the floor, revealing clear fresh rubber-boot footprints in the dust. Through an open door the kitchen: a table with a blue-and-white checked oilcloth set for breakfast with three plates and three cups turned upside down, an empty bread basket, a wall calendar from 1979 showing a ship, a little yellow child's apron with a duck on a hook. In the sitting room a green tiled stove, a brass barometer, a desk with all drawers pulled open. The woman with the clipboard stands in the doorway with her reading glasses. Quiet, eerie and moving."
+    },
+    "3": {
+      "titel": "Was Ocke gesehen hat",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Eine niedrige friesische Stube mit blau-weißen Kacheln und roten Geranien. Ein sehr alter, kleiner Halligbauer mit weißem Flaumhaar sitzt mit Decke und Stock am Fenster und hält einen vergilbten Zeitungsausschnitt. Durchs Fenster sieht man über die Wiese den Leuchtturm. Merle, Betty und Ömer hören zu.",
+      "prompt": "A low old Frisian farmhouse parlour with dark ceiling beams, walls covered in blue-and-white Delft tiles showing ships, windmills and a whale, a crackling tiled stove, red geraniums blooming on the windowsill. In an armchair by the window sits a very old, small, stooped farmer of 84 with fluffy white hair standing up like down, a wool blanket over his knees, big red knotty hands, holding a yellowed brittle newspaper clipping repaired with old brown tape; a walking stick leans beside him. Through the window across a flat wet brown meadow the red-and-white lighthouse with its little white cottage. On the sofa sits a slim weathered woman of 52 with short grey hair, a wool cardigan with leather elbow patches, hands clasped between her knees; the woman with the clipboard and the young man listen. Warm, melancholic light."
+    },
+    "4": {
+      "titel": "Der Wachraum",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Der kleine runde Wachraum oben im Leuchtturm: ein angeschraubter Tisch mit einem schwarzen Leuchtfeuerbuch mit roten Ecken, ein altes Funkgerät, eine Eisenleiter zur großen gläsernen Linse. Ein rundlicher WSA-Mann in oranger Rettungsweste öffnet die niedrige Tür zur Galerie, der Wind fährt herein.",
+      "prompt": "A tiny round watch room at the top of an old lighthouse, barely bigger than a wardrobe: whitewashed curved walls, a small table screwed to the wall, on it a large black linen-bound logbook with red corners lying exactly in the centre; a shelf of old binders, a barometer, a thermometer, an old radio set with big black knobs. An iron ladder leads up through a hatch to the lantern room where a huge ribbed Fresnel lens like a giant glass beehive breaks the grey daylight into a thousand gleams. A round, red-faced man of 60 in an orange life vest and a dark blue jacket with fogged-up glasses opens a low door onto the gallery, and the wind blows in, nearly tearing the papers from the clipboard of the woman with glasses; the young man looks at the logbook without touching it. Through the door: the grey sea and a stone jetty leading out to a small red-and-white beacon. Atmospheric and mysterious."
+    },
+    "5": {
+      "titel": "Landunter",
+      "figuren": [
+        "Betty"
+      ],
+      "beschreibung": "Sturmnacht. Die Hallig steht unter Wasser, nur die Warft mit dem Leuchtturm ragt heraus. Am Rand der Warft, im weißen Strahl des Leuchtfeuers, steht ein alter Mann in triefender Ölhaut mit der Mütze in der Hand und sieht aufs schwarze Meer. Neben ihm eine barfüßige Frau mit nassen Haaren, ganz nah, ohne ihn zu berühren. Hinten in der Tür Betty in Socken.",
+      "prompt": "A violent storm night on the North Sea: the whole flat island is flooded, black roaring water all around, only the small mound with the lighthouse and the white thatched cottage rises from the sea. Rain flies horizontally. The long white beam of the lighthouse sweeps across the scene and lights up, at the very edge of the mound where the grass ends and the dark water begins, a tall gaunt old man in a dripping yellow oilskin coat, his sailor's cap in his hand, staring west into the sea. Right beside him, very close but not touching him, stands a slim woman of 52 with short wet grey hair plastered to her face, barefoot, in a wool cardigan with leather elbow patches, speaking to him. Behind them in the lit doorway of the cottage the woman with the clipboard in her socks and the young man. Dramatic, but tender and full of compassion."
+    },
+    "6": {
+      "titel": "Frühstück",
+      "figuren": [
+        "Betty",
+        "Oemer"
+      ],
+      "beschreibung": "Morgensonne nach dem Sturm in der Küche des Wärterhauses. Am karierten Tisch sitzen Merle, der alte Ocke, Betty und Ömer und trinken Tee aus den drei Tassen, die 45 Jahre umgedreht dastanden. Brot, Rübenkraut, die gelbe Kinderschürze am Herd. Durchs Fenster der Leuchtturm im ersten Licht.",
+      "prompt": "Bright first morning sun after a storm streams into the small kitchen of an old lighthouse keeper's cottage. Around the table with a blue-and-white checked oilcloth sit a slim woman of 52 with short grey hair holding a cup in both hands with a small moved smile, a very old tiny farmer with fluffy white hair and a walking stick, the woman with the clipboard pouring tea, and the young man drinking from a mug with a seal on it. Three old cups, finally turned the right way up after 45 years, steam on the table between dark bread and a tin of sugar beet syrup. On a hook by the old stove hangs a little yellow child's apron with a duck. Through the window the red-and-white lighthouse shines in the morning light, gulls in the clear sky. Warm, peaceful and deeply touching."
+    }
+  },
+  "kdp": [
+    [
+      "Buchtitel",
+      [
+        "Leerstand"
+      ]
+    ],
+    [
+      "Untertitel",
+      [
+        "Ein Krimi zum Mitraten"
+      ]
+    ],
+    [
+      "Reihe",
+      [
+        "Alles muss raus, Band 9"
+      ]
+    ],
+    [
+      "Autorin",
+      [
+        "Jette van Hoven"
+      ]
+    ],
+    [
+      "Klappentext (für die Buchbeschreibung bei Amazon und die Rückseite)",
+      [
+        "**Alles muss raus. Auch fünfundvierzig Jahre Schweigen.**",
+        "Betty Brüggemann, früher Gerichtsvollzieherin, und Ömer Yıldız, Schlüsseldienstmeister mit sehr vielen Theorien, räumen Wohnungen aus. Bundesweit. Diesmal müssen sie ihren orangefarbenen Lastwagen Kuckuck am Festland zurücklassen.",
+        "Denn es geht auf eine Hallig in der Nordsee. Neben dem rot-weißen Leuchtturm steht ein kleines Wärterhaus, das seit 1979 niemand mehr betreten hat. In einer Sturmflutnacht ist der Wärter Jens Hansen verschwunden. Seitdem ist der Frühstückstisch gedeckt. Jetzt soll alles raus. Und in der Nacht vor Bettys Ankunft war Licht im Haus.",
+        "Ein Leuchtfeuerbuch, das plötzlich anders zählt. Ein Kalender mit zwei Ausrufezeichen. Ein Aggregat, das nur zwei Männer anwerfen konnten. Und ein gelber Briefkasten aus Blech, der fünfundvierzig Jahre lang auf die Post gewartet hat.",
+        "**Ein Krimi zum Mitraten:** Alle Inventarlisten, Briefe, Zettel und Protokolle, die Betty findet, sind im Buch abgebildet. Löst du den Fall, bevor Betty es tut?"
+      ]
+    ],
+    [
+      "Keywords (7 Felder bei KDP, je eins pro Feld)",
+      [
+        "Krimi zum Mitraten",
+        "Cosy Krimi deutsch humorvoll",
+        "Nordsee Krimi",
+        "Hallig Leuchtturm Krimi",
+        "Wohlfühlkrimi Reihe",
+        "Rätselkrimi Erwachsene",
+        "Krimi Geschenk für Frauen"
+      ]
+    ],
+    [
+      "Kategorien (bei KDP auswählen)",
+      [
+        "Bücher › Krimis & Thriller › Krimis › Cosy Krimis",
+        "Bücher › Krimis & Thriller › Krimis › Humorvolle Krimis",
+        "Zusätzlich passend: Regionalkrimis (Nordsee / Schleswig-Holstein)"
+      ]
+    ],
+    [
+      "Über die Autorin (kurze Info für die letzte Seite oder Amazon)",
+      [
+        "Jette van Hoven schreibt Krimis mit Herz, Humor und echten Orten. Sie liebt Geschichten, in denen alte Dinge etwas erzählen, und Figuren, die man gern zum Kaffee einladen würde. Mit „Alles muss raus“ startet sie eine Reihe von Krimis zum Mitraten, die quer durch Deutschland führt."
+      ]
+    ],
+    [
+      "Preisvorschlag",
+      [
+        "Taschenbuch (A5, rund 90 Seiten, Schwarz-Weiß): 6,99 bis 8,99 Euro.",
+        "E-Book: 2,99 bis 3,99 Euro. Ab 2,99 Euro bekommst du bei KDP 70 Prozent Tantieme.",
+        "Tipp: Band 1 zum Start eine Woche lang als E-Book für 0,99 Euro anbieten, damit Leserinnen die Reihe kennenlernen."
+      ]
+    ],
+    [
+      "Cover-Prompt für Gemini (Vorderseite, Hochformat)",
+      [
+        "Book cover illustration, portrait format 2:3, no text, no letters. A flat brown Hallig island in the North Sea at stormy blue dusk, the sea already flooding the meadows; on a small mound a slender red-and-white striped lighthouse sends a long white beam across the sky, and at its foot a little white thatched cottage with green shutters — one window glows with a single small torchlight inside. A tiny blue-and-white mail boat approaches; on deck a sturdy woman of 58 with short grey hair and a clipboard and a cheerful young Turkish-German man with a beard, a small cuckoo clock peeking out of his jacket pocket, look towards the light. Warm, humorous cosy-crime style, painterly, inviting, a hint of mystery. Leave the upper third calm for the title.",
+        "Tipp: Titel, Untertitel und den Namen Jette van Hoven setzt du hinterher mit dem kostenlosen KDP-Cover-Creator oder mit Canva auf das Bild. Wie bei den anderen Bänden: oben der Reihentitel „Alles muss raus“, in der Mitte der Bandtitel, unten der Kuckuck."
+      ]
+    ],
+    [
+      "Hochladen bei KDP – kurz",
+      [
+        "1. Die Buchdatei in Word öffnen, die Bilder einsetzen (das Impressum ist schon fertig).",
+        "2. Datei › Speichern unter › PDF.",
+        "3. Bei KDP: Taschenbuch anlegen, Format „5,83 × 8,27 Zoll (14,8 × 21 cm)“, Innenteil Schwarz-Weiß, weißes Papier, ohne Anschnitt.",
+        "4. PDF als Manuskript hochladen, Cover hochladen oder mit dem Cover-Creator gestalten, in der Vorschau prüfen.",
+        "5. Für das E-Book kannst du dieselbe Word-Datei direkt hochladen (ohne PDF)."
+      ]
+    ]
+  ]
+}

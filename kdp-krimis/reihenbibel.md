@@ -24,7 +24,8 @@
 
 ## Staffel 2
 8. Räumungsverkauf – Zechensiedlung Gelsenkirchen-Buer, Brieftauben
-9. Leerstand – Leuchtturm auf einer Hallig, Nordsee (Wärter 1979 verschwunden) – geplant
+9. Leerstand – Leuchtturm auf Hallig Süderwisch (fiktiv), Nordsee, Wärter 1979 – fertig
+10. Inventur – Puppenmanufaktur in Sonneberg, Thüringen. 300 Puppen, eine klappert, „die darf nie jemand aufmachen“. Anruferin: Nichte der toten Inhaberin, Nummer von Tobias (Band 6). – geplant
 
 ## Autorin
 
